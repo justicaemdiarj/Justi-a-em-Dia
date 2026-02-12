@@ -4,7 +4,7 @@ const categoryNewsData = [
         title: "A Força dos Precedentes Obrigatórios no Sistema Jurídico Brasileiro",
         date: "12/02/2026",
         timestamp: "2026-02-12T08:00:00",
-        image: "../img/imagem-postagem.png",
+        image: "../img/forca-precedentes-obrigatorios-brasil.jpg",
         excerpt: "Análise detalhada sobre a força dos precedentes obrigatórios no sistema jurídico brasileiro e seus impactos no ordenamento jurídico brasileiro.",
         link: "../jurisprudencia/forca-precedentes-obrigatorios-brasil.html",
         author: "Justiça em Dia",

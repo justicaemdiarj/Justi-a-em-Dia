@@ -6,38 +6,38 @@ const siteConfig = {
 
     social: {
         facebook: "",
-        instagram: "https://instagram.com/justicaemdia",
+        instagram: "https://instagram.com/justicaemdia_br",
         twitter: "",
         linkedin: "https://linkedin.com/company/justicaemdia"
     },
     supporters: [
         { 
-            name: "Dr. Romer Carvalho", 
+            name: "Advogado Romer Carvalho", 
             logo: "img/dr_romer_carvalho.png", 
             link: "apoiadores/advogado-romer-carvalho.html?author=Romer Carvalho",
             description: "Especialista em Direito Civil e Processual Civil, com vasta experiência em consultoria e contencioso estratégico."
         },
         { 
-            name: "Apoiador 2", 
-            logo: "https://via.placeholder.com/150x80?text=Apoiador+2", 
+            name: "Aguardando você!", 
+            logo: "img/aguardando-por-voce.jpg", 
             link: "#",
             description: "Descrição do apoiador 2. Comprometido com a excelência jurídica e o apoio ao portal Justiça em Dia."
         },
         { 
-            name: "Apoiador 3", 
-            logo: "https://via.placeholder.com/150x80?text=Apoiador+3", 
+            name: "Aguardando você!", 
+            logo: "img/aguardando-por-voce.jpg", 
             link: "#",
             description: "Descrição do apoiador 3. Comprometido com a excelência jurídica e o apoio ao portal Justiça em Dia."
         },
         { 
-            name: "Apoiador 4", 
-            logo: "https://via.placeholder.com/150x80?text=Apoiador+4", 
+            name: "Aguardando você!", 
+            logo: "img/aguardando-por-voce.jpg", 
             link: "#",
             description: "Descrição do apoiador 4. Comprometido com a excelência jurídica e o apoio ao portal Justiça em Dia."
         },
         { 
-            name: "Apoiador 5", 
-            logo: "https://via.placeholder.com/150x80?text=Apoiador+5", 
+            name: "Aguardando você!", 
+            logo: "img/aguardando-por-voce.jpg", 
             link: "#",
             description: "Descrição do apoiador 5. Comprometido com a excelência jurídica e o apoio ao portal Justiça em Dia."
         }

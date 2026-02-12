@@ -16,7 +16,7 @@ const globalNewsData = [
         title: "Responsabilidade civil por danos morais nas relações digitais",
         date: "12/02/2026",
         category: "Direito Civil",
-        author: "Justiça em Dia",
+        author: "",
         link: "direito-civil/responsabilidade-civil-danos-morais-digitais.html",
         image: "img/imagem-postagem.png",
         excerpt: "Análise detalhada sobre responsabilidade civil por danos morais nas relações digitais e seus impactos no ordenamento jurídico brasileiro."
@@ -25,7 +25,7 @@ const globalNewsData = [
         title: "Validade jurídica dos contratos firmados por meios eletrônicos",
         date: "12/02/2026",
         category: "Direito Civil",
-        author: "Justiça em Dia",
+        author: "",
         link: "direito-civil/validade-juridica-contratos-eletronicos.html",
         image: "img/imagem-postagem.png",
         excerpt: "Análise detalhada sobre validade jurídica dos contratos firmados por meios eletrônicos e seus impactos no ordenamento jurídico brasileiro."
@@ -34,7 +34,7 @@ const globalNewsData = [
         title: "Guarda compartilhada e o melhor interesse da criança na prática forense",
         date: "12/02/2026",
         category: "Direito de Família",
-        author: "Justiça em Dia",
+        author: "",
         link: "direito-de-familia/guarda-compartilhada-melhor-interesse-crianca.html",
         image: "img/imagem-postagem.png",
         excerpt: "Análise detalhada sobre guarda compartilhada e o melhor interesse da criança na prática forense e seus impactos no ordenamento jurídico brasileiro."
@@ -43,7 +43,7 @@ const globalNewsData = [
         title: "Pensão alimentícia: revisão, exoneração e os limites do dever de sustento",
         date: "12/02/2026",
         category: "Direito de Família",
-        author: "Justiça em Dia",
+        author: "",
         link: "direito-de-familia/pensao-alimenticia-revisao-exoneracao-limites.html",
         image: "img/imagem-postagem.png",
         excerpt: "Análise detalhada sobre pensão alimentícia: revisão, exoneração e os limites do dever de sustento e seus impactos no ordenamento jurídico brasileiro."
@@ -52,7 +52,7 @@ const globalNewsData = [
         title: "Princípio da insignificância e sua aplicação nos crimes patrimoniais",
         date: "12/02/2026",
         category: "Direito Penal",
-        author: "Justiça em Dia",
+        author: "",
         link: "direito-penal/principio-insignificancia-crimes-patrimoniais.html",
         image: "img/imagem-postagem.png",
         excerpt: "Análise detalhada sobre princípio da insignificância e sua aplicação nos crimes patrimoniais e seus impactos no ordenamento jurídico brasileiro."
@@ -61,7 +61,7 @@ const globalNewsData = [
         title: "Prisão preventiva: requisitos legais e abusos recorrentes",
         date: "12/02/2026",
         category: "Direito Penal",
-        author: "Justiça em Dia",
+        author: "",
         link: "direito-penal/prisao-preventiva-requisitos-abusos.html",
         image: "img/imagem-postagem.png",
         excerpt: "Análise detalhada sobre prisão preventiva: requisitos legais e abusos recorrentes e seus impactos no ordenamento jurídico brasileiro."
@@ -245,13 +245,14 @@ function copyToClipboard(text) {
 
 function getShareButtonsHtml(title, link) {
     const absoluteLink = window.location.origin + '/' + link;
-    const encodedTitle = encodeURIComponent(title);
+    const shareMessage = `Veja mais informações sobre ${title} no link: ${absoluteLink}`;
+    const encodedMessage = encodeURIComponent(shareMessage);
     const encodedLink = encodeURIComponent(absoluteLink);
     
     return `
         <div class="share-buttons">
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodedLink}" target="_blank" title="Compartilhar no LinkedIn" class="share-icon ln"><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://api.whatsapp.com/send?text=${encodedTitle}%20${encodedLink}" target="_blank" title="Compartilhar no WhatsApp" class="share-icon wa"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://api.whatsapp.com/send?text=${encodedMessage}" target="_blank" title="Compartilhar no WhatsApp" class="share-icon wa"><i class="fab fa-whatsapp"></i></a>
             <button onclick="copyToClipboard('${absoluteLink}')" title="Copiar Link" class="share-icon link-copy"><i class="fas fa-link"></i></button>
         </div>
     `;
