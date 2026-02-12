@@ -49,7 +49,7 @@ function injectNewsletter() {
 
                 // URL do seu Google Apps Script (Você deve substituir após configurar)
                 // Se estiver vazio, ele apenas salvará localmente como backup
-                const GOOGLE_SCRIPT_URL = ''; 
+                const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbygGCvItVJeJvg-JFmeJv-SEfH9b2eSfTnJpOYZTV9dACp1aL1Bm_udKmg0lX0N_4S0/exec'; 
 
                 const formData = {
                     email: email,
