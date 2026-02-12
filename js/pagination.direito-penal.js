@@ -2,8 +2,8 @@
 const categoryNewsData = [
     {
         title: "Princípio da Insignificância e sua Aplicação nos Crimes Patrimoniais",
-        date: "11/02/2026",
-        timestamp: "2026-02-11T12:00:00",
+        date: "12/02/2026",
+        timestamp: "2026-02-12T08:00:00",
         image: "../img/imagem-postagem.png",
         excerpt: "Análise detalhada sobre princípio da insignificância e sua aplicação nos crimes patrimoniais e seus impactos no ordenamento jurídico brasileiro.",
         link: "../direito-penal/principio-insignificancia-crimes-patrimoniais.html",
@@ -12,8 +12,8 @@ const categoryNewsData = [
     },
     {
         title: "Prisão Preventiva: Requisitos Legais e Abusos Recorrentes",
-        date: "11/02/2026",
-        timestamp: "2026-02-11T12:00:00",
+        date: "12/02/2026",
+        timestamp: "2026-02-12T08:00:00",
         image: "../img/imagem-postagem.png",
         excerpt: "Análise detalhada sobre prisão preventiva: requisitos legais e abusos recorrentes e seus impactos no ordenamento jurídico brasileiro.",
         link: "../direito-penal/prisao-preventiva-requisitos-abusos.html",

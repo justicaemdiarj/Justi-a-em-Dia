@@ -1,19 +1,9 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
-                {
+    {
         title: "Quem Audita os Auditores?",
-        date: "11/02/2026",
-        timestamp: "2026-02-11T12:00:00",
-        image: "../img/dr_romer_carvalho.jpg",
-        caption: "Imagem Ilustrativa",
-        excerpt: "Os recentes escândalos corporativos revelam um padrão preocupante: todas as empresas envolvidas contavam com auditoria independente externa..",
-        link: "../compliance/quem-audita-os-auditores.html",
-        author: "Romer Carvalho",
-        authorLink: "../apoiadores/advogado-romer-carvalho.html"
-    },{
-        title: "Quem Audita os Auditores?",
-        date: "11/02/2026",
-        timestamp: "2026-02-11T12:00:00",
+        date: "12/02/2026",
+        timestamp: "2026-02-12T08:00:00",
         image: "../img/dr_romer_carvalho.jpg",
         caption: "Imagem Ilustrativa",
         excerpt: "Os recentes escândalos corporativos revelam um padrão preocupante: todas as empresas envolvidas contavam com auditoria independente externa..",
@@ -23,8 +13,8 @@ const categoryNewsData = [
     }, 
     {
         title: "Programas de Compliance como Instrumento de Prevenção de Riscos Jurídicos",
-        date: "11/02/2026",
-        timestamp: "2026-02-11T12:00:00",
+        date: "12/02/2026",
+        timestamp: "2026-02-12T08:00:00",
         image: "../img/imagem-postagem.png",
         excerpt: "Análise detalhada sobre programas de compliance como instrumento de prevenção de riscos jurídicos e seus impactos no ordenamento jurídico brasileiro.",
         link: "../compliance/programas-compliance-prevencao-riscos.html",
@@ -33,8 +23,8 @@ const categoryNewsData = [
     },
     {
         title: "Responsabilidade da Alta Gestão na Implementação do Compliance Efetivo",
-        date: "11/02/2026",
-        timestamp: "2026-02-11T12:00:00",
+        date: "12/02/2026",
+        timestamp: "2026-02-12T08:00:00",
         image: "../img/imagem-postagem.png",
         excerpt: "Análise detalhada sobre responsabilidade da alta gestão na implementação do compliance efetivo e seus impactos no ordenamento jurídico brasileiro.",
         link: "../compliance/responsabilidade-alta-gestao-compliance.html",
@@ -44,8 +34,8 @@ const categoryNewsData = [
 
     {
         title: "Mediação Estratégica e Compliance: Alternativas ao Litígio",
-        date: "11/02/2026",
-        timestamp: "2026-02-11T12:00:00",
+        date: "12/02/2026",
+        timestamp: "2026-02-12T08:00:00",
         image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&h=600&fit=crop",
         caption: "Mediação Estratégica",
         excerpt: "O cenário corporativo atual exige novas abordagens para a resolução de conflitos. A mediação estratégica surge como uma ferramenta essencial alinhada ao compliance.",
@@ -55,8 +45,8 @@ const categoryNewsData = [
     },
     {
         title: "A Nova Era da Governança: Norma ABNT para Compliance Tributário",
-        date: "11/02/2026",
-        timestamp: "2026-02-11T12:00:00",
+        date: "12/02/2026",
+        timestamp: "2026-02-12T08:00:00",
         image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop",
         caption: "Norma ABNT",
         excerpt: "A publicação da nova norma técnica brasileira para sistemas de gestão de compliance tributário marca uma mudança de paradigma na governança corporativa.",
@@ -66,8 +56,8 @@ const categoryNewsData = [
     },
     {
         title: "Fiscalização de Compliance: Irregularidades em Papelarias",
-        date: "11/02/2026",
-        timestamp: "2026-02-11T12:00:00",
+        date: "12/02/2026",
+        timestamp: "2026-02-12T08:00:00",
         image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=600&fit=crop",
         caption: "Fiscalização",
         excerpt: "Uma recente operação de fiscalização revelou desafios persistentes no cumprimento das normas de defesa do consumidor pelo setor varejista.",
@@ -77,8 +67,8 @@ const categoryNewsData = [
     },
     {
         title: "Fortalecimento do Programa Confia: Rumo às Melhores Práticas",
-        date: "11/02/2026",
-        timestamp: "2026-02-11T12:00:00",
+        date: "12/02/2026",
+        timestamp: "2026-02-12T08:00:00",
         image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&h=600&fit=crop",
         caption: "Programa Confia",
         excerpt: "O ambiente tributário brasileiro vive um momento de transformação com o fortalecimento do Programa Confia e novas diretrizes de compliance.",

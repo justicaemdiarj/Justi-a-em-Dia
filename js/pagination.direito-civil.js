@@ -2,8 +2,8 @@
 const categoryNewsData = [
     {
         title: "Responsabilidade Civil por Danos Morais nas Relações Digitais",
-        date: "11/02/2026",
-        timestamp: "2026-02-11T12:00:00",
+        date: "12/02/2026",
+        timestamp: "2026-02-12T08:00:00",
         image: "../img/imagem-postagem.png",
         excerpt: "Análise detalhada sobre responsabilidade civil por danos morais nas relações digitais e seus impactos no ordenamento jurídico brasileiro.",
         link: "../direito-civil/responsabilidade-civil-danos-morais-digitais.html",
@@ -12,8 +12,8 @@ const categoryNewsData = [
     },
     {
         title: "Validade Jurídica dos Contratos Firmados por Meios Eletrônicos",
-        date: "11/02/2026",
-        timestamp: "2026-02-11T12:00:00",
+        date: "12/02/2026",
+        timestamp: "2026-02-12T08:00:00",
         image: "../img/imagem-postagem.png",
         excerpt: "Análise detalhada sobre validade jurídica dos contratos firmados por meios eletrônicos e seus impactos no ordenamento jurídico brasileiro.",
         link: "../direito-civil/validade-juridica-contratos-eletronicos.html",

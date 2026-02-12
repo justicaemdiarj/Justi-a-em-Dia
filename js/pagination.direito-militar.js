@@ -2,8 +2,8 @@
 const categoryNewsData = [
     {
         title: "Processo Administrativo Disciplinar Militar e Garantias Constitucionais",
-        date: "11/02/2026",
-        timestamp: "2026-02-11T12:00:00",
+        date: "12/02/2026",
+        timestamp: "2026-02-12T08:00:00",
         image: "../img/imagem-postagem.png",
         excerpt: "Análise detalhada sobre processo administrativo disciplinar militar e garantias constitucionais e seus impactos no ordenamento jurídico brasileiro.",
         link: "../direito-militar/processo-administrativo-disciplinar-militar.html",
@@ -12,8 +12,8 @@ const categoryNewsData = [
     },
     {
         title: "Hierarquia e Disciplina Versus Direitos Fundamentais do Militar",
-        date: "10/02/2026",
-        timestamp: "2026-02-11T12:00:00",
+        date: "12/02/2026",
+        timestamp: "2026-02-12T08:00:00",
         image: "../img/imagem-postagem.png",
         excerpt: "Análise detalhada sobre hierarquia e disciplina versus direitos fundamentais do militar e seus impactos no ordenamento jurídico brasileiro.",
         link: "../direito-militar/hierarquia-disciplina-direitos-fundamentais-militar.html",

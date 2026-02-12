@@ -14,7 +14,7 @@ const tickerConfig = {
 const globalNewsData = [
     {
         title: "Responsabilidade civil por danos morais nas relações digitais",
-        date: "10/02/2026",
+        date: "12/02/2026",
         category: "Direito Civil",
         author: "",
         link: "direito-civil/responsabilidade-civil-danos-morais-digitais.html",
@@ -23,7 +23,7 @@ const globalNewsData = [
     },
     {
         title: "Validade jurídica dos contratos firmados por meios eletrônicos",
-        date: "10/02/2026",
+        date: "12/02/2026",
         category: "Direito Civil",
         author: "",
         link: "direito-civil/validade-juridica-contratos-eletronicos.html",
@@ -32,7 +32,7 @@ const globalNewsData = [
     },
     {
         title: "Guarda compartilhada e o melhor interesse da criança na prática forense",
-        date: "10/02/2026",
+        date: "12/02/2026",
         category: "Direito de Família",
         author: "",
         link: "direito-de-familia/guarda-compartilhada-melhor-interesse-crianca.html",
@@ -41,7 +41,7 @@ const globalNewsData = [
     },
     {
         title: "Pensão alimentícia: revisão, exoneração e os limites do dever de sustento",
-        date: "10/02/2026",
+        date: "12/02/2026",
         category: "Direito de Família",
         author: "",
         link: "direito-de-familia/pensao-alimenticia-revisao-exoneracao-limites.html",
@@ -50,7 +50,7 @@ const globalNewsData = [
     },
     {
         title: "Princípio da insignificância e sua aplicação nos crimes patrimoniais",
-        date: "10/02/2026",
+        date: "12/02/2026",
         category: "Direito Penal",
         author: "",
         link: "direito-penal/principio-insignificancia-crimes-patrimoniais.html",
@@ -59,7 +59,7 @@ const globalNewsData = [
     },
     {
         title: "Prisão preventiva: requisitos legais e abusos recorrentes",
-        date: "10/02/2026",
+        date: "12/02/2026",
         category: "Direito Penal",
         author: "",
         link: "direito-penal/prisao-preventiva-requisitos-abusos.html",

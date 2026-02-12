@@ -2,8 +2,8 @@
 const categoryNewsData = [
     {
         title: "A Força dos Precedentes Obrigatórios no Sistema Jurídico Brasileiro",
-        date: "11/02/2026",
-        timestamp: "2026-02-10T12:00:00",
+        date: "12/02/2026",
+        timestamp: "2026-02-12T08:00:00",
         image: "../img/imagem-postagem.png",
         excerpt: "Análise detalhada sobre a força dos precedentes obrigatórios no sistema jurídico brasileiro e seus impactos no ordenamento jurídico brasileiro.",
         link: "../jurisprudencia/forca-precedentes-obrigatorios-brasil.html",
@@ -12,8 +12,8 @@ const categoryNewsData = [
     },
     {
         title: "Mudanças Recentes na Jurisprudência dos Tribunais Superiores",
-        date: "11/02/2026",
-        timestamp: "2026-02-10T12:00:00",
+        date: "12/02/2026",
+        timestamp: "2026-02-12T08:00:00",
         image: "../img/imagem-postagem.png",
         excerpt: "Análise detalhada sobre mudanças recentes na jurisprudência dos tribunais superiores e seus impactos no ordenamento jurídico brasileiro.",
         link: "../jurisprudencia/mudancas-recentes-jurisprudencia-tribunais.html",

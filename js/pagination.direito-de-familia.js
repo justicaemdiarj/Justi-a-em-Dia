@@ -2,8 +2,8 @@
 const categoryNewsData = [
     {
         title: "Guarda Compartilhada e o Melhor Interesse da Criança na Prática Forense",
-        date: "11/02/2026",
-        timestamp: "2026-02-11T12:00:00",
+        date: "12/02/2026",
+        timestamp: "2026-02-12T08:00:00",
         image: "../img/imagem-postagem.png",
         excerpt: "Análise detalhada sobre guarda compartilhada e o melhor interesse da criança na prática forense e seus impactos no ordenamento jurídico brasileiro.",
         link: "../direito-de-familia/guarda-compartilhada-melhor-interesse-crianca.html",
@@ -12,8 +12,8 @@ const categoryNewsData = [
     },
     {
         title: "Pensão Alimentícia: Revisão, Exoneração e os Limites do Dever de Sustento",
-        date: "11/02/2026",
-        timestamp: "2026-02-11T12:00:00",
+        date: "12/02/2026",
+        timestamp: "2026-02-12T08:00:00",
         image: "../img/imagem-postagem.png",
         excerpt: "Análise detalhada sobre pensão alimentícia: revisão, exoneração e os limites do dever de sustento e seus impactos no ordenamento jurídico brasileiro.",
         link: "../direito-de-familia/pensao-alimenticia-revisao-exoneracao-limites.html",
@@ -23,8 +23,8 @@ const categoryNewsData = [
 
         {
         title: "Como Comprovar que Existe União Estável",
-        date: "11/02/2026",
-        timestamp: "2026-02-11T12:00:00",
+        date: "12/02/2026",
+        timestamp: "2026-02-12T08:00:00",
         image: "../img/comprovar-existencia-de-uniao-estavel.jpg",
         caption: "Romer Carvalho",
         excerpt: "Muitas pessoas vivem em união estável sem sequer saber que essa relação possui proteção jurídica semelhante ao casamento.",

@@ -17,18 +17,6 @@ const siteConfig = {
             link: "apoiadores/advogado-romer-carvalho.html",
             description: "Especialista em Direito Civil e Processual Civil, com vasta experiência em consultoria e contencioso estratégico."
         },
-                { 
-            name: "Dr. Romer Carvalho", 
-            logo: "img/dr_romer_carvalho.png", 
-            link: "apoiadores/advogado-romer-carvalho.html",
-            description: "Especialista em Direito Civil e Processual Civil, com vasta experiência em consultoria e contencioso estratégico."
-        },
-                { 
-            name: "Dr. Romer Carvalho", 
-            logo: "img/dr_romer_carvalho.png", 
-            link: "apoiadores/advogado-romer-carvalho.html",
-            description: "Especialista em Direito Civil e Processual Civil, com vasta experiência em consultoria e contencioso estratégico."
-        },
         { 
             name: "Apoiador 2", 
             logo: "https://via.placeholder.com/150x80?text=Apoiador+2", 
@@ -59,14 +47,10 @@ const siteConfig = {
         desktop: [
             { name: "Apoiador Romer Carvalho Desktop 1", img: "img/banner-apoiadores/apoiador-romer-carvalho-desktop-1.png", link: "https://www.romercarvalho.adv.br", endDate: "2026-12-31" },
             { name: "Apoiador Romer Carvalho Desktop 2", img: "img/banner-apoiadores/apoiador-romer-carvalho-desktop-2.png", link: "https://www.romercarvalho.adv.br", endDate: "2026-12-31" },
-            { name: "Apoiador Romer Carvalho Desktop 3", img: "img/banner-apoiadores/apoiador-romer-carvalho-desktop-3.png", link: "https://www.romercarvalho.adv.br", endDate: "2026-12-31" },
-            { name: "Apoiador Romer Carvalho Desktop 4", img: "img/banner-apoiadores/apoiador-romer-carvalho-desktop-4.png", link: "https://www.romercarvalho.adv.br", endDate: "2026-12-31" }
         ],
         mobile: [
             { name: "Apoiador Romer Carvalho Mobile 1", img: "img/banner-apoiadores/apoiador-romer-carvalho-mobile-1.png", link: "https://www.romercarvalho.adv.br", endDate: "2026-12-31" },
             { name: "Apoiador Romer Carvalho Mobile 2", img: "img/banner-apoiadores/apoiador-romer-carvalho-mobile-2.png", link: "https://www.romercarvalho.adv.br", endDate: "2026-12-31"},
-            { name: "Apoiador Romer Carvalho Mobile 3", img: "img/banner-apoiadores/apoiador-romer-carvalho-mobile-3.png", link: "https://www.romercarvalho.adv.br", endDate: "2026-12-31"},
-            { name: "Apoiador Romer Carvalho Mobile 4", img: "img/banner-apoiadores/apoiador-romer-carvalho-mobile-4.jpg", link: "https://www.romercarvalho.adv.br", endDate: "2026-12-31"},
             { name: "Apoiador 5", img: "img/banner-apoiadores/apoiador-5.png", link: "https://www.romercarvalho.adv.br", endDate: "2026-12-31"}
         ]
     }

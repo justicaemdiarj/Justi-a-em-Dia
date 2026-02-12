@@ -2,8 +2,8 @@
 const categoryNewsData = [
     {
         title: "Vínculo Empregatício Nas Novas Formas de Trabalho por Aplicativo",
-        date: "11/02/2026",
-        timestamp: "2026-02-11T12:00:00",
+        date: "12/02/2026",
+        timestamp: "2026-02-12T08:00:00",
         image: "../img/imagem-postagem.png",
         excerpt: "Análise detalhada sobre vínculo empregatício nas novas formas de trabalho por aplicativo e seus impactos no ordenamento jurídico brasileiro.",
         link: "../direito-trabalhista/vinculo-empregaticio-trabalho-aplicativo.html",
@@ -12,8 +12,8 @@ const categoryNewsData = [
     },
     {
         title: "Assédio Moral no Ambiente de Trabalho e a Responsabilidade do Empregador",
-        date: "11/02/2026",
-        timestamp: "2026-02-11T12:00:00",
+        date: "12/02/2026",
+        timestamp: "2026-02-12T08:00:00",
         image: "../img/imagem-postagem.png",
         excerpt: "Análise detalhada sobre assédio moral no ambiente de trabalho e a responsabilidade do empregador e seus impactos no ordenamento jurídico brasileiro.",
         link: "../direito-trabalhista/assedio-moral-trabalho-responsabilidade-empregador.html",

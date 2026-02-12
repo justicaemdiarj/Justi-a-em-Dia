@@ -2,8 +2,8 @@
 const categoryNewsData = [
     {
         title: "Impactos Práticos das Alterações Legislativas no Direito de Família",
-        date: "11/02/2026",
-        timestamp: "2026-02-11T12:00:00",
+        date: "12/02/2026",
+        timestamp: "2026-02-12T08:00:00",
         image: "../img/imagem-postagem.png",
         excerpt: "Análise detalhada sobre impactos práticos das alterações legislativas no direito de família e seus impactos no ordenamento jurídico brasileiro.",
         link: "../legislacao/impactos-alteracoes-legislativas-familia.html",
@@ -12,8 +12,8 @@ const categoryNewsData = [
     },
     {
         title: "Interpretação da Lei à Luz da Constituição e da Jurisprudência Atual",
-        date: "11/02/2026",
-        timestamp: "2026-02-11T12:00:00",
+        date: "12/02/2026",
+        timestamp: "2026-02-12T08:00:00",
         image: "../img/imagem-postagem.png",
         excerpt: "Análise detalhada sobre interpretação da lei à luz da constituição e da jurisprudência atual e seus impactos no ordenamento jurídico brasileiro.",
         link: "../legislacao/interpretacao-lei-constituicao-jurisprudencia.html",
