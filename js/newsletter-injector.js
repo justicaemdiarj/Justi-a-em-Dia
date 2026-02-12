@@ -74,14 +74,12 @@ function injectNewsletter() {
                             params.append(key, formData[key]);
                         }
 
-                        await fetch(GOOGLE_SCRIPT_URL, {
-                            method: 'POST',
+                        // Usando GET para evitar problemas de CORS e garantir o recebimento no Apps Script
+                        const finalUrl = `${GOOGLE_SCRIPT_URL}?${params.toString()}`;
+                        await fetch(finalUrl, {
+                            method: 'GET',
                             mode: 'no-cors',
-                            cache: 'no-cache',
-                            headers: {
-                                'Content-Type': 'application/x-www-form-urlencoded'
-                            },
-                            body: params.toString()
+                            cache: 'no-cache'
                         });
                     }
 

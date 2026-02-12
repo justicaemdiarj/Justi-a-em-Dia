@@ -1,5 +1,17 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
+       {
+        title: "Como Comprovar que Existe União Estável",
+        date: "12/02/2026",
+        timestamp: "2026-02-12T08:00:00",
+        image: "../img/comprovar-existencia-de-uniao-estavel.jpg",
+        caption: "Romer Carvalho",
+        excerpt: "Muitas pessoas vivem em união estável sem sequer saber que essa relação possui proteção jurídica semelhante ao casamento.",
+        link: "../direito-de-familia/como-comprovar-uniao-estavel.html",
+        category: "Direito de Família",
+        author: "Romer Carvalho",
+        authorLink: "../apoiadores/advogado-romer-carvalho.html"
+    },
     {
         title: "Guarda Compartilhada e o Melhor Interesse da Criança na Prática Forense",
         date: "12/02/2026",
@@ -7,6 +19,7 @@ const categoryNewsData = [
         image: "../img/imagem-postagem.png",
         excerpt: "Análise detalhada sobre guarda compartilhada e o melhor interesse da criança na prática forense e seus impactos no ordenamento jurídico brasileiro.",
         link: "../direito-de-familia/guarda-compartilhada-melhor-interesse-crianca.html",
+        category: "Direito de Família",
         author: "Justiça em Dia",
         authorLink: "#"
     },
@@ -17,20 +30,9 @@ const categoryNewsData = [
         image: "../img/imagem-postagem.png",
         excerpt: "Análise detalhada sobre pensão alimentícia: revisão, exoneração e os limites do dever de sustento e seus impactos no ordenamento jurídico brasileiro.",
         link: "../direito-de-familia/pensao-alimenticia-revisao-exoneracao-limites.html",
+        category: "Direito de Família",
         author: "Justiça em Dia",
         authorLink: "#"
-    },
-
-        {
-        title: "Como Comprovar que Existe União Estável",
-        date: "12/02/2026",
-        timestamp: "2026-02-12T08:00:00",
-        image: "../img/comprovar-existencia-de-uniao-estavel.jpg",
-        caption: "Romer Carvalho",
-        excerpt: "Muitas pessoas vivem em união estável sem sequer saber que essa relação possui proteção jurídica semelhante ao casamento.",
-        link: "../direito-de-familia/como-comprovar-uniao-estavel.html",
-        author: "Romer Carvalho",
-        authorLink: "../apoiadores/advogado-romer-carvalho.html"
     },
 ];
 
@@ -72,6 +74,7 @@ function renderNews(page) {
         return;
     }
     paginatedItems.forEach((item, index) => {
+        item.authorLink = typeof getAuthorLink === 'function' ? getAuthorLink(item.author) : '#';
         const timeDisplay = getRelativeTime(item.timestamp, item.date);
         
         // Inserir banner no meio da página (ex: após o 3º item)

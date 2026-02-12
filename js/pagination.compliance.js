@@ -4,7 +4,7 @@ const categoryNewsData = [
         title: "Quem Audita os Auditores?",
         date: "12/02/2026",
         timestamp: "2026-02-12T08:00:00",
-        image: "../img/dr_romer_carvalho.jpg",
+        image: "../img/Responsabilidade-civil-por-danos-morais.jpg",
         caption: "Imagem Ilustrativa",
         excerpt: "Os recentes escândalos corporativos revelam um padrão preocupante: todas as empresas envolvidas contavam com auditoria independente externa..",
         link: "../compliance/quem-audita-os-auditores.html",

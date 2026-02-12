@@ -60,6 +60,7 @@ function renderNews(page) {
         return;
     }
     paginatedItems.forEach((item, index) => {
+        item.authorLink = typeof getAuthorLink === 'function' ? getAuthorLink(item.author) : '#';
         const timeDisplay = getRelativeTime(item.timestamp, item.date);
         
         // Inserir banner no meio da página (ex: após o 3º item)

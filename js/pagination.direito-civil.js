@@ -7,6 +7,7 @@ const categoryNewsData = [
         image: "../img/imagem-postagem.png",
         excerpt: "Análise detalhada sobre responsabilidade civil por danos morais nas relações digitais e seus impactos no ordenamento jurídico brasileiro.",
         link: "../direito-civil/responsabilidade-civil-danos-morais-digitais.html",
+        category: "Direito Civil",
         author: "Justiça em Dia",
         authorLink: "#"
     },
@@ -17,6 +18,7 @@ const categoryNewsData = [
         image: "../img/imagem-postagem.png",
         excerpt: "Análise detalhada sobre validade jurídica dos contratos firmados por meios eletrônicos e seus impactos no ordenamento jurídico brasileiro.",
         link: "../direito-civil/validade-juridica-contratos-eletronicos.html",
+        category: "Direito Civil",
         author: "Justiça em Dia",
         authorLink: "#"
     },
@@ -60,6 +62,7 @@ function renderNews(page) {
         return;
     }
     paginatedItems.forEach((item, index) => {
+        item.authorLink = typeof getAuthorLink === 'function' ? getAuthorLink(item.author) : '#';
         const timeDisplay = getRelativeTime(item.timestamp, item.date);
         
         // Inserir banner no meio da página (ex: após o 3º item)

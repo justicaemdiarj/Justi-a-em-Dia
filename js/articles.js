@@ -26,7 +26,7 @@ window.articlesData = [
     },
     {
         title: 'Pensão alimentícia e dever de sustento',
-        image: 'img/pensão-alimenticia.png',
+        image: 'img/pensao-alimenticia.png',
         description: 'Análise detalhada sobre pensão alimentícia: revisão, exoneração e os limites do dever de sustento.',
         link: 'direito-de-familia/pensao-alimenticia-revisao-exoneracao-limites.html'
     },

@@ -7,6 +7,7 @@ const categoryNewsData = [
         image: "../img/imagem-postagem.png",
         excerpt: "Análise detalhada sobre processo administrativo disciplinar militar e garantias constitucionais e seus impactos no ordenamento jurídico brasileiro.",
         link: "../direito-militar/processo-administrativo-disciplinar-militar.html",
+        category: "Direito Militar",
         author: "Justiça em Dia",
         authorLink: "#"
     },
@@ -17,6 +18,7 @@ const categoryNewsData = [
         image: "../img/imagem-postagem.png",
         excerpt: "Análise detalhada sobre hierarquia e disciplina versus direitos fundamentais do militar e seus impactos no ordenamento jurídico brasileiro.",
         link: "../direito-militar/hierarquia-disciplina-direitos-fundamentais-militar.html",
+        category: "Direito Militar",
         author: "Justiça em Dia",
         authorLink: "#"
     },
@@ -60,6 +62,7 @@ function renderNews(page) {
         return;
     }
     paginatedItems.forEach((item, index) => {
+        item.authorLink = typeof getAuthorLink === 'function' ? getAuthorLink(item.author) : '#';
         const timeDisplay = getRelativeTime(item.timestamp, item.date);
         
         // Inserir banner no meio da página (ex: após o 3º item)

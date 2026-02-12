@@ -14,7 +14,7 @@ const siteConfig = {
         { 
             name: "Dr. Romer Carvalho", 
             logo: "img/dr_romer_carvalho.png", 
-            link: "apoiadores/advogado-romer-carvalho.html",
+            link: "apoiadores/advogado-romer-carvalho.html?author=Romer Carvalho",
             description: "Especialista em Direito Civil e Processual Civil, com vasta experiência em consultoria e contencioso estratégico."
         },
         { 
@@ -202,7 +202,10 @@ function updateGlobalElements() {
                 a.className = 'programmatic-banner';
                 a.style.display = index === currentIndex ? 'block' : 'none';
                 a.style.transition = 'opacity 0.5s ease-in-out';
-                a.innerHTML = `<img src="${imgPath}" alt="${banner.name}" title="${banner.name}" style="width: 100%; border-radius: 8px;">`;
+                a.innerHTML = `
+                    <p class="banner-label" style="display: block !important; font-size: 0.7rem; color: #999; text-transform: uppercase; margin-bottom: 5px; text-align: center;">Publicidade</p>
+                    <img src="${imgPath}" alt="${banner.name}" title="${banner.name}" style="width: 100%; border-radius: 8px;">
+                `;
                 container.appendChild(a);
                 return a;
             });
