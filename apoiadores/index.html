@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossos Apoiadores</title>
+    <meta name="title" content="Nossos Apoiadores">
+    <meta name="description" content="Conheça os apoiadores do portal Justiça em Dia. Profissionais e empresas que contribuem para a disseminação de informação jurídica de qualidade.">
+    <meta name="keywords" content="direito, apoiadores, advocacia, justiça em dia, parceiros">
+    <link rel="canonical" href="https://www.justicaemdia.com.br/apoiadores/index.html">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.justicaemdia.com.br/apoiadores/index.html">
+    <meta property="og:title" content="Nossos Apoiadores">
+    <meta property="og:description" content="Conheça os apoiadores do portal Justiça em Dia.">
+    <meta property="og:image" content="https://www.justicaemdia.com.br/img/imagem-post.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.justicaemdia.com.br/apoiadores/index.html">
+    <meta property="twitter:title" content="Nossos Apoiadores">
+    <meta property="twitter:description" content="Conheça os apoiadores do portal Justiça em Dia.">
+    <meta property="twitter:image" content="https://www.justicaemdia.com.br/img/imagem-post.png">
+    <link rel="icon" type="images/png" href="../img/favicon.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Justiça em Dia",
+      "url": "https://www.justicaemdia.com.br/apoiadores/index.html",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.justicaemdia.com.br/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <style>
+        /* Estilos da Página de Apoiadores */
+        .supporters-hero {
+            background: linear-gradient(135deg, #c41e3a 0%, #a01729 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+ 
+        }
+
+        .supporters-hero h1 {
+            font-size: 48px;
+            font-weight: 900;
+            margin-bottom: 15px;
+            letter-spacing: -1px;
+        }
+
+        .supporters-hero p {
+            font-size: 18px;
+            opacity: 0.95;
+            max-width: 606px;
+            margin: 0 auto;
+        }
+
+        .supporters-main-wrapper {
+            background: #f9f9f9;
+
+            min-height: calc(100vh - 400px);
+        }
+
+        .supporters-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Seção de Introdução */
+        .supporters-intro {
+            background: white;
+            border-radius: 12px;
+            padding: 40px;
+            margin-bottom: 50px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+
+        .supporters-intro h2 {
+            font-size: 32px;
+            font-weight: 800;
+            color: #1a1a1a;
+            margin-bottom: 15px;
+        }
+
+        .supporters-intro p {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.6;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        /* Galeria de Apoiadores */
+        .supporters-gallery-section {
+            background: white;
+            border-radius: 12px;
+            padding: 50px 40px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            margin-bottom: 50px;
+        }
+
+        .supporters-gallery-section h2 {
+            font-size: 28px;
+            font-weight: 800;
+            color: #1a1a1a;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .supporters-gallery-subtitle {
+            text-align: center;
+            color: #666;
+            font-size: 16px;
+            margin-bottom: 40px;
+        }
+
+        /* Grid de Fotos - Estilo The Members */
+        .supporters-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .supporter-card {
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            aspect-ratio: 1;
+            background: #f5f5f5;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border: 2px solid transparent;
+        }
+
+        .supporter-card:hover {
+            border-color: #c41e3a;
+            box-shadow: 0 8px 20px rgba(196, 30, 58, 0.2);
+            transform: translateY(-5px);
+        }
+
+        .supporter-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .supporter-card:hover img {
+            transform: scale(1.05);
+        }
+
+        .supporter-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+            color: white;
+            padding: 20px;
+            transform: translateY(100%);
+            transition: transform 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            min-height: 100px;
+        }
+
+        .supporter-card:hover .supporter-overlay {
+            transform: translateY(0);
+        }
+
+        .supporter-overlay h3 {
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 5px;
+            margin: 0 0 5px 0;
+        }
+
+        .supporter-overlay p {
+            font-size: 12px;
+            opacity: 0.9;
+            margin: 0;
+            line-height: 1.4;
+        }
+
+        /* Seção de Logos de Empresas */
+        .supporters-logos-section {
+            background: white;
+            border-radius: 12px;
+            padding: 50px 40px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            margin-bottom: 50px;
+        }
+
+        .supporters-logos-section h2 {
+            font-size: 28px;
+            font-weight: 800;
+            color: #1a1a1a;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .supporters-logos-subtitle {
+            text-align: center;
+            color: #666;
+            font-size: 16px;
+            margin-bottom: 40px;
+        }
+
+        /* Grid de Logos */
+        .supporters-logos-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 30px;
+            align-items: center;
+            justify-items: center;
+        }
+
+        .supporter-logo-card {
+            width: 100%;
+            height: 120px;
+            background: #f9f9f9;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px;
+            transition: all 0.3s ease;
+            border: 2px solid #eee;
+            cursor: pointer;
+        }
+
+        .supporter-logo-card:hover {
+            border-color: #c41e3a;
+            background: #fff5f6;
+            transform: scale(1.05);
+            box-shadow: 0 4px 12px rgba(196, 30, 58, 0.15);
+        }
+
+        .supporter-logo-card img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+
+        /* Seção de CTA */
+        .supporters-cta-section {
+            background: linear-gradient(135deg, #c41e3a 0%, #a01729 100%);
+            color: white;
+            border-radius: 12px;
+            padding: 50px 40px;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .supporters-cta-section h2 {
+            font-size: 28px;
+            font-weight: 800;
+            margin-bottom: 15px;
+        }
+
+        .supporters-cta-section p {
+            font-size: 16px;
+            opacity: 0.95;
+            margin-bottom: 30px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .supporters-cta-btn {
+            display: inline-block;
+            background: white;
+            color: #c41e3a;
+            padding: 14px 32px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .supporters-cta-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+
+        /* Seção de Depoimentos */
+        .supporters-testimonials-section {
+            background: white;
+            border-radius: 12px;
+            padding: 50px 40px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .supporters-testimonials-section h2 {
+            font-size: 28px;
+            font-weight: 800;
+            color: #1a1a1a;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .testimonial-card {
+            background: #f9f9f9;
+            border-radius: 8px;
+            padding: 30px;
+            border-left: 4px solid #c41e3a;
+        }
+
+        .testimonial-text {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 15px;
+            line-height: 1.6;
+            font-style: italic;
+        }
+
+        .testimonial-author {
+            font-weight: 700;
+            color: #1a1a1a;
+            font-size: 14px;
+        }
+
+        .testimonial-role {
+            font-size: 12px;
+            color: #c41e3a;
+            margin-top: 5px;
+        }
+
+        /* Mobile Optimization */
+        @media (max-width: 900px) {
+            .supporters-hero h1 {
+                font-size: 36px;
+            }
+
+            .supporters-hero p {
+                font-size: 16px;
+            }
+
+            .supporters-gallery-section,
+            .supporters-logos-section,
+            .supporters-cta-section,
+            .supporters-testimonials-section,
+            .supporters-intro {
+                padding: 30px 20px;
+            }
+
+            .supporters-gallery {
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+                gap: 15px;
+            }
+
+            .supporters-logos-grid {
+                grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+                gap: 20px;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .supporters-hero {
+                padding: 40px 15px;
+                margin-bottom: 30px;
+            }
+
+            .supporters-hero h1 {
+                font-size: 28px;
+            }
+
+            .supporters-hero p {
+                font-size: 14px;
+            }
+
+            .supporters-main-wrapper {
+                padding: 30px 15px;
+            }
+
+            .supporters-gallery-section,
+            .supporters-logos-section,
+            .supporters-cta-section,
+            .supporters-testimonials-section,
+            .supporters-intro {
+                padding: 20px 15px;
+                border-radius: 8px;
+            }
+
+            .supporters-gallery {
+                grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+                gap: 12px;
+            }
+
+            .supporters-logos-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 15px;
+            }
+
+            .supporter-logo-card {
+                height: 100px;
+            }
+
+            .testimonials-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .supporters-cta-section h2 {
+                font-size: 22px;
+            }
+
+            .supporters-cta-section p {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="top-bar">
+            <div class="container">
+                <div class="market-ticker" id="marketTicker">
+                    <div class="ticker-item"><a href="#">STF aprova novas diretrizes sobre direitos constitucionais</a></div>
+                    <div class="ticker-item"><a href="#">Congresso Nacional debate reforma do código penal</a></div>
+                    <div class="ticker-item"><a href="#">Supremo Tribunal Federal publica decisões sobre direito civil</a></div>
+                    <div class="ticker-item"><a href="#">Tribunal Superior do Trabalho analisa direitos trabalhistas</a></div>
+                    <div class="ticker-item"><a href="#">Novas leis entram em vigor nesta semana</a></div>
+                    <div class="ticker-item"><a href="#">Jurisprudência: Principais decisões da semana</a></div>
+                    <div class="ticker-item"><a href="#">Análise: Impacto das novas regulamentações no mercado</a></div>
+                    <div class="ticker-item"><a href="#">Direito Administrativo: Mudanças nas políticas públicas</a></div>
+                    <div class="ticker-item"><a href="#">Direito Ambiental: Novas resoluções do CONAMA</a></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="main-header">
+            <div class="container">
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                
+                <div class="logo">
+                    <a href="../index.html">
+                        <h1>Justiça <span class="logo-accent">em Dia</span></h1>
+                    </a>
+                </div>
+                <div class="header-actions">
+                    <div class="search-box">
+                        <input type="text" id="searchInput" placeholder="Buscar no site..." />
+                        <button class="search-btn" title="Buscar"><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <nav class="main-nav">
+            <div class="container">
+                <ul class="nav-list">
+                    <li><a href="../direito-civil/index.html">Direito Civil</a></li>
+                    <li><a href="../direito-de-familia/index.html">Direito de Família</a></li>
+                    <li><a href="../direito-penal/index.html">Direito Penal</a></li>
+                    <li><a href="../direito-trabalhista/index.html">Direito Trabalhista</a></li>
+                    <li><a href="../direito-militar/index.html">Direito Militar</a></li>
+                    <li><a href="../compliance/index.html">Compliance</a></li>
+                    <li><a href="../jurisprudencia/index.html">Jurisprudência</a></li>
+                    <li><a href="../legislacao/index.html">Legislação</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="supporters-hero">
+        <div class="container">
+            <h1>Nossos Apoiadores</h1>
+            <p>Conheça os profissionais e empresas que apoiam o Justiça em Dia</p>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="supporters-main-wrapper">
+        <div class="supporters-container">
+            <!-- Seção de Introdução -->
+            
+
+            <!-- Galeria de Apoiadores -->
+            <section class="supporters-gallery-section">
+
+                <p class="supporters-gallery-subtitle">Profissionais e especialistas que contribuem para a excelência do portal</p>
+                <div class="supporters-gallery" id="supportersGallery">
+                    <!-- Apoiadores serão carregados aqui via JavaScript -->
+                </div>
+            </section>
+
+            <!-- Seção de Logos de Empresas -->
+            <section class="supporters-logos-section">
+                <h2>Parceiros Institucionais</h2>
+                <p class="supporters-logos-subtitle">Empresas e instituições que apoiam nosso trabalho</p>
+                <div class="supporters-logos-grid" id="supportersLogos">
+                    <!-- Logos serão carregados aqui via JavaScript -->
+                </div>
+            </section>
+
+            <!-- Seção de CTA -->
+            <section class="supporters-cta-section">
+                <h2>Quer fazer parte da nossa comunidade?</h2>
+                <p>Apoie o Justiça em Dia e contribua para a disseminação de informação jurídica de qualidade no Brasil.</p>
+                <a href="../contato.html" class="supporters-cta-btn">
+                    <i class="fas fa-handshake"></i> Seja um Apoiador
+                </a>
+            </section>
+
+            <!-- Seção de Depoimentos -->
+            <section class="supporters-testimonials-section">
+                <h2>O que nossos apoiadores dizem</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">"O Justiça em Dia é uma ferramenta essencial para qualquer profissional jurídico que deseja se manter atualizado com as principais notícias e jurisprudência do país."</p>
+                        <p class="testimonial-author">Romer Carvalho</p>
+                        <p class="testimonial-role">Advogado Especialista em Direito de Família, Civil e Imobiliário</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">"A qualidade do conteúdo e a curadoria das notícias jurídicas no portal são exemplares. Recomendo para todos os colegas da profissão."</p>
+                        <p class="testimonial-author">Apoiador Institucional</p>
+                        <p class="testimonial-role">Profissional Jurídico</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">"Estar associado ao Justiça em Dia reforça nosso compromisso com a excelência jurídica e a disseminação de conhecimento de qualidade."</p>
+                        <p class="testimonial-author">Parceiro do Portal</p>
+                        <p class="testimonial-role">Instituição de Direito</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Sobre Justiça em Dia</h4>
+                    <p class="footer-description">Portal de notícias e análises sobre direito, legislação e jurisprudência. Acompanhe as principais decisões dos tribunais brasileiros e mudanças na legislação.</p>
+                    <div class="footer-social">
+                        <h5>Siga-nos</h5>
+                        <div class="footer-social-links">
+                            <!-- Redes sociais carregadas via js/config.js -->
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Categorias</h4>
+                    <ul>
+                        <li><a href="../direito-civil/index.html">Direito Civil</a></li>
+                        <li><a href="../direito-de-familia/index.html">Direito de Família</a></li>
+                        <li><a href="../direito-penal/index.html">Direito Penal</a></li>
+                        <li><a href="../direito-trabalhista/index.html">Direito Trabalhista</a></li>
+                        <li><a href="../direito-militar/index.html">Direito Militar</a></li>
+                        <li><a href="../compliance/index.html">Compliance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Recursos</h4>
+                    <ul>
+                        <li><a href="../jurisprudencia/index.html">Jurisprudência</a></li>
+                        <li><a href="../legislacao/index.html">Legislação</a></li>
+                        <li><a href="index.html">Apoiadores</a></li>
+                        <li><a href="../contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p>Email: <a href="mailto:contato@justicaemdia.com.br" class="footer-email">contato@justicaemdia.com.br</a></p>
+                    <p>Telefone: <a href="tel:+5521982684928" class="footer-phone">(21) 98268-4928</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span class="footer-year">2026</span> Justiça em Dia. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/config.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/dynamic-content.js"></script>
+    <script src="../js/search.js"></script>
+    <script src="js/pagination.apoiadores.js"></script>
+    <script>
+        // Dados de apoiadores
+        const supportersData = [
+            {
+                name: "Romer Carvalho",
+                image: "../img/dr_romer_carvalho.jpg",
+                description: "Advogado Especialista em Direito de Família, Civil e Imobiliário",
+                link: "advogado-romer-carvalho.html"
+            },
+                        {
+                name: "Romer Carvalho",
+                image: "../img/dr_romer_carvalho.jpg",
+                description: "Advogado Especialista em Direito de Família, Civil e Imobiliário",
+                link: "advogado-romer-carvalho.html"
+            },
+                        {
+                name: "Romer Carvalho",
+                image: "../img/dr_romer_carvalho.jpg",
+                description: "Advogado Especialista em Direito de Família, Civil e Imobiliário",
+                link: "advogado-romer-carvalho.html"
+            },
+                        {
+                name: "Romer Carvalho",
+                image: "../img/dr_romer_carvalho.jpg",
+                description: "Advogado Especialista em Direito de Família, Civil e Imobiliário",
+                link: "advogado-romer-carvalho.html"
+            },
+            {
+                name: "Apoiador 2",
+                image: "https://via.placeholder.com/300x300?text=Apoiador+2",
+                description: "Profissional Jurídico",
+                link: "#"
+            },
+            {
+                name: "Apoiador 3",
+                image: "https://via.placeholder.com/300x300?text=Apoiador+3",
+                description: "Especialista em Direito",
+                link: "#"
+            },
+            {
+                name: "Apoiador 4",
+                image: "https://via.placeholder.com/300x300?text=Apoiador+4",
+                description: "Profissional Jurídico",
+                link: "#"
+            },
+            {
+                name: "Apoiador 5",
+                image: "https://via.placeholder.com/300x300?text=Apoiador+5",
+                description: "Especialista em Direito",
+                link: "#"
+            },
+            {
+                name: "Apoiador 6",
+                image: "https://via.placeholder.com/300x300?text=Apoiador+6",
+                description: "Profissional Jurídico",
+                link: "#"
+            },
+            {
+                name: "Apoiador 7",
+                image: "https://via.placeholder.com/300x300?text=Apoiador+7",
+                description: "Especialista em Direito",
+                link: "#"
+            },
+            {
+                name: "Apoiador 8",
+                image: "https://via.placeholder.com/300x300?text=Apoiador+8",
+                description: "Profissional Jurídico",
+                link: "#"
+            }
+        ];
+
+        // Dados de logos de parceiros
+        const partnersLogos = [
+            {
+                name: "Parceiro 1",
+                logo: "https://via.placeholder.com/150x80?text=Parceiro+1"
+            },
+            {
+                name: "Parceiro 2",
+                logo: "https://via.placeholder.com/150x80?text=Parceiro+2"
+            },
+            {
+                name: "Parceiro 3",
+                logo: "https://via.placeholder.com/150x80?text=Parceiro+3"
+            },
+            {
+                name: "Parceiro 4",
+                logo: "https://via.placeholder.com/150x80?text=Parceiro+4"
+            },
+            {
+                name: "Parceiro 5",
+                logo: "https://via.placeholder.com/150x80?text=Parceiro+5"
+            },
+            {
+                name: "Parceiro 5",
+                logo: "https://via.placeholder.com/150x80?text=Parceiro+5"
+            },
+            {
+                name: "Parceiro 5",
+                logo: "https://via.placeholder.com/150x80?text=Parceiro+5"
+            },
+            {
+                name: "Parceiro 5",
+                logo: "https://via.placeholder.com/150x80?text=Parceiro+5"
+            },
+            {
+                name: "Parceiro 5",
+                logo: "https://via.placeholder.com/150x80?text=Parceiro+5"
+            },
+            {
+                name: "Parceiro 5",
+                logo: "https://via.placeholder.com/150x80?text=Parceiro+5"
+            },
+            {
+                name: "Parceiro 5",
+                logo: "https://via.placeholder.com/150x80?text=Parceiro+5"
+            },
+            {
+                name: "Parceiro 5",
+                logo: "https://via.placeholder.com/150x80?text=Parceiro+5"
+            }
+        ];
+
+        // Renderizar galeria de apoiadores
+        function renderSupportersGallery() {
+            const gallery = document.getElementById('supportersGallery');
+            gallery.innerHTML = '';
+
+            supportersData.forEach(supporter => {
+                const card = document.createElement('div');
+                card.className = 'supporter-card';
+                card.innerHTML = `
+                    <a href="${supporter.link}" style="display: block; width: 100%; height: 100%; text-decoration: none;">
+                        <img src="${supporter.image}" alt="${supporter.name}" loading="lazy">
+                        <div class="supporter-overlay">
+                            <h3>${supporter.name}</h3>
+                            <p>${supporter.description}</p>
+                        </div>
+                    </a>
+                `;
+                gallery.appendChild(card);
+            });
+        }
+
+        // Renderizar logos de parceiros
+        function renderPartnersLogos() {
+            const logosContainer = document.getElementById('supportersLogos');
+            logosContainer.innerHTML = '';
+
+            partnersLogos.forEach(partner => {
+                const logoCard = document.createElement('div');
+                logoCard.className = 'supporter-logo-card';
+                logoCard.innerHTML = `
+                    <img src="${partner.logo}" alt="${partner.name}" loading="lazy">
+                `;
+                logosContainer.appendChild(logoCard);
+            });
+        }
+
+        // Inicializar ao carregar a página
+        document.addEventListener('DOMContentLoaded', () => {
+            renderSupportersGallery();
+            renderPartnersLogos();
+        });
+    </script>
+</body>
+</html>
