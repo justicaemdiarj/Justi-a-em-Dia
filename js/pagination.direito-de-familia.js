@@ -11,7 +11,7 @@ const categoryNewsData = [
         authorLink: "#"
     },
     {
-        title: "Pensão Alimentícia: Revisão, Exoneração e os Limites do Dever de Sstento",
+        title: "Pensão Alimentícia: Revisão, Exoneração e os Limites do Dever de Sustento",
         date: "11/02/2026",
         timestamp: "2026-02-11T12:00:00",
         image: "../img/imagem-postagem.png",
