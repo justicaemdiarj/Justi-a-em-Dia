@@ -1,6 +1,16 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
-        {
+                {
+        title: "Quem Audita os Auditores?",
+        date: "11/02/2026",
+        timestamp: "2026-02-11T12:00:00",
+        image: "../img/dr_romer_carvalho.jpg",
+        caption: "Imagem Ilustrativa",
+        excerpt: "Os recentes escândalos corporativos revelam um padrão preocupante: todas as empresas envolvidas contavam com auditoria independente externa..",
+        link: "../compliance/quem-audita-os-auditores.html",
+        author: "Romer Carvalho",
+        authorLink: "../apoiadores/advogado-romer-carvalho.html"
+    },{
         title: "Quem Audita os Auditores?",
         date: "11/02/2026",
         timestamp: "2026-02-11T12:00:00",
