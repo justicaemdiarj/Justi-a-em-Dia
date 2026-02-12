@@ -47,14 +47,14 @@ function injectNewsletter() {
                 submitBtn.textContent = 'Enviando...';
                 submitBtn.style.opacity = '0.7';
 
-                // URL do seu Google Apps Script (Você deve substituir após configurar)
-                // Se estiver vazio, ele apenas salvará localmente como backup
+                // URL do Google Apps Script
                 const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbygGCvItVJeJvg-JFmeJv-SEfH9b2eSfTnJpOYZTV9dACp1aL1Bm_udKmg0lX0N_4S0/exec'; 
 
                 const formData = {
                     email: email,
                     data: date,
                     aceite: 'Sim',
+                    data_aceite: date, // Adicionando explicitamente a data de aceite
                     origem: window.location.pathname
                 };
 
@@ -66,14 +66,22 @@ function injectNewsletter() {
                         localStorage.setItem('newsletter_subscribers', JSON.stringify(subscribers));
                     }
 
-                    // 2. Enviar para Google Sheets (Se a URL estiver configurada)
+                    // 2. Enviar para Google Sheets
                     if (GOOGLE_SCRIPT_URL) {
+                        // Usando URLSearchParams para enviar como formulário tradicional (mais compatível com Apps Script padrão)
+                        const params = new URLSearchParams();
+                        for (const key in formData) {
+                            params.append(key, formData[key]);
+                        }
+
                         await fetch(GOOGLE_SCRIPT_URL, {
                             method: 'POST',
-                            mode: 'no-cors', // Necessário para Google Apps Script
+                            mode: 'no-cors',
                             cache: 'no-cache',
-                            headers: { 'Content-Type': 'application/json' },
-                            body: JSON.stringify(formData)
+                            headers: {
+                                'Content-Type': 'application/x-www-form-urlencoded'
+                            },
+                            body: params.toString()
                         });
                     }
 
