@@ -68,18 +68,21 @@ function injectNewsletter() {
 
                     // 2. Enviar para Google Sheets
                     if (GOOGLE_SCRIPT_URL) {
-                        // Usando URLSearchParams para enviar como formulário tradicional (mais compatível com Apps Script padrão)
+                        // Usando URLSearchParams para enviar como formulário tradicional
                         const params = new URLSearchParams();
                         for (const key in formData) {
                             params.append(key, formData[key]);
                         }
 
-                        // Usando GET para evitar problemas de CORS e garantir o recebimento no Apps Script
-                        const finalUrl = `${GOOGLE_SCRIPT_URL}?${params.toString()}`;
-                        await fetch(finalUrl, {
-                            method: 'GET',
+                        // Tentativa de envio via POST (mais robusto para Apps Script)
+                        // Se falhar ou der erro de CORS, o 'no-cors' ainda permite que o dado chegue ao script
+                        await fetch(GOOGLE_SCRIPT_URL, {
+                            method: 'POST',
                             mode: 'no-cors',
-                            cache: 'no-cache'
+                            headers: {
+                                'Content-Type': 'application/x-www-form-urlencoded'
+                            },
+                            body: params.toString()
                         });
                     }
 
