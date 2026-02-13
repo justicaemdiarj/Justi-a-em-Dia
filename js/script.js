@@ -26,21 +26,7 @@ if (menuToggle && mainNav) {
     });
 }
 
-// Newsletter Form
-const newsletterForm = document.getElementById('newsletterForm');
-
-if (newsletterForm) {
-    newsletterForm.addEventListener('submit', (e) => {
-        e.preventDefault();
-        const emailInput = newsletterForm.querySelector('input[type="email"]');
-        const email = emailInput.value.trim();
-        
-        if (email) {
-            alert('Obrigado por se inscrever! Confirme seu e-mail: ' + email);
-            emailInput.value = '';
-        }
-    });
-}
+// Newsletter Form (Tratamento específico movido para os arquivos HTML ou injetores)
 
 // Smooth Scroll for Links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {

@@ -126,6 +126,30 @@
         </div>
     </main>
 
+    <!-- Newsletter Section -->
+    <section class="newsletter" style="background: #f9f9f9; border-top: 1px solid #eee; border-bottom: 1px solid #eee; padding: 80px 0;">
+        <div class="container">
+            <div class="newsletter-content" style="max-width: 600px; margin: 0 auto; text-align: center;">
+                <h2 style="color: #c41e3a; font-size: 2.5rem; font-weight: 800; margin-bottom: 15px;">Newsletter</h2>
+                <p style="color: #666; font-size: 1.1rem; margin-bottom: 35px;">Receba as principais notícias jurídicas em seu e-mail</p>
+                
+                <form class="newsletter-form" id="newsletterForm" style="display: flex; flex-direction: column; gap: 15px;">
+                    <input type="email" id="newsletterEmailMain" placeholder="Seu melhor e-mail" required style="padding: 15px 25px; border: 1px solid #ddd; border-radius: 30px; font-family: inherit; font-size: 1rem; width: 100%; box-shadow: 0 2px 5px rgba(0,0,0,0.03);">
+                    
+                    <div style="display: flex; align-items: flex-start; gap: 10px; text-align: left; padding: 0 10px;">
+                        <input type="checkbox" id="newsletterConsentMain" required style="margin-top: 5px; cursor: pointer; width: 18px; height: 18px;">
+                        <label for="newsletterConsentMain" style="font-size: 0.85rem; color: #777; line-height: 1.4; cursor: pointer;">
+                            Aceito receber notificações e e-mails informativos do Justiça em Dia. Seus dados estão seguros conosco.
+                        </label>
+                    </div>
+
+                    <button type="submit" id="newsletterSubmitBtnMain" class="btn" style="background: #c41e3a; color: #fff; border: none; padding: 15px 40px; border-radius: 10px; font-weight: 700; font-size: 1.1rem; cursor: pointer; transition: all 0.3s ease; margin-top: 10px; box-shadow: 0 4px 15px rgba(196, 30, 58, 0.2);">Inscrever</button>
+                </form>
+                <div id="newsletterMessageMain" style="margin-top: 20px; font-size: 0.95rem; display: none; padding: 12px; border-radius: 8px;"></div>
+            </div>
+        </div>
+    </section>
+
     <!-- Footer -->
         <footer class="footer">
         <div class="container">
@@ -180,5 +204,89 @@
     <script src="js/pagination.apoiadores.js"></script>
     <script src="js/newsletter-injector.js"></script>
     
+    <script>
+        // Lógica de submissão da Newsletter principal (index.html)
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('newsletterForm');
+            const messageDiv = document.getElementById('newsletterMessageMain');
+            const submitBtn = document.getElementById('newsletterSubmitBtnMain');
+
+            if (form) {
+                form.addEventListener('submit', async (e) => {
+                    e.preventDefault();
+                    
+                    const email = document.getElementById('newsletterEmailMain').value;
+                    const consent = document.getElementById('newsletterConsentMain').checked;
+                    const date = new Date().toLocaleString('pt-BR');
+
+                    if (!consent) {
+                        messageDiv.textContent = 'Você precisa aceitar os termos para continuar.';
+                        messageDiv.style.color = '#c41e3a';
+                        messageDiv.style.display = 'block';
+                        return;
+                    }
+
+                    // Feedback visual
+                    submitBtn.disabled = true;
+                    submitBtn.textContent = 'Enviando...';
+                    submitBtn.style.opacity = '0.7';
+
+                    const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwLrq1GUmSq2ZlDtRD2Ma54VJrk8RdJG40vC2bODcjJNRSU6M3_nZFfNj_T1xFx2uuN/exec'; 
+
+                    const formData = {
+                        email: email,
+                        data: date,
+                        aceite: 'Sim',
+                        data_aceite: date,
+                        origem: 'Home - Newsletter Principal'
+                    };
+
+                    try {
+                        // Salvar Localmente
+                        let subscribers = JSON.parse(localStorage.getItem('newsletter_subscribers') || '[]');
+                        if (!subscribers.some(s => s.email === email)) {
+                            subscribers.push(formData);
+                            localStorage.setItem('newsletter_subscribers', JSON.stringify(subscribers));
+                        }
+
+                        // Enviar para Google Sheets
+                        const params = new URLSearchParams();
+                        for (const key in formData) {
+                            params.append(key, formData[key]);
+                        }
+                        const finalUrl = `${GOOGLE_SCRIPT_URL}?${params.toString()}`;
+                        
+                        await fetch(finalUrl, {
+                            method: 'GET',
+                            mode: 'no-cors',
+                            cache: 'no-cache'
+                        });
+
+                        // Sucesso
+                        messageDiv.textContent = 'Inscrição realizada com sucesso! Obrigado por nos acompanhar.';
+                        messageDiv.style.backgroundColor = '#d4edda';
+                        messageDiv.style.color = '#155724';
+                        messageDiv.style.border = '1px solid #c3e6cb';
+                        messageDiv.style.display = 'block';
+                        form.reset();
+
+                    } catch (err) {
+                        console.error('Erro:', err);
+                        messageDiv.textContent = 'Erro ao processar. Tente novamente mais tarde.';
+                        messageDiv.style.color = '#c41e3a';
+                        messageDiv.style.display = 'block';
+                    } finally {
+                        submitBtn.disabled = false;
+                        submitBtn.textContent = 'Inscrever Agora';
+                        submitBtn.style.opacity = '1';
+                        
+                        setTimeout(() => {
+                            messageDiv.style.display = 'none';
+                        }, 6000);
+                    }
+                });
+            }
+        });
+    </script>
 </body>
 </html>
