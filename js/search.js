@@ -2,6 +2,125 @@
 const allArticles = [
 
     {
+        title: 'A Lei Antes do Fato: Como a Regulação Preditiva Antecipa Riscos Tecnológicos',
+        description: 'O Congresso Nacional vota em 2026 projeto de lei inédito na história legislativa brasileira: regulação preventiva de tecnologias de edição genética germinal (CRISPR aplicado a embriões humanos) que ainda não estão disponíveis.',
+        category: 'Legislação',
+        url: 'legislacao/a-lei-antes-do-fato-como-a-regulacao-preditiva-antecipa-riscos-tecnologicos.html',
+        tags: ['Congresso Nacional', 'Riscos Tecnológicos', 'Regulação Preditiva', 'Lei Antes do Fato']
+    }, 
+    {
+        title: 'A Revolução Silenciosa do Compliance: Quando Prevenir Vale Mais Que Remediar',
+        description: 'O diretor de compliance da multinacional brasileira recebe pela manhã relatório gerado por sistema de inteligência artificial: análise de 2,3 milhões de e-mails corporativos identificou padrão linguístico compatível com possível esquema de.',
+        category: 'Compliance',
+        url: 'compliance/a-revolucao-silenciosa-do-compliance-quando-prevenir-vale-mais-que-remediar.html',
+        tags: ['Compliance', 'Revolução Silenciosa', 'multinacional brasileira', 'Prevenir']
+    },
+    {
+        title: 'A Queda do Intocável: Quando o Judiciário Julga a Si Mesmo',
+        description: 'Na tarde de 12 de dezembro de 2024, o plenário do Superior Tribunal de Justiça reuniu-se em sessão extraordinária que entraria para a história institucional da Corte. O presidente Herman Benjamin, com voz grave e semblante circunspecto.',
+        category: 'Direito Trabalhista',
+        url: 'direito-trabalhista/a-queda-do-intocavel-quando-o-judiciario-julga-a-si-mesmo.html',
+        tags: ['Queda do Intocável', 'distinção', 'empregador', 'assédio sexual']
+    },
+    {
+        title: 'Crimes Ambientais Transnacionais: A Amazônia no Epicentro de um Conflito de Jurisdições',
+        description: 'A devastação da floresta amazônica transcendeu há muito as fronteiras nacionais, convertendo-se em um fenômeno que desafia os paradigmas tradicionais do direito penal e ambiental.',
+        category: 'Direito Penal',
+        url: 'direito-penal/crimes-ambientais-transnacionais-a-amazonia-no-epicentro-de-um-conflito-de-jurisdicoes.html',
+        tags: ['Crimes Ambientais Transnacionais', 'Amazônia', 'devastação', 'territorialidade']
+    }, 
+    {
+        title: 'A Farda e a Constituição: O Direito Militar Entre a Tradição e os Direitos Fundamentais',
+        description: 'O soldado do Exército recorre ao Supremo Tribunal Federal questionando punição disciplinar que lhe custou quinze dias de prisão por "desrespeito a superior" após questionar, em grupo privado de WhatsApp de colegas militares, ordem que considerava tecnicamente equivocada.',
+        category: 'Direito Militar',
+        url: 'direito-militar/a-farda-e-a-constituicao-o-direito-militar-entre-a-tradicao-e-os-direitos-fundamentais.html',
+        tags: ['Farda', 'Direitos Fundamentais', 'desrespeito a superior', 'prisão']
+    }, 
+    {
+        title: 'A Lei Antes do Fato: Como a Regulação Preditiva Antecipa Riscos Tecnológicos',
+        description: 'O Congresso Nacional vota em 2026 projeto de lei inédito na história legislativa brasileira: regulação preventiva de tecnologias de edição genética germinal (CRISPR aplicado a embriões humanos) que ainda não estão disponíveis',
+        category: 'Legislação',
+        url: 'legislacao/a-lei-antes-do-fato-como-a-regulacao-preditiva-antecipa-riscos-tecnologicos.html',
+        tags: ['Lei Antes do Fato', 'Riscos Tecnológicos', 'Regulação ', 'Congresso Nacional']
+    }, 
+    {
+        title: 'O Oráculo Digital da Justiça: Quando Algoritmos Preveem Decisões Judiciais',
+        description: 'O advogado prepara recurso contra sentença desfavorável em ação trabalhista. Antes de redigir uma linha, acessa plataforma de jurisprudência preditiva que, mediante inteligência artificial, analisa 340 mil decisões similares do Tribunal Regional do Trabalho daquela região nos últimos cinco anos.',
+        category: 'Jurisprudência',
+        url: 'jurisprudencia/o-oraculo-digital-da-justica-quando-algoritmos-preveem-decisoes-judiciais.html',
+        tags: ['Oráculo Digital', 'Decisões Judiciais', 'Algoritmos']
+    }, 
+    {
+        title: 'A Armadilha do Crédito Fácil: Como o Superendividamento Captura os Mais Vulneráveis',
+        description: 'O Brasil registra atualmente mais de 72 milhões de pessoas negativadas, segundo dados da Confederação Nacional de Dirigentes Lojistas. Desse contingente alarmante, parcela expressiva',
+        category: 'Direito Civil',
+        url: 'direito-civil/a-armadilha-do-credito-facil-como-o-superendividamento-captura-os-mais-vulneraveis.html',
+        tags: ['Armadilha', 'Crédito Fácil', 'Superendividamento', 'Mais Vulneráveis']
+    }, 
+    {
+        title: 'A Encruzilhada da Responsabilidade: Quem Paga a Conta Quando a Máquina Erra?',
+        description: 'A proliferação acelerada de sistemas de inteligência artificial no cotidiano brasileiro — de algoritmos que concedem crédito a carros autônomos que circulam em fase experimental ',
+        category: 'Direito Civil',
+        url: 'direito-civil/a-encruzilhada-da-responsabilidade-quem-paga-a-conta-quando-a-maquina-erra.html',
+        tags: ['Encruzilhada da Responsabilidade', 'Máquina', 'inteligência artificial']
+    }, 
+    {
+        title: 'A Era Digital do Pacta Sunt Servanda: Contratos Eletrônicos e a Revolução Silenciosa do Direito Negocial',
+        description: 'Bilhões de contratos são firmados diariamente sem que uma única folha de papel seja impressa. A compra de passagens aéreas, a contratação de serviços de streaming, a adesão a aplicativos de transporte e até m',
+        category: 'Direito Civil',
+        url: 'direito-civil/a-era-digital-do-pacta-sunt-servanda-contratos-eletronicos-e-a-revolucionaria-silenciosa-do-direito-negocial.html',
+        tags: ['Era Digital', 'Pacta Sunt Servanda', 'Contratos Eletrônicos', 'Direito Negocial']
+    }, 
+    {
+        title: 'Bisturi e Balança da Justiça: Os Limites da Responsabilidade Civil na Medicina e Estética',
+        description: 'A relação médico-paciente encerra peculiaridade que a distingue de quase todas as demais relações profissionais: não há garantia de resultado. ',
+        category: 'Direito Civil',
+        url: 'direito-civil/bisturi-e-balanca-da-justica-os-limites-da-responsabilidade-civil-na-medicina-e-estetica.html',
+        tags: ['Balança da Justiça', 'Bisturi ', 'Limites da Responsabilidade', 'Responsabilidade Civil', 'Medicina e Estética']
+    }, 
+    {
+        title: 'O Direito de Não Ser Lembrado: Os Contornos Jurídicos da Memória na Era Digital',
+        description: 'Quando o Supremo Tribunal Federal, em fevereiro de 2021, julgou improcedente o Recurso Extraordinário 1.010.606 (Tema 786 da repercussão geral), decretando a incompatibilidade do direito ao esquecimento com a Constituição Federal, p',
+        category: 'Direito Civil',
+        url: 'direito-civil/o-direito-de-nao-ser-lembrado-os-contornos-juridicos-da-memoria-na-era-digital.html',
+        tags: ['Memória na Era Digital', 'Era Digital', 'tutela da privacidade,', 'tese rejeitada pelo STF']
+    }, 
+    {
+        title: 'O Tribunal das Redes: Quando a Liberdade de Expressão Vira Linchamento Digital',
+        description: 'A migração do debate público para as plataformas digitais converteu cada usuário em potencial formador de opinião — e em potencial réu de ação indenizatória. ',
+        category: 'Direito Civil',
+        url: 'direito-civil/o-tribunal-das-redes-quando-a-liberdade-de-expressao-vira-linchamento-digital.html',
+        tags: ['Linchamento Digital', 'Liberdade de Expressão', ' debate público']
+    }, 
+    {
+        title: 'O Testamento Digital Quando o Amor Precisa Contemplar Bitcoins e Senhas',
+        description: 'O tabelionato de notas em São Paulo recebe o casal de noivos com documentação completa para lavrar Pacto Antenupcial. Além das cláusulas tradicionais sobre imóveis, veículos e participação societária, o instrumento traz',
+        category: 'Direito de Família',
+        url: 'direito-de-familia/o-testamento-digital-quando-o-amor-precisa-contemplar-bitcoins-e-senhas.html',
+        tags: ['Testamento', 'Testamento Digital', 'Pacto Antenupcial']
+    }, 
+    {
+        title: 'O Amor Que Se Cobra na Justiça Quando a Ausência dos Avós Gera Indenização',
+        description: 'Um escritório de advocacia em Brasília recebe, com frequência crescente, consultas inusitadas: adultos que desejam processar avós por abandono afetivo durante a infância. Não se trata de abandono material',
+        category: 'Direito de Família',
+        url: 'direito-de-familia/o-amor-que-se-cobra-na-justica-quando-a-ausencia-dos-avos-gera-indenizacao.html',
+        tags: ['afetividade', 'abandono ', 'frequência crescente', 'Indenização']
+    }, 
+    {
+        title: 'Quando o Silêncio Se Torna Arma no Ambiente Corporativo',
+        description: 'Não há gritos, não há insultos diretos, não há confronto aberto. A vítima chega ao escritório e é recebida por olhares que desviam, cumprimentos que não vêm, conversas que cessam abruptamente quando ela se aproxima. ',
+        category: 'Direito Trabalhista',
+        url: 'direito-trabalhista/a-violencia-invisivel-quando-o-silencio-se-torna-arma-no-ambiente-corporativo.html',
+        tags: ['Ambiente Corporativo', 'Ambiente ', 'exclusão sistemática', 'exclusão laboral']
+    }, 
+    {
+        title: 'Quando a Crítica Vira Arma de Aniquilação Profissional',
+        description: 'O relatório foi revisado três vezes, cada vírgula analisada, cada dado conferido. Mesmo assim, quando apresentado na reunião, o gerente o desqualifica publicamente: "Está completamente fora dos padrões que esperamos"',
+        category: 'Direito Trabalhista',
+        url: 'direito-trabalhista/a-destruicao-metodica-da-competencia-quando-a-critica-vira-arma-de-aniquilacao-profissional.html',
+        tags: ['Aniquilação Profissional', 'distinção', 'desqualificação ', 'empregador']
+    }, 
+    {
         title: 'Quem Audita os Auditores?',
         description: 'Os recentes escândalos corporativos revelam um padrão preocupante: todas as empresas envolvidas contavam com auditoria independente externa.',
         category: 'Compliance',

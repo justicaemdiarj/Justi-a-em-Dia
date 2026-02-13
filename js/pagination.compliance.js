@@ -1,6 +1,17 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
     {
+        title: "A Revolução Silenciosa do Compliance: Quando Prevenir Vale Mais Que Remediar",
+        date: "13/02/2026",
+        timestamp: "2026-02-13T15:00:00",
+        image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&q=80",
+        caption: "Imagem Ilustrativa",
+        excerpt: "O diretor de compliance da multinacional brasileira recebe pela manhã relatório gerado por sistema de inteligência artificial: análise de 2,3 milhões de e-mails corporativos identificou padrão linguístico compatível com possível esquema..",
+        link: "../compliance/a-revolucao-silenciosa-do-compliance-quando-prevenir-vale-mais-que-remediar.html",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+    {
         title: "Quem Audita os Auditores?",
         date: "12/02/2026",
         timestamp: "2026-02-12T08:00:00",

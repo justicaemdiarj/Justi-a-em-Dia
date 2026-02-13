@@ -1,11 +1,21 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
     {
+        title: "O Oráculo Digital da Justiça: Quando Algoritmos Preveem Decisões Judiciais",
+        date: "13/02/2026",
+        timestamp: "2026-02-13T15:00:00",
+        image: "https://images.unsplash.com/photo-1589254065878-42c9da997008?w=1200&q=80",
+        excerpt: "O advogado prepara recurso contra sentença desfavorável em ação trabalhista. Antes de redigir uma linha, acessa plataforma de jurisprudência preditiva que, mediante inteligência artificial, analisa 340 mil decisões.",
+        link: "../jurisprudencia/o-oraculo-digital-da-justica-quando-algoritmos-preveem-decisoes-judiciais.html",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+    {
         title: "A Força dos Precedentes Obrigatórios no Sistema Jurídico Brasileiro",
         date: "12/02/2026",
         timestamp: "2026-02-12T08:00:00",
         image: "../img/forca-precedentes-obrigatorios-brasil.jpg",
-        excerpt: "Análise detalhada sobre a força dos precedentes obrigatórios no sistema jurídico brasileiro e seus impactos no ordenamento jurídico brasileiro.",
+        excerpt: "A incorporação definitiva do sistema de precedentes obrigatórios no ordenamento jurídico brasileiro representa uma das mais profundas transformações estruturais do direito pátrio nas últimas décadas.",
         link: "../jurisprudencia/forca-precedentes-obrigatorios-brasil.html",
         author: "Justiça em Dia",
         authorLink: "#"
@@ -15,7 +25,7 @@ const categoryNewsData = [
         date: "12/02/2026",
         timestamp: "2026-02-12T08:00:00",
         image: "../img/imagem-postagem.png",
-        excerpt: "Análise detalhada sobre mudanças recentes na jurisprudência dos tribunais superiores e seus impactos no ordenamento jurídico brasileiro.",
+        excerpt: "A dinâmica interpretativa do direito brasileiro passa por constante transformação, especialmente quando analisamos a atuação dos tribunais superiores. ",
         link: "../jurisprudencia/mudancas-recentes-jurisprudencia-tribunais.html",
         author: "Justiça em Dia",
         authorLink: "#"

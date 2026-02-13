@@ -1,11 +1,21 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
     {
+        title: "Crimes Ambientais Transnacionais: A Amazônia no Epicentro de um Conflito de Jurisdições",
+        date: "13/02/2026",
+        timestamp: "2026-02-13T15:00:00",
+        image: "../img/crimes-transnacionais.jpg",
+        excerpt: "A Convenção de Viena sobre Direito dos Tratados e diversos acordos bilaterais estabelecem mecanismos de auxílio mútuo, extradição e compartilhamento.",
+        link: "../direito-penal/crimes-ambientais-transnacionais-a-amazonia-no-epicentro-de-um-conflito-de-jurisdicoes.html",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+    {
         title: "Princípio da Insignificância e sua Aplicação nos Crimes Patrimoniais",
         date: "12/02/2026",
         timestamp: "2026-02-12T08:00:00",
         image: "../img/principio-insignificancia-crimes-patrimoniais.jpg",
-        excerpt: "Análise detalhada sobre princípio da insignificância e sua aplicação nos crimes patrimoniais e seus impactos no ordenamento jurídico brasileiro.",
+        excerpt: "O princípio da insignificância, também denominado princípio da bagatela, constitui importante instrumento de racionalização do sistema penal, permitindo a exclusão da tipicidade material em condutas que, embora formalmente adequadas a tipos penais, não apresentam relevância suficiente para justificar a intervenção do direito penal.",
         link: "../direito-penal/principio-insignificancia-crimes-patrimoniais.html",
         author: "Justiça em Dia",
         authorLink: "#"
@@ -15,7 +25,7 @@ const categoryNewsData = [
         date: "12/02/2026",
         timestamp: "2026-02-12T08:00:00",
         image: "../img/Prisao-preventiva.png",
-        excerpt: "Análise detalhada sobre prisão preventiva: requisitos legais e abusos recorrentes e seus impactos no ordenamento jurídico brasileiro.",
+        excerpt: "A prisão preventiva, modalidade de prisão cautelar regulamentada pelos artigos 311 a 316 do Código de Processo Penal, constitui medida excepcional que restringe a liberdade do acusado antes do trânsito em julgado da sentença condenatória.",
         link: "../direito-penal/prisao-preventiva-requisitos-abusos.html",
         author: "Justiça em Dia",
         authorLink: "#"

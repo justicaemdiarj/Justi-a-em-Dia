@@ -1,11 +1,21 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
     {
+        title: "A Lei Antes do Fato: Como a Regulação Preditiva Antecipa Riscos Tecnológicos",
+        date: "13/02/2026",
+        timestamp: "2026-02-13T15:00:00",
+        image: "https://images.unsplash.com/photo-1505664194779-8beaceb93744?w=1200&q=80",
+        excerpt: "O Congresso Nacional vota em 2026 projeto de lei inédito na história legislativa brasileira: regulação preventiva de tecnologias de edição genética germinal (CRISPR aplicado a embriões humanos) que ainda não estão disponíveis comercialmente no país, mas cujo desenvolvimento é iminente.",
+        link: "../legislacao/a-lei-antes-do-fato-como-a-regulacao-preditiva-antecipa-riscos-tecnologicos.html",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+    {
         title: "Impactos Práticos das Alterações Legislativas no Direito de Família",
         date: "12/02/2026",
         timestamp: "2026-02-12T08:00:00",
         image: "../img/impactos-alteracoes-legislativas-familia.jpeg",
-        excerpt: "Análise detalhada sobre impactos práticos das alterações legislativas no direito de família e seus impactos no ordenamento jurídico brasileiro.",
+        excerpt: "O direito de família brasileiro experimenta constante transformação legislativa que reflete as profundas mudanças sociais das últimas décadas. A compreensão contemporânea das relações familiares expandiu-se significativamente.",
         link: "../legislacao/impactos-alteracoes-legislativas-familia.html",
         author: "Justiça em Dia",
         authorLink: "#"
@@ -15,7 +25,7 @@ const categoryNewsData = [
         date: "12/02/2026",
         timestamp: "2026-02-12T08:00:00",
         image: "../img/interpretacao-lei-constituicao-jurisprudencia.jpg",
-        excerpt: "Análise detalhada sobre interpretação da lei à luz da constituição e da jurisprudência atual e seus impactos no ordenamento jurídico brasileiro.",
+        excerpt: "A interpretação jurídica contemporânea não pode prescindir da compreensão sistêmica do ordenamento. A lei, isoladamente considerada, constitui apenas fragmento de complexa estrutura normativa que encontra na Constituição seu fundamento de validade e na jurisprudência sua concretização prática.",
         link: "../legislacao/interpretacao-lei-constituicao-jurisprudencia.html",
         author: "Justiça em Dia",
         authorLink: "#"

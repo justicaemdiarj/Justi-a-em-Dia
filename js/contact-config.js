@@ -1,7 +1,7 @@
 // Configurações específicas da página de contato
 const contactConfig = {
     whatsapp: "+5521982684928", // Formato: +5521982684928 ou vazio ""
-    phone: "",
+    phone: "+5521982684928",
     email: "contato@justicaemdia.com.br",
     address: "Rio de Janeiro, RJ",
     addressDetails: "Atendimento online",
@@ -11,10 +11,10 @@ const contactConfig = {
     
     // Mensagens pré-definidas do WhatsApp
     whatsappMessages: {
-        member: "Olá! Gostaria de informações sobre como ser membro.",
-        help: "Olá! Preciso de ajuda com uma dúvida.",
-        info: "Olá! Gostaria de mais informações.",
-        other: "Olá! Gostaria de conversar sobre outro assunto."
+        member: "Olá! Gostaria de informações sobre como ser membro do site Justiça em Dia. Pode ajudar?..",
+        help: "Olá! Preciso de ajuda com uma dúvida do site Justiça em Dia..",
+        info: "Olá! Gostaria de mais informações do site Justiça em Dia..",
+        other: "Olá! Gostaria de conversar sobre outro assunto do site Justiça em Dia.."
     }
 };
 

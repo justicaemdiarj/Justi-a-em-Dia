@@ -1,11 +1,77 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
     {
+        title: "A Armadilha do Crédito Fácil: Como o Superendividamento Captura os Mais Vulneráveis",
+        date: "13/02/2026",
+        timestamp: "2026-02-13T12:00:00",
+        image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
+        excerpt: "O Brasil registra atualmente mais de 72 milhões de pessoas negativadas, segundo dados da Confederação Nacional de Dirigentes Lojistas. Desse contingen...",
+        link: "../direito-civil/a-armadilha-do-credito-facil-como-o-superendividamento-captura-os-mais-vulneraveis.html",
+        category: "Direito Civil",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+    {
+        title: "A Encruzilhada da Responsabilidade: Quem Paga a Conta Quando a Máquina Erra?",
+        date: "13/02/2026",
+        timestamp: "2026-02-13T12:00:00",
+        image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80",
+        excerpt: "A proliferação acelerada de sistemas de inteligência artificial no cotidiano brasileiro de algoritmos que concedem crédito a carros autônomos que ci...",
+        link: "../direito-civil/a-encruzilhada-da-responsabilidade-quem-paga-a-conta-quando-a-maquina-erra.html",
+        category: "Direito Civil",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+    {
+        title: "A Era Digital do Pacta Sunt Servanda: Contratos Eletrônicos e a Revolução Silenciosa do Direito Negocial",
+        date: "13/02/2026",
+        timestamp: "2026-02-13T12:00:00",
+        image: "https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=800&q=80",
+        excerpt: "Bilhões de contratos são firmados diariamente sem que uma única folha de papel seja impressa. A compra de passagens aéreas, a contratação de serviços ...",
+        link: "../direito-civil/a-era-digital-do-pacta-sunt-servanda-contratos-eletronicos-e-a-revolucionaria-silenciosa-do-direito-negocial.html",
+        category: "Direito Civil",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+    {
+        title: "Bisturi e Balança da Justiça: Os Limites da Responsabilidade Civil na Medicina e Estética",
+        date: "13/02/2026",
+        timestamp: "2026-02-13T12:00:00",
+        image: "../img/cirurgia-estetica.jpg",
+        excerpt: "A relação médico-paciente encerra peculiaridade que a distingue de quase todas as demais relações profissionais: não há garantia de resultado. O médic...",
+        link: "../direito-civil/bisturi-e-balanca-da-justica-os-limites-da-responsabilidade-civil-na-medicina-e-estetica.html",
+        category: "Direito Civil",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+    {
+        title: "O Direito de Não Ser Lembrado: Os Contornos Jurídicos da Memória na Era Digital",
+        date: "13/02/2026",
+        timestamp: "2026-02-13T12:00:00",
+        image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&q=80",
+        excerpt: "Quando o Supremo Tribunal Federal, em fevereiro de 2021, julgou improcedente o Recurso Extraordinário 1.010.606 (Tema 786 da repercussão geral), decre...",
+        link: "../direito-civil/o-direito-de-nao-ser-lembrado-os-contornos-juridicos-da-memoria-na-era-digital.html",
+        category: "Direito Civil",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+    {
+        title: "O Tribunal das Redes: Quando a Liberdade de Expressão Vira Linchamento Digital",
+        date: "13/02/2026",
+        timestamp: "2026-02-13T12:00:00",
+        image: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=800&q=80",
+        excerpt: "A migração do debate público para as plataformas digitais converteu cada usuário em potencial formador de opinião — e em potencial réu de ação indeniz...",
+        link: "../direito-civil/o-tribunal-das-redes-quando-a-liberdade-de-expressao-vira-linchamento-digital.html",
+        category: "Direito Civil",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+    {
         title: "Responsabilidade Civil por Danos Morais nas Relações Digitais",
         date: "12/02/2026",
         timestamp: "2026-02-12T08:00:00",
-        image: "../img/Responsabilidade-civil-por-danos-morais.jpg",
-        excerpt: "Análise detalhada sobre responsabilidade civil por danos morais nas relações digitais e seus impactos no ordenamento jurídico brasileiro.",
+        image: "../img/responsabilidade-civil-por-danos-morais.jpg",
+        excerpt: "A era digital transformou profundamente as relações interpessoais, criando novos espaços de convivência que transcendem as barreiras físicas.",
         link: "../direito-civil/responsabilidade-civil-danos-morais-digitais.html",
         category: "Direito Civil",
         author: "Justiça em Dia",
@@ -16,7 +82,7 @@ const categoryNewsData = [
         date: "12/02/2026",
         timestamp: "2026-02-12T08:00:00",
         image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop",
-        excerpt: "Análise detalhada sobre validade jurídica dos contratos firmados por meios eletrônicos e seus impactos no ordenamento jurídico brasileiro.",
+        excerpt: "A digitalização das relações negociais representa uma das mais significativas transformações do direito contratual contemporâneo. A possibilidade de celebrar contratos por meios eletrônicos revolucionou a dinâmica comercial, conferindo agilidade, redução de custos e ampliação do alcance geográfico das transações.",
         link: "../direito-civil/validade-juridica-contratos-eletronicos.html",
         category: "Direito Civil",
         author: "Justiça em Dia",

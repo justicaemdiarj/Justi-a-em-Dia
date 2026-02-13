@@ -1,11 +1,40 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
     {
+    title: "A Violência Invisível: Quando o Silêncio Se Torna Arma no Ambiente Corporativo", 
+    date: "13/02/2026", 
+    timestamp: "2026-02-13T10:00:00", 
+    image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=2070&auto=format&fit=crop", 
+    excerpt: "Não há gritos, não há insultos diretos, não há confronto aberto. A vítima chega ao escritório e é recebida por olhares que desviam, cumprimentos que n...", 
+    link: "../direito-trabalhista/a-violencia-invisivel-quando-o-silencio-se-torna-arma-no-ambiente-corporativo.html", 
+    author: "Por Justiça em Dia", 
+    authorLink: "#"
+    },
+    {
+    title: "A Destruição Metódica da Competência: Quando a Crítica Vira Arma de Aniquilação Profissional", 
+    date: "13/02/2026", 
+    timestamp: "2026-02-13T10:00:00", 
+    image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=2069&auto=format&fit=crop", 
+    excerpt: "O relatório foi revisado três vezes, cada vírgula analisada, cada dado conferido. Mesmo assim, quando apresentado na reunião, o gerente o desqualifica...", 
+    link: "../direito-trabalhista/a-destruicao-metodica-da-competencia-quando-a-critica-vira-arma-de-aniquilacao-profissional.html", 
+    author: "Por Justiça em Dia", authorLink: "#"
+    },
+    {
+    title: "A Queda do Intocável: Quando o Judiciário Julga a Si Mesmo", 
+    date: "13/02/2026", 
+    timestamp: "2026-02-13T10:00:00", 
+    image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=2070&auto=format&fit=crop", 
+    excerpt: "Na tarde de 12 de dezembro de 2024, o plenário do Superior Tribunal de Justiça reuniu-se em sessão extraordinária que entraria para a história institu...", 
+    link: "../direito-trabalhista/a-queda-do-intocavel-quando-o-judiciario-julga-a-si-mesmo.html", 
+    author: "Por Justiça em Dia", 
+    authorLink: "#"
+    },
+    {
         title: "Vínculo Empregatício Nas Novas Formas de Trabalho por Aplicativo",
         date: "12/02/2026",
         timestamp: "2026-02-12T08:00:00",
         image: "../img/vinculo-empregaticio-trabalho-aplicativo.jpg",
-        excerpt: "Análise detalhada sobre vínculo empregatício nas novas formas de trabalho por aplicativo e seus impactos no ordenamento jurídico brasileiro.",
+        excerpt: "A economia de plataformas digitais revolucionou o mercado de trabalho nas últimas décadas, introduzindo modelos de prestação de serviços que desafiam as categorias tradicionais do direito laboral.",
         link: "../direito-trabalhista/vinculo-empregaticio-trabalho-aplicativo.html",
         author: "Justiça em Dia",
         authorLink: "#"
@@ -15,7 +44,7 @@ const categoryNewsData = [
         date: "12/02/2026",
         timestamp: "2026-02-12T08:00:00",
         image: "../img/assedio-moral-trabalho-responsabilidade-empregador.jpg",
-        excerpt: "Análise detalhada sobre assédio moral no ambiente de trabalho e a responsabilidade do empregador e seus impactos no ordenamento jurídico brasileiro.",
+        excerpt: "O assédio moral no ambiente laboral constitui uma das mais graves patologias organizacionais contemporâneas, caracterizando-se pela exposição sistemática e prolongada do trabalhador a situações humilhantes",
         link: "../direito-trabalhista/assedio-moral-trabalho-responsabilidade-empregador.html",
         author: "Justiça em Dia",
         authorLink: "#"
