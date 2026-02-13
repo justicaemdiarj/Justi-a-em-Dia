@@ -2,13 +2,6 @@
 const allArticles = [
 
     {
-        title: 'A Lei Antes do Fato: Como a Regulação Preditiva Antecipa Riscos Tecnológicos',
-        description: 'O Congresso Nacional vota em 2026 projeto de lei inédito na história legislativa brasileira: regulação preventiva de tecnologias de edição genética germinal (CRISPR aplicado a embriões humanos) que ainda não estão disponíveis.',
-        category: 'Legislação',
-        url: 'legislacao/a-lei-antes-do-fato-como-a-regulacao-preditiva-antecipa-riscos-tecnologicos.html',
-        tags: ['Congresso Nacional', 'Riscos Tecnológicos', 'Regulação Preditiva', 'Lei Antes do Fato']
-    }, 
-    {
         title: 'A Revolução Silenciosa do Compliance: Quando Prevenir Vale Mais Que Remediar',
         description: 'O diretor de compliance da multinacional brasileira recebe pela manhã relatório gerado por sistema de inteligência artificial: análise de 2,3 milhões de e-mails corporativos identificou padrão linguístico compatível com possível esquema de.',
         category: 'Compliance',
