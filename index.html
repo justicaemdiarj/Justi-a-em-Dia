@@ -255,13 +255,13 @@
                             params.append(key, formData[key]);
                         }
                         
-                        await fetch(GOOGLE_SCRIPT_URL, {
-                            method: 'POST',
+                        // Usando GET com no-cors para máxima compatibilidade com Apps Script
+                        // O Apps Script muitas vezes funciona melhor com GET quando há problemas de publicação
+                        const finalUrl = `${GOOGLE_SCRIPT_URL}?${params.toString()}`;
+                        await fetch(finalUrl, {
+                            method: 'GET',
                             mode: 'no-cors',
-                            headers: {
-                                'Content-Type': 'application/x-www-form-urlencoded'
-                            },
-                            body: params.toString()
+                            cache: 'no-cache'
                         });
 
                         // Sucesso

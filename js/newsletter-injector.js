@@ -74,15 +74,12 @@ function injectNewsletter() {
                             params.append(key, formData[key]);
                         }
 
-                        // Tentativa de envio via POST (mais robusto para Apps Script)
-                        // Se falhar ou der erro de CORS, o 'no-cors' ainda permite que o dado chegue ao script
-                        await fetch(GOOGLE_SCRIPT_URL, {
-                            method: 'POST',
+                        // Usando GET com no-cors para máxima compatibilidade com Apps Script
+                        const finalUrl = `${GOOGLE_SCRIPT_URL}?${params.toString()}`;
+                        await fetch(finalUrl, {
+                            method: 'GET',
                             mode: 'no-cors',
-                            headers: {
-                                'Content-Type': 'application/x-www-form-urlencoded'
-                            },
-                            body: params.toString()
+                            cache: 'no-cache'
                         });
                     }
 
