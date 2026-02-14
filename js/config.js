@@ -5,10 +5,10 @@ const siteConfig = {
     description: "Portal de notícias e análises sobre direito, legislação e jurisprudência. Acompanhe as principais decisões dos tribunais brasileiros e mudanças na legislação.",
 
     social: {
-        facebook: "",
-        instagram: "https://instagram.com/justicaemdia_br",
-        twitter: "",
-        linkedin: "https://linkedin.com/company/justicaemdia"
+   //     facebook: "",
+   //     instagram: "https://instagram.com/justicaemdia_br",
+   //     twitter: "",
+    //    linkedin: "https://linkedin.com/company/justicaemdia"
     },
     supporters: [
         { 
@@ -45,13 +45,13 @@ const siteConfig = {
     banners: {
         // Formato da data: "YYYY-MM-DD" ou null para permanente
         desktop: [
-            { name: "Apoiador Romer Carvalho Desktop 1", img: "img/banner-apoiadores/apoiador-romer-carvalho-desktop-1.png", link: "https://www.romercarvalho.adv.br", endDate: "2026-12-31" },
-            { name: "Apoiador Romer Carvalho Desktop 2", img: "img/banner-apoiadores/apoiador-romer-carvalho-desktop-2.png", link: "https://www.romercarvalho.adv.br", endDate: "2026-12-31" },
+     //       { name: "Apoiador Romer Carvalho Desktop 1", img: "img/banner-apoiadores/apoiador-romer-carvalho-desktop-1.png", link: "https://www.romercarvalho.adv.br", endDate: "2026-12-31" },
+      //      { name: "Apoiador Romer Carvalho Desktop 2", img: "img/banner-apoiadores/apoiador-romer-carvalho-desktop-2.png", link: "https://www.romercarvalho.adv.br", endDate: "2026-12-31" },
         ],
         mobile: [
-            { name: "Apoiador Romer Carvalho Mobile 1", img: "img/banner-apoiadores/apoiador-romer-carvalho-mobile-1.png", link: "https://www.romercarvalho.adv.br", endDate: "2026-12-31" },
-            { name: "Apoiador Romer Carvalho Mobile 2", img: "img/banner-apoiadores/apoiador-romer-carvalho-mobile-2.png", link: "https://www.romercarvalho.adv.br", endDate: "2026-12-31"},
-            { name: "Apoiador 5", img: "img/banner-apoiadores/apoiador-5.png", link: "https://www.romercarvalho.adv.br", endDate: "2026-12-31"}
+     //       { name: "Apoiador Romer Carvalho Mobile 1", img: "img/banner-apoiadores/apoiador-romer-carvalho-mobile-1.png", link: "https://www.romercarvalho.adv.br", endDate: "2026-12-31" },
+      //      { name: "Apoiador Romer Carvalho Mobile 2", img: "img/banner-apoiadores/apoiador-romer-carvalho-mobile-2.png", link: "https://www.romercarvalho.adv.br", endDate: "2026-12-31"},
+      //      { name: "Apoiador 5", img: "img/banner-apoiadores/apoiador-5.png", link: "https://www.romercarvalho.adv.br", endDate: "2026-12-31"}
         ]
     }
 };
