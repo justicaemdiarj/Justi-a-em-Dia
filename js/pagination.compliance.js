@@ -1,7 +1,7 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
     {
-        title: "A Revolução Silenciosa do Compliance: Quando Prevenir Vale Mais Que Remediar",
+        title: "A Revolução Silenciosa do Compliance",
         date: "13/02/2026",
         timestamp: "2026-02-13T15:00:00",
         image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&q=80",
@@ -23,11 +23,11 @@ const categoryNewsData = [
         authorLink: "../apoiadores/advogado-romer-carvalho.html"
     }, 
     {
-        title: "Programas de Compliance como Instrumento de Prevenção de Riscos Jurídicos",
+        title: "Programas de Compliance",
         date: "12/02/2026",
         timestamp: "2026-02-12T08:00:00",
         image: "../img/programas-compliance-prevencao-riscos.jpg",
-        excerpt: "Análise detalhada sobre programas de compliance como instrumento de prevenção de riscos jurídicos e seus impactos no ordenamento jurídico brasileiro.",
+        excerpt: "Os programas de compliance corporativo consolidaram-se como instrumento estratégico essencial para prevenção de riscos jurídicos, reputacionais..",
         link: "../compliance/programas-compliance-prevencao-riscos.html",
         author: "Justiça em Dia",
         authorLink: "#"
@@ -37,14 +37,14 @@ const categoryNewsData = [
         date: "12/02/2026",
         timestamp: "2026-02-12T08:00:00",
         image: "../img/responsabilidade-alta-gestao-compliance.jpeg",
-        excerpt: "Análise detalhada sobre responsabilidade da alta gestão na implementação do compliance efetivo e seus impactos no ordenamento jurídico brasileiro.",
+        excerpt: "Estudos demonstram que iniciativas de integridade implementadas apenas para cumprimento formal de requisitos regulatórios, sem o engajamento efetivo dos líderes, tendem ao fracasso ou à mera existência documental..",
         link: "../compliance/responsabilidade-alta-gestao-compliance.html",
         author: "Justiça em Dia",
         authorLink: "#"
     },
 
     {
-        title: "Mediação Estratégica e Compliance: Alternativas ao Litígio",
+        title: "Mediação Estratégica e Compliance",
         date: "12/02/2026",
         timestamp: "2026-02-12T08:00:00",
         image: "../img/mediacao-estrategica-e-compliance.jpg",
@@ -55,7 +55,7 @@ const categoryNewsData = [
         authorLink: "#"
     },
     {
-        title: "A Nova Era da Governança: Norma ABNT para Compliance Tributário",
+        title: "A Nova Era da Governança",
         date: "12/02/2026",
         timestamp: "2026-02-12T08:00:00",
         image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop",
@@ -66,7 +66,7 @@ const categoryNewsData = [
         authorLink: "#"
     },
     {
-        title: "Fiscalização de Compliance: Irregularidades em Papelarias",
+        title: "Fiscalização e Compliance",
         date: "12/02/2026",
         timestamp: "2026-02-12T08:00:00",
         image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=600&fit=crop",
@@ -77,7 +77,7 @@ const categoryNewsData = [
         authorLink: "#"
     },
     {
-        title: "Fortalecimento do Programa Confia: Rumo às Melhores Práticas",
+        title: "Fortalecimento do Programa Confia",
         date: "12/02/2026",
         timestamp: "2026-02-12T08:00:00",
         image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&h=600&fit=crop",

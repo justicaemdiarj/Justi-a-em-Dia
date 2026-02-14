@@ -16,6 +16,11 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://www.justicaemdia.com.br/compliance/a-revolucao-silenciosa-do-compliance-quando-prevenir-vale-mais-que-remediar.html</loc>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://www.justicaemdia.com.br/compliance/fiscalizacao-compliance-papelarias.html</loc>
     <changefreq>always</changefreq>
     <priority>1.0</priority>
@@ -61,7 +66,37 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://www.justicaemdia.com.br/direito-civil/a-armadilha-do-credito-facil-como-o-superendividamento-captura-os-mais-vulneraveis.html</loc>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.justicaemdia.com.br/direito-civil/a-encruzilhada-da-responsabilidade-quem-paga-a-conta-quando-a-maquina-erra.html</loc>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.justicaemdia.com.br/direito-civil/a-era-digital-do-pacta-sunt-servanda-contratos-eletronicos-e-a-revolucionaria-silenciosa-do-direito-negocial.html</loc>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.justicaemdia.com.br/direito-civil/bisturi-e-balanca-da-justica-os-limites-da-responsabilidade-civil-na-medicina-e-estetica.html</loc>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://www.justicaemdia.com.br/direito-civil/index.html</loc>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.justicaemdia.com.br/direito-civil/o-direito-de-nao-ser-lembrado-os-contornos-juridicos-da-memoria-na-era-digital.html</loc>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.justicaemdia.com.br/direito-civil/o-tribunal-das-redes-quando-a-liberdade-de-expressao-vira-linchamento-digital.html</loc>
     <changefreq>always</changefreq>
     <priority>1.0</priority>
   </url>
@@ -91,7 +126,22 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://www.justicaemdia.com.br/direito-de-familia/o-amor-que-se-cobra-na-justica-quando-a-ausencia-dos-avos-gera-indenizacao.html</loc>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.justicaemdia.com.br/direito-de-familia/o-testamento-digital-quando-o-amor-precisa-contemplar-bitcoins-e-senhas.html</loc>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://www.justicaemdia.com.br/direito-de-familia/pensao-alimenticia-revisao-exoneracao-limites.html</loc>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.justicaemdia.com.br/direito-militar/a-farda-e-a-constituicao-o-direito-militar-entre-a-tradicao-e-os-direitos-fundamentais.html</loc>
     <changefreq>always</changefreq>
     <priority>1.0</priority>
   </url>
@@ -111,6 +161,11 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://www.justicaemdia.com.br/direito-penal/crimes-ambientais-transnacionais-a-amazonia-no-epicentro-de-um-conflito-de-jurisdicoes.html</loc>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://www.justicaemdia.com.br/direito-penal/index.html</loc>
     <changefreq>always</changefreq>
     <priority>1.0</priority>
@@ -122,6 +177,21 @@
   </url>
   <url>
     <loc>https://www.justicaemdia.com.br/direito-penal/prisao-preventiva-requisitos-abusos.html</loc>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.justicaemdia.com.br/direito-trabalhista/a-destruicao-metodica-da-competencia-quando-a-critica-vira-arma-de-aniquilacao-profissional.html</loc>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.justicaemdia.com.br/direito-trabalhista/a-queda-do-intocavel-quando-o-judiciario-julga-a-si-mesmo.html</loc>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.justicaemdia.com.br/direito-trabalhista/a-violencia-invisivel-quando-o-silencio-se-torna-arma-no-ambiente-corporativo.html</loc>
     <changefreq>always</changefreq>
     <priority>1.0</priority>
   </url>
@@ -152,6 +222,16 @@
   </url>
   <url>
     <loc>https://www.justicaemdia.com.br/jurisprudencia/mudancas-recentes-jurisprudencia-tribunais.html</loc>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.justicaemdia.com.br/jurisprudencia/o-oraculo-digital-da-justica-quando-algoritmos-preveem-decisoes-judiciais.html</loc>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.justicaemdia.com.br/legislacao/a-lei-antes-do-fato-como-a-regulacao-preditiva-antecipa-riscos-tecnologicos.html</loc>
     <changefreq>always</changefreq>
     <priority>1.0</priority>
   </url>

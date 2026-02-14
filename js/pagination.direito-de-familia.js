@@ -1,7 +1,7 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
     {
-        title: "O Testamento Digital Quando o Amor Precisa Contemplar Bitcoins e Senhas",
+        title: "O Testamento Digital",
         date: "13/02/2026",
         timestamp: "2026-02-13T11:48:14",
         image: "https://images.unsplash.com/photo-1512733596533-7b00ccf8ebaf?w=1200&q=80",
@@ -12,7 +12,7 @@ const categoryNewsData = [
         authorLink: "#"
     },
     {
-        title: "O Amor Que Se Cobra na Justiça Quando a Ausência dos Avós Gera Indenização",
+        title: "O Amor Que Se Cobra na Justiça",
         date: "13/02/2026",
         timestamp: "2026-02-13T11:48:14",
         image: "https://images.unsplash.com/photo-1581579186913-45ac3e6efe93?w=1200&q=80",
@@ -46,7 +46,7 @@ const categoryNewsData = [
         authorLink: "#"
     },
     {
-        title: "Pensão Alimentícia: Revisão, Exoneração e os Limites do Dever de Sustento",
+        title: "Pensão Alimentícia",
         date: "12/02/2026",
         timestamp: "2026-02-12T08:00:00",
         image: "../img/pensao-alimenticia.png",

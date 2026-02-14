@@ -1,7 +1,7 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
     {
-        title: "A Lei Antes do Fato: Como a Regulação Preditiva Antecipa Riscos Tecnológicos",
+        title: "A Lei Antes do Fato",
         date: "13/02/2026",
         timestamp: "2026-02-13T15:00:00",
         image: "https://images.unsplash.com/photo-1505664194779-8beaceb93744?w=1200&q=80",

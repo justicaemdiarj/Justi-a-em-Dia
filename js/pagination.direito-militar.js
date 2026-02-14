@@ -1,7 +1,7 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
     {
-        title: "A Farda e a Constituição: O Direito Militar Entre a Tradição e os Direitos Fundamentais",
+        title: "A Farda e a Constituição",
         date: "13/02/2026",
         timestamp: "2026-02-13T15:00:00",
         image: "https://images.unsplash.com/photo-1590247813693-5541d1c609fd?w=1200&q=80",

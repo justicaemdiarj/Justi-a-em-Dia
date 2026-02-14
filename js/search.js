@@ -2,84 +2,84 @@
 const allArticles = [
 
     {
-        title: 'A Revolução Silenciosa do Compliance: Quando Prevenir Vale Mais Que Remediar',
+        title: 'A Revolução Silenciosa do Compliance',
         description: 'O diretor de compliance da multinacional brasileira recebe pela manhã relatório gerado por sistema de inteligência artificial: análise de 2,3 milhões de e-mails corporativos identificou padrão linguístico compatível com possível esquema de.',
         category: 'Compliance',
         url: 'compliance/a-revolucao-silenciosa-do-compliance-quando-prevenir-vale-mais-que-remediar.html',
         tags: ['Compliance', 'Revolução Silenciosa', 'multinacional brasileira', 'Prevenir']
     },
     {
-        title: 'A Queda do Intocável: Quando o Judiciário Julga a Si Mesmo',
+        title: 'A Queda do Intocável',
         description: 'Na tarde de 12 de dezembro de 2024, o plenário do Superior Tribunal de Justiça reuniu-se em sessão extraordinária que entraria para a história institucional da Corte. O presidente Herman Benjamin, com voz grave e semblante circunspecto.',
         category: 'Direito Trabalhista',
         url: 'direito-trabalhista/a-queda-do-intocavel-quando-o-judiciario-julga-a-si-mesmo.html',
         tags: ['Queda do Intocável', 'distinção', 'empregador', 'assédio sexual']
     },
     {
-        title: 'Crimes Ambientais Transnacionais: A Amazônia no Epicentro de um Conflito de Jurisdições',
+        title: 'Crimes Ambientais Transnacionais',
         description: 'A devastação da floresta amazônica transcendeu há muito as fronteiras nacionais, convertendo-se em um fenômeno que desafia os paradigmas tradicionais do direito penal e ambiental.',
         category: 'Direito Penal',
         url: 'direito-penal/crimes-ambientais-transnacionais-a-amazonia-no-epicentro-de-um-conflito-de-jurisdicoes.html',
         tags: ['Crimes Ambientais Transnacionais', 'Amazônia', 'devastação', 'territorialidade']
     }, 
     {
-        title: 'A Farda e a Constituição: O Direito Militar Entre a Tradição e os Direitos Fundamentais',
+        title: 'A Farda e a Constituição',
         description: 'O soldado do Exército recorre ao Supremo Tribunal Federal questionando punição disciplinar que lhe custou quinze dias de prisão por "desrespeito a superior" após questionar, em grupo privado de WhatsApp de colegas militares, ordem que considerava tecnicamente equivocada.',
         category: 'Direito Militar',
         url: 'direito-militar/a-farda-e-a-constituicao-o-direito-militar-entre-a-tradicao-e-os-direitos-fundamentais.html',
         tags: ['Farda', 'Direitos Fundamentais', 'desrespeito a superior', 'prisão']
     }, 
     {
-        title: 'A Lei Antes do Fato: Como a Regulação Preditiva Antecipa Riscos Tecnológicos',
+        title: 'A Lei Antes do Fato',
         description: 'O Congresso Nacional vota em 2026 projeto de lei inédito na história legislativa brasileira: regulação preventiva de tecnologias de edição genética germinal (CRISPR aplicado a embriões humanos) que ainda não estão disponíveis',
         category: 'Legislação',
         url: 'legislacao/a-lei-antes-do-fato-como-a-regulacao-preditiva-antecipa-riscos-tecnologicos.html',
         tags: ['Lei Antes do Fato', 'Riscos Tecnológicos', 'Regulação ', 'Congresso Nacional']
     }, 
     {
-        title: 'O Oráculo Digital da Justiça: Quando Algoritmos Preveem Decisões Judiciais',
+        title: 'O Oráculo Digital da Justiça',
         description: 'O advogado prepara recurso contra sentença desfavorável em ação trabalhista. Antes de redigir uma linha, acessa plataforma de jurisprudência preditiva que, mediante inteligência artificial, analisa 340 mil decisões similares do Tribunal Regional do Trabalho daquela região nos últimos cinco anos.',
         category: 'Jurisprudência',
         url: 'jurisprudencia/o-oraculo-digital-da-justica-quando-algoritmos-preveem-decisoes-judiciais.html',
         tags: ['Oráculo Digital', 'Decisões Judiciais', 'Algoritmos']
     }, 
     {
-        title: 'A Armadilha do Crédito Fácil: Como o Superendividamento Captura os Mais Vulneráveis',
+        title: 'A Armadilha do Crédito Fácil',
         description: 'O Brasil registra atualmente mais de 72 milhões de pessoas negativadas, segundo dados da Confederação Nacional de Dirigentes Lojistas. Desse contingente alarmante, parcela expressiva',
         category: 'Direito Civil',
         url: 'direito-civil/a-armadilha-do-credito-facil-como-o-superendividamento-captura-os-mais-vulneraveis.html',
         tags: ['Armadilha', 'Crédito Fácil', 'Superendividamento', 'Mais Vulneráveis']
     }, 
     {
-        title: 'A Encruzilhada da Responsabilidade: Quem Paga a Conta Quando a Máquina Erra?',
+        title: 'A Encruzilhada da Responsabilidade',
         description: 'A proliferação acelerada de sistemas de inteligência artificial no cotidiano brasileiro — de algoritmos que concedem crédito a carros autônomos que circulam em fase experimental ',
         category: 'Direito Civil',
         url: 'direito-civil/a-encruzilhada-da-responsabilidade-quem-paga-a-conta-quando-a-maquina-erra.html',
         tags: ['Encruzilhada da Responsabilidade', 'Máquina', 'inteligência artificial']
     }, 
     {
-        title: 'A Era Digital do Pacta Sunt Servanda: Contratos Eletrônicos e a Revolução Silenciosa do Direito Negocial',
+        title: 'A Era Digital do Pacta Sunt Servanda',
         description: 'Bilhões de contratos são firmados diariamente sem que uma única folha de papel seja impressa. A compra de passagens aéreas, a contratação de serviços de streaming, a adesão a aplicativos de transporte e até m',
         category: 'Direito Civil',
         url: 'direito-civil/a-era-digital-do-pacta-sunt-servanda-contratos-eletronicos-e-a-revolucionaria-silenciosa-do-direito-negocial.html',
         tags: ['Era Digital', 'Pacta Sunt Servanda', 'Contratos Eletrônicos', 'Direito Negocial']
     }, 
     {
-        title: 'Bisturi e Balança da Justiça: Os Limites da Responsabilidade Civil na Medicina e Estética',
+        title: 'Bisturi e Balança da Justiça',
         description: 'A relação médico-paciente encerra peculiaridade que a distingue de quase todas as demais relações profissionais: não há garantia de resultado. ',
         category: 'Direito Civil',
         url: 'direito-civil/bisturi-e-balanca-da-justica-os-limites-da-responsabilidade-civil-na-medicina-e-estetica.html',
         tags: ['Balança da Justiça', 'Bisturi ', 'Limites da Responsabilidade', 'Responsabilidade Civil', 'Medicina e Estética']
     }, 
     {
-        title: 'O Direito de Não Ser Lembrado: Os Contornos Jurídicos da Memória na Era Digital',
+        title: 'O Direito de Não Ser Lembrado',
         description: 'Quando o Supremo Tribunal Federal, em fevereiro de 2021, julgou improcedente o Recurso Extraordinário 1.010.606 (Tema 786 da repercussão geral), decretando a incompatibilidade do direito ao esquecimento com a Constituição Federal, p',
         category: 'Direito Civil',
         url: 'direito-civil/o-direito-de-nao-ser-lembrado-os-contornos-juridicos-da-memoria-na-era-digital.html',
         tags: ['Memória na Era Digital', 'Era Digital', 'tutela da privacidade,', 'tese rejeitada pelo STF']
     }, 
     {
-        title: 'O Tribunal das Redes: Quando a Liberdade de Expressão Vira Linchamento Digital',
+        title: 'O Tribunal das Redes',
         description: 'A migração do debate público para as plataformas digitais converteu cada usuário em potencial formador de opinião — e em potencial réu de ação indenizatória. ',
         category: 'Direito Civil',
         url: 'direito-civil/o-tribunal-das-redes-quando-a-liberdade-de-expressao-vira-linchamento-digital.html',
@@ -121,7 +121,7 @@ const allArticles = [
         tags: ['compliance', 'auditores', 'escândalos', 'compliance zero', 'romer carvalho']
     }, 
     {
-        title: 'Como Comprovar que Existe União Estável: Guia Prático',
+        title: 'Como Comprovar que Existe União Estável',
         description: 'Muitas pessoas vivem em união estável sem saber que essa relação possui proteção jurídica semelhante ao casamento.',
         category: 'Direito de Família',
         url: 'direito-de-familia/como-comprovar-uniao-estavel.html',
@@ -142,28 +142,28 @@ const allArticles = [
         tags: ['Guarda Compartilhada', 'Guarda', 'Melhor Interesse da Criança', 'família']
     }, 
     {
-        title: 'Responsabilidade civil por danos morais nas danos morais',
+        title: 'Responsabilidade Civil',
         description: 'A era digital transformou profundamente as relações interpessoais, criando novos espaços de convivência que transcendem as barreiras físicas.',
         category: 'Direito Civil',
         url: 'direito-civil/responsabilidade-civil-danos-morais-digitais.html',
         tags: ['Responsabilidade civil', 'danos morais', 'danos morais']
     }, 
     {
-        title: 'Validade jurídica dos contratos firmados por meios eletrônicos',
+        title: 'Validade Jurídica dos Contratos Firmados por Meios Eletrônicos',
         description: 'A digitalização das relações negociais representa uma das mais significativas transformações do direito contratual contemporâneo.',
         category: 'Direito Civil',
         url: 'direito-civil/validade-juridica-contratos-eletronicos.html',
         tags: ['contratos', 'Validade jurídica', 'contratos firmados', 'relações negociais']
     }, 
     {
-        title: 'Princípio da insignificância e sua aplicação nos crimes patrimoniais',
+        title: 'Princípio da Insignificância e sua Aplicação nos Crimes Patrimoniais',
         description: 'O princípio da insignificância, também denominado princípio da bagatela, constitui importante instrumento de racionalização do sistema penal, permitindo a exclusão da tipicidade material em condutas que, embora',
         category: 'Direito Penal',
         url: 'direito-penal/principio-insignificancia-crimes-patrimoniais.html',
         tags: ['Princípio da insignificância', 'crimes patrimoniais', 'crimes']
     }, 
     {
-        title: 'Prisão preventiva: requisitos legais e abusos recorrentes',
+        title: 'Prisão Preventiva',
         description: 'A prisão preventiva, modalidade de prisão cautelar regulamentada pelos artigos 311 a 316 do Código de Processo Penal, constitui medida excepcional',
         category: 'Direito Penal',
         url: 'direito-penal/prisao-preventiva-requisitos-abusos.html',
@@ -205,28 +205,28 @@ const allArticles = [
         tags: ['compliance ', 'gestão na implementação', 'prevenção de riscos', 'programa de compliance']
     }, 
     {
-        title: 'Mediação Estratégica e Compliance: Alternativas ao Litígio',
+        title: 'Mediação Estratégica e Compliance',
         description: 'A mediação consolida-se como método estratégico de resolução de conflitos, oferecendo às organizações alternativa eficiente ao litígio tradicional. ',
         category: 'Compliance',
         url: 'compliance/mediacao-estrategica-e-compliance.html',
         tags: ['compliance ', 'programas de compliance', 'prevenção de riscos', 'compliance corporativo']
     }, 
     {
-        title: 'A Nova Era da Governança: Norma ABNT para Compliance Tributário',
+        title: 'A Nova Era da Governança',
         description: 'A publicação da ABNT NBR ISO 37301:2021 (Sistemas de Gestão de Compliance) e, mais recentemente, o desenvolvimento de normas técnicas específicas para compliance tributário representam marco evolutivo na padronização',
         category: 'Compliance',
         url: 'compliance/nova-norma-abnt-compliance-tributario.html',
         tags: ['compliance ', 'programas de compliance', 'prevenção de riscos ', 'Norma ABNT', 'Compliance Tributário']
     }, 
     {
-        title: 'Fiscalização de Compliance: Irregularidades em Papelarias',
+        title: 'Fiscalização de Compliance',
         description: 'A fiscalização de estabelecimentos comerciais, incluindo papelarias, constitui atividade essencial dos órgãos de vigilância sanitária, defesa do consumidor,',
         category: 'Compliance',
         url: 'compliance/fiscalizacao-compliance-papelarias.html',
         tags: ['compliance ', 'programas de compliance', 'prevenção de riscos ', 'Fiscalização de Compliance', 'Irregularidades']
     }, 
     {
-        title: 'Fortalecimento do Programa Confia: Rumo às Melhores Práticas de Governança Fiscal',
+        title: 'Fortalecimento do Programa Confia',
         description: 'O Programa Confia, iniciativa da Receita Federal do Brasil instituída pela Instrução Normativa RFB 2.108/2022, representa evolução significativa na relação',
         category: 'Compliance',
         url: 'compliance/fortalecimento-programa-confia.html',

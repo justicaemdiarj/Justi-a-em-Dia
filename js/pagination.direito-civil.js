@@ -1,7 +1,7 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
     {
-        title: "A Armadilha do Crédito Fácil: Como o Superendividamento Captura os Mais Vulneráveis",
+        title: "A Armadilha do Crédito Fácil",
         date: "13/02/2026",
         timestamp: "2026-02-13T12:00:00",
         image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
@@ -12,7 +12,7 @@ const categoryNewsData = [
         authorLink: "#"
     },
     {
-        title: "A Encruzilhada da Responsabilidade: Quem Paga a Conta Quando a Máquina Erra?",
+        title: "A Encruzilhada da Responsabilidade",
         date: "13/02/2026",
         timestamp: "2026-02-13T12:00:00",
         image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80",
@@ -23,7 +23,7 @@ const categoryNewsData = [
         authorLink: "#"
     },
     {
-        title: "A Era Digital do Pacta Sunt Servanda: Contratos Eletrônicos e a Revolução Silenciosa do Direito Negocial",
+        title: "A Era Digital do Pacta Sunt Servanda",
         date: "13/02/2026",
         timestamp: "2026-02-13T12:00:00",
         image: "https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=800&q=80",
@@ -34,7 +34,7 @@ const categoryNewsData = [
         authorLink: "#"
     },
     {
-        title: "Bisturi e Balança da Justiça: Os Limites da Responsabilidade Civil na Medicina e Estética",
+        title: "Bisturi e Balança da Justiça",
         date: "13/02/2026",
         timestamp: "2026-02-13T12:00:00",
         image: "../img/cirurgia-estetica.jpg",
@@ -45,7 +45,7 @@ const categoryNewsData = [
         authorLink: "#"
     },
     {
-        title: "O Direito de Não Ser Lembrado: Os Contornos Jurídicos da Memória na Era Digital",
+        title: "O Direito de Não Ser Lembrado",
         date: "13/02/2026",
         timestamp: "2026-02-13T12:00:00",
         image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&q=80",
@@ -56,7 +56,7 @@ const categoryNewsData = [
         authorLink: "#"
     },
     {
-        title: "O Tribunal das Redes: Quando a Liberdade de Expressão Vira Linchamento Digital",
+        title: "O Tribunal das Redes",
         date: "13/02/2026",
         timestamp: "2026-02-13T12:00:00",
         image: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=800&q=80",
@@ -67,7 +67,7 @@ const categoryNewsData = [
         authorLink: "#"
     },
     {
-        title: "Responsabilidade Civil por Danos Morais nas Relações Digitais",
+        title: "Responsabilidade Civil",
         date: "12/02/2026",
         timestamp: "2026-02-12T08:00:00",
         image: "../img/responsabilidade-civil-por-danos-morais.jpg",

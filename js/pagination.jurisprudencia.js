@@ -1,7 +1,7 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
     {
-        title: "O Oráculo Digital da Justiça: Quando Algoritmos Preveem Decisões Judiciais",
+        title: "O Oráculo Digital da Justiça",
         date: "13/02/2026",
         timestamp: "2026-02-13T15:00:00",
         image: "https://images.unsplash.com/photo-1589254065878-42c9da997008?w=1200&q=80",

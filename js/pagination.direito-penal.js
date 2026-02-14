@@ -1,7 +1,7 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
     {
-        title: "Crimes Ambientais Transnacionais: A Amazônia no Epicentro de um Conflito de Jurisdições",
+        title: "Crimes Ambientais Transnacionais",
         date: "13/02/2026",
         timestamp: "2026-02-13T15:00:00",
         image: "../img/crimes-transnacionais.jpg",
@@ -21,7 +21,7 @@ const categoryNewsData = [
         authorLink: "#"
     },
     {
-        title: "Prisão Preventiva: Requisitos Legais e Abusos Recorrentes",
+        title: "Prisão Preventiva",
         date: "12/02/2026",
         timestamp: "2026-02-12T08:00:00",
         image: "../img/Prisao-preventiva.png",

@@ -1,7 +1,7 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
     {
-    title: "A Violência Invisível: Quando o Silêncio Se Torna Arma no Ambiente Corporativo", 
+    title: "Quando o Silêncio Se Torna Arma no Ambiente Corporativo", 
     date: "13/02/2026", 
     timestamp: "2026-02-13T10:00:00", 
     image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=2070&auto=format&fit=crop", 
@@ -11,7 +11,7 @@ const categoryNewsData = [
     authorLink: "#"
     },
     {
-    title: "A Destruição Metódica da Competência: Quando a Crítica Vira Arma de Aniquilação Profissional", 
+    title: "Quando a Crítica Vira Arma de Aniquilação Profissional", 
     date: "13/02/2026", 
     timestamp: "2026-02-13T10:00:00", 
     image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=2069&auto=format&fit=crop", 
@@ -20,7 +20,7 @@ const categoryNewsData = [
     author: "Por Justiça em Dia", authorLink: "#"
     },
     {
-    title: "A Queda do Intocável: Quando o Judiciário Julga a Si Mesmo", 
+    title: "A Queda do Intocável", 
     date: "13/02/2026", 
     timestamp: "2026-02-13T10:00:00", 
     image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=2070&auto=format&fit=crop", 

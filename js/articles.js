@@ -1,19 +1,19 @@
 // Tornar a lista de artigos disponível globalmente para outros scripts
 window.articlesData = [
     {
-        title: "O Testamento Digital Quando o Amor Precisa Contemplar Bitcoins e Senhas",
+        title: "O Testamento Digital",
         image: "https://images.unsplash.com/photo-1512733596533-7b00ccf8ebaf?w=1200&q=80",
         description: "O tabelionato de notas em São Paulo recebe o casal de noivos com documentação completa para lavrar pacto antenupcial. Além das cláusulas tradicionais ...",
         link: "direito-de-familia/o-testamento-digital-quando-o-amor-precisa-contemplar-bitcoins-e-senhas.html"
     },
     {
-        title: "O Amor Que Se Cobra na Justica Quando a Ausencia dos Avos Gera Indenização",
+        title: "O Amor Que Se Cobra na Justica",
         image: "https://images.unsplash.com/photo-1581579186913-45ac3e6efe93?w=1200&q=80",
         description: "O escritório de advocacia em Brasília recebe, com frequência crescente, consultas inusitadas: adultos que desejam processar avós por abandono afetivo ...",
         link: "direito-de-familia/o-amor-que-se-cobra-na-justica-quando-a-ausencia-dos-avos-gera-indenizacao.html"
     },
     {
-        title: "Como o Superendividamento Captura os Mais Vulneráveis",
+        title: "A Armadilha do Crédito Fácil",
         image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
         description: "O Brasil registra atualmente mais de 72 milhões de pessoas negativadas, segundo dados da Confederação Nacional de Dirigentes Lojistas. Desse contingen...",
         link: "direito-civil/a-armadilha-do-credito-facil-como-o-superendividamento-captura-os-mais-vulneraveis.html"
