@@ -248,9 +248,30 @@
             .post-image { height: 250px; }
         }
     </style>
+
+    <style>
+        .post-subtitle-transparent {
+            font-size: 1.5rem;
+            color: rgba(26, 26, 26, 0.3); /* Transparência aplicada aqui */
+            margin-top: -10px;
+            margin-bottom: 20px;
+            font-weight: 600;
+            line-height: 1.3;
+            text-transform:none;
+            letter-spacing: 1px;
+        }
+        @media (max-width: 768px) {
+            .post-subtitle-transparent {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+
+    <script src="../js/offline.js"></script>
 </head>
 <body>
     <header class="header">
+
         <div class="top-bar">
             <div class="container">
                 <div class="market-ticker" id="marketTicker"></div>
@@ -263,7 +284,7 @@
                 </button>
                 <div class="logo">
                     <a href="../index.html">
-                        <h1>Justiça <span class="logo-accent">em Dia</span></h1>
+                        <img src="../img/logo.justica-em-dia.png" style="width: 100%; height: 90px;">
                     </a>
                 </div>
                 <div class="header-actions">
@@ -274,27 +295,29 @@
                 </div>
             </div>
         </div>
-        <nav class="main-nav">
+        <nav class="main-nav desktop-menu-container">
             <div class="container">
-                <ul class="nav-list">
-                    <li><a href="../direito-civil/index.html">Direito Civil</a></li>
-                    <li><a href="../direito-de-familia/index.html">Direito de Família</a></li>
-                    <li><a href="../direito-penal/index.html">Direito Penal</a></li>
-                    <li><a href="../direito-trabalhista/index.html">Direito Trabalhista</a></li>
-                    <li><a href="../direito-militar/index.html">Direito Militar</a></li>
-                    <li><a href="../compliance/index.html">Compliance</a></li>
-                    <li><a href="../jurisprudencia/index.html">Jurisprudência</a></li>
-                    <li><a href="../legislacao/index.html">Legislação</a></li>
+                                        <!-- Campo de Pesquisa Mobile -->
+                        <div class="mobile-search-container" style="display: none;">
+                            <div class="search-box">
+                                <input type="text" class="mobile-search-input" placeholder="Pesquisar..." />
+                                <button class="search-btn" title="Buscar"><i class="fas fa-search"></i></button>
+                            </div>
+                        </div>
+		                <ul class="nav-list desktop-nav-list">
+                    <!-- Menu carregado via js/config.js -->
                 </ul>
             </div>
         </nav>
     </header>
-
+        <!-- Banner UOL Style -->
+        <div id="banner-uol-container" class="container" style="margin-top: 10px; margin-bottom: 10px; display: none;"></div>
     <main class="article-wrapper">
         <article class="post-container">
             <header class="post-header">
                 <span class="post-category"><a href="../compliance/index.html">Compliance</a></span>
                 <h1 class="post-title">Responsabilidade da alta gestão na implementação do compliance efetivo</h1>
+                <div class="post-subtitle-transparent">O comprometimento genuíno da alta gestão da organização</div>
                 <div class="post-meta">
                     <span><i class="far fa-calendar-alt"></i> 12 de Fevereiro de 2026</span>
                     <span><i class="far fa-user"></i> Por Justiça em Dia</span>
@@ -310,7 +333,7 @@
 
             <div class="post-content">
 
-        <p>A efetividade de um <strong>programa de compliance corporativo depende fundamentalmente</strong> do comprometimento genuíno da alta gestão da organização. Estudos demonstram que iniciativas de integridade implementadas apenas para cumprimento formal de requisitos regulatórios, sem o engajamento efetivo dos líderes, tendem ao fracasso ou à mera existência documental, incapazes de prevenir irregularidades ou transformar a cultura organizacional. A responsabilidade da alta direção transcende a aprovação de políticas e alcança a liderança exemplar, a alocação de recursos adequados e a criação de ambiente que valorize a ética como elemento estratégico.</p>
+        <p>Estudos demonstram que iniciativas de integridade implementadas apenas para cumprimento formal de requisitos regulatórios, sem o engajamento efetivo dos líderes, tendem ao fracasso ou à mera existência documental, incapazes de prevenir irregularidades ou transformar a cultura organizacional. A responsabilidade da alta direção transcende a aprovação de políticas e alcança a liderança exemplar, a alocação de recursos adequados e a criação de ambiente que valorize a ética como elemento estratégico.</p>
         <p>O conceito de "tone at the top" (tom dado pelo topo) consolidou-se como princípio fundamental da governança corporativa e do compliance. Esse princípio sustenta que o comportamento ético da organização reflete diretamente as atitudes, valores e prioridades demonstrados pelos seus principais executivos. Quando os líderes comunicam inequivocamente que a conformidade legal e ética não será sacrificada em favor de resultados financeiros, estabelecem parâmetro cultural que permeia todos os níveis hierárquicos. Inversamente, quando a alta gestão tolera desvios, relativiza princípios ou privilegia exclusivamente resultados de curto prazo, mesmo o mais sofisticado programa formal de compliance torna-se ineficaz.</p>
         <p>A Lei 12.846/2013 (Lei Anticorrupção) estabelece <strong>responsabilidade objetiva da pessoa jurídica por atos lesivos contra a administração pública praticados</strong> em seu interesse ou benefício. Contudo, no plano individual, administradores e executivos podem responder pessoalmente quando comprovada sua participação direta em ilícitos ou omissão culposa no estabelecimento de controles preventivos adequados. A jurisprudência tem responsabilizado diretores e conselheiros que negligenciaram a implementação de programas de integridade ou ignoraram sinais evidentes de irregularidades (red flags), considerando tal omissão como violação aos deveres fiduciários.</p>
         <p>O Código Civil brasileiro, em seus artigos 1.011 e 1.016, estabelece que os administradores respondem solidariamente perante a sociedade e terceiros prejudicados por culpa no desempenho de suas funções. A Lei das Sociedades Anônimas (Lei 6.404/1976) detalha os deveres dos administradores, destacando o dever de diligência (artigo 153), que exige atuação com cuidado e diligência que todo homem ativo e probo costuma empregar na administração de seus próprios negócios. A ausência de estrutura adequada de compliance pode caracterizar violação a esse dever, ensejando responsabilização pessoal.</p>
@@ -377,19 +400,12 @@
                 <div class="footer-section">
                     <h4>Categorias</h4>
                     <ul>
-                        <li><a href="../direito-civil/index.html">Direito Civil</a></li>
-                        <li><a href="../direito-de-familia/index.html">Direito de Família</a></li>
-                        <li><a href="../direito-penal/index.html">Direito Penal</a></li>
-                        <li><a href="../direito-trabalhista/index.html">Direito Trabalhista</a></li>
-                        <li><a href="../direito-militar/index.html">Direito Militar</a></li>
-                        <li><a href="../compliance/index.html">Compliance</a></li>
+                        <!-- Categorias carregadas via js/config.js -->
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h4>Recursos</h4>
                     <ul>
-                        <li><a href="../jurisprudencia/index.html">Jurisprudência</a></li>
-                        <li><a href="../legislacao/index.html">Legislação</a></li>
                         <li><a href="../apoiadores/index.html">Apoiadores</a></li>
                         <li><a href="../contato.html">Contato</a></li>
                     </ul>

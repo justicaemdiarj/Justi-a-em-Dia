@@ -182,6 +182,8 @@ function syncAuthorsFromPagination() {
                      window.location.pathname.includes('/compliance/') || 
                      window.location.pathname.includes('/jurisprudencia/') || 
                      window.location.pathname.includes('/legislacao/') ||
+                     window.location.pathname.includes('/financas/') ||
+                     window.location.pathname.includes('/recursos-humanos/') ||
                      window.location.pathname.includes('/apoiadores/');
     
     const basePath = isSubPage ? '../js/' : 'js/';
@@ -229,6 +231,8 @@ function getCorrectPath(path) {
                      window.location.pathname.includes('/compliance/') || 
                      window.location.pathname.includes('/jurisprudencia/') || 
                      window.location.pathname.includes('/legislacao/') ||
+                     window.location.pathname.includes('/financas/') ||
+                     window.location.pathname.includes('/recursos-humanos/') ||
                      window.location.pathname.includes('/apoiadores/');
     
     if (isSubPage && path && !path.startsWith('http')) {
@@ -380,6 +384,8 @@ function getMiddleBannerHtml() {
                      window.location.pathname.includes('/compliance/') || 
                      window.location.pathname.includes('/jurisprudencia/') || 
                      window.location.pathname.includes('/legislacao/') ||
+                     window.location.pathname.includes('/financas/') ||
+                     window.location.pathname.includes('/recursos-humanos/') ||
                      window.location.pathname.includes('/apoiadores/');
     
     if (isSubPage && imgPath.startsWith('img/')) imgPath = '../' + imgPath;

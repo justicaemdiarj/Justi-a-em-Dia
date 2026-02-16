@@ -266,10 +266,12 @@
             }
         }
     </style>
-    
+
+    <script src="../js/offline.js"></script>
 </head>
 <body>
     <header class="header">
+
         <div class="top-bar">
             <div class="container">
                 <div class="market-ticker" id="marketTicker"></div>
@@ -282,7 +284,7 @@
                 </button>
                 <div class="logo">
                     <a href="../index.html">
-                        <h1>Justiça <span class="logo-accent">em Dia</span></h1>
+                        <img src="../img/logo.justica-em-dia.png" style="width: 100%; height: 90px;">
                     </a>
                 </div>
                 <div class="header-actions">
@@ -293,23 +295,25 @@
                 </div>
             </div>
         </div>
-        <nav class="main-nav">
+        <nav class="main-nav desktop-menu-container">
             <div class="container">
-                <ul class="nav-list">
-                    <li><a href="../direito-civil/index.html">Direito Civil</a></li>
-                    <li><a href="../direito-de-familia/index.html">Direito de Família</a></li>
-                    <li><a href="../direito-penal/index.html">Direito Penal</a></li>
-                    <li><a href="../direito-trabalhista/index.html">Direito Trabalhista</a></li>
-                    <li><a href="../direito-militar/index.html">Direito Militar</a></li>
-                    <li><a href="../compliance/index.html">Compliance</a></li>
-                    <li><a href="../jurisprudencia/index.html">Jurisprudência</a></li>
-                    <li><a href="../legislacao/index.html">Legislação</a></li>
+                                        <!-- Campo de Pesquisa Mobile -->
+                        <div class="mobile-search-container" style="display: none;">
+                            <div class="search-box">
+                                <input type="text" class="mobile-search-input" placeholder="Pesquisar..." />
+                                <button class="search-btn" title="Buscar"><i class="fas fa-search"></i></button>
+                            </div>
+                        </div>
+		                <ul class="nav-list desktop-nav-list">
+                    <!-- Menu carregado via js/config.js -->
                 </ul>
             </div>
         </nav>
     </header>
-
+                <!-- Banner UOL Style -->
+        <div id="banner-uol-container" class="container" style="margin-top: 10px; margin-bottom: 10px; display: none;"></div>
     <main class="article-wrapper">
+
         <article class="post-container">
             <header class="post-header">
                 <span class="post-category"><a href="../legislacao/index.html">Legislação</a></span>
@@ -332,7 +336,6 @@
 
         <p>A <strong>interpretação</strong> jurídica contemporânea não pode prescindir da compreensão sistêmica do ordenamento. A lei, isoladamente considerada, constitui apenas fragmento de complexa estrutura normativa que encontra na Constituição seu fundamento de validade e na <strong>jurisprudência</strong> sua concretização prática.</p>
         <p>A filtragem <strong>constitucional</strong> representa técnica interpretativa fundamental. Toda <strong>norma infraconstitucional</strong> deve ser lida e aplicada em conformidade com os valores, princípios e regras constitucionais. Interpretações que, embora literalmente possíveis, conflitem com preceitos constitucionais devem ser afastadas em favor de leituras harmonizadas com a ordem <strong>constitucional</strong>.</p>
-
         <p>Esse processo interpretativo não se limita a verificar compatibilidade formal. A <strong>interpretação</strong> conforme a Constituição exige que o aplicador busque, dentre os sentidos possíveis da <strong>norma</strong>, aquele que melhor realize os valores constitucionais. Trata-se de hermenêutica construtiva que reconhece ao intérprete papel ativo na concretização do <strong>direito</strong>.</p>
         <p>A <strong>jurisprudência</strong>, especialmente dos <strong>tribunais superiores</strong>, constitui elemento indissociável desse processo interpretativo. Os <strong>precedentes</strong> não apenas aplicam a lei a casos concretos, mas constroem compreensão sedimentada sobre seu alcance e significado. Ignorar essa construção jurisprudencial significa desconsiderar camadas de sentido que a <strong>norma</strong> adquiriu mediante aplicação reiterada.</p>
             <!-- Banner Desktop entre textos -->
@@ -396,14 +399,7 @@
                 <div class="footer-section">
                     <h4>Categorias</h4>
                     <ul>
-                        <li><a href="../direito-civil/index.html">Direito Civil</a></li>
-                        <li><a href="../direito-de-familia/index.html">Direito de Família</a></li>
-                        <li><a href="../direito-penal/index.html">Direito Penal</a></li>
-                        <li><a href="../direito-trabalhista/index.html">Direito Trabalhista</a></li>
-                        <li><a href="../direito-militar/index.html">Direito Militar</a></li>
-                        <li><a href="../compliance/index.html">Compliance</a></li>
-                        <li><a href="../jurisprudencia/index.html">Jurisprudência</a></li>
-                        <li><a href="../legislacao/index.html">Legislação</a></li>
+                        <!-- Categorias carregadas via js/config.js -->
                     </ul>
                 </div>
                 <div class="footer-section">
