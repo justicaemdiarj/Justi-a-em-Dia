@@ -1,20 +1,11 @@
 // Menu Toggle
 const menuToggle = document.getElementById('menuToggle');
-const mainNav = document.querySelector('.main-nav');
-const navLinks = mainNav ? mainNav.querySelectorAll('a') : [];
+const mainNav = document.querySelector('.desktop-menu-container');
 
 if (menuToggle && mainNav) {
     menuToggle.addEventListener('click', () => {
         mainNav.classList.toggle('active');
         menuToggle.classList.toggle('active');
-    });
-    
-    // Fechar menu ao clicar em um link
-    navLinks.forEach(link => {
-        link.addEventListener('click', () => {
-            mainNav.classList.remove('active');
-            menuToggle.classList.remove('active');
-        });
     });
     
     // Fechar menu ao clicar fora
@@ -24,13 +15,31 @@ if (menuToggle && mainNav) {
             menuToggle.classList.remove('active');
         }
     });
-}
 
-// Newsletter Form (Tratamento específico movido para os arquivos HTML ou injetores)
+    // Lógica para dropdown no mobile
+    mainNav.addEventListener('click', (e) => {
+        const dropdownToggle = e.target.closest('.dropdown-toggle');
+        if (dropdownToggle && window.innerWidth <= 768) {
+            e.preventDefault();
+            const parent = dropdownToggle.parentElement;
+            parent.classList.toggle('active');
+            
+            // Opcional: Fechar outros dropdowns abertos
+            document.querySelectorAll('.nav-item-dropdown').forEach(item => {
+                if (item !== parent) item.classList.remove('active');
+            });
+        } else if (e.target.tagName === 'A' && !e.target.classList.contains('dropdown-toggle')) {
+            // Fechar menu ao clicar em um link normal (que não seja toggle de dropdown)
+            mainNav.classList.remove('active');
+            menuToggle.classList.remove('active');
+        }
+    });
+}
 
 // Smooth Scroll for Links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
+        if (this.getAttribute('href') === '#') return;
         e.preventDefault();
         const target = document.querySelector(this.getAttribute('href'));
         if (target) {
@@ -45,17 +54,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // Market Ticker Animation Enhancement
 const marketTicker = document.getElementById('marketTicker');
 if (marketTicker) {
-    // Clone ticker items for seamless loop
     const tickerContent = marketTicker.innerHTML;
     marketTicker.innerHTML += tickerContent;
-}
-
-// Breaking News Slider Enhancement
-const breakingSlider = document.getElementById('breakingSlider');
-if (breakingSlider) {
-    // Clone breaking news items for seamless loop
-    const breakingContent = breakingSlider.innerHTML;
-    breakingSlider.innerHTML += breakingContent;
 }
 
 // Add hover effect to news cards
@@ -68,15 +68,6 @@ newsCards.forEach(card => {
     
     card.addEventListener('mouseleave', function() {
         this.style.transform = 'translateY(0)';
-    });
-});
-
-// Video Play Button Click
-const videoCards = document.querySelectorAll('.video-card');
-videoCards.forEach(card => {
-    card.addEventListener('click', function() {
-        const videoTitle = this.querySelector('h4').textContent;
-        alert('Reproduzindo video: ' + videoTitle);
     });
 });
 
@@ -155,5 +146,5 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // Console message
-console.log('Portal Justica em Dia - Sistema de Noticias v2.2');
-console.log('Botão Voltar ao Topo e Melhorias de Navegação Ativadas');
+console.log('Portal Justica em Dia - Sistema de Noticias v2.3');
+console.log('Menu Dropdown e Gerenciamento de Categorias Ativados');

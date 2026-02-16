@@ -12,6 +12,93 @@ const categoryNewsData = [
         authorLink: "#"
     },
     {
+        title: "Novas Tendências em Gestão de Pessoas para o Setor Jurídico",
+        date: "13/02/2026",
+        timestamp: "2026-02-13T10:00:00",
+        image: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800&h=600&fit=crop",
+        excerpt: "Como atrair e reter talentos em um mercado cada vez mais competitivo e focado em bem-estar e flexibilidade.",
+        link: "#",
+        category: "Recursos Humanos",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+    {
+        title: "Novas Tendências em Gestão de Pessoas para o Setor Jurídico",
+        date: "13/02/2026",
+        timestamp: "2026-02-13T10:00:00",
+        image: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800&h=600&fit=crop",
+        excerpt: "Como atrair e reter talentos em um mercado cada vez mais competitivo e focado em bem-estar e flexibilidade.",
+        link: "#",
+        category: "Recursos Humanos",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+    {
+        title: "Novas Tendências em Gestão de Pessoas para o Setor Jurídico",
+        date: "13/02/2026",
+        timestamp: "2026-02-13T10:00:00",
+        image: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800&h=600&fit=crop",
+        excerpt: "Como atrair e reter talentos em um mercado cada vez mais competitivo e focado em bem-estar e flexibilidade.",
+        link: "#",
+        category: "Recursos Humanos",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+    {
+        title: "Novas Tendências em Gestão de Pessoas para o Setor Jurídico",
+        date: "13/02/2026",
+        timestamp: "2026-02-13T10:00:00",
+        image: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800&h=600&fit=crop",
+        excerpt: "Como atrair e reter talentos em um mercado cada vez mais competitivo e focado em bem-estar e flexibilidade.",
+        link: "#",
+        category: "Recursos Humanos",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+    {
+        title: "Novas Tendências em Gestão de Pessoas para o Setor Jurídico",
+        date: "13/02/2026",
+        timestamp: "2026-02-13T10:00:00",
+        image: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800&h=600&fit=crop",
+        excerpt: "Como atrair e reter talentos em um mercado cada vez mais competitivo e focado em bem-estar e flexibilidade.",
+        link: "#",
+        category: "Recursos Humanos",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+    {
+        title: "Novas Tendências em Gestão de Pessoas para o Setor Jurídico",
+        date: "13/02/2026",
+        timestamp: "2026-02-13T10:00:00",
+        image: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800&h=600&fit=crop",
+        excerpt: "Como atrair e reter talentos em um mercado cada vez mais competitivo e focado em bem-estar e flexibilidade.",
+        link: "#",
+        category: "Recursos Humanos",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+    {
+        title: "Novas Tendências em Gestão de Pessoas para o Setor Jurídico",
+        date: "13/02/2026",
+        timestamp: "2026-02-13T10:00:00",
+        image: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800&h=600&fit=crop",
+        excerpt: "Como atrair e reter talentos em um mercado cada vez mais competitivo e focado em bem-estar e flexibilidade.",
+        link: "#",
+        category: "Recursos Humanos",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },{
+        title: "Novas Tendências em Gestão de Pessoas para o Setor Jurídico",
+        date: "13/02/2026",
+        timestamp: "2026-02-13T10:00:00",
+        image: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800&h=600&fit=crop",
+        excerpt: "Como atrair e reter talentos em um mercado cada vez mais competitivo e focado em bem-estar e flexibilidade.",
+        link: "#",
+        category: "Recursos Humanos",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+    {
         title: "A Importância da Diversidade e Inclusão nas Organizações",
         date: "11/02/2026",
         timestamp: "2026-02-11T11:20:00",

@@ -315,6 +315,8 @@ function displaySuggestions(results, query, container) {
                      window.location.pathname.includes('/compliance/') || 
                      window.location.pathname.includes('/jurisprudencia/') || 
                      window.location.pathname.includes('/legislacao/') ||
+                     window.location.pathname.includes('/financas/') ||
+                     window.location.pathname.includes('/recursos-humanos/') ||
                      window.location.pathname.includes('/apoiadores/');
     const pathPrefix = isSubPage ? '../' : '';
 
@@ -373,6 +375,8 @@ function displaySearchResults(results, query) {
                      window.location.pathname.includes('/compliance/') || 
                      window.location.pathname.includes('/jurisprudencia/') || 
                      window.location.pathname.includes('/legislacao/') ||
+                     window.location.pathname.includes('/financas/') ||
+                     window.location.pathname.includes('/recursos-humanos/') ||
                      window.location.pathname.includes('/apoiadores/');
     const pathPrefix = isSubPage ? '../' : '';
 
@@ -403,7 +407,7 @@ function displaySearchResults(results, query) {
                     </div>
                     <h3><a href="${pathPrefix}${article.url}">${article.title}</a></h3>
                     <p class="result-description">${article.description}</p>
-                    <a href="${pathPrefix}${article.url}" class="result-link">Ler artigo completo</a>
+                    <a href="${pathPrefix}${article.url}" class="result-link">Leia mais</a>
                 </div>
             `;
         });
@@ -439,61 +443,63 @@ function displaySearchResults(results, query) {
 
 // Inicialização
 document.addEventListener('DOMContentLoaded', () => {
-    const searchInput = document.getElementById('searchInput');
-    const searchBox = document.querySelector('.search-box');
+    const searchBoxes = document.querySelectorAll('.search-box');
     
-    if (!searchInput || !searchBox) return;
-
-    // Criar container de sugestões
-    const suggestionContainer = document.createElement('div');
-    suggestionContainer.className = 'search-suggestions';
-    searchBox.appendChild(suggestionContainer);
-
-    let debounceTimer;
-
-    searchInput.addEventListener('input', (e) => {
-        const query = e.target.value;
+    searchBoxes.forEach(searchBox => {
+        const searchInput = searchBox.querySelector('input[type="text"]');
+        const searchBtn = searchBox.querySelector('.search-btn');
         
-        clearTimeout(debounceTimer);
-        debounceTimer = setTimeout(() => {
+        if (!searchInput) return;
+
+        // Criar container de sugestões
+        const suggestionContainer = document.createElement('div');
+        suggestionContainer.className = 'search-suggestions';
+        searchBox.appendChild(suggestionContainer);
+
+        let debounceTimer;
+
+        searchInput.addEventListener('input', (e) => {
+            const query = e.target.value;
+            
+            clearTimeout(debounceTimer);
+            debounceTimer = setTimeout(() => {
+                if (query.length >= 2) {
+                    const results = searchArticles(query);
+                    displaySuggestions(results, query, suggestionContainer);
+                } else {
+                    suggestionContainer.style.display = 'none';
+                }
+            }, 300);
+        });
+
+        const performAction = () => {
+            const query = searchInput.value;
             if (query.length >= 2) {
                 const results = searchArticles(query);
-                displaySuggestions(results, query, suggestionContainer);
-            } else {
+                displaySearchResults(results, query);
                 suggestionContainer.style.display = 'none';
             }
-        }, 300);
-    });
+        };
 
-    // Eventos de clique no botão e Enter
-    const searchBtn = document.querySelector('.search-btn');
-    const performAction = () => {
-        const query = searchInput.value;
-        if (query.length >= 2) {
-            const results = searchArticles(query);
-            displaySearchResults(results, query);
-            suggestionContainer.style.display = 'none';
+        if (searchBtn) {
+            searchBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                performAction();
+            });
         }
-    };
 
-    if (searchBtn) {
-        searchBtn.addEventListener('click', (e) => {
-            e.preventDefault();
-            performAction();
+        searchInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                performAction();
+            }
         });
-    }
 
-    searchInput.addEventListener('keypress', (e) => {
-        if (e.key === 'Enter') {
-            e.preventDefault();
-            performAction();
-        }
-    });
-
-    // Fechar sugestões ao clicar fora
-    document.addEventListener('click', (e) => {
-        if (!searchBox.contains(e.target)) {
-            suggestionContainer.style.display = 'none';
-        }
+        // Fechar sugestões ao clicar fora
+        document.addEventListener('click', (e) => {
+            if (!searchBox.contains(e.target)) {
+                suggestionContainer.style.display = 'none';
+            }
+        });
     });
 });
