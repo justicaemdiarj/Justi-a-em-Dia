@@ -1,26 +1,4 @@
 
-// ========== CONFIGURAÇÃO DE NEWSLETTER ==========
-// Altere a URL abaixo para sua planilha Google Sheets
-const NEWSLETTER_CONFIG = {
-    // URL do Google Apps Script para salvar dados na planilha
-    googleScriptUrl: 'https://script.google.com/macros/s/AKfycbwLrq1GUmSq2ZlDtRD2Ma54VJrk8RdJG40vC2bODcjJNRSU6M3_nZFfNj_T1xFx2uuN/exec',
-    
-    // Habilitar/desabilitar funcionalidades
-    enableLocalStorage: true, // Salvar backup local em localStorage
-    enableGoogleSheets: true, // Enviar para Google Sheets
-    enableEmailNotification: false, // Enviar email de confirmação (requer backend)
-    
-    // Mensagens personalizáveis
-    messages: {
-        success: 'Inscrição realizada com sucesso! Verifique sua caixa de entrada.',
-        error: 'Erro ao processar. Tente novamente mais tarde.',
-        sending: 'Enviando...',
-        requireConsent: 'Você precisa aceitar os termos para continuar.',
-        invalidEmail: 'Por favor, insira um e-mail válido.'
-    }
-};
-// ================================================
-
 function injectNewsletter() {
     const mobileContainer = document.getElementById('banner-mobile-container');
     if (mobileContainer) {
@@ -48,107 +26,75 @@ function injectNewsletter() {
         const form = document.getElementById('newsletterFormSidebar');
         const messageDiv = document.getElementById('newsletterMessage');
         const submitBtn = document.getElementById('newsletterSubmitBtn');
-        const emailInput = document.getElementById('newsletterEmail');
 
         if (form) {
             form.addEventListener('submit', async (e) => {
                 e.preventDefault();
                 
-                const email = emailInput.value.trim();
+                const email = document.getElementById('newsletterEmail').value;
                 const consent = document.getElementById('newsletterConsent').checked;
                 const date = new Date().toLocaleString('pt-BR');
-                const timestamp = new Date().toISOString();
-
-                // Validação de email
-                if (!isValidEmail(email)) {
-                    showMessage(messageDiv, NEWSLETTER_CONFIG.messages.invalidEmail, 'error');
-                    return;
-                }
 
                 if (!consent) {
-                    showMessage(messageDiv, NEWSLETTER_CONFIG.messages.requireConsent, 'error');
+                    messageDiv.textContent = 'Você precisa aceitar os termos para continuar.';
+                    messageDiv.style.color = '#c41e3a';
+                    messageDiv.style.display = 'block';
                     return;
                 }
 
                 // Feedback visual de carregamento
                 submitBtn.disabled = true;
-                submitBtn.textContent = NEWSLETTER_CONFIG.messages.sending;
+                submitBtn.textContent = 'Enviando...';
                 submitBtn.style.opacity = '0.7';
+
+                // URL do Google Apps Script
+                const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwLrq1GUmSq2ZlDtRD2Ma54VJrk8RdJG40vC2bODcjJNRSU6M3_nZFfNj_T1xFx2uuN/exec'; 
 
                 const formData = {
                     email: email,
                     data: date,
-                    timestamp: timestamp,
                     aceite: 'Sim',
-                    data_aceite: date,
-                    origem: window.location.pathname,
-                    user_agent: navigator.userAgent
+                    data_aceite: date, // Adicionando explicitamente a data de aceite
+                    origem: window.location.pathname
                 };
 
                 try {
-                    let successCount = 0;
-                    let errorCount = 0;
-
                     // 1. Salvar no LocalStorage (Backup Local)
-                    if (NEWSLETTER_CONFIG.enableLocalStorage) {
-                        try {
-                            let subscribers = JSON.parse(localStorage.getItem('newsletter_subscribers') || '[]');
-                            if (!subscribers.some(s => s.email === email)) {
-                                subscribers.push(formData);
-                                localStorage.setItem('newsletter_subscribers', JSON.stringify(subscribers));
-                                successCount++;
-                            }
-                        } catch (err) {
-                            console.warn('Erro ao salvar em localStorage:', err);
-                        }
+                    let subscribers = JSON.parse(localStorage.getItem('newsletter_subscribers') || '[]');
+                    if (!subscribers.some(s => s.email === email)) {
+                        subscribers.push(formData);
+                        localStorage.setItem('newsletter_subscribers', JSON.stringify(subscribers));
                     }
 
                     // 2. Enviar para Google Sheets
-                    if (NEWSLETTER_CONFIG.enableGoogleSheets && NEWSLETTER_CONFIG.googleScriptUrl) {
-                        try {
-                            const params = new URLSearchParams();
-                            for (const key in formData) {
-                                params.append(key, formData[key]);
-                            }
-
-                            const finalUrl = `${NEWSLETTER_CONFIG.googleScriptUrl}?${params.toString()}`;
-                            const response = await fetch(finalUrl, {
-                                method: 'GET',
-                                mode: 'no-cors',
-                                cache: 'no-cache'
-                            });
-                            
-                            successCount++;
-                            console.log('Dados enviados para Google Sheets com sucesso');
-                        } catch (err) {
-                            console.error('Erro ao enviar para Google Sheets:', err);
-                            errorCount++;
+                    if (GOOGLE_SCRIPT_URL) {
+                        // Usando URLSearchParams para enviar como formulário tradicional
+                        const params = new URLSearchParams();
+                        for (const key in formData) {
+                            params.append(key, formData[key]);
                         }
-                    }
 
-                    // 3. Enviar email de confirmação (se habilitado)
-                    if (NEWSLETTER_CONFIG.enableEmailNotification) {
-                        try {
-                            // Aqui você pode adicionar lógica para enviar email
-                            // Por enquanto, apenas registramos no console
-                            console.log('Email de confirmação seria enviado para:', email);
-                        } catch (err) {
-                            console.warn('Erro ao enviar email:', err);
-                        }
+                        // Usando GET com no-cors para máxima compatibilidade com Apps Script
+                        const finalUrl = `${GOOGLE_SCRIPT_URL}?${params.toString()}`;
+                        await fetch(finalUrl, {
+                            method: 'GET',
+                            mode: 'no-cors',
+                            cache: 'no-cache'
+                        });
                     }
 
                     // Sucesso
-                    if (successCount > 0) {
-                        showMessage(messageDiv, NEWSLETTER_CONFIG.messages.success, 'success');
-                        form.reset();
-                        emailInput.focus();
-                    } else {
-                        showMessage(messageDiv, NEWSLETTER_CONFIG.messages.error, 'error');
-                    }
+                    messageDiv.textContent = 'Inscrição realizada com sucesso! Verifique sua caixa de entrada.';
+                    messageDiv.style.backgroundColor = '#d4edda';
+                    messageDiv.style.color = '#155724';
+                    messageDiv.style.display = 'block';
+                    form.reset();
 
                 } catch (err) {
-                    console.error('Erro geral:', err);
-                    showMessage(messageDiv, NEWSLETTER_CONFIG.messages.error, 'error');
+                    console.error('Erro:', err);
+                    messageDiv.textContent = 'Erro ao processar. Tente novamente mais tarde.';
+                    messageDiv.style.color = '#c41e3a';
+                    messageDiv.style.display = 'block';
                 } finally {
                     submitBtn.disabled = false;
                     submitBtn.textContent = 'Inscrever';
@@ -161,80 +107,6 @@ function injectNewsletter() {
             });
         }
     }
-}
-
-// Função auxiliar para validar email
-function isValidEmail(email) {
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return emailRegex.test(email);
-}
-
-// Função auxiliar para exibir mensagens
-function showMessage(messageDiv, text, type) {
-    messageDiv.textContent = text;
-    
-    if (type === 'success') {
-        messageDiv.style.backgroundColor = '#d4edda';
-        messageDiv.style.color = '#155724';
-    } else if (type === 'error') {
-        messageDiv.style.backgroundColor = '#f8d7da';
-        messageDiv.style.color = '#c41e3a';
-    }
-    
-    messageDiv.style.display = 'block';
-}
-
-// Função para obter subscribers do localStorage (para debug/export)
-function getLocalSubscribers() {
-    try {
-        return JSON.parse(localStorage.getItem('newsletter_subscribers') || '[]');
-    } catch (err) {
-        console.error('Erro ao obter subscribers:', err);
-        return [];
-    }
-}
-
-// Função para limpar subscribers do localStorage
-function clearLocalSubscribers() {
-    try {
-        localStorage.removeItem('newsletter_subscribers');
-        console.log('Subscribers locais removidos');
-    } catch (err) {
-        console.error('Erro ao limpar subscribers:', err);
-    }
-}
-
-// Função para exportar subscribers em CSV
-function exportSubscribersAsCSV() {
-    const subscribers = getLocalSubscribers();
-    if (subscribers.length === 0) {
-        console.warn('Nenhum subscriber para exportar');
-        return;
-    }
-
-    const headers = Object.keys(subscribers[0]);
-    const csvContent = [
-        headers.join(','),
-        ...subscribers.map(sub => 
-            headers.map(header => {
-                const value = sub[header];
-                // Escapar aspas e envolver em aspas se contiver vírgula
-                return typeof value === 'string' && value.includes(',') 
-                    ? `"${value.replace(/"/g, '""')}"` 
-                    : value;
-            }).join(',')
-        )
-    ].join('\n');
-
-    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
-    const link = document.createElement('a');
-    const url = URL.createObjectURL(blob);
-    link.setAttribute('href', url);
-    link.setAttribute('download', `newsletter-subscribers-${new Date().toISOString().split('T')[0]}.csv`);
-    link.style.visibility = 'hidden';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
 }
 
 document.addEventListener('DOMContentLoaded', injectNewsletter);
