@@ -1,14 +1,14 @@
 const siteConfig = {
     year: new Date().getFullYear(),
-    // email: "contato@justicaemdia.com.br",
-    // phone: "+55 21 98269-4928",
+    email: "contato@justicaemdia.com.br",
+    phone: "+55 21 98269-4928",
     description: "Portal de notícias e análises sobre direito, legislação e jurisprudência. Acompanhe as principais decisões dos tribunais brasileiros e mudanças na legislação.",
 
     social: {
-     //facebook: "",
-     //instagram: "https://instagram.com/justicaemdia_br",
-     //twitter: "",
-     //linkedin: "https://linkedin.com/company/justicaemdia"
+     facebook: "",
+     instagram: "https://instagram.com/justicaemdia_br",
+     twitter: "",
+     linkedin: "https://linkedin.com/company/justicaemdia"
     },
     
     // Configuração do Menu (Gerenciamento em Massa)
@@ -29,7 +29,9 @@ const siteConfig = {
         { title: "Jurisprudência", link: "jurisprudencia/index.html" },
         { title: "Legislação", link: "legislacao/index.html" },
         { title: "Recursos Humanos", link: "recursos-humanos/index.html" },
-        { title: "Finanças", link: "financas/index.html" }
+        { title: "Finanças", link: "financas/index.html" },
+        { title: "Mundo", link: "mundo/index.html" },
+        { title: "Política", link: "politica/index.html" }
     ],
 
     supporters: [
@@ -103,7 +105,32 @@ const siteConfig = {
        { name: "Apoiador 5", img: "img/banner-apoiadores/apoiador-5.png", link: "https://www.romercarvalho.adv.br", endDate: "2026-12-31", pages: "full"}
         ]
     },
-    searchText: "Pesquisar"
+    searchText: "Pesquisar",
+
+    // Configuração do Footer (Gerenciamento em Massa)
+    footer: {
+        // Seção de Recursos (Links principais)
+        resources: [
+            { title: "Direito Civil", link: "direito-civil/index.html" },
+            { title: "Direito de Família", link: "direito-de-familia/index.html" },
+            { title: "Direito Penal", link: "direito-penal/index.html" },
+            { title: "Direito Trabalhista", link: "direito-trabalhista/index.html" },
+            { title: "Direito Militar", link: "direito-militar/index.html" },
+            { title: "Compliance", link: "compliance/index.html" },
+            { title: "Jurisprudência", link: "jurisprudencia/index.html" },
+            { title: "Legislação", link: "legislacao/index.html" },
+            { title: "Recursos Humanos", link: "recursos-humanos/index.html" },
+            { title: "Finanças", link: "financas/index.html" },
+            { title: "Mundo", link: "mundo/index.html" },
+            { title: "Política", link: "politica/index.html" }
+        ],
+        // Links adicionais do footer
+        additionalLinks: [
+            { title: "Entre em Contato", link: "contato.html" },
+            { title: "Quem Somos", link: "quem-somos.html" },
+            { title: "Apoiadores", link: "apoiadores.html" },
+        ]
+    }
 };
 
 function isBannerActiveJS(banner) {
@@ -157,6 +184,8 @@ function updateGlobalElements() {
                      path.includes('/legislacao/') ||
                      path.includes('/financas/') ||
                      path.includes('/recursos-humanos/') ||
+                     path.includes('/mundo/') ||
+                     path.includes('/politica/') ||
                      path.includes('/apoiadores/');
 
     // Função para ajustar caminhos relativos
@@ -196,21 +225,38 @@ function updateGlobalElements() {
         navList.innerHTML = menuHTML;
     });
 
-    // Atualizar Categorias no Footer
-    const footerCategories = document.querySelector('.footer-section ul');
-    if (footerCategories) {
-        let footerHTML = '';
+// Atualizar Categorias e Recursos do Footer
+const footerSections = document.querySelectorAll('.footer-section');
+if (footerSections.length >= 3) {
+    // Segunda seção (índice 1) = Categorias
+    const categoriesSection = footerSections[1];
+    const categoriesUl = categoriesSection.querySelector('ul');
+    if (categoriesUl) {
+        let categoriesHTML = '';
         siteConfig.menu.forEach(item => {
             if (item.subcategories) {
                 item.subcategories.forEach(sub => {
-                    footerHTML += `<li><a href="${adjustPath(sub.link)}">${sub.title}</a></li>`;
+                    categoriesHTML += `<li><a href="${adjustPath(sub.link)}">${sub.title}</a></li>`;
                 });
             } else {
-                footerHTML += `<li><a href="${adjustPath(item.link)}">${item.title}</a></li>`;
+                categoriesHTML += `<li><a href="${adjustPath(item.link)}">${item.title}</a></li>`;
             }
         });
-        footerCategories.innerHTML = footerHTML;
+        categoriesUl.innerHTML = categoriesHTML;
     }
+    
+    // Terceira seção (índice 2) = Recursos (additionalLinks)
+    const recursosSection = footerSections[2];
+    const recursosUl = recursosSection.querySelector('ul');
+    if (recursosUl && siteConfig.footer && siteConfig.footer.additionalLinks) {
+        let recursosHTML = '';
+        siteConfig.footer.additionalLinks.forEach(item => {
+            recursosHTML += `<li><a href="${adjustPath(item.link)}">${item.title}</a></li>`;
+        });
+        recursosUl.innerHTML = recursosHTML;
+    }
+}
+
     
     // Atualizar ano
     document.querySelectorAll('.footer-year').forEach(el => el.textContent = siteConfig.year);
