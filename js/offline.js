@@ -12,7 +12,7 @@ const maintenanceConfig = {
     // Formato: { dia: DD, mes: MM, ano: AAAA, hora: HH, minuto: mm }
     schedule: {
         start: { dia: 17, mes: 2, ano: 2026, hora: 20, minuto: 40 }, // Quando o site fica "OFF"
-        end: { dia: 20, mes: 2, ano: 2026, hora: 12, minuto: 59 }    // Quando o site volta "ON"
+        end: { dia: 17, mes: 2, ano: 2026, hora: 12, minuto: 59 }    // Quando o site volta "ON"
     },
 
     // Mensagem que aparecerá quando o site estiver em manutenção
