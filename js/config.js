@@ -129,7 +129,7 @@ const siteConfig = {
         additionalLinks: [
             { title: "Entre em Contato", link: "contato.html" },
             { title: "Quem Somos", link: "quem-somos.html" },
-            { title: "Apoiadores", link: "apoiadores.html" },
+            { title: "Apoiadores", link: "apoiadores/index.html" },
         ]
     }
 };
