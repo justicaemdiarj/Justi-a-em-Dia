@@ -31,6 +31,7 @@ const siteConfig = {
         { title: "Legislação", link: "legislacao/index.html" },
         { title: "Recursos Humanos", link: "recursos-humanos/index.html" },
         { title: "Finanças", link: "financas/index.html" },
+     //    { title: "+Vagas", link: "vagas/index.html" },
       //  { title: "Mundo", link: "mundo/index.html" },
       //  { title: "Política", link: "politica/index.html" }
     ],
@@ -73,10 +74,10 @@ const siteConfig = {
         uol: [
             { 
                  name: "Banner UOL Padrão", 
-                 // img: window.innerWidth <= 768 ? "img/banner-mobile-uol.png" : "img/banner-uol.png", 
+                  img: window.innerWidth <= 768 ? "img/banner-mobile-uol.png" : "img/banner-uol.png", 
                  link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", 
                  endDate: null, 
-                 pages: ["contato.html"]
+                 pages: ["vagas/index.html"]
             },
             // BANNER ESPECIFICO POR PÁGINA OU MESCLA
             
@@ -92,7 +93,7 @@ const siteConfig = {
                  img: window.innerWidth <= 768 ? "img/cirurgia-estetica.jpg" : "img/cirurgia-estetica.jpg", 
                  link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", 
                  endDate: null, 
-                 pages: ["contato.html"]
+                 pages:  ["vagas/index.html"]
             }
             
         ],
@@ -127,9 +128,11 @@ const siteConfig = {
         ],
         // Links adicionais do footer
         additionalLinks: [
+            { title: "Política de Privacidade", link: "politica-privacidade.html" },
             { title: "Entre em Contato", link: "contato.html" },
             { title: "Quem Somos", link: "quem-somos.html" },
             { title: "Apoiadores", link: "apoiadores/index.html" },
+            
         ]
     }
 };
@@ -187,7 +190,8 @@ function updateGlobalElements() {
                      path.includes('/recursos-humanos/') ||
                      path.includes('/mundo/') ||
                      path.includes('/politica/') ||
-                     path.includes('/apoiadores/');
+                     path.includes('/apoiadores/') ||
+                     path.includes('/vagas/');
 
     // Função para ajustar caminhos relativos
     function adjustPath(link) {

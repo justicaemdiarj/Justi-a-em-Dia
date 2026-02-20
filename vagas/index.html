@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+        <script src="../js/offline.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vagas de Emprego - Justiça em Dia</title>
+    <meta name="title" content="Vagas de Emprego - Justiça em Dia">
+    <meta name="description" content="Vagas de Emprego em diversas areas que você poderia imaginar, esta bem aqui!">
+    <link rel="icon" type="images/png" href="../img/favicon.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+
+        <meta name="robots" content="index">
+    <link rel="canonical" href="https://www.justicaemdia.com.br/emprego/index.html">
+
+        <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.justicaemdia.com.br/apoiadores/advogado-romer-carvalho.html">
+    <meta property="og:title" content="Vagas de Emprego - Justiça em Dia">
+    <meta property="og:description" content="Vagas de Emprego em diversas areas que você poderia imaginar, esta bem aqui!">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&h=1000&fit=crop">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.justicaemdiacom.br/emprego/index.html">
+    <meta property="twitter:title" content="Vagas de Emprego - Justiça em Dia">
+    <meta property="twitter:description" content="Vagas de Emprego em diversas areas que você poderia imaginar, esta bem aqui!">
+    <meta property="twitter:image" content="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&h=1000&fit=crop">
+
+
+    <meta name="google-site-verification" content="9pSo4WA51A3I_ljz14HgsbGFVAHfJIj-pAnTVMl1HRM" />
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RD2L4JB84V"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RD2L4JB84V');
+</script>
+
+        <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Justiça em Dia",
+      "url": "https://www.justicaemdia.com.br/emprego/index.html",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.justicaemdia.com.br/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <style>
+        .jobs-container {
+            padding: 40px 0;
+        }
+        .filters-section {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            align-items: flex-end;
+        }
+        .filter-group {
+            flex: 1;
+            min-width: 200px;
+        }
+        .filter-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #333;
+            font-size: 14px;
+        }
+        .filter-group select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-family: inherit;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+        .filter-group select:focus {
+            border-color: #c41e3a;
+        }
+        .jobs-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 25px;
+        }
+        .job-card {
+            background: #fff;
+            border: 1px solid #eee;
+            border-radius: 12px;
+            padding: 25px;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+        }
+        .job-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+            border-color: #c41e3a;
+        }
+        .job-title {
+            font-size: 20px;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 15px;
+            line-height: 1.3;
+        }
+        .job-title a {
+            color: inherit;
+            text-decoration: none;
+        }
+        .job-title a:hover {
+            color: #c41e3a;
+        }
+        .job-info {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #666;
+            font-size: 14px;
+        }
+        .job-info i {
+            color: #c41e3a;
+            width: 16px;
+        }
+        .job-company {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 15px;
+        }
+        .job-salary {
+            font-weight: 700;
+            color: #2e7d32;
+            font-size: 16px;
+            margin-top: auto;
+            padding-top: 15px;
+            border-top: 1px solid #f0f0f0;
+        }
+        .no-jobs-message {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 50px;
+            background: #f9f9f9;
+            border-radius: 12px;
+            color: #666;
+        }
+        @media (max-width: 768px) {
+            .filters-section {
+                flex-direction: column;
+                align-items: stretch;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="top-bar">
+            <div class="container">
+                <div class="market-ticker" id="marketTicker"></div>
+            </div>
+        </div>
+        <div class="main-header">
+            <div class="container">
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span><span></span><span></span>
+                </button>
+                <div class="logo">
+                    <a href="../index.html">
+                        <img src="../img/logo.justica-em-dia.png" style="width: 100%; height: 90px;">
+                    </a>
+                </div>
+                <div class="header-actions">
+                    <div class="search-box">
+                        <input type="text" id="searchInput" />
+                        <button class="search-btn" title="Buscar"><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="main-nav desktop-menu-container">
+            <div class="container">
+                <ul class="nav-list desktop-nav-list"></ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <section class="jobs-container">
+                <h1 class="section-title" style="margin-bottom: 30px;">Vagas de Emprego (+Emprego)</h1>
+                
+                <div class="filters-section">
+                    <div class="filter-group">
+                        <label for="filter-type">Tipo de Vaga</label>
+                        <select id="filter-type">
+                            <option value="all">Todos os tipos</option>
+                            <option value="CLT">CLT</option>
+                            <option value="PJ">PJ</option>
+                            <option value="Estágio">Estágio</option>
+                            <option value="Temporário">Temporário</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="filter-location">Localidade</label>
+                        <select id="filter-location">
+                            <option value="all">Todas as localidades</option>
+                            <option value="São Paulo, SP">São Paulo, SP</option>
+                            <option value="Rio de Janeiro, RJ">Rio de Janeiro, RJ</option>
+                            <option value="Brasília, DF">Brasília, DF</option>
+                            <option value="Belo Horizonte, MG">Belo Horizonte, MG</option>
+                            <option value="Remoto">Remoto</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="filter-salary">Faixa Salarial</label>
+                        <select id="filter-salary">
+                            <option value="all">Todas as faixas</option>
+                            <option value="0-3000">Até R$ 3.000</option>
+                            <option value="3000-6000">R$ 3.000 - R$ 6.000</option>
+                            <option value="6000-10000">R$ 6.000 - R$ 10.000</option>
+                            <option value="10000+">Acima de R$ 10.000</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="jobs-grid" id="jobsGrid">
+                    <!-- Vagas carregadas via JavaScript -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+<!-- Footer -->
+                <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Sobre Justiça em Dia</h4>
+                    <p class="footer-description">Portal de notícias e análises sobre direito, legislação e jurisprudência. Acompanhe as principais decisões dos tribunais brasileiros e mudanças na legislação.</p>
+                    <div class="footer-social">
+                        <h5>Siga-nos</h5>
+                        <div class="footer-social-links">
+                            <!-- Redes sociais carregadas via js/config.js -->
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Categorias</h4>
+                    <ul>
+                        <!-- Categorias carregadas via js/config.js -->
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Recursos</h4>
+                    <ul>
+                        <li><a href="../apoiadores/index.html">Apoiadores</a></li>
+                        <li><a href="../contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p>Email: <a href="mailto:contato@justicaemdia.com.br" class="footer-email">contato@justicaemdia.com.br</a></p>
+                    <p>Telefone: <a href="tel:1130000000" class="footer-phone">(11) 3000-0000</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span class="footer-year">2026</span> Justiça em Dia. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/config.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/dynamic-content.js"></script>
+    <script src="../js/search.js"></script>
+    <script src="../js/newsletter-injector.js"></script>
+
+
+    <script>
+        // Dados das Vagas (Exemplo)
+        const jobsData = [
+            {
+                id: 1,
+                title: "Advogado Júnior - Direito Civil",
+                company: "Carvalho & Associados",
+                location: "São Paulo, SP",
+                type: "CLT",
+                salary: 4500,
+                link: "vaga-advogado-junior.html"
+            },
+            {
+                id: 2,
+                title: "Analista de Compliance Pleno",
+                company: "TechJur Solutions",
+                location: "Remoto",
+                type: "PJ",
+                salary: 8500,
+                link: "vaga-analista-compliance.html"
+            },
+            {
+                id: 3,
+                title: "Estagiário de Direito",
+                company: "Ministério Público",
+                location: "Brasília, DF",
+                type: "Estágio",
+                salary: 1500,
+                link: "vaga-estagio-direito.html"
+            },
+            {
+                id: 4,
+                title: "Consultor Jurídico Sênior",
+                company: "Global Law Firm",
+                location: "Rio de Janeiro, RJ",
+                type: "CLT",
+                salary: 12000,
+                link: "vaga-consultor-senior.html"
+            },
+            {
+                id: 5,
+                title: "Assistente Administrativo Jurídico",
+                company: "Escritório Modelo",
+                location: "Belo Horizonte, MG",
+                type: "CLT",
+                salary: 2800,
+                link: "vaga-assistente-juridico.html"
+            },
+            {
+                id: 6,
+                title: "Especialista em Direito do Trabalho",
+                company: "Sindicato Nacional",
+                location: "São Paulo, SP",
+                type: "PJ",
+                salary: 9500,
+                link: "vaga-especialista-trabalho.html"
+            }
+        ];
+
+        function renderJobs(jobs) {
+            const grid = document.getElementById('jobsGrid');
+            grid.innerHTML = '';
+
+            if (jobs.length === 0) {
+                grid.innerHTML = '<div class="no-jobs-message"><i class="fas fa-search" style="font-size: 3rem; margin-bottom: 20px; display: block;"></i>Nenhuma vaga encontrada com os filtros selecionados.</div>';
+                return;
+            }
+
+            jobs.forEach(job => {
+                const card = document.createElement('div');
+                card.className = 'job-card';
+                card.innerHTML = `
+                    <h3 class="job-title"><a href="${job.link}">${job.title}</a></h3>
+                    <div class="job-company">${job.company}</div>
+                    <div class="job-info"><i class="fas fa-map-marker-alt"></i> ${job.location}</div>
+                    <div class="job-info"><i class="fas fa-briefcase"></i> ${job.type}</div>
+                    <div class="job-salary">R$ ${job.salary.toLocaleString('pt-BR', { minimumFractionDigits: 2 })}</div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        function filterJobs() {
+            const type = document.getElementById('filter-type').value;
+            const location = document.getElementById('filter-location').value;
+            const salaryRange = document.getElementById('filter-salary').value;
+
+            const filtered = jobsData.filter(job => {
+                const matchType = type === 'all' || job.type === type;
+                const matchLocation = location === 'all' || job.location === location;
+                
+                let matchSalary = true;
+                if (salaryRange !== 'all') {
+                    if (salaryRange === '0-3000') matchSalary = job.salary <= 3000;
+                    else if (salaryRange === '3000-6000') matchSalary = job.salary > 3000 && job.salary <= 6000;
+                    else if (salaryRange === '6000-10000') matchSalary = job.salary > 6000 && job.salary <= 10000;
+                    else if (salaryRange === '10000+') matchSalary = job.salary > 10000;
+                }
+
+                return matchType && matchLocation && matchSalary;
+            });
+
+            renderJobs(filtered);
+        }
+
+        // Event Listeners para os filtros
+        document.getElementById('filter-type').addEventListener('change', filterJobs);
+        document.getElementById('filter-location').addEventListener('change', filterJobs);
+        document.getElementById('filter-salary').addEventListener('change', filterJobs);
+
+        // Inicializar a página
+        document.addEventListener('DOMContentLoaded', () => {
+            renderJobs(jobsData);
+            
+            // Atualizar categorias no footer (específico para esta página)
+            if (typeof siteConfig !== 'undefined' && siteConfig.footer && siteConfig.footer.resources) {
+                const footerList = document.getElementById('footer-categories');
+                if (footerList) {
+                    footerList.innerHTML = siteConfig.footer.resources.map(res => 
+                        `<li><a href="../${res.link}">${res.title}</a></li>`
+                    ).join('');
+                }
+            }
+        });
+    </script>
+</body>
+</html>
