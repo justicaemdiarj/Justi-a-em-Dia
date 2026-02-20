@@ -4,7 +4,7 @@ const categoryNewsData = [
         title: "Corte trabalhista rejeita adicional de risco a bancário por combustível guardado no edifício onde trabalha",
         date: "19/02/2026",
         timestamp: "2026-02-19T16:53:51.950287",
-        image: "https://images.unsplash.com/photo-1521791136064-7986c2959213?w=800&q=80",
+        image: "https://www.spbancarios.com.br/Uploads/ckfinder/userfiles/images/_MAU8083_materia.jpg",
         excerpt: "Adicional exige contato direto e habitual com inflamáveis — presença eventual de combustível no local de trabalho não basta...",
         link: "../direito-trabalhista/corte-trabalhista-rejeita-adicional-de-risco-a-bancario-por-combustivel-guardado-no-edificio-onde-trabalha.html",
         category: "Direito Trabalhista",

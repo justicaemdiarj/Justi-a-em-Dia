@@ -4,7 +4,7 @@ const categoryNewsData = [
         title: "Tribunais reafirmam que cobranças de débitos com prazo superior a 5 anos são ilegais",
         date: "19/02/2026",
         timestamp: "2026-02-19T16:53:51.948620",
-        image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
+        image: "https://atualidade.net/wp-content/uploads/2025/05/Superior-Tribunal-de-Justica-STJ-stj_1908200979_0.webp-Foto-Marcello-Casal-Jr-Agencia-Brasil-Arquivo-e1746752603163.webp",
         excerpt: "Prescrição protege o consumidor inadimplente, mas o desconhecimento da lei ainda leva milhões a pagarem o que não devem...",
         link: "../direito-civil/divida-velha-tribunais-reafirmam-que-cobrancas-de-debitos-com-prazo-superior-a-5-anos-sao-ilegais.html",
         category: "Direito Civil",

@@ -1,7 +1,7 @@
 // Configurações específicas da página de contato
 const contactConfig = {
     whatsapp: "+5521982684928", // Formato: +5521982684928 ou vazio ""
-   // phone: "+5521982684928",
+    phone: "+5521982684928",
     email: "contato@justicaemdia.com.br",
     address: "Rio de Janeiro, RJ",
     addressDetails: "Atendimento online",

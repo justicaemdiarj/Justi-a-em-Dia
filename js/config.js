@@ -72,37 +72,37 @@ const siteConfig = {
         uol: [
             { 
                  name: "Banner UOL Padrão", 
-                 img: window.innerWidth <= 768 ? "img/banner-mobile-uol.png" : "img/banner-uol.png", 
-                 link: "https://www.romercarvalho.adv.br", 
+                 // img: window.innerWidth <= 768 ? "img/banner-mobile-uol.png" : "img/banner-uol.png", 
+                 link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", 
                  endDate: null, 
-                 pages: "full"
+                 pages: ["contato.html"]
             },
             // BANNER ESPECIFICO POR PÁGINA OU MESCLA
             
             { 
                  name: "Banner UOL Específico 1", 
                  img: window.innerWidth <= 768 ? "https://macmagazine.com.br/wp-content/uploads/2019/03/06-iphone-can-do-what-2.gif" : "https://macmagazine.com.br/wp-content/uploads/2019/03/06-iphone-can-do-what-2.gif", 
-                 link: "https://www.romercarvalho.adv.br", 
+                 link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", 
                  endDate: null, 
-                 pages: ["jurisprudencia/index.html"]
+                 pages: ["contato.html"]
             },
             { 
                  name: "Banner UOL Específico 2", 
                  img: window.innerWidth <= 768 ? "img/cirurgia-estetica.jpg" : "img/cirurgia-estetica.jpg", 
-                 link: "https://www.romercarvalho.adv.br", 
+                 link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", 
                  endDate: null, 
-                 pages: ["jurisprudencia/o-oraculo-digital-da-justica-quando-algoritmos-preveem-decisoes-judiciais.html"]
+                 pages: ["contato.html"]
             }
             
         ],
         desktop: [
-        { name: "Apoiador Romer Carvalho Desktop 1", img: "img/banner-apoiadores/apoiador-romer-carvalho-desktop-1.png", link: "https://www.romercarvalho.adv.br", endDate: "2026-12-31", pages: "full" },
-        { name: "Apoiador Romer Carvalho Desktop 2", img: "img/banner-apoiadores/apoiador-romer-carvalho-desktop-2.png", link: "https://www.romercarvalho.adv.br", endDate: "2026-12-31", pages: "full" },
+        { name: "Apoiador Romer Carvalho", img: "img/banner-apoiadores/apoiador-romer-carvalho-desktop-1.png", link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2026-12-31", pages: "full" },
+        { name: "Apoiador Romer Carvalho", img: "img/banner-apoiadores/apoiador-romer-carvalho-desktop-2.png", link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2026-12-31", pages: "full" },
         ],
         mobile: [
-       { name: "Apoiador Romer Carvalho Mobile 1", img: "img/banner-apoiadores/apoiador-romer-carvalho-mobile-1.png", link: "https://www.romercarvalho.adv.br", endDate: "2026-12-31", pages: "full" },
-       { name: "Apoiador Romer Carvalho Mobile 2", img: "img/banner-apoiadores/apoiador-romer-carvalho-mobile-2.png", link: "https://www.romercarvalho.adv.br", endDate: "2026-12-31", pages: "full"},
-       { name: "Apoiador 5", img: "img/banner-apoiadores/apoiador-5.png", link: "https://www.romercarvalho.adv.br", endDate: "2026-12-31", pages: "full"}
+       { name: "Apoiador Romer Carvalho", img: "img/banner-apoiadores/apoiador-romer-carvalho-mobile-1.png", link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2026-12-31", pages: "full" },
+       { name: "Apoiador Romer Carvalho", img: "img/banner-apoiadores/apoiador-romer-carvalho-mobile-2.png", link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2026-12-31", pages: "full"},
+       { name: "Apoiador Romer Carvalho", img: "img/banner-apoiadores/apoiador-5.png", link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2026-12-31", pages: "full"}
         ]
     },
     searchText: "Pesquisar",
