@@ -15,7 +15,7 @@ const categoryNewsData = [
         title: "A Importância da Diversidade e Inclusão nas Organizações",
         date: "11/02/2026",
         timestamp: "2026-02-11T11:20:00",
-        image: "https://www.socialconsultoria.com.br/wp-content/uploads/Sem-Ti%CC%81tulo-1.png",
+        image: "https://static.vecteezy.com/ti/vetor-gratis/p1/21219960-diversidade-e-inclusao-logotipo-com-mao-colorida-logotipo-simbolo-do-harmonia-e-uniao-vetor.jpg",
         excerpt: "Estratégias práticas para implementar programas de diversidade que geram valor real para as empresas e para a sociedade.",
         link: "#",
         category: "Recursos Humanos",
