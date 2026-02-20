@@ -1,5 +1,27 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
+        {
+        title: "Corte trabalhista rejeita adicional de risco a bancário por combustível guardado no edifício onde trabalha",
+        date: "19/02/2026",
+        timestamp: "2026-02-19T16:53:51.950287",
+        image: "https://images.unsplash.com/photo-1521791136064-7986c2959213?w=800&q=80",
+        excerpt: "Adicional exige contato direto e habitual com inflamáveis — presença eventual de combustível no local de trabalho não basta...",
+        link: "../direito-trabalhista/corte-trabalhista-rejeita-adicional-de-risco-a-bancario-por-combustivel-guardado-no-edificio-onde-trabalha.html",
+        category: "Direito Trabalhista",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+    {
+        title: "Ministra do TST derruba jornada 12x36 de vigilante após identificar acúmulo sistemático de horas extraordinárias",
+        date: "19/02/2026",
+        timestamp: "2026-02-19T16:53:51.946806",
+        image: "https://images.unsplash.com/photo-1505664194779-8beaceb93744?w=800&q=80",
+        excerpt: "Corte entende que a realização sistemática de horas além da jornada prevista desnatura o regime e afasta os benefícios da negociação coletiva que o autorizou...",
+        link: "../direito-trabalhista/ministra-do-tst-derruba-jornada-12x36-de-vigilante-apos-identificar-acumulo-sistematico-de-horas-extraordinarias.html",
+        category: "Direito Trabalhista",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
     {
     title: "Quando o Silêncio Se Torna Arma no Ambiente Corporativo", 
     date: "13/02/2026", 

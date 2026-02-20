@@ -1,5 +1,27 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
+        {
+        title: "Segunda Turma do STF decide que exibição de vídeo pelo Ministério Público na presença de jurados não invalida julgamento",
+        date: "19/02/2026",
+        timestamp: "2026-02-19T16:53:51.947722",
+        image: "https://images.unsplash.com/photo-1473186578172-c141e6798ee4?w=800&q=80",
+        excerpt: "Ministros aplicam princípio de que não há nulidade sem prejuízo demonstrado, mas penalistas alertam para riscos à imparcialidade do conselho de sentença",
+        link: "../direito-penal/stf-segunda-turma-decide-que-exibicao-de-video-pelo-ministerio-publico-na-presenca-de-jurados-nao-invalida-julgamento.html",
+        category: "Direito Penal",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+    {
+        title: "TJ/DF libera casal preso e reconhece domínio técnico na produção doméstica de cannabis para fins terapêuticos",
+        date: "19/02/2026",
+        timestamp: "2026-02-19T16:53:51.945894",
+        image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80",
+        excerpt: "Tribunal do Distrito Federal reconhece produção para uso terapêutico próprio e derruba prisão preventiva em decisão que reflete avanço do debate sobre a maconha medicinal no país",
+        link: "../direito-penal/tj-df-libera-casal-preso-e-reconhece-dominio-tecnico-na-producao-domestica-de-cannabis-para-fins-terapeuticos.html",
+        category: "Direito Penal",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
     {
         title: "Crimes Ambientais Transnacionais",
         date: "13/02/2026",

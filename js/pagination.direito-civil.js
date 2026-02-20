@@ -1,6 +1,28 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
     {
+        title: "Tribunais reafirmam que cobranças de débitos com prazo superior a 5 anos são ilegais",
+        date: "19/02/2026",
+        timestamp: "2026-02-19T16:53:51.948620",
+        image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
+        excerpt: "Prescrição protege o consumidor inadimplente, mas o desconhecimento da lei ainda leva milhões a pagarem o que não devem...",
+        link: "../direito-civil/divida-velha-tribunais-reafirmam-que-cobrancas-de-debitos-com-prazo-superior-a-5-anos-sao-ilegais.html",
+        category: "Direito Civil",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+    {
+        title: "Juíza nega gratuidade processual a mulher após constatar gastos regulares com apostas online",
+        date: "19/02/2026",
+        timestamp: "2026-02-19T16:53:51.944920",
+        image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80",
+        excerpt: "Juiz entende que gastos com apostas são incompatíveis com a declaração de hipossuficiência econômica; decisão acende debate sobre limites do benefício...",
+        link: "../direito-civil/piracicaba-juiza-nega-gratuidade-processual-a-mulher-apos-constatar-gastos-regulares-com-apostas-online.html",
+        category: "Direito Civil",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+    {
         title: "A Armadilha do Crédito Fácil",
         date: "13/02/2026",
         timestamp: "2026-02-13T12:00:00",

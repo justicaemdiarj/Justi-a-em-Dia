@@ -1,14 +1,14 @@
 const siteConfig = {
     year: new Date().getFullYear(),
-    email: "contato@justicaemdia.com.br",
-    phone: "+55 21 98269-4928",
+   // email: "contato@justicaemdia.com.br",
+   // phone: "+55 21 98269-4928",
     description: "Portal de notícias e análises sobre direito, legislação e jurisprudência. Acompanhe as principais decisões dos tribunais brasileiros e mudanças na legislação.",
 
     social: {
-     facebook: "",
-     instagram: "https://instagram.com/justicaemdia_br",
-     twitter: "",
-     linkedin: "https://linkedin.com/company/justicaemdia"
+   //  facebook: "",
+   //  instagram: "https://instagram.com/justicaemdia_br",
+   //  twitter: "",
+   //  linkedin: "https://linkedin.com/company/justicaemdia"
     },
     
     // Configuração do Menu (Gerenciamento em Massa)
@@ -30,8 +30,8 @@ const siteConfig = {
         { title: "Legislação", link: "legislacao/index.html" },
         { title: "Recursos Humanos", link: "recursos-humanos/index.html" },
         { title: "Finanças", link: "financas/index.html" },
-        { title: "Mundo", link: "mundo/index.html" },
-        { title: "Política", link: "politica/index.html" }
+      //  { title: "Mundo", link: "mundo/index.html" },
+      //  { title: "Política", link: "politica/index.html" }
     ],
 
     supporters: [
@@ -121,8 +121,8 @@ const siteConfig = {
             { title: "Legislação", link: "legislacao/index.html" },
             { title: "Recursos Humanos", link: "recursos-humanos/index.html" },
             { title: "Finanças", link: "financas/index.html" },
-            { title: "Mundo", link: "mundo/index.html" },
-            { title: "Política", link: "politica/index.html" }
+        //    { title: "Mundo", link: "mundo/index.html" },
+        //    { title: "Política", link: "politica/index.html" }
         ],
         // Links adicionais do footer
         additionalLinks: [
