@@ -6,7 +6,7 @@ const categoryNewsData = [
         timestamp: "2026-02-19T16:53:51.947722",
         image: "https://media.gazetadopovo.com.br/2025/10/15221712/stf-ensino-genero-660x372.jpg.webp",
         excerpt: "Ministros aplicam princípio de que não há nulidade sem prejuízo demonstrado, mas penalistas alertam para riscos à imparcialidade do conselho de sentença",
-        link: "../direito-penal/stf-segunda-turma-decide-que-exibicao-de-video-pelo-ministerio-publico-na-presenca-de-jurados-nao-invalida-julgamento.html",
+        link: "../direito-penal/stf-segunda-turma-decide-que-exibicao-de-video.html",
         category: "Direito Penal",
         author: "Justiça em Dia",
         authorLink: "#"

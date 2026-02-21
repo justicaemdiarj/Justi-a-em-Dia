@@ -17,29 +17,109 @@ const siteConfig = {
     
     // Configuração do Menu (Gerenciamento em Massa)
     menu: [
-        {
-            title: "Direito",
-            link: "#",
-            isClickable: false,
-            subcategories: [
-                { title: "Civil", link: "direito-civil/index.html" },
-                { title: "Família", link: "direito-de-familia/index.html" },
-                { title: "Criminal", link: "direito-penal/index.html" },
-                { title: "Trabalhista", link: "direito-trabalhista/index.html" },
-                { title: "Militar", link: "direito-militar/index.html" }
-            ]
-        },
+
+
+        { title: "Direito Civil", link: "direito-civil/index.html" },
+        { title: "Direito de Família", link: "direito-de-familia/index.html" },
+        { title: "Direito Criminal", link: "direito-penal/index.html" },
+        { title: "Direito Trabalhista", link: "direito-trabalhista/index.html" },
+        { title: "Direito Militar", link: "direito-militar/index.html" },
         { title: "Compliance", link: "compliance/index.html" },
         { title: "Jurisprudência", link: "jurisprudencia/index.html" },
         { title: "Legislação", link: "legislacao/index.html" },
-        { title: "Recursos Humanos", link: "recursos-humanos/index.html" },
-        { title: "Finanças", link: "financas/index.html" },
-     //    { title: "+Vagas", link: "vagas/index.html" },
-      //  { title: "Mundo", link: "mundo/index.html" },
-      //  { title: "Política", link: "politica/index.html" }
+      //  {
+       //     title: "Direito Civil",
+        //    link: "direito-civil/index.html",
+       //     isClickable: true,
+         //   subcategories: [
+          //     { title: "Responsabilidade civil", link: "responsabilidade-civil/index.html" },
+          //     { title: "Direito imobiliário", link: "direito-imobiliario/index.html" },
+          //     { title: "Danos morais e materiais", link: "danos-morais-e-materiais/index.html" },
+           //    { title: "Direito do consumidor", link: "direito-do-consumidor/index.html" },
+          //     { title: "Prescrição e decadência", link: "prescricao-e-decadencia/index.html" },
+          //     { title: "Direito digital e proteção de dados", link: "direito-digital-e-protecao-de-dados/index.html" },
+          // ]
+      //  },
+      //  {
+       //     title: "Direito de Família",
+       //     link: "direito-de-familia/index.html",
+        //    isClickable: true,
+         //   subcategories: [
+           //   { title: "Divórcio", link: "divorcio/index.html" },
+          //    { title: "Regime de bens", link: "regime-de-bens/index.html" },
+          //    { title: "Violência doméstica", link: "violencia-domestica/index.html" },
+          //    { title: "Mediação familiar", link: "mediacao-familiar/index.html" },
+          //    { title: "Partilha de bens", link: "partilha-de-bens/index.html" }
+       //     ]
+      //  },
+      //  {
+     //       title: "Direito Criminal",
+    //        link: "direito-penal/index.html",
+    //        isClickable: true,
+     //   subcategories: [
+          //   { title: "Crimes digitais", link: "crimes-digitais/index.html" },
+          //   { title: "Prisões e medidas cautelares", link: "prisoes-e-medidas-cautelares/index.html" },
+         //    { title: "Crimes contra a dignidade", link: "crimes-contra-a-dignidade/index.html" },
+          //   { title: "Inquérito policial", link: "inquerito-policial/index.html" },
+         //    { title: "Dosimetria da pena", link: "dosiometria-da-pena/index.html" }
+     //     ]
+     //   },
+     //   {
+      //      title: "Direito Trabalhista",
+      //      link: "direito-trabalhista/index.html",
+     //       isClickable: true,
+     //      subcategories: [
+           //   { title: "Assédio moral e sexual", link: "assedio-moral-e-sexual/index.html" },
+           //   { title: "Acidente de trabalho", link: "acidente-de-trabalho/index.html" },
+           //   { title: "Reclamação trabalhista", link: "reclamacao-trabalhista/index.html" },
+           //   { title: "Vínculo empregatício", link: "vinculo-empregaticio/index.html" },
+          //    { title: "Direito previdenciário ", link: "direito-previdenciario/index.html" },
+          //    { title: "Adicional de insalubridade e periculosidade", link: "adicional-de-insalubridade-periculosidade/index.html" },
+      //    ]
+     //   },
+     //   {
+    //        title: "Direito Militar",
+     //       link: "direito-militar/index.html",
+     //       isClickable: true,
+     //      subcategories: [
+         //   { title: "Crimes militares", link: "crimes-militares/index.html" },
+         //   { title: "Conselho de disciplina", link: "conselho-de-disciplina/index.html" },
+         //   { title: "Justiça militar", link: "justica-militar/index.html" },
+         //   { title: "Reforma e reserva", link: "reforma-e-reserva/index.html" },
+         //   { title: "Direito previdenciário militar", link: "direito-previdenciario-militar/index.html" }
+      //     ]
+     //   },
+
+      //         {
+     //      title: "Recursos Humanos",
+      //     link: "recursos-humanos/index.html",
+      //    isClickable: true,
+       //    subcategories: [
+      //     { title: "Recrutamento e Seleção ", link: "recrutamento-e-selecao/index.html" },
+       //    { title: "Departamento Pessoal", link: "departamento-pessoal/index.html" },
+      //     { title: "Treinamento e Desenvolvimento", link: "treinamento-e-desenvolvimento/index.html" },
+      //     { title: "Remuneração e Benefícios", link: "remuneracao-e-beneficio/index.html" },
+      //     { title: "Gestão de Desempenho e Clima", link: "gestao-de-desempenho/index.html" }
+     //       ]
+      // },
+     //          {
+     //   title: "Finanças",
+     //   link: "financas/index.html",
+     //  isClickable: true,
+     //  subcategories: [
+      //   { title: "Mercado Financeiro e de Investimentos", link: "mercado-financeiro-e-de-investimento/index.html" },
+      //   { title: "Finanças Pessoais e Planejamento Financeiro", link: "financas-pessoais-e-planejamento-financeiro/index.html" },
+      //   { title: "Empresas e Negócios", link: "empresas-e-negocios/index.html" },
+        // { title: "Empreendedorismo", link: "empreendedorismo/index.html" },      
+       //   ]
+   //   },
+    //     { title: "+Vagas", link: "vagas/index.html" },
+    //   { title: "Mundo", link: "mundo/index.html" },
+    //   { title: "Política", link: "politica/index.html" }
     ],
     
         // Configuração do Footer (Gerenciamento em Massa)
+    
     footer: {
         // Links adicionais do footer
         additionalLinks: [
@@ -92,7 +172,7 @@ const siteConfig = {
                   img: window.innerWidth <= 768 ? "img/banner-mobile-uol.png" : "img/banner-uol.png", 
                  link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", 
                  endDate: null, 
-                 pages: ["vagas/index.html"]
+                 pages: ["vagas/index.html"] 
             },
             // BANNER ESPECIFICO POR PÁGINA OU MESCLA
             
@@ -101,7 +181,7 @@ const siteConfig = {
                  img: window.innerWidth <= 768 ? "https://macmagazine.com.br/wp-content/uploads/2019/03/06-iphone-can-do-what-2.gif" : "https://macmagazine.com.br/wp-content/uploads/2019/03/06-iphone-can-do-what-2.gif", 
                  link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", 
                  endDate: null, 
-                 pages: ["contato.html"]
+                 pages: ["vagas/index.html"]
             },
             { 
                  name: "Banner UOL Específico 2", 
@@ -181,7 +261,43 @@ function updateGlobalElements() {
                      path.includes('/mundo/') ||
                      path.includes('/politica/') ||
                      path.includes('/apoiadores/') ||
-                     path.includes('/vagas/');
+                     path.includes('/vagas/') ||
+                     path.includes('/acidente-de-trabalho/') ||
+                     path.includes('/adicional-de-insalubridade-periculosidade/') ||
+                     path.includes('/assedio-moral-e-sexual/') ||
+                     path.includes('/conselho-de-disciplina/') ||
+                     path.includes('/crimes-contra-a-dignidade/') ||
+                     path.includes('/crimes-digitais/') ||
+                     path.includes('/crimes-militares/') ||
+                     path.includes('/danos-morais-e-materiais/') ||
+                     path.includes('/departamento-pessoal/') ||
+                     path.includes('/direito-digital-e-protecao-de-dados/') ||
+                     path.includes('/direito-do-consumidor/') ||
+                     path.includes('/direito-imobiliario/') ||
+                     path.includes('/direito-previdenciario-militar/') ||
+                     path.includes('/direito-previdenciario/') ||
+                     path.includes('/divorcio/') ||
+                     path.includes('/dosiometria-da-pena/') ||
+                     path.includes('/empreendedorismo/') ||
+                     path.includes('/empresas-e-negocios/') ||
+                     path.includes('/financas-pessoais-e-planejamento-financeiro/') ||
+                     path.includes('/gestao-de-desempenho/') ||
+                     path.includes('/inquerito-policial/') ||
+                     path.includes('/justica-militar/') ||
+                     path.includes('/mediacao-familiar/') ||
+                     path.includes('/mercado-financeiro-e-de-investimento/') ||
+                     path.includes('/partilha-de-bens/') ||
+                     path.includes('/prescricao-e-decadencia/') ||
+                     path.includes('/prisoes-e-medidas-cautelares/') ||
+                     path.includes('/reclamacao-trabalhista/') ||
+                     path.includes('/recrutamento-e-selecao/') ||
+                     path.includes('/reforma-e-reserva/') ||
+                     path.includes('/regime-de-bens/') ||
+                     path.includes('/remuneracao-e-beneficio/') ||
+                     path.includes('/responsabilidade-civil/') ||
+                     path.includes('/treinamento-e-desenvolvimento/') ||
+                     path.includes('/vinculo-empregaticio/') ||
+                     path.includes('/violencia-domestica/');
 
     // Função para ajustar caminhos relativos
     function adjustPath(link) {

@@ -17,7 +17,7 @@ const categoryNewsData = [
         timestamp: "2026-02-19T16:53:51.946806",
         image: "https://images.unsplash.com/photo-1505664194779-8beaceb93744?w=800&q=80",
         excerpt: "Corte entende que a realização sistemática de horas além da jornada prevista desnatura o regime e afasta os benefícios da negociação coletiva que o autorizou...",
-        link: "../direito-trabalhista/ministra-do-tst-derruba-jornada-12x36-de-vigilante-apos-identificar-acumulo-sistematico-de-horas-extraordinarias.html",
+        link: "../direito-trabalhista/ministra-do-tst-derruba-jornada-12x36.html",
         category: "Direito Trabalhista",
         author: "Justiça em Dia",
         authorLink: "#"

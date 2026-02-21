@@ -12,14 +12,14 @@ const allArticles = [
         title: 'Segunda Turma do STF decide que exibição de vídeo pelo Ministério Público na presença de jurados não invalida julgamento',
         description: 'A Segunda Turma do Supremo Tribunal Federal decidiu, por maioria de votos, que a exibição de um vídeo pelo Ministério Público durante sessão do Tribunal do Júri, na presença dos jurados, não é suficiente, por si só',
         category: 'Direito Penal',
-        url: 'direito-penal/stf-segunda-turma-decide-que-exibicao-de-video-pelo-ministerio-publico-na-presenca-de-jurados-nao-invalida-julgamento.html',
+        url: 'direito-penal/stf-segunda-turma-decide-que-exibicao-de-video.html',
         tags: ['riscos à imparcialidade', 'nulidade do julgamento', 'Ministério Público', 'STF']
     },
     {
         title: 'Ministra do TST derruba jornada 12x36 de vigilante após identificar acúmulo sistemático de horas extraordinárias',
         description: 'A prática de escalar vigilantes no regime de 12 horas de trabalho por 36 de descanso — amplamente utilizada no setor de segurança privada e autorizada por acordos e convenções coletivas em todo o país.',
         category: 'Direito Trabalhista',
-        url: 'direito-trabalhista/ministra-do-tst-derruba-jornada-12x36-de-vigilante-apos-identificar-acumulo-sistematico-de-horas-extraordinarias.html',
+        url: 'direito-trabalhista/ministra-do-tst-derruba-jornada-12x36.html',
         tags: ['jornada 12x36', 'vigilantes', 'horas extraordinárias', 'vigilante']
     },
     {
