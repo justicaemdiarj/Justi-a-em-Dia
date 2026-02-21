@@ -3,6 +3,9 @@ const siteConfig = {
     email: "contato@justicaemdia.com.br",
     phone: "+55 21 98269-4928",
     description: "Portal de notícias e análises sobre direito, legislação e jurisprudência. Acompanhe as principais decisões dos tribunais brasileiros e mudanças na legislação.",
+    searchText: "Pesquisar",
+
+
 
     social: {
    //  facebook: "",
@@ -19,11 +22,11 @@ const siteConfig = {
             link: "#",
             isClickable: false,
             subcategories: [
-                { title: "Direito Civil", link: "direito-civil/index.html" },
-                { title: "Direito de Família", link: "direito-de-familia/index.html" },
-                { title: "Direito Penal", link: "direito-penal/index.html" },
-                { title: "Direito Trabalhista", link: "direito-trabalhista/index.html" },
-                { title: "Direito Militar", link: "direito-militar/index.html" }
+                { title: "Civil", link: "direito-civil/index.html" },
+                { title: "Família", link: "direito-de-familia/index.html" },
+                { title: "Criminal", link: "direito-penal/index.html" },
+                { title: "Trabalhista", link: "direito-trabalhista/index.html" },
+                { title: "Militar", link: "direito-militar/index.html" }
             ]
         },
         { title: "Compliance", link: "compliance/index.html" },
@@ -35,6 +38,18 @@ const siteConfig = {
       //  { title: "Mundo", link: "mundo/index.html" },
       //  { title: "Política", link: "politica/index.html" }
     ],
+    
+        // Configuração do Footer (Gerenciamento em Massa)
+    footer: {
+        // Links adicionais do footer
+        additionalLinks: [
+            { title: "Política de Privacidade", link: "politica-privacidade.html" },
+            { title: "Entre em Contato", link: "contato.html" },
+            { title: "Quem Somos", link: "quem-somos.html" },
+            { title: "Apoiadores", link: "apoiadores/index.html" },
+            
+        ]
+    },
 
     supporters: [
         { 
@@ -107,34 +122,9 @@ const siteConfig = {
        { name: "Apoiador Romer Carvalho", img: "img/banner-apoiadores/apoiador-5.png", link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2026-12-31", pages: "full"}
         ]
     },
-    searchText: "Pesquisar",
 
-    // Configuração do Footer (Gerenciamento em Massa)
-    footer: {
-        // Seção de Recursos (Links principais)
-        resources: [
-            { title: "Direito Civil", link: "direito-civil/index.html" },
-            { title: "Direito de Família", link: "direito-de-familia/index.html" },
-            { title: "Direito Penal", link: "direito-penal/index.html" },
-            { title: "Direito Trabalhista", link: "direito-trabalhista/index.html" },
-            { title: "Direito Militar", link: "direito-militar/index.html" },
-            { title: "Compliance", link: "compliance/index.html" },
-            { title: "Jurisprudência", link: "jurisprudencia/index.html" },
-            { title: "Legislação", link: "legislacao/index.html" },
-            { title: "Recursos Humanos", link: "recursos-humanos/index.html" },
-            { title: "Finanças", link: "financas/index.html" },
-        //    { title: "Mundo", link: "mundo/index.html" },
-        //    { title: "Política", link: "politica/index.html" }
-        ],
-        // Links adicionais do footer
-        additionalLinks: [
-            { title: "Política de Privacidade", link: "politica-privacidade.html" },
-            { title: "Entre em Contato", link: "contato.html" },
-            { title: "Quem Somos", link: "quem-somos.html" },
-            { title: "Apoiadores", link: "apoiadores/index.html" },
-            
-        ]
-    }
+
+    
 };
 
 function isBannerActiveJS(banner) {
