@@ -484,7 +484,6 @@ img {
 .search-box {
     display: flex;
     align-items: center;
-    border-radius: 30px;
     background: #ffffff;
     padding: 6px 12px;
     transition: 0.3s ease;
@@ -528,7 +527,6 @@ img {
     color: #fff;
     cursor: pointer;
     padding: 20px 20px;
-    border-radius: 50%;
     font-size: 14px;
     display: flex;
     align-items: center;
