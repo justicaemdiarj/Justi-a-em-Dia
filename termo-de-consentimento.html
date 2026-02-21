@@ -123,18 +123,21 @@
 
         .form-group input[type="text"],
         .form-group input[type="email"],
-        .form-group input[type="tel"] {
+        .form-group input[type="tel"],
+        .form-group select {
             width: 100%;
             padding: 0.75rem;
             border: 1px solid #ddd;
             border-radius: 6px;
             font-size: 1rem;
             transition: border-color 0.3s, box-shadow 0.3s;
+            font-family: inherit;
         }
 
         .form-group input[type="text"]:focus,
         .form-group input[type="email"]:focus,
-        .form-group input[type="tel"]:focus {
+        .form-group input[type="tel"]:focus,
+        .form-group select:focus {
             outline: none;
             border-color: #c70033;
             box-shadow: 0 0 0 3px rgba(199, 0, 51, 0.1);
@@ -336,6 +339,24 @@
                     <input type="email" id="email" placeholder="seu@email.com" required>
                 </div>
 
+                <!-- Categoria -->
+                <div class="form-group">
+                    <label for="category">Categoria que pretende publicar os artigos:*</label>
+                    <select id="category" required>
+                        <option value="">Selecione uma categoria</option>
+                        <option value="Direito Civil">Direito Civil</option>
+                        <option value="Direito de Família">Direito de Família</option>
+                        <option value="Direito Criminal">Direito Criminal</option>
+                        <option value="Direito Trabalhista">Direito Trabalhista</option>
+                        <option value="Direito Militar">Direito Militar</option>
+                        <option value="Compliance">Compliance</option>
+                        <option value="Jurisprudência">Jurisprudência</option>
+                        <option value="Legislação">Legislação</option>
+                        <option value="Recursos Humanos">Recursos Humanos</option>
+                        <option value="Finanças">Finanças</option>
+                    </select>
+                </div>
+
                 <!-- IP Address -->
                 <div class="form-group">
                     <label>Seu Endereço IP</label>
@@ -346,12 +367,12 @@
                 <div class="checkbox-group">
                     <div class="checkbox-item">
                         <input type="checkbox" id="terms" required>
-                        <label for="terms">Confirma os termos acima.</label>
+                        <label for="terms">CONFIRMA O TERMO ACIMA.</label>
                     </div>
 
                     <div class="checkbox-item">
                         <input type="checkbox" id="privacy" required>
-                        <label for="privacy">Confirma que os dados fornecidos estão corretos.</label>
+                        <label for="privacy">CONFIRMA QUE OS DADOS FORNECIDOS ESTÃO CORRETOS.</label>
                     </div>
                     <!--
                     <div class="checkbox-item">
@@ -435,6 +456,7 @@
             const cpf = document.getElementById('cpf').value;
             const phone = document.getElementById('phone').value;
             const email = document.getElementById('email').value;
+            const category = document.getElementById('category').value;
             const userIP = document.getElementById('ipDisplay').textContent;
 
             try {
@@ -478,6 +500,8 @@
                 yPosition += lineHeight;
                 doc.text(`E-mail: ${email}`, margin, yPosition);
                 yPosition += lineHeight;
+                doc.text(`Categoria: ${category}`, margin, yPosition);
+                yPosition += lineHeight;
                 doc.text(`Endereço IP: ${userIP}`, margin, yPosition);
                 yPosition += 12;
 
@@ -490,8 +514,8 @@
                 doc.setFontSize(9);
                 doc.setFont(undefined, 'normal');
                 const termsText = [
-                    'X Confirma os termos acima.',
-                    'X Confirma que os dados fornecidos estão corretos.',
+                    '✅ CONFIRMA O TERMO ACIMA',
+                    '✅ CONFIRMA QUE OS DADOS FORNECIDOS ESTÃO CORRETOS.',
                 ];
 
                 termsText.forEach((term) => {
@@ -560,8 +584,10 @@
                 doc.text(`Documento gerado em: ${window.location.href}`, margin, footerY - 5);
                 doc.text(`IP do Dispositivo: ${userIP}`, margin, footerY);
 
-                // Save PDF
-                doc.save(`termo-de-uso-${fullName.replace(/\s+/g, '-')}.pdf`);
+                // Save PDF with category in filename
+                const categorySlug = category.replace(/\s+/g, '-').toLowerCase();
+                const nameSlug = fullName.replace(/\s+/g, '-');
+                doc.save(`termo-de-uso-${categorySlug}-${nameSlug}.pdf`);
 
                 // Show success message
                 const successMsg = document.getElementById('successMessage');
