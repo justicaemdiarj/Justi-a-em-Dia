@@ -119,11 +119,20 @@
                 </div>
             </div>
         </div>
-        <nav class="main-nav desktop-menu-container">
-            <div class="container">
-                <ul class="nav-list desktop-nav-list"></ul>
-            </div>
-        </nav>
+		        <nav class="main-nav desktop-menu-container">
+		            <div class="container">
+                        <!-- Campo de Pesquisa Mobile -->
+                        <div class="mobile-search-container" style="display: none;">
+                            <div class="search-box">
+                                <input type="text" class="mobile-search-input" placeholder="Pesquisar..." />
+                                <button class="search-btn" title="Buscar"><i class="fas fa-search"></i></button>
+                            </div>
+                        </div>
+		                <ul class="nav-list desktop-nav-list">
+	                    <!-- Menu carregado via js/config.js -->
+	                </ul>
+	            </div>
+	        </nav>
     </header>
 
     <!-- Main Content -->
