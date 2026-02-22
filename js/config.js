@@ -184,7 +184,7 @@ const siteConfig = {
                   img: window.innerWidth <= 768 ? "img/banner-mobile-uol.png" : "img/banner-uol.png", 
                  link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", 
                  endDate: null, 
-                 pages: "full"
+                 pages: ["contato.html"]
             },
             // BANNER ESPECIFICO POR PÁGINA OU MESCLA
             
@@ -193,14 +193,14 @@ const siteConfig = {
                  img: window.innerWidth <= 768 ? "https://macmagazine.com.br/wp-content/uploads/2019/03/06-iphone-can-do-what-2.gif" : "https://macmagazine.com.br/wp-content/uploads/2019/03/06-iphone-can-do-what-2.gif", 
                  link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", 
                  endDate: null, 
-                 pages: "full"
+                 pages: ["contato.html"]
             },
             { 
                  name: "Banner UOL Específico 2", 
                  img: window.innerWidth <= 768 ? "img/cirurgia-estetica.jpg" : "img/cirurgia-estetica.jpg", 
                  link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", 
                  endDate: null, 
-                 pages:  "full"
+                 pages:  ["contato.html"]
             }
             
         ],
