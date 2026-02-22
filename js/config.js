@@ -20,7 +20,7 @@ const siteConfig = {
     email: "contato@justicaemdia.com.br",
     phone: "+55 21 98269-4928",
     description: "Portal de notícias e análises sobre direito, legislação e jurisprudência. Acompanhe as principais decisões dos tribunais brasileiros e mudanças na legislação.",
-    searchText: "Pesquisar",
+    searchText: "Pesquisar...",
 
     social: {
    //  facebook: "",

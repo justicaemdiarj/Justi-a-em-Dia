@@ -481,6 +481,7 @@ img {
 }
 
 .search-box {
+    border-radius: 10px;
     display: flex;
     align-items: center;
     background: #ffffff;
@@ -504,7 +505,7 @@ img {
     background: none;
     outline: none;
     padding: 20px 10px;
-    font-size: 16px; /* Aumentado para 16px para evitar zoom automático no iOS */
+    font-size: 14px; /* Aumentado para 16px para evitar zoom automático no iOS */
     width: 320px;
     color: #333;
 }
@@ -530,6 +531,7 @@ img {
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
+    border-radius: 0px 5px 5px 0px;
 }
 
 .search-btn:hover {
