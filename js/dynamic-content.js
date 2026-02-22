@@ -80,7 +80,7 @@ const globalNewsData = [
         category: "Direito Trabalhista",
         author: "",
         link: "direito-trabalhista/a-violencia-invisivel-quando-o-silencio-se-torna-arma-no-ambiente-corporativo.html",
-        excerpt: "Não há gritos, não há insultos diretos, não há confronto aberto. A vítima chega ao escritório e é recebida por olhares que desviam, cumprimentos que não vêm, conversas que cessam abruptamente.."
+        excerpt: "Não há gritos, não há insultos diretos, não há confronto aberto. A vítima chega ao escritório é recebida por olhares que desviam, cumprimentos que não vêm, conversas que cessam abruptamente.."
     },
     {
         title: "Quando a Crítica Vira Arma de Aniquilação Profissional",
@@ -159,11 +159,33 @@ const globalNewsData = [
         link: "direito-penal/prisao-preventiva-requisitos-abusos.html",
         excerpt: "Análise detalhada sobre prisão preventiva: requisitos legais e abusos recorrentes e seus impactos no ordenamento jurídico brasileiro."
     }
- 
 ];
 
 // Array para armazenar todas as notícias coletadas dos arquivos de paginação
 let allCategoryNews = [];
+
+/**
+ * Função para detectar se estamos em uma página raiz (index.html) ou subcategoria
+ */
+function isRootIndexPage() {
+    const pathname = window.location.pathname;
+    // Verifica se é a raiz (/ ou /index.html)
+    return pathname === '/' || pathname === '/index.html' || pathname.endsWith('index.html') && pathname.split('/').filter(Boolean).length === 1;
+}
+
+/**
+ * Função para detectar se estamos em uma subpágina (dentro de uma categoria)
+ */
+function isSubPage() {
+    const scripts = document.getElementsByTagName('script');
+    for (let i = 0; i < scripts.length; i++) {
+        const src = scripts[i].getAttribute('src');
+        if (src && src.includes('js/dynamic-content.js')) {
+            return src.includes('../');
+        }
+    }
+    return false;
+}
 
 // Função para buscar autores e postagens nos arquivos de paginação
 function syncAuthorsFromPagination() {
@@ -178,15 +200,9 @@ function syncAuthorsFromPagination() {
         'pagination.legislacao.js'
     ];
 
-    const isSubPage = window.location.pathname.includes('/direito-') || 
-                     window.location.pathname.includes('/compliance/') || 
-                     window.location.pathname.includes('/jurisprudencia/') || 
-                     window.location.pathname.includes('/legislacao/') ||
-                     window.location.pathname.includes('/financas/') ||
-                     window.location.pathname.includes('/recursos-humanos/') ||
-                     window.location.pathname.includes('/apoiadores/');
+    const isSubPageFlag = isSubPage();
+    const basePath = isSubPageFlag ? '../js/' : 'js/';
     
-    const basePath = isSubPage ? '../js/' : 'js/';
     let loadedFiles = 0;
 
     paginationFiles.forEach(file => {
@@ -194,23 +210,23 @@ function syncAuthorsFromPagination() {
         script.src = basePath + file;
         script.onload = () => {
             if (typeof categoryNewsData !== 'undefined') {
-                // Adicionar notícias ao array global de categorias
                 categoryNewsData.forEach(item => {
-                    // Evitar duplicatas baseadas no link
-                    if (!allCategoryNews.find(news => news.link === item.link)) {
+                    const newsLink = item.link.replace('../', '');
+                    const found = allCategoryNews.find(news => {
+                        const itemLink = news.link.replace('../', '');
+                        return newsLink === itemLink;
+                    });
+                    if (!found) {
                         allCategoryNews.push(item);
-                    }
-                });
-
-                globalNewsData.forEach(news => {
-                    if (!news.author) {
-                        const found = categoryNewsData.find(item => {
-                            const newsLink = news.link.split('/').pop();
-                            const itemLink = item.link.split('/').pop();
+                    } else {
+                        // Sincronizar autores
+                        const itemLink = item.link.replace('../', '');
+                        const found = allCategoryNews.find(news => {
+                            const newsLink = news.link.replace('../', '');
                             return newsLink === itemLink;
                         });
                         if (found) {
-                            news.author = found.author;
+                            found.author = item.author;
                         }
                     }
                 });
@@ -227,15 +243,9 @@ function syncAuthorsFromPagination() {
 }
 
 function getCorrectPath(path) {
-    const isSubPage = window.location.pathname.includes('/direito-') || 
-                     window.location.pathname.includes('/compliance/') || 
-                     window.location.pathname.includes('/jurisprudencia/') || 
-                     window.location.pathname.includes('/legislacao/') ||
-                     window.location.pathname.includes('/financas/') ||
-                     window.location.pathname.includes('/recursos-humanos/') ||
-                     window.location.pathname.includes('/apoiadores/');
+    const isSubPageFlag = isSubPage();
     
-    if (isSubPage && path && !path.startsWith('http')) {
+    if (isSubPageFlag && path && !path.startsWith('http')) {
         // Se o caminho já começa com ../, não adiciona outro
         if (path.startsWith('../')) return path;
         return '../' + path;
@@ -369,10 +379,10 @@ function getMiddleBannerHtml() {
     if (activeDesktopBanners.length === 0) return '';
 
     const path = window.location.pathname;
-    const isHomePage = path.endsWith('/') || path.endsWith('index.html') && !path.includes('/direito-') && !path.includes('/compliance/') && !path.includes('/jurisprudencia/') && !path.includes('/legislacao/');
+    const isRootPage = isRootIndexPage();
 
     let banner;
-    if (isHomePage) {
+    if (isRootPage) {
         // Na Home, usa o primeiro banner (ordem fixa)
         banner = activeDesktopBanners[0];
     } else {
@@ -380,15 +390,9 @@ function getMiddleBannerHtml() {
         banner = activeDesktopBanners[Math.floor(Math.random() * activeDesktopBanners.length)];
     }
     let imgPath = banner.img;
-    const isSubPage = window.location.pathname.includes('/direito-') || 
-                     window.location.pathname.includes('/compliance/') || 
-                     window.location.pathname.includes('/jurisprudencia/') || 
-                     window.location.pathname.includes('/legislacao/') ||
-                     window.location.pathname.includes('/financas/') ||
-                     window.location.pathname.includes('/recursos-humanos/') ||
-                     window.location.pathname.includes('/apoiadores/');
+    const isSubPageFlag = isSubPage();
     
-    if (isSubPage && imgPath.startsWith('img/')) imgPath = '../' + imgPath;
+    if (isSubPageFlag && imgPath.startsWith('img/')) imgPath = '../' + imgPath;
 
     return `
         <div class="middle-publication-banner" style="display: block !important; text-align: center; margin: 20px 0;">
@@ -439,16 +443,17 @@ function renderUltimasPostagens() {
         );
     }
 
-    // Se estiver na index.html, limitar a 6 postagens no total e remover paginação
-    const isIndex = window.location.pathname.endsWith('index.html') || window.location.pathname.endsWith('/');
-    const isRootIndex = isIndex && !window.location.pathname.includes('/direito-') && !window.location.pathname.includes('/compliance/') && !window.location.pathname.includes('/jurisprudencia/') && !window.location.pathname.includes('/legislacao/');
+    // Verificar se está na página raiz (index.html)
+    const isRootPage = isRootIndexPage();
     
     let paginatedPosts;
     let totalPages = 0;
 
-    if (isRootIndex) {
+    if (isRootPage) {
+        // Na index.html raiz, limitar a 6 postagens no total e remover paginação
         paginatedPosts = filteredNews.slice(0, 6);
     } else {
+        // Em outras páginas (categorias), usar paginação
         totalPages = Math.ceil(filteredNews.length / latestPostsPerPage);
         const startIndex = (latestPostsCurrentPage - 1) * latestPostsPerPage;
         const endIndex = startIndex + latestPostsPerPage;
@@ -459,7 +464,7 @@ function renderUltimasPostagens() {
 
     paginatedPosts.forEach((item, index) => {
         // Adicionar banner no meio apenas se não for a index principal
-        if (index === midPoint && !isRootIndex) {
+        if (index === midPoint && !isRootPage) {
             const bannerDiv = document.createElement('div');
             bannerDiv.className = 'banner-wrapper-full';
             bannerDiv.innerHTML = getMiddleBannerHtml();
@@ -500,7 +505,7 @@ function renderUltimasPostagens() {
         latestGrid.appendChild(article);
     });
 
-    if (!isRootIndex) {
+    if (!isRootPage) {
         renderLatestPostsPagination(totalPages);
     }
 }

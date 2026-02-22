@@ -153,12 +153,17 @@ function applyMaintenanceMode() {
         document.head.appendChild(style);
 
         const getLogoPath = () => {
-            const path = window.location.pathname;
-            if (path.includes('/direito-') || path.includes('/compliance/') || path.includes('/jurisprudencia/') || 
-                path.includes('/legislacao/') || path.includes('/financas/') || path.includes('/recursos-humanos/') || path.includes('/apoiadores/')) {
-                return '../img/logo.justica-em-dia.png';
+            let prefix = '';
+            const scripts = document.getElementsByTagName('script');
+            for (let i = 0; i < scripts.length; i++) {
+                const src = scripts[i].getAttribute('src');
+                if (src && src.includes('js/offline.js')) {
+                    const parts = src.split('js/offline.js');
+                    prefix = parts[0];
+                    break;
+                }
             }
-            return 'img/logo.justica-em-dia.png';
+            return prefix + 'img/logo.justica-em-dia.png';
         };
 
         const maintenanceHTML = `

@@ -2,48 +2,6 @@
 const allArticles = [
 
     {
-        title: 'TJ/DF libera casal preso e reconhece domínio técnico na produção doméstica de cannabis para fins terapêuticos',
-        description: 'Em decisão que reflete o avanço do debate jurídico e social em torno da cannabis medicinal no Brasil, o Tribunal de Justiça do Distrito Federal e Territórios determinou a soltura de um casal',
-        category: 'Direito Penal',
-        url: 'direito-penal/tj-df-libera-casal-preso-e-reconhece-dominio-tecnico-na-producao-domestica-de-cannabis-para-fins-terapeuticos.html',
-        tags: ['debate jurídico e social ', 'Tribunal do Distrito Federal', 'cannabis', 'casal preso']
-    },
-    {
-        title: 'Segunda Turma do STF decide que exibição de vídeo pelo Ministério Público na presença de jurados não invalida julgamento',
-        description: 'A Segunda Turma do Supremo Tribunal Federal decidiu, por maioria de votos, que a exibição de um vídeo pelo Ministério Público durante sessão do Tribunal do Júri, na presença dos jurados, não é suficiente, por si só',
-        category: 'Direito Penal',
-        url: 'direito-penal/stf-segunda-turma-decide-que-exibicao-de-video.html',
-        tags: ['riscos à imparcialidade', 'nulidade do julgamento', 'Ministério Público', 'STF']
-    },
-    {
-        title: 'Ministra do TST derruba jornada 12x36 de vigilante após identificar acúmulo sistemático de horas extraordinárias',
-        description: 'A prática de escalar vigilantes no regime de 12 horas de trabalho por 36 de descanso — amplamente utilizada no setor de segurança privada e autorizada por acordos e convenções coletivas em todo o país.',
-        category: 'Direito Trabalhista',
-        url: 'direito-trabalhista/ministra-do-tst-derruba-jornada-12x36.html',
-        tags: ['jornada 12x36', 'vigilantes', 'horas extraordinárias', 'vigilante']
-    },
-    {
-        title: 'Corte trabalhista rejeita adicional de risco a bancário por combustível guardado no edifício onde trabalha',
-        description: 'Em decisão que reafirma entendimento já consolidado na jurisprudência trabalhista, o Tribunal Superior do Trabalho negou a um técnico bancário o direito ao adicional de periculosidade que ele reivindicava sob.',
-        category: 'Direito Trabalhista',
-        url: 'direito-trabalhista/corte-trabalhista-rejeita-adicional-de-risco-a-bancario-por-combustivel-guardado-no-edificio-onde-trabalha.html',
-        tags: ['Corte trabalhista', 'adicional de risco', 'combustível guardado']
-    },
-    {
-        title: 'Juíza nega gratuidade processual a mulher após constatar gastos regulares com apostas online',
-        description: 'Uma decisão proferida pela Justiça de Piracicaba, no interior de São Paulo, acendeu um debate jurídico que vai muito além do caso concreto julgado',
-        category: 'Direito Civil',
-        url: 'direito-civil/piracicaba-juiza-nega-gratuidade-processual-a-mulher-apos-constatar-gastos-regulares-com-apostas-online.html',
-        tags: ['gratuidade processual', 'Justiça de Piracicaba', 'declaração de hipossuficiência']
-    },
-    {
-        title: 'Tribunais reafirmam que cobranças de débitos com prazo superior a 5 anos são ilegais',
-        description: 'Em decisão que tem relevância direta para milhões de brasileiros endividados, o Judiciário voltou a reafirmar um princípio que, apesar de consagrado há décadas no ordenamento jurídico nacional, permanece desconhecido por grande parte',
-        category: 'Direito Civil',
-        url: 'direito-civil/divida-velha-tribunais-reafirmam-que-cobrancas-de-debitos-com-prazo-superior-a-5-anos-sao-ilegais.html',
-        tags: ['cobranças de débitos', '5 anos são ilegais', 'cobranças', 'Prescrição']
-    },
-    {
         title: 'A Revolução Silenciosa do Compliance',
         description: 'O diretor de compliance da multinacional brasileira recebe pela manhã relatório gerado por sistema de inteligência artificial: análise de 2,3 milhões de e-mails corporativos identificou padrão linguístico compatível com possível esquema de.',
         category: 'Compliance',
@@ -345,6 +303,22 @@ function searchArticles(query) {
 }
 
 /**
+ * Função para calcular o prefixo do caminho baseado na profundidade atual
+ * Esta versão é mais agressiva e precisa para garantir que os links funcionem.
+ */
+function getPathPrefix() {
+    const scripts = document.getElementsByTagName('script');
+    for (let i = 0; i < scripts.length; i++) {
+        const src = scripts[i].getAttribute('src');
+        if (src && src.includes('js/search.js')) {
+            const parts = src.split('js/search.js');
+            return parts[0]; 
+        }
+    }
+    return '';
+}
+
+/**
  * Função para exibir sugestões em tempo real
  */
 function displaySuggestions(results, query, container) {
@@ -353,14 +327,7 @@ function displaySuggestions(results, query, container) {
         return;
     }
 
-    const isSubPage = window.location.pathname.includes('/direito-') || 
-                     window.location.pathname.includes('/compliance/') || 
-                     window.location.pathname.includes('/jurisprudencia/') || 
-                     window.location.pathname.includes('/legislacao/') ||
-                     window.location.pathname.includes('/financas/') ||
-                     window.location.pathname.includes('/recursos-humanos/') ||
-                     window.location.pathname.includes('/apoiadores/');
-    const pathPrefix = isSubPage ? '../' : '';
+    const pathPrefix = getPathPrefix();
 
     container.innerHTML = '';
     container.style.display = 'block';
@@ -384,7 +351,7 @@ function displaySuggestions(results, query, container) {
         `;
         
         div.addEventListener('click', () => {
-            window.location.href = `${pathPrefix}${result.url}`;
+            window.location.href = pathPrefix + result.url;
         });
         
         container.appendChild(div);
@@ -413,14 +380,7 @@ function displaySearchResults(results, query) {
     resultsContainer.id = 'search-results-modal';
     resultsContainer.className = 'search-results-modal';
     
-    const isSubPage = window.location.pathname.includes('/direito-') || 
-                     window.location.pathname.includes('/compliance/') || 
-                     window.location.pathname.includes('/jurisprudencia/') || 
-                     window.location.pathname.includes('/legislacao/') ||
-                     window.location.pathname.includes('/financas/') ||
-                     window.location.pathname.includes('/recursos-humanos/') ||
-                     window.location.pathname.includes('/apoiadores/');
-    const pathPrefix = isSubPage ? '../' : '';
+    const pathPrefix = getPathPrefix();
 
     let html = `
         <div class="search-results-content">
@@ -442,14 +402,15 @@ function displaySearchResults(results, query) {
     } else {
         html += '<div class="search-results-list">';
         results.forEach(article => {
+            const finalUrl = pathPrefix + article.url;
             html += `
                 <div class="search-result-item">
                     <div class="result-meta">
                         <span class="result-category">${article.category}</span>
                     </div>
-                    <h3><a href="${pathPrefix}${article.url}">${article.title}</a></h3>
+                    <h3><a href="${finalUrl}">${article.title}</a></h3>
                     <p class="result-description">${article.description}</p>
-                    <a href="${pathPrefix}${article.url}" class="result-link">Leia mais</a>
+                    <a href="${finalUrl}" class="result-link">Leia mais</a>
                 </div>
             `;
         });

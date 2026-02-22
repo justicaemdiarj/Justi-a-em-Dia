@@ -29,11 +29,15 @@ const ITEMS_PER_PAGE = 7;
 let currentPage = 1;
 
 function getCorrectPathSupporter(path) {
-    const isSubPage = window.location.pathname.includes('/direito-') || 
-                     window.location.pathname.includes('/compliance/') || 
-                     window.location.pathname.includes('/jurisprudencia/') || 
-                     window.location.pathname.includes('/legislacao/') ||
-                     window.location.pathname.includes('/apoiadores/');
+    let isSubPage = false;
+    const scripts = document.getElementsByTagName('script');
+    for (let i = 0; i < scripts.length; i++) {
+        const src = scripts[i].getAttribute('src');
+        if (src && src.includes('js/pagination.apoiadores.js')) {
+            isSubPage = src.includes('../');
+            break;
+        }
+    }
     
     if (isSubPage) {
         if (!path.startsWith('../') && !path.startsWith('http')) {
