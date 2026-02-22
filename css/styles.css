@@ -566,9 +566,10 @@ img {
     border: none;
     color: #fff;
     cursor: pointer;
-    width: 38px;
-    height: 38px;
-    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 25px;
+    font-size: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1202,7 +1203,8 @@ img {
     .mobile-search-container .search-box {
         width: 100%;
         display: flex;
-        padding: 8px 15px;
+        border-radius: 10px;
+        padding: 0px;
     }
     
     .main-nav {
