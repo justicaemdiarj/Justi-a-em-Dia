@@ -502,12 +502,14 @@ img {
 
 .search-box input {
     border: none;
-    background: none;
+    
     outline: none;
     padding: 20px 10px;
-    font-size: 14px; /* Aumentado para 16px para evitar zoom automático no iOS */
+    font-size: 14px; 
     width: 320px;
     color: #333;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #ffffff;
 }
 
 @media (max-width: 768px) {
