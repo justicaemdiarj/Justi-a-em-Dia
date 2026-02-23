@@ -1,23 +1,34 @@
 // Dados de notícias para Recursos Humanos
 const categoryNewsData = [
 {
-        title: "Novas Tendências em Gestão de Pessoas para o Setor Jurídico",
+        title: "Pessoas em Primeiro Lugar",
         date: "23/02/2026",
         timestamp: "2026-02-23T10:00:00",
         image: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800&h=600&fit=crop",
-        excerpt: "Como atrair e reter talentos em um mercado cada vez mais competitivo e focado em bem-estar e flexibilidade.",
-        link: "#",
+        excerpt: "Por décadas, a cultura dos escritórios de advocacia e dos departamentos jurídicos corporativos foi definida por uma lógica que colocava a entrega acima de tudo.  .",
+        link: "../recursos-humanos/pessoas-em-primeiro-lugar-como-o-setor-juridico-reinventa-sua-relacao-com-talentos-em-um-mercado-em-transformacao.html",
         category: "Recursos Humanos",
         author: "Justiça em Dia",
         authorLink: "#"
     },
     {
-        title: "A Importância da Diversidade e Inclusão nas Organizações",
+        title: "A Permanência Como Direito",
         date: "11/02/2026",
         timestamp: "2026-02-11T11:20:00",
         image: "https://static.vecteezy.com/ti/vetor-gratis/p1/21219960-diversidade-e-inclusao-logotipo-com-mao-colorida-logotipo-simbolo-do-harmonia-e-uniao-vetor.jpg",
-        excerpt: "Estratégias práticas para implementar programas de diversidade que geram valor real para as empresas e para a sociedade.",
-        link: "#",
+        excerpt: "Há uma distinção fundamental, quase jurídica, entre habitar um espaço por necessidade e habitá-lo por vontade..",
+        link: "../recursos-humanos/a-permanencia-como-direito.html",
+        category: "Recursos Humanos",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+    {
+        title: "Diversidade Não é Favor",
+        date: "11/02/2026",
+        timestamp: "2026-02-11T11:20:00",
+        image: "https://static.vecteezy.com/ti/vetor-gratis/p1/21219960-diversidade-e-inclusao-logotipo-com-mao-colorida-logotipo-simbolo-do-harmonia-e-uniao-vetor.jpg",
+        excerpt: "Houve um tempo em que a pauta da diversidade e inclusão nas organizações era vista como um luxo progressista — algo que as empresas adotavam por pressão social ou para melhorar sua imagem..",
+        link: "../recursos-humanos/diversidade-nao-e-favor-o-imperativo-estrategico-da-inclusao-nas-organizacoes-contemporaneas.html",
         category: "Recursos Humanos",
         author: "Justiça em Dia",
         authorLink: "#"
