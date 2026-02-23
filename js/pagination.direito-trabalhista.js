@@ -2,8 +2,8 @@
 const categoryNewsData = [
         {
         title: "Corte trabalhista rejeita adicional de risco a bancário por combustível guardado no edifício onde trabalha",
-        date: "19/02/2026",
-        timestamp: "2026-02-19T16:53:51.950287",
+        date: "23/02/2026",
+        timestamp: "2026-02-23T08:00:00",
         image: "https://www.spbancarios.com.br/Uploads/ckfinder/userfiles/images/_MAU8083_materia.jpg",
         excerpt: "Adicional exige contato direto e habitual com inflamáveis — presença eventual de combustível no local de trabalho não basta...",
         link: "../direito-trabalhista/corte-trabalhista-rejeita-adicional-de-risco-a-bancario-por-combustivel-guardado-no-edificio-onde-trabalha.html",
@@ -13,8 +13,8 @@ const categoryNewsData = [
     },
     {
         title: "Ministra do TST derruba jornada 12x36 de vigilante após identificar acúmulo sistemático de horas extraordinárias",
-        date: "19/02/2026",
-        timestamp: "2026-02-19T16:53:51.946806",
+        date: "23/02/2026",
+        timestamp: "2026-02-23T08:00:00",
         image: "https://images.unsplash.com/photo-1505664194779-8beaceb93744?w=800&q=80",
         excerpt: "Corte entende que a realização sistemática de horas além da jornada prevista desnatura o regime e afasta os benefícios da negociação coletiva que o autorizou...",
         link: "../direito-trabalhista/ministra-do-tst-derruba-jornada-12x36.html",
@@ -24,8 +24,8 @@ const categoryNewsData = [
     },
     {
     title: "Quando o Silêncio Se Torna Arma no Ambiente Corporativo", 
-    date: "13/02/2026", 
-    timestamp: "2026-02-13T10:00:00", 
+        date: "23/02/2026",
+        timestamp: "2026-02-23T08:00:00",
     image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=2070&auto=format&fit=crop", 
     excerpt: "Não há gritos, não há insultos diretos, não há confronto aberto. A vítima chega ao escritório e é recebida por olhares que desviam, cumprimentos que n...", 
     link: "../direito-trabalhista/a-violencia-invisivel-quando-o-silencio-se-torna-arma-no-ambiente-corporativo.html", 
@@ -34,8 +34,8 @@ const categoryNewsData = [
     },
     {
     title: "Quando a Crítica Vira Arma de Aniquilação Profissional", 
-    date: "13/02/2026", 
-    timestamp: "2026-02-13T10:00:00", 
+        date: "23/02/2026",
+        timestamp: "2026-02-23T08:00:00",
     image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=2069&auto=format&fit=crop", 
     excerpt: "O relatório foi revisado três vezes, cada vírgula analisada, cada dado conferido. Mesmo assim, quando apresentado na reunião, o gerente o desqualifica...", 
     link: "../direito-trabalhista/a-destruicao-metodica-da-competencia-quando-a-critica-vira-arma-de-aniquilacao-profissional.html", 
@@ -43,8 +43,8 @@ const categoryNewsData = [
     },
     {
     title: "A Queda do Intocável", 
-    date: "13/02/2026", 
-    timestamp: "2026-02-13T10:00:00", 
+        date: "23/02/2026",
+        timestamp: "2026-02-23T08:00:00",
     image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=2070&auto=format&fit=crop", 
     excerpt: "Na tarde de 12 de dezembro de 2024, o plenário do Superior Tribunal de Justiça reuniu-se em sessão extraordinária que entraria para a história institu...", 
     link: "../direito-trabalhista/a-queda-do-intocavel-quando-o-judiciario-julga-a-si-mesmo.html", 
@@ -53,8 +53,8 @@ const categoryNewsData = [
     },
     {
         title: "Vínculo Empregatício Nas Novas Formas de Trabalho por Aplicativo",
-        date: "12/02/2026",
-        timestamp: "2026-02-12T08:00:00",
+        date: "23/02/2026",
+        timestamp: "2026-02-23T08:00:00",
         image: "../img/vinculo-empregaticio-trabalho-aplicativo.jpg",
         excerpt: "A economia de plataformas digitais revolucionou o mercado de trabalho nas últimas décadas, introduzindo modelos de prestação de serviços que desafiam as categorias tradicionais do direito laboral.",
         link: "../direito-trabalhista/vinculo-empregaticio-trabalho-aplicativo.html",
@@ -63,8 +63,8 @@ const categoryNewsData = [
     },
     {
         title: "Assédio Moral no Ambiente de Trabalho e a Responsabilidade do Empregador",
-        date: "12/02/2026",
-        timestamp: "2026-02-12T08:00:00",
+        date: "23/02/2026",
+        timestamp: "2026-02-23T08:00:00",
         image: "../img/assedio-moral-trabalho-responsabilidade-empregador.jpg",
         excerpt: "O assédio moral no ambiente laboral constitui uma das mais graves patologias organizacionais contemporâneas, caracterizando-se pela exposição sistemática e prolongada do trabalhador a situações humilhantes",
         link: "../direito-trabalhista/assedio-moral-trabalho-responsabilidade-empregador.html",

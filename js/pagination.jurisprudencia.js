@@ -2,8 +2,8 @@
 const categoryNewsData = [
     {
         title: "O Oráculo Digital da Justiça",
-        date: "13/02/2026",
-        timestamp: "2026-02-13T15:00:00",
+        date: "23/02/2026",
+        timestamp: "2026-02-23T08:00:00",
         image: "https://images.unsplash.com/photo-1589254065878-42c9da997008?w=1200&q=80",
         excerpt: "O advogado prepara recurso contra sentença desfavorável em ação trabalhista. Antes de redigir uma linha, acessa plataforma de jurisprudência preditiva que, mediante inteligência artificial, analisa 340 mil decisões.",
         link: "../jurisprudencia/o-oraculo-digital-da-justica-quando-algoritmos-preveem-decisoes-judiciais.html",
@@ -12,8 +12,8 @@ const categoryNewsData = [
     },
     {
         title: "A Força dos Precedentes Obrigatórios no Sistema Jurídico Brasileiro",
-        date: "12/02/2026",
-        timestamp: "2026-02-12T08:00:00",
+        date: "23/02/2026",
+        timestamp: "2026-02-23T08:00:00",
         image: "../img/forca-precedentes-obrigatorios-brasil.jpg",
         excerpt: "A incorporação definitiva do sistema de precedentes obrigatórios no ordenamento jurídico brasileiro representa uma das mais profundas transformações estruturais do direito pátrio nas últimas décadas.",
         link: "../jurisprudencia/forca-precedentes-obrigatorios-brasil.html",
@@ -22,8 +22,8 @@ const categoryNewsData = [
     },
     {
         title: "Mudanças Recentes na Jurisprudência dos Tribunais Superiores",
-        date: "12/02/2026",
-        timestamp: "2026-02-12T08:00:00",
+        date: "23/02/2026",
+        timestamp: "2026-02-23T08:00:00",
         image: "../img/imagem-postagem.png",
         excerpt: "A dinâmica interpretativa do direito brasileiro passa por constante transformação, especialmente quando analisamos a atuação dos tribunais superiores. ",
         link: "../jurisprudencia/mudancas-recentes-jurisprudencia-tribunais.html",

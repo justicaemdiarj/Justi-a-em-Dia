@@ -2,8 +2,8 @@
 const categoryNewsData = [
         {
         title: "Segunda Turma do STF decide que exibição de vídeo pelo Ministério Público na presença de jurados não invalida julgamento",
-        date: "19/02/2026",
-        timestamp: "2026-02-19T16:53:51.947722",
+        date: "23/02/2026",
+        timestamp: "2026-02-23T08:00:00",
         image: "https://media.gazetadopovo.com.br/2025/10/15221712/stf-ensino-genero-660x372.jpg.webp",
         excerpt: "Ministros aplicam princípio de que não há nulidade sem prejuízo demonstrado, mas penalistas alertam para riscos à imparcialidade do conselho de sentença",
         link: "../direito-penal/stf-segunda-turma-decide-que-exibicao-de-video.html",
@@ -13,8 +13,8 @@ const categoryNewsData = [
     },
     {
         title: "TJ/DF libera casal preso e reconhece domínio técnico na produção doméstica de cannabis para fins terapêuticos",
-        date: "19/02/2026",
-        timestamp: "2026-02-19T16:53:51.945894",
+        date: "23/02/2026",
+        timestamp: "2026-02-23T08:00:00",
         image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80",
         excerpt: "Tribunal do Distrito Federal reconhece produção para uso terapêutico próprio e derruba prisão preventiva em decisão que reflete avanço do debate sobre a maconha medicinal no país",
         link: "../direito-penal/tj-df-libera-casal-preso-e-reconhece-dominio-tecnico-na-producao-domestica-de-cannabis-para-fins-terapeuticos.html",
@@ -24,8 +24,8 @@ const categoryNewsData = [
     },
     {
         title: "Crimes Ambientais Transnacionais",
-        date: "13/02/2026",
-        timestamp: "2026-02-13T15:00:00",
+        date: "23/02/2026",
+        timestamp: "2026-02-23T08:00:00",
         image: "../img/crimes-transnacionais.jpg",
         excerpt: "A Convenção de Viena sobre Direito dos Tratados e diversos acordos bilaterais estabelecem mecanismos de auxílio mútuo, extradição e compartilhamento.",
         link: "../direito-penal/crimes-ambientais-transnacionais-a-amazonia-no-epicentro-de-um-conflito-de-jurisdicoes.html",
@@ -34,8 +34,8 @@ const categoryNewsData = [
     },
     {
         title: "Princípio da Insignificância e sua Aplicação nos Crimes Patrimoniais",
-        date: "12/02/2026",
-        timestamp: "2026-02-12T08:00:00",
+        date: "23/02/2026",
+        timestamp: "2026-02-23T08:00:00",
         image: "../img/principio-insignificancia-crimes-patrimoniais.jpg",
         excerpt: "O princípio da insignificância, também denominado princípio da bagatela, constitui importante instrumento de racionalização do sistema penal, permitindo a exclusão da tipicidade material em condutas que, embora formalmente adequadas a tipos penais, não apresentam relevância suficiente para justificar a intervenção do direito penal.",
         link: "../direito-penal/principio-insignificancia-crimes-patrimoniais.html",
@@ -44,8 +44,8 @@ const categoryNewsData = [
     },
     {
         title: "Prisão Preventiva",
-        date: "12/02/2026",
-        timestamp: "2026-02-12T08:00:00",
+        date: "23/02/2026",
+        timestamp: "2026-02-23T08:00:00",
         image: "../img/Prisao-preventiva.png",
         excerpt: "A prisão preventiva, modalidade de prisão cautelar regulamentada pelos artigos 311 a 316 do Código de Processo Penal, constitui medida excepcional que restringe a liberdade do acusado antes do trânsito em julgado da sentença condenatória.",
         link: "../direito-penal/prisao-preventiva-requisitos-abusos.html",

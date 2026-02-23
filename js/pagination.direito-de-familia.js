@@ -2,8 +2,8 @@
 const categoryNewsData = [
     {
         title: "O Testamento Digital",
-        date: "13/02/2026",
-        timestamp: "2026-02-13T11:48:14",
+        date: "23/02/2026",
+        timestamp: "2026-02-23T08:00:00",
         image: "https://images.unsplash.com/photo-1512733596533-7b00ccf8ebaf?w=1200&q=80",
         excerpt: "O tabelionato de notas em São Paulo recebe o casal de noivos com documentação completa para lavrar pacto antenupcial. Além das cláusulas tradicionais ...",
         link: "../direito-de-familia/o-testamento-digital-quando-o-amor-precisa-contemplar-bitcoins-e-senhas.html",
@@ -13,8 +13,8 @@ const categoryNewsData = [
     },
     {
         title: "O Amor Que Se Cobra na Justiça",
-        date: "13/02/2026",
-        timestamp: "2026-02-13T11:48:14",
+        date: "23/02/2026",
+        timestamp: "2026-02-23T08:00:00",
         image: "https://images.unsplash.com/photo-1581579186913-45ac3e6efe93?w=1200&q=80",
         excerpt: "O escritório de advocacia em Brasília recebe, com frequência crescente, consultas inusitadas: adultos que desejam processar avós por abandono afetivo ...",
         link: "../direito-de-familia/o-amor-que-se-cobra-na-justica-quando-a-ausencia-dos-avos-gera-indenizacao.html",
@@ -24,8 +24,8 @@ const categoryNewsData = [
     },
        {
         title: "Como Comprovar que Existe União Estável",
-        date: "12/02/2026",
-        timestamp: "2026-02-12T08:00:00",
+        date: "23/02/2026",
+        timestamp: "2026-02-23T08:00:00",
         image: "../img/comprovar-existencia-de-uniao-estavel.jpg",
         caption: "Romer Carvalho",
         excerpt: "Muitas pessoas vivem em união estável sem sequer saber que essa relação possui proteção jurídica semelhante ao casamento.",
@@ -36,8 +36,8 @@ const categoryNewsData = [
     },
     {
         title: "Guarda Compartilhada e o Melhor Interesse da Criança na Prática Forense",
-        date: "12/02/2026",
-        timestamp: "2026-02-12T08:00:00",
+        date: "23/02/2026",
+        timestamp: "2026-02-23T08:00:00",
         image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&h=600&fit=crop",
         excerpt: "A guarda compartilhada, consagrada como regra pelo ordenamento jurídico brasileiro através da Lei 13.058/2014, representa importante evolução legislativa no direito de família, ao reconhecer a importância da participação equitativa de ambos os genitores na vida dos filhos após a ruptura conjugal.",
         link: "../direito-de-familia/guarda-compartilhada-melhor-interesse-crianca.html",
@@ -47,8 +47,8 @@ const categoryNewsData = [
     },
     {
         title: "Pensão Alimentícia",
-        date: "12/02/2026",
-        timestamp: "2026-02-12T08:00:00",
+        date: "23/02/2026",
+        timestamp: "2026-02-23T08:00:00",
         image: "../img/pensao-alimenticia.png",
         excerpt: "A pensão alimentícia constitui obrigação jurídica fundada no princípio da solidariedade familiar, destinando-se a garantir a subsistência digna daqueles que não possuem meios próprios de prover suas necessidades básicas. ",
         link: "../direito-de-familia/pensao-alimenticia-revisao-exoneracao-limites.html",
