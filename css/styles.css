@@ -10,6 +10,87 @@ body {
     line-height: 1.6;
 }
 
+.weather-widget {
+    display: none; /* Oculta por padrão para mobile */
+    align-items: center;
+    gap: 5px;
+    font-size: 0.9em;
+    color: #333;
+    margin-left: 20px; /* Ajuste conforme necessário para espaçamento */
+}
+
+.weather-widget #weather-icon {
+    font-size: 1.2em; /* Tamanho do ícone */
+}
+
+/* Media Query para Desktop */
+@media (min-width: 768px) {
+    .weather-widget {
+        display: flex; /* Exibe apenas em desktop */
+    }
+}
+
+/* Você pode precisar ajustar o layout do .container ou .main-header para acomodar o widget */
+/* Por exemplo, se o .container usa display: flex, adicione justify-content: space-between; ou similar */
+.main-header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribui os itens no header */
+}
+
+.main-header .container .logo {
+    flex-grow: 0; /* Impede que o logo cresça */
+}
+
+.main-header .container .header-actions {
+    flex-grow: 0; /* Impede que as ações do header cresçam */
+}
+
+.main-header .container .weather-widget {
+    flex-grow: 1; /* Permite que o widget ocupe o espaço restante */
+    justify-content: center; /* Centraliza o conteúdo do widget */
+}
+.weather-widget {
+    display: none; /* Oculta por padrão para mobile */
+    align-items: center;
+    gap: 5px;
+    font-size: 0.9em;
+    color: #333;
+    margin-left: 20px; /* Ajuste conforme necessário para espaçamento */
+}
+
+.weather-widget #weather-icon {
+    font-size: 1.2em; /* Tamanho do ícone */
+}
+
+/* Media Query para Desktop */
+@media (min-width: 768px) {
+    .weather-widget {
+        display: flex; /* Exibe apenas em desktop */
+    }
+}
+
+/* Você pode precisar ajustar o layout do .container ou .main-header para acomodar o widget */
+/* Por exemplo, se o .container usa display: flex, adicione justify-content: space-between; ou similar */
+.main-header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribui os itens no header */
+}
+
+.main-header .container .logo {
+    flex-grow: 0; /* Impede que o logo cresça */
+}
+
+.main-header .container .header-actions {
+    flex-grow: 0; /* Impede que as ações do header cresçam */
+}
+
+.main-header .container .weather-widget {
+    flex-grow: 1; /* Permite que o widget ocupe o espaço restante */
+    justify-content: center; /* Centraliza o conteúdo do widget */
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
