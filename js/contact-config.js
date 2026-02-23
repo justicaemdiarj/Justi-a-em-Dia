@@ -7,11 +7,11 @@ const contactConfig = {
     addressDetails: "Atendimento online",
     
     // Horário de atendimento
-    businessHours: "Segunda a Sexta, 9h às 18h",
+    businessHours: "Segunda a Sexta, 9h às 17h",
     
     // Mensagens pré-definidas do WhatsApp
     whatsappMessages: {
-        member: "Olá! Gostaria de informações sobre como ser membro do site Justiça em Dia. Pode ajudar?..",
+        member: "Olá! Gostaria de informações sobre como ser membro do site Justiça em Dia. Poderia ajudar?",
         help: "Olá! Preciso de ajuda com uma dúvida do site Justiça em Dia..",
         info: "Olá! Gostaria de mais informações do site Justiça em Dia..",
         other: "Olá! Gostaria de conversar sobre outro assunto do site Justiça em Dia.."
