@@ -291,6 +291,11 @@
                         <img src="../img/logo.justica-em-dia.png" style="width: 100%; height: 90px;">
                     </a>
                 </div>
+                <div class="weather-widget">
+    <span id="weather-icon"></span>
+    <span id="weather-temperature"></span>
+    <span id="weather-location"></span>
+</div>
                 <div class="header-actions">
                     <div class="search-box">
                         <input type="text" id="searchInput"  />
@@ -418,5 +423,112 @@
     <script src="../js/dynamic-content.js"></script>
     <script src="../js/search.js"></script>
 <script src="../js/newsletter-injector.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const weatherIcon = document.getElementById('weather-icon');
+        const weatherTemperature = document.getElementById('weather-temperature');
+        const weatherLocation = document.getElementById('weather-location');
+
+        // Função para obter o nome da cidade a partir das coordenadas
+        async function getCityName(latitude, longitude) {
+            try {
+                const response = await fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${latitude}&lon=${longitude}&zoom=10` );
+                const data = await response.json();
+                return data.address.city || data.address.town || data.address.village || 'Sua Localização';
+            } catch (error) {
+                console.error('Erro ao obter nome da cidade:', error);
+                return 'Sua Localização';
+            }
+        }
+
+        // Função para obter o clima
+        async function getWeatherData(latitude, longitude) {
+            try {
+                const response = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&current_weather=true&hourly=temperature_2m,weathercode&forecast_days=1` );
+                const data = await response.json();
+                
+                if (data.current_weather) {
+                    const temperature = data.current_weather.temperature;
+                    const weatherCode = data.current_weather.weathercode;
+                    const city = await getCityName(latitude, longitude);
+
+                    weatherTemperature.textContent = `${temperature}°C`;
+                    weatherLocation.textContent = city;
+                    weatherIcon.innerHTML = getWeatherIcon(weatherCode); // Define o ícone com base no código do clima
+                } else {
+                    console.error('Dados de clima não disponíveis.');
+                    weatherTemperature.textContent = 'N/A';
+                    weatherLocation.textContent = 'Erro';
+                    weatherIcon.textContent = '';
+                }
+            } catch (error) {
+                console.error('Erro ao buscar dados do clima:', error);
+                weatherTemperature.textContent = 'N/A';
+                weatherLocation.textContent = 'Erro';
+                weatherIcon.textContent = '';
+            }
+        }
+
+        // Função para mapear o código do clima para um ícone (você pode usar Font Awesome ou imagens)
+        function getWeatherIcon(code) {
+            // Códigos de clima do Open-Meteo: https://www.open-meteo.com/en/docs
+            switch (code ) {
+                case 0: return '☀️'; // Céu limpo
+                case 1: return '🌤️'; // Principalmente limpo
+                case 2: return '⛅'; // Parcialmente nublado
+                case 3: return '☁️'; // Nublado
+                case 45: return '🌫️'; // Nevoeiro
+                case 48: return '🌫️'; // Nevoeiro depositante
+                case 51: return '🌧️'; // Chuvisco leve
+                case 53: return '🌧️'; // Chuvisco moderado
+                case 55: return '🌧️'; // Chuvisco denso
+                case 56: return '🌨️'; // Chuvisco congelante leve
+                case 57: return '🌨️'; // Chuvisco congelante denso
+                case 61: return '🌧️'; // Chuva leve
+                case 63: return '🌧️'; // Chuva moderada
+                case 65: return '🌧️'; // Chuva forte
+                case 66: return '🌨️'; // Chuva congelante leve
+                case 67: return '🌨️'; // Chuva congelante forte
+                case 71: return '❄️'; // Queda de neve leve
+                case 73: return '❄️'; // Queda de neve moderada
+                case 75: return '❄️'; // Queda de neve forte
+                case 77: return '🌨️'; // Grãos de neve
+                case 80: return '⛈️'; // Pancadas de chuva leve
+                case 81: return '⛈️'; // Pancadas de chuva moderada
+                case 82: return '⛈️'; // Pancadas de chuva violenta
+                case 85: return '🌨️'; // Pancadas de neve leve
+                case 86: return '🌨️'; // Pancadas de neve forte
+                case 95: return '⚡'; // Tempestade
+                case 96: return '⚡'; // Tempestade com granizo leve
+                case 99: return '⚡'; // Tempestade com granizo forte
+                default: return '❓'; // Desconhecido
+            }
+        }
+
+        // Tenta obter a localização do usuário
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(
+                (position) => {
+                    const latitude = position.coords.latitude;
+                    const longitude = position.coords.longitude;
+                    getWeatherData(latitude, longitude);
+                },
+                (error) => {
+                    console.error('Erro ao obter localização:', error);
+                    // Se a localização for negada ou houver erro, usa uma localização padrão (ex: São Paulo)
+                    getWeatherData(-23.5505, -46.6333); 
+                    weatherLocation.textContent = 'São Paulo';
+                }
+            );
+        } else {
+            console.error('Geolocalização não suportada pelo navegador.');
+            // Se a geolocalização não for suportada, usa uma localização padrão (ex: São Paulo)
+            getWeatherData(-23.5505, -46.6333);
+            weatherLocation.textContent = 'São Paulo';
+        }
+    });
+</script>
 </body>
 </html>
+
