@@ -32,94 +32,14 @@ const siteConfig = {
     
     // Configuração do Menu (Gerenciamento em Massa)
     menu: [
-            {
-            title: "Direito Civil",
-            link: "direito-civil",
-            isClickable: true,
-            subcategories: [
-               { title: "Responsabilidade Civil", link: "responsabilidade-civil" },
-               { title: "Direito Imobiliário", link: "direito-imobiliario" },
-               { title: "Danos Morais e Materiais", link: "danos-morais-e-materiais" },
-               { title: "Direito do Consumidor", link: "direito-do-consumidor" },
-               { title: "Direito Digital e Proteção de Dados", link: "direito-digital-e-protecao-de-dados" },
-           ]
-        },
-        {
-            title: "Direito de Família",
-            link: "direito-de-familia",
-            isClickable: true,
-            subcategories: [
-              { title: "Divórcio", link: "divorcio" },
-              { title: "Regime e Partilha de Bens", link: "regime-partilha-de-bens" },
-              { title: "Violência Doméstica", link: "violencia-domestica" },
-              { title: "Mediação Familiar", link: "mediacao-familiar" },
-            ]
-        },
-        {
-            title: "Direito Criminal",
-            link: "direito-penal",
-            isClickable: true,
-        subcategories: [
-             { title: "Infrações Penais", link: "infracoes-penais" },
-             { title: "Prisões e Medidas Cautelares", link: "prisoes-e-medidas-cautelares" },
-             { title: "Inquérito Policial", link: "inquerito-policial" },
-             { title: "Dosimetria da Pena", link: "dosiometria-da-pena" }
-          ]
-        },
-        {
-            title: "Direito Trabalhista",
-            link: "direito-trabalhista",
-            isClickable: true,
-           subcategories: [
-              { title: "Assédio Moral e Sexual", link: "assedio-moral-e-sexual" },
-              { title: "Acidente de Trabalho", link: "acidente-de-trabalho" },
-              { title: "Reclamação Trabalhista", link: "reclamacao-trabalhista" },
-              { title: "Vínculo Empregatício", link: "vinculo-empregaticio" },
-              { title: "Direito Previdenciário ", link: "direito-previdenciario" },
-              { title: "Adicional de Insalubridade e Periculosidade", link: "adicional-de-insalubridade-periculosidade" },
-          ]
-        },
-        {
-            title: "Direito Militar",
-            link: "direito-militar",
-            isClickable: true,
-           subcategories: [
-            { title: "Crimes Militares", link: "crimes-militares" },
-            { title: "Conselho de Disciplina", link: "conselho-de-disciplina" },
-            { title: "Justiça Militar", link: "justica-militar" },
-            { title: "Reforma e Reserva", link: "reforma-e-reserva" },
-            { title: "Direito Previdenciário Militar", link: "direito-previdenciario-militar" }
-           ]
-        },
-
-               {
-           title: "Recursos Humanos",
-           link: "recursos-humanos",
-          isClickable: true,
-           subcategories: [
-           { title: "Recrutamento e Seleção ", link: "recrutamento-e-selecao" },
-           { title: "Departamento Pessoal", link: "departamento-pessoal" },
-           { title: "Treinamento e Desenvolvimento", link: "treinamento-e-desenvolvimento" },
-           { title: "Remuneração e Benefícios", link: "remuneracao-e-beneficio" },
-           { title: "Gestão de Desempenho e Clima", link: "gestao-de-desempenho" }
-            ]
-       },
-               {
-        title: "Finanças",
-        link: "financas",
-       isClickable: true,
-       subcategories: [
-         { title: "Mercado Financeiro e de Investimentos", link: "mercado-financeiro-e-de-investimento" },
-         { title: "Finanças Pessoais e Planejamento Financeiro", link: "financas-pessoais-e-planejamento-financeiro" },
-         { title: "Empresas e Negócios", link: "empresas-e-negocios" },
-         { title: "Empreendedorismo", link: "empreendedorismo" },      
-          ]
-      },
-	    { title: "Compliance", link: "compliance" },
+            { title: "Direito Civil", link: "direito-civil" },
+            { title: "Direito de Família", link: "direito-de-familia" },
+            { title: "Direito Criminal", link: "direito-penal" },
+            { title: "Direito Trabalhista", link: "direito-trabalhista" },
+            { title: "Direito Militar", link: "direito-militar" },
+            { title: "Compliance", link: "compliance" },
             { title: "Jurisprudência", link: "jurisprudencia" },
             { title: "Legislação", link: "legislacao" },
-
-
     ],
     
         // Configuração do Footer (Gerenciamento em Massa)
