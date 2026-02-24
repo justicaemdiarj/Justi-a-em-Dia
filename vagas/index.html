@@ -56,14 +56,63 @@
     </script>
 
     <style>
+        .btn-toggle-filtro {
+    display: none;
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c41e3a; /* mesma cor do site */
+    color: #fff;
+    margin-bottom: 3px;
+}
+
+.btn-toggle-filtro:hover {
+    opacity: 0.9;
+}
+
+.icone-filtro {
+    transition: transform 0.3s ease;
+}
+
+@media (max-width: 768px) {
+
+    .btn-toggle-filtro {
+        display: flex;
+    }
+
+    .filters-section {
+        overflow: hidden;
+        max-height: 0;
+        opacity: 0;
+        transition: max-height 0.4s ease, opacity 0.3s ease;
+    }
+
+    .filters-section.ativo {
+        max-height: 1000px;
+        opacity: 1;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .btn-toggle-filtro.ativo .icone-filtro {
+        transform: rotate(180deg);
+    }
+}
         .jobs-container {
-            padding: 40px 0;
+            padding: 19px 0;
         }
         .filters-section {
             background: #f8f9fa;
             padding: 25px;
             border-radius: 12px;
-            margin-bottom: 30px;
+            margin-bottom: 3px;
             box-shadow: 0 2px 15px rgba(0,0,0,0.05);
             display: flex;
             flex-wrap: wrap;
@@ -93,10 +142,24 @@
         .filter-group select:focus {
             border-color: #c41e3a;
         }
+        .job-card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 25px;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+    /* ADICIONE AS DUAS LINHAS ABAIXO */
+    cursor: pointer;
+    position: relative;
+}
         .jobs-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             gap: 25px;
+            margin-bottom: 10px;
         }
         .job-card {
             background: #fff;
@@ -199,15 +262,25 @@
 </div>
                 <div class="header-actions">
                     <div class="search-box">
-                        <input type="text" id="searchInput" />
+                        <input type="text" id="searchInput"  />
                         <button class="search-btn" title="Buscar"><i class="fas fa-search"></i></button>
                     </div>
                 </div>
             </div>
         </div>
+        
         <nav class="main-nav desktop-menu-container">
             <div class="container">
-                <ul class="nav-list desktop-nav-list"></ul>
+                                        <!-- Campo de Pesquisa Mobile -->
+                        <div class="mobile-search-container" style="display: none;">
+                            <div class="search-box">
+                                <input type="text" class="mobile-search-input" placeholder="Pesquisar..." />
+                                <button class="search-btn" title="Buscar"><i class="fas fa-search"></i></button>
+                            </div>
+                        </div>
+		                <ul class="nav-list desktop-nav-list">
+                    <!-- Menu carregado via js/config.js -->
+                </ul>
             </div>
         </nav>
     </header>
@@ -215,9 +288,14 @@
     <main class="main-content">
         <div class="container">
             <section class="jobs-container">
-                <h1 class="section-title" style="margin-bottom: 30px;">Vagas de Emprego (+Emprego)</h1>
+                <h1 class="section-title" style="margin-bottom: 30px;">Oportunidades</h1>
                 
-                <div class="filters-section">
+                <button class="btn-toggle-filtro" id="btnToggleFiltro">
+    <span class="texto-filtro">Mostrar filtros</span>
+    <span class="icone-filtro">▼</span>
+</button>
+
+                <div class="filters-section" id="filtros">
                     <div class="filter-group">
                         <label for="filter-type">Tipo de Vaga</label>
                         <select id="filter-type">
@@ -310,12 +388,12 @@
         const jobsData = [
             {
                 id: 1,
-                title: "Advogado Júnior - Direito Civil",
+                title: "Advogado(a) Pleno - Área Cível",
                 company: "Carvalho & Associados",
                 location: "São Paulo, SP",
                 type: "CLT",
                 salary: 4500,
-                link: "vaga-advogado-junior.html"
+                link: "../vagas/vaga-juridica.html"
             },
             {
                 id: 2,
@@ -374,17 +452,22 @@
             }
 
             jobs.forEach(job => {
-                const card = document.createElement('div');
-                card.className = 'job-card';
-                card.innerHTML = `
-                    <h3 class="job-title"><a href="${job.link}">${job.title}</a></h3>
-                    <div class="job-company">${job.company}</div>
-                    <div class="job-info"><i class="fas fa-map-marker-alt"></i> ${job.location}</div>
-                    <div class="job-info"><i class="fas fa-briefcase"></i> ${job.type}</div>
-                    <div class="job-salary">R$ ${job.salary.toLocaleString('pt-BR', { minimumFractionDigits: 2 })}</div>
-                `;
-                grid.appendChild(card);
-            });
+    const card = document.createElement('div');
+    card.className = 'job-card';
+    
+    // ADICIONE ESTA LINHA PARA TORNAR O CARD CLICÁVEL
+    card.setAttribute('onclick', `window.location.href='${job.link}'`);
+    
+    card.innerHTML = `
+        <!-- ADICIONE O onclick="event.stopPropagation();" NO LINK ABAIXO -->
+        <h3 class="job-title"><a href="${job.link}" onclick="event.stopPropagation();">${job.title}</a></h3>
+        <div class="job-company">${job.company}</div>
+        <div class="job-info"><i class="fas fa-map-marker-alt"></i> ${job.location}</div>
+        <div class="job-info"><i class="fas fa-briefcase"></i> ${job.type}</div>
+        <div class="job-salary">R$ ${job.salary.toLocaleString('pt-BR', { minimumFractionDigits: 2 })}</div>
+    `;
+    grid.appendChild(card);
+});
         }
 
         function filterJobs() {
@@ -534,6 +617,31 @@
             weatherLocation.textContent = 'São Paulo';
         }
     });
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const btn = document.getElementById("btnToggleFiltro");
+    const filtros = document.getElementById("filtros");
+
+    if (!btn || !filtros) return;
+
+    btn.addEventListener("click", function () {
+
+        filtros.classList.toggle("ativo");
+        btn.classList.toggle("ativo");
+
+        const texto = btn.querySelector(".texto-filtro");
+
+        if (filtros.classList.contains("ativo")) {
+            texto.textContent = "Ocultar filtros";
+        } else {
+            texto.textContent = "Mostrar filtros";
+        }
+
+    });
+
+});
 </script>
 </body>
 </html>
