@@ -10,7 +10,47 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="../css/styles.css">
-    <script src="../js/config.js"></script>
+    <meta name="robots" content="index">
+    <link rel="canonical" href="https://www.justicaemdia.com.br/vagas">
+
+        <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.justicaemdia.com.br/vagas">
+    <meta property="og:title" content="Vagas de Emprego - Justiça em Dia">
+    <meta property="og:description" content="Vagas de Emprego em diversas areas que você poderia imaginar, esta bem aqui!">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&h=1000&fit=crop">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.justicaemdiacom.br/vagas">
+    <meta property="twitter:title" content="Vagas de Emprego - Justiça em Dia">
+    <meta property="twitter:description" content="Vagas de Emprego em diversas areas que você poderia imaginar, esta bem aqui!">
+    <meta property="twitter:image" content="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&h=1000&fit=crop">
+
+
+    <meta name="google-site-verification" content="9pSo4WA51A3I_ljz14HgsbGFVAHfJIj-pAnTVMl1HRM" />
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RD2L4JB84V"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RD2L4JB84V');
+</script>
+
+        <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Justiça em Dia",
+      "url": "https://www.justicaemdia.com.br/vagas",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.justicaemdia.com.br/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
     
     <style>
         :root {
@@ -23,13 +63,13 @@
         }
 
         body {
-            background-color: var(--bg-light);
+            background-color: #ededed;
             color: var(--text-dark);
             font-family: 'Montserrat', sans-serif;
         }
 
         .job-page-container {
-            max-width: 900px;
+            max-width: 1000px;
             margin: 40px auto;
             background: var(--white);
             padding: 40px;
@@ -192,8 +232,9 @@
 
         @media (max-width: 768px) {
             .job-page-container {
-                margin: 20px;
+                margin: 0px;
                 padding: 25px;
+                margin-bottom: 55px;
             }
             .job-title-vaga {
                 font-size: 24px;
@@ -203,6 +244,9 @@
                 right: 20px;
                 padding: 12px 20px;
                 font-size: 14px;
+            }
+            .job-section h2{
+                font-size: 20px;
             }
         }
     </style>
@@ -277,7 +321,7 @@
                         </div>
                         <div class="job-meta-item">
                             <i class="fas fa-calendar-alt"></i>
-                            <span>Publicado em: 24 de Fev de 2026</span>
+                            <span>24 de Fev de 2026</span>
                         </div>
                         <div class="job-salary">
                             <i class="job-salary"></i>
