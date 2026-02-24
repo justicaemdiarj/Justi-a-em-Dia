@@ -32,14 +32,14 @@ const siteConfig = {
     
     // Configuração do Menu (Gerenciamento em Massa)
     menu: [
-            { title: "Direito Civil", link: "direito-civil/index.html" },
-            { title: "Direito de Família", link: "direito-de-familia/index.html" },
+            { title: "Direito Civil", link: "direito-civil" },
+            { title: "Direito de Família", link: "direito-de-familia" },
             { title: "Direito Criminal", link: "direito-penal/index.html" },
-            { title: "Direito Trabalhista", link: "direito-trabalhista/index.html" },
-            { title: "Direito Militar", link: "direito-militar/index.html" },
+            { title: "Direito Trabalhista", link: "direito-trabalhista" },
+            { title: "Direito Militar", link: "direito-militar" },
             { title: "Compliance", link: "compliance/index.html" },
-            { title: "Jurisprudência", link: "jurisprudencia/index.html" },
-            { title: "Legislação", link: "legislacao/index.html" },
+            { title: "Jurisprudência", link: "jurisprudencia" },
+            { title: "Legislação", link: "legislacao" },
     ],
     
         // Configuração do Footer (Gerenciamento em Massa)
@@ -50,7 +50,7 @@ const siteConfig = {
             { title: "Política de Privacidade", link: "politica-privacidade.html" },
             { title: "Entre em Contato", link: "contato.html" },
             { title: "Quem Somos", link: "quem-somos.html" },
-            { title: "Apoiadores", link: "apoiadores/index.html" },
+            { title: "Apoiadores", link: "apoiadores" },
             
         ]
     },
