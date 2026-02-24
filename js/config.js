@@ -34,10 +34,10 @@ const siteConfig = {
     menu: [
             { title: "Direito Civil", link: "direito-civil" },
             { title: "Direito de Família", link: "direito-de-familia" },
-            { title: "Direito Criminal", link: "direito-penal/index.html" },
+            { title: "Direito Criminal", link: "direito-penal" },
             { title: "Direito Trabalhista", link: "direito-trabalhista" },
             { title: "Direito Militar", link: "direito-militar" },
-            { title: "Compliance", link: "compliance/index.html" },
+            { title: "Compliance", link: "compliance" },
             { title: "Jurisprudência", link: "jurisprudencia" },
             { title: "Legislação", link: "legislacao" },
     ],
