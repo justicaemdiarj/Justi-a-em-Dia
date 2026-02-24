@@ -2,7 +2,7 @@ async function carregarAcoes() {
     const container = document.getElementById('b3StocksContainer');
     if (!container) return;
 
-    const acoes = ['PETR4', 'VALE3', 'ITUB4', 'BBDC4'];
+    const acoes = ['PETR4', 'VALE3', 'ITUB4', 'MGLU3'];
     container.innerHTML = "";
 
     for (const ticker of acoes) {

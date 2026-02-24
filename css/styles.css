@@ -27,7 +27,6 @@ body {
         height: 60px;
         border-radius: 10px;
         background: #fff4f4;
-        border-radius: 4px;
         padding: 0 10px;
         font-family: 'Montserrat', sans-serif;
     }
@@ -35,7 +34,7 @@ body {
     .b3-widget-title {
         font-size: 9px;
         font-weight: 800;
-        color: #c41e3a;
+        color: #797979;
         margin-right: 8px;
         text-transform: uppercase;
     }
