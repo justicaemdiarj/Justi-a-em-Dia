@@ -70,7 +70,7 @@ const globalNewsData = [
     },
     {
         title: "Crimes Ambientais Transnacionais: A Amazônia no Epicentro de um Conflito de Jurisdições",
-        category: "Direito Penal",
+        category: "Direito Criminal",
         author: "",
         link: "direito-penal/crimes-ambientais-transnacionais-a-amazonia-no-epicentro-de-um-conflito-de-jurisdicoes.html",
         excerpt: "A devastação da floresta amazônica transcendeu há muito as fronteiras nacionais, convertendo-se em um fenômeno que desafia os paradigmas tradicionais do direito penal e ambiental.."
@@ -147,14 +147,14 @@ const globalNewsData = [
     },
     {
         title: "Princípio da insignificância e sua aplicação nos crimes patrimoniais",
-        category: "Direito Penal",
+        category: "Direito Criminal",
         author: "",
         link: "direito-penal/principio-insignificancia-crimes-patrimoniais.html",
         excerpt: "Análise detalhada sobre princípio da insignificância e sua aplicação nos crimes patrimoniais e seus impactos no ordenamento jurídico brasileiro."
     },
     {
         title: "Prisão preventiva: requisitos legais e abusos recorrentes",
-        category: "Direito Penal",
+        category: "Direito Criminal",
         author: "",
         link: "direito-penal/prisao-preventiva-requisitos-abusos.html",
         excerpt: "Análise detalhada sobre prisão preventiva: requisitos legais e abusos recorrentes e seus impactos no ordenamento jurídico brasileiro."
