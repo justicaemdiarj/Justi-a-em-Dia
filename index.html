@@ -154,29 +154,25 @@
         </div>
     </main>
 
-    <!-- Newsletter Section -->
-    <section class="newsletter" style="background: #f9f9f9; border-top: 1px solid #eee; border-bottom: 1px solid #eee; padding: 80px 0;">
-        <div class="container">
-            <div class="newsletter-content" style="max-width: 600px; margin: 0 auto; text-align: center;">
-                <h2 style="color: #c41e3a; font-size: 2.5rem; font-weight: 800; margin-bottom: 15px;">Newsletter</h2>
-                <p style="color: #666; font-size: 1.1rem; margin-bottom: 35px;">Receba as principais notícias jurídicas em seu e-mail</p>
-                
-                <form class="newsletter-form" id="newsletterForm" style="display: flex; flex-direction: column; gap: 15px;">
-                    <input type="email" id="newsletterEmailMain" placeholder="Seu melhor e-mail" required style="padding: 15px 25px; border: 1px solid #ddd; border-radius: 10px; font-family: inherit; font-size: 1rem; width: 100%; box-shadow: 0 2px 5px rgba(0,0,0,0.03);">
-                    
-                    <div style="display: flex; align-items: flex-start; gap: 10px; text-align: left; padding: 0 10px;">
-                        <input type="checkbox" id="newsletterConsentMain" required style="margin-top: 5px; cursor: pointer; width: 18px; height: 18px;">
-                        <label for="newsletterConsentMain" style="font-size: 0.85rem; color: #777; line-height: 1.4; cursor: pointer;">
-                            Aceito receber notificações e e-mails informativos do Justiça em Dia. Seus dados estão seguros conosco.
-                        </label>
-                    </div>
-
-                    <button type="submit" id="newsletterSubmitBtnMain" class="btn" style="background: #c41e3a; color: #fff; border: none; padding: 15px 40px; border-radius: 10px; font-weight: 700; font-size: 1.1rem; cursor: pointer; transition: all 0.3s ease; margin-top: 10px; box-shadow: 0 4px 15px rgba(196, 30, 58, 0.2);">Inscrever</button>
-                </form>
-                <div id="newsletterMessageMain" style="margin-top: 20px; font-size: 0.95rem; display: none; padding: 12px; border-radius: 8px;"></div>
-            </div>
+<!-- Newsletter Section com design profissional -->
+<section class="newsletter" style="background: #f9f9f9; border-top: 1px solid #eee; border-bottom: 1px solid #eee; padding: 80px 0;">
+    <div class="container">
+        <div class="newsletter-content" style="max-width: 600px; margin: 0 auto; text-align: center;">
+            <h2 style="color: #c41e3a; font-size: 2.5rem; font-weight: 800; margin-bottom: 15px;">Newsletter</h2>
+            <p style="color: #666; font-size: 1.1rem; margin-bottom: 35px;">Receba as principais notícias jurídicas em seu e-mail</p>
+            
+            <form class="newsletter-form" id="newsletterForm" style="display: flex; flex-direction: column; gap: 15px;">
+                <input type="email" name="email" id="newsletterEmailMain" placeholder="Seu melhor e-mail" required>
+                <div style="display: flex; align-items: flex-start; gap: 10px; text-align: left; padding: 0 10px;">
+                    <input type="checkbox" id="newsletterConsentMain" required>
+                    <label for="newsletterConsentMain">Aceito receber notificações e e-mails informativos do Justiça em Dia. Seus dados estão seguros conosco.</label>
+                </div>
+                <button type="submit" id="newsletterSubmitBtnMain" class="btn">Inscrever</button>
+            </form>
+            <div id="newsletterMessageMain" style="margin-top: 20px; font-size: 0.95rem; display: none; padding: 12px; border-radius: 8px;"></div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- Footer -->
         <footer class="footer">
@@ -228,7 +224,7 @@
     <script src="js/cookies.js"></script>
     <script src="js/b3-widget.js"></script>
     
-    <script>
+<script>
         // Lógica de submissão da Newsletter principal (index.html)
         document.addEventListener('DOMContentLoaded', function() {
             const form = document.getElementById('newsletterForm');
@@ -255,7 +251,7 @@
                     submitBtn.textContent = 'Enviando...';
                     submitBtn.style.opacity = '0.7';
 
-                    const GOOGLE_SCRIPT_URL = 'https://script.googleusercontent.com/macros/echo?user_content_key=AY5xjrRkfHSJ5s47-eIuKLMa1J4TPdWrz3KBmxtLl6K2OTNVCSbpH3cNT1sfdU1I--Pe5uQM02Q2uE7l5uP_M9svdJYZU3fP0CXpdo-OwmYBn4XZJh0kIPkyPPqVxstVHrC60m6g6Gp_ugKCOHuPxYfiVvoIA4ZexnqUYfVkZ3nnl-ImjRhyUr19oxeDzi4MTQX3GS2bHxaVr3yYZRGtIPNWxRmpkS7DttviJ23ofMP8F1lMmXoJ3YRk_S7I9tE3gDLCCDXy_OiCDfDoxRMMHKfEMfQQMoQpUw&lib=MTGaKk_pGWl_2raXZW3yM057EkROO2IK8'; 
+                    const FORMSPREE_URL = 'https://formspree.io/f/xzdayepv';
 
                     const formData = {
                         email: email,
@@ -273,20 +269,19 @@
                             localStorage.setItem('newsletter_subscribers', JSON.stringify(subscribers));
                         }
 
-                        // Enviar para Google Sheets
-                        const params = new URLSearchParams();
-                        for (const key in formData) {
-                            params.append(key, formData[key]);
-                        }
-                        
-                        // Usando GET com no-cors para máxima compatibilidade com Apps Script
-                        // O Apps Script muitas vezes funciona melhor com GET quando há problemas de publicação
-                        const finalUrl = `${GOOGLE_SCRIPT_URL}?${params.toString()}`;
-                        await fetch(finalUrl, {
-                            method: 'GET',
-                            mode: 'no-cors',
-                            cache: 'no-cache'
+                        // Enviar para Formspree via AJAX
+                        const response = await fetch(FORMSPREE_URL, {
+                            method: 'POST',
+                            body: JSON.stringify(formData),
+                            headers: {
+                                'Content-Type': 'application/json',
+                                'Accept': 'application/json'
+                            }
                         });
+
+                        if (!response.ok) {
+                            throw new Error('Erro na resposta do servidor');
+                        }
 
                         // Sucesso
                         messageDiv.textContent = 'Inscrição realizada com sucesso! Obrigado por nos acompanhar.';
@@ -314,7 +309,7 @@
             }
         });
     </script>
-
+    
     <script>
     document.addEventListener('DOMContentLoaded', () => {
         const weatherIcon = document.getElementById('weather-icon');

@@ -1,3 +1,8 @@
+/**
+ * NEWSLETTER INTEGRATION - FORMSPREE VERSION
+ * Esta versão substitui a necessidade de Google Apps Script por uma API gratuita.
+ * Mantém o layout e CSS originais.
+ */
 
 function injectNewsletter() {
     const mobileContainer = document.getElementById('banner-mobile-container');
@@ -7,10 +12,10 @@ function injectNewsletter() {
                 <h3 style="font-size: 1.2rem; color: #c41e3a; margin-bottom: 10px; font-weight: 700;">Newsletter</h3>
                 <p style="font-size: 0.9rem; color: #666; margin-bottom: 15px;">Receba as principais notícias jurídicas em seu e-mail.</p>
                 <form id="newsletterFormSidebar" style="display: flex; flex-direction: column; gap: 12px;">
-                    <input type="email" id="newsletterEmail" placeholder="Seu e-mail" required style="padding: 10px 15px; border: 1px solid #ddd; border-radius: 4px; font-family: inherit; font-size: 0.9rem;">
+                    <input type="email" name="email" id="newsletterEmail" placeholder="Seu e-mail" required style="padding: 10px 15px; border: 1px solid #ddd; border-radius: 4px; font-family: inherit; font-size: 0.9rem;">
                     
                     <div style="display: flex; align-items: flex-start; gap: 8px;">
-                        <input type="checkbox" id="newsletterConsent" required style="margin-top: 4px; cursor: pointer;">
+                        <input type="checkbox" name="consentimento" id="newsletterConsent" required style="margin-top: 4px; cursor: pointer;">
                         <label for="newsletterConsent" style="font-size: 0.75rem; color: #777; line-height: 1.3; cursor: pointer;">
                             Aceito receber notificações e e-mails informativos do Justiça em Dia.
                         </label>
@@ -37,62 +42,51 @@ function injectNewsletter() {
 
                 if (!consent) {
                     messageDiv.textContent = 'Você precisa aceitar os termos para continuar.';
+                    messageDiv.style.backgroundColor = '#ffebee';
                     messageDiv.style.color = '#c41e3a';
                     messageDiv.style.display = 'block';
                     return;
                 }
 
-                // Feedback visual de carregamento
+                // Feedback visual
                 submitBtn.disabled = true;
                 submitBtn.textContent = 'Enviando...';
                 submitBtn.style.opacity = '0.7';
 
-                // URL do Google Apps Script
-                const GOOGLE_SCRIPT_URL = 'https://script.googleusercontent.com/macros/echo?user_content_key=AY5xjrRkfHSJ5s47-eIuKLMa1J4TPdWrz3KBmxtLl6K2OTNVCSbpH3cNT1sfdU1I--Pe5uQM02Q2uE7l5uP_M9svdJYZU3fP0CXpdo-OwmYBn4XZJh0kIPkyPPqVxstVHrC60m6g6Gp_ugKCOHuPxYfiVvoIA4ZexnqUYfVkZ3nnl-ImjRhyUr19oxeDzi4MTQX3GS2bHxaVr3yYZRGtIPNWxRmpkS7DttviJ23ofMP8F1lMmXoJ3YRk_S7I9tE3gDLCCDXy_OiCDfDoxRMMHKfEMfQQMoQpUw&lib=MTGaKk_pGWl_2raXZW3yM057EkROO2IK8'; 
+                // ⚠️ SUBSTITUA PELO SEU ID DO FORMSPREE (Crie em formspree.io)
+                // Se deixar este, os dados irão para o sistema padrão de teste
+                const FORMSPREE_ID = 'xzdayepv'; 
+                const API_URL = `https://formspree.io/f/${FORMSPREE_ID}`;
 
-                const formData = {
-                    email: email,
-                    data: date,
-                    aceite: 'Sim',
-                    data_aceite: date, // Adicionando explicitamente a data de aceite
-                    origem: window.location.pathname
-                };
+                const formData = new FormData();
+                formData.append('email', email);
+                formData.append('data_cadastro', date);
+                formData.append('origem', window.location.pathname);
+                formData.append('aceite_termos', 'Sim');
 
                 try {
-                    // 1. Salvar no LocalStorage (Backup Local)
-                    let subscribers = JSON.parse(localStorage.getItem('newsletter_subscribers') || '[]');
-                    if (!subscribers.some(s => s.email === email)) {
-                        subscribers.push(formData);
-                        localStorage.setItem('newsletter_subscribers', JSON.stringify(subscribers));
-                    }
-
-                    // 2. Enviar para Google Sheets
-                    if (GOOGLE_SCRIPT_URL) {
-                        // Usando URLSearchParams para enviar como formulário tradicional
-                        const params = new URLSearchParams();
-                        for (const key in formData) {
-                            params.append(key, formData[key]);
+                    const response = await fetch(API_URL, {
+                        method: 'POST',
+                        body: formData,
+                        headers: {
+                            'Accept': 'application/json'
                         }
+                    });
 
-                        // Usando GET com no-cors para máxima compatibilidade com Apps Script
-                        const finalUrl = `${GOOGLE_SCRIPT_URL}?${params.toString()}`;
-                        await fetch(finalUrl, {
-                            method: 'GET',
-                            mode: 'no-cors',
-                            cache: 'no-cache'
-                        });
+                    if (response.ok) {
+                        messageDiv.textContent = 'Inscrição realizada com sucesso! Obrigado.';
+                        messageDiv.style.backgroundColor = '#d4edda';
+                        messageDiv.style.color = '#155724';
+                        messageDiv.style.display = 'block';
+                        form.reset();
+                    } else {
+                        throw new Error('Erro na resposta da API');
                     }
-
-                    // Sucesso
-                    messageDiv.textContent = 'Inscrição realizada com sucesso! Verifique sua caixa de entrada.';
-                    messageDiv.style.backgroundColor = '#d4edda';
-                    messageDiv.style.color = '#155724';
-                    messageDiv.style.display = 'block';
-                    form.reset();
 
                 } catch (err) {
                     console.error('Erro:', err);
                     messageDiv.textContent = 'Erro ao processar. Tente novamente mais tarde.';
+                    messageDiv.style.backgroundColor = '#ffebee';
                     messageDiv.style.color = '#c41e3a';
                     messageDiv.style.display = 'block';
                 } finally {
@@ -102,7 +96,7 @@ function injectNewsletter() {
                     
                     setTimeout(() => {
                         messageDiv.style.display = 'none';
-                    }, 6000);
+                    }, 5000);
                 }
             });
         }
