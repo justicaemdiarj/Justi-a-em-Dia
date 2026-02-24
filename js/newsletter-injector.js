@@ -48,7 +48,7 @@ function injectNewsletter() {
                 submitBtn.style.opacity = '0.7';
 
                 // URL do Google Apps Script
-                const GOOGLE_SCRIPT_URL = 'https://docs.google.com/spreadsheets/d/1-lCEBoi9gXOR0NlHlAg0fbD2ap7C5-uOqkA_zGktmcM/'; 
+                const GOOGLE_SCRIPT_URL = 'https://script.googleusercontent.com/macros/echo?user_content_key=AY5xjrRkfHSJ5s47-eIuKLMa1J4TPdWrz3KBmxtLl6K2OTNVCSbpH3cNT1sfdU1I--Pe5uQM02Q2uE7l5uP_M9svdJYZU3fP0CXpdo-OwmYBn4XZJh0kIPkyPPqVxstVHrC60m6g6Gp_ugKCOHuPxYfiVvoIA4ZexnqUYfVkZ3nnl-ImjRhyUr19oxeDzi4MTQX3GS2bHxaVr3yYZRGtIPNWxRmpkS7DttviJ23ofMP8F1lMmXoJ3YRk_S7I9tE3gDLCCDXy_OiCDfDoxRMMHKfEMfQQMoQpUw&lib=MTGaKk_pGWl_2raXZW3yM057EkROO2IK8'; 
 
                 const formData = {
                     email: email,
