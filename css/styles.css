@@ -202,7 +202,7 @@ img {
 
 .newsletter-form input {
     padding: 12px 20px;
-    width: 300px;
+    width: 600px;
     border-radius: 4px;
     border: none;
     outline: none;
@@ -1225,6 +1225,7 @@ img {
     border: none;
     border-radius: 5px;
     font-size: 15px;
+    text-align: center;
     outline: none;
 }
 
