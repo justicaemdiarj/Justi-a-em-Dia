@@ -1,6 +1,9 @@
 /**
- * B3 Stock Widget - HG Finance API Integration
+ * B3 Stock Widget - BRAPI.DEV API Integration
  * Exibe cotações de múltiplas ações da B3 apenas em desktop
+ * 
+ * Uso: Adicione este arquivo como <script src="js/b3-widget.js"></script>
+ * antes de <script src="js/script.js"></script> no index.html
  */
 
 class B3Widget {
@@ -8,18 +11,20 @@ class B3Widget {
         this.container = document.getElementById('b3StocksContainer');
         this.widget = document.getElementById('b3Widget');
         
-        // Ações a serem exibidas (customize conforme necessário)
-        this.stocks = ['PETR4', 'VALE3', 'ITUB4', 'BBDC4', 'SANB11', 'WEGE3', 'MGLU3', 'BBAS3'];
+        // ===== CUSTOMIZE AQUI =====
+        // Ações a serem exibidas (máximo 4 para não ficar muito grande)
+        this.stocks = ['PETR4', 'VALE3', 'ITUB4', 'BBDC4'];
         
-        // HG Finance API
-        this.apiUrl = 'https://api.hgbrasil.com/finance';
-        this.apiKey = ''; // Deixe vazio para usar sem autenticação
+        // BRAPI.DEV API - CORS Liberado
+        this.apiUrl = 'https://brapi.dev/api/quote';
+        this.apiKey = ''; // Deixe vazio para usar as ações de teste
+        // ========================
         
         // Verificar se é desktop
         this.isDesktop = window.innerWidth >= 768;
         
         // Inicializar
-        if (this.isDesktop ) {
+        if (this.isDesktop) {
             this.init();
         }
         
@@ -31,7 +36,9 @@ class B3Widget {
             if (this.isDesktop && !wasDesktop) {
                 this.init();
             } else if (!this.isDesktop && wasDesktop) {
-                this.widget.style.display = 'none';
+                if (this.widget) {
+                    this.widget.style.display = 'none';
+                }
             }
         });
     }
@@ -39,7 +46,7 @@ class B3Widget {
     init() {
         this.fetchStockData();
         
-        // Atualizar a cada 5 minutos
+        // Atualizar a cada 5 minutos (300000ms)
         setInterval(() => {
             this.fetchStockData();
         }, 300000);
@@ -51,11 +58,16 @@ class B3Widget {
             
             this.container.innerHTML = '<span class="b3-loading">Carregando...</span>';
             
-            // Construir URL com parâmetros
-            let url = this.apiUrl;
+            // Construir URL com os tickers separados por vírgula
+            const tickers = this.stocks.join(',');
+            let url = `${this.apiUrl}/${tickers}`;
+            
+            // Adicionar token se houver
             if (this.apiKey) {
-                url += `?key=${this.apiKey}`;
+                url += `?token=${this.apiKey}`;
             }
+            
+            console.log('Buscando dados de:', url);
             
             const response = await fetch(url);
             
@@ -65,10 +77,12 @@ class B3Widget {
             
             const data = await response.json();
             
-            if (data.results && data.results.stocks) {
-                this.renderStocks(data.results.stocks);
+            console.log('Dados recebidos:', data);
+            
+            if (data.results && Array.isArray(data.results)) {
+                this.renderStocks(data.results);
             } else {
-                throw new Error('Dados inválidos da API');
+                throw new Error('Formato de dados inválido');
             }
         } catch (error) {
             console.error('Erro ao buscar dados da B3:', error);
@@ -78,28 +92,17 @@ class B3Widget {
         }
     }
 
-    renderStocks(allStocks) {
+    renderStocks(stocks) {
         if (!this.container) return;
         
         this.container.innerHTML = '';
         
-        // Filtrar apenas as ações desejadas
-        const selectedStocks = this.stocks.map(symbol => {
-            // Procurar a ação nos dados retornados
-            for (const key in allStocks) {
-                if (key === symbol) {
-                    return { symbol, ...allStocks[key] };
-                }
-            }
-            return null;
-        }).filter(stock => stock !== null);
-        
-        if (selectedStocks.length === 0) {
-            this.container.innerHTML = '<span class="b3-error">Ações não encontradas</span>';
+        if (!stocks || stocks.length === 0) {
+            this.container.innerHTML = '<span class="b3-error">Nenhuma ação encontrada</span>';
             return;
         }
         
-        selectedStocks.forEach(stock => {
+        stocks.forEach(stock => {
             const stockElement = this.createStockElement(stock);
             this.container.appendChild(stockElement);
         });
@@ -109,11 +112,11 @@ class B3Widget {
         const div = document.createElement('div');
         div.className = 'b3-stock-item';
         
-        // Extrair dados
+        // Extrair dados da resposta da BRAPI
         const symbol = stock.symbol || 'N/A';
-        const price = stock.price ? parseFloat(stock.price).toFixed(2) : 'N/A';
-        const change = stock.change || 0;
-        const changePercent = stock.change_percent || 0;
+        const price = stock.regularMarketPrice ? parseFloat(stock.regularMarketPrice).toFixed(2) : 'N/A';
+        const change = stock.regularMarketChange || 0;
+        const changePercent = stock.regularMarketChangePercent || 0;
         
         // Determinar classe de cor (positivo/negativo)
         const changeClass = change >= 0 ? 'positive' : 'negative';
