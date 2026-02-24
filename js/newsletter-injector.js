@@ -48,7 +48,7 @@ function injectNewsletter() {
                 submitBtn.style.opacity = '0.7';
 
                 // URL do Google Apps Script
-                const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwLrq1GUmSq2ZlDtRD2Ma54VJrk8RdJG40vC2bODcjJNRSU6M3_nZFfNj_T1xFx2uuN/exec'; 
+                const GOOGLE_SCRIPT_URL = 'https://docs.google.com/spreadsheets/d/1-lCEBoi9gXOR0NlHlAg0fbD2ap7C5-uOqkA_zGktmcM/'; 
 
                 const formData = {
                     email: email,
