@@ -308,89 +308,81 @@
         <!-- Form Section -->
         <div class="form-section">
             <h2>Formulário de Aceite</h2>
-            <p>Preencha os dados abaixo e aceite os termos para gerar seu documento de aceite em PDF.</p>
+            <p>Por favor, preencha os campos abaixo para gerar seu documento de aceite em PDF.</p>
 
-            <div class="success-message" id="successMessage">
-                ✓ Documento gerado com sucesso! Verifique seu download.
+            <!-- Success Message -->
+            <div id="successMessage" class="success-message">
+                ✅ Documento gerado com sucesso! Verifique sua pasta de downloads.
             </div>
 
-            <form id="termoForm">
-                <!-- Nome Completo -->
+            <!-- Form -->
+            <form id="termoForm" novalidate>
+                <!-- Full Name -->
                 <div class="form-group">
                     <label for="fullName">Nome Completo *</label>
-                    <input type="text" id="fullName" placeholder="Digite seu nome completo" required>
+                    <input type="text" id="fullName" name="fullName" required placeholder="Digite seu nome completo">
                 </div>
 
                 <!-- CPF -->
                 <div class="form-group">
                     <label for="cpf">CPF *</label>
-                    <input type="text" id="cpf" placeholder="000.000.000-00" required>
+                    <input type="text" id="cpf" name="cpf" required placeholder="000.000.000-00">
                 </div>
 
-                <!-- Telefone -->
+                <!-- Phone -->
                 <div class="form-group">
                     <label for="phone">Telefone *</label>
-                    <input type="tel" id="phone" placeholder="(00) 00000-0000" required>
+                    <input type="tel" id="phone" name="phone" required placeholder="(00) 00000-0000">
                 </div>
 
-                <!-- E-mail -->
+                <!-- Email -->
                 <div class="form-group">
                     <label for="email">E-mail *</label>
-                    <input type="email" id="email" placeholder="seu@email.com" required>
+                    <input type="email" id="email" name="email" required placeholder="seu.email@exemplo.com">
                 </div>
 
-                <!-- Categoria -->
+                <!-- Category -->
                 <div class="form-group">
-                    <label for="category">Categoria que pretende publicar os artigos:*</label>
-                    <select id="category" required>
+                    <label for="category">Categoria *</label>
+                    <select id="category" name="category" required>
                         <option value="">Selecione uma categoria</option>
                         <option value="Direito Civil">Direito Civil</option>
-                        <option value="Direito de Família">Direito de Família</option>
-                        <option value="Direito Criminal">Direito Criminal</option>
+                        <option value="Direito Penal">Direito Penal</option>
                         <option value="Direito Trabalhista">Direito Trabalhista</option>
+                        <option value="Direito de Família">Direito de Família</option>
                         <option value="Direito Militar">Direito Militar</option>
                         <option value="Compliance">Compliance</option>
                         <option value="Jurisprudência">Jurisprudência</option>
                         <option value="Legislação">Legislação</option>
-                        <option value="Recursos Humanos">Recursos Humanos</option>
-                        <option value="Finanças">Finanças</option>
                     </select>
                 </div>
 
-                <!-- IP Address -->
+                <!-- IP Display -->
                 <div class="form-group">
-                    <label>Seu Endereço IP</label>
+                    <label>Endereço IP</label>
                     <div class="ip-display" id="ipDisplay">Carregando...</div>
                 </div>
 
                 <!-- Checkboxes -->
                 <div class="checkbox-group">
                     <div class="checkbox-item">
-                        <input type="checkbox" id="terms" required>
-                        <label for="terms">CONFIRMA O TERMO ACIMA.</label>
+                        <input type="checkbox" id="termsAccept" name="termsAccept" required>
+                        <label for="termsAccept">CONFIRMO O ACEITE DO TERMO ACIMA*</label>
                     </div>
-
                     <div class="checkbox-item">
-                        <input type="checkbox" id="privacy" required>
-                        <label for="privacy">CONFIRMA QUE OS DADOS FORNECIDOS ESTÃO CORRETOS.</label>
+                        <input type="checkbox" id="dataAccept" name="dataAccept" required>
+                        <label for="dataAccept">CONFIRMO QUE OS DADOS FORNECIDOS ESTÃO CORRETOS*</label>
                     </div>
-                    <!--
                     <div class="checkbox-item">
-                        <input type="checkbox" id="dataCollection" required>
-                        <label for="dataCollection">Aceito a Coleta de Dados - Autorizo o armazenamento do meu endereço IP e informações pessoais.</label>
+                        <input type="checkbox" id="privacyAccept" name="privacyAccept" required>
+                        <label for="privacyAccept">ACEITO A COLETA E USO DE MEUS DADOS CONFORME DESCRITO*</label>
                     </div>
-
-                    <div class="checkbox-item">
-                        <input type="checkbox" id="cookies" required>
-                        <label for="cookies">Aceito Cookies - Autorizo o uso de cookies para melhorar minha experiência no site.</label>
-                    </div>
-                        -->
                 </div>
 
                 <!-- Buttons -->
                 <div class="button-group">
-                    <button type="reset" class="btn-clear">Limpar</button>
-                    <button type="button" class="btn-submit" id="submitBtn">Aceitar e Gerar PDF</button>
+                    <button type="reset" class="btn-clear">Limpar Formulário</button>
+                    <button type="button" id="submitBtn" class="btn-submit">Gerar PDF</button>
                 </div>
             </form>
         </div>
@@ -464,17 +456,96 @@
                 const doc = new jsPDF();
                 const pageWidth = doc.internal.pageSize.getWidth();
                 const pageHeight = doc.internal.pageSize.getHeight();
-                const margin = 15;
-                const lineHeight = 7;
+                const margin = 12;
+                const lineHeight = 5;
                 let yPosition = margin;
 
-                // Header
-                doc.setFontSize(20);
+                // Full Terms of Use Content
+                doc.setFontSize(10);
+                doc.setFont(undefined, 'bold');
+                doc.setTextColor(199, 0, 51);
+                doc.text('TERMO DE USO COMPLETO:', margin, yPosition);
+                yPosition += 6;
+
+                doc.setFontSize(7);
+                doc.setFont(undefined, 'normal');
+                doc.setTextColor(0, 0, 0);
+
+                const fullTermsContent = [
+                    '1. AUTORIZAÇÃO DE PUBLICAÇÃO DE CONTEÚDO',
+                    'Ao aceitar este termo, você autoriza expressamente a publicação de artigos, análises jurídicas, comentários e conteúdo educacional em nossos canais oficiais, incluindo website, redes sociais, plataformas de streaming e newsletters. Nosso objetivo é democratizar o conhecimento jurídico e promover a educação legal continuada para profissionais e cidadãos interessados.',
+                    '',
+                    '2. USO DE IMAGENS E MATERIAIS VISUAIS',
+                    'Você autoriza o uso de imagens, gráficos, infográficos, vídeos e outros materiais visuais relacionados a conteúdos para fins educacionais, informativos e promocionais. Estes materiais poderão ser utilizados em publicações, apresentações, webinars e eventos relacionados à disseminação do conhecimento legal.',
+                    '',
+                    '3. DIRECIONAMENTO PARA CANAIS OFICIAIS',
+                    'Você autoriza o direcionamento de público para nossos canais oficiais de comunicação, incluindo redes sociais (Instagram, LinkedIn, YouTube e outros), website, aplicativos móveis e plataformas de conteúdo jurídico. Nos comprometemos a manter estes canais seguros, profissionais e focados em conteúdo de qualidade.',
+                    '',
+                    '4. COLETA E USO DE DADOS PESSOAIS',
+                    'Ao aceitar este termo, você autoriza a coleta das seguintes informações pessoais: nome completo, CPF, telefone, endereço de e-mail, endereço IP e data/hora do aceite. Estes dados serão utilizados para fins de comunicação, análise de uso, conformidade legal e segurança da plataforma.',
+                    '',
+                    '5. SEGURANÇA E PROTEÇÃO DE DADOS',
+                    'Seus dados pessoais serão armazenados de forma segura, criptografada e protegidos por medidas de segurança de classe empresarial. Não compartilharemos seus dados com terceiros sem seu consentimento expresso, exceto quando exigido por lei ou para fins de conformidade regulatória.',
+                    '',
+                    '6. RESPONSABILIDADE E ISENÇÃO',
+                    'O conteúdo fornecido é para fins educacionais e informativos. Não constitui aconselhamento jurídico profissional. Para questões legais específicas, consulte um advogado qualificado. Não nos responsabilizamos por danos diretos ou indiretos resultantes do uso de nossos serviços.',
+                    '',
+                    '7. MODIFICAÇÕES DOS TERMOS',
+                    'Reservamos o direito de modificar estes termos a qualquer momento. As alterações entrarão em vigor imediatamente após a publicação. Seu uso continuado dos serviços após tais modificações constitui sua aceitação dos novos termos.',
+                    '',
+                    '8. LEI APLICÁVEL',
+                    'Estes termos são regidos e interpretados de acordo com as leis da República Federativa do Brasil, sem considerar seus conflitos de disposições legais.'
+                ];
+
+                fullTermsContent.forEach((line) => {
+                    if (line === '') {
+                        yPosition += 2;
+                    } else if (line.match(/^\d+\./)) {
+                        // Verifica se há espaço para o título
+                        if (yPosition > pageHeight - 45) {
+                            doc.addPage();
+                            yPosition = margin;
+                        }
+                        doc.setFont(undefined, 'bold');
+                        doc.setFontSize(7);
+                        doc.text(line, margin, yPosition);
+                        doc.setFont(undefined, 'normal');
+                        yPosition += lineHeight + 1;
+                    } else {
+                        const textWidth = pageWidth - 2 * margin - 2;
+                        const splitText = doc.splitTextToSize(line, textWidth);
+                        const paragraphHeight = splitText.length * lineHeight;
+                        
+                        // Verifica se o parágrafo inteiro cabe na página
+                        if (yPosition + paragraphHeight > pageHeight - 15) {
+                            doc.addPage();
+                            yPosition = margin;
+                        }
+                        
+                        splitText.forEach((text) => {
+                            doc.text(text, margin, yPosition);
+                            yPosition += lineHeight;
+                        });
+                        yPosition += 1;
+                    }
+                });
+
+                // Espaço antes do TERMO DE ACEITE
+                yPosition += 4;
+                if (yPosition > pageHeight - 35) {
+                    doc.addPage();
+                    yPosition = margin;
+                }
+
+                // Header - TERMO DE ACEITE
+                doc.setFontSize(14);
+                doc.setFont(undefined, 'bold');
                 doc.setTextColor(199, 0, 51);
                 doc.text('TERMO DE ACEITE:', margin, yPosition);
 
-                yPosition += 15;
-                doc.setFontSize(10);
+                yPosition += 10;
+                doc.setFontSize(8);
+                doc.setFont(undefined, 'normal');
                 doc.setTextColor(0, 0, 0);
 
                 // Date and Time
@@ -482,15 +553,15 @@
                 const dateStr = now.toLocaleDateString('pt-BR');
                 const timeStr = now.toLocaleTimeString('pt-BR');
                 doc.text(`Data: ${dateStr} | Hora: ${timeStr}`, margin, yPosition);
-                yPosition += 10;
+                yPosition += 7;
 
                 // User Data
-                doc.setFontSize(11);
+                doc.setFontSize(8);
                 doc.setFont(undefined, 'bold');
                 doc.text('DADOS DO USUÁRIO:', margin, yPosition);
-                yPosition += 8;
+                yPosition += 5;
 
-                doc.setFontSize(10);
+                doc.setFontSize(7);
                 doc.setFont(undefined, 'normal');
                 doc.text(`Nome Completo: ${fullName}`, margin, yPosition);
                 yPosition += lineHeight;
@@ -503,85 +574,33 @@
                 doc.text(`Categoria: ${category}`, margin, yPosition);
                 yPosition += lineHeight;
                 doc.text(`Endereço IP: ${userIP}`, margin, yPosition);
-                yPosition += 12;
-
-                // Accepted Terms
-                doc.setFontSize(11);
-                doc.setFont(undefined, 'bold');
-                doc.text('CONFIRMAÇÃO:', margin, yPosition);
                 yPosition += 8;
 
-                doc.setFontSize(9);
+                // Accepted Terms
+                doc.setFontSize(8);
+                doc.setFont(undefined, 'bold');
+                doc.text('CONFIRMAÇÃO:', margin, yPosition);
+                yPosition += 5;
+
+                doc.setFontSize(7);
                 doc.setFont(undefined, 'normal');
                 const termsText = [
-                    '✅ CONFIRMA O TERMO ACIMA',
-                    '✅ CONFIRMA QUE OS DADOS FORNECIDOS ESTÃO CORRETOS.',
+                    'x CONFIRMO O ACEITE DO TERMO ACIMA',
+                    'x CONFIRMO QUE OS DADOS FORNECIDOS ESTÃO CORRETOS',
+                    'x ACEITO A COLETA E USO DE MEUS DADOS CONFORME DESCRITO',
+                    
                 ];
 
                 termsText.forEach((term) => {
-                    doc.text(term, margin + 5, yPosition);
+                    doc.text(term, margin + 3, yPosition);
                     yPosition += lineHeight;
                 });
 
-                yPosition += 8;
-
-                // Terms Summary
-                doc.setFontSize(11);
-                doc.setFont(undefined, 'bold');
-                doc.text('RESUMO:', margin, yPosition);
-                yPosition += 8;
-
-                doc.setFontSize(9);
-                doc.setFont(undefined, 'normal');
-
-                const termsContent = [
-                    '1. AUTORIZAÇÃO DE CONTEÚDO',
-                    'O usuário autoriza a publicação de artigos, textos, análises e conteúdo educacional nos canais do Justiça em Dia.',
-                    '',
-                    '2. USO DE IMAGENS E MATERIAIS',
-                    'Autorizo o uso de imagens, gráficos e materiais relacionados ao conteúdo para fins educacionais e informativos.',
-                    '',
-                    '3. DIRECIONAMENTO DE CANAIS',
-                    'Autorizo o direcionamento dos artigos, textos, análises e conteúdo educacional para páginas exclusivas com o nome do usuário, redes sociais e plataformas de conteúdo do Justiça em Dia.',
-                    '',
-                    '4. COLETA DE DADOS',
-                    'Os dados pessoais fornecidos serão utilizados para fins de comunicação, análise e conformidade legal.',
-                    '',
-                    '5. SEGURANÇA E PRIVACIDADE',
-                    'Os dados serão armazenados de forma segura e não serão compartilhados com terceiros sem consentimento.'
-                ];
-
-                termsContent.forEach((line) => {
-                    if (line === '') {
-                        yPosition += 3;
-                    } else if (line.startsWith('1.') || line.startsWith('2.') || line.startsWith('3.') || line.startsWith('4.') || line.startsWith('5.')) {
-                        doc.setFont(undefined, 'bold');
-                        doc.text(line, margin, yPosition);
-                        doc.setFont(undefined, 'normal');
-                        yPosition += lineHeight;
-                    } else {
-                        const splitText = doc.splitTextToSize(line, pageWidth - 2 * margin);
-                        splitText.forEach((text) => {
-                            if (yPosition > pageHeight - 20) {
-                                doc.addPage();
-                                yPosition = margin;
-                            }
-                            doc.text(text, margin, yPosition);
-                            yPosition += lineHeight;
-                        });
-                    }
-
-                    if (yPosition > pageHeight - 20) {
-                        doc.addPage();
-                        yPosition = margin;
-                    }
-                });
-
                 // Footer
-                doc.setFontSize(8);
+                doc.setFontSize(6);
                 doc.setTextColor(128, 128, 128);
-                const footerY = pageHeight - 10;
-                doc.text(`Documento gerado em: ${window.location.href}`, margin, footerY - 5);
+                const footerY = pageHeight - 8;
+                doc.text(`Documento gerado em: ${window.location.href}`, margin, footerY - 2);
                 doc.text(`IP do Dispositivo: ${userIP}`, margin, footerY);
 
                 // Save PDF with category in filename
