@@ -49,8 +49,10 @@ const siteConfig = {
         additionalLinks: [
             { title: "Política de Privacidade", link: "politica-privacidade.html" },
             { title: "Entre em Contato", link: "contato.html" },
+          //  { title: "Anuncie Conosco", link: "comercial" },
             { title: "Quem Somos", link: "quem-somos.html" },
             { title: "Apoiadores", link: "apoiadores" },
+        
             
         ]
     },
