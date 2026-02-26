@@ -25,7 +25,7 @@ const siteConfig = {
     social: {
    //  facebook: "",
     instagram: "https://instagram.com/justicaemdia_br",
-   //  twitter: "",
+     twitter: "https://x.com/company/justicaemdia",
      linkedin: "https://linkedin.com/company/justicaemdia",
 
     },
@@ -89,6 +89,8 @@ const siteConfig = {
             description: "Descrição do apoiador 5. Comprometido com a excelência jurídica e o apoio ao portal Justiça em Dia."
         }
     ],
+    displaySupporters: false, // ATIVAÇÃO/INATIVAÇÃO APOIADORES
+    
     banners: {
         // Formato da data: "YYYY-MM-DD" ou null para permanente
         // pages: "full" para todas as páginas, ou array de URLs específicas (ex: ["index.html", "contato.html"])
@@ -162,7 +164,7 @@ function loadFontAwesome() {
     if (!document.querySelector('link[href*="fontawesome"]')) {
         const link = document.createElement('link');
         link.rel = 'stylesheet';
-        link.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css';
+        link.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css';
         document.head.appendChild(link);
     }
 }
@@ -308,7 +310,7 @@ if (footerSections.length >= 3) {
             socialLinksHTML += `<a href="${siteConfig.social.instagram}" target="_blank" rel="noopener noreferrer" title="Instagram" class="social-link"><i class="fab fa-instagram"></i></a>`;
         }
         if (!isEmpty(siteConfig.social.twitter)) {
-            socialLinksHTML += `<a href="${siteConfig.social.twitter}" target="_blank" rel="noopener noreferrer" title="Twitter" class="social-link"><i class="fab fa-twitter"></i></a>`;
+            socialLinksHTML += `<a href="${siteConfig.social.twitter}" target="_blank" rel="noopener noreferrer" title="Twitter" class="social-link"><i class="fab fa-x-twitter"></i></a>`;
         }
         if (!isEmpty(siteConfig.social.linkedin)) {
             socialLinksHTML += `<a href="${siteConfig.social.linkedin}" target="_blank" rel="noopener noreferrer" title="LinkedIn" class="social-link"><i class="fab fa-linkedin-in"></i></a>`;
@@ -383,10 +385,16 @@ if (footerSections.length >= 3) {
         createBannerCarousel(mobileContainer, siteConfig.banners.mobile);
     }
 
+    // ...
     setupProgrammaticBanners();
 
+    const supportersSection = document.querySelector('section.supporters-section');
+    if (!siteConfig.displaySupporters && supportersSection) {
+        supportersSection.style.display = 'none';
+    }
+
     const supportersContainer = document.getElementById('supporters-carousel');
-    if (supportersContainer) {
+    if (siteConfig.displaySupporters && supportersContainer) {
         let supportersHtml = '<div class="supporters-track">';
         const allSupporters = [...siteConfig.supporters, ...siteConfig.supporters];
         allSupporters.forEach(sup => {
@@ -405,6 +413,8 @@ if (footerSections.length >= 3) {
         supportersHtml += '</div>';
         supportersContainer.innerHTML = supportersHtml;
     }
+    // ...
+
 }
 
 document.addEventListener('DOMContentLoaded', updateGlobalElements);
