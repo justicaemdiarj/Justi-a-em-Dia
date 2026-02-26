@@ -25,7 +25,7 @@ const siteConfig = {
     social: {
    //  facebook: "",
     instagram: "https://instagram.com/justicaemdia_br",
-     twitter: "https://x.com/company/justicaemdia",
+     twitter: "https://x.com/justicaemdia",
      linkedin: "https://linkedin.com/company/justicaemdia",
 
     },
