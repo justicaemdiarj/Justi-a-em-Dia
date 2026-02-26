@@ -89,7 +89,7 @@ const siteConfig = {
             description: "Descrição do apoiador 5. Comprometido com a excelência jurídica e o apoio ao portal Justiça em Dia."
         }
     ],
-    displaySupporters: false, // ATIVAÇÃO/INATIVAÇÃO APOIADORES
+    displaySupporters: true, // ATIVAÇÃO/INATIVAÇÃO APOIADORES
     
     banners: {
         // Formato da data: "YYYY-MM-DD" ou null para permanente
