@@ -34,7 +34,7 @@ const globalNewsData = [
         title: 'Novo Imposto de Renda',
         category: 'Legislação',
         author: "",
-        link: "financas/advocacia-que-nao-se-conhece-financeiramente-nao-sobrevive-o-imperativo-da-gestao-para-escritorios-em-2026.html",
+        link: "legislacao/novo-imposto-de-renda.htmll",
 
     },
     {
@@ -47,7 +47,7 @@ const globalNewsData = [
         title: 'Programa Gás do Povo',
         category: 'Legislação',
         author: "",
-        link: "legislacao/novo-imposto-de-renda.html",
+        link: "legislacao/programa-gas-do-povo.html",
     },
     {
         title: "Quando a Liberdade de Expressão Vira Linchamento Digital",
