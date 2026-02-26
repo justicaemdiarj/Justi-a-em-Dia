@@ -440,6 +440,29 @@
             e.target.value = formatPhone(e.target.value);
         });
 
+        async function carregarLogoBase64(url) {
+    return new Promise((resolve) => {
+        const img = new Image();
+        img.crossOrigin = "Anonymous";
+
+        img.onload = function () {
+            const canvas = document.createElement("canvas");
+            canvas.width = this.width;
+            canvas.height = this.height;
+            const ctx = canvas.getContext("2d");
+            ctx.drawImage(this, 0, 0);
+            resolve(canvas.toDataURL("image/png"));
+        };
+
+        img.onerror = function () {
+            console.warn("Erro ao carregar logo.");
+            resolve(null);
+        };
+
+        img.src = url;
+    });
+}
+
         // Generate PDF
         document.getElementById('submitBtn').addEventListener('click', async function() {
             const form = document.getElementById('termoForm');
@@ -458,12 +481,32 @@
 
             try {
                 const { jsPDF } = window.jspdf;
-                const doc = new jsPDF();
-                const pageWidth = doc.internal.pageSize.getWidth();
-                const pageHeight = doc.internal.pageSize.getHeight();
-                const margin = 12;
-                const lineHeight = 5;
-                let yPosition = margin;
+const doc = new jsPDF();
+
+const pageWidth = doc.internal.pageSize.getWidth();
+const pageHeight = doc.internal.pageSize.getHeight();
+const margin = 12;
+const lineHeight = 5;
+
+let yPosition = margin;
+
+// 🔹 CARREGAR LOGO (VERSÃO SEGURA)
+try {
+    const logo = new Image();
+    logo.crossOrigin = "Anonymous";
+    logo.src = "https://justi-a-em-dia.vercel.app/img/logo.justica-em-dia.png";
+
+    await new Promise((resolve, reject) => {
+        logo.onload = resolve;
+        logo.onerror = reject;
+    });
+
+    doc.addImage(logo, "PNG", 55, 10, 100, 25);
+    yPosition = 45;
+
+} catch (e) {
+    console.warn("Logo não carregou, PDF seguirá sem logo.");
+}
 
                 // Full Terms of Use Content
                 doc.setFontSize(10);
@@ -546,7 +589,7 @@
                 }
 
                 // Header - TERMO DE ACEITE
-                doc.setFontSize(14);
+                doc.setFontSize(11);
                 doc.setFont(undefined, 'bold');
                 doc.setTextColor(199, 0, 51);
                 doc.text('TERMO DE ACEITE:', margin, yPosition);
@@ -623,27 +666,34 @@ doc.rect(boxX, boxY, boxWidth, boxHeight);
 // Título
 doc.setFontSize(8);
 doc.setFont(undefined, "bold");
-doc.text("_________________________________", boxX + boxWidth / 2, boxY + 12, { align: "center" });
+doc.text("_______________________________________", boxX + boxWidth / 2, boxY + 12, { align: "center" });
 
 // Conteúdo
 doc.setFontSize(7);
 doc.setFont(undefined, "normal");
-
-// Título
-doc.setFontSize(8);
-doc.setFont(undefined, "bold");
-doc.text("_________________________________", boxX + boxWidth / 2, boxY + 12, { align: "center" });
 
 doc.text(fullName, boxX + boxWidth / 2, boxY + 16, { align: "center" });
 doc.text(`CPF: ${cpf}`, boxX + boxWidth / 2, boxY + 23, { align: "center" });
 doc.text(`${dateStr} às ${timeStr}`, boxX + boxWidth / 2, boxY + 30, { align: "center" });
 
                 // Footer
-                doc.setFontSize(6);
-                doc.setTextColor(128, 128, 128);
-                const footerY = pageHeight - 8;
-                doc.text(`Documento gerado em: ${window.location.href}`, margin, footerY - 2);
-                doc.text(`IP do Dispositivo: ${userIP}`, margin, footerY);
+               // ================= FOOTER ABAIXO DA ASSINATURA =================
+
+doc.setFontSize(6);
+doc.setTextColor(128, 128, 128);
+
+// posição logo abaixo da caixa
+let footerY = boxY + boxHeight + 6;
+
+// Se não couber na página, cria nova página
+if (footerY > pageHeight - 10) {
+    doc.addPage();
+    footerY = margin;
+}
+
+doc.text(`Documento gerado em: ${window.location.href}`, margin, footerY);
+footerY += 3;
+doc.text(`IP do Dispositivo: ${userIP}`, margin, footerY);
 
                 // Save PDF with category in filename
                 const categorySlug = category.replace(/\s+/g, '-').toLowerCase();
