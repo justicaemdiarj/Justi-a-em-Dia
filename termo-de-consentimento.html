@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Termo de Uso - Aceite e Geração de PDF</title>
+    <title>Termo de Uso e Aceite</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <meta name="robots" content="noindex">
         <link rel="icon" type="images/png" href="img/favicon.png"/>
@@ -366,6 +366,8 @@
                     <div class="ip-display" id="ipDisplay">Carregando...</div>
                 </div>
 
+                
+
                 <!-- Checkboxes -->
                 <div class="checkbox-group">
                     <div class="checkbox-item">
@@ -601,6 +603,40 @@
                     doc.text(term, margin + 3, yPosition);
                     yPosition += lineHeight;
                 });
+
+                // ================= ASSINATURA (APENAS NO PDF) =================
+
+// ================= QUADRO DE ASSINATURA À DIREITA =================
+
+// Dimensões do quadro
+const boxWidth = 80;
+const boxHeight = 40;
+
+// Posição fixa do lado direito
+const boxX = pageWidth - margin - boxWidth;
+const boxY = yPosition - 65; // sobe para alinhar com o bloco de confirmação
+
+// Desenha o retângulo
+doc.setDrawColor(0);
+doc.rect(boxX, boxY, boxWidth, boxHeight);
+
+// Título
+doc.setFontSize(8);
+doc.setFont(undefined, "bold");
+doc.text("_________________________________", boxX + boxWidth / 2, boxY + 12, { align: "center" });
+
+// Conteúdo
+doc.setFontSize(7);
+doc.setFont(undefined, "normal");
+
+// Título
+doc.setFontSize(8);
+doc.setFont(undefined, "bold");
+doc.text("_________________________________", boxX + boxWidth / 2, boxY + 12, { align: "center" });
+
+doc.text(fullName, boxX + boxWidth / 2, boxY + 16, { align: "center" });
+doc.text(`CPF: ${cpf}`, boxX + boxWidth / 2, boxY + 23, { align: "center" });
+doc.text(`${dateStr} às ${timeStr}`, boxX + boxWidth / 2, boxY + 30, { align: "center" });
 
                 // Footer
                 doc.setFontSize(6);
