@@ -74,12 +74,14 @@
         }
 
         /* Form Section */
-        .form-section {
-            background: white;
-            border-radius: 8px;
-            padding: 2rem;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-        }
+.form-section{
+    background:#ffffff;
+    border-radius:18px;
+    padding:3rem;
+    box-shadow:0 20px 60px rgba(0,0,0,0.06);
+    border:1px solid rgba(0,0,0,0.04);
+    backdrop-filter:blur(10px);
+}
 
         .form-section h2 {
             font-size: 1.5rem;
@@ -114,12 +116,33 @@
             margin-bottom: 1.5rem;
         }
 
-        .form-group label {
-            display: block;
-            font-weight: 600;
-            margin-bottom: 0.5rem;
-            color: #333;
-        }
+        .form-group input:focus,
+.form-group select:focus{
+    border-color:var(--primary);
+    box-shadow:0 0 0 4px rgba(199,0,51,0.1);
+    transform:translateY(-1px);
+}
+
+.form-group label{
+    font-weight:600;
+    font-size:13px;
+    letter-spacing:.3px;
+    margin-bottom:.4rem;
+    display:block;
+    color:#444;
+}
+
+.form-group input,
+.form-group select{
+    width:100%;
+    padding:0.95rem 1rem;
+    border:1.5px solid #ddd;
+    border-radius:12px;
+    background:#fff;
+    font-size:14px;
+    transition:all .25s ease;
+    outline:none;
+}
 
         .form-group input[type="text"],
         .form-group input[type="email"],
@@ -192,27 +215,85 @@
             padding-top: 1.5rem;
         }
 
-        button {
-            flex: 1;
-            padding: 0.875rem 1.5rem;
-            font-size: 1rem;
-            font-weight: 600;
-            border: none;
-            border-radius: 6px;
-            cursor: pointer;
-            transition: all 0.3s;
-        }
+.btn-submit{
+    background:linear-gradient(135deg,#c70033,#8b0024);
+    color:#fff;
+    border:none;
+    border-radius:14px;
+    font-weight:600;
+    font-size:16px;
+    padding:1rem 1.2rem;
+    cursor:pointer;
+    position:relative;
+    overflow:hidden;
+    transition:all .3s ease;
+    box-shadow:0 10px 30px rgba(199,0,51,0.3);
+}
+
+.btn-submit:hover{
+    transform:translateY(-4px);
+    box-shadow:0 15px 35px rgba(199,0,51,0.4);
+}
+
+.btn-submit::after{
+    content:"";
+    position:absolute;
+    top:0;
+    left:-100%;
+    width:100%;
+    height:100%;
+    background:linear-gradient(
+        120deg,
+        transparent,
+        rgba(255,255,255,0.3),
+        transparent
+    );
+    transition:.6s;
+}
+
+.btn-submit:hover::after{
+    left:100%;
+}
 
         .btn-clear {
-            background: white;
-            border: 1px solid #ddd;
-            color: #666;
+               background:linear-gradient(135deg,#c70033,#8b0024);
+    color:#fff;
+    border:none;
+    border-radius:14px;
+    font-weight:600;
+    font-size:16px;
+    padding:1rem 1.2rem;
+    cursor:pointer;
+    position:relative;
+    overflow:hidden;
+    transition:all .3s ease;
+    box-shadow:0 10px 30px rgba(199,0,51,0.3);
         }
 
         .btn-clear:hover {
-            background: #f8f9fa;
-            border-color: #999;
+              transform:translateY(-4px);
+    box-shadow:0 15px 35px rgba(199,0,51,0.4);
         }
+
+        .btn-clear:hover::after{
+    left:100%;
+}
+
+        .btn-clear::after{
+    content:"";
+    position:absolute;
+    top:0;
+    left:-100%;
+    width:100%;
+    height:100%;
+    background:linear-gradient(
+        120deg,
+        transparent,
+        rgba(255,255,255,0.3),
+        transparent
+    );
+    transition:.6s;
+}
 
         .btn-submit {
             background: #c70033;
@@ -396,7 +477,6 @@
     <!-- Footer -->
     <div class="footer">
         <p>&copy; 2026 Todos os direitos reservados.</p>
-        <p>Última atualização: <span id="updateDate"></span></p>
     </div>
 
     <!-- JavaScript -->
