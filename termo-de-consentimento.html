@@ -676,8 +676,7 @@ doc.text(fullName, boxX + boxWidth / 2, boxY + 16, { align: "center" });
 doc.text(`CPF: ${cpf}`, boxX + boxWidth / 2, boxY + 23, { align: "center" });
 doc.text(`${dateStr} às ${timeStr}`, boxX + boxWidth / 2, boxY + 30, { align: "center" });
 
-                // Footer
-               // ================= FOOTER ABAIXO DA ASSINATURA =================
+// ================= FOOTER ALINHADO À DIREITA =================
 
 doc.setFontSize(6);
 doc.setTextColor(128, 128, 128);
@@ -685,15 +684,16 @@ doc.setTextColor(128, 128, 128);
 // posição logo abaixo da caixa
 let footerY = boxY + boxHeight + 6;
 
-// Se não couber na página, cria nova página
+// segurança de página
 if (footerY > pageHeight - 10) {
     doc.addPage();
     footerY = margin;
 }
 
-doc.text(`Documento gerado em: ${window.location.href}`, margin, footerY);
+// alinhado com a caixa
+doc.text(`Documento gerado em: ${window.location.href}`, boxX, footerY);
 footerY += 3;
-doc.text(`IP do Dispositivo: ${userIP}`, margin, footerY);
+doc.text(`IP do Dispositivo: ${userIP}`, boxX, footerY);
 
                 // Save PDF with category in filename
                 const categorySlug = category.replace(/\s+/g, '-').toLowerCase();
