@@ -13,151 +13,167 @@ const tickerConfig = {
 
 const globalNewsData = [
     {
+        title: "Lei da Anistia e Crimes Permanentes",
+        category: 'Jurisprudência',
+        author: "",
+        link: "jurisprudencia/limites-lei-anistia.html",
+    },
+    {
+        title: "Racismo Estrutural no Brasil",
+        category: 'Jurisprudência',
+        author: "",
+        link: "jurisprudencia/racismo-estrutural-implicacoes-constitucionais.html",
+    },
+    {
+        title: "Violência de Gênero e a Lei Maria da Penha",
+        category: 'Jurisprudência',
+        author: "",
+        link: "jurisprudencia/violencia-genero-lei-maria-da-penha.html",
+    },
+    {
+        title: 'Novo Imposto de Renda',
+        category: 'Legislação',
+        author: "",
+        link: "financas/advocacia-que-nao-se-conhece-financeiramente-nao-sobrevive-o-imperativo-da-gestao-para-escritorios-em-2026.html",
+
+    },
+    {
+        title: 'Código de Defesa do Contribuinte',
+        category: 'Legislação',
+        author: "",
+        link: "legislacao/codigo-defesa-contribuinte.html",
+    },
+    {
+        title: 'Programa Gás do Povo',
+        category: 'Legislação',
+        author: "",
+        link: "legislacao/novo-imposto-de-renda.html",
+    },
+    {
         title: "Quando a Liberdade de Expressão Vira Linchamento Digital",
         category: "Direito Civil",
         author: "",
         link: "direito-civil/o-tribunal-das-redes-quando-a-liberdade-de-expressao-vira-linchamento-digital.html",
-        excerpt: "O Tribunal das RedesA migração do debate público para as plataformas digitais converteu cada usuário em potencial formador de opinião — e em potencial réu de ação indenizatória.."
     },
     {
         title: "Como o Superendividamento Captura os Mais Vulneráveis",
         category: "Direito Civil",
         author: "",
         link: "direito-civil/a-armadilha-do-credito-facil-como-o-superendividamento-captura-os-mais-vulneraveis.html",
-        excerpt: "O Brasil registra atualmente mais de 72 milhões de pessoas negativadas, segundo dados da Confederação Nacional de Dirigentes Lojistas. Desse contingente alarmante, parcela expressiva.."
     },
     {
         title: "Quem Paga a Conta Quando a Máquina Erra?",
         category: "Direito Civil",
         author: "",
         link: "direito-civil/a-encruzilhada-da-responsabilidade-quem-paga-a-conta-quando-a-maquina-erra.html",
-        excerpt: "A proliferação acelerada de sistemas de inteligência artificial no cotidiano brasileiro — de algoritmos que concedem crédito a carros autônomos que circulam em fase experimental.."
     },
     {
         title: "Contratos Eletrônicos e a Revolução Silenciosa do Direito Negocial",
         category: "Direito Civil",
         author: "",
         link: "direito-civil/responsabilidade-civil-danos-morais-digitais.html",
-        excerpt: "Bilhões de contratos são firmados diariamente sem que uma única folha de papel seja impressa. A compra de passagens aéreas, a contratação de serviços.."
     },
     {
         title: "Os Limites da Responsabilidade Civil na Medicina e Estética",
         category: "Direito Civil",
         author: "",
         link: "direito-civil/bisturi-e-balanca-da-justica-os-limites-da-responsabilidade-civil-na-medicina-e-estetica.html",
-        excerpt: "A relação médico-paciente encerra peculiaridade que a distingue de quase todas as demais relações profissionais: não há garantia de resultado. O médico, por mais competente que seja, lida com organismo humano cujas respostas são imprevisíveis, com patologias que não respondem.."
     },
     {
         title: "Os Contornos Jurídicos da Memória na Era Digital",
         category: "Direito Civil",
         author: "",
         link: "direito-civil/o-direito-de-nao-ser-lembrado-os-contornos-juridicos-da-memoria-na-era-digital.html",
-        excerpt: "Quando o Supremo Tribunal Federal, em fevereiro de 2021, julgou improcedente o Recurso Extraordinário 1.010.606 (Tema 786 da repercussão geral), decretando a incompatibilidade do direito ao esquecimento com a Constituição Federal.."
     },
     {
         title: "O Testamento Digital Quando o Amor Precisa Contemplar Bitcoins e Senhas",
         category: "Direito de Família",
         author: "",
         link: "direito-de-familia/o-testamento-digital-quando-o-amor-precisa-contemplar-bitcoins-e-senhas.html",
-        excerpt: "O tabelionato de notas em São Paulo recebe o casal de noivos com documentação completa para lavrar Pacto Antenupcial. Além das cláusulas tradicionais sobre imóveis, veículos e participação societária, o instrumento traz disposições inéditas.."
     },
     {
         title: "O Amor Que Se Cobra na Justiça Quando a Ausência dos Avós Gera Indenização",
         category: "Direito de Família",
         author: "",
         link: "direito-de-familia/o-amor-que-se-cobra-na-justica-quando-a-ausencia-dos-avos-gera-indenizacao.html",
-        excerpt: "Um escritório de advocacia em Brasília recebe, com frequência crescente, consultas inusitadas: adultos que desejam processar avós por abandono afetivo durante a infância. Não se trata de abandono material — as pensões alimentícias foram pagas.."
     },
     {
         title: "Crimes Ambientais Transnacionais: A Amazônia no Epicentro de um Conflito de Jurisdições",
         category: "Direito Criminal",
         author: "",
         link: "direito-penal/crimes-ambientais-transnacionais-a-amazonia-no-epicentro-de-um-conflito-de-jurisdicoes.html",
-        excerpt: "A devastação da floresta amazônica transcendeu há muito as fronteiras nacionais, convertendo-se em um fenômeno que desafia os paradigmas tradicionais do direito penal e ambiental.."
     },
     {
         title: "Quando o Silêncio Se Torna Arma no Ambiente Corporativo",
         category: "Direito Trabalhista",
         author: "",
         link: "direito-trabalhista/a-violencia-invisivel-quando-o-silencio-se-torna-arma-no-ambiente-corporativo.html",
-        excerpt: "Não há gritos, não há insultos diretos, não há confronto aberto. A vítima chega ao escritório é recebida por olhares que desviam, cumprimentos que não vêm, conversas que cessam abruptamente.."
     },
     {
         title: "Quando a Crítica Vira Arma de Aniquilação Profissional",
         category: "Direito Trabalhista",
         author: "",
         link: "direito-trabalhista/a-destruicao-metodica-da-competencia-quando-a-critica-vira-arma-de-aniquilacao-profissional.html",
-        excerpt: "O relatório foi revisado três vezes, cada vírgula analisada, cada dado conferido. Mesmo assim, quando apresentado na reunião, o gerente o desqualifica publicamente.."
     },
     {
         title: "A Farda e a Constituição",
         category: "Direito Militar",
         author: "",
         link: "direito-militar/a-farda-e-a-constituicao-o-direito-militar-entre-a-tradicao-e-os-direitos-fundamentais.html",
-        excerpt: "O soldado do Exército recorre ao Supremo Tribunal Federal questionando punição disciplinar que lhe custou quinze dias de prisão por.."
     },
     {
         title: "Quando Prevenir Vale Mais Que Remediar",
         category: "Compliance",
         author: "",
         link: "compliance/a-revolucao-silenciosa-do-compliance-quando-prevenir-vale-mais-que-remediar.html",
-        excerpt: "O diretor de compliance da multinacional brasileira recebe pela manhã relatório gerado por sistema de inteligência artificial: análise de 2,3 milhões de e-mails corporativos.."
     },
     {
         title: "Quando Algoritmos Preveem Decisões Judiciais",
         category: "Jurisprudência",
         author: "",
         link: "jurisprudencia/o-oraculo-digital-da-justica-quando-algoritmos-preveem-decisoes-judiciais.html",
-        excerpt: "O advogado prepara recurso contra sentença desfavorável em ação trabalhista. Antes de redigir uma linha, acessa plataforma de jurisprudência preditiva que, mediante inteligência artificial.."
     },
     {
         title: "Como a Regulação Preditiva Antecipa Riscos Tecnológicos",
         category: "Legislação",
         author: "",
         link: "legislacao/a-lei-antes-do-fato-como-a-regulacao-preditiva-antecipa-riscos-tecnologicos.html",
-        excerpt: "O Congresso Nacional vota em 2026 projeto de lei inédito na história legislativa brasileira: regulação preventiva de tecnologias de edição genética germinal (CRISPR aplicado a embriões humanos) que.."
     },
     {
         title: "Responsabilidade civil por danos morais nas relações digitais",
         category: "Direito Civil",
         author: "",
         link: "direito-civil/responsabilidade-civil-danos-morais-digitais.html",
-        excerpt: "Análise detalhada sobre responsabilidade civil por danos morais nas relações digitais e seus impactos no ordenamento jurídico brasileiro."
     },
     {
         title: "Validade jurídica dos contratos firmados por meios eletrônicos",
         category: "Direito Civil",
         author: "",
         link: "direito-civil/validade-juridica-contratos-eletronicos.html",
-        excerpt: "Análise detalhada sobre validade jurídica dos contratos firmados por meios eletrônicos e seus impactos no ordenamento jurídico brasileiro."
     },
     {
         title: "Guarda compartilhada e o melhor interesse da criança na prática forense",
         category: "Direito de Família",
         author: "",
         link: "direito-de-familia/guarda-compartilhada-melhor-interesse-crianca.html",
-        excerpt: "Análise detalhada sobre guarda compartilhada e o melhor interesse da criança na prática forense e seus impactos no ordenamento jurídico brasileiro."
     },
     {
         title: "Pensão alimentícia: revisão, exoneração e os limites do dever de sustento",
         category: "Direito de Família",
         author: "",
         link: "direito-de-familia/pensao-alimenticia-revisao-exoneracao-limites.html",
-        excerpt: "Análise detalhada sobre pensão alimentícia: revisão, exoneração e os limites do dever de sustento e seus impactos no ordenamento jurídico brasileiro."
     },
     {
         title: "Princípio da insignificância e sua aplicação nos crimes patrimoniais",
         category: "Direito Criminal",
         author: "",
         link: "direito-penal/principio-insignificancia-crimes-patrimoniais.html",
-        excerpt: "Análise detalhada sobre princípio da insignificância e sua aplicação nos crimes patrimoniais e seus impactos no ordenamento jurídico brasileiro."
     },
     {
         title: "Prisão preventiva: requisitos legais e abusos recorrentes",
         category: "Direito Criminal",
         author: "",
         link: "direito-penal/prisao-preventiva-requisitos-abusos.html",
-        excerpt: "Análise detalhada sobre prisão preventiva: requisitos legais e abusos recorrentes e seus impactos no ordenamento jurídico brasileiro."
     }
 ];
 

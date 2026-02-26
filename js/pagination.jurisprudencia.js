@@ -1,6 +1,36 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
     {
+        title: "Lei da Anistia e Crimes Permanentes",
+        date: "26/02/2026",
+        timestamp: "2026-02-26T08:00:00",
+        image: "https://www.adufg.org.br/images/stf-comeca-a-julgar-se-lei-da-anistia-pode-ser-aplicada-a-crimes-permanentes-da-ditadura-entenda.png?w=1200&q=80",
+        excerpt: "A Jurisprudência que Reinterpreta o Passado e Projeta o Futuro da Justiça de Transição no Brasil.",
+        link: "../jurisprudencia/limites-lei-anistia.html",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+    {
+        title: "Racismo Estrutural no Brasil",
+        date: "26/02/2026",
+        timestamp: "2026-02-26T08:00:00",
+        image: "https://images.jota.info/wp-content/uploads/2022/05/racismo-no-brasil-scaled.jpg?w=1200&q=80",
+        excerpt: "A Jurisprudência que Desvenda as Raízes da Discriminação e Reafirma o Compromisso da Constituição com a Igualdade.",
+        link: "../jurisprudencia/racismo-estrutural-implicacoes-constitucionais.html",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+    {
+        title: "Violência de Gênero e a Lei Maria da Penha",
+        date: "26/02/2026",
+        timestamp: "2026-02-26T08:00:00",
+        image: "https://br.lexlatin.com/sites/default/files/2021-08/VAW.jpg?w=1200&q=80",
+        excerpt: "O Reconhecimento Jurisprudencial do STF que Fortalece o Combate à Violência Contra a Mulher no Brasil.",
+        link: "../jurisprudencia/violencia-genero-lei-maria-da-penha.html",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+    {
         title: "O Oráculo Digital da Justiça",
         date: "23/02/2026",
         timestamp: "2026-02-23T08:00:00",

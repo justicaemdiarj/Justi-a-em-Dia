@@ -2,6 +2,48 @@
 const allArticles = [
 
     {
+        title: 'Programa Gás do Povo',
+        description: 'A Nova Legislação que Redefine o Amparo Social e a Acessibilidade Energética no Brasil.',
+        category: 'Legislação',
+        url: 'legislacao/novo-imposto-de-renda.html',
+        tags: ['Programa Gás do Povo ', 'gás', 'povo', 'socioeconômico ']
+    },
+    {
+        title: 'Código de Defesa do Contribuinte',
+        description: 'A Modernização da Administração Tributária: Rumo à Transparência e à Segurança Jurídica.',
+        category: 'Legislação',
+        url: 'legislacao/codigo-defesa-contribuinte.html',
+        tags: ['Código de Defesa do Contribuinte ', 'Administração Tributária', 'Modernização', 'relação ']
+    },
+    {
+        title: 'Novo Imposto de Renda',
+        description: 'Por muito tempo, a palavra gestão soou estranha nos corredores dos escritórios de advocacia.',
+        category: 'Legislação',
+        url: 'financas/advocacia-que-nao-se-conhece-financeiramente-nao-sobrevive-o-imperativo-da-gestao-para-escritorios-em-2026.html',
+        tags: ['Reforma Tributária ', 'Tributação ', 'Novo Imposto de Renda', 'Faixa ']
+    },
+    {
+        title: 'Lei da Anistia e Crimes Permanentes',
+        description: 'A Jurisprudência que Reinterpreta o Passado e Projeta o Futuro da Justiça de Transição no Brasil.',
+        category: 'Jurisprudência',
+        url: 'jurisprudencia/limites-lei-anistia.html',
+        tags: ['Jurisprudência ', 'Lei da Anistia', 'Lei da Anistia e Crimes Permanentes', 'Anistia ']
+    },
+    {
+        title: 'Racismo Estrutural no Brasil',
+        description: 'A Jurisprudência que Desvenda as Raízes da Discriminação e Reafirma o Compromisso da Constituição com a Igualdade.',
+        category: 'Jurisprudência',
+        url: 'jurisprudencia/racismo-estrutural-implicacoes-constitucionais.html',
+        tags: ['Racismo ', 'Racismo Estrutural no Brasil', 'Discriminação', 'Constituição']
+    },
+    {
+        title: 'Violência de Gênero e a Lei Maria da Penha',
+        description: 'O Reconhecimento Jurisprudencial do STF que Fortalece o Combate à Violência Contra a Mulher no Brasil.',
+        category: 'Jurisprudência',
+        url: 'jurisprudencia/violencia-genero-lei-maria-da-penha.html',
+        tags: ['Violência ', 'STF', 'Violência de Gênero e a Lei Maria da Penha', 'Violência Contra a Mulher']
+    },
+    {
         title: 'Advocacia que não se Conhece Financeiramente não Sobrevive',
         description: 'Por muito tempo, a palavra gestão soou estranha nos corredores dos escritórios de advocacia.',
         category: 'Finanças',

@@ -1,5 +1,35 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
+     {
+        title: "Novo Imposto de Renda",
+        date: "26/02/2026",
+        timestamp: "2026-02-26T08:00:00",
+        image: "https://dnafinanceiro.com/blog/wp-content/uploads/2020/05/impostos-pequena-empresa.png?w=1200&q=80",
+        excerpt: "Ampliação da Faixa de Isenção para R$ 5 Mil e Tributação Mínima sobre Altas Rendas: Um Marco na Reforma Tributária.",
+        link: "../legislacao/novo-imposto-de-renda.html",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+     {
+        title: "Código de Defesa do Contribuinte",
+        date: "26/02/2026",
+        timestamp: "2026-02-26T08:00:00",
+        image: "https://www.acipcdl.com.br/wp-content/uploads/2024/05/contribuinte.jpeg?w=1200&q=80",
+        excerpt: "A Modernização da Administração Tributária: Rumo à Transparência e à Segurança Jurídica.",
+        link: "../legislacao/codigo-defesa-contribuinte.html",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+     {
+        title: "Programa Gás do Povo",
+        date: "26/02/2026",
+        timestamp: "2026-02-26T08:00:00",
+        image: "https://noticiasconcursos.com.br/wp-content/uploads/2025/10/Gas-do-povo-3-3.webp?w=1200&q=80",
+        excerpt: "A Nova Legislação que Redefine o Amparo Social e a Acessibilidade Energética no Brasil.",
+        link: "../legislacao/programa-gas-do-povo.html",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
     {
         title: "A Lei Antes do Fato",
         date: "23/02/2026",
