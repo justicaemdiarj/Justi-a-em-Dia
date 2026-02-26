@@ -34,7 +34,7 @@ const globalNewsData = [
         title: 'Novo Imposto de Renda',
         category: 'Legislação',
         author: "",
-        link: "legislacao/novo-imposto-de-renda.htmll",
+        link: "legislacao/novo-imposto-de-renda.html",
 
     },
     {
