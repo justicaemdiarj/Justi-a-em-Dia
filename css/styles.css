@@ -1222,8 +1222,8 @@ img {
 .newsletter-form input {
     flex: 1;
     padding: 15px 20px;
-    border: none;
-    border-radius: 5px;
+    border: 1px solid #d8d8d8;
+    border-radius: 6px;
     font-size: 15px;
     text-align: center;
     outline: none;
