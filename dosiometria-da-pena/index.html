@@ -238,12 +238,36 @@
     </footer>
 
     <script src="../js/config.js"></script>
+        <script src="../js/floating-video.js"></script>
     <script src="../js/script.js"></script>
     <script src="../js/dynamic-content.js"></script>
     <script src="../js/search.js"></script>
     <script src="../js/pagination.dosiometria-da-pena.js"></script>
 <script src="../js/newsletter-injector.js"></script>
 <script src="../js/b3-widget.js"></script>
+
+    <script>
+window.onload = function () {
+
+  const caminhoVideo = ""; // ALTERE AQUI
+
+  const video = document.getElementById("meuVideo");
+
+  if (!video) {
+    console.log("Video não encontrado");
+    return;
+  }
+
+  video.src = caminhoVideo;
+  video.load();
+
+  document.getElementById("closeBtn").onclick = function () {
+    video.pause();
+    document.getElementById("videoBox").style.display = "none";
+  };
+
+};
+</script>
 
   <script>
     document.addEventListener('DOMContentLoaded', () => {
