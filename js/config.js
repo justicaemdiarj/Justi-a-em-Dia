@@ -131,9 +131,26 @@ const siteConfig = {
         ]
     },
 
-
+ floatingVideo: {
+        enabled: true,                    // Ativar/Desativar a funcionalidade
+        // videoUrl: "https://www.youtube.com/watch?v=n4N8Ao8YOu8", // URL do vídeo (YouTube embed ou arquivo local )
+        imageUrl: "img/instagram_video.mp4", // Exemplo de como usar imagem
+        position: "bottom-right",         // Posição: "bottom-right", "bottom-left", "top-right", "top-left"
+        width: 350,                       // Largura em pixels
+        height: 200,                      // Altura em pixels
+        autoplay: true,                   // Autoplay automático
+        muted: true,                      // Iniciar com som mudo
+        loop: true,                       // Repetir vídeo
+        showOnPages: "full",              // "full" para todas as páginas ou array de URLs específicas
+        hideOnMobile: false,              // Esconder em mobile (telas <= 768px)
+        zIndex: 999,                     // Profundidade do z-index
+        showControls: true,               // Mostrar controles do vídeo
+        allowClose: true,                 // Permitir fechar o vídeo
+        allowSound: true,                 // Permitir ativar/desativar som
+    },
     
 };
+
 
 function isBannerActiveJS(banner) {
     // Verificar data de expiração
