@@ -1891,7 +1891,7 @@ img {
 /* Botão Voltar ao Topo */
 .back-to-top {
     position: fixed;
-    bottom: 225px;
+    bottom: 150px;
     right: 40px;
     background-color: #c41e3a;
     color: #fff;
