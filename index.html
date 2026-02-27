@@ -175,9 +175,6 @@
     </div>
 </section>
 
-
-</body>
-
     <!-- Footer -->
         <footer class="footer">
         <div class="container">
@@ -219,8 +216,6 @@
     </footer>
 
     <script src="js/config.js"></script>
-    
-    <script src="js/floating-video.js"></script>
     <script src="js/articles.js"></script>
     <script src="js/script.js"></script>
     <script src="js/dynamic-content.js"></script>
@@ -229,30 +224,7 @@
     <script src="js/newsletter-injector.js"></script>
     <script src="js/cookies.js"></script>
     <script src="js/b3-widget.js"></script>
-
-<script>
-window.onload = function () {
-
-  const caminhoVideo = "https://www.youtube.com/watch?v=n4N8Ao8YOu8"; // ALTERE AQUI
-
-  const video = document.getElementById("meuVideo");
-
-  if (!video) {
-    console.log("Video não encontrado");
-    return;
-  }
-
-  video.src = caminhoVideo;
-  video.load();
-
-  document.getElementById("closeBtn").onclick = function () {
-    video.pause();
-    document.getElementById("videoBox").style.display = "none";
-  };
-
-};
-</script>
-
+    
 <script>
         // Lógica de submissão da Newsletter principal (index.html)
         document.addEventListener('DOMContentLoaded', function() {
