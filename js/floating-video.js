@@ -15,7 +15,7 @@
 
         // "full" = todas as páginas
         // Exemplo: ["index.html", "compliance.html"]
-        allowedPages: ["index.html","contato.html"],
+        allowedPages: "full",
 
         videoUrl: "https://www.w3schools.com/html/mov_bbb.mp4",
 
