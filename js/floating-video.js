@@ -1,245 +1,174 @@
+// ========================================================================
+// FLOATING VIDEO - VERSÃO DEFINITIVA PARA HTML PURO
+// ========================================================================
+
 (function () {
+    'use strict';
 
-    if (window.floatingMediaInitialized) return;
-    window.floatingMediaInitialized = true;
+    // ====================================================================
+    // CONFIGURAÇÃO (EDITE APENAS AQUI)
+    // ====================================================================
 
-    function loadYouTubeAPI() {
-        if (window.YT && window.YT.Player) return;
+    const CONFIG = {
 
-        const tag = document.createElement('script');
-        tag.src = "https://www.youtube.com/iframe_api";
-        document.head.appendChild(tag);
+        enabled: true,
+
+        // "full" = todas as páginas
+        // Exemplo: ["index.html", "compliance.html"]
+        allowedPages: ["contat.html"],
+
+        videoUrl: "https://www.w3schools.com/html/mov_bbb.mp4",
+
+        link: "",
+        openInNewTab: true,
+
+        position: "bottom-right",
+        width: 360,
+        zIndex: 999999,
+
+        autoplay: true,
+        muted: true,
+        loop: true,
+        controls: true,
+
+        allowClose: true,
+        hideOnMobile: false,
+
+        delay: 300
+    };
+
+    // ====================================================================
+    // NÃO EDITAR ABAIXO
+    // ====================================================================
+
+    if (!CONFIG.enabled) return;
+
+    function getCurrentFile() {
+
+        let path = window.location.pathname;
+
+        // Se terminar com "/", assume index.html
+        if (path.endsWith("/")) return "index.html";
+
+        let file = path.split("/").pop();
+
+        if (file === "") return "index.html";
+
+        return file.toLowerCase();
     }
 
-    function initFloatingMedia() {
+    function pageAllowed() {
 
-        if (typeof siteConfig === 'undefined' || !siteConfig.floatingVideo || !siteConfig.floatingVideo.enabled) {
-            return;
-        }
+        if (CONFIG.allowedPages === "full") return true;
 
-        const config = siteConfig.floatingVideo;
-        const mediaUrl = config.videoUrl || config.imageUrl || "";
-        if (!mediaUrl) return;
+        if (!Array.isArray(CONFIG.allowedPages)) return false;
 
-        if (config.hideOnMobile && window.innerWidth <= 768) return;
+        const currentFile = getCurrentFile();
 
-        const isYouTube = mediaUrl.includes('youtube.com') || mediaUrl.includes('youtu.be');
-        const isImage = /\.(jpg|jpeg|png|gif|webp|svg)$/i.test(mediaUrl.split('?')[0]);
+        return CONFIG.allowedPages
+            .map(p => p.toLowerCase())
+            .includes(currentFile);
+    }
 
-        let videoId = null;
-        let ytFloatingPlayer = null;
-        let mediaHTML = '';
+    if (!pageAllowed()) return;
 
-        /* --------------------------
-           EXTRAÇÃO ROBUSTA DO ID
-        ---------------------------*/
-        if (isYouTube) {
+    if (document.getElementById("floating-video-container")) return;
 
-            try {
-                const url = new URL(mediaUrl);
+    window.addEventListener("load", function () {
 
-                if (url.hostname.includes('youtu.be')) {
-                    videoId = url.pathname.replace('/', '').split('?')[0];
-                } else if (url.searchParams.get('v')) {
-                    videoId = url.searchParams.get('v');
-                } else {
-                    const parts = url.pathname.split('/');
-                    videoId = parts.pop();
-                }
+        setTimeout(function () {
 
-            } catch (e) {
-                console.error("URL inválida");
+            if (CONFIG.hideOnMobile && window.innerWidth <= 768) return;
+
+            const container = document.createElement("div");
+            container.id = "floating-video-container";
+
+            container.style.position = "fixed";
+            container.style.width = "min(90vw," + CONFIG.width + "px)";
+            container.style.aspectRatio = "16/9";
+            container.style.zIndex = CONFIG.zIndex;
+            container.style.borderRadius = "12px";
+            container.style.overflow = "hidden";
+            container.style.boxShadow = "0 20px 50px rgba(0,0,0,0.5)";
+            container.style.background = "#000";
+            container.style.opacity = "0";
+            container.style.transition = "opacity 0.3s ease";
+
+            if (CONFIG.position.includes("bottom")) {
+                container.style.bottom = "25px";
+            } else {
+                container.style.top = "25px";
             }
 
-            if (!videoId) return;
+            if (CONFIG.position.includes("right")) {
+                container.style.right = "25px";
+            } else {
+                container.style.left = "25px";
+            }
 
-            loadYouTubeAPI();
+            const video = document.createElement("video");
+            video.src = CONFIG.videoUrl;
+            video.style.width = "100%";
+            video.style.height = "100%";
+            video.style.objectFit = "cover";
+            video.playsInline = true;
 
-            mediaHTML = `<div id="yt-player-${videoId}" style="width:100%;height:100%;position:absolute;top:0;left:0;"></div>`;
-        }
+            if (CONFIG.autoplay) video.autoplay = true;
+            if (CONFIG.muted) video.muted = true;
+            if (CONFIG.loop) video.loop = true;
+            if (CONFIG.controls) video.controls = true;
 
-        else if (isImage) {
-            mediaHTML = `<img src="${mediaUrl}" style="width:100%;height:100%;object-fit:cover;">`;
-        }
+            container.appendChild(video);
 
-        else {
-            mediaHTML = `
-                <video ${config.autoplay ? 'autoplay' : ''} muted ${config.loop ? 'loop' : ''} playsinline
-                style="width:100%;height:100%;object-fit:cover;background:#000;">
-                    <source src="${mediaUrl}" type="video/mp4">
-                </video>
-            `;
-        }
+            if (CONFIG.allowClose) {
 
-        /* --------------------------
-           CONTAINER PRINCIPAL
-        ---------------------------*/
-        const floatingDiv = document.createElement('div');
+                const close = document.createElement("div");
+                close.innerHTML = "✕";
 
-        floatingDiv.style.cssText = `
-            position:fixed;
-            width:${config.width || 300}px;
-            height:${config.height || 170}px;
-            ${config.position?.includes('bottom') ? 'bottom' : 'top'}:20px;
-            ${config.position?.includes('right') ? 'right' : 'left'}:30px;
-            z-index:${config.zIndex || 99999};
-            border-radius: 6px;
-            overflow:hidden;
-            box-shadow:0 15px 40px ;
-        
-            transition:.3s;
-        `;
+                close.style.position = "absolute";
+                close.style.top = "10px";
+                close.style.right = "10px";
+                close.style.width = "30px";
+                close.style.height = "30px";
+                close.style.borderRadius = "50%";
+                close.style.background = "rgba(0,0,0,0.7)";
+                close.style.color = "#fff";
+                close.style.display = "flex";
+                close.style.alignItems = "center";
+                close.style.justifyContent = "center";
+                close.style.cursor = "pointer";
+                close.style.fontSize = "16px";
 
-        /* --------------------------
-           HTML INTERNO (OVERLAY)
-        ---------------------------*/
-        floatingDiv.innerHTML = `
-            <div style="position:relative;width:100%;height:100%;">
-                
-                ${mediaHTML}
+                close.addEventListener("click", function (e) {
+                    e.stopPropagation();
+                    container.remove();
+                });
 
-                <div style="
-                    position:absolute;
-                    top:10px;
-                    right:10px;
-                    display:flex;
-                    gap:8px;
-                    z-index:999999;
-                ">
+                container.appendChild(close);
+            }
 
-                    ${(!isImage && config.allowSound) ? `
-                        <button id="btn-sound-float" style="
-                          ${(!isImage && config.allowSound) ? `
-    <button id="btn-sound-float" class="floating-btn">
-        🔇
-    </button>
-` : ''}
-                        </button>
-                    ` : ''}
+            if (CONFIG.link) {
+                container.addEventListener("click", function (e) {
 
-                    ${config.allowClose ? `
-                        <button id="btn-close-float" style="
-                       <button id="btn-close-float" class="floating-btn">
-        ✕
-    </button>
-                    ` : ''}
-
-                </div>
-            </div>
-        `;
-
-        document.body.appendChild(floatingDiv);
-
-        /* --------------------------
-           YOUTUBE PLAYER
-        ---------------------------*/
-        if (isYouTube && videoId) {
-
-            const playerId = `yt-player-${videoId}`;
-
-            function createPlayer() {
-
-                if (!window.YT || !window.YT.Player) {
-                    setTimeout(createPlayer, 300);
-                    return;
-                }
-
-                new YT.Player(playerId, {
-                    videoId: videoId,
-                    playerVars: {
-                        autoplay: 1,
-                        mute: 1,
-                        loop: 1,
-                        playlist: videoId,
-                        controls: config.showControls ? 1 : 0,
-                        rel: 0,
-                        modestbranding: 1,
-                        playsinline: 1,
-                        enablejsapi: 1,
-                        origin: window.location.origin
-                    },
-                    events: {
-                        onReady: (event) => {
-
-                            ytFloatingPlayer = event.target;
-                            event.target.mute();
-                            event.target.playVideo();
-
-                            setTimeout(() => {
-                                const iframe = document.querySelector(`#${playerId} iframe`);
-                                if (iframe) {
-                                    iframe.setAttribute('referrerpolicy', 'strict-origin-when-cross-origin');
-                                }
-                            }, 800);
-                        }
+                    if (e.target.closest("video") || e.target.innerHTML === "✕") {
+                        return;
                     }
+
+                    window.open(
+                        CONFIG.link,
+                        CONFIG.openInNewTab ? "_blank" : "_self"
+                    );
                 });
             }
 
-            window.onYouTubeIframeAPIReady = createPlayer;
-        }
+            document.body.appendChild(container);
 
-        /* --------------------------
-           BOTÃO FECHAR
-        ---------------------------*/
-        const btnClose = floatingDiv.querySelector('#btn-close-float');
-        if (btnClose) {
-            btnClose.onclick = () => {
-                floatingDiv.style.opacity = "0";
-                floatingDiv.style.transform = "scale(.8)";
-                setTimeout(() => floatingDiv.remove(), 300);
-            };
-        }
+            setTimeout(function () {
+                container.style.opacity = "1";
+            }, 50);
 
-        /* --------------------------
-           BOTÃO SOM
-        ---------------------------*/
-        const btnSound = floatingDiv.querySelector('#btn-sound-float');
+        }, CONFIG.delay);
 
-        if (btnSound) {
-            btnSound.onclick = () => {
-
-                if (isYouTube && ytFloatingPlayer) {
-
-                    if (ytFloatingPlayer.isMuted()) {
-                        ytFloatingPlayer.unMute();
-                        btnSound.innerHTML = "🔊";
-                    } else {
-                        ytFloatingPlayer.mute();
-                        btnSound.innerHTML = "🔇";
-                    }
-
-                } else {
-                    const video = floatingDiv.querySelector('video');
-                    if (video) {
-                        video.muted = !video.muted;
-                        btnSound.innerHTML = video.muted ? "🔇" : "🔊";
-                    }
-                }
-            };
-        }
-
-        /* --------------------------
-           RESPONSIVO MOBILE
-        ---------------------------*/
-        if (window.innerWidth <= 480) {
-            floatingDiv.style.width = "280px";
-            floatingDiv.style.height = "200px";
-            floatingDiv.style.bottom = "10px";
-            floatingDiv.style.right = "10px";
-            floatingDiv.style.left = "auto";
-            floatingDiv.style.top = "auto";
-        }
-    }
-
-    function start() {
-        setTimeout(initFloatingMedia, 600);
-    }
-
-    if (document.readyState === 'complete' || document.readyState === 'interactive') {
-        start();
-    } else {
-        document.addEventListener('DOMContentLoaded', start);
-    }
+    });
 
 })();
