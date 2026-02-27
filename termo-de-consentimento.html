@@ -481,19 +481,45 @@
 
     <!-- JavaScript -->
     <script>
-        // Fetch user IP
-        async function fetchUserIP() {
-            try {
-                const response = await fetch('https://api.ipify.org?format=json');
-                const data = await response.json();
-                document.getElementById('ipDisplay').textContent = data.ip;
-                return data.ip;
-            } catch (error) {
-                console.error('Erro ao obter IP:', error);
-                document.getElementById('ipDisplay').textContent = 'IP não disponível';
-                return 'IP não disponível';
-            }
+
+let userIPGlobal = 'Não identificado';
+
+async function fetchUserIP() {
+    const ipDisplay = document.getElementById('ipDisplay');
+    ipDisplay.textContent = 'Obtendo IP...';
+
+    try {
+        // Primeira tentativa
+        let response = await fetch('https://api.ipify.org?format=json');
+        if (!response.ok) throw new Error();
+
+        let data = await response.json();
+        userIPGlobal = data.ip;
+        ipDisplay.textContent = userIPGlobal;
+        return;
+
+    } catch (e1) {
+        console.warn("ipify falhou, tentando ipapi...");
+
+        try {
+            // Segunda tentativa (backup)
+            let response2 = await fetch('https://ipapi.co/json/');
+            if (!response2.ok) throw new Error();
+
+            let data2 = await response2.json();
+            userIPGlobal = data2.ip;
+            ipDisplay.textContent = userIPGlobal;
+            return;
+
+        } catch (e2) {
+            console.error("Todas as APIs falharam.");
+            userIPGlobal = 'Não identificado';
+            ipDisplay.textContent = 'Não identificado';
         }
+    }
+}
+
+document.addEventListener('DOMContentLoaded', fetchUserIP);
 
         // Format CPF
         function formatCPF(value) {
@@ -557,7 +583,7 @@
             const phone = document.getElementById('phone').value;
             const email = document.getElementById('email').value;
             const category = document.getElementById('category').value;
-            const userIP = document.getElementById('ipDisplay').textContent;
+         const userIP = userIPGlobal;
 
             try {
                 const { jsPDF } = window.jspdf;
@@ -797,7 +823,7 @@ doc.text(`IP do Dispositivo: ${userIP}`, boxX, footerY);
         document.getElementById('updateDate').textContent = new Date().toLocaleDateString('pt-BR');
 
         // Fetch IP on page load
-        window.addEventListener('load', fetchUserIP);
+        document.addEventListener('DOMContentLoaded', fetchUserIP);
     </script>
 </body>
 </html>
