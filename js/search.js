@@ -1,6 +1,13 @@
 // Base de dados global de artigos para busca
 const allArticles = [
 
+     {
+        title: 'A Holding do Crime',
+        description: 'Qualquer executivo de uma grande corporação reconheceria a estrutura no documento. Há um conselho deliberativo de elite, uma corregedoria interna, um setor de relações jurídicas, uma diretoria financeira e, bem ao lado, um departamento inteiramente dedicado à comunicação em redes sociais e à gestão de mensagens criptografadas.',
+        category: 'Compliance',
+        url: 'compliance/a-holding-do-crime.html',
+        tags: ['A Holding do Crime ', 'compliance', 'PCC', 'Holding']
+    },
     {
         title: 'Programa Gás do Povo',
         description: 'A Nova Legislação que Redefine o Amparo Social e a Acessibilidade Energética no Brasil.',

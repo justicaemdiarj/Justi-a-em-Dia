@@ -21,7 +21,9 @@ const siteConfig = {
     phone: "+55 21 98269-4928",
     description: "Portal de notícias e análises sobre direito, legislação e jurisprudência. Acompanhe as principais decisões dos tribunais brasileiros e mudanças na legislação.",
     searchText: "Pesquisar...",
-
+    logo: "revista-fitness.png",
+    favicon: "favicon.png",
+    
     social: {
    //  facebook: "",
     instagram: "https://instagram.com/justicaemdia_br",

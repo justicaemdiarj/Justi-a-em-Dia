@@ -13,6 +13,12 @@ const tickerConfig = {
 
 const globalNewsData = [
     {
+        title: "A Holding do Crime",
+        category: 'Compliance',
+        author: "",
+        link: "compliance/a-holding-do-crime.html",
+    },
+    {
         title: "Lei da Anistia e Crimes Permanentes",
         category: 'Jurisprudência',
         author: "",
