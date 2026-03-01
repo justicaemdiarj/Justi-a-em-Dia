@@ -1,10 +1,10 @@
 // Tornar a lista de artigos disponível globalmente para outros scripts
 window.articlesData = [
     {
-        title: "O Testamento Digital",
-        image: "https://images.unsplash.com/photo-1512733596533-7b00ccf8ebaf?w=1200&q=80",
-        description: "O tabelionato de notas em São Paulo recebe o casal de noivos com documentação completa para lavrar pacto antenupcial. Além das cláusulas tradicionais ...",
-        link: "direito-de-familia/o-testamento-digital-quando-o-amor-precisa-contemplar-bitcoins-e-senhas.html"
+        title: "A Holding do Crime",
+        image: "img/holding-do-crime.png",
+        description: "Qualquer executivo de uma grande corporação reconheceria a estrutura no documento. Há um conselho deliberativo de elite, uma corregedoria interna, um setor de relações jurídica...",
+        link: "compliance/a-holding-do-crime.html"
     },
     {
         title: "O Amor Que Se Cobra na Justica",
