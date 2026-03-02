@@ -2,8 +2,8 @@
 const categoryNewsData = [
     {
         title: "O Testamento Digital",
-        date: "01/03/2026",
-        timestamp: "2026-03-01T12:00:00",
+        date: "02/03/2026",
+        timestamp: "2026-03-02T12:00:00",
         image: "https://images.unsplash.com/photo-1512733596533-7b00ccf8ebaf?w=1200&q=80",
         excerpt: "O tabelionato de notas em São Paulo recebe o casal de noivos com documentação completa para lavrar pacto antenupcial. Além das cláusulas tradicionais ...",
         link: "../direito-de-familia/o-testamento-digital-quando-o-amor-precisa-contemplar-bitcoins-e-senhas.html",

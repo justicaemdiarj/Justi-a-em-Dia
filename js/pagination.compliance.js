@@ -2,8 +2,8 @@
 const categoryNewsData = [
     {
         title: "A Holding do Crime",
-        date: "01/03/2026",
-        timestamp: "2026-03-01T08:00:00",
+        date: "02/03/2026",
+        timestamp: "2026-03-02T12:00:00",
         image: "../img/holding-do-crime.png",
          caption: "Imagem Ilustrativa",
         excerpt: "Qualquer executivo de uma grande corporação reconheceria a estrutura no documento. Há um conselho deliberativo de elite, uma corregedoria interna, um setor de relações jurídicas, uma diretoria financeira e, bem ao lado, um departamento inteiramente dedicado à comunicação em redes sociais e à gestão de mensagens criptografadas..",

@@ -2,8 +2,8 @@
 const categoryNewsData = [
     {
         title: "A Farda e a Constituição",
-        date: "01/03/2026",
-        timestamp: "2026-03-01T12:00:00",
+        date: "02/03/2026",
+        timestamp: "2026-03-02T12:00:00",
         image: "https://images.unsplash.com/photo-1590247813693-5541d1c609fd?w=1200&q=80",
         excerpt: "O soldado do Exército recorre ao Supremo Tribunal Federal questionando punição disciplinar que lhe custou quinze dias de prisão.",
         link: "../direito-militar/a-farda-e-a-constituicao-o-direito-militar-entre-a-tradicao-e-os-direitos-fundamentais.html",
