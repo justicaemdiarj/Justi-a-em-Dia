@@ -18,7 +18,7 @@ const prefix = getSitePathPrefix();
 const siteConfig = {
     year: new Date().getFullYear(),
     email: "contato@justicaemdia.com.br",
-    phone: "+55 21 98269-4928",
+    phone: "+55 21 990670186",
     description: "Portal de notícias e análises sobre direito, legislação e jurisprudência. Acompanhe as principais decisões dos tribunais brasileiros e mudanças na legislação.",
     searchText: "Pesquisar...",
     logo: "revista-fitness.png",
