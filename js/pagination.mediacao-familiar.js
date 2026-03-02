@@ -3,8 +3,8 @@ const categoryNewsData = [
 
     {
         title: "O Amor Que Se Cobra na Justiça",
-        date: "23/02/2026",
-        timestamp: "2026-02-23T08:00:00",
+        date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "https://images.unsplash.com/photo-1581579186913-45ac3e6efe93?w=1200&q=80",
         excerpt: "O escritório de advocacia em Brasília recebe, com frequência crescente, consultas inusitadas: adultos que desejam processar avós por abandono afetivo ...",
         link: "../direito-de-familia/o-amor-que-se-cobra-na-justica-quando-a-ausencia-dos-avos-gera-indenizacao.html",
@@ -14,8 +14,8 @@ const categoryNewsData = [
     },
     {
         title: "Guarda Compartilhada e o Melhor Interesse da Criança na Prática Forense",
-        date: "23/02/2026",
-        timestamp: "2026-02-23T08:00:00",
+        date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&h=600&fit=crop",
         excerpt: "A guarda compartilhada, consagrada como regra pelo ordenamento jurídico brasileiro através da Lei 13.058/2014, representa importante evolução legislativa no direito de família, ao reconhecer a importância da participação equitativa de ambos os genitores na vida dos filhos após a ruptura conjugal.",
         link: "../direito-de-familia/guarda-compartilhada-melhor-interesse-crianca.html",
@@ -25,8 +25,8 @@ const categoryNewsData = [
     },
     {
         title: "Pensão Alimentícia",
-        date: "23/02/2026",
-        timestamp: "2026-02-23T08:00:00",
+        date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "../img/pensao-alimenticia.png",
         excerpt: "A pensão alimentícia constitui obrigação jurídica fundada no princípio da solidariedade familiar, destinando-se a garantir a subsistência digna daqueles que não possuem meios próprios de prover suas necessidades básicas. ",
         link: "../direito-de-familia/pensao-alimenticia-revisao-exoneracao-limites.html",

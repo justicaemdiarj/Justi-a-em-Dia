@@ -2,8 +2,8 @@
 const categoryNewsData = [
     {
         title: "Lei da Anistia e Crimes Permanentes",
-        date: "26/02/2026",
-        timestamp: "2026-02-26T08:00:00",
+        date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "https://www.adufg.org.br/images/stf-comeca-a-julgar-se-lei-da-anistia-pode-ser-aplicada-a-crimes-permanentes-da-ditadura-entenda.png?w=1200&q=80",
         excerpt: "A Jurisprudência que Reinterpreta o Passado e Projeta o Futuro da Justiça de Transição no Brasil.",
         link: "../jurisprudencia/limites-lei-anistia.html",
@@ -12,8 +12,8 @@ const categoryNewsData = [
     },
     {
         title: "Racismo Estrutural no Brasil",
-        date: "26/02/2026",
-        timestamp: "2026-02-26T08:00:00",
+        date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "https://images.jota.info/wp-content/uploads/2022/05/racismo-no-brasil-scaled.jpg?w=1200&q=80",
         excerpt: "A Jurisprudência que Desvenda as Raízes da Discriminação e Reafirma o Compromisso da Constituição com a Igualdade.",
         link: "../jurisprudencia/racismo-estrutural-implicacoes-constitucionais.html",
@@ -22,8 +22,8 @@ const categoryNewsData = [
     },
     {
         title: "Violência de Gênero e a Lei Maria da Penha",
-        date: "26/02/2026",
-        timestamp: "2026-02-26T08:00:00",
+         date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "https://br.lexlatin.com/sites/default/files/2021-08/VAW.jpg?w=1200&q=80",
         excerpt: "O Reconhecimento Jurisprudencial do STF que Fortalece o Combate à Violência Contra a Mulher no Brasil.",
         link: "../jurisprudencia/violencia-genero-lei-maria-da-penha.html",
@@ -32,8 +32,8 @@ const categoryNewsData = [
     },
     {
         title: "O Oráculo Digital da Justiça",
-        date: "23/02/2026",
-        timestamp: "2026-02-23T08:00:00",
+        date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "https://images.unsplash.com/photo-1589254065878-42c9da997008?w=1200&q=80",
         excerpt: "O advogado prepara recurso contra sentença desfavorável em ação trabalhista. Antes de redigir uma linha, acessa plataforma de jurisprudência preditiva que, mediante inteligência artificial, analisa 340 mil decisões.",
         link: "../jurisprudencia/o-oraculo-digital-da-justica-quando-algoritmos-preveem-decisoes-judiciais.html",
@@ -42,8 +42,8 @@ const categoryNewsData = [
     },
     {
         title: "A Força dos Precedentes Obrigatórios no Sistema Jurídico Brasileiro",
-        date: "23/02/2026",
-        timestamp: "2026-02-23T08:00:00",
+        date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "../img/forca-precedentes-obrigatorios-brasil.jpg",
         excerpt: "A incorporação definitiva do sistema de precedentes obrigatórios no ordenamento jurídico brasileiro representa uma das mais profundas transformações estruturais do direito pátrio nas últimas décadas.",
         link: "../jurisprudencia/forca-precedentes-obrigatorios-brasil.html",
@@ -52,8 +52,8 @@ const categoryNewsData = [
     },
     {
         title: "Mudanças Recentes na Jurisprudência dos Tribunais Superiores",
-        date: "23/02/2026",
-        timestamp: "2026-02-23T08:00:00",
+        date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "../img/imagem-postagem.png",
         excerpt: "A dinâmica interpretativa do direito brasileiro passa por constante transformação, especialmente quando analisamos a atuação dos tribunais superiores. ",
         link: "../jurisprudencia/mudancas-recentes-jurisprudencia-tribunais.html",

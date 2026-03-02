@@ -2,8 +2,8 @@
 const categoryNewsData = [
        {
         title: "Como Comprovar que Existe União Estável",
-        date: "23/02/2026",
-        timestamp: "2026-02-23T08:00:00",
+        date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "../img/comprovar-existencia-de-uniao-estavel.jpg",
         caption: "Romer Carvalho",
         excerpt: "Muitas pessoas vivem em união estável sem sequer saber que essa relação possui proteção jurídica semelhante ao casamento.",

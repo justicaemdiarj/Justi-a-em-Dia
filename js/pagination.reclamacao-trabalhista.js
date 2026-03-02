@@ -2,8 +2,8 @@
 const categoryNewsData = [
     {
         title: "Ministra do TST derruba jornada 12x36 de vigilante após identificar acúmulo sistemático de horas extraordinárias",
-        date: "23/02/2026",
-        timestamp: "2026-02-23T08:00:00",
+        date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "https://images.unsplash.com/photo-1505664194779-8beaceb93744?w=800&q=80",
         excerpt: "Corte entende que a realização sistemática de horas além da jornada prevista desnatura o regime e afasta os benefícios da negociação coletiva que o autorizou...",
         link: "../direito-trabalhista/ministra-do-tst-derruba-jornada-12x36.html",

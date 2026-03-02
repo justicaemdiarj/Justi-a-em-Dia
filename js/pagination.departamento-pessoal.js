@@ -2,8 +2,8 @@
 const categoryNewsData = [
 {
         title: "Novas Tendências em Gestão de Pessoas para o Setor Jurídico",
-        date: "23/02/2026",
-        timestamp: "2026-02-23T10:00:00",
+        date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800&h=600&fit=crop",
         excerpt: "Como atrair e reter talentos em um mercado cada vez mais competitivo e focado em bem-estar e flexibilidade.",
         link: "#",

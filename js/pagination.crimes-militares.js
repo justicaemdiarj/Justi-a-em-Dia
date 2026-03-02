@@ -2,8 +2,8 @@
 const categoryNewsData = [
     {
         title: "A Farda e a Constituição",
-        date: "23/02/2026",
-        timestamp: "2026-02-23T08:00:00",
+         date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "https://images.unsplash.com/photo-1590247813693-5541d1c609fd?w=1200&q=80",
         excerpt: "O soldado do Exército recorre ao Supremo Tribunal Federal questionando punição disciplinar que lhe custou quinze dias de prisão.",
         link: "../direito-militar/a-farda-e-a-constituicao-o-direito-militar-entre-a-tradicao-e-os-direitos-fundamentais.html",
@@ -13,8 +13,8 @@ const categoryNewsData = [
     },
     {
         title: "Processo Administrativo Disciplinar Militar e Garantias Constitucionais",
-        date: "23/02/2026",
-        timestamp: "2026-02-23T08:00:00",
+        date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "../img/processo-administrativo-disciplinar-militar.jpg",
         excerpt: "O processo administrativo disciplinar militar constitui instrumento jurídico específico destinado à apuração de transgressões disciplinares praticadas por integrantes das Forças Armadas e Forças Auxiliares.",
         link: "../direito-militar/processo-administrativo-disciplinar-militar.html",
@@ -24,8 +24,8 @@ const categoryNewsData = [
     },
     {
         title: "Hierarquia e Disciplina Versus Direitos Fundamentais do Militar",
-        date: "23/02/2026",
-        timestamp: "2026-02-23T08:00:00",
+        date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "../img/hierarquia-disciplina-direitos-fundamentais-militar.jpg",
         excerpt: "A condição militar caracteriza-se por especificidades que a distinguem de outras relações funcionais, fundamentando-se nos princípios estruturantes da hierarquia e disciplina.",
         link: "../direito-militar/hierarquia-disciplina-direitos-fundamentais-militar.html",

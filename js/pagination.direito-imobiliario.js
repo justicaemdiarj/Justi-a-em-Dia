@@ -3,8 +3,8 @@ const categoryNewsData = [
 
     {
         title: "Validade Jurídica dos Contratos Firmados por Meios Eletrônicos",
-        date: "23/02/2026",
-        timestamp: "2026-02-23T08:00:00",
+        date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop",
         excerpt: "A digitalização das relações negociais representa uma das mais significativas transformações do direito contratual contemporâneo. A possibilidade de celebrar contratos por meios eletrônicos revolucionou a dinâmica comercial, conferindo agilidade, redução de custos e ampliação do alcance geográfico das transações.",
         link: "../direito-civil/validade-juridica-contratos-eletronicos.html",

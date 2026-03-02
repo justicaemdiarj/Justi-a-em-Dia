@@ -2,8 +2,8 @@
 const categoryNewsData = [
     {
         title: "Advocacia que não se Conhece Financeiramente não Sobrevive",
-        date: "23/02/2026",
-        timestamp: "2026-02-23T08:00:00",
+        date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "https://economicnewsbrasil.com.br/wp-content/uploads/2025/09/investimento-estrangeiro-no-brasil.jpg",
         excerpt: "Por muito tempo, a palavra gestão soou estranha nos corredores dos escritórios de advocacia. A identidade profissional do advogado foi construída em torno..",
         link: "../financas/advocacia-que-nao-se-conhece-financeiramente-nao-sobrevive-o-imperativo-da-gestao-para-escritorios-em-2026.html",
@@ -13,8 +13,8 @@ const categoryNewsData = [
     },
     {
         title: "O Novo Labirinto Fiscal",
-        date: "23/02/2026",
-        timestamp: "2026-02-23T08:00:00",
+        date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "https://economicnewsbrasil.com.br/wp-content/uploads/2025/09/investimento-estrangeiro-no-brasil.jpg",
         excerpt: "O Brasil nunca teve uma relação simples com o capital estrangeiro. A história econômica do país é pontuada por ciclos de abertura e fechamento..",
         link: "../financas/o-novo-labirinto-fiscal-as-regras-de-tributacao-de-investimentos-estrangeiros-redesenham-o-mapa-do-capital-no-brasil.html",

@@ -2,8 +2,8 @@
 const categoryNewsData = [
     {
         title: "Em breve novas notícias sobre Política",
-        date: "18/02/2026",
-        timestamp: "2026-02-18T10:00:00",
+         date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&q=80",
         caption: "Imagem Ilustrativa",
         excerpt: "Estamos preparando os melhores conteúdos sobre Política para você. Fique ligado em nossas atualizações diárias.",

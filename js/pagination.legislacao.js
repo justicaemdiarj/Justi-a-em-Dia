@@ -2,8 +2,8 @@
 const categoryNewsData = [
      {
         title: "Novo Imposto de Renda",
-        date: "26/02/2026",
-        timestamp: "2026-02-26T08:00:00",
+        date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "https://dnafinanceiro.com/blog/wp-content/uploads/2020/05/impostos-pequena-empresa.png?w=1200&q=80",
         excerpt: "Ampliação da Faixa de Isenção para R$ 5 Mil e Tributação Mínima sobre Altas Rendas: Um Marco na Reforma Tributária.",
         link: "../legislacao/novo-imposto-de-renda.html",
@@ -12,8 +12,8 @@ const categoryNewsData = [
     },
      {
         title: "Código de Defesa do Contribuinte",
-        date: "26/02/2026",
-        timestamp: "2026-02-26T08:00:00",
+        date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "https://www.acipcdl.com.br/wp-content/uploads/2024/05/contribuinte.jpeg?w=1200&q=80",
         excerpt: "A Modernização da Administração Tributária: Rumo à Transparência e à Segurança Jurídica.",
         link: "../legislacao/codigo-defesa-contribuinte.html",
@@ -22,8 +22,8 @@ const categoryNewsData = [
     },
      {
         title: "Programa Gás do Povo",
-        date: "26/02/2026",
-        timestamp: "2026-02-26T08:00:00",
+        date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "https://noticiasconcursos.com.br/wp-content/uploads/2025/10/Gas-do-povo-3-3.webp?w=1200&q=80",
         excerpt: "A Nova Legislação que Redefine o Amparo Social e a Acessibilidade Energética no Brasil.",
         link: "../legislacao/programa-gas-do-povo.html",
@@ -32,8 +32,8 @@ const categoryNewsData = [
     },
     {
         title: "A Lei Antes do Fato",
-        date: "23/02/2026",
-        timestamp: "2026-02-23T08:00:00",
+        date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "https://images.unsplash.com/photo-1505664194779-8beaceb93744?w=1200&q=80",
         excerpt: "O Congresso Nacional vota em 2026 projeto de lei inédito na história legislativa brasileira: regulação preventiva de tecnologias de edição genética germinal (CRISPR aplicado a embriões humanos) que ainda não estão disponíveis comercialmente no país, mas cujo desenvolvimento é iminente.",
         link: "../legislacao/a-lei-antes-do-fato-como-a-regulacao-preditiva-antecipa-riscos-tecnologicos.html",
@@ -42,8 +42,8 @@ const categoryNewsData = [
     },
     {
         title: "Impactos Práticos das Alterações Legislativas no Direito de Família",
-        date: "23/02/2026",
-        timestamp: "2026-02-23T08:00:00",
+        date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "../img/impactos-alteracoes-legislativas-familia.jpeg",
         excerpt: "O direito de família brasileiro experimenta constante transformação legislativa que reflete as profundas mudanças sociais das últimas décadas. A compreensão contemporânea das relações familiares expandiu-se significativamente.",
         link: "../legislacao/impactos-alteracoes-legislativas-familia.html",
@@ -52,8 +52,8 @@ const categoryNewsData = [
     },
     {
         title: "Interpretação da Lei à Luz da Constituição e da Jurisprudência Atual",
-        date: "23/02/2026",
-        timestamp: "2026-02-23T08:00:00",
+        date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "../img/interpretacao-lei-constituicao-jurisprudencia.jpg",
         excerpt: "A interpretação jurídica contemporânea não pode prescindir da compreensão sistêmica do ordenamento. A lei, isoladamente considerada, constitui apenas fragmento de complexa estrutura normativa que encontra na Constituição seu fundamento de validade e na jurisprudência sua concretização prática.",
         link: "../legislacao/interpretacao-lei-constituicao-jurisprudencia.html",

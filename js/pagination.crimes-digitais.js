@@ -2,8 +2,8 @@
 const categoryNewsData = [
     {
         title: "Primeira notícia sobre Crimes Digitais",
-        date: "21/02/2026",
-        timestamp: "2026-02-21T10:00:00",
+        date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80",
         excerpt: "Crimes cibernéticos, fraudes online e delitos digitais.",
         link: "../crimes-digitais/primeira-noticia.html",
@@ -13,8 +13,8 @@ const categoryNewsData = [
     },
     {
         title: "Segunda notícia sobre Crimes Digitais",
-        date: "20/02/2026",
-        timestamp: "2026-02-20T10:00:00",
+        date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
         excerpt: "Análise e informações sobre Crimes Digitais.",
         link: "../crimes-digitais/segunda-noticia.html",

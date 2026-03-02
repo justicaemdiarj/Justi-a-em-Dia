@@ -2,8 +2,8 @@
 const categoryNewsData = [
     {
         title: "Bisturi e Balança da Justiça",
-        date: "23/02/2026",
-        timestamp: "2026-02-23T08:00:00",
+        date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "../img/cirurgia-estetica.jpg",
         excerpt: "A relação médico-paciente encerra peculiaridade que a distingue de quase todas as demais relações profissionais: não há garantia de resultado. O médic...",
         link: "../direito-civil/bisturi-e-balanca-da-justica-os-limites-da-responsabilidade-civil-na-medicina-e-estetica.html",

@@ -2,8 +2,8 @@
 const categoryNewsData = [
     {
         title: "Crimes Ambientais Transnacionais",
-        date: "23/02/2026",
-        timestamp: "2026-02-23T08:00:00",
+        date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "../img/crimes-transnacionais.jpg",
         excerpt: "A Convenção de Viena sobre Direito dos Tratados e diversos acordos bilaterais estabelecem mecanismos de auxílio mútuo, extradição e compartilhamento.",
         link: "../direito-penal/crimes-ambientais-transnacionais-a-amazonia-no-epicentro-de-um-conflito-de-jurisdicoes.html",
@@ -12,8 +12,8 @@ const categoryNewsData = [
     },
     {
         title: "Princípio da Insignificância e sua Aplicação nos Crimes Patrimoniais",
-        date: "23/02/2026",
-        timestamp: "2026-02-23T08:00:00",
+         date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "../img/principio-insignificancia-crimes-patrimoniais.jpg",
         excerpt: "O princípio da insignificância, também denominado princípio da bagatela, constitui importante instrumento de racionalização do sistema penal, permitindo a exclusão da tipicidade material em condutas que, embora formalmente adequadas a tipos penais, não apresentam relevância suficiente para justificar a intervenção do direito penal.",
         link: "../direito-penal/principio-insignificancia-crimes-patrimoniais.html",

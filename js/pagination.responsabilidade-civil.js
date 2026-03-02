@@ -2,8 +2,8 @@
 const categoryNewsData = [
     {
         title: "Responsabilidade Civil",
-        date: "23/02/2026",
-        timestamp: "2026-02-23T08:00:00",
+        date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "../img/responsabilidade-civil-por-danos-morais.jpg",
         excerpt: "A era digital transformou profundamente as relações interpessoais, criando novos espaços de convivência que transcendem as barreiras físicas.",
         link: "../direito-civil/responsabilidade-civil-danos-morais-digitais.html",

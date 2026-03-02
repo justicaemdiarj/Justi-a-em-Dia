@@ -2,8 +2,8 @@
 const categoryNewsData = [
     {
         title: "O Direito de Não Ser Lembrado",
-        date: "23/02/2026",
-        timestamp: "2026-02-23T08:00:00",
+        date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&q=80",
         excerpt: "Quando o Supremo Tribunal Federal, em fevereiro de 2021, julgou improcedente o Recurso Extraordinário 1.010.606 (Tema 786 da repercussão geral), decre...",
         link: "../direito-civil/o-direito-de-nao-ser-lembrado-os-contornos-juridicos-da-memoria-na-era-digital.html",

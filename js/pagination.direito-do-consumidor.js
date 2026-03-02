@@ -2,8 +2,8 @@
 const categoryNewsData = [
     {
         title: "Tribunais reafirmam que cobranças de débitos com prazo superior a 5 anos são ilegais",
-        date: "23/02/2026",
-        timestamp: "2026-02-23T08:00:00",
+        date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "https://atualidade.net/wp-content/uploads/2025/05/Superior-Tribunal-de-Justica-STJ-stj_1908200979_0.webp-Foto-Marcello-Casal-Jr-Agencia-Brasil-Arquivo-e1746752603163.webp",
         excerpt: "Prescrição protege o consumidor inadimplente, mas o desconhecimento da lei ainda leva milhões a pagarem o que não devem...",
         link: "../direito-civil/divida-velha-tribunais-reafirmam-que-cobrancas-de-debitos-com-prazo-superior-a-5-anos-sao-ilegais.html",
@@ -13,8 +13,8 @@ const categoryNewsData = [
     },
     {
         title: "A Armadilha do Crédito Fácil",
-        date: "23/02/2026",
-        timestamp: "2026-02-23T08:00:00",
+        date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
         excerpt: "O Brasil registra atualmente mais de 72 milhões de pessoas negativadas, segundo dados da Confederação Nacional de Dirigentes Lojistas. Desse contingen...",
         link: "../direito-civil/a-armadilha-do-credito-facil-como-o-superendividamento-captura-os-mais-vulneraveis.html",
@@ -24,8 +24,8 @@ const categoryNewsData = [
     },
     {
         title: "A Encruzilhada da Responsabilidade",
-        date: "23/02/2026",
-        timestamp: "2026-02-23T08:00:00",
+        date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80",
         excerpt: "A proliferação acelerada de sistemas de inteligência artificial no cotidiano brasileiro de algoritmos que concedem crédito a carros autônomos que ci...",
         link: "../direito-civil/a-encruzilhada-da-responsabilidade-quem-paga-a-conta-quando-a-maquina-erra.html",
@@ -35,8 +35,8 @@ const categoryNewsData = [
     },
     {
         title: "A Era Digital do Pacta Sunt Servanda",
-        date: "23/02/2026",
-        timestamp: "2026-02-23T08:00:00",
+        date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=800&q=80",
         excerpt: "Bilhões de contratos são firmados diariamente sem que uma única folha de papel seja impressa. A compra de passagens aéreas, a contratação de serviços ...",
         link: "../direito-civil/a-era-digital-do-pacta-sunt-servanda-contratos-eletronicos-e-a-revolucionaria-silenciosa-do-direito-negocial.html",
@@ -46,8 +46,8 @@ const categoryNewsData = [
     },
     {
         title: "O Tribunal das Redes",
-        date: "23/02/2026",
-        timestamp: "2026-02-23T08:00:00",
+        date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=800&q=80",
         excerpt: "A migração do debate público para as plataformas digitais converteu cada usuário em potencial formador de opinião — e em potencial réu de ação indeniz...",
         link: "../direito-civil/o-tribunal-das-redes-quando-a-liberdade-de-expressao-vira-linchamento-digital.html",
@@ -57,8 +57,8 @@ const categoryNewsData = [
     },
     {
         title: "Responsabilidade Civil",
-        date: "23/02/2026",
-        timestamp: "2026-02-23T08:00:00",
+        date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "../img/responsabilidade-civil-por-danos-morais.jpg",
         excerpt: "A era digital transformou profundamente as relações interpessoais, criando novos espaços de convivência que transcendem as barreiras físicas.",
         link: "../direito-civil/responsabilidade-civil-danos-morais-digitais.html",

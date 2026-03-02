@@ -2,8 +2,8 @@
 const categoryNewsData = [
         {
         title: "Segunda Turma do STF decide que exibição de vídeo pelo Ministério Público na presença de jurados não invalida julgamento",
-        date: "23/02/2026",
-        timestamp: "2026-02-23T08:00:00",
+        date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "https://media.gazetadopovo.com.br/2025/10/15221712/stf-ensino-genero-660x372.jpg.webp",
         excerpt: "Ministros aplicam princípio de que não há nulidade sem prejuízo demonstrado, mas penalistas alertam para riscos à imparcialidade do conselho de sentença",
         link: "../direito-penal/stf-segunda-turma-decide-que-exibicao-de-video.html",
@@ -13,8 +13,8 @@ const categoryNewsData = [
     },
     {
         title: "TJ/DF libera casal preso e reconhece domínio técnico na produção doméstica de cannabis para fins terapêuticos",
-        date: "23/02/2026",
-        timestamp: "2026-02-23T08:00:00",
+        date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80",
         excerpt: "Tribunal do Distrito Federal reconhece produção para uso terapêutico próprio e derruba prisão preventiva em decisão que reflete avanço do debate sobre a maconha medicinal no país",
         link: "../direito-penal/tj-df-libera-casal-preso-e-reconhece-dominio-tecnico-na-producao-domestica-de-cannabis-para-fins-terapeuticos.html",
@@ -24,8 +24,8 @@ const categoryNewsData = [
     },
     {
         title: "Prisão Preventiva",
-        date: "23/02/2026",
-        timestamp: "2026-02-23T08:00:00",
+        date: "01/03/2026",
+        timestamp: "2026-03-01T12:00:00",
         image: "../img/Prisao-preventiva.png",
         excerpt: "A prisão preventiva, modalidade de prisão cautelar regulamentada pelos artigos 311 a 316 do Código de Processo Penal, constitui medida excepcional que restringe a liberdade do acusado antes do trânsito em julgado da sentença condenatória.",
         link: "../direito-penal/prisao-preventiva-requisitos-abusos.html",
