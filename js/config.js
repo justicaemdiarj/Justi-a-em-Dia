@@ -21,12 +21,12 @@ const siteConfig = {
     phone: "+55 21 990670186",
     description: "Portal de notícias e análises sobre direito, legislação e jurisprudência. Acompanhe as principais decisões dos tribunais brasileiros e mudanças na legislação.",
     searchText: "Pesquisar...",
-    logo: "revista-fitness.png",
+    logo: "logo.justica-em-dia.png",
     favicon: "favicon.png",
     
     social: {
    //  facebook: "",
-    instagram: "https://instagram.com/justicaemdia_br",
+   // instagram: "https://instagram.com/justicaemdia_br",
      twitter: "https://x.com/justicaemdia",
      linkedin: "https://linkedin.com/company/justicaemdia",
 
