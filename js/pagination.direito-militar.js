@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
     {
+        title: "Vinte Anos de Espera",
+        date: "03/03/2026",
+        timestamp: "2026-03-03T07:00:00",
+        image: "../img/vinte-anos-de-espera-de-pm-goiais.jpg",
+        excerpt: "Um policial militar de Goiás que ingressou na corporação em 1996 e esperou até 2021 para ser promovido de Soldado a Cabo..",
+        link: "../direito-militar/vinte-anos-de-espera-de-pm-goiais.html",
+        category: "Direito Militar",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+   {
         title: "A Farda e a Constituição",
         date: "02/03/2026",
         timestamp: "2026-03-02T12:00:00",

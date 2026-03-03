@@ -1,6 +1,17 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
-       {
+    {
+        title: "Senado Convoca os Grandes Nomes do Direito Privado",
+        date: "03/03/2026",
+        timestamp: "2026-03-03T07:00:00",
+        image: "../img/senado-convoca-grandes-nomes-do-direito-para-redesenhar.jpg",
+        excerpt: "Mais de duas décadas depois de sua entrada em vigor, o Código Civil brasileiro está prestes a ganhar novo rosto..",
+        link: "../direito-de-familia/enado-convoca-grandes-nomes-do-direito-para-redesenhar-regras.html",
+        category: "Direito de Família",
+        author: "Por Justiça em Dia",
+        authorLink: "#"
+    },
+     {
         title: "Como Comprovar que Existe União Estável",
         date: "01/03/2026",
         timestamp: "2026-03-01T12:00:00",

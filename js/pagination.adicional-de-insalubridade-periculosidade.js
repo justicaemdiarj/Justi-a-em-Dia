@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
-        {
+               {
+        title: "Como o Salário Mínimo se Tornou a Mais Simbólica Batalha do Constitucional",
+        date: "03/03/2026",
+        timestamp: "2026-03-03T07:00:00",
+        image: "../img/salario-minimo-tornou-simbolo-constitucional.jpg",
+        excerpt: "O relatório foi revisado três vezes, cada vírgula analisada, cada dado conferido. Mesmo assim, quando apresentado na reunião..",
+        link: "../direito-trabalhista/salario-minimo-tornou-simbolo-constitucional-social-brasileiro.html",
+        category: "Direito Trabalhista",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+     {
         title: "Corte trabalhista rejeita adicional de risco a bancário por combustível guardado no edifício onde trabalha",
         date: "01/03/2026",
         timestamp: "2026-03-01T12:00:00",

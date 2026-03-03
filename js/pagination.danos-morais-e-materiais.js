@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
     {
+        title: "Marçal e Datena Encerram Batalha Judicial",
+      	date: "03/03/2026",
+        timestamp: "2026-03-03T07:00:00",
+        image: "../img/a-cadeira-que-virou-acordo.jpg",
+        excerpt: "O capítulo judicial da cadeirada mais famosa da política brasileira recente chegou ao fim...",
+        link: "../direito-civil/a-cadeira-que-virou-acordo.html",
+        category: "Direito Civil",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+    {
         title: "Bisturi e Balança da Justiça",
         date: "01/03/2026",
         timestamp: "2026-03-01T12:00:00",

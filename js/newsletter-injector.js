@@ -28,6 +28,52 @@ function injectNewsletter() {
         `;
         mobileContainer.insertAdjacentHTML('afterend', newsletterHtml);
         
+        // NOVO: Inserir banners pós-newsletter aqui
+        if (typeof siteConfig !== 'undefined' && siteConfig.postNewsletterBanners) {
+            const now = new Date();
+            siteConfig.postNewsletterBanners.forEach(banner => {
+                let isActive = true;
+                if (banner.endDate) {
+                    const end = new Date(banner.endDate);
+                    end.setHours(23, 59, 59, 999);
+                    if (now > end) isActive = false;
+                }
+
+                if (isActive && banner.pages && banner.pages !== "full") {
+                    const currentPath = window.location.pathname;
+                    isActive = banner.pages.some(page => {
+                        return currentPath.endsWith(page) || currentPath.includes('/' + page);
+                    });
+                }
+
+                if (isActive) {
+                    const bannerDiv = document.createElement('div');
+                    bannerDiv.className = 'banner-post-newsletter-custom'; // Nova classe para estilização
+                    let imgPath = banner.img;
+                    const isSubPageFlag = isSubPage(); // Reutiliza a função isSubPage do dynamic-content.js
+                    if (isSubPageFlag && imgPath.startsWith('img/')) imgPath = '../' + imgPath;
+let bannerContentHtml = `
+                        <p class="banner-label" style="display: block !important; font-size: 0.7rem; color: #999; text-transform: uppercase; margin-top: 20px; margin-bottom: 5px;"></p>
+                    `;
+
+                    if (banner.link && banner.link !== "#" && banner.link.trim() !== "") {
+                        bannerContentHtml += `
+                            <a href="${banner.link}" target="_blank" rel="noopener noreferrer">
+                                <img src="${imgPath}" alt="${banner.name}" style="max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 15px;">
+                            </a>
+                        `;
+                    } else {
+                        bannerContentHtml += `
+                            <img src="${imgPath}" alt="${banner.name}" style="max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 15px;">
+                        `;
+                    }
+                    bannerDiv.innerHTML = bannerContentHtml;
+                    // Insere após o card da newsletter
+                    mobileContainer.insertAdjacentElement('afterend', bannerDiv);
+                }
+            });
+        }
+
         const form = document.getElementById('newsletterFormSidebar');
         const messageDiv = document.getElementById('newsletterMessage');
         const submitBtn = document.getElementById('newsletterSubmitBtn');
@@ -102,5 +148,6 @@ function injectNewsletter() {
         }
     }
 }
+
 
 document.addEventListener('DOMContentLoaded', injectNewsletter);

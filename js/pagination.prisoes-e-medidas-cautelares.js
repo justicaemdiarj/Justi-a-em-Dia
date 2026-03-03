@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
-        {
+     {
+        title: "O Habeas Corpus e a Garantia que Ninguém Pode Confiscar",
+      	date: "03/03/2026",
+        timestamp: "2026-03-03T07:00:00",
+        image: "../img/habeas-corpus-garantia-que-ninguem-pode.jpg",
+        excerpt: "O Superior Tribunal de Justiça enviou recado inequívoco aos tribunais estaduais: o habeas corpus é garantia constitucional...",
+        link: "../direito-penal/habeas-corpus-garantia-que-ninguem-pode-confiscar.html",
+        category: "Direito Penal",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+    {
         title: "Segunda Turma do STF decide que exibição de vídeo pelo Ministério Público na presença de jurados não invalida julgamento",
         date: "01/03/2026",
         timestamp: "2026-03-01T12:00:00",

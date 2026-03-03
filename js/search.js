@@ -1,6 +1,62 @@
 // Base de dados global de artigos para busca
 const allArticles = [
 
+{
+        title: 'O STF e os Limites do Poder Municipal Sobre a Sala de Aula',
+        description: 'Corte Invalida Leis que Proibiam Linguagem Neutra nas Escolas.',
+        category: 'Legislação',
+        url: 'legislacao/stf-limites-do-poder-municipal-sobre-sala-de-aula.html',
+        tags: ['legislação', ' Congresso Nacional ', 'Poder Municipal', 'O STF e os Limites do Poder Municipal Sobre a Sala de Aula']
+    },
+    {
+        title: 'Vinte Anos de Espera',
+        description: 'Um policial militar de Goiás que ingressou na corporação em 1996 e esperou até 2021 para ser promovido de Soldado a Cabo, progressão que deveria ter ocorrido muito antes segundo os próprios critérios legais da instituição.',
+        category: 'Direito Militar',
+        url: 'direito-militar/vinte-anos-de-espera-de-pm-goiais.html',
+        tags: ['PM de Goiás', ' corporação ', 'policial militar', 'Vinte Anos de Espera']
+    },
+    {
+        title: 'O Escudo que o Poder Tenta Dobrar',
+        description: 'Quando a Transparência Encontra a Resistência Institucional.',
+        category: 'Compliance',
+        url: 'compliance/o-escudo-que-o-poder-tenta-dobrar.html',
+        tags: ['O Escudo que o Poder Tenta Dobrar', 'compliance', 'Poder ', 'Os agentes']
+    },
+    {
+        title: 'O Habeas Corpus e a Garantia que Ninguém Pode Confiscar',
+        description: 'Ministro Ribeiro Dantas determina que tribunal mineiro analise mérito de writ impetrado contra ordem de busca e apreensão',
+        category: 'Direito Criminal',
+        url: 'direito-penal/habeas-corpus-garantia-que-ninguem-pode-confiscar.html',
+        tags: ['O Habeas Corpus e a Garantia que Ninguém Pode Confiscar', 'Ministro Ribeiro', 'Confiscar', 'Garantia']
+    },
+    {
+        title: 'Como o Salário Mínimo se Tornou a Mais Simbólica Batalha do Constitucionalismo Social Brasileiro',
+        description: 'O relatório foi revisado três vezes, cada vírgula analisada, cada dado conferido.',
+        category: 'Direito Trabalhista',
+        url: 'direito-trabalhista/salario-minimo-tornou-simbolo-constitucional-social-brasileiro.html',
+        tags: ['Social', 'Salário Mínimo', 'Como o Salário Mínimo se Tornou a Mais Simbólica Batalha do Constitucionalismo Social Brasileiro']
+    },
+    {
+        title: 'Senado Convoca os Grandes Nomes do Direito Privado',
+        description: 'Mais de duas décadas depois de sua entrada em vigor, o Código Civil brasileiro está prestes a ganhar novo rosto.',
+        category: 'Direito de Família',
+        url: 'direito-de-familia/senado-convoca-grandes-nomes-do-direito-para-redesenhar-regras.html',
+        tags: ['Comissão temporária', 'Direito Privado ', ' legislação', 'relações familiares']
+    },
+    {
+        title: 'O Escudo Salarial das Guardas Municipais em Santo André',
+        description: 'A mais alta corte do país interveio para proteger o contracheque de servidores que atuam na linha de frente da segurança pública municipal.',
+        category: 'Jurisprudência',
+        url: 'jurisprudencia/o-escudo-salarial-dos-guardas-municipais.html',
+        tags: [' segurança pública', 'Santo André', 'Guardas Municipais', 'O Escudo Salarial das Guardas Municipais em Santo André']
+    },
+    {
+        title: 'Marçal e Datena Encerram Batalha Judicial',
+        description: 'O capítulo judicial da cadeirada mais famosa da política brasileira recente chegou ao fim.',
+        category: 'Direito Civil',
+        url: 'direito-civil/a-cadeira-que-virou-acordo.html',
+        tags: ['Marçal e Datena Encerram Batalha Judicial', 'dois políticos', 'capítulo judicial ', 'indenização ']
+    },
      {
         title: 'A Holding do Crime',
         description: 'Qualquer executivo de uma grande corporação reconheceria a estrutura no documento. Há um conselho deliberativo de elite, uma corregedoria interna, um setor de relações jurídicas, uma diretoria financeira e, bem ao lado, um departamento inteiramente dedicado à comunicação em redes sociais e à gestão de mensagens criptografadas.',

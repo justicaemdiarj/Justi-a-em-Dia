@@ -13,70 +13,80 @@ const tickerConfig = {
 
 const globalNewsData = [
     {
+        title: "Marçal e Datena Encerram Batalha Judicial",
+        link: "direito-civil/a-cadeira-que-virou-acordo.html",
+    },
+    {
+        title: "Senado Convoca os Grandes Nomes do Direito Privado",
+        link: "direito-de-familia/senado-convoca-grandes-nomes-do-direito-para-redesenhar-regras.html",
+    },
+    {
+        title: "O Habeas Corpus e a Garantia que Ninguém Pode Confiscar",
+        link: "direito-penal/habeas-corpus-garantia-que-ninguem-pode-confiscar.html",
+    },
+    {
+        title: "Como o Salário Mínimo se Tornou a Mais Simbólica Batalha do Constitucional",
+        link: "direito-trabalhista/salario-minimo-tornou-simbolo-constitucional-social-brasileiro.html",
+    },
+    {
+        title: "Vinte Anos de Espera",
+        link: "direito-militar/vinte-anos-de-espera-de-pm-goiais.html",
+    },
+    {
+        title: "O Escudo que o Poder Tenta Dobrar",
+        link: "compliance/o-escudo-que-o-poder-tenta-dobrar.html",
+    },
+    {
+        title: "O Escudo Salarial das Guardas Municipais em Santo André",
+        link: "jurisprudencia/o-escudo-salarial-dos-guardas-municipais.html",
+    },
+    {
+        title: "O STF e os Limites do Poder Municipal Sobre a Sala de Aula",
+        link: "legislacao/stf-limites-do-poder-municipal-sobre-sala-de-aula.html",
+    },
+    {
         title: "A Holding do Crime",
-        category: 'Compliance',
-        author: "",
         link: "compliance/a-holding-do-crime.html",
     },
     {
         title: "Lei da Anistia e Crimes Permanentes",
-        category: 'Jurisprudência',
-        author: "",
         link: "jurisprudencia/limites-lei-anistia.html",
     },
     {
         title: "Racismo Estrutural no Brasil",
-        category: 'Jurisprudência',
-        author: "",
         link: "jurisprudencia/racismo-estrutural-implicacoes-constitucionais.html",
     },
     {
         title: "Violência de Gênero e a Lei Maria da Penha",
-        category: 'Jurisprudência',
-        author: "",
         link: "jurisprudencia/violencia-genero-lei-maria-da-penha.html",
     },
     {
         title: 'Novo Imposto de Renda',
-        category: 'Legislação',
-        author: "",
         link: "legislacao/novo-imposto-de-renda.html",
 
     },
     {
         title: 'Código de Defesa do Contribuinte',
-        category: 'Legislação',
-        author: "",
         link: "legislacao/codigo-defesa-contribuinte.html",
     },
     {
         title: 'Programa Gás do Povo',
-        category: 'Legislação',
-        author: "",
         link: "legislacao/programa-gas-do-povo.html",
     },
     {
         title: "Quando a Liberdade de Expressão Vira Linchamento Digital",
-        category: "Direito Civil",
-        author: "",
         link: "direito-civil/o-tribunal-das-redes-quando-a-liberdade-de-expressao-vira-linchamento-digital.html",
     },
     {
         title: "Como o Superendividamento Captura os Mais Vulneráveis",
-        category: "Direito Civil",
-        author: "",
         link: "direito-civil/a-armadilha-do-credito-facil-como-o-superendividamento-captura-os-mais-vulneraveis.html",
     },
     {
         title: "Quem Paga a Conta Quando a Máquina Erra?",
-        category: "Direito Civil",
-        author: "",
         link: "direito-civil/a-encruzilhada-da-responsabilidade-quem-paga-a-conta-quando-a-maquina-erra.html",
     },
     {
         title: "Contratos Eletrônicos e a Revolução Silenciosa do Direito Negocial",
-        category: "Direito Civil",
-        author: "",
         link: "direito-civil/responsabilidade-civil-danos-morais-digitais.html",
     },
    
@@ -227,7 +237,8 @@ function renderViuIsso() {
     if (!viuIssoList) return;
 
     viuIssoList.innerHTML = '';
-    // Usar globalNewsData sem limite
+
+    // Renderizar notícias da lista globalNewsData (existente)
     globalNewsData.forEach(item => {
         const div = document.createElement('div');
         div.className = 'viu-isso-item';
@@ -238,6 +249,44 @@ function renderViuIsso() {
         `;
         viuIssoList.appendChild(div);
     });
+
+    // Renderizar banners laterais personalizados (novo)
+    if (typeof siteConfig !== 'undefined' && siteConfig.sidebarBanners) {
+        const now = new Date();
+        siteConfig.sidebarBanners.forEach(banner => {
+            // Verifica a data de expiração
+            let isActive = true;
+            if (banner.endDate) {
+                const end = new Date(banner.endDate);
+                end.setHours(23, 59, 59, 999);
+                if (now > end) isActive = false;
+            }
+
+            // Verifica as páginas permitidas
+            if (isActive && banner.pages && banner.pages !== "full") {
+                const currentPath = window.location.pathname;
+                isActive = banner.pages.some(page => {
+                    return currentPath.endsWith(page) || currentPath.includes('/' + page);
+                });
+            }
+
+            if (isActive) {
+                const bannerDiv = document.createElement('div');
+                bannerDiv.className = 'banner-sidebar-custom'; // Nova classe para estilização
+                let imgPath = banner.img;
+                const isSubPageFlag = isSubPage();
+                if (isSubPageFlag && imgPath.startsWith('img/')) imgPath = '../' + imgPath;
+
+                bannerDiv.innerHTML = `
+                    <p class="banner-label" style="display: block !important; text-align: center; font-size: 0.7rem; color: #999; text-transform: uppercase; margin-bottom: 5px;">Publicidade</p>
+                    <a href="${banner.link}" target="_blank" rel="noopener noreferrer">
+                        <img src="${imgPath}" alt="${banner.name}" style="max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 15px;">
+                    </a>
+                `;
+                viuIssoList.appendChild(bannerDiv);
+            }
+        });
+    }
 }
 
 function getAuthorLink(authorName) {

@@ -13,6 +13,8 @@ function getSitePathPrefix() {
     return '';
 }
 
+
+
 const prefix = getSitePathPrefix();
 
 const siteConfig = {
@@ -53,7 +55,7 @@ const siteConfig = {
             { title: "Entre em Contato", link: "contato.html" },
           //  { title: "Anuncie Conosco", link: "comercial" },
             { title: "Quem Somos", link: "quem-somos.html" },
-            { title: "Apoiadores", link: "apoiadores" },
+            // { title: "Apoiadores", link: "apoiadores" },
         
             
         ]
@@ -135,6 +137,43 @@ const siteConfig = {
 
     
 };
+
+
+
+//ESTRUTURA DE BANNERS LATERAIS PERSONALIZADOS ("VIU ISSO?")
+
+siteConfig.sidebarBanners = [
+    {
+        name: "Seja Nosso Apoiador",
+        img: "img/seja-nosso-apoiador.gif", // Caminho da imagem do banner
+        link: "https://api.whatsapp.com/send/?phone=5521990670186&text=Ol%C3%A1%21+Gostaria+de+informa%C3%A7%C3%B5es+sobre+como+ser+membro+do+site+Justi%C3%A7a+em+Dia.+Poderia+ajudar%3F&type=phone_number&app_absent=0", // Link de destino do banner
+        endDate: null, // Data de expiração no formato "YYYY-MM-DD" ou null para permanente
+        pages: "full" // "full" para todas as páginas, ou array de URLs específicas (ex: ["index.html", "contato.html"])
+    },
+];
+
+/**
+ * ESTRUTURA DE BANNERS PÓS-NEWSLETTER (Páginas de Categoria e Postagem)
+ * Adicione este bloco ao final do seu arquivo js/config.js
+ */
+siteConfig.postNewsletterBanners = [
+    {
+        name: "Newsletter",
+        img: "img/newsletter-assinatura.gif", // Caminho da imagem do banner
+        link: "#", // Link de destino do banner
+        endDate: "2026-12-31", // Data de expiração no formato "YYYY-MM-DD" ou null para permanente
+        pages: "full" // "full" para todas as páginas, ou array de URLs específicas (ex: ["direito-civil/index.html", "compliance/a-holding-do-crime.html"])
+    },
+    /*{
+        name: "Newsletter",
+        img: "img/newsletter-assinatura.gif", // Caminho da imagem do banner
+        link: "https://api.whatsapp.com/send/?phone=5521990670186", // Link de destino do banner
+        endDate: "2026-12-31", // Data de expiração no formato "YYYY-MM-DD" ou null para permanente
+        pages: "full" // "full" para todas as páginas, ou array de URLs específicas (ex: ["direito-civil/index.html", "compliance/a-holding-do-crime.html"])
+    },*/
+
+    
+];
 
 
 function isBannerActiveJS(banner) {
@@ -421,4 +460,59 @@ if (footerSections.length >= 3) {
 
 document.addEventListener('DOMContentLoaded', updateGlobalElements);
 
+
+
+
+
+
+/*
+// Formato da data: "YYYY-MM-DD HH:mm" (Ano-Mês-Dia Hora:Minuto)
+siteConfig.scheduledPosts = [
+    {
+        title: "Título da Postagem Agendada",
+        image: "img/exemplo.jpg",
+        description: "Descrição da postagem que aparecerá apenas no horário definido.",
+        link: "categoria/pagina-da-postagem.html",
+        publishDate: "2026-03-02 15:00" // Exemplo: Aparecerá em 02/03/2026 às 15:00
+    },
+    // Adicione mais postagens seguindo o modelo acima
+];
+
+/**
+ * Função que filtra as postagens agendadas e as adiciona à lista global
+ * Deve ser chamada antes do carregamento do grid de artigos
+ 
+function processScheduledPosts() {
+    if (!siteConfig.scheduledPosts || !window.articlesData) return;
+
+    const now = new Date();
+
+    siteConfig.scheduledPosts.forEach(post => {
+        const publishTime = new Date(post.publishDate.replace(/-/g, "/")); // Compatibilidade de formato
+        
+        // Se o horário atual for maior ou igual ao horário de publicação
+        if (now >= publishTime) {
+            // Verifica se já não foi adicionado (evita duplicatas)
+            const exists = window.articlesData.some(a => a.link === post.link);
+            if (!exists) {
+                // Adiciona no início da lista para aparecer primeiro
+                window.articlesData.unshift({
+                    title: post.title,
+                    image: post.image,
+                    description: post.description,
+                    link: post.link
+                });
+            }
+        }
+    });
+}
+
+// Executa o processamento assim que o script carregar
+// Como o config.js é carregado antes do articles.js, precisamos garantir que o articlesData exista
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', processScheduledPosts);
+} else {
+    processScheduledPosts();
+} 
+*/
 

@@ -1,6 +1,16 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
     {
+        title: "O Escudo Salarial das Guardas Municipais em Santo André",
+      date: "03/03/2026",
+        timestamp: "2026-03-03T07:00:00",
+        image: "../img/o-escudo-salarial-dos-guardas-municipais.jpg",
+        excerpt: "A mais alta corte do país interveio para proteger o contracheque de servidores que atuam na linha de frente da segurança pública municipal..",
+        link: "../jurisprudencia/o-escudo-salarial-dos-guardas-municipais.html",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+    {
         title: "Lei da Anistia e Crimes Permanentes",
         date: "01/03/2026",
         timestamp: "2026-03-01T12:00:00",

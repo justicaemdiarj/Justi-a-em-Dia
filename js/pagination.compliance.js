@@ -1,5 +1,16 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
+     {
+        title: "O Escudo que o Poder Tenta Dobrar",
+      date: "03/03/2026",
+        timestamp: "2026-03-03T07:00:00",
+        image: "../img/o-escudo-que-o-poder-tenta-dobrar.jpg",
+         caption: "Imagem Ilustrativa",
+        excerpt: "Há uma ironia perversa no coração do sistema antilavagem brasileiro. Os agentes com maior poder de interferência sobre contratos, regulação e alocação..",
+        link: "../compliance/o-escudo-que-o-poder-tenta-dobrar.html",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
     {
         title: "A Holding do Crime",
         date: "02/03/2026",

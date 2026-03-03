@@ -1,6 +1,16 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
      {
+        title: "O STF e os Limites do Poder Municipal Sobre a Sala de Aula",
+        date: "03/03/2026",
+        timestamp: "2026-03-03T07:00:00",
+        image: "../img/stf-limites-do-poder-municipal-sobre-sala-de-aula.jpg",
+        excerpt: "O Congresso Nacional vota em 2026 projeto de lei inédito na história legislativa brasileira: regulação preventiva..",
+        link: "../legislacao/stf-limites-do-poder-municipal-sobre-sala-de-aula.html",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+     {
         title: "Novo Imposto de Renda",
         date: "01/03/2026",
         timestamp: "2026-03-01T12:00:00",
