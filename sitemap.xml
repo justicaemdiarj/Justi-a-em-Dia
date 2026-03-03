@@ -739,4 +739,52 @@
         <changefreq>always</changefreq>
         <priority>1.0</priority>
     </url>
+        <url>
+        <loc>https://www.justicaemdia.com.br/jurisprudencia/stf-prorroga-90-dias-fundo-participacao-estados.html</loc>
+        <lastmod>2026-03-04</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc>https://www.justicaemdia.com.br/legislacao/nova-norma-receita-federal-multa-beneficia-empresas.html</loc>
+        <lastmod>2026-03-04</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc>https://www.justicaemdia.com.br/direito-de-familia/protegidas-no-papel-vulneraveis-na-vida-real-colapso-medidas-protetivas.html</loc>
+        <lastmod>2026-03-04</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc>https://www.justicaemdia.com.br/direito-civil/projeto-lei-proibe-cobranca-familias-assentos-vizinhos-voos.html</loc>
+        <lastmod>2026-03-04</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc>https://www.justicaemdia.com.br/direito-trabalhista/empresa-advogado-condenados-tst-citacoes-falsas-jurisprudencia.html</loc>
+        <lastmod>2026-03-04</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+       <url>
+        <loc>https://www.justicaemdia.com.br/direito-militar/stm-medidas-protetivas-militar-trans-assedio-sexual.html</loc>
+        <lastmod>2026-03-04</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc>https://www.justicaemdia.com.br/direito-penal/casamento-crianca-crime-tjmg-estupro-vulneravel-protecao-infancia.html</loc>
+        <lastmod>2026-03-04</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+            <url>
+        <loc>https://www.justicaemdia.com.br/compliance/banco-master-compliance-gestao-fraudulenta-temeraria-limites-governanca.html</loc>
+        <lastmod>2026-03-04</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
 </urlset>
