@@ -24,6 +24,12 @@
         <changefreq>always</changefreq>
         <priority>1.0</priority>
     </url>
+        <url>
+        <loc>https://www.justicaemdia.com.br/newsletter</loc>
+        <lastmod>2026-03-02</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
     <url>
         <loc>https://www.justicaemdia.com.br/termo-de-consentimento.html</loc>
         <lastmod>2026-03-02</lastmod>
