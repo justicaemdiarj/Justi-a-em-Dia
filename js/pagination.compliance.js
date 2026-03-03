@@ -1,6 +1,17 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
      {
+        title: "O Que o Caso Banco Master Revela Sobre os Limites do Compliance e da Governança",
+      date: "04/03/2026",
+        timestamp: "2026-03-04T07:00:00",
+        image: "../img/banco-master-compliance-gestao-fraudulenta-temeraria-limites-governanca.jpg",
+         caption: "Imagem Ilustrativa",
+        excerpt: "Quando a Polícia Federal deflagrou a Operação Compliance Zero em novembro de 2025..",
+        link: "../compliance/banco-master-compliance-gestao-fraudulenta-temeraria-limites-governanca.html",
+        author: "Romer Carvalho",
+        authorLink: "../apoiadores/advogado-romer-carvalho.html"
+    },
+    {
         title: "O Escudo que o Poder Tenta Dobrar",
       date: "03/03/2026",
         timestamp: "2026-03-03T07:00:00",
@@ -9,7 +20,7 @@ const categoryNewsData = [
         excerpt: "Há uma ironia perversa no coração do sistema antilavagem brasileiro. Os agentes com maior poder de interferência sobre contratos, regulação e alocação..",
         link: "../compliance/o-escudo-que-o-poder-tenta-dobrar.html",
         author: "Romer Carvalho",
-        authorLink: "#"
+        authorLink: "../apoiadores/advogado-romer-carvalho.html"
     },
     {
         title: "A Holding do Crime",

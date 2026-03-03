@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
     {
+        title: "Projeto de Lei Proíbe Cobrança Extra para Famílias Ocuparem Assentos Vizinhos",
+      	date: "04/03/2026",
+        timestamp: "2026-03-04T07:00:00",
+        image: "../img/projeto-lei-proibe-cobranca-familias-assentos-vizinhos-voos.jpg",
+        excerpt: "Viajar em família nos céus brasileiros tem sido, para milhares de passageiros, uma experiência marcada pelo...",
+        link: "../direito-civil/projeto-lei-proibe-cobranca-familias-assentos-vizinhos-voos.html",
+        category: "Direito Civil",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+    {
         title: "Marçal e Datena Encerram Batalha Judicial",
       	date: "03/03/2026",
         timestamp: "2026-03-03T07:00:00",

@@ -160,7 +160,7 @@ siteConfig.postNewsletterBanners = [
     {
         name: "Newsletter",
         img: "img/newsletter-assinatura.gif", // Caminho da imagem do banner
-        link: "#", // Link de destino do banner
+        link: "https://www.justicaemdia.com.br/newsletter", // Link de destino do banner
         endDate: "2026-12-31", // Data de expiração no formato "YYYY-MM-DD" ou null para permanente
         pages: "full" // "full" para todas as páginas, ou array de URLs específicas (ex: ["direito-civil/index.html", "compliance/a-holding-do-crime.html"])
     },
@@ -232,7 +232,24 @@ function updateGlobalElements() {
         }
         return link;
     }
+// Atualizar Favicon
+    const faviconLink = document.querySelector('link[rel="icon"]');
+    if (faviconLink && siteConfig.favicon) {
+        faviconLink.href = prefix + 'img/' + siteConfig.favicon;
+    } else if (siteConfig.favicon) {
+        // Se não existir, cria a tag favicon
+        const newFaviconLink = document.createElement('link');
+        newFaviconLink.rel = 'icon';
+        newFaviconLink.type = 'image/png';
+        newFaviconLink.href = prefix + 'img/' + siteConfig.favicon;
+        document.head.appendChild(newFaviconLink);
+    }
 
+    // Atualizar Logo
+    const mainLogo = document.querySelector('.logo img'); // Seleciona a imagem dentro da div com classe 'logo'
+    if (mainLogo && siteConfig.logo) {
+        mainLogo.src = prefix + 'img/' + siteConfig.logo;
+    }
     // Atualizar Menu (Navegação Principal)
     const navLists = document.querySelectorAll('.desktop-nav-list');
     navLists.forEach(navList => {
@@ -460,9 +477,81 @@ if (footerSections.length >= 3) {
 
 document.addEventListener('DOMContentLoaded', updateGlobalElements);
 
+// Funcionalidade de Leitura de Texto (TTS) integrada ao Compartilhar
+    const shareContainer = document.querySelector('.share-buttons');
+    const postContent = document.querySelector('.post-content');
+    
+    if (shareContainer && postContent && !document.querySelector('.btn-read-audio')) {
+        // Criar o botão
+        const readBtn = document.createElement('button');
+        readBtn.className = 'btn-read-audio';
+        readBtn.title = "Ouvir este artigo";
+        
+        // Estrutura interna com ícone e texto (o texto será escondido via CSS no mobile)
+        readBtn.innerHTML = '<i class="fas fa-play"></i> <span>Ouvir</span>';
+        
+        // Adiciona o botão ao final da lista de botões de compartilhar
+        shareContainer.appendChild(readBtn);
 
+        let isReading = false;
+        let utterance = null;
 
+        readBtn.addEventListener('click', () => {
+            if (!isReading) {
+                // Iniciar leitura
+                const textToRead = postContent.innerText;
+                utterance = new SpeechSynthesisUtterance(textToRead);
+                utterance.lang = 'pt-BR';
+                
+                utterance.onend = () => {
+                    isReading = false;
+                    readBtn.innerHTML = '<i class="fas fa-play"></i> <span>Ouvir</span>';
+                    readBtn.classList.remove('reading');
+                };
 
+                window.speechSynthesis.speak(utterance);
+                isReading = true;
+                readBtn.innerHTML = '<i class="fas fa-stop"></i> <span>Parar</span>';
+                readBtn.classList.add('reading');
+            } else {
+                // Parar leitura
+                window.speechSynthesis.cancel();
+                isReading = false;
+                readBtn.innerHTML = '<i class="fas fa-play"></i> <span>Ouvir</span>';
+                readBtn.classList.remove('reading');
+            }
+        });
+    }
+
+// Interromper o áudio imediatamente ao trocar de página ou recarregar (F5)
+window.addEventListener('beforeunload', () => {
+    if (window.speechSynthesis) {
+        window.speechSynthesis.cancel();
+    }
+});
+
+    function changeFontSize(delta) {
+    // Seleciona o container do conteúdo do post
+    const postContent = document.querySelector(".post-content");
+    if (!postContent) return;
+
+    // Obtém o tamanho atual (ou usa o padrão de 1.15rem definido no seu CSS)
+    const style = window.getComputedStyle(postContent, null).getPropertyValue("font-size");
+    let currentSize = parseFloat(style);
+
+    // Define os limites (mínimo 12px, máximo 30px)
+    const newSize = currentSize + (delta * 2); // Aumenta/diminui de 2 em 2 pixels
+    
+    if (newSize >= 12 && newSize <= 30) {
+        postContent.style.fontSize = newSize + "px";
+        
+        // Opcional: Ajustar também os parágrafos internos se necessário
+        const paragraphs = postContent.querySelectorAll("p");
+        paragraphs.forEach(p => {
+            p.style.fontSize = newSize + "px";
+        });
+    }
+}
 
 
 /*

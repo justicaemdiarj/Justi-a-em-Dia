@@ -1,5 +1,15 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
+{
+        title: "STF Prorroga por 90 Dias as Regras de Distribuição do Fundo de Participação dos Estados",
+        date: "04/03/2026",
+        timestamp: "2026-03-04T07:00:00",
+        image: "../img/stf-prorroga-90-dias-fundo-participacao-estados.jpg",
+        excerpt: "O Fundo de Participação dos Estados (FPE) é um dos pilares estruturais do federalismo fiscal brasileiro..",
+        link: "../jurisprudencia/stf-prorroga-90-dias-fundo-participacao-estados.html",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
     {
         title: "O Escudo Salarial das Guardas Municipais em Santo André",
       date: "03/03/2026",

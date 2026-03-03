@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
      {
+        title: "STM Concede Pela Primeira Vez Medidas Protetivas a Militar Trans Vítima de Assédio Sexual",
+        date: "04/03/2026",
+        timestamp: "2026-03-04T07:00:00",
+        image: "../img/stm-medidas-protetivas-militar-trans-assedio-sexual.jpg",
+        excerpt: "O Superior Tribunal Militar proferiu, no dia 20 de fevereiro de 2026, uma decisão sem precedentes..",
+        link: "../direito-militar/stm-medidas-protetivas-militar-trans-assedio-sexual.html",
+        category: "Direito Militar",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+    {
         title: "Vinte Anos de Espera",
         date: "03/03/2026",
         timestamp: "2026-03-03T07:00:00",

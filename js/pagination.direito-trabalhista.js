@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
     {
+        title: "Empresa e Advogado São Condenados pelo TST",
+        date: "04/03/2026",
+        timestamp: "2026-03-04T07:00:00",
+        image: "../img/empresa-advogado-condenados-tst-citacoes-falsas-jurisprudencia.jpg",
+        excerpt: "O Tribunal Superior do Trabalho condenou uma empresa e seu advogado por litigância de má-fé após a constatação..",
+        link: "../direito-trabalhista/empresa-advogado-condenados-tst-citacoes-falsas-jurisprudencia.html",
+        category: "Direito Trabalhista",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+     {
         title: "Como o Salário Mínimo se Tornou a Mais Simbólica Batalha do Constitucional",
         date: "03/03/2026",
         timestamp: "2026-03-03T07:00:00",

@@ -1,7 +1,63 @@
 // Base de dados global de artigos para busca
 const allArticles = [
 
-{
+    {
+        title: 'STF Prorroga por 90 Dias as Regras de Distribuição do Fundo de Participação dos Estados',
+        description: 'O Fundo de Participação dos Estados (FPE) é um dos pilares estruturais do federalismo fiscal brasileiro.',
+        category: 'Jurisprudência',
+        url: 'jurisprudencia/stf-prorroga-90-dias-fundo-participacao-estados.html',
+        tags: ['Participação dos Estados', ' Congresso Nacional ', 'STF Prorroga por 90 Dias as Regras de Distribuição do Fundo de Participação dos Estados']
+    },
+    {
+        title: 'Nova Norma da Receita Federal Sobre Multas Beneficia Empresas',
+        description: 'A Receita Federal do Brasil publicou, em 2 de março de 2026, a Instrução Normativa RFB nº 2.310, instrumento normativo que altera.',
+        category: 'Legislação',
+        url: 'legislacao/nova-norma-receita-federal-multa-beneficia-empresas.html',
+        tags: ['Nova Norma da Receita Federal Sobre Multas Beneficia Empresas', 'Receita Federa ']
+    },
+    {
+        title: 'Protegidas no Papel, Vulneráveis na Vida Real',
+        description: 'A cada novo caso de feminicídio noticiado no país, um detalhe se repete.',
+        category: 'Direito de Família',
+        url: 'direito-de-familia/protegidas-no-papel-vulneraveis-na-vida-real-colapso-medidas-protetivas.html',
+        tags: ['Protegidas no Papel, Vulneráveis na Vida Real', 'compliance', 'Poder ', 'Os agentes']
+    },
+    {
+        title: 'Projeto de Lei Proíbe Cobrança Extra para Famílias Ocuparem Assentos Vizinhos',
+        description: 'Viajar em família nos céus brasileiros tem sido, para milhares de passageiros, uma experiência marcada.',
+        category: 'Direito Civil',
+        url: 'direito-civil/projeto-lei-proibe-cobranca-familias-assentos-vizinhos-voos.html',
+        tags: ['Projeto de Lei Proíbe Cobrança Extra para Famílias Ocuparem Assentos Vizinhos', 'Proíbe Cobrança', 'Garantia']
+    },
+    {
+        title: 'Empresa e Advogado São Condenados pelo TST',
+        description: 'O Tribunal Superior do Trabalho condenou uma empresa e seu advogado por litigância.',
+        category: 'Direito Trabalhista',
+        url: 'direito-trabalhista/empresa-advogado-condenados-tst-citacoes-falsas-jurisprudencia.html',
+        tags: ['condenação', 'Advogado', 'Empresa e Advogado São Condenados pelo TST']
+    },
+    {
+        title: 'STM Concede Pela Primeira Vez Medidas Protetivas a Militar Trans Vítima de Assédio Sexual',
+        description: 'O Superior Tribunal Militar proferiu, no dia 20 de fevereiro de 2026, uma decisão sem.',
+        category: 'Direito Militar',
+        url: 'direito-militar/stm-medidas-protetivas-militar-trans-assedio-sexual.html',
+        tags: ['Primeira Vez', 'Militar ', ' Assédio Sexual', 'STM Concede Pela Primeira Vez Medidas Protetivas a Militar Trans Vítima de Assédio Sexual']
+    },
+    {
+        title: 'A Decisão do TJMG que Ameaça Décadas de Proteção à Infância',
+        description: 'Uma decisão proferida pela 9ª Câmara Criminal Especializada do Tribunal de Justiça de Minas Gerais provocou comoção nacional ao absolver.',
+        category: 'Direito Criminal',
+        url: 'direito-penal/casamento-crianca-crime-tjmg-estupro-vulneravel-protecao-infancia.html',
+        tags: ['Câmara Criminal', 'Minas Gerais', 'Tribunal de Justiça ', 'A Decisão do TJMG que Ameaça Décadas de Proteção à Infância']
+    },
+    {
+        title: 'O Que é Revelado Sobre o Caso do Banco Master ',
+        description: 'Quando a Polícia Federal deflagrou a Operação Compliance Zero em novembro de 2025 e decretou a prisão.',
+        category: 'Compliance',
+        url: 'compliance/banco-master-compliance-gestao-fraudulenta-temeraria-limites-governanca.html',
+        tags: ['Romer carvalho','esquema bilionário', 'Polícia Federal', 'Operação Compliance Zero', 'O Que é Revelado Sobre o Caso do Banco Master ']
+    },
+    {
         title: 'O STF e os Limites do Poder Municipal Sobre a Sala de Aula',
         description: 'Corte Invalida Leis que Proibiam Linguagem Neutra nas Escolas.',
         category: 'Legislação',
@@ -20,7 +76,7 @@ const allArticles = [
         description: 'Quando a Transparência Encontra a Resistência Institucional.',
         category: 'Compliance',
         url: 'compliance/o-escudo-que-o-poder-tenta-dobrar.html',
-        tags: ['O Escudo que o Poder Tenta Dobrar', 'compliance', 'Poder ', 'Os agentes']
+        tags: ['O Escudo que o Poder Tenta Dobrar', 'compliance', 'Poder ', 'Os agentes', 'Romer Carvalho']
     },
     {
         title: 'O Habeas Corpus e a Garantia que Ninguém Pode Confiscar',
@@ -68,7 +124,7 @@ const allArticles = [
         title: 'Programa Gás do Povo',
         description: 'A Nova Legislação que Redefine o Amparo Social e a Acessibilidade Energética no Brasil.',
         category: 'Legislação',
-        url: 'legislacao/novo-imposto-de-renda.html',
+        url: 'legislacao/programa-gas-do-povo.html',
         tags: ['Programa Gás do Povo ', 'gás', 'povo', 'socioeconômico ']
     },
     {

@@ -1,6 +1,17 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
     {
+        title: "Protegidas no Papel, Vulneráveis na Vida Real",
+        date: "04/03/2026",
+        timestamp: "2026-03-04T07:00:00",
+        image: "../img/protegidas-no-papel-vulneraveis-na-vida-real-colapso-medidas-protetivas.jpg",
+        excerpt: "A cada novo caso de feminicídio noticiado no país, um detalhe se repete com perturbadora regularidade..",
+        link: "../direito-de-familia/protegidas-no-papel-vulneraveis-na-vida-real-colapso-medidas-protetivas.html",
+        category: "Direito de Família",
+        author: "Por Justiça em Dia",
+        authorLink: "#"
+    },
+    {
         title: "O Testamento Digital",
         date: "01/03/2026",
         timestamp: "2026-03-01T12:00:00",

@@ -1,6 +1,16 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
      {
+        title: "Nova Norma da Receita Federal Sobre Multas Beneficia Empresas",
+        date: "04/03/2026",
+        timestamp: "2026-03-04T07:00:00",
+        image: "../img/nova-norma-receita-federal-multa-beneficia-empresas.jpg",
+        excerpt: "A Receita Federal do Brasil publicou, em 2 de março de 2026, a Instrução..",
+        link: "../legislacao/nova-norma-receita-federal-multa-beneficia-empresas.html",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+     {
         title: "O STF e os Limites do Poder Municipal Sobre a Sala de Aula",
         date: "03/03/2026",
         timestamp: "2026-03-03T07:00:00",

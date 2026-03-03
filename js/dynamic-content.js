@@ -13,6 +13,38 @@ const tickerConfig = {
 
 const globalNewsData = [
     {
+        title: "O Que é Revelado Sobre o Caso do Banco Master",
+        link: "compliance/banco-master-compliance-gestao-fraudulenta-temeraria-limites-governanca.html",
+    },
+    {
+        title: "A Decisão do TJMG que Ameaça Décadas de Proteção à Infância",
+        link: "direito-penal/casamento-crianca-crime-tjmg-estupro-vulneravel-protecao-infancia.html",
+    },
+    {
+        title: "STM Concede Pela Primeira Vez Medidas Protetivas a Militar",
+        link: "direito-militar/stm-medidas-protetivas-militar-trans-assedio-sexual.html",
+    },
+    {
+        title: "Empresa e Advogado São Condenados pelo TST",
+        link: "direito-trabalhista/empresa-advogado-condenados-tst-citacoes-falsas-jurisprudencia.html",
+    },
+    {
+        title: "Projeto de Lei Proíbe Cobrança Extra para Famílias Ocuparem Assentos Vizinhos",
+        link: "direito-civil/projeto-lei-proibe-cobranca-familias-assentos-vizinhos-voos.html",
+    },
+    {
+        title: "Protegidas no Papel, Vulneráveis na Vida Real",
+        link: "direito-de-familia/protegidas-no-papel-vulneraveis-na-vida-real-colapso-medidas-protetivas.html",
+    },
+    {
+        title: "Nova Norma da Receita Federal Sobre Multas Beneficia Empresas",
+        link: "legislacao/nova-norma-receita-federal-multa-beneficia-empresas.html",
+    },
+    {
+        title: "STF Prorroga por 90 Dias as Regras de Distribuição do Fundo de Participação dos Estados",
+        link: "jurisprudencia/stf-prorroga-90-dias-fundo-participacao-estados.html",
+    },
+    {
         title: "Marçal e Datena Encerram Batalha Judicial",
         link: "direito-civil/a-cadeira-que-virou-acordo.html",
     },
@@ -44,52 +76,7 @@ const globalNewsData = [
         title: "O STF e os Limites do Poder Municipal Sobre a Sala de Aula",
         link: "legislacao/stf-limites-do-poder-municipal-sobre-sala-de-aula.html",
     },
-    {
-        title: "A Holding do Crime",
-        link: "compliance/a-holding-do-crime.html",
-    },
-    {
-        title: "Lei da Anistia e Crimes Permanentes",
-        link: "jurisprudencia/limites-lei-anistia.html",
-    },
-    {
-        title: "Racismo Estrutural no Brasil",
-        link: "jurisprudencia/racismo-estrutural-implicacoes-constitucionais.html",
-    },
-    {
-        title: "Violência de Gênero e a Lei Maria da Penha",
-        link: "jurisprudencia/violencia-genero-lei-maria-da-penha.html",
-    },
-    {
-        title: 'Novo Imposto de Renda',
-        link: "legislacao/novo-imposto-de-renda.html",
 
-    },
-    {
-        title: 'Código de Defesa do Contribuinte',
-        link: "legislacao/codigo-defesa-contribuinte.html",
-    },
-    {
-        title: 'Programa Gás do Povo',
-        link: "legislacao/programa-gas-do-povo.html",
-    },
-    {
-        title: "Quando a Liberdade de Expressão Vira Linchamento Digital",
-        link: "direito-civil/o-tribunal-das-redes-quando-a-liberdade-de-expressao-vira-linchamento-digital.html",
-    },
-    {
-        title: "Como o Superendividamento Captura os Mais Vulneráveis",
-        link: "direito-civil/a-armadilha-do-credito-facil-como-o-superendividamento-captura-os-mais-vulneraveis.html",
-    },
-    {
-        title: "Quem Paga a Conta Quando a Máquina Erra?",
-        link: "direito-civil/a-encruzilhada-da-responsabilidade-quem-paga-a-conta-quando-a-maquina-erra.html",
-    },
-    {
-        title: "Contratos Eletrônicos e a Revolução Silenciosa do Direito Negocial",
-        link: "direito-civil/responsabilidade-civil-danos-morais-digitais.html",
-    },
-   
 ];
 
 // Array para armazenar todas as notícias coletadas dos arquivos de paginação

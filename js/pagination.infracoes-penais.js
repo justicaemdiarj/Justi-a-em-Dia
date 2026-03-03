@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
     {
+        title: "A Decisão do TJMG que Ameaça Décadas de Proteção à Infância",
+      	date: "04/03/2026",
+        timestamp: "2026-03-04T07:00:00",
+        image: "../img/casamento-crianca-crime-tjmg-estupro-vulneravel-protecao-infancia.jpg",
+        excerpt: "Uma decisão proferida pela 9ª Câmara Criminal Especializada do Tribunal de Justiça de Minas Gerais..",
+        link: "../direito-penal/casamento-crianca-crime-tjmg-estupro-vulneravel-protecao-infancia.html",
+        category: "Direito Penal",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+    {
         title: "Crimes Ambientais Transnacionais",
         date: "01/03/2026",
         timestamp: "2026-03-01T12:00:00",
