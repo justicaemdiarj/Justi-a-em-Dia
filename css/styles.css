@@ -52,48 +52,6 @@ body {
     }
 }
 
-/* Layout do cabeçalho da categoria com agrupamento de texto */
-.category-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
-}
-
-/* Container para agrupar Título e Subtítulo em coluna */
-.category-text-group {
-    display: flex;
-    flex-direction: column; /* Garante que o subtítulo fique ABAIXO do título */
-    flex: 1; /* Ocupa o espaço restante à esquerda */
-    text-align: left;
-}
-
-/* Estilo do banner no cabeçalho */
-.category-header-banner {
-    flex: 0 0 468px;
-    max-width: 468px;
-    display: block;
-}
-
-.category-header-banner img {
-    width: 100%;
-    height: auto;
-    border-radius: 4px;
-}
-
-/* Ajuste para Mobile */
-@media (max-width: 992px) {
-    .category-header-banner {
-        display: none !important;
-    }
-    .category-header .container {
-        flex-direction: column;
-        text-align: center;
-    }
-    .category-text-group {
-        text-align: center;
-    }
-}
 
 .font-control {
     margin-bottom: 20px;
