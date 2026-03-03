@@ -2127,7 +2127,7 @@ img {
 .content-wrapper {
     display: flex;
     align-items: flex-start;
-    gap: 40px;
+    gap: 30px;
 }
 
 .main-column {
