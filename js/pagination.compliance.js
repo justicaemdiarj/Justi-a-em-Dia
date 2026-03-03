@@ -8,7 +8,7 @@ const categoryNewsData = [
          caption: "Imagem Ilustrativa",
         excerpt: "Há uma ironia perversa no coração do sistema antilavagem brasileiro. Os agentes com maior poder de interferência sobre contratos, regulação e alocação..",
         link: "../compliance/o-escudo-que-o-poder-tenta-dobrar.html",
-        author: "Justiça em Dia",
+        author: "Romer Carvalho",
         authorLink: "#"
     },
     {
