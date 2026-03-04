@@ -2,6 +2,13 @@
 const allArticles = [
 
     {
+        title: 'Ministra do TST derruba jornada 12x36 de vigilante após identificar acúmulo sistemático de horas extraordinárias',
+        description: 'A prática de escalar vigilantes no regime de 12 horas de trabalho por 36 de descanso — amplamente utilizada no setor de segurança privada.',
+        category: 'Direito Trabalhista',
+        url: 'jurisprudencia/stf-prorroga-90-dias-fundo-participacao-estados.html',
+        tags: ['vigilante', 'TST', 'Ministra do TST derruba jornada 12x36 de vigilante após identificar acúmulo sistemático de horas extraordinárias']
+    },
+    {
         title: 'STF Prorroga por 90 Dias as Regras de Distribuição do Fundo de Participação dos Estados',
         description: 'O Fundo de Participação dos Estados (FPE) é um dos pilares estruturais do federalismo fiscal brasileiro.',
         category: 'Jurisprudência',

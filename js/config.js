@@ -104,7 +104,7 @@ const siteConfig = {
                   img: window.innerWidth <= 768 ? "img/banner-mobile-uol.png" : "img/banner-uol.png", 
                  link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", 
                  endDate: null, 
-                 pages: ["contato.html"]
+                 pages: ["conato.html"]
             },
             // BANNER ESPECIFICO POR PÁGINA OU MESCLA
             
@@ -113,14 +113,14 @@ const siteConfig = {
                  img: window.innerWidth <= 768 ? "https://macmagazine.com.br/wp-content/uploads/2019/03/06-iphone-can-do-what-2.gif" : "https://macmagazine.com.br/wp-content/uploads/2019/03/06-iphone-can-do-what-2.gif", 
                  link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", 
                  endDate: null, 
-                 pages: ["contato.html"]
+                 pages: ["conato.html"]
             },
             { 
                  name: "Banner UOL Específico 2", 
                  img: window.innerWidth <= 768 ? "img/cirurgia-estetica.jpg" : "img/cirurgia-estetica.jpg", 
                  link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", 
                  endDate: null, 
-                 pages:  ["contato.html"]
+                 pages:  ["conato.html"]
             }
             
         ],
@@ -133,12 +133,7 @@ const siteConfig = {
        { name: "Apoiador Romer Carvalho", img: "img/banner-apoiadores/apoiador-romer-carvalho-mobile-2.png", link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2026-12-31", pages: "full"},
         ]
     },
-
-
-    
 };
-
-
 
 //ESTRUTURA DE BANNERS LATERAIS PERSONALIZADOS ("VIU ISSO?")
 
@@ -152,9 +147,25 @@ siteConfig.sidebarBanners = [
     },
 ];
 
+siteConfig.postContentBanners = [
+    {
+        name: "Banner Promocional 1",
+        img: "img/banner-apoiadores/apoiador-romer-carvalho-desktop-1.png",
+        link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario",
+        pages: "full", // "full" para todos ou ["caminho/pagina.html"] para específicas
+        position: 3    // Inserir após o 3º parágrafo
+    },
+    {
+        name: "Banner Promocional 2",
+        img: "img/banner-apoiadores/apoiador-romer-carvalho-desktop-1.png",
+        link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario",
+        pages: "full",
+        position: 8    // Inserir após o 6º parágrafo
+    }
+];
+
 /**
  * ESTRUTURA DE BANNERS PÓS-NEWSLETTER (Páginas de Categoria e Postagem)
- * Adicione este bloco ao final do seu arquivo js/config.js
  */
 siteConfig.postNewsletterBanners = [
     {
@@ -475,7 +486,10 @@ if (footerSections.length >= 3) {
 
 }
 
-document.addEventListener('DOMContentLoaded', updateGlobalElements);
+document.addEventListener('DOMContentLoaded', () => {
+    updateGlobalElements();
+    injectPostContentBanners(); // Nova função adicionada
+});
 
 // Funcionalidade de Leitura de Texto (TTS) integrada ao Compartilhar
     const shareContainer = document.querySelector('.share-buttons');
@@ -553,6 +567,39 @@ window.addEventListener('beforeunload', () => {
     }
 }
 
+function injectPostContentBanners() {
+    const postContent = document.querySelector('.post-content');
+    if (!postContent || !siteConfig.postContentBanners) return;
+
+    const paragraphs = postContent.querySelectorAll('p');
+    if (paragraphs.length === 0) return;
+
+    // Ordenar banners por posição decrescente para não afetar o índice ao inserir
+    const sortedBanners = [...siteConfig.postContentBanners]
+        .filter(isBannerActiveJS)
+        .sort((a, b) => b.position - a.position);
+
+    sortedBanners.forEach(banner => {
+        // Ajusta o caminho da imagem se estiver em subpasta
+        let imgSrc = banner.img;
+        if (typeof prefix !== 'undefined' && !imgSrc.startsWith('http')) {
+            imgSrc = prefix + imgSrc;
+        }
+
+        const bannerHtml = `
+            <div class="dynamic-post-banner" style="margin: 30px 0; text-align: center;">
+                <p style="font-size: 10px; color: #999; margin-bottom: 5px; text-transform: uppercase;">Publicidade</p>
+                <a href="${banner.link}" target="_blank">
+                    <img src="${imgSrc}" alt="${banner.name}" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+                </a>
+            </div>
+        `;
+
+        // Insere após o parágrafo indicado (ou no último se a posição for maior que o total)
+        const targetIndex = Math.min(banner.position - 1, paragraphs.length - 1);
+        paragraphs[targetIndex].insertAdjacentHTML('afterend', bannerHtml);
+    });
+}
 
 /*
 // Formato da data: "YYYY-MM-DD HH:mm" (Ano-Mês-Dia Hora:Minuto)
