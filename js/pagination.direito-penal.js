@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
     {
+    title: "Operação Argos: PF Age Contra Abuso Sexual Infantil",
+    date: "05/03/2026",
+    timestamp: "2026-03-05T07:00:00",
+    image: "../img/operacao-argos-pf-abuso-sexual-infantojuvenil-porto-velho.jpg",
+    excerpt: "A Polícia Federal deflagrou a Operação Argos em Porto Velho para combater crimes de abuso sexual infantojuvenil, cumprindo mandado de busca e apreensão expedido pela Justiça Federal de Rondônia.",
+    link: "../direito-penal/operacao-argos-pf-abuso-sexual-infantojuvenil-porto-velho.html",
+    category: "direito-penal",
+    author: "Justiça em Dia",
+    authorLink: "#"
+    },
+    {
         title: "A Decisão do TJMG que Ameaça Décadas de Proteção à Infância",
       	date: "04/03/2026",
         timestamp: "2026-03-04T07:00:00",

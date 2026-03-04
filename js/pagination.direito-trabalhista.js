@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
     {
+    title: "O MPSE Coloca o Assédio na Pauta Institucional e Lidera Debate",
+    date: "05/03/2026",
+    timestamp: "2026-03-05T07:00:00",
+    image: "../img/assedio-servico-publico-mpse-palestra-prevencao.jpg",
+    excerpt: "O Ministério Público de Sergipe promoveu palestra sobre prevenção do assédio moral e sexual no setor público, reforçando..",
+    link: "../direito-trabalhista/assedio-servico-publico-mpse-palestra-prevencao.html",
+    category: "direito-trabalhista",
+    author: "Justiça em Dia",
+    authorLink: "#"
+    },
+    {
         title: "Empresa e Advogado São Condenados pelo TST",
         date: "04/03/2026",
         timestamp: "2026-03-04T07:00:00",

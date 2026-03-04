@@ -1,7 +1,77 @@
 // Base de dados global de artigos para busca
 const allArticles = [
 
-    {
+{
+    title: 'Trump Admite Vácuo de Poder no Irã',
+    description: 'Trump admitiu que ataques de EUA e Israel eliminaram os possíveis sucessores de Khamenei no Irã e anunciou terceira onda de bombardeios enquanto contra-ataques iranianos ameaçam o Estreito de Ormuz.',
+    category: 'Política',
+    url: 'politica/trump-vacuo-poder-ira-sucessores-khamenei-mortos.html',
+    tags: ['Trump', 'Irã', 'Khamenei', 'Israel', 'Guerra Irã', 'Vácuo de Poder', 'Trump Admite Vácuo de Poder no Irã']
+},
+{
+    title: 'Lula Pede Voto com Ironia Eleitoral',
+    description: 'Durante a 2ª Conferência Nacional do Trabalho em São Paulo, Lula ironizou a ideia de sorte pelos indicadores econômicos e convocou eleitores a votarem em quem tem sorte.',
+    category: 'Política',
+    url: 'politica/lula-pede-voto-ironia-eleitoral-conferencia-trabalho-sp.html',
+    tags: ['Lula', 'Eleições 2026', 'Pedido de Voto', 'TSE', 'Propaganda Eleitoral', 'Lula Pede Voto com Ironia Eleitoral']
+},
+{
+    title: 'Alcolumbre Bloqueia Indicação de Messias ao STF',
+    description: 'Davi Alcolumbre sinalizou a aliados que não deve pautar a sabatina de Jorge Messias ao STF neste ano.',
+    category: 'Política',
+    url: 'politica/alcolumbre-bloqueia-indicacao-messias-stf-2026.html',
+    tags: ['Alcolumbre', 'Jorge Messias', 'STF', 'Senado Federal', 'Indicação STF', 'Alcolumbre Bloqueia Indicação de Messias ao STF']
+},
+{
+    title: 'Justiça Militar Condena PM por Lesão Grave no Recife',
+    description: 'A Vara da Justiça Militar Estadual de Pernambuco condenou policial militar a três anos e seis meses por lesão corporal grave após disparar bala de borracha e cegar estudante em encontro de passinho no Recife.',
+    category: 'direito-militar',
+    url: 'direito-militar/pm-condenado-lesao-grave-bala-borracha-passinho-recife.html',
+    tags: ['Justiça Militar', 'Policial Militar Condenado', 'Bala de Borracha', 'Lesão Corporal Grave', 'Recife', 'TJPE', 'Justiça Militar Condena PM por Lesão Grave no Recife']
+},
+{
+    title: 'Janja Revela Dois Casos de Assédio como Primeira-Dama',
+    description: 'A primeira-dama Janja da Silva revelou ao programa Sem Censura, da TV Brasil, ter sido assediada duas vezes durante o mandato de Lula, usando o relato para destacar a vulnerabilidade das mulheres brasileiras.',
+    category: 'Política',
+    url: 'politica/janja-revela-assedio-como-primeira-dama-sem-censura.html',
+    tags: ['Janja', 'Assédio', 'Primeira-Dama', 'Sem Censura', 'TV Brasil', 'Feminicídio', 'Violência contra Mulher', 'Lula', 'Janja Revela Dois Casos de Assédio como Primeira-Dama']
+ },
+ {
+    title: 'Vorcaro Preso Novamente na Operação Compliance Zero',
+    description: 'A Polícia Federal prendeu novamente Daniel Vorcaro, dono do Banco Master, na terceira fase da Operação Compliance Zero, autorizada pelo ministro André Mendonça do STF, que apura fraudes bilionárias, lavagem de dinheiro e corrupção.',
+    category: 'Compliance',
+    url: 'compliance/vorcaro-preso-operacao-compliance-zero-banco-master.html',
+    tags: ['Daniel Vorcaro', 'Banco Master', 'Operação Compliance Zero', 'Polícia Federal', 'STF', 'André Mendonça', 'Lavagem de Dinheiro', 'Vorcaro Preso Novamente na Operação Compliance Zero']
+  },
+  {
+    title: 'O MPSE Coloca o Assédio na Pauta Institucional e Lidera Debate',
+    description: 'O Ministério Público de Sergipe promoveu palestra sobre prevenção do assédio moral e sexual no setor público, reforçando a cultura do respeito nas relações de trabalho.',
+    category: 'Direito Trabalhista',
+    url: 'direito-trabalhista/assedio-servico-publico-mpse-palestra-prevencao.html',
+    tags: ['O MPSE Coloca o Assédio na Pauta Institucional e Lidera Debate','Assédio Moral', 'Assédio Sexual', 'Setor Público', 'MPSE', 'Ministério Público de Sergipe', 'Prevenção Assédio', 'Assédio no Serviço Público: MPSE Lidera Debate']
+  },
+  {
+    title: 'Operação Argos: PF Age Contra Abuso Sexual Infantil',
+    description: 'A Polícia Federal deflagrou a Operação Argos em Porto Velho para combater crimes de abuso sexual infantojuvenil, cumprindo mandado de busca e apreensão expedido pela Justiça Federal de Rondônia.',
+    category: 'Direito Criminal',
+    url: 'direito-penal/operacao-argos-pf-abuso-sexual-infantojuvenil-porto-velho.html',
+    tags: ['Operação Argos', 'Polícia Federal', 'Abuso Sexual Infantil', 'Porto Velho', 'Rondônia', 'ECA', 'Operação Argos: PF Age Contra Abuso Sexual Infantil']
+  },
+  {
+    title: 'Instagram Pode Entrar na Partilha de Bens?',
+    description: 'Perfil no Instagram pode ser partilhado no divórcio quando configurado como ativo intangível com valor econômico constituído durante a relação conjugal.',
+    category: 'Direito de Família',
+    url: 'direito-de-familia/instagram-perfil-partilha-bens-divorcio.html',
+    tags: ['Partilha de Bens', 'Instagram', 'Divórcio', 'Ativo Intangível', 'Patrimônio Digital', 'Instagram Pode Entrar na Partilha de Bens?']
+  },
+  {
+    title: 'Responsabilidade Objetiva e Nexo Causal no STJ',
+    description: 'O STJ reforça a centralidade do nexo causal na responsabilidade objetiva, distinguindo risco da atividade e fortuito externo em precedentes recentes.',
+    category: 'Direito Civil',
+    url: 'direito-civil/responsabilidade-objetiva-stj-precedentes.html',
+    tags: ['Responsabilidade Objetiva', 'Nexo Causal', 'STJ', 'Fortuito Externo', 'Risco da Atividade', 'Responsabilidade Objetiva e Nexo Causal no STJ']
+   },
+   {
         title: 'Ministra do TST derruba jornada 12x36 de vigilante após identificar acúmulo sistemático de horas extraordinárias',
         description: 'A prática de escalar vigilantes no regime de 12 horas de trabalho por 36 de descanso — amplamente utilizada no setor de segurança privada.',
         category: 'Direito Trabalhista',

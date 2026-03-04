@@ -1,16 +1,50 @@
 // Dados de notícias para Política
 const categoryNewsData = [
-    {
-        title: "Em breve novas notícias sobre Política",
-         date: "01/03/2026",
-        timestamp: "2026-03-01T12:00:00",
-        image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&q=80",
-        caption: "Imagem Ilustrativa",
-        excerpt: "Estamos preparando os melhores conteúdos sobre Política para você. Fique ligado em nossas atualizações diárias.",
-        link: "#",
-        author: "Justiça em Dia",
-        authorLink: "#"
-    }
+  
+  {
+    title: "Trump Admite Vácuo de Poder no Irã",
+    date: "06/03/2026",
+    timestamp: "2026-03-06T07:00:00",
+    image: "../img/trump-vacuo-poder-ira-sucessores-khamenei-mortos.jpg",
+    excerpt: "Trump admitiu que ataques de EUA e Israel eliminaram os possíveis sucessores de Khamenei e anunciou nova onda de bombardeios.",
+    link: "../politica/trump-vacuo-poder-ira-sucessores-khamenei-mortos.html",
+    category: "Política",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+ {
+    title: "Lula Pede Voto com Ironia Eleitoral",
+    date: "06/03/2026",
+    timestamp: "2026-03-06T07:00:00",
+    image: "../img/lula-pede-voto-ironia-eleitoral-conferencia-trabalho-sp.jpg",
+    excerpt: "Presidente ironiza 'sorte' pelos indicadores econômicos e convoca eleitores nas eleições de 2026.",
+    link: "../politica/lula-pede-voto-ironia-eleitoral-conferencia-trabalho-sp.html",
+    category: "Política",
+    author: "Justiça em Dia",
+    authorLink: "#"
+ },
+ {
+    title: "Alcolumbre Bloqueia Indicação de Messias ao STF",
+    date: "05/03/2026",
+    timestamp: "2026-03-05T07:00:00",
+    image: "../img/alcolumbre-bloqueia-indicacao-messias-stf-2026.jpg",
+    excerpt: "Alcolumbre sinalizou que não deve pautar a sabatina de Jorge Messias ao STF neste ano.",
+    link: "../politica/alcolumbre-bloqueia-indicacao-messias-stf-2026.html",
+    category: "Política",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+{
+    title: "Janja Revela Dois Casos de Assédio como Primeira-Dama",
+    date: "04/03/2026",
+    timestamp: "2026-03-04T07:00:00",
+    image: "../img/janja-revela-assedio-como-primeira-dama-sem-censura.jpg",
+    excerpt: "A primeira-dama Janja da Silva revelou ao programa Sem Censura, da TV Brasil, ter sido assediada duas vezes durante o mandato de Lula, usando o relato para destacar a vulnerabilidade das mulheres brasileiras.",
+    link: "../politica/janja-revela-assedio-como-primeira-dama-sem-censura.html",
+    category: "politica",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 ];
 
 const ITEMS_PER_PAGE = 7;

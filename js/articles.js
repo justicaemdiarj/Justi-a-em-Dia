@@ -1,59 +1,60 @@
 // Tornar a lista de artigos disponível globalmente para outros scripts
 window.articlesData = [
     {
-        title: "A Holding do Crime",
-        image: "img/holding-do-crime.png",
-        description: "Qualquer executivo de uma grande corporação reconheceria a estrutura no documento. Há um conselho deliberativo de elite, uma corregedoria interna, um setor de relações jurídica...",
-        link: "compliance/a-holding-do-crime.html"
+        title: "Responsabilidade Objetiva e Nexo Causal no STJ",
+        image: "img/responsabilidade-objetiva-stj-precedentes.jpg",
+        description: "A responsabilidade civil figura entre os terrenos mais complexos e controvertidos do Direito Civil brasileiro. Décadas de construção...",
+        link: "direito-civil/responsabilidade-objetiva-stj-precedentes.html"
     },
     {
-        title: "O Escudo que o Poder Tenta Dobrar",
-        image: "img/o-escudo-que-o-poder-tenta-dobrar.jpg",
-        description: "Há uma ironia perversa no coração do sistema antilavagem brasileiro. Os agentes com maior poder de interferência sobre contratos..",
-        link: "compliance/o-escudo-que-o-poder-tenta-dobrar.html"
+        title: "Instagram Pode Entrar na Partilha de Bens?",
+        image: "img/instagram-perfil-partilha-bens-divorcio.jpg",
+        description: "Perfil no Instagram pode ser partilhado no divórcio quando configurado como ativo intangível com valor econômico constituído durante a relação conjugal...",
+        link: "direito-de-familia/instagram-perfil-partilha-bens-divorcio.html"
     },
     {
-        title: "Marçal e Datena Encerram Batalha Judicial",
-        image: "img/a-cadeira-que-virou-acordo.jpg",
-        description: "O capítulo judicial da cadeirada mais famosa da política brasileira recente chegou ao fim. A juíza Priscilla Bittar Neves Netto..",
-        link: "direito-civil/a-cadeira-que-virou-acordo.html"
+        title: "Operação Argos: PF Age Contra Abuso Sexual Infantil",
+        image: "img/operacao-argos-pf-abuso-sexual-infantojuvenil-porto-velho.jpg",
+        description: "A Polícia Federal deflagrou a Operação Argos em Porto Velho para combater crimes de abuso sexual infantojuvenil, cumprindo mandado de busca...",
+        link: "direito-penal/operacao-argos-pf-abuso-sexual-infantojuvenil-porto-velho.html"
     },
     {
-        title: "O Escudo Salarial das Guardas Municipais em Santo André",
-        image: "img/o-escudo-salarial-dos-guardas-municipais.jpg",
-        description: "A mais alta corte do país interveio para proteger o contracheque de servidores que atuam..",
-        link: "jurisprudencia/o-escudo-salarial-dos-guardas-municipais.html"
+        title: "O MPSE Coloca o Assédio na Pauta Institucional e Lidera Debate",
+        image: "img/assedio-servico-publico-mpse-palestra-prevencao.jpg",
+        description: "O Ministério Público de Sergipe promoveu palestra sobre prevenção do assédio moral e sexual no setor público, reforçando a cultura do respeito nas relações de trabalho...",
+        link: "direito-trabalhista/assedio-servico-publico-mpse-palestra-prevencao.html"
     },
     {
-        title: "Vinte Anos de Espera",
-        image: "img/vinte-anos-de-espera-de-pm-goiais.jpg",
-        description: "Um policial militar de Goiás que ingressou na corporação em 1996 e esperou até 2021..",
-        link: "direito-militar/vinte-anos-de-espera-de-pm-goiais.html"
+        title: "Justiça Militar Condena PM por Lesão Grave no Recife",
+        image: "img/pm-condenado-lesao-grave-bala-borracha-passinho-recife.jpg",
+        description: "A Justiça Militar de Pernambuco encerrou, em 13 de fevereiro de 2026, uma longa persecução penal..",
+        link: "direito-militar/pm-condenado-lesao-grave-bala-borracha-passinho-recife.html"
     },
     {
-        title: 'O STF e os Limites do Poder Municipal Sobre a Sala de Aula',
-        image: 'img/stf-limites-do-poder-municipal-sobre-sala-de-aula.jpg',
-        description: 'O Congresso Nacional vota em 2026 projeto de lei inédito na história legislativa brasileira..',
-        link: 'legislacao/stf-limites-do-poder-municipal-sobre-sala-de-aula.html'
+        title: 'Vorcaro Preso Novamente na Operação Compliance Zero',
+        image: 'img/vorcaro-preso-operacao-compliance-zero-banco-master.jpg',
+        description: 'A Polícia Federal prendeu novamente Daniel Vorcaro, dono do Banco Master, na terceira fase da Operação Compliance Zero..',
+        link: 'compliance/vorcaro-preso-operacao-compliance-zero-banco-master.html'
     },
     {
-        title: "Quem Paga a Conta Quando a Máquina Erra?",
-        image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80",
-        description: "A proliferação acelerada de sistemas de inteligência artificial no cotidiano brasileiro — de algoritmos que concedem crédito a carros autônomos que ci...",
-        link: "direito-civil/a-encruzilhada-da-responsabilidade-quem-paga-a-conta-quando-a-maquina-erra.html"
+        title: "O Que é Revelado Sobre o Caso do Banco Master e os Limites do Compliance",
+        image: "img/banco-master-compliance-gestao-fraudulenta-temeraria-limites-governanca.jpg",
+        description: "Quando a Polícia Federal deflagrou a Operação Compliance Zero em novembro de 2025 e decretou...",
+        link: "compliance/banco-master-compliance-gestao-fraudulenta-temeraria-limites-governanca.html"
     },
     {
-        title: "Contratos Eletrônicos e a Revolução do Direito Negocial",
-        image: "https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=800&q=80",
-        description: "Bilhões de contratos são firmados diariamente sem que uma única folha de papel seja impressa. A compra de passagens aéreas, a contratação de serviços ...",
-        link: "direito-civil/a-era-digital-do-pacta-sunt-servanda-contratos-eletronicos-e-a-revolucionaria-silenciosa-do-direito-negocial.html"
+        title: "STM Concede Pela Primeira Vez Medidas Protetivas a Militar Trans Vítima de Assédio Sexual",
+        image: "img/stm-medidas-protetivas-militar-trans-assedio-sexual.jpg",
+        description: "O Superior Tribunal Militar proferiu, no dia 20 de fevereiro de 2026, uma decisão sem precedentes...",
+        link: "direito-militar/stm-medidas-protetivas-militar-trans-assedio-sexual.html"
     },
     {
-        title: "Os Limites da Responsabilidade Civil na Medicina e Estética",
-        image: "img/cirurgia-estetica.jpg",
-        description: "A relação médico-paciente encerra peculiaridade que a distingue de quase todas as demais relações profissionais: não há garantia de resultado. O médic...",
-        link: "direito-civil/bisturi-e-balanca-da-justica-os-limites-da-responsabilidade-civil-na-medicina-e-estetica.html"
+        title: "Empresa e Advogado São Condenados pelo TST",
+        image: "img/empresa-advogado-condenados-tst-citacoes-falsas-jurisprudencia.jpg",
+        description: "O Tribunal Superior do Trabalho condenou uma empresa e seu advogado por litigância de má-fé após a constatação...",
+        link: "direito-trabalhista/empresa-advogado-condenados-tst-citacoes-falsas-jurisprudencia.html"
     },
+    
 
 ];
 

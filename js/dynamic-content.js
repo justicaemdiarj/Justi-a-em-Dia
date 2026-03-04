@@ -12,7 +12,48 @@ const tickerConfig = {
 };
 
 const globalNewsData = [
+  
+/*  {
+    title: "Alcolumbre Bloqueia Indicação de Messias ao STF",
+    link: "politica/alcolumbre-bloqueia-indicacao-messias-stf-2026.html",
+ },
+ {
+    title: "Janja Revela Dois Casos de Assédio como Primeira-Dama",
+    link: "politica/janja-revela-assedio-como-primeira-dama-sem-censura.html",
+  },
+  {
+    title: "Lula Pede Voto com Ironia Eleitoral",
+    link: "politica/lula-pede-voto-ironia-eleitoral-conferencia-trabalho-sp.html",
+},
+{
+    title: "Trump Admite Vácuo de Poder no Irã",
+    link: "politica/trump-vacuo-poder-ira-sucessores-khamenei-mortos.html",
+},*/
+  {
+    title: "Vorcaro Preso Novamente na Operação Compliance Zero",
+    link: "compliance/vorcaro-preso-operacao-compliance-zero-banco-master.html",
+   },
     {
+    title: "Justiça Militar Condena PM por Lesão Grave no Recife",
+    link: "direito-militar/pm-condenado-lesao-grave-bala-borracha-passinho-recife.html",   
+  },
+  {
+    title: "O MPSE Coloca o Assédio na Pauta Institucional e Lidera Debate",
+    link: "direito-trabalhista/assedio-servico-publico-mpse-palestra-prevencao.html",
+  },
+  {
+    title: "Operação Argos: PF Age Contra Abuso Sexual Infantil",
+    link: "direito-penal/operacao-argos-pf-abuso-sexual-infantojuvenil-porto-velho.html",
+  }, 
+  {
+    title: "Instagram Pode Entrar na Partilha de Bens?",
+    link: "direito-de-familia/instagram-perfil-partilha-bens-divorcio.html",
+  },
+  {
+    title: "Responsabilidade Objetiva e Nexo Causal no STJ",
+    link: "direito-civil/responsabilidade-objetiva-stj-precedentes.html",
+   },
+   {
         title: "O Que é Revelado Sobre o Caso do Banco Master",
         link: "compliance/banco-master-compliance-gestao-fraudulenta-temeraria-limites-governanca.html",
     },

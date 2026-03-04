@@ -1,6 +1,17 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
      {
+    title: "Vorcaro Preso Novamente na Operação Compliance Zero",
+    date: "05/03/2026",
+    timestamp: "2026-03-05T07:00:00",
+        image: "../img/vorcaro-preso-operacao-compliance-zero-banco-master.jpg",
+    excerpt: "A Polícia Federal prendeu novamente Daniel Vorcaro, dono do Banco Master, na terceira fase da Operação Compliance Zero, autorizada pelo ministro André Mendonça do STF.",
+    link: "../compliance/vorcaro-preso-operacao-compliance-zero-banco-master.html",
+    category: "compliance",
+    author: "Justiça em Dia",
+    authorLink: "#"
+   },
+   {
         title: "O Que o Caso Banco Master Revela Sobre os Limites do Compliance e da Governança",
       date: "04/03/2026",
         timestamp: "2026-03-04T07:00:00",

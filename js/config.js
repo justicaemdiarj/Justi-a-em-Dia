@@ -44,6 +44,7 @@ const siteConfig = {
             { title: "Compliance", link: "compliance" },
             { title: "Jurisprudência", link: "jurisprudencia" },
             { title: "Legislação", link: "legislacao" },
+          //   { title: "Política", link: "politica" },
     ],
     
         // Configuração do Footer (Gerenciamento em Massa)
@@ -137,12 +138,7 @@ const siteConfig = {
     },
 };
 
-siteConfig.topBarLinks = [
-    { title: "ANUNCIE CONOSCO", link: "contato.html" },
-    { title: "ÚLTIMAS NOTÍCIAS", link: "index.html" },
-    { title: "ÁREA DO CLIENTE", link: "https://seuportal.com.br" },
-    { title: "WHATSAPP", link: "https://wa.me/5521990670186" }
-];
+
 //ESTRUTURA DE BANNERS LATERAIS PERSONALIZADOS ("VIU ISSO?")
 
 siteConfig.sidebarBanners = [
@@ -168,7 +164,7 @@ siteConfig.postContentBanners = [
         img: "img/banner-apoiadores/apoiador-romer-carvalho-desktop-1.png",
         link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario",
         pages: "full",
-        position: 8    // Inserir após o 6º parágrafo
+        position: 5    // Inserir após o 6º parágrafo
     }
 ];
 

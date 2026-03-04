@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
     {
+    title: "O MPSE Coloca o Assédio na Pauta Institucional e Lidera Debate",
+    date: "05/03/2026",
+    timestamp: "2026-03-05T07:00:00",
+    image: "../img/assedio-servico-publico-mpse-palestra-prevencao.jpg",
+    excerpt: "O Ministério Público de Sergipe promoveu palestra sobre prevenção do assédio moral e sexual no setor público, reforçando a cultura do respeito nas relações de trabalho.",
+    link: "../direito-trabalhista/assedio-servico-publico-mpse-palestra-prevencao.html",
+    category: "direito-trabalhista",
+    author: "Justiça em Dia",
+    authorLink: "#"
+    },
+    {
     title: "Quando o Silêncio Se Torna Arma no Ambiente Corporativo", 
         date: "01/03/2026",
         timestamp: "2026-03-01T12:00:00",

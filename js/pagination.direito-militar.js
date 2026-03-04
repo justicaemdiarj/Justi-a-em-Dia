@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
-   {
+    {
+    title: "Justiça Militar Condena PM por Lesão Grave no Recife",
+    date: "05/03/2026",
+    timestamp: "2026-03-05T07:00:00",
+    image: "../img/pm-condenado-lesao-grave-bala-borracha-passinho-recife.jpg",
+    excerpt: "A Vara da Justiça Militar Estadual de Pernambuco condenou policial militar a três anos e seis meses por lesão corporal grave após disparar bala de borracha e cegar estudante em encontro de passinho no Recife.",
+    link: "../direito-militar/pm-condenado-lesao-grave-bala-borracha-passinho-recife.html",
+    category: "direito-militar",
+    author: "Justiça em Dia",
+    authorLink: "#"
+    }, 
+    {
         title: "STM Concede Pela Primeira Vez Medidas Protetivas a Militar Trans Vítima de Assédio Sexual",
         date: "04/03/2026",
         timestamp: "2026-03-04T07:00:00",

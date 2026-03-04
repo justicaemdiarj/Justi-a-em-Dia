@@ -1,6 +1,17 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
     {
+    title: "Instagram Pode Entrar na Partilha de Bens?",
+    date: "05/03/2026",
+    timestamp: "2026-03-05T07:00:00",
+    image: "../img/instagram-perfil-partilha-bens-divorcio.jpg",
+    excerpt: "Perfil no Instagram pode ser partilhado no divórcio quando configurado como ativo intangível com valor econômico constituído durante a relação conjugal.",
+    link: "../direito-de-familia/instagram-perfil-partilha-bens-divorcio.html",
+    category: "direito-de-familia",
+    author: "Justiça em Dia",
+    authorLink: "#"
+    }, 
+    {
         title: "Senado Convoca os Grandes Nomes do Direito Privado",
         date: "03/03/2026",
         timestamp: "2026-03-03T07:00:00",

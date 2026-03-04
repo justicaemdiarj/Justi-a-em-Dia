@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
     {
+    title: "Responsabilidade Objetiva e Nexo Causal no STJ",
+    date: "05/03/2026",
+    timestamp: "2026-03-05T07:00:00",
+    image: "../img/responsabilidade-objetiva-stj-precedentes.jpg",
+    excerpt: "O STJ reforça a centralidade do nexo causal na responsabilidade objetiva, distinguindo risco da atividade e fortuito externo em precedentes recentes.",
+    link: "../direito-civil/responsabilidade-objetiva-stj-precedentes.html",
+    category: "direito-de-familia",
+    author: "Justiça em Dia",
+    authorLink: "#"
+    },
+    {
         title: "Projeto de Lei Proíbe Cobrança Extra para Famílias Ocuparem Assentos Vizinhos",
       	date: "04/03/2026",
         timestamp: "2026-03-04T07:00:00",
