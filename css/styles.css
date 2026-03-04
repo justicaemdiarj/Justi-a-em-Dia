@@ -205,6 +205,7 @@ body {
     font-size: 1.2em; /* Tamanho do ícone */
 }
 
+
 /* Media Query para Desktop */
 @media (min-width: 768px) {
     .weather-widget {
@@ -704,7 +705,7 @@ img {
 }
 
 .search-box {
-    border-radius: 10px;
+    border-radius: 15px;
     display: flex;
     align-items: center;
     background: #ffffff;
@@ -731,7 +732,7 @@ img {
     font-size: 14px; 
     width: 320px;
     color: #333;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 15px 0px 0px 15px;
     background-color: #ffffff;
 }
 
@@ -756,7 +757,7 @@ img {
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
-    border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 15px 15px 0px;
 }
 
 .search-btn:hover {
