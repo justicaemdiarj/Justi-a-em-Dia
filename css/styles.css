@@ -1437,7 +1437,7 @@ img {
     .mobile-search-container .search-box {
         width: 100%;
         display: flex;
-        border-radius: 10px;
+        border-radius: 16px;
         padding: 0px;
     }
     
