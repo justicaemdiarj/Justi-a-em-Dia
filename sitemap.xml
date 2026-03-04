@@ -169,12 +169,6 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://www.justicaemdia.com.br/departamento-pessoal/index.html</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
         <loc>https://www.justicaemdia.com.br/direito-civil/a-armadilha-do-credito-facil-como-o-superendividamento-captura-os-mais-vulneraveis.html</loc>
         <lastmod>2026-03-02</lastmod>
         <changefreq>always</changefreq>
@@ -463,12 +457,6 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://www.justicaemdia.com.br/gestao-de-desempenho/index.html</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
         <loc>https://www.justicaemdia.com.br/infracoes-penais/index.html</loc>
         <lastmod>2026-03-02</lastmod>
         <changefreq>always</changefreq>
@@ -583,12 +571,6 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://www.justicaemdia.com.br/mundo/index.html</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
         <loc>https://www.justicaemdia.com.br/politica/index.html</loc>
         <lastmod>2026-03-02</lastmod>
         <changefreq>always</changefreq>
@@ -607,36 +589,6 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://www.justicaemdia.com.br/recrutamento-e-selecao/index.html</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://www.justicaemdia.com.br/recursos-humanos/a-permanencia-como-direito.html</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://www.justicaemdia.com.br/recursos-humanos/diversidade-nao-e-favor-o-imperativo-estrategico-da-inclusao-nas-organizacoes-contemporaneas.html</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://www.justicaemdia.com.br/recursos-humanos/index.html</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://www.justicaemdia.com.br/recursos-humanos/pessoas-em-primeiro-lugar-como-o-setor-juridico-reinventa-sua-relacao-com-talentos-em-um-mercado-em-transformacao.html</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
         <loc>https://www.justicaemdia.com.br/reforma-e-reserva/index.html</loc>
         <lastmod>2026-03-02</lastmod>
         <changefreq>always</changefreq>
@@ -649,19 +601,7 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://www.justicaemdia.com.br/remuneracao-e-beneficio/index.html</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
         <loc>https://www.justicaemdia.com.br/responsabilidade-civil/index.html</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://www.justicaemdia.com.br/treinamento-e-desenvolvimento/index.html</loc>
         <lastmod>2026-03-02</lastmod>
         <changefreq>always</changefreq>
         <priority>1.0</priority>
@@ -793,4 +733,67 @@
         <changefreq>always</changefreq>
         <priority>1.0</priority>
     </url>
+        <url>
+        <loc>https://www.justicaemdia.com.br/direito-civil/responsabilidade-objetiva-stj-precedentes.html</loc>
+        <lastmod>2026-03-05</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc>https://www.justicaemdia.com.br/direito-de-familia/instagram-perfil-partilha-bens-divorcio.html</loc>
+        <lastmod>2026-03-05</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.justicaemdia.com.br/direito-penal/operacao-argos-pf-abuso-sexual-infantojuvenil-porto-velho.html</loc>
+        <lastmod>2026-03-05</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+     <url>
+        <loc>https://www.justicaemdia.com.br/direito-trabalhista/assedio-servico-publico-mpse-palestra-prevencao.html</loc>
+        <lastmod>2026-03-05</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+         <url>
+        <loc>https://www.justicaemdia.com.br/direito-militar/pm-condenado-lesao-grave-bala-borracha-passinho-recife.html</loc>
+        <lastmod>2026-03-05</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc>https://www.justicaemdia.com.br/compliance/vorcaro-preso-operacao-compliance-zero-banco-master.html</loc>
+        <lastmod>2026-03-05</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc>https://www.justicaemdia.com.br/politica/janja-revela-assedio-como-primeira-dama-sem-censura.html</loc>
+        <lastmod>2026-03-05</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc>https://www.justicaemdia.com.br/politica/alcolumbre-bloqueia-indicacao-messias-stf-2026.html</loc>
+        <lastmod>2026-03-05</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc>https://www.justicaemdia.com.br/politica/lula-pede-voto-ironia-eleitoral-conferencia-trabalho-sp.html</loc>
+        <lastmod>2026-03-05</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc>https://www.justicaemdia.com.br/politica/trump-vacuo-poder-ira-sucessores-khamenei-mortos.html</loc>
+        <lastmod>2026-03-05</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
 </urlset>
+
+
+           
