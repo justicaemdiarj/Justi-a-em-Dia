@@ -61,6 +61,8 @@ const siteConfig = {
         ]
     },
 
+    
+
     supporters: [
         { 
             name: "Advogado Romer Carvalho", 
@@ -135,6 +137,12 @@ const siteConfig = {
     },
 };
 
+siteConfig.topBarLinks = [
+    { title: "ANUNCIE CONOSCO", link: "contato.html" },
+    { title: "ÚLTIMAS NOTÍCIAS", link: "index.html" },
+    { title: "ÁREA DO CLIENTE", link: "https://seuportal.com.br" },
+    { title: "WHATSAPP", link: "https://wa.me/5521990670186" }
+];
 //ESTRUTURA DE BANNERS LATERAIS PERSONALIZADOS ("VIU ISSO?")
 
 siteConfig.sidebarBanners = [
@@ -163,6 +171,17 @@ siteConfig.postContentBanners = [
         position: 8    // Inserir após o 6º parágrafo
     }
 ];
+
+// Banner acima de Sobre a Categoria 
+
+siteConfig.sidebarTopBanner = {
+    name: "Seja Apoiador do Justiça em Dia",
+    img: "img/seja-nosso-apoiador.gif", // Caminho da imagem
+    link: "https://api.whatsapp.com/send/?phone=5521990670186&text=Ol%C3%A1%21+Gostaria+de+informa%C3%A7%C3%B5es+sobre+como+ser+membro+do+site+Justi%C3%A7a+em+Dia.+Poderia+ajudar%3F&type=phone_number&app_absent=0",     // Link de destino
+    pages: "full" // "full" para todas as páginas
+};
+
+
 
 /**
  * ESTRUTURA DE BANNERS PÓS-NEWSLETTER (Páginas de Categoria e Postagem)
@@ -488,7 +507,8 @@ if (footerSections.length >= 3) {
 
 document.addEventListener('DOMContentLoaded', () => {
     updateGlobalElements();
-    injectPostContentBanners(); // Nova função adicionada
+    injectPostContentBanners(); // Função de banners no conteúdo
+    injectSidebarTopBanner();   // NOVA FUNÇÃO: Banner no topo da sidebar
 });
 
 // Funcionalidade de Leitura de Texto (TTS) integrada ao Compartilhar
@@ -600,6 +620,41 @@ function injectPostContentBanners() {
         paragraphs[targetIndex].insertAdjacentHTML('afterend', bannerHtml);
     });
 }
+
+function injectSidebarTopBanner() {
+    // Localiza o widget que contém o título "Sobre a Categoria"
+    const widgets = document.querySelectorAll('.sidebar-widget');
+    let targetWidget = null;
+
+    widgets.forEach(widget => {
+        const title = widget.querySelector('.widget-title');
+        if (title && title.textContent.includes('Sobre a Categoria')) {
+            targetWidget = widget;
+        }
+    });
+
+    if (!targetWidget || !siteConfig.sidebarTopBanner) return;
+    if (!isBannerActiveJS(siteConfig.sidebarTopBanner)) return;
+
+    // Ajusta o caminho da imagem se estiver em subpasta
+    let imgSrc = siteConfig.sidebarTopBanner.img;
+    if (typeof prefix !== 'undefined' && !imgSrc.startsWith('http')) {
+        imgSrc = prefix + imgSrc;
+    }
+
+    const bannerHtml = `
+        <div class="dynamic-sidebar-banner" style="margin-bottom: 20px; text-align: center;">
+            <p style="font-size: 10px; color: #999; margin-bottom: 5px; text-transform: uppercase;">Publicidade</p>
+            <a href="${siteConfig.sidebarTopBanner.link}" target="_blank">
+                <img src="${imgSrc}" alt="${siteConfig.sidebarTopBanner.name}" style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+            </a>
+        </div>
+    `;
+
+    // Insere o banner antes do widget "Sobre a Categoria"
+    targetWidget.insertAdjacentHTML('beforebegin', bannerHtml);
+}
+
 
 /*
 // Formato da data: "YYYY-MM-DD HH:mm" (Ano-Mês-Dia Hora:Minuto)
