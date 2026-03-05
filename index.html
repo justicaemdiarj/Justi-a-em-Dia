@@ -52,7 +52,455 @@
       }
     }
     </script>
+<style>
+    :root {
+  --primary-red: #C41E3A;
+  --dark-gray: #333;
+  --light-gray: #F5F5F5;
+  --border-gray: #E0E0E0;
+  --text-gray: #666;
+  --white: #FFF;
+}
 
+/* ===== LAYOUT PRINCIPAL ===== */
+.main-content {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.content-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 24px;
+  margin-top: 15px;
+}
+
+/* ===== PUBLICIDADE ===== */
+.ad-section {
+  background: var(--light-gray);
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+.ad-placeholder {
+  width: 100%;
+  max-width: 728px;
+  height: 90px;
+  border: 2px dashed var(--border-gray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-gray);
+}
+
+/* ===== ÚLTIMAS NOTÍCIAS ===== */
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid var(--primary-red);
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.news-card {
+  border: 1px solid var(--border-gray);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.news-card:hover {
+  transform: translateY(-4px);
+}
+
+.card-image-wrapper {
+  height: 180px;
+  background: #eee;
+  position: relative;
+}
+
+.card-category {
+     display: none !important;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: var(--primary-red);
+  color: white;
+  padding: 4px 8px;
+  font-size: 11px;
+}
+
+.card-content {
+  padding: 12px;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.card-subtitle {
+    margin-top: 10px;
+  font-size: 14px;
+  font-weight: 600; /* 👈 adiciona isso */
+}
+
+/* ===== MAIS LIDAS ===== */
+.most-read {
+  background: var(--light-gray);
+  padding: 16px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.most-read h3 {
+  border-bottom: 2px solid var(--primary-red);
+  margin-bottom: 12px;
+}
+
+.most-read-list {
+  list-style: none;
+  padding: 0;
+}
+
+.most-read-list li {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.number {
+  color: var(--primary-red);
+  font-weight: bold;
+}
+
+/* ===== VIU ISSO ===== */
+.viral-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.viral-card {
+  position: relative;
+  cursor: pointer;
+}
+
+.viral-card h4 {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  padding: 10px;
+  background: linear-gradient(transparent, rgba(0,0,0,0.8));
+  font-size: 14px;
+}
+
+.news-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+/* ========================= */
+/* RESPONSIVO MOBILE */
+/* ========================= */
+
+@media (max-width: 1024px) {
+  .content-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    margin-top: 30px;
+  }
+}
+
+/* CELULAR */
+@media (max-width: 768px) {
+
+  /* Layout principal */
+  .main-content {
+    padding: 0 12px;
+  }
+
+  .content-wrapper {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  /* Grid notícias vira 1 coluna */
+  .news-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Viu isso / Veja também vira 1 coluna */
+  .viral-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Ajuste imagens */
+  .card-image-wrapper {
+    height: 200px;
+  }
+
+  /* Header */
+  .main-header .container {
+    flex-wrap: wrap;
+  }
+
+  .weather-widget,
+  .b3-widget {
+    display: none; /* remove mercado e clima no mobile */
+  }
+
+  .search-box {
+    width: 100%;
+  }
+
+  /* Newsletter */
+  .newsletter-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .newsletter-form input[type="email"] {
+    width: 100%;
+  }
+
+  /* Banner desktop escondido */
+  #banner-desktop-container {
+    display: none;
+  }
+}
+
+/* CELULAR PEQUENO */
+@media (max-width: 480px) {
+
+  .card-title {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+
+  .card-subtitle {
+    font-size: 13px;
+  }
+
+  .viral-card h4 {
+    font-size: 13px;
+  }
+
+}
+/* ===== MATÉRIA DESTAQUE ===== */
+
+.featured-article {
+  margin-bottom: 30px;
+  border-bottom: 1px solid var(--border-gray);
+  padding-bottom: 20px;
+}
+
+.featured-image img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  margin-top:21px;
+}
+
+.featured-title {
+  font-size: 28px;
+  font-weight: 800;
+  margin-top: 15px;
+  color: var(--dark-gray);
+}
+
+.featured-description {
+  font-size: 16px;
+  color: var(--text-gray);
+  margin-top: 10px;
+}
+
+.featured-time {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: var(--text-gray);
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .featured-image img {
+    height: 250px;
+  }
+
+  .featured-title {
+    font-size: 22px;
+  }
+}
+/* ===== DESTAQUES ===== */
+
+.highlights-section {
+  margin-top: 30px;
+}
+
+.highlights-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.highlight-card {
+  border: 1px solid var(--border-gray);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.highlight-card:hover {
+  transform: translateY(-5px);
+}
+
+.highlight-card .card-image-wrapper {
+  height: 180px;
+  overflow: hidden;
+}
+
+.highlight-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.highlight-card .card-content {
+  padding: 12px;
+}
+
+.highlight-card .card-title {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.highlight-card .card-subtitle {
+  font-size: 13px;
+  color: var(--text-gray);
+  margin-top: 6px;
+}
+
+/* Responsivo */
+@media (max-width: 1024px) {
+  .highlights-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .highlights-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ===== FEATURED IMAGE ===== */
+
+.featured-block {
+  margin: 30px 0;
+}
+
+.featured-image img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.featured-title {
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 15px;
+}
+
+.post-time {
+  font-size: 13px;
+  color: var(--text-gray);
+  margin-top: 5px;
+}
+
+/* ===== GRID PADRÃO ===== */
+
+.section-block {
+  margin: 40px 0;
+}
+
+.section-block h2 {
+  border-bottom: 3px solid var(--primary-red);
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid var(--border-gray);
+  cursor: pointer;
+  transition: .3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 12px;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.most-read-list {
+  list-style: none;
+  padding: 0;
+}
+
+.most-read-list li {
+  margin-bottom: 10px;
+}
+
+.most-read-list a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* RESPONSIVO */
+@media(max-width:1024px){
+  .grid-3 { grid-template-columns: repeat(2,1fr); }
+}
+
+@media(max-width:768px){
+  .grid-3 { grid-template-columns: 1fr; }
+  .featured-image img { height: 250px; }
+}
+</style>
     <script src="js/offline.js"></script>
 </head>
 <body>
@@ -124,16 +572,37 @@
         <div id="banner-uol-container" class="container" style="margin-top: 10px; margin-bottom: 10px; display: none;"></div>
             <!-- Articles Grid Section -->
 
+<!-- ===== CONTEÚDO PRINCIPAL ===== -->
+<main class="main-content">
+  <div class="content-wrapper">
 
-            <section class="articles-section">
-                <div class="articles-grid" id="articlesGrid">
-                    <!-- Artigos carregados dinamicamente via js/articles.js -->
-                </div>
-            </section>
+    <section id="dynamicContent"></section>
 
-        <!-- Banner UOL Style -->
-        <div id="banner-uol-container" class="container" style="margin-top: 10px; margin-bottom: 10px; display: none;"></div>
 
+    <!-- ===== SIDEBAR ===== -->
+    <aside class="sidebar">
+
+<!-- Banner Publicidade (Mobile/Desktop) -->
+                    <div class="banner-label" style="text-align: center; margin-top: 20px; font-size: 0.8rem; color: #666; text-transform: uppercase;"></div>
+                    <div id="banner-mobile-container" class="banner-container" style="text-align: center;">
+                        <!-- Banner será inserido aqui via JS -->
+                    </div>
+
+      <!-- ===== MAIS LIDAS ===== -->
+   <section class="most-read">
+  <h3>Mais Lidas</h3>
+  <ol class="most-read-list" id="mostReadList">
+        </ol>
+      </section>
+
+            <div class="sidebar-widget">
+                <h3 class="widget-title"></h3>
+                <p>  </p>
+            </div>
+
+    </aside>
+  </div>
+</main>
 
 
 
@@ -141,6 +610,7 @@
             <div id="banner-desktop-container" class="banner-sidebar"></div>
 
             
+
 
             <!-- Supporters Carousel Section -->
             <section class="supporters-section">
