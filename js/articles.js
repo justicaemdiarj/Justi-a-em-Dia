@@ -98,6 +98,8 @@ container.innerHTML += `
   </div>
 `;
 
+container.innerHTML += renderBanner("antes-destaques");
+
 /* ===== DESTAQUES ===== */
 
 const destaquePosts = posts
@@ -106,7 +108,7 @@ const destaquePosts = posts
 
 container.innerHTML += `
   <div class="section-block">
-    <h2>Destaques</h2>
+  
     <div class="grid-3">
       ${destaquePosts.map(p => `
         <div class="card">
@@ -122,6 +124,8 @@ container.innerHTML += `
     </div>
   </div>
 `;
+
+
 
 /* ===== FEATURED SECUNDÁRIO ===== */
 const featuredSecondary = posts.find(p => p.section === "featured-secundario");
@@ -148,15 +152,15 @@ if(featuredSecondary){
   `;
 }
 
-/* ===== VEJA TAMBÉM ===== */
+container.innerHTML += renderBanner("depois-destaques");
 
+/* ===== VEJA TAMBÉM ===== */
 const vejaPosts = posts
   .filter(p => p.section === "veja")
   .sort((a,b) => new Date(b.date) - new Date(a.date));
 
 container.innerHTML += `
   <div class="section-block">
-    <h2>Veja Também</h2>
     <div class="grid-3">
       ${vejaPosts.map(p => `
         <div class="card">

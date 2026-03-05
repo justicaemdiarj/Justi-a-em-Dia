@@ -178,8 +178,55 @@ siteConfig.sidebarTopBanner = {
     pages: "full" // "full" para todas as páginas
 };
 
+const banners = [
+
+{
+  id: "bannerAntesDestaques",
+  active: false,
+  start: "2026-03-01",
+  end: "2026-03-30",
+  image: "img/seja-nosso-apoiador.gif",
+  link: "https://api.whatsapp.com/send/?phone=5521990670186&text=Ol%C3%A1%21+Gostaria+de+informa%C3%A7%C3%B5es+sobre+como+ser+membro+do+site+Justi%C3%A7a+em+Dia.+Poderia+ajudar%3F&type=phone_number&app_absent=0",
+  position: "antes-destaques"
+},
+
+{
+  id: "bannerDepoisDestaques",
+  active: false,
+  start: "2026-03-01",
+  end: "2026-03-30",
+  image: "img/seja-nosso-apoiador.gif",
+  link: "https://api.whatsapp.com/send/?phone=5521990670186&text=Ol%C3%A1%21+Gostaria+de+informa%C3%A7%C3%B5es+sobre+como+ser+membro+do+site+Justi%C3%A7a+em+Dia.+Poderia+ajudar%3F&type=phone_number&app_absent=0",
+  position: "depois-destaques"
+}
+
+];
 
 
+function bannerAtivo(banner){
+
+  if(!banner.active) return false;
+
+  const now = new Date();
+  const start = new Date(banner.start);
+  const end = new Date(banner.end);
+
+  return now >= start && now <= end;
+
+}function renderBanner(position){
+
+  const banner = banners.find(b => b.position === position && bannerAtivo(b));
+
+  if(!banner) return "";
+
+  return `
+  <div class="banner-middle">
+    <a href="${banner.link}" target="_blank">
+      <img src="${banner.image}" alt="Publicidade">
+    </a>
+  </div>
+  `;
+}
 /**
  * ESTRUTURA DE BANNERS PÓS-NEWSLETTER (Páginas de Categoria e Postagem)
  */
