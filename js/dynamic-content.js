@@ -8,12 +8,12 @@
  */
 
 const tickerConfig = {
-    speed: 15 // Velocidade do top-bar (em segundos). Menor é mais rápido.
+    speed: 10 // Velocidade do top-bar (em segundos). Menor é mais rápido.
 };
 
 const globalNewsData = [
   
-/*  {
+{
     title: "Alcolumbre Bloqueia Indicação de Messias ao STF",
     link: "politica/alcolumbre-bloqueia-indicacao-messias-stf-2026.html",
  },
@@ -28,7 +28,7 @@ const globalNewsData = [
 {
     title: "Trump Admite Vácuo de Poder no Irã",
     link: "politica/trump-vacuo-poder-ira-sucessores-khamenei-mortos.html",
-},*/
+},
   {
     title: "Vorcaro Preso Novamente na Operação Compliance Zero",
     link: "compliance/vorcaro-preso-operacao-compliance-zero-banco-master.html",

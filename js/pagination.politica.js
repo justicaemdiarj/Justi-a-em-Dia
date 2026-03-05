@@ -47,7 +47,7 @@ const categoryNewsData = [
 },
 ];
 
-const ITEMS_PER_PAGE = 7;
+const ITEMS_PER_PAGE = 10;
 let currentPage = 1;
 
 /**
