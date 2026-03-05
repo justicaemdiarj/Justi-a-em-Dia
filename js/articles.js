@@ -161,6 +161,7 @@ const vejaPosts = posts
 
 container.innerHTML += `
   <div class="section-block">
+  <h2>Veja também</h2>
     <div class="grid-3">
       ${vejaPosts.map(p => `
         <div class="card">
