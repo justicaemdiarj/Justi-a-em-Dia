@@ -148,3 +148,4 @@ document.addEventListener('DOMContentLoaded', () => {
 // Console message
 console.log('Portal Justica em Dia - Sistema de Noticias v2.3');
 console.log('Menu Dropdown e Gerenciamento de Categorias Ativados');
+

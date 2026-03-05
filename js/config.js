@@ -36,7 +36,8 @@ const siteConfig = {
     
     // Configuração do Menu (Gerenciamento em Massa)
     menu: [
-            { title: "Direito Civil", link: "direito-civil" },
+
+       { title: "Direito Civil", link: "direito-civil" },
             { title: "Direito de Família", link: "direito-de-familia" },
             { title: "Direito Criminal", link: "direito-penal" },
             { title: "Direito Trabalhista", link: "direito-trabalhista" },
@@ -44,7 +45,7 @@ const siteConfig = {
             { title: "Compliance", link: "compliance" },
             { title: "Jurisprudência", link: "jurisprudencia" },
             { title: "Legislação", link: "legislacao" },
-          //   { title: "Política", link: "politica" },
+
     ],
     
         // Configuração do Footer (Gerenciamento em Massa)
@@ -650,6 +651,7 @@ function injectSidebarTopBanner() {
     // Insere o banner antes do widget "Sobre a Categoria"
     targetWidget.insertAdjacentHTML('beforebegin', bannerHtml);
 }
+
 
 
 /*
