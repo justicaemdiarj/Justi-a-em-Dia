@@ -73,51 +73,6 @@ const globalNewsData = [
         title: "Projeto de Lei Proíbe Cobrança Extra para Famílias Ocuparem Assentos Vizinhos",
         link: "direito-civil/projeto-lei-proibe-cobranca-familias-assentos-vizinhos-voos.html",
     },
-    {
-        title: "Protegidas no Papel, Vulneráveis na Vida Real",
-        link: "direito-de-familia/protegidas-no-papel-vulneraveis-na-vida-real-colapso-medidas-protetivas.html",
-    },
-    {
-        title: "Nova Norma da Receita Federal Sobre Multas Beneficia Empresas",
-        link: "legislacao/nova-norma-receita-federal-multa-beneficia-empresas.html",
-    },
-    {
-        title: "STF Prorroga por 90 Dias as Regras de Distribuição do Fundo de Participação dos Estados",
-        link: "jurisprudencia/stf-prorroga-90-dias-fundo-participacao-estados.html",
-    },
-    {
-        title: "Marçal e Datena Encerram Batalha Judicial",
-        link: "direito-civil/a-cadeira-que-virou-acordo.html",
-    },
-    {
-        title: "Senado Convoca os Grandes Nomes do Direito Privado",
-        link: "direito-de-familia/senado-convoca-grandes-nomes-do-direito-para-redesenhar-regras.html",
-    },
-    {
-        title: "O Habeas Corpus e a Garantia que Ninguém Pode Confiscar",
-        link: "direito-penal/habeas-corpus-garantia-que-ninguem-pode-confiscar.html",
-    },
-    {
-        title: "Como o Salário Mínimo se Tornou a Mais Simbólica Batalha do Constitucional",
-        link: "direito-trabalhista/salario-minimo-tornou-simbolo-constitucional-social-brasileiro.html",
-    },
-    {
-        title: "Vinte Anos de Espera",
-        link: "direito-militar/vinte-anos-de-espera-de-pm-goiais.html",
-    },
-    {
-        title: "O Escudo que o Poder Tenta Dobrar",
-        link: "compliance/o-escudo-que-o-poder-tenta-dobrar.html",
-    },
-    {
-        title: "O Escudo Salarial das Guardas Municipais em Santo André",
-        link: "jurisprudencia/o-escudo-salarial-dos-guardas-municipais.html",
-    },
-    {
-        title: "O STF e os Limites do Poder Municipal Sobre a Sala de Aula",
-        link: "legislacao/stf-limites-do-poder-municipal-sobre-sala-de-aula.html",
-    },
-
 ];
 
 // Array para armazenar todas as notícias coletadas dos arquivos de paginação
