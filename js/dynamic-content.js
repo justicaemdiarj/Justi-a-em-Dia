@@ -537,3 +537,14 @@ document.addEventListener('DOMContentLoaded', () => {
     renderViuIsso();
     renderUltimasPostagens();
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const titulos = document.querySelectorAll('.viu-isso-title');
+
+    titulos.forEach(function(titulo) {
+        titulo.textContent = "Veja também"; // 👈 novo nome
+    });
+
+});
+

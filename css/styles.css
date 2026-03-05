@@ -279,6 +279,7 @@ img {
 .newsletter {
     padding: 60px 0;
     text-align: center;
+    margin-top:10px;
 }
 
 .newsletter-content h2 {
@@ -1437,7 +1438,7 @@ img {
     .mobile-search-container .search-box {
         width: 100%;
         display: flex;
-        border-radius: 16px;
+        border-radius: 10px;
         padding: 0px;
     }
     

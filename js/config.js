@@ -108,7 +108,7 @@ const siteConfig = {
                   img: window.innerWidth <= 768 ? "img/banner-mobile-uol.png" : "img/banner-uol.png", 
                  link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", 
                  endDate: null, 
-                 pages: ["conato.html"]
+                 pages: ["indx.html"]
             },
             // BANNER ESPECIFICO POR PÁGINA OU MESCLA
             
@@ -619,37 +619,68 @@ function injectPostContentBanners() {
 }
 
 function injectSidebarTopBanner() {
-    // Localiza o widget que contém o título "Sobre a Categoria"
-    const widgets = document.querySelectorAll('.sidebar-widget');
-    let targetWidget = null;
 
-    widgets.forEach(widget => {
-        const title = widget.querySelector('.widget-title');
-        if (title && title.textContent.includes('Sobre a Categoria')) {
-            targetWidget = widget;
-        }
-    });
-
-    if (!targetWidget || !siteConfig.sidebarTopBanner) return;
+    if (!siteConfig.sidebarTopBanner) return;
     if (!isBannerActiveJS(siteConfig.sidebarTopBanner)) return;
 
-    // Ajusta o caminho da imagem se estiver em subpasta
-    let imgSrc = siteConfig.sidebarTopBanner.img;
-    if (typeof prefix !== 'undefined' && !imgSrc.startsWith('http')) {
-        imgSrc = prefix + imgSrc;
-    }
+    function tryInsertBanner() {
 
-    const bannerHtml = `
-        <div class="dynamic-sidebar-banner" style="margin-bottom: 20px; text-align: center;">
-            <p style="font-size: 10px; color: #999; margin-bottom: 5px; text-transform: uppercase;">Publicidade</p>
+        const sidebar =
+document.querySelector('.sidebar') ||
+document.querySelector('.sidebar-right') ||
+document.querySelector('.right-sidebar') ||
+document.querySelector('aside');
+        if (!sidebar) return false;
+
+        if (document.querySelector('.dynamic-sidebar-banner')) return true;
+
+        const path = window.location.pathname;
+        const isHomePage =
+            path === '/' ||
+            path.endsWith('/index.html') ||
+            path.endsWith('/');
+
+        let imgSrc = siteConfig.sidebarTopBanner.img;
+        if (!imgSrc.startsWith('http')) {
+            imgSrc = prefix + imgSrc;
+        }
+
+        const bannerHtml = `
+        <div class="dynamic-sidebar-banner" style="margin-bottom:20px;text-align:center;">
+            <p style="font-size:10px;color:#999;margin-bottom:5px;text-transform:uppercase;">Publicidade</p>
             <a href="${siteConfig.sidebarTopBanner.link}" target="_blank">
-                <img src="${imgSrc}" alt="${siteConfig.sidebarTopBanner.name}" style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+                <img src="${imgSrc}" alt="${siteConfig.sidebarTopBanner.name}" style="width:100%;border-radius:12px;">
             </a>
         </div>
-    `;
+        `;
 
-    // Insere o banner antes do widget "Sobre a Categoria"
-    targetWidget.insertAdjacentHTML('beforebegin', bannerHtml);
+        if (isHomePage) {
+            sidebar.insertAdjacentHTML('afterbegin', bannerHtml);
+            return true;
+        }
+
+        const aboutWidget = Array.from(document.querySelectorAll('.sidebar-widget, .widget'))
+            .find(el => el.textContent.toLowerCase().includes('categoria'));
+
+        if (aboutWidget) {
+            aboutWidget.insertAdjacentHTML('beforebegin', bannerHtml);
+            return true;
+        }
+
+        return false;
+    }
+
+    let attempts = 0;
+
+    const interval = setInterval(() => {
+
+        if (tryInsertBanner() || attempts > 10) {
+            clearInterval(interval);
+        }
+
+        attempts++;
+
+    }, 300);
 }
 
 
