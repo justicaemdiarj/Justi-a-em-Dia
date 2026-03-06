@@ -817,5 +817,47 @@
         <changefreq>always</changefreq>
         <priority>1.0</priority>
     </url>
+            <url>
+        <loc>https://www.justicaemdia.com.br/jurisprudencia/dez-anos-cpc-2015-webinar-legado-jurisprudencia.html</loc>
+        <lastmod>2026-03-07</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc>https://www.justicaemdia.com.br/compliance/cgu-eleva-padrao-compliance-contratacoes-publicas-pn-226-25.html</loc>
+        <lastmod>2026-03-07</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc>https://www.justicaemdia.com.br/direito-trabalhista/rio-protege-servidores-assedio-funcional-guia-smit.html</loc>
+        <lastmod>2026-03-07</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc>https://www.justicaemdia.com.br/direito-penal/senado-aprova-reducao-penas-8j-dosimetria-sancao.html</loc>
+        <lastmod>2026-03-07</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc>https://www.justicaemdia.com.br/politica/migracao-partidaria-reforco-centro-direita-camara-janela-2026.html</loc>
+        <lastmod>2026-03-07</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+       <url>
+        <loc>https://www.justicaemdia.com.br/direito-de-familia/codigo-civil-ignora-familia-real-reforma-urgente-sucessoes.html</loc>
+        <lastmod>2026-03-07</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+      <url>
+        <loc>https://www.justicaemdia.com.br/direito-militar/pms-presos-roubo-celulares-onibus-expediente-rj-2026.html</loc>
+        <lastmod>2026-03-07</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
 </urlset>
            
