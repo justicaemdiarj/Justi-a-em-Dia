@@ -793,7 +793,29 @@
         <changefreq>always</changefreq>
         <priority>1.0</priority>
     </url>
+        <url>
+        <loc>https://www.justicaemdia.com.br/direito-penal/mprj-reverte-posicao-pede-internacao-menor-estupro-coletivo.html</loc>
+        <lastmod>2026-03-06</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+            <url>
+        <loc>https://www.justicaemdia.com.br/direito-de-familia/tolerancia-zero-arcabouco-legal-violencia-contra-mulher.html</loc>
+        <lastmod>2026-03-06</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc>https://www.justicaemdia.com.br/direito-civil/sbt-condenado-humilhacao-programa-televisivo-ratinho-danos-morais.html</loc>
+        <lastmod>2026-03-06</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+            <url>
+        <loc>https://www.justicaemdia.com.br/direito-trabalhista/trf4-aposentadoria-invalidez-inss-periodo-graca-doenca-dinamica.html</loc>
+        <lastmod>2026-03-06</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
 </urlset>
-
-
            

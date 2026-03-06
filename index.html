@@ -263,6 +263,10 @@
     flex-wrap: wrap;
   }
 
+  .container {
+    margin-bottom: 10px;
+  }
+
   .weather-widget,
   .b3-widget {
     display: none; /* remove mercado e clima no mobile */
@@ -345,6 +349,10 @@
     height: 250px;
   }
 
+  .card-title{
+    font-size:11px;
+  }
+
   .featured-title {
     font-size: 22px;
   }
@@ -416,6 +424,10 @@
   margin: 30px 0;
 }
 
+.featured-description:hover{
+  color:#c40000;
+
+}
 .featured-image img {
   width: 100%;
   height: 400px;
@@ -423,7 +435,7 @@
 }
 
 .featured-title {
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 800;
   margin-top: 15px;
 }
@@ -453,7 +465,7 @@
 }
 
 .card {
-  border: 1px solid var(--border-gray);
+  border: none;
   cursor: pointer;
   transition: .3s;
 }
@@ -482,6 +494,24 @@
   padding: 0;
 }
 
+@media (max-width:768px){
+
+.featured-image{
+position:relative;
+left:50%;
+right:50%;
+margin-left:-50vw;
+margin-right:-50vw;
+width:100vw;
+}
+
+.featured-image img{
+width:100%;
+height:260px;
+object-fit:cover;
+}
+
+}
 .most-read-list li {
   margin-bottom: 10px;
 }
@@ -501,6 +531,64 @@
   .featured-image img { height: 250px; }
 }
 
+@media (max-width:768px){
+
+/* tira o grid */
+.grid-3{
+display:block;
+}
+
+/* cada notícia vira linha */
+.card{
+display:flex;
+align-items:center;
+gap:15px;
+margin-bottom:25px;
+border-bottom:1px solid #e5e5e5;
+padding-bottom:20px;
+}
+
+/* link ocupa tudo */
+.card a{
+display:flex;
+align-items:center;
+gap:15px;
+width:100%;
+text-decoration:none;
+}
+
+/* imagem pequena à direita */
+.card img{
+width:110px;
+height:110px;
+object-fit:cover;
+border-radius:16px;
+order:2;
+}
+
+/* conteúdo texto */
+.card-content{
+flex:1;
+order:1;
+}
+
+/* título */
+.card-title{
+font-size:14px;
+font-weight:700;
+line-height:1.3;
+color:#c40000;
+}
+
+/* tempo */
+.post-time{
+font-size:13px;
+color:#777;
+margin-top:6px;
+}
+
+}
+
 .banner-sidebar {
   max-width: 750px;
   margin: 0 auto;
@@ -511,7 +599,83 @@
   height: auto;
 }
 
+.principais-noticias{
+margin-bottom:30px;
+}
 
+.titulo-principais{
+font-size:22px;
+margin-bottom:15px;
+border-bottom:2px solid #ddd;
+padding-bottom:6px;
+}
+
+/* GRID 3 COLUNAS */
+.lista-principais{
+display:grid;
+grid-template-columns: repeat(3, 1fr);
+gap:15px;
+list-style:none;
+padding:15px;
+margin-top:15px;
+}
+
+/* CADA NOTÍCIA */
+.noticia-item{
+padding-bottom:10px;
+border-bottom:1px solid #e5e5e5;
+}
+
+/* LINK DA NOTÍCIA */
+.noticia-link{
+font-size:16px;
+font-weight:600;
+color:#c40000; /* vermelho */
+text-decoration:none;
+line-height:1.3;
+display:block;
+}
+
+.noticia-link:hover{
+text-decoration:underline;
+}
+
+/* INFORMAÇÕES */
+.noticia-info{
+font-size:12px;
+color:#777;
+margin-top:5px;
+}
+
+/* MOBILE */
+@media (max-width:768px){
+
+.lista-principais{
+grid-template-columns:1fr;
+}
+
+.noticia-item{
+border-bottom:1px solid #ddd;
+padding:15px;
+}
+
+}
+
+.linha-divisoria{
+width:100%;
+height:1px;
+background:rgba(0,0,0,0.15);
+margin:25px 0;
+}
+
+.featured-description a{
+color:inherit;
+text-decoration:none;
+}
+
+.featured-description a:hover{
+text-decoration:underline;
+}
 </style>
     <script src="js/offline.js"></script>
 </head>
@@ -602,7 +766,7 @@
 
       <!-- ===== MAIS LIDAS ===== -->
    <section class="most-read">
-  <h3>Mais Lidas</h3>
+  <h3>Outros assuntos</h3>
   <ol class="most-read-list" id="mostReadList">
         </ol>
       </section>
@@ -614,6 +778,8 @@
 
     </aside>
   </div>
+  
+  
 </main>
 
             <!-- Banner Desktop (Aparece apenas em desktop via JS/CSS) -->
@@ -630,6 +796,8 @@
             </section>
         </div>
     </main>
+
+             <div id="principaisNoticias" class="principais-noticias"></div> <!--campo atualizado via js-->
 
 <!-- Newsletter Section com design profissional -->
 <section class="newsletter" style="background: #f9f9f9; border-top: 1px solid #eee; border-bottom: 1px solid #eee; padding: 80px 0;">
@@ -878,27 +1046,33 @@
             }
         }
 
-        // Tenta obter a localização do usuário
-        if (navigator.geolocation) {
-            navigator.geolocation.getCurrentPosition(
-                (position) => {
-                    const latitude = position.coords.latitude;
-                    const longitude = position.coords.longitude;
-                    getWeatherData(latitude, longitude);
-                },
-                (error) => {
-                    console.error('Erro ao obter localização:', error);
-                    // Se a localização for negada ou houver erro, usa uma localização padrão (ex: São Paulo)
-                    getWeatherData(-23.5505, -46.6333); 
-                    weatherLocation.textContent = 'São Paulo';
-                }
-            );
-        } else {
-            console.error('Geolocalização não suportada pelo navegador.');
-            // Se a geolocalização não for suportada, usa uma localização padrão (ex: São Paulo)
-            getWeatherData(-23.5505, -46.6333);
-            weatherLocation.textContent = 'São Paulo';
-        }
+async function detectarLocalizacao(){
+
+try{
+
+const response = await fetch("https://ipapi.co/json/");
+const data = await response.json();
+
+const latitude = data.latitude;
+const longitude = data.longitude;
+
+getWeatherData(latitude, longitude);
+
+weatherLocation.textContent = data.city;
+
+}catch(error){
+
+console.error("Erro ao detectar localização", error);
+
+/* fallback */
+getWeatherData(-23.5505,-46.6333);
+weatherLocation.textContent = "São Paulo";
+
+}
+
+}
+
+detectarLocalizacao();
     });
 </script>
 </body>
