@@ -1,19 +1,19 @@
 const posts = [
 {
+    title: "CGU Eleva o Padrão do Compliance",
+    description: "Portaria Normativa CGU 226/25 transforma a avaliação de programas de integridade nas contratações públicas brasileiras",
+    description2: "Empresas com compliance de fachada arriscam inidoneidade e exclusão definitiva de licitações públicas",
+    image: "img/cgu-eleva-padrao-compliance-contratacoes-publicas-pn-226-25.jpg",
+    link: "compliance/cgu-eleva-padrao-compliance-contratacoes-publicas-pn-226-25.html",
+    date: "2026-03-07T07:00:00",
+  section: "featured"
+},
+  {
   title: "Tolerância zero: o arcabouço legal contra violência feminina",
   description: "Legislação protetiva vai além da punição e transforma relações sociais",
   description2: "A violência psicológica como tipo penal autônomo",
   image: "img/tolerancia-zero-arcabouco-legal-violencia-contra-mulher.jpg",
   link: "direito-de-familia/tolerancia-zero-arcabouco-legal-violencia-contra-mulher.html",
-  date: "2026-03-06T07:00:00",
-  section: "featured"
-},
-  {
-  title: "MPRJ reverte posição e pede internação de menor",
-  description: "Novas denúncias alteram o curso das investigações em Copacabana",
-  description2: "MPRJ havia se oposto ao pedido de busca e apreensão",
-  image: "img/mprj-reverte-posicao-pede-internacao-menor-estupro-coletivo.jpg",
-  link: "direito-penal/mprj-reverte-posicao-pede-internacao-menor-estupro-coletivo.html",
   date: "2026-03-06T07:00:00",
   section: "featured-secundario"
 },
@@ -32,24 +32,24 @@ const posts = [
     section: "destaque"
   },
   {
-    title: "Responsabilidade Objetiva e Nexo Causal no STJ",
-    image: "img/responsabilidade-objetiva-stj-precedentes.jpg",
-    link: "direito-civil/responsabilidade-objetiva-stj-precedentes.html",
-    date: "2026-03-05T00:00:00",
+    title: "Senado Aprova Redução de Penas",
+    image: "img/senado-aprova-reducao-penas-8j-dosimetria-sancao.jpg",
+    link: "direito-penal/senado-aprova-reducao-penas-8j-dosimetria-sancao.html",
+    date: "2026-03-07T07:00:00",
     section: "destaque"
   },
   {
-    title: "O Que é Revelado Sobre o Caso do Banco Master e os Limites do Compliance",
-    image: "img/banco-master-compliance-gestao-fraudulenta-temeraria-limites-governanca.jpg",
-    link: "compliance/banco-master-compliance-gestao-fraudulenta-temeraria-limites-governanca.html",
-    date: "2026-03-04T07:00:00",
+   title: "Migração Partidária Reforça Centro-Direita na Câmara",
+    image: "img/migracao-partidaria-reforco-centro-direita-camara-janela-2026.jpg",
+    link: "politica/migracao-partidaria-reforco-centro-direita-camara-janela-2026.html",
+    date: "2026-03-07T07:00:00",
     section: "veja"
   },
   {
-    title: "Justiça Militar Condena PM por Lesão Grave no Recife",
-    image: "img/pm-condenado-lesao-grave-bala-borracha-passinho-recife.jpg",
-    link: "direito-militar/pm-condenado-lesao-grave-bala-borracha-passinho-recife.html",
-    date: "2026-03-05T07:00:00",
+    title: "Código Civil Ignora a Família Real",
+    image: "img/codigo-civil-ignora-familia-real-reforma-urgente-sucessoes.jpg",
+    link: "direito-de-familia/codigo-civil-ignora-familia-real-reforma-urgente-sucessoes.html",
+    date: "2026-03-07T07:00:00",
     section: "veja"
   },
   {
@@ -219,9 +219,9 @@ document.addEventListener("DOMContentLoaded", function(){
   /* ===== MAIS LIDOS ===== */
   const posts = [
     {
-      title: "Quando o Silêncio Se Torna Arma no Ambiente Corporativo",
-      link: "direito-trabalhista/a-violencia-invisivel-quando-o-silencio-se-torna-arma-no-ambiente-corporativo.html",
-      date: "2026-03-01T07:00:00"
+    title: "Dez Anos do CPC",
+    link: "jurisprudencia/dez-anos-cpc-2015-webinar-legado-jurisprudencia.html",
+    date: "2026-03-07T07:00:00"
     },
     {
     title: "Tolerância zero: o arcabouço legal contra violência feminina",
@@ -233,25 +233,26 @@ document.addEventListener("DOMContentLoaded", function(){
     link: "direito-trabalhista/trf4-aposentadoria-invalidez-inss-periodo-graca-doenca-dinamica.html",
     date: "2026-03-06T07:00:00"
 },
-    {
-      title: "A Armadilha do Crédito Fácil",
-      link: "direito-civil/a-armadilha-do-credito-facil-como-o-superendividamento-captura-os-mais-vulneraveis.html",
-      date: "2026-03-01T07:00:00"
-    },
 {
     title: "SBT condenado por humilhação em programa televisivo",
     link: "direito-civil/sbt-condenado-humilhacao-programa-televisivo-ratinho-danos-morais.html",
     date: "2026-03-06T07:00:00"
 },
+ {
+    title: "Rio Protege Servidores do Assédio Funcional",
+    link: "direito-trabalhista/rio-protege-servidores-assedio-funcional-guia-smit.html",
+    date: "2026-03-07T07:00:00"
+},
     {
-      title: "A Holding do Crime",
-      link: "compliance/a-holding-do-crime.html",
-      date: "2026-03-02T07:00:00"
-    },
+    title: "Código Civil Ignora a Família Real",
+    link: "direito-de-familia/codigo-civil-ignora-familia-real-reforma-urgente-sucessoes.html",
+    date: "2026-03-07T07:00:00"
+    }
+    ,
     {
-      title: "STF Prorroga por 90 Dias as Regras de Distribuição do Fundo de Participação dos Estados",
-      link: "jurisprudencia/stf-prorroga-90-dias-fundo-participacao-estados.html",
-      date: "2026-03-04T07:00:00"
+    title: "PMs Viram Réus por Roubo Fardado",
+    link: "direito-militar/pms-presos-roubo-celulares-onibus-expediente-rj-2026.html",
+    date: "2026-03-07T07:00:00"
     }
   ];
 
@@ -299,10 +300,10 @@ document.addEventListener("DOMContentLoaded", function(){
 const principaisNoticias = [
 
 {
-title: "Segunda Turma do STF decide que exibição de vídeo pelo Ministério Público na presença de jurados não invalida julgamento",
-link: "direito-penal/stf-segunda-turma-decide-que-exibicao-de-video.html",
+title: "O Que é Revelado Sobre o Caso do Banco Master e os Limites do Compliance",
+link: "compliance/banco-master-compliance-gestao-fraudulenta-temeraria-limites-governanca.html",
 source: "",
-date: "2026-03-01T07:00:00"
+date: "2026-03-04T07:00:00",
 },
 
 {
@@ -324,16 +325,34 @@ source: "",
 date: "2026-03-04T07:00:00"
 },
 {
-title: "A Farda e a Constituição",
-link: "direito-militar/a-farda-e-a-constituicao-o-direito-militar-entre-a-tradicao-e-os-direitos-fundamentais.html",
+title: "PMs Viram Réus por Roubo Fardado",
+link: "direito-militar/pms-presos-roubo-celulares-onibus-expediente-rj-2026.html",
 source: "",
-date: "2026-03-02T07:00:00"
+date: "2026-03-07T07:00:00"
 },
 {
-title: "Novo Imposto de Renda",
-link: "legislacao/novo-imposto-de-renda.html",
+title: "Mediação Estratégica e Compliance",
+link: "compliance/mediacao-estrategica-e-compliance.html",
 source: "",
 date: "2026-03-01T07:00:00"
+},
+{
+title: "Justiça Militar Condena PM por Lesão Grave no Recife",
+link: "direito-militar/pm-condenado-lesao-grave-bala-borracha-passinho-recife.html",
+source: "",
+date: "2026-03-05T07:00:00"
+},
+{
+title: "Tolerância zero: o arcabouço legal contra violência feminina",
+link: "direito-de-familia/tolerancia-zero-arcabouco-legal-violencia-contra-mulher.html",
+source: "",
+date: "2026-03-06T07:00:00"
+},
+{
+title: "O Escudo que o Poder Tenta Dobrar",
+link: "compliance/o-escudo-que-o-poder-tenta-dobrar.html",
+source: "",
+date: "2026-03-03T07:00:00"
 },
 
 ];

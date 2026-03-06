@@ -1,6 +1,17 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
-{
+  {
+    title: "Dez Anos do CPC",
+    date: "07/03/2026",
+    timestamp: "2026-03-07T07:00:00",
+    image: "../img/dez-anos-cpc-2015-webinar-legado-jurisprudencia.jpg",
+    excerpt: "Webinar debate os dez anos do CPC de 2015 e a consolidação da jurisprudência no processo civil brasileiro.",
+    link: "../jurisprudencia/dez-anos-cpc-2015-webinar-legado-jurisprudencia.html",
+    category: "Jurisprudência",
+    author: "Justiça em Dia",
+    authorLink: "#"
+  },
+  {
         title: "STF Prorroga por 90 Dias as Regras de Distribuição do Fundo de Participação dos Estados",
         date: "04/03/2026",
         timestamp: "2026-03-04T07:00:00",

@@ -2,6 +2,16 @@
 const categoryNewsData = [
    
    {
+    title: "Código Civil Ignora a Família Real",
+    date: "07/03/2026",
+    timestamp: "2026-03-07T07:00:00",
+    image: "../img/codigo-civil-ignora-familia-real-reforma-urgente-sucessoes.jpg",
+    excerpt: "Especialistas debatem no Senado a urgência de reformar o Código Civil no campo do direito de família e das sucessões.",
+    link: "../direito-de-familia/codigo-civil-ignora-familia-real-reforma-urgente-sucessoes.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+{
     title: "Tolerância zero: o arcabouço legal contra violência feminina",
     date: "06/03/2026",
     timestamp: "2026-03-06T07:00:00",
@@ -18,7 +28,6 @@ const categoryNewsData = [
     image: "../img/instagram-perfil-partilha-bens-divorcio.jpg",
     excerpt: "Perfil no Instagram pode ser partilhado no divórcio quando configurado como ativo intangível com valor econômico constituído durante a relação conjugal.",
     link: "../direito-de-familia/instagram-perfil-partilha-bens-divorcio.html",
-    category: "direito-de-familia",
     author: "Justiça em Dia",
     authorLink: "#"
    },
@@ -29,7 +38,6 @@ const categoryNewsData = [
         image: "../img/protegidas-no-papel-vulneraveis-na-vida-real-colapso-medidas-protetivas.jpg",
         excerpt: "A cada novo caso de feminicídio noticiado no país, um detalhe se repete com perturbadora regularidade..",
         link: "../direito-de-familia/protegidas-no-papel-vulneraveis-na-vida-real-colapso-medidas-protetivas.html",
-        category: "Direito de Família",
         author: "Por Justiça em Dia",
         authorLink: "#"
     },
@@ -40,7 +48,6 @@ const categoryNewsData = [
         image: "../img/senado-convoca-grandes-nomes-do-direito-para-redesenhar.jpg",
         excerpt: "Mais de duas décadas depois de sua entrada em vigor, o Código Civil brasileiro está prestes a ganhar novo rosto..",
         link: "../direito-de-familia/senado-convoca-grandes-nomes-do-direito-para-redesenhar-regras.html",
-        category: "Direito de Família",
         author: "Por Justiça em Dia",
         authorLink: "#"
     },
@@ -51,7 +58,6 @@ const categoryNewsData = [
         image: "https://images.unsplash.com/photo-1512733596533-7b00ccf8ebaf?w=1200&q=80",
         excerpt: "O tabelionato de notas em São Paulo recebe o casal de noivos com documentação completa para lavrar pacto antenupcial. Além das cláusulas tradicionais..",
         link: "../direito-de-familia/o-testamento-digital-quando-o-amor-precisa-contemplar-bitcoins-e-senhas.html",
-        category: "Direito de Família",
         author: "Por Justiça em Dia",
         authorLink: "#"
     },
@@ -62,7 +68,6 @@ const categoryNewsData = [
         image: "https://images.unsplash.com/photo-1581579186913-45ac3e6efe93?w=1200&q=80",
         excerpt: "O escritório de advocacia em Brasília recebe, com frequência crescente, consultas inusitadas: adultos que desejam processar avós por abandono afetivo..",
         link: "../direito-de-familia/o-amor-que-se-cobra-na-justica-quando-a-ausencia-dos-avos-gera-indenizacao.html",
-        category: "Direito de Família",
         author: "Por Justiça em Dia",
         authorLink: "#"
     },
@@ -74,7 +79,6 @@ const categoryNewsData = [
         caption: "Romer Carvalho",
         excerpt: "Muitas pessoas vivem em união estável sem sequer saber que essa relação possui proteção jurídica semelhante ao casamento..",
         link: "../direito-de-familia/como-comprovar-uniao-estavel.html",
-        category: "Direito de Família",
         author: "Romer Carvalho",
         authorLink: "../apoiadores/advogado-romer-carvalho.html"
     },
@@ -85,7 +89,6 @@ const categoryNewsData = [
         image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&h=600&fit=crop",
         excerpt: "A guarda compartilhada, consagrada como regra pelo ordenamento jurídico brasileiro através da Lei 13.058/2014, representa...",
         link: "../direito-de-familia/guarda-compartilhada-melhor-interesse-crianca.html",
-        category: "Direito de Família",
         author: "Justiça em Dia",
         authorLink: "#"
     },
@@ -96,7 +99,6 @@ const categoryNewsData = [
         image: "../img/pensao-alimenticia.png",
         excerpt: "A pensão alimentícia constitui obrigação jurídica fundada no princípio da solidariedade familiar, destinando-se a garantir.. ",
         link: "../direito-de-familia/pensao-alimenticia-revisao-exoneracao-limites.html",
-        category: "Direito de Família",
         author: "Justiça em Dia",
         authorLink: "#"
     },

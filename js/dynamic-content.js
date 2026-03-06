@@ -13,77 +13,30 @@ const tickerConfig = {
 
 const globalNewsData = [
 {
-    title: "SC regulamenta Cordão de Girassol para deficiências ocultas",
-    link: "legislacao/sc-regulamenta-cordao-girassol-deficiencias-ocultas-alesc.html",
+    title: "PMs Viram Réus por Roubo Fardado",
+    link: "direito-militar/pms-presos-roubo-celulares-onibus-expediente-rj-2026.html",
 },
 {
-    title: "MDB se divide e rejeita vice na chapa de Lula",
-    link: "politica/mdb-divide-rejeita-vice-chapa-lula-eleicoes-2026.html",
+    title: "Código Civil Ignora a Família Real",
+    link: "direito-de-familia/codigo-civil-ignora-familia-real-reforma-urgente-sucessoes.html",
 },
 {
-    title: "TRF-4 garante aposentadoria negada por 48 horas",
-    link: "direito-trabalhista/trf4-aposentadoria-invalidez-inss-periodo-graca-doenca-dinamica.html",
+    title: "Migração Partidária Reforça Centro-Direita na Câmara",
+    link: "politica/migracao-partidaria-reforco-centro-direita-camara-janela-2026.html",
 },
 {
-    title: "SBT condenado por humilhação em programa televisivo",
-    link: "direito-civil/sbt-condenado-humilhacao-programa-televisivo-ratinho-danos-morais.html",
+    title: "Senado Aprova Redução de Penas",
+    link: "direito-penal/senado-aprova-reducao-penas-8j-dosimetria-sancao.html",
 },
 {
-    title: "Tolerância zero: o arcabouço legal contra violência feminina",
-    link: "direito-de-familia/tolerancia-zero-arcabouco-legal-violencia-contra-mulher.html",
-}, 
-{
-    title: "MPRJ reverte posição e pede internação de menor",
-    link: "direito-penal/mprj-reverte-posicao-pede-internacao-menor-estupro-coletivo.html",
-}, 
-{
-    title: "Alcolumbre Bloqueia Indicação de Messias ao STF",
-    link: "politica/alcolumbre-bloqueia-indicacao-messias-stf-2026.html",
- },
- {
-    title: "Janja Revela Dois Casos de Assédio como Primeira-Dama",
-    link: "politica/janja-revela-assedio-como-primeira-dama-sem-censura.html",
-  },
-  {
-    title: "Lula Pede Voto com Ironia Eleitoral",
-    link: "politica/lula-pede-voto-ironia-eleitoral-conferencia-trabalho-sp.html",
+    title: "Rio Protege Servidores do Assédio Funcional",
+    link: "direito-trabalhista/rio-protege-servidores-assedio-funcional-guia-smit.html",
 },
 {
-    title: "Trump Admite Vácuo de Poder no Irã",
-    link: "politica/trump-vacuo-poder-ira-sucessores-khamenei-mortos.html",
+    title: "CGU Eleva o Padrão do Compliance",
+    link: "compliance/cgu-eleva-padrao-compliance-contratacoes-publicas-pn-226-25.html",
 },
-  {
-    title: "Vorcaro Preso Novamente na Operação Compliance Zero",
-    link: "compliance/vorcaro-preso-operacao-compliance-zero-banco-master.html",
-   },
-    {
-    title: "Justiça Militar Condena PM por Lesão Grave no Recife",
-    link: "direito-militar/pm-condenado-lesao-grave-bala-borracha-passinho-recife.html",   
-  },
-  {
-    title: "O MPSE Coloca o Assédio na Pauta Institucional e Lidera Debate",
-    link: "direito-trabalhista/assedio-servico-publico-mpse-palestra-prevencao.html",
-  },
-  {
-    title: "Operação Argos: PF Age Contra Abuso Sexual Infantil",
-    link: "direito-penal/operacao-argos-pf-abuso-sexual-infantojuvenil-porto-velho.html",
-  }, 
-  {
-    title: "Instagram Pode Entrar na Partilha de Bens?",
-    link: "direito-de-familia/instagram-perfil-partilha-bens-divorcio.html",
-  },
-  {
-    title: "Responsabilidade Objetiva e Nexo Causal no STJ",
-    link: "direito-civil/responsabilidade-objetiva-stj-precedentes.html",
-   },
-   {
-        title: "O Que é Revelado Sobre o Caso do Banco Master",
-        link: "compliance/banco-master-compliance-gestao-fraudulenta-temeraria-limites-governanca.html",
-    },
-    {
-        title: "A Decisão do TJMG que Ameaça Décadas de Proteção à Infância",
-        link: "direito-penal/casamento-crianca-crime-tjmg-estupro-vulneravel-protecao-infancia.html",
-    },
+
 ];
 
 // Array para armazenar todas as notícias coletadas dos arquivos de paginação

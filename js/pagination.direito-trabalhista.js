@@ -2,13 +2,22 @@
 const categoryNewsData = [
 
 {
+    title: "Rio Protege Servidores do Assédio Funcional",
+    date: "07/03/2026",
+    timestamp: "2026-03-07T07:00:00",
+    image: "../img/rio-protege-servidores-assedio-funcional-guia-smit.jpg",
+    excerpt: "Resolução SMIT nº 23 torna obrigatório o acolhimento humanizado e sigiloso às vítimas de assédio moral e sexual na Prefeitura do Rio.",
+    link: "../direito-trabalhista/rio-protege-servidores-assedio-funcional-guia-smit.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+{
     title: "TRF-4 garante aposentadoria negada por 48 horas",
     date: "06/03/2026",
     timestamp: "2026-03-06T07:00:00",
     image: "../img/trf4-aposentadoria-invalidez-inss-periodo-graca-doenca-dinamica.jpg",
     excerpt: "O TRF-4, por unanimidade, concedeu aposentadoria por incapacidade permanente a segurado que havia sido privado do benefício por uma diferença de apenas 48 horas no cômputo do período de graça, firmando que a doença deve ser analisada como processo dinâmico.",
     link: "../direito-trabalhista/trf4-aposentadoria-invalidez-inss-periodo-graca-doenca-dinamica.html",
-    category: "Direito Trabalhista",
     author: "Justiça em Dia",
     authorLink: "#"
 },
@@ -19,7 +28,6 @@ const categoryNewsData = [
     image: "../img/assedio-servico-publico-mpse-palestra-prevencao.jpg",
     excerpt: "O Ministério Público de Sergipe promoveu palestra sobre prevenção do assédio moral e sexual no setor público, reforçando..",
     link: "../direito-trabalhista/assedio-servico-publico-mpse-palestra-prevencao.html",
-    category: "direito-trabalhista",
     author: "Justiça em Dia",
     authorLink: "#"
     },
@@ -41,7 +49,6 @@ const categoryNewsData = [
         image: "../img/salario-minimo-tornou-simbolo-constitucional.jpg",
         excerpt: "O relatório foi revisado três vezes, cada vírgula analisada, cada dado conferido. Mesmo assim, quando apresentado na reunião..",
         link: "../direito-trabalhista/salario-minimo-tornou-simbolo-constitucional-social-brasileiro.html",
-        category: "Direito Trabalhista",
         author: "Justiça em Dia",
         authorLink: "#"
     },
@@ -52,7 +59,6 @@ const categoryNewsData = [
         image: "https://www.spbancarios.com.br/Uploads/ckfinder/userfiles/images/_MAU8083_materia.jpg",
         excerpt: "Adicional exige contato direto e habitual com inflamáveis — presença eventual de combustível no local de trabalho não basta...",
         link: "../direito-trabalhista/corte-trabalhista-rejeita-adicional-de-risco-a-bancario-por-combustivel-guardado-no-edificio-onde-trabalha.html",
-        category: "Direito Trabalhista",
         author: "Justiça em Dia",
         authorLink: "#"
     },
@@ -63,7 +69,6 @@ const categoryNewsData = [
         image: "https://images.unsplash.com/photo-1505664194779-8beaceb93744?w=800&q=80",
         excerpt: "Corte entende que a realização sistemática de horas além da jornada prevista desnatura o regime e afasta os benefícios da negociação coletiva que o autorizou...",
         link: "../direito-trabalhista/ministra-do-tst-derruba-jornada-12x36.html",
-        category: "Direito Trabalhista",
         author: "Justiça em Dia",
         authorLink: "#"
     },

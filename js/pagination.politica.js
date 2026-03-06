@@ -1,7 +1,18 @@
 // Dados de notícias para Política
 const categoryNewsData = [
   
-    {
+  {
+    title: "Migração Partidária Reforça Centro-Direita na Câmara",
+    date: "07/03/2026",
+    timestamp: "2026-03-07T07:00:00",
+    image: "../img/migracao-partidaria-reforco-centro-direita-camara-janela-2026.jpg",
+    excerpt: "Cerca de 10% dos deputados federais já migrou de partido antes da janela partidária de abril, fortalecendo o centro-direita na Câmara.",
+    link: "../politica/migracao-partidaria-reforco-centro-direita-camara-janela-2026.html",
+    category: "Política",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+  {
     title: "MDB se divide e rejeita vice na chapa de Lula",
     date: "06/03/2026",
     timestamp: "2026-03-06T07:00:00",

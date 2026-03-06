@@ -1,13 +1,22 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
-    {
+      {
+    title: "Código Civil Ignora a Família Real",
+    date: "07/03/2026",
+    timestamp: "2026-03-07T07:00:00",
+    image: "../img/codigo-civil-ignora-familia-real-reforma-urgente-sucessoes.jpg",
+    excerpt: "Especialistas debatem no Senado a urgência de reformar o Código Civil no campo do direito de família e das sucessões.",
+    link: "../direito-de-familia/codigo-civil-ignora-familia-real-reforma-urgente-sucessoes.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+{
         title: "O Testamento Digital",
         date: "01/03/2026",
         timestamp: "2026-03-01T12:00:00",
         image: "https://images.unsplash.com/photo-1512733596533-7b00ccf8ebaf?w=1200&q=80",
         excerpt: "O tabelionato de notas em São Paulo recebe o casal de noivos com documentação completa para lavrar pacto antenupcial. Além das cláusulas tradicionais ...",
         link: "../direito-de-familia/o-testamento-digital-quando-o-amor-precisa-contemplar-bitcoins-e-senhas.html",
-        category: "Direito de Família",
         author: "Por Justiça em Dia",
         authorLink: "#"
     },

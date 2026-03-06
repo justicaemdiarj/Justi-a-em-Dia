@@ -1,6 +1,17 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
-     {
+    {
+    title: "CGU Eleva o Padrão do Compliance",
+    date: "07/03/2026",
+    timestamp: "2026-03-07T07:00:00",
+    image: "../img/cgu-eleva-padrao-compliance-contratacoes-publicas-pn-226-25.jpg",
+    excerpt: "Portaria Normativa CGU 226/25 exige efetividade real nos programas de integridade das empresas licitantes.",
+    link: "../compliance/cgu-eleva-padrao-compliance-contratacoes-publicas-pn-226-25.html",
+    category: "Compliance",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+ {
     title: "Vorcaro Preso Novamente na Operação Compliance Zero",
     date: "05/03/2026",
     timestamp: "2026-03-05T07:00:00",

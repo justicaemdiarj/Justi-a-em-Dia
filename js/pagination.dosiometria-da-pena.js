@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
-    {
+     {
+    title: "Senado Aprova Redução de Penas",
+    date: "07/03/2026",
+    timestamp: "2026-03-07T07:00:00",
+    image: "../img/senado-aprova-reducao-penas-8j-dosimetria-sancao.jpg",
+    excerpt: "Senado aprovou o PL da dosimetria com 48 votos, reduzindo percentuais de cumprimento de pena para condenados pelo 8 de Janeiro.",
+    link: "../direito-penal/senado-aprova-reducao-penas-8j-dosimetria-sancao.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+ {
         title: "Princípio da Insignificância e sua Aplicação nos Crimes Patrimoniais",
         date: "01/03/2026",
         timestamp: "2026-03-01T12:00:00",

@@ -1,13 +1,22 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
-    {
+     {
+    title: "PMs Viram Réus por Roubo Fardado",
+    date: "07/03/2026",
+    timestamp: "2026-03-07T07:00:00",
+    image: "../img/pms-presos-roubo-celulares-onibus-expediente-rj-2026.jpg",
+    excerpt: "Três PMs do RJ foram presos em flagrante por roubar celulares de passageiros durante o expediente, configurando roubo qualificado e abuso de autoridade.",
+    link: "../direito-militar/pms-presos-roubo-celulares-onibus-expediente-rj-2026.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+ {
     title: "Justiça Militar Condena PM por Lesão Grave no Recife",
     date: "05/03/2026",
     timestamp: "2026-03-05T07:00:00",
     image: "../img/pm-condenado-lesao-grave-bala-borracha-passinho-recife.jpg",
     excerpt: "A Vara da Justiça Militar Estadual de Pernambuco condenou policial militar a três anos e seis meses por lesão corporal grave após disparar bala de borracha e cegar estudante em encontro de passinho no Recife.",
     link: "../direito-militar/pm-condenado-lesao-grave-bala-borracha-passinho-recife.html",
-    category: "direito-militar",
     author: "Justiça em Dia",
     authorLink: "#"
     }, 
@@ -18,7 +27,6 @@ const categoryNewsData = [
         image: "https://images.unsplash.com/photo-1590247813693-5541d1c609fd?w=1200&q=80",
         excerpt: "O soldado do Exército recorre ao Supremo Tribunal Federal questionando punição disciplinar que lhe custou quinze dias de prisão.",
         link: "../direito-militar/a-farda-e-a-constituicao-o-direito-militar-entre-a-tradicao-e-os-direitos-fundamentais.html",
-        category: "Direito Militar",
         author: "Justiça em Dia",
         authorLink: "#"
     },
@@ -29,7 +37,6 @@ const categoryNewsData = [
         image: "../img/processo-administrativo-disciplinar-militar.jpg",
         excerpt: "O processo administrativo disciplinar militar constitui instrumento jurídico específico destinado à apuração de transgressões disciplinares praticadas por integrantes das Forças Armadas e Forças Auxiliares.",
         link: "../direito-militar/processo-administrativo-disciplinar-militar.html",
-        category: "Direito Militar",
         author: "Justiça em Dia",
         authorLink: "#"
     },
@@ -40,7 +47,6 @@ const categoryNewsData = [
         image: "../img/hierarquia-disciplina-direitos-fundamentais-militar.jpg",
         excerpt: "A condição militar caracteriza-se por especificidades que a distinguem de outras relações funcionais, fundamentando-se nos princípios estruturantes da hierarquia e disciplina.",
         link: "../direito-militar/hierarquia-disciplina-direitos-fundamentais-militar.html",
-        category: "Direito Militar",
         author: "Justiça em Dia",
         authorLink: "#"
     },

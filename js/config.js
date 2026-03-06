@@ -602,7 +602,22 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 // Interromper o áudio imediatamente ao trocar de página ou recarregar (F5)
-window.addEventListener('beforeunload', () => {
+// Interromper o áudio imediatamente ao trocar de página, recarregar (F5) ou fechar a aba
+const stopAudioOnExit = () => {
+    if (window.speechSynthesis) {
+        window.speechSynthesis.cancel();
+    }
+};
+
+// Evento disparado quando a página está prestes a ser descarregada
+window.addEventListener('beforeunload', stopAudioOnExit);
+
+// Evento disparado quando a visibilidade da página muda (ex: trocar de aba ou minimizar)
+// Isso garante que o áudio pare mesmo se o 'beforeunload' falhar
+window.addEventListener('pagehide', stopAudioOnExit);
+
+// Adicional: Garante que ao carregar uma nova página, qualquer áudio residual seja limpo
+document.addEventListener('DOMContentLoaded', () => {
     if (window.speechSynthesis) {
         window.speechSynthesis.cancel();
     }

@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
-    {
+   {
+    title: "Rio Protege Servidores do Assédio Funcional",
+    date: "07/03/2026",
+    timestamp: "2026-03-07T07:00:00",
+    image: "../img/rio-protege-servidores-assedio-funcional-guia-smit.jpg",
+    excerpt: "Resolução SMIT nº 23 torna obrigatório o acolhimento humanizado e sigiloso às vítimas de assédio moral e sexual na Prefeitura do Rio.",
+    link: "../direito-trabalhista/rio-protege-servidores-assedio-funcional-guia-smit.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+ {
     title: "O MPSE Coloca o Assédio na Pauta Institucional e Lidera Debate",
     date: "05/03/2026",
     timestamp: "2026-03-05T07:00:00",
@@ -28,7 +38,8 @@ const categoryNewsData = [
     image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=2069&auto=format&fit=crop", 
     excerpt: "O relatório foi revisado três vezes, cada vírgula analisada, cada dado conferido. Mesmo assim, quando apresentado na reunião, o gerente o desqualifica...", 
     link: "../direito-trabalhista/a-destruicao-metodica-da-competencia-quando-a-critica-vira-arma-de-aniquilacao-profissional.html", 
-    author: "Por Justiça em Dia", authorLink: "#"
+    author: "Por Justiça em Dia", 
+    authorLink: "#"
     },
     {
     title: "A Queda do Intocável", 

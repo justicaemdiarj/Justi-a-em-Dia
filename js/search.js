@@ -1,6 +1,55 @@
 // Base de dados global de artigos para busca
 const allArticles = [
 {
+    title: 'PMs Viram Réus por Roubo Fardado',
+    description: 'Três policiais militares do RJ foram presos em flagrante por roubar 11 celulares de passageiros de ônibus durante o expediente, configurando roubo qualificado, abuso de autoridade e responsabilidade civil do Estado.',
+    category: 'Direito Penal',
+    url: 'direito-militar/pms-presos-roubo-celulares-onibus-expediente-rj-2026.html',
+    tags: ['PM Preso', 'Roubo Qualificado', 'Abuso de Autoridade', 'Segurança Pública RJ', 'Corregedoria PM', 'Direito Penal', 'PMs Viram Réus por Roubo Fardado']
+},
+{
+    title: 'Código Civil Ignora a Família Real',
+    description: 'Especialistas e juristas debatem no Senado a urgência de reformar o Código Civil no campo do direito de família e das sucessões, apontando lacunas sobre herança digital, reprodução assistida, divórcio unilateral e união homoafetiva.',
+    category: 'Direito de Família',
+    url: 'direito-de-familia/codigo-civil-ignora-familia-real-reforma-urgente-sucessoes.html',
+    tags: ['Código Civil', 'Direito de Família', 'Direito das Sucessões', 'Divórcio Unilateral', 'União Homoafetiva', 'Herança Digital', 'PL 4/2025', 'Código Civil Ignora a Família Real']
+},
+{
+    title: 'Migração Partidária Reforça Centro-Direita na Câmara',
+    description: 'Levantamento do TSE revela que 10% dos deputados federais já mudou de partido antes da janela partidária de abril de 2026, com o centro-direita ganhando força na Câmara e alterando o equilíbrio parlamentar.',
+    category: 'Política',
+    url: 'politica/migracao-partidaria-reforco-centro-direita-camara-janela-2026.html',
+    tags: ['Janela Partidária', 'Migração Partidária', 'Centro-Direita', 'Câmara dos Deputados', 'TSE', 'Eleições 2026', 'Infidelidade Partidária', 'Migração Partidária Reforça Centro-Direita na Câmara']
+},
+{
+    title: 'Senado Aprova Redução de Penas',
+    description: 'O Senado Federal aprovou o PL da dosimetria, que reduz os percentuais de cumprimento de pena em regime fechado para condenados pelo 8 de Janeiro. O texto segue para sanção presidencial e pode beneficiar o ex-presidente Jair Bolsonaro.',
+    category: 'Direito Criminal',
+    url: 'direito-penal/senado-aprova-reducao-penas-8j-dosimetria-sancao.html',
+    tags: ['PL da Dosimetria', '8 de Janeiro', 'Progressão de Regime', 'Lei de Execução Penal', 'Bolsonaro', 'Senado Federal', 'Direito Penal', 'Senado Aprova Redução de Penas do 8J']
+},
+{
+    title: 'Rio Protege Servidores do Assédio Funcional',
+    description: 'A Prefeitura do Rio publicou a Resolução SMIT nº 23, que institui o Guia de Acolhimento na Apuração de Assédio, tornando obrigatório o tratamento humanizado e sigiloso às vítimas de assédio moral e sexual na administração pública municipal.',
+    category: 'Direito Trabalhista',
+    url: 'direito-trabalhista/rio-protege-servidores-assedio-funcional-guia-smit.html',
+    tags: ['Assédio Moral', 'Assédio Sexual', 'Servidor Público', 'SMIT', 'Prefeitura do Rio', 'Lei 14.540/2023', 'Direito Trabalhista', 'Rio Protege Servidores do Assédio Funcional']
+},
+{
+    title: 'CGU Eleva o Padrão do Compliance',
+    description: 'A Portaria Normativa CGU 226/25 eleva o padrão dos programas de integridade nas contratações públicas, exigindo efetividade real e não apenas conformidade documental, sob pena de severas sanções administrativas.',
+    category: 'Compliance',
+    url: 'compliance/cgu-eleva-padrao-compliance-contratacoes-publicas-pn-226-25.html',
+    tags: ['CGU', 'Compliance', 'Contratações Públicas', 'Integridade', 'PN CGU 226/25', 'Licitações', 'Anticorrupção', 'CGU Eleva o Padrão do Compliance']
+},
+{
+    title: 'Dez Anos do CPC',
+    description: 'Webinar promovido pelo TJRR debate os dez anos do CPC de 2015, analisando a consolidação da jurisprudência, o sistema de precedentes obrigatórios e os desafios práticos do processo civil brasileiro.',
+    category: 'Jurisprudência',
+    url: 'jurisprudencia/dez-anos-cpc-2015-webinar-legado-jurisprudencia.html',
+    tags: ['CPC 2015', 'Código de Processo Civil', 'Jurisprudência', 'Precedentes Obrigatórios', 'TJRR', 'Webinar', 'Dez Anos do CPC']
+},
+{
     title: 'SC regulamenta Cordão de Girassol para deficiências ocultas',
     description: 'A Assembleia Legislativa de Santa Catarina aprovou legislação que oficializa o uso do Cordão de Girassol como símbolo de identificação de pessoas com deficiências não aparentes, como autismo, surdez e condições cognitivas.',
     category: 'Legislacao',
