@@ -185,7 +185,7 @@ const banners = [
   active: false,
   start: "2026-03-01",
   end: "2026-03-30",
-  image: "img/seja-nosso-apoiador.gif",
+  image: window.innerWidth <= 768 ? "img/banner-mobile-uol.png" : "img/banner-uol.png", 
   link: "https://api.whatsapp.com/send/?phone=5521990670186&text=Ol%C3%A1%21+Gostaria+de+informa%C3%A7%C3%B5es+sobre+como+ser+membro+do+site+Justi%C3%A7a+em+Dia.+Poderia+ajudar%3F&type=phone_number&app_absent=0",
   position: "antes-destaques"
 },
@@ -195,7 +195,7 @@ const banners = [
   active: false,
   start: "2026-03-01",
   end: "2026-03-30",
-  image: "img/seja-nosso-apoiador.gif",
+  image: window.innerWidth <= 768 ? "img/banner-mobile-uol.png" : "img/banner-uol.png", 
   link: "https://api.whatsapp.com/send/?phone=5521990670186&text=Ol%C3%A1%21+Gostaria+de+informa%C3%A7%C3%B5es+sobre+como+ser+membro+do+site+Justi%C3%A7a+em+Dia.+Poderia+ajudar%3F&type=phone_number&app_absent=0",
   position: "depois-destaques"
 }

@@ -1,6 +1,17 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
-    {
+   
+   {
+    title: "Tolerância zero: o arcabouço legal contra violência feminina",
+    date: "06/03/2026",
+    timestamp: "2026-03-06T07:00:00",
+    image: "../img/tolerancia-zero-arcabouco-legal-violencia-contra-mulher.jpg",
+    excerpt: "A política de tolerância zero à violência contra a mulher é um arcabouço normativo que vai além da punição e busca transformar as estruturas sociais que perpetuam a violência de gênero no Brasil.",
+    link: "../direito-de-familia/tolerancia-zero-arcabouco-legal-violencia-contra-mulher.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+ {
     title: "Instagram Pode Entrar na Partilha de Bens?",
     date: "05/03/2026",
     timestamp: "2026-03-05T07:00:00",

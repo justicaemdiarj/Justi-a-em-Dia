@@ -1,7 +1,18 @@
 // Dados de notícias para Política
 const categoryNewsData = [
   
-  {
+    {
+    title: "MDB se divide e rejeita vice na chapa de Lula",
+    date: "06/03/2026",
+    timestamp: "2026-03-06T07:00:00",
+    image: "../img/mdb-divide-rejeita-vice-chapa-lula-eleicoes-2026.jpg",
+    excerpt: "A maioria dos diretórios estaduais do MDB formalizou manifesto rejeitando aliança nacional com o PT e pedindo neutralidade nas eleições presidenciais de 2026, em reação à ofensiva do Planalto para colocar um nome da sigla como vice de Lula.",
+    link: "../politica/mdb-divide-rejeita-vice-chapa-lula-eleicoes-2026.html",
+    category: "Politica",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+ {
     title: "Trump Admite Vácuo de Poder no Irã",
     date: "06/03/2026",
     timestamp: "2026-03-06T07:00:00",

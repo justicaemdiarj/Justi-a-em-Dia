@@ -1,6 +1,17 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
-     {
+    {
+    title: "SC regulamenta Cordão de Girassol para deficiências ocultas",
+    date: "06/03/2026",
+    timestamp: "2026-03-06T07:00:00",
+    image: "../img/sc-regulamenta-cordao-girassol-deficiencias-ocultas-alesc.jpg",
+    excerpt: "A Assembleia Legislativa de Santa Catarina aprovou legislação que oficializa no âmbito estadual o uso do Cordão de Girassol como símbolo de identificação de pessoas com deficiências não aparentes, como autismo, surdez e condições cognitivas.",
+    link: "../legislacao/sc-regulamenta-cordao-girassol-deficiencias-ocultas-alesc.html",
+    category: "Legislacao",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+ {
         title: "Nova Norma da Receita Federal Sobre Multas Beneficia Empresas",
         date: "04/03/2026",
         timestamp: "2026-03-04T07:00:00",

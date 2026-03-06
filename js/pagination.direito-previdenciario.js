@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
         {
+    title: "TRF-4 garante aposentadoria negada por 48 horas",
+    date: "06/03/2026",
+    timestamp: "2026-03-06T07:00:00",
+    image: "../img/trf4-aposentadoria-invalidez-inss-periodo-graca-doenca-dinamica.jpg",
+    excerpt: "O TRF-4, por unanimidade, concedeu aposentadoria por incapacidade permanente a segurado que havia sido privado do benefício por uma diferença de apenas 48 horas no cômputo do período de graça, firmando que a doença deve ser analisada como processo dinâmico.",
+    link: "../direito-trabalhista/trf4-aposentadoria-invalidez-inss-periodo-graca-doenca-dinamica.html",
+    category: "Direito Trabalhista",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+  {
         title: "Corte trabalhista rejeita adicional de risco a bancário por combustível guardado no edifício onde trabalha",
         date: "01/03/2026",
         timestamp: "2026-03-01T12:00:00",

@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
     {
+    title: "SBT condenado por humilhação em programa televisivo",
+    date: "06/03/2026",
+    timestamp: "2026-03-06T07:00:00",
+    image: "../img/sbt-condenado-humilhacao-programa-televisivo-ratinho-danos-morais.jpg",
+    excerpt: "A 9ª Vara Cível de São Paulo condenou o SBT ao pagamento de R$ 30 mil por danos morais a participante do Programa do Ratinho submetido a exposição vexatória em rede nacional, com determinação de remoção do conteúdo das plataformas digitais da emissora.",
+    link: "../direito-civil/sbt-condenado-humilhacao-programa-televisivo-ratinho-danos-morais.html",
+    category: "Direito Civil",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+{
     title: "Responsabilidade Objetiva e Nexo Causal no STJ",
     date: "05/03/2026",
     timestamp: "2026-03-05T07:00:00",

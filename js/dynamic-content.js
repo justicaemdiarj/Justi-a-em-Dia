@@ -12,7 +12,30 @@ const tickerConfig = {
 };
 
 const globalNewsData = [
-  
+{
+    title: "SC regulamenta Cordão de Girassol para deficiências ocultas",
+    link: "legislacao/sc-regulamenta-cordao-girassol-deficiencias-ocultas-alesc.html",
+},
+{
+    title: "MDB se divide e rejeita vice na chapa de Lula",
+    link: "politica/mdb-divide-rejeita-vice-chapa-lula-eleicoes-2026.html",
+},
+{
+    title: "TRF-4 garante aposentadoria negada por 48 horas",
+    link: "direito-trabalhista/trf4-aposentadoria-invalidez-inss-periodo-graca-doenca-dinamica.html",
+},
+{
+    title: "SBT condenado por humilhação em programa televisivo",
+    link: "direito-civil/sbt-condenado-humilhacao-programa-televisivo-ratinho-danos-morais.html",
+},
+{
+    title: "Tolerância zero: o arcabouço legal contra violência feminina",
+    link: "direito-de-familia/tolerancia-zero-arcabouco-legal-violencia-contra-mulher.html",
+}, 
+{
+    title: "MPRJ reverte posição e pede internação de menor",
+    link: "direito-penal/mprj-reverte-posicao-pede-internacao-menor-estupro-coletivo.html",
+}, 
 {
     title: "Alcolumbre Bloqueia Indicação de Messias ao STF",
     link: "politica/alcolumbre-bloqueia-indicacao-messias-stf-2026.html",
@@ -60,18 +83,6 @@ const globalNewsData = [
     {
         title: "A Decisão do TJMG que Ameaça Décadas de Proteção à Infância",
         link: "direito-penal/casamento-crianca-crime-tjmg-estupro-vulneravel-protecao-infancia.html",
-    },
-    {
-        title: "STM Concede Pela Primeira Vez Medidas Protetivas a Militar",
-        link: "direito-militar/stm-medidas-protetivas-militar-trans-assedio-sexual.html",
-    },
-    {
-        title: "Empresa e Advogado São Condenados pelo TST",
-        link: "direito-trabalhista/empresa-advogado-condenados-tst-citacoes-falsas-jurisprudencia.html",
-    },
-    {
-        title: "Projeto de Lei Proíbe Cobrança Extra para Famílias Ocuparem Assentos Vizinhos",
-        link: "direito-civil/projeto-lei-proibe-cobranca-familias-assentos-vizinhos-voos.html",
     },
 ];
 

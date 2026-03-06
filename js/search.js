@@ -1,6 +1,47 @@
 // Base de dados global de artigos para busca
 const allArticles = [
-
+{
+    title: 'SC regulamenta Cordão de Girassol para deficiências ocultas',
+    description: 'A Assembleia Legislativa de Santa Catarina aprovou legislação que oficializa o uso do Cordão de Girassol como símbolo de identificação de pessoas com deficiências não aparentes, como autismo, surdez e condições cognitivas.',
+    category: 'Legislacao',
+    url: 'legislacao/sc-regulamenta-cordao-girassol-deficiencias-ocultas-alesc.html',
+    tags: ['Cordão de Girassol', 'Deficiências Ocultas', 'ALESC', 'Inclusão', 'SC regulamenta Cordão de Girassol para deficiências ocultas']
+},
+{
+    title: 'MDB se divide e rejeita vice na chapa de Lula',
+    description: 'A maioria dos diretórios estaduais do MDB formalizou manifesto rejeitando aliança nacional com o PT e pedindo neutralidade nas eleições presidenciais de 2026.',
+    category: 'Politica',
+    url: 'politica/mdb-divide-rejeita-vice-chapa-lula-eleicoes-2026.html',
+    tags: ['MDB', 'Lula', 'Eleições 2026', 'Baleia Rossi', 'MDB se divide e rejeita vice na chapa de Lula']
+},
+{
+    title: 'TRF-4 garante aposentadoria negada por 48 horas',
+    description: 'O TRF-4, por unanimidade, concedeu aposentadoria por incapacidade permanente a segurado privado do benefício por diferença de apenas 48 horas no período de graça, reafirmando que as doenças devem ser analisadas como processos dinâmicos.',
+    category: 'Direito Trabalhista',
+    url: 'direito-trabalhista/trf4-aposentadoria-invalidez-inss-periodo-graca-doenca-dinamica.html',
+    tags: ['INSS', 'Aposentadoria por Invalidez', 'Período de Graça', 'TRF-4', 'TRF-4 garante aposentadoria negada por 48 horas']
+},
+{
+    title: 'SBT condenado por humilhação em programa televisivo',
+    description: 'A 9ª Vara Cível de São Paulo condenou o SBT ao pagamento de R$ 30 mil por danos morais a participante do Programa do Ratinho submetido a exposição vexatória em rede nacional.',
+    category: 'Direito Civil',
+    url: 'direito-civil/sbt-condenado-humilhacao-programa-televisivo-ratinho-danos-morais.html',
+    tags: ['SBT', 'Danos Morais', 'Direito à Imagem', 'Programa do Ratinho', 'SBT condenado por humilhação em programa televisivo']
+},
+{
+    title: 'Tolerância zero: o arcabouço legal contra violência feminina',
+    description: 'A política de tolerância zero à violência contra a mulher é um arcabouço normativo que vai além da punição e busca transformar as estruturas sociais que perpetuam a violência de gênero no Brasil.',
+    category: 'Direito de Família',
+    url: 'direito-de-familia/tolerancia-zero-arcabouco-legal-violencia-contra-mulher.html',
+    tags: ['Violência contra a Mulher', 'Lei Maria da Penha', 'Feminicídio', 'Tolerância Zero', 'Tolerância zero: o arcabouço legal contra violência feminina']
+},
+{
+    title: 'MPRJ reverte posição e pede internação de menor',
+    description: 'Após novas vítimas emergirem no caso de estupro coletivo de Copacabana, o MPRJ reverteu sua posição e passou a requerer a internação provisória do adolescente investigado.',
+    category: 'Direito Criminal',
+    url: 'direito-penal/mprj-reverte-posicao-pede-internacao-menor-estupro-coletivo.html',
+    tags: ['Estupro Coletivo', 'MPRJ', 'Internação de Menor', 'Ato Infracional', 'MPRJ reverte posição e pede internação de menor']
+},
 {
     title: 'Trump Admite Vácuo de Poder no Irã',
     description: 'Trump admitiu que ataques de EUA e Israel eliminaram os possíveis sucessores de Khamenei no Irã e anunciou terceira onda de bombardeios enquanto contra-ataques iranianos ameaçam o Estreito de Ormuz.',

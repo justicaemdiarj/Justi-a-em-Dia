@@ -1,13 +1,22 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
-    {
+   {
+    title: "MPRJ reverte posição e pede internação de menor",
+    date: "06/03/2026",
+    timestamp: "2026-03-06T07:00:00",
+   image: "../img/mprj-reverte-posicao-pede-internacao-menor-estupro-coletivo.jpg",
+    excerpt: "Após novas vítimas emergirem no caso de estupro coletivo de Copacabana, o MPRJ reverteu sua posição e passou a requerer a internação provisória do adolescente investigado.",
+    link: "../direito-penal/mprj-reverte-posicao-pede-internacao-menor-estupro-coletivo.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+ {
     title: "Operação Argos: PF Age Contra Abuso Sexual Infantil",
     date: "05/03/2026",
     timestamp: "2026-03-05T07:00:00",
     image: "../img/operacao-argos-pf-abuso-sexual-infantojuvenil-porto-velho.jpg",
     excerpt: "A Polícia Federal deflagrou a Operação Argos em Porto Velho para combater crimes de abuso sexual infantojuvenil, cumprindo mandado de busca e apreensão expedido pela Justiça Federal de Rondônia.",
     link: "../direito-penal/operacao-argos-pf-abuso-sexual-infantojuvenil-porto-velho.html",
-    category: "direito-penal",
     author: "Justiça em Dia",
     authorLink: "#"
     },
@@ -18,7 +27,6 @@ const categoryNewsData = [
         image: "../img/casamento-crianca-crime-tjmg-estupro-vulneravel-protecao-infancia.jpg",
         excerpt: "Uma decisão proferida pela 9ª Câmara Criminal Especializada do Tribunal de Justiça de Minas Gerais..",
         link: "../direito-penal/casamento-crianca-crime-tjmg-estupro-vulneravel-protecao-infancia.html",
-        category: "Direito Penal",
         author: "Justiça em Dia",
         authorLink: "#"
     },
@@ -29,7 +37,6 @@ const categoryNewsData = [
         image: "../img/habeas-corpus-garantia-que-ninguem-pode.jpg",
         excerpt: "O Superior Tribunal de Justiça enviou recado inequívoco aos tribunais estaduais: o habeas corpus é garantia constitucional...",
         link: "../direito-penal/habeas-corpus-garantia-que-ninguem-pode-confiscar.html",
-        category: "Direito Penal",
         author: "Justiça em Dia",
         authorLink: "#"
     },
@@ -40,7 +47,6 @@ const categoryNewsData = [
         image: "https://media.gazetadopovo.com.br/2025/10/15221712/stf-ensino-genero-660x372.jpg.webp",
         excerpt: "Ministros aplicam princípio de que não há nulidade sem prejuízo demonstrado, mas penalistas...",
         link: "../direito-penal/stf-segunda-turma-decide-que-exibicao-de-video.html",
-        category: "Direito Penal",
         author: "Justiça em Dia",
         authorLink: "#"
     },
@@ -51,7 +57,6 @@ const categoryNewsData = [
         image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80",
         excerpt: "Tribunal do Distrito Federal reconhece produção para uso terapêutico próprio e derruba prisão preventiva...",
         link: "../direito-penal/tj-df-libera-casal-preso-e-reconhece-dominio-tecnico-na-producao-domestica-de-cannabis-para-fins-terapeuticos.html",
-        category: "Direito Penal",
         author: "Justiça em Dia",
         authorLink: "#"
     },

@@ -1,13 +1,22 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
-    {
+   {
+    title: "MPRJ reverte posição e pede internação de menor",
+    date: "06/03/2026",
+    timestamp: "2026-03-06T07:00:00",
+    image: "../img/mprj-reverte-posicao-pede-internacao-menor-estupro-coletivo.jpg",
+    excerpt: "Após novas vítimas emergirem no caso de estupro coletivo de Copacabana, o MPRJ reverteu sua posição e passou a requerer a internação provisória do adolescente investigado.",
+    link: "../direito-penal/mprj-reverte-posicao-pede-internacao-menor-estupro-coletivo.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+ {
         title: "A Decisão do TJMG que Ameaça Décadas de Proteção à Infância",
       	date: "04/03/2026",
         timestamp: "2026-03-04T07:00:00",
         image: "../img/casamento-crianca-crime-tjmg-estupro-vulneravel-protecao-infancia.jpg",
         excerpt: "Uma decisão proferida pela 9ª Câmara Criminal Especializada do Tribunal de Justiça de Minas Gerais..",
         link: "../direito-penal/casamento-crianca-crime-tjmg-estupro-vulneravel-protecao-infancia.html",
-        category: "Direito Penal",
         author: "Justiça em Dia",
         authorLink: "#"
     },
