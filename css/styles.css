@@ -59,7 +59,7 @@ body {
     align-items: center;
     gap: 10px;
     padding: 10px 0;
-    margin-left: auto;
+    margin-left: 550px;
 }
 
 body {
@@ -2618,6 +2618,8 @@ img {
     opacity: 0.9;
 }
 
+
+
 .share-icon.fb { background-color: #3b5998; }
 .share-icon.wa { background-color: #25d366; }
 .share-icon.ig { background-color: #e4405f; }
@@ -2743,7 +2745,7 @@ img {
     }
     
     .post-content h3 {
-        font-size: 1.4rem !important;
+        font-size: 1.2rem !important;
     }
 }
 
