@@ -1719,6 +1719,9 @@ img {
     .category-post-title {
         margin-top: 15px;
     }
+    .article-wrapper{
+    margin: 0 20px;
+}
 }
 
 /* Novos Estilos Articles Section (Inspirado em Vila de São Jorge) */
@@ -1727,9 +1730,7 @@ img {
     background-color: #ffffff;
 }
 
-.article-wrapper{
-    margin: 20px;
-}
+
 
 .articles-grid {
     display: grid;
