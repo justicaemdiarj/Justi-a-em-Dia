@@ -21,7 +21,7 @@ const globalNewsData = [
         link: "politica/lula-apoio-paes-rj-chapa-competitiva-eleicoes-2026.html",
 },
 {
-        title: "Processos Explodem na Justiça Laboral",
+        title: "Processos Explodem na Justiça",
         link: "direito-trabalhista/assedio-moral-sexual-processos-trabalhistas-aumento-2025.html",
 },
 {

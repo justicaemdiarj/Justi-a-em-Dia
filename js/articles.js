@@ -18,7 +18,7 @@ const posts = [
   section: "featured-secundario"
 },
   {
-    title: "STJ Decide: Droga Apreendida Afasta Benefício Penal?",
+    title: "Droga Apreendida Afasta Benefício Penal?",
    image: "img/stj-quantidade-droga-trafico-privilegiado-dosimetria-pena.jpg",
     link: "direito-penal/stj-quantidade-droga-trafico-privilegiado-dosimetria-pena.html",
     date: "2026-03-08T07:00:00",
@@ -53,7 +53,7 @@ const posts = [
     section: "veja"
   },
   {
-    title: "Assédio no Trabalho: Processos Explodem na Justiça Laboral",
+    title: "Processos Explodem na Justiça",
    image: "img/assedio-moral-sexual-processos-trabalhistas-aumento-2025.jpg",
     link: "direito-trabalhista/assedio-moral-sexual-processos-trabalhistas-aumento-2025.html",
     date: "2026-03-08T07:00:00",
@@ -234,7 +234,7 @@ document.addEventListener("DOMContentLoaded", function(){
     date: "2026-03-06T07:00:00"
 },
 {
- title: "STJ Decide: Droga Apreendida Afasta Benefício Penal?",
+ title: "Droga Apreendida Afasta Benefício Penal?",
       link: "direito-penal/stj-quantidade-droga-trafico-privilegiado-dosimetria-pena.html",
       date: "2026-03-08T07:00:00"
 },
