@@ -300,10 +300,10 @@ document.addEventListener("DOMContentLoaded", function(){
 const principaisNoticias = [
 
 {
-title: "O Que é Revelado Sobre o Caso do Banco Master e os Limites do Compliance",
-link: "compliance/banco-master-compliance-gestao-fraudulenta-temeraria-limites-governanca.html",
+title: "O STF e os Limites do Poder Municipal Sobre a Sala de Aula",
+link: "legislacao/stf-limites-do-poder-municipal-sobre-sala-de-aula.html",
 source: "",
-date: "2026-03-04T07:00:00",
+date: "2026-03-03T07:00:00",
 },
 
 {
