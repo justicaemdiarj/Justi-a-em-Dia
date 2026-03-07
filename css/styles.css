@@ -1747,10 +1747,10 @@ img {
 }
 
 .banner-sidebar {
-    display: block;
-    margin: 30px auto;
-    max-width: 336px;
     width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
 }
 
 .banner-sidebar {
@@ -1767,26 +1767,6 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-.sidebar {
-    padding-left: 20px;
-}
-
-.main-content {
-    padding-right: 20px;
-}
-
-body {
-    overflow-x: hidden;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-.banner-sidebar {
-    max-width: 336px;
 }
 
 
