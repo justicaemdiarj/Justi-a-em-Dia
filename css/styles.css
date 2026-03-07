@@ -1760,15 +1760,6 @@ img {
     display: block;
 }
 
-ins.adsbygoogle,
-iframe,
-img {
-    max-width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 
 /* Novos Estilos Articles Section (Inspirado em Vila de São Jorge) */
 .articles-section {
