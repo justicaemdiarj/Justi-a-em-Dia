@@ -10,14 +10,7 @@ body {
     line-height: 1.6;
 }
 
-.menu-mobile{
-   transform: translateX(-100%);
-   transition: 0.3s;
-}
 
-.menu-open .menu-mobile{
-   transform: translateX(0);
-}
 
 /* Estilo para o botão de leitura integrado ao compartilhar */
 .btn-read-audio {
