@@ -237,7 +237,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 15px;
 }
 
 a {
@@ -1725,6 +1725,10 @@ img {
 .articles-section {
     padding: 1rem 0;
     background-color: #ffffff;
+}
+
+.article-wrapper{
+    margin: 20px;
 }
 
 .articles-grid {
