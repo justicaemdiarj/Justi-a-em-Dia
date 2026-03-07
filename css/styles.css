@@ -1737,6 +1737,59 @@ img {
     }
 }
 
+.container,
+.main-container,
+.content-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.banner-sidebar {
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+}
+
+.banner-sidebar {
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+}
+
+ins.adsbygoogle,
+iframe,
+img {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sidebar {
+    padding-left: 20px;
+}
+
+.main-content {
+    padding-right: 20px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.banner-sidebar {
+    max-width: 336px;
+}
+
+
 /* Novos Estilos Articles Section (Inspirado em Vila de São Jorge) */
 .articles-section {
     padding: 1rem 0;
