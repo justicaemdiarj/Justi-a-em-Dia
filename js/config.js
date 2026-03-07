@@ -46,7 +46,7 @@ const siteConfig = {
             { title: "Jurisprudência", link: "jurisprudencia" },
             { title: "Legislação", link: "legislacao" },
     
-    
+    ]
         // Configuração do Footer (Gerenciamento em Massa)
     
     footer: {
