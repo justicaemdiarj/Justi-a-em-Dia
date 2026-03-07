@@ -1,34 +1,34 @@
 const posts = [
 {
+    title: "Consumidor Brasileiro Desprotegido Frente à Europa",
+    description: "Padrões manipulativos de design no e-commerce exploram a vulnerabilidade do consumidor brasileiro enquanto a Europa já pune as práticas com severidade",
+    description2: "Dark patterns e a omissão regulatória brasileira diante de milhões de consumidores manipulados digitalmente",
+    image: "img/armadilhas-digitais-consumidor-brasileiro-desprotegido-frente-europa.jpg",
+    link: "direito-civil/armadilhas-digitais-consumidor-brasileiro-desprotegido-frente-europa.html",
+    date: "2026-03-08T07:00:00",
+  section: "featured"
+},
+  {
     title: "CGU Eleva o Padrão do Compliance",
     description: "Portaria Normativa CGU 226/25 transforma a avaliação de programas de integridade nas contratações públicas brasileiras",
     description2: "Empresas com compliance de fachada arriscam inidoneidade e exclusão definitiva de licitações públicas",
     image: "img/cgu-eleva-padrao-compliance-contratacoes-publicas-pn-226-25.jpg",
     link: "compliance/cgu-eleva-padrao-compliance-contratacoes-publicas-pn-226-25.html",
     date: "2026-03-07T07:00:00",
-  section: "featured"
-},
-  {
-  title: "Tolerância zero: o arcabouço legal contra violência feminina",
-  description: "Legislação protetiva vai além da punição e transforma relações sociais",
-  description2: "A violência psicológica como tipo penal autônomo",
-  image: "img/tolerancia-zero-arcabouco-legal-violencia-contra-mulher.jpg",
-  link: "direito-de-familia/tolerancia-zero-arcabouco-legal-violencia-contra-mulher.html",
-  date: "2026-03-06T07:00:00",
   section: "featured-secundario"
 },
   {
-    title: "SBT condenado por humilhação em programa televisivo",
-    image: "img/sbt-condenado-humilhacao-programa-televisivo-ratinho-danos-morais.jpg",
-    link: "direito-civil/sbt-condenado-humilhacao-programa-televisivo-ratinho-danos-morais.html",
-    date: "2026-03-06T07:00:00",
+    title: "STJ Decide: Droga Apreendida Afasta Benefício Penal?",
+   image: "img/stj-quantidade-droga-trafico-privilegiado-dosimetria-pena.jpg",
+    link: "direito-penal/stj-quantidade-droga-trafico-privilegiado-dosimetria-pena.html",
+    date: "2026-03-08T07:00:00",
     section: "destaque"
   },
    {
-    title: "SC regulamenta Cordão de Girassol para deficiências ocultas",
-    image: "img/sc-regulamenta-cordao-girassol-deficiencias-ocultas-alesc.jpg",
-    link: "legislacao/sc-regulamenta-cordao-girassol-deficiencias-ocultas-alesc.html",
-    date: "2026-03-06T07:00:00",
+    title: "Cartórios na Linha de Frente Contra Violência Patrimonial Feminina",
+   image: "img/cartorios-protecao-patrimonial-mulheres-violencia-silenciosa.jpg",
+    link: "direito-de-familia/cartorios-protecao-patrimonial-mulheres-violencia-silenciosa.html",
+    date: "2026-03-08T07:00:00",
     section: "destaque"
   },
   {
@@ -46,17 +46,17 @@ const posts = [
     section: "veja"
   },
   {
-    title: "Código Civil Ignora a Família Real",
-    image: "img/codigo-civil-ignora-familia-real-reforma-urgente-sucessoes.jpg",
-    link: "direito-de-familia/codigo-civil-ignora-familia-real-reforma-urgente-sucessoes.html",
-    date: "2026-03-07T07:00:00",
+    title: "Lula Apoia Paes no RJ, Mas Exige Chapa Competitiva",
+    image: "img/lula-apoio-paes-rj-chapa-competitiva-eleicoes-2026.jpg",
+    link: "politica/lula-apoio-paes-rj-chapa-competitiva-eleicoes-2026.html",
+    date: "2026-03-08T07:00:00",
     section: "veja"
   },
   {
-    title: "TRF-4 garante aposentadoria negada por 48 horas",
-    image: "img/trf4-aposentadoria-invalidez-inss-periodo-graca-doenca-dinamica.jpg",
-    link: "direito-trabalhista/trf4-aposentadoria-invalidez-inss-periodo-graca-doenca-dinamica.html",
-    date: "2026-03-06T07:00:00",
+    title: "Assédio no Trabalho: Processos Explodem na Justiça Laboral",
+   image: "img/assedio-moral-sexual-processos-trabalhistas-aumento-2025.jpg",
+    link: "direito-trabalhista/assedio-moral-sexual-processos-trabalhistas-aumento-2025.html",
+    date: "2026-03-08T07:00:00",
     section: "veja"
   }
 ];
@@ -234,9 +234,9 @@ document.addEventListener("DOMContentLoaded", function(){
     date: "2026-03-06T07:00:00"
 },
 {
-    title: "SBT condenado por humilhação em programa televisivo",
-    link: "direito-civil/sbt-condenado-humilhacao-programa-televisivo-ratinho-danos-morais.html",
-    date: "2026-03-06T07:00:00"
+ title: "STJ Decide: Droga Apreendida Afasta Benefício Penal?",
+      link: "direito-penal/stj-quantidade-droga-trafico-privilegiado-dosimetria-pena.html",
+      date: "2026-03-08T07:00:00"
 },
  {
     title: "Rio Protege Servidores do Assédio Funcional",

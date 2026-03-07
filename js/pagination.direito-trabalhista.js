@@ -1,6 +1,15 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
-
+{
+    title: "Processos Explodem na Justiça Laboral",
+    date: "08/03/2026",
+    timestamp: "2026-03-08T07:00:00",
+    image: "../img/assedio-moral-sexual-processos-trabalhistas-aumento-2025.jpg",
+    excerpt: "Em 2025, a Justiça do Trabalho registrou alta de 22% nos processos de assédio moral e 40% nos de assédio sexual. Os números revelam tanto o avanço da conscientização quanto a persistência das condutas abusivas nas relações laborais.",
+    link: "../direito-trabalhista/assedio-moral-sexual-processos-trabalhistas-aumento-2025.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 {
     title: "Rio Protege Servidores do Assédio Funcional",
     date: "07/03/2026",

@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
-    {
+   {
+    title: "Consumidor Brasileiro Desprotegido Frente à Europa",
+    date: "08/03/2026",
+    timestamp: "2026-03-08T07:00:00",
+    image: "../img/armadilhas-digitais-consumidor-brasileiro-desprotegido-frente-europa.jpg",
+    excerpt: "Padrões manipulativos de design no e-commerce exploram vulnerabilidades do consumidor brasileiro enquanto a Europa já pune com severidade.",
+    link: "../direito-civil/armadilhas-digitais-consumidor-brasileiro-desprotegido-frente-europa.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+{
         title: "Projeto de Lei Proíbe Cobrança Extra para Famílias Ocuparem Assentos Vizinhos",
       	date: "04/03/2026",
         timestamp: "2026-03-04T07:00:00",

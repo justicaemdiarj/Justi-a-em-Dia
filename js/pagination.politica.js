@@ -1,7 +1,27 @@
 // Dados de notícias para Política
 const categoryNewsData = [
   
-  {
+{
+    title: "Paes Joga Xadrez Enquanto Rio Elege Governador na Surdina",
+    date: "08/03/2026",
+    timestamp: "2026-03-08T07:00:00",
+    image: "../img/paes-eleicao-indireta-rio-governador-tampao-alerj-2026.jpg",
+    excerpt: "Com a dupla vacância no Executivo fluminense, o Rio de Janeiro caminha para uma eleição indireta na Alerj. Paes articula alianças para outubro enquanto a direita disputa quem ocupará o Palácio Guanabara antes do pleito.",
+    link: "../politica/paes-eleicao-indireta-rio-governador-tampao-alerj-2026.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+{
+    title: "Lula Apoia Paes no RJ, Mas Exige Chapa Competitiva",
+    date: "08/03/2026",
+    timestamp: "2026-03-08T07:00:00",
+    image: "../img/lula-apoio-paes-rj-chapa-competitiva-eleicoes-2026.jpg",
+    excerpt: "Lula confirma apoio a Eduardo Paes para o governo do Rio em 2026, mas exige aliança eleitoral ampla. PT reivindica vaga no Senado para Benedita da Silva em meio às tensões da composição da chapa fluminense.",
+    link: "../politica/lula-apoio-paes-rj-chapa-competitiva-eleicoes-2026.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+}, 
+{
     title: "Migração Partidária Reforça Centro-Direita na Câmara",
     date: "08/03/2026",
     timestamp: "2026-03-08T07:00:00",

@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
-  {
+{
+    title: "Droga Apreendida Afasta Benefício Penal?",
+    date: "08/03/2026",
+    timestamp: "2026-03-08T07:00:00",
+    image: "../img/stj-quantidade-droga-trafico-privilegiado-dosimetria-pena.jpg",
+    excerpt: "A 3ª Seção do STJ suspendeu julgamento dos Temas 1.154 e 1.241 sobre tráfico privilegiado. A tese a ser fixada impactará a dosimetria penal em dezenas de milhares de processos criminais.",
+    link: "../direito-penal/stj-quantidade-droga-trafico-privilegiado-dosimetria-pena.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+{
     title: "Senado Aprova Redução de Penas",
     date: "07/03/2026",
     timestamp: "2026-03-07T07:00:00",

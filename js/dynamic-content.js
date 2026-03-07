@@ -13,6 +13,30 @@ const tickerConfig = {
 
 const globalNewsData = [
 {
+        title: "Paes Joga Xadrez Enquanto Rio Elege Governador na Surdina",
+        link: "politica/paes-eleicao-indireta-rio-governador-tampao-alerj-2026.html",
+},
+{
+        title: "Lula Apoia Paes no RJ, Mas Exige Chapa Competitiva",
+        link: "politica/lula-apoio-paes-rj-chapa-competitiva-eleicoes-2026.html",
+},
+{
+        title: "Processos Explodem na Justiça Laboral",
+        link: "direito-trabalhista/assedio-moral-sexual-processos-trabalhistas-aumento-2025.html",
+},
+{
+        title: "Droga Apreendida Afasta Benefício Penal?",
+        link: "direito-penal/stj-quantidade-droga-trafico-privilegiado-dosimetria-pena.html",
+},
+{
+        title: "Cartórios na Linha de Frente Contra Violência Patrimonial Feminina",
+        link: "direito-de-familia/cartorios-protecao-patrimonial-mulheres-violencia-silenciosa.html",
+},
+{
+        title: "Consumidor Brasileiro Desprotegido Frente à Europa",
+        link: "direito-civil/armadilhas-digitais-consumidor-brasileiro-desprotegido-frente-europa.html",
+},
+{
     title: "PMs Viram Réus por Roubo Fardado",
     link: "direito-militar/pms-presos-roubo-celulares-onibus-expediente-rj-2026.html",
 },

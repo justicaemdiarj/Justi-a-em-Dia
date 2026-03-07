@@ -1,7 +1,17 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
    
-   {
+{
+    title: "Cartórios na Linha de Frente Contra Violência Patrimonial Feminina",
+    date: "08/03/2026",
+    timestamp: "2026-03-08T07:00:00",
+    image: "../img/cartorios-protecao-patrimonial-mulheres-violencia-silenciosa.jpg",
+    excerpt: "O Registro de Imóveis do Brasil oferece orientação jurídica gratuita a mulheres sobre direitos patrimoniais em 11 estados, expondo o vazio do Estado na proteção financeira feminina.",
+    link: "../direito-de-familia/cartorios-protecao-patrimonial-mulheres-violencia-silenciosa.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+{
     title: "Código Civil Ignora a Família Real",
     date: "07/03/2026",
     timestamp: "2026-03-07T07:00:00",

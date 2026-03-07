@@ -1,6 +1,48 @@
 // Base de dados global de artigos para busca
 const allArticles = [
 {
+        title: 'Paes Joga Xadrez Enquanto Rio Elege Governador na Surdina',
+        description: 'Com a dupla vacância no Executivo fluminense, o Rio caminha para uma eleição indireta na Alerj. Eduardo Paes articula alianças para outubro enquanto a direita disputa quem ocupará o Palácio Guanabara antes do pleito de outubro de 2026.',
+        category: 'Política',
+        url: 'politica/paes-eleicao-indireta-rio-governador-tampao-alerj-2026.html',
+        tags: ['Eduardo Paes', 'eleição indireta', 'Rio de Janeiro', 'governador-tampão', 'Alerj', 'Cláudio Castro', 'eleições 2026', 'PSD', 'PL', 'Douglas Ruas', 'Palácio Guanabara', 'Senado', 'Jane Reis']
+},
+{
+        title: 'Lula Apoia Paes no RJ, Mas Exige Chapa Competitiva',
+        description: 'Lula confirma apoio a Eduardo Paes para o governo do Rio em 2026, mas exige formação de aliança eleitoral ampla. PT reivindica vaga no Senado para Benedita da Silva e monitora com ceticismo a composição da chapa fluminense.',
+        category: 'Política',
+        url: 'politica/lula-apoio-paes-rj-chapa-competitiva-eleicoes-2026.html',
+        tags: ['Lula', 'Eduardo Paes', 'eleições 2026', 'Rio de Janeiro', 'PT', 'PSD', 'Benedita da Silva', 'chapa eleitoral', 'Palácio Guanabara', 'Senado', 'Alerj', 'aliança política']
+},
+{
+        title: 'Assédio no Trabalho: Processos Explodem na Justiça Laboral',
+        description: 'Em 2025, a Justiça do Trabalho recebeu 142.828 novos processos de assédio moral (+22%) e 12.813 de assédio sexual (+40%). Os dados expõem a persistência das condutas abusivas e a crescente conscientização jurídica dos trabalhadores brasileiros.',
+        category: 'Direito Trabalhista',
+        url: 'direito-trabalhista/assedio-moral-sexual-processos-trabalhistas-aumento-2025.html',
+        tags: ['assédio moral', 'assédio sexual', 'Justiça do Trabalho', 'TST', 'direito trabalhista', 'CLT', 'rescisão indireta', 'violência laboral', 'ambiente de trabalho', 'dignidade do trabalhador', 'indenização trabalhista']
+},
+{
+        title: 'STJ Decide: Droga Apreendida Afasta Benefício Penal?',
+        description: 'A 3ª Seção do STJ suspendeu o julgamento dos Temas Repetitivos 1.154 e 1.241, que discutem se quantidade e natureza da droga podem afastar o tráfico privilegiado ou modular a fração de redução da pena na dosimetria penal.',
+        category: 'Direito Criminal',
+        url: 'direito-penal/stj-quantidade-droga-trafico-privilegiado-dosimetria-pena.html',
+        tags: ['tráfico privilegiado', 'STJ', 'dosimetria da pena', 'lei de drogas', 'temas repetitivos', 'minorante', 'bis in idem', 'direito penal', 'art. 33 lei 11.343', 'regime inicial']
+},
+{
+        title: 'Cartórios na Linha de Frente Contra Violência Patrimonial Feminina',
+        description: 'O Registro de Imóveis do Brasil lança plantão gratuito de orientação jurídica para mulheres sobre direitos patrimoniais em 11 estados. A iniciativa expõe a desinformação como principal vetor de vulnerabilidade feminina no Direito de Família.',
+        category: 'Direito de Família',
+        url: 'direito-de-familia/cartorios-protecao-patrimonial-mulheres-violencia-silenciosa.html',
+        tags: ['violência patrimonial', 'mulheres', 'registro de imóveis', 'Lei Maria da Penha', 'regime de bens', 'união estável', 'cartórios', 'direito de família', 'autonomia financeira feminina']
+},
+{
+        title: 'Armadilhas Digitais: Consumidor Brasileiro Desprotegido Frente à Europa',
+        description: 'Padrões manipulativos de design no comércio eletrônico exploram vulnerabilidades do consumidor brasileiro. Enquanto a União Europeia avança com o Digital Services Act, o Brasil ainda engatinha na fiscalização efetiva das dark patterns.',
+        category: 'Direito Civil',
+        url: 'direito-civil/armadilhas-digitais-consumidor-brasileiro-desprotegido-frente-europa.html',
+        tags: ['dark patterns', 'e-commerce', 'LGPD', 'CDC', 'direito do consumidor', 'Digital Services Act', 'proteção de dados', 'práticas abusivas digitais']
+},
+{
     title: 'PMs Viram Réus por Roubo Fardado',
     description: 'Três policiais militares do RJ foram presos em flagrante por roubar 11 celulares de passageiros de ônibus durante o expediente, configurando roubo qualificado, abuso de autoridade e responsabilidade civil do Estado.',
     category: 'Direito Penal',
