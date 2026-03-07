@@ -574,13 +574,48 @@ document.addEventListener('DOMContentLoaded', () => {
         let isReading = false;
         let utterance = null;
 
+        let voices = [];
+
+function loadVoices() {
+    voices = speechSynthesis.getVoices();
+}
+
+speechSynthesis.onvoiceschanged = loadVoices;
+
         readBtn.addEventListener('click', () => {
             if (!isReading) {
                 // Iniciar leitura
                 const textToRead = postContent.innerText;
-                utterance = new SpeechSynthesisUtterance(textToRead);
-                utterance.lang = 'pt-BR';
+       utterance = new SpeechSynthesisUtterance(textToRead);
+
+utterance.lang = 'pt-BR';
+
+const voice = speechSynthesis.getVoices().find(v => 
+    v.lang === 'pt-BR' || v.lang === 'pt_BR'
+);
+
+if (voice) {
+    utterance.voice = voice;
+}
                 
+function speakText(text) {
+
+    const parts = text.match(/.{1,200}/g); // divide em blocos
+
+    parts.forEach(part => {
+
+        const utterance = new SpeechSynthesisUtterance(part);
+        utterance.lang = 'pt-BR';
+
+        speechSynthesis.speak(utterance);
+
+    });
+
+}
+
+speakText(postContent.innerText);
+
+
                 utterance.onend = () => {
                     isReading = false;
                     readBtn.innerHTML = '<i class="fas fa-play"></i> <span>Ouvir</span>';

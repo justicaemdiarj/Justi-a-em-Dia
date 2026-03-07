@@ -440,3 +440,4 @@ ${n.title}
 }
 
 document.addEventListener("DOMContentLoaded", renderPrincipaisNoticias);
+
