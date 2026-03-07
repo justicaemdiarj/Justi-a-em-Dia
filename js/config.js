@@ -779,15 +779,6 @@ document.querySelector('aside');
     }, 300);
 }
 
-function alterarTextoApoiador() {
-    const textoAntigo = "Consulte um de nossos Apoiadores Jurídicos";
-    const textoNovo = "Consulte nossos Apoiadores";
-
-    document.body.innerHTML = document.body.innerHTML.replaceAll(textoAntigo, textoNovo);
-}
-
-// Executa quando a página carregar
-document.addEventListener("DOMContentLoaded", alterarTextoApoiador);
 
 /*
 // Formato da data: "YYYY-MM-DD HH:mm" (Ano-Mês-Dia Hora:Minuto)
