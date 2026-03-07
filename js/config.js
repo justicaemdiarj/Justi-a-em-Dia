@@ -45,7 +45,7 @@ const siteConfig = {
             { title: "Compliance", link: "compliance" },
             { title: "Jurisprudência", link: "jurisprudencia" },
             { title: "Legislação", link: "legislacao" },
-            { title: "Política", link: "política" },
+       //     { title: "Política", link: "politica" },
     ],
     
         // Configuração do Footer (Gerenciamento em Massa)
