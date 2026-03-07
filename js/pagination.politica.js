@@ -3,8 +3,8 @@ const categoryNewsData = [
   
   {
     title: "Migração Partidária Reforça Centro-Direita na Câmara",
-    date: "07/03/2026",
-    timestamp: "2026-03-07T07:00:00",
+    date: "08/03/2026",
+    timestamp: "2026-03-08T07:00:00",
     image: "../img/migracao-partidaria-reforco-centro-direita-camara-janela-2026.jpg",
     excerpt: "Cerca de 10% dos deputados federais já migrou de partido antes da janela partidária de abril, fortalecendo o centro-direita na Câmara.",
     link: "../politica/migracao-partidaria-reforco-centro-direita-camara-janela-2026.html",
@@ -14,8 +14,8 @@ const categoryNewsData = [
 },
   {
     title: "MDB se divide e rejeita vice na chapa de Lula",
-    date: "06/03/2026",
-    timestamp: "2026-03-06T07:00:00",
+    date: "07/03/2026",
+    timestamp: "2026-03-07T07:00:00",
     image: "../img/mdb-divide-rejeita-vice-chapa-lula-eleicoes-2026.jpg",
     excerpt: "A maioria dos diretórios estaduais do MDB formalizou manifesto rejeitando aliança nacional com o PT e pedindo neutralidade nas eleições presidenciais de 2026, em reação à ofensiva do Planalto para colocar um nome da sigla como vice de Lula.",
     link: "../politica/mdb-divide-rejeita-vice-chapa-lula-eleicoes-2026.html",
