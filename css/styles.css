@@ -25,7 +25,10 @@ body {
     gap: 8px;
     transition: all 0.3s ease;
     font-size: 0.85rem;
- 
+}
+
+.destaque-yellow {
+    background-color: yellow;
 }
 
 .btn-read-audio:hover {
