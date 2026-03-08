@@ -13,7 +13,18 @@ function getSitePathPrefix() {
     return '';
 }
 
+document.addEventListener("DOMContentLoaded", function () {
 
+    const toggle = document.getElementById("menuToggle");
+    const nav = document.querySelector(".desktop-nav-list");
+
+    if (!toggle || !nav) return;
+
+    toggle.addEventListener("click", function () {
+        nav.classList.toggle("active");
+    });
+
+});
 
 const prefix = getSitePathPrefix();
 
@@ -33,6 +44,7 @@ const siteConfig = {
      linkedin: "https://linkedin.com/company/justicaemdia",
 
     },
+    
     
     // Configuração do Menu (Gerenciamento em Massa)
     menu: [
