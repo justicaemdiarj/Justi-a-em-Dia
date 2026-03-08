@@ -13,6 +13,18 @@ const tickerConfig = {
 
 const globalNewsData = [
 {
+    title: "EUA Não Descartam Reduzir Sanções ao Petróleo Russo Para Conter Alta de Preços Após Guerra no Irã",
+    link: "politica/eua-nao-descartam-sancoes-petroleo-russo-guerra-ira.html",
+},
+{
+    title: "Trump Tem Uma Semana para Liberar o Petróleo do Oriente Médio Antes dos Preços Explodirem",
+    link: "politica/trump-uma-semana-liberar-petroleo-oriente-medio-preco-disparar.html",
+},
+{
+    title: "Trump Lança Resseguro de US$ 20 Bi para Petroleiros no Estreito de Ormuz",
+    link: "politica/trump-resseguro-20-bilhoes-petroleiros-estreito-ormuz.html",
+},
+{
         title: "Paes Joga Xadrez Enquanto Rio Elege Governador na Surdina",
         link: "politica/paes-eleicao-indireta-rio-governador-tampao-alerj-2026.html",
 },

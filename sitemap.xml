@@ -433,19 +433,19 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://www.justicaemdia.com.br/financas/advocacia-que-nao-se-conhece-financeiramente-nao-sobrevive-o-imperativo-da-gestao-para-escritorios-em-2026.html</loc>
+        <loc>https://www.justicaemdia.com.br/politica/advocacia-que-nao-se-conhece-financeiramente.html</loc>
         <lastmod>2026-03-02</lastmod>
         <changefreq>always</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://www.justicaemdia.com.br/financas/index.html</loc>
+        <loc>https://www.justicaemdia.com.br/politica/index.html</loc>
         <lastmod>2026-03-02</lastmod>
         <changefreq>always</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://www.justicaemdia.com.br/financas/o-novo-labirinto-fiscal-as-regras-de-tributacao-de-investimentos-estrangeiros-redesenham-o-mapa-do-capital-no-brasil.html</loc>
+        <loc>https://www.justicaemdia.com.br/politica/o-novo-labirinto-fiscal-as-regras-de-tributacao-de-investimentos-estrangeiros-redesenham-o-mapa-do-capital-no-brasil.html</loc>
         <lastmod>2026-03-02</lastmod>
         <changefreq>always</changefreq>
         <priority>1.0</priority>
@@ -883,8 +883,26 @@
         <changefreq>always</changefreq>
         <priority>1.0</priority>
     </url>
-          <url>
+        <url>
         <loc>https://www.justicaemdia.com.br/politica/paes-eleicao-indireta-rio-governador-tampao-alerj-2026.html</loc>
+        <lastmod>2026-03-07</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+     <url>
+        <loc>https://www.justicaemdia.com.br/politica/trump-resseguro-20-bilhoes-petroleiros-estreito-ormuz.html</loc>
+        <lastmod>2026-03-07</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+         <url>
+        <loc>https://www.justicaemdia.com.br/politica/trump-uma-semana-liberar-petroleo-oriente-medio-preco-disparar.html</loc>
+        <lastmod>2026-03-07</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+             <url>
+        <loc>https://www.justicaemdia.com.br/politica/eua-nao-descartam-sancoes-petroleo-russo-guerra-ira.html</loc>
         <lastmod>2026-03-07</lastmod>
         <changefreq>always</changefreq>
         <priority>1.0</priority>
