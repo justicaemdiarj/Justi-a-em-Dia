@@ -3,7 +3,7 @@ const allArticles = [
 {
     title: 'Trump Tem Uma Semana para Liberar o Petróleo do Oriente Médio Antes dos Preços Explodirem',
     description: 'Com o Estreito de Ormuz bloqueado pela guerra com o Irã e os preços do barril acumulando alta de 35% no ano, analistas alertam que Trump tem poucos dias para mostrar progresso concreto antes que os mercados percam a paciência.',
-    category: 'Finanças',
+    category: 'Política',
     url: 'politica/trump-uma-semana-liberar-petroleo-oriente-medio-preco-disparar.html',
     tags: ['petróleo Oriente Médio', 'Estreito de Ormuz', 'crise energética', 'preço do petróleo 2026', 'Trump Tem Uma Semana para Liberar o Petróleo do Oriente Médio Antes dos Preços Explodirem']
 },
@@ -388,37 +388,16 @@ const allArticles = [
     {
         title: 'Advocacia que não se Conhece Financeiramente não Sobrevive',
         description: 'Por muito tempo, a palavra gestão soou estranha nos corredores dos escritórios de advocacia.',
-        category: 'Finanças',
+    category: 'Política',
         url: 'politica/advocacia-que-nao-se-conhece-financeiramente.html',
         tags: ['Advocacia ', 'sobrevive', 'Advocacia que não se conhece financeiramente não sobrevive', 'Prevenir']
     },
     {
         title: 'O Novo Labirinto Fiscal',
         description: 'O Brasil nunca teve uma relação simples com o capital estrangeiro. A história econômica do país é pontuada por ciclos de abertura e fechamento',
-        category: 'Finanças',
+    category: 'Política',
         url: 'politica/o-novo-labirinto-fiscal-as-regras-de-tributacao.html',
         tags: ['O novo labirinto fiscal', 'Revolução Silenciosa', 'multinacional brasileira', 'Prevenir']
-    },
-    {
-        title: 'Pessoas em Primeiro Lugar',
-        description: 'Por décadas, a cultura dos escritórios de advocacia e dos departamentos jurídicos corporativos foi definida por uma lógica que colocava a entrega acima de tudo.',
-        category: 'Recursos Humanos',
-        url: 'recursos-humanos/pessoas-em-primeiro-lugar-como-o-setor-juridico-reinventa-sua-relacao-com-talentos-em-um-mercado-em-transformacao.html',
-        tags: ['Pessoas em primeiro lugar', 'novas tendências', 'gestão de pessoas', 'ambiente']
-    },
-    {
-        title: 'A Permanência Como Direito',
-        description: 'Há uma distinção fundamental, quase jurídica, entre habitar um espaço por necessidade e habitá-lo por vontade.',
-        category: 'Recursos Humanos',
-        url: 'recursos-humanos/a-permanencia-como-direito.html',
-        tags: ['A Permanência como Direito', 'Direito', 'presença humana', 'ambiente']
-    },
-    {
-        title: 'Diversidade Não é Favor',
-        description: 'Houve um tempo em que a pauta da diversidade e inclusão nas organizações era vista como um luxo progressista — algo que as empresas adotavam por pressão social ou para melhorar sua imagem institucional.',
-        category: 'Recursos Humanos',
-        url: 'recursos-humanos/diversidade-nao-e-favor-o-imperativo-estrategico-da-inclusao-nas-organizacoes-contemporaneas.html',
-        tags: ['Diversidade não é favor', 'inclusão', ' diversidade', 'organizações ']
     },
     {
         title: 'A Revolução Silenciosa do Compliance',
