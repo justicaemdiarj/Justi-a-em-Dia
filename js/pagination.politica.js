@@ -1,17 +1,6 @@
 // Dados de notícias para Política
 const categoryNewsData = [
-
-
-{
-    title: "EUA Não Descartam Reduzir Sanções ao Petróleo Russo Para Conter Alta de Preços Após Guerra no Irã",
-    date: "09/03/2026",
-    timestamp: "2026-03-09T07:00:00",
-    image: "../img/eua-nao-descartam-sancoes-petroleo-russo-guerra-ira.jpg",
-    excerpt: "Com os preços do petróleo disparando após o bloqueio do Estreito de Ormuz, Washington estuda aliviar sanções ao petróleo russo para reequilibrar a oferta global.",
-    link: "../politica/eua-nao-descartam-sancoes-petroleo-russo-guerra-ira.html",
-    author: "Justiça em Dia",
-    authorLink: "#"
-},
+  
 {
     title: "Paes Joga Xadrez Enquanto Rio Elege Governador na Surdina",
     date: "08/03/2026",
@@ -33,22 +22,13 @@ const categoryNewsData = [
     authorLink: "#"
 }, 
 {
-    title: "Trump Lança Resseguro de US$ 20 Bi para Petroleiros no Estreito de Ormuz",
-    date: "08/03/2026",
-    timestamp: "2026-03-08T07:00:00",
-    image: "../img/trump-resseguro-20-bilhoes-petroleiros-estreito-ormuz.jpg",
-    excerpt: "O governo Trump anunciou um programa de resseguro de US$ 20 bilhões para navios petroleiros no Estreito de Ormuz, em meio ao conflito com o Irã.",
-    link: "../politica/trump-resseguro-20-bilhoes-petroleiros-estreito-ormuz.html",
-    author: "Justiça em Dia",
-    authorLink: "#"
-},
-{
     title: "Migração Partidária Reforça Centro-Direita na Câmara",
     date: "08/03/2026",
     timestamp: "2026-03-08T07:00:00",
     image: "../img/migracao-partidaria-reforco-centro-direita-camara-janela-2026.jpg",
     excerpt: "Cerca de 10% dos deputados federais já migrou de partido antes da janela partidária de abril, fortalecendo o centro-direita na Câmara.",
     link: "../politica/migracao-partidaria-reforco-centro-direita-camara-janela-2026.html",
+    category: "Política",
     author: "Justiça em Dia",
     authorLink: "#"
 },
@@ -59,16 +39,7 @@ const categoryNewsData = [
     image: "../img/mdb-divide-rejeita-vice-chapa-lula-eleicoes-2026.jpg",
     excerpt: "A maioria dos diretórios estaduais do MDB formalizou manifesto rejeitando aliança nacional com o PT e pedindo neutralidade nas eleições presidenciais de 2026, em reação à ofensiva do Planalto para colocar um nome da sigla como vice de Lula.",
     link: "../politica/mdb-divide-rejeita-vice-chapa-lula-eleicoes-2026.html",
-    author: "Justiça em Dia",
-    authorLink: "#"
-},
- {
-    title: "Trump Tem Uma Semana para Liberar o Petróleo do Oriente Médio Antes dos Preços Explodirem",
-    date: "07/03/2026",
-    timestamp: "2026-03-07T07:00:00",
-    image: "../img/trump-uma-semana-liberar-petroleo-oriente-medio-preco-disparar.jpg",
-    excerpt: "Com o Estreito de Ormuz bloqueado pela guerra com o Irã, analistas alertam que Trump tem poucos dias para mostrar progresso antes que os preços do petróleo disparem.",
-    link: "../politica/trump-uma-semana-liberar-petroleo-oriente-medio-preco-disparar.html",
+    category: "Politica",
     author: "Justiça em Dia",
     authorLink: "#"
 },
@@ -79,6 +50,7 @@ const categoryNewsData = [
     image: "../img/trump-vacuo-poder-ira-sucessores-khamenei-mortos.jpg",
     excerpt: "Trump admitiu que ataques de EUA e Israel eliminaram os possíveis sucessores de Khamenei e anunciou nova onda de bombardeios.",
     link: "../politica/trump-vacuo-poder-ira-sucessores-khamenei-mortos.html",
+    category: "Política",
     author: "Justiça em Dia",
     authorLink: "#"
 },
@@ -89,6 +61,7 @@ const categoryNewsData = [
     image: "../img/lula-pede-voto-ironia-eleitoral-conferencia-trabalho-sp.jpg",
     excerpt: "Presidente ironiza 'sorte' pelos indicadores econômicos e convoca eleitores nas eleições de 2026.",
     link: "../politica/lula-pede-voto-ironia-eleitoral-conferencia-trabalho-sp.html",
+    category: "Política",
     author: "Justiça em Dia",
     authorLink: "#"
  },
@@ -99,6 +72,7 @@ const categoryNewsData = [
     image: "../img/alcolumbre-bloqueia-indicacao-messias-stf-2026.jpg",
     excerpt: "Alcolumbre sinalizou que não deve pautar a sabatina de Jorge Messias ao STF neste ano.",
     link: "../politica/alcolumbre-bloqueia-indicacao-messias-stf-2026.html",
+    category: "Política",
     author: "Justiça em Dia",
     authorLink: "#"
 },
@@ -109,29 +83,10 @@ const categoryNewsData = [
     image: "../img/janja-revela-assedio-como-primeira-dama-sem-censura.jpg",
     excerpt: "A primeira-dama Janja da Silva revelou ao programa Sem Censura, da TV Brasil, ter sido assediada duas vezes durante o mandato de Lula, usando o relato para destacar a vulnerabilidade das mulheres brasileiras.",
     link: "../politica/janja-revela-assedio-como-primeira-dama-sem-censura.html",
+    category: "politica",
     author: "Justiça em Dia",
     authorLink: "#"
 },
-{
-        title: "Advocacia que não se Conhece Financeiramente não Sobrevive",
-        date: "01/03/2026",
-        timestamp: "2026-03-01T12:00:00",
-        image: "../img/advocacia-que-nao-se-conhece-financeiramente-nao-sobrevive-o-imperativo.jpg",
-        excerpt: "Por muito tempo, a palavra gestão soou estranha nos corredores dos escritórios de advocacia. A identidade profissional do advogado foi construída em torno..",
-        link: "../politica/advocacia-que-nao-se-conhece-financeiramente.html",
-        author: "Justiça em Dia",
-        authorLink: "#"
-    },
-    {
-        title: "O Novo Labirinto Fiscal",
-        date: "01/03/2026",
-        timestamp: "2026-03-01T12:00:00",
-        image: "https://economicnewsbrasil.com.br/wp-content/uploads/2025/09/investimento-estrangeiro-no-brasil.jpg",
-        excerpt: "O Brasil nunca teve uma relação simples com o capital estrangeiro. A história econômica do país é pontuada por ciclos de abertura e fechamento..",
-        link: "../politica/o-novo-labirinto-fiscal-as-regras-de-tributacao.html",
-        author: "Justiça em Dia",
-        authorLink: "#"
-    },
 ];
 
 const ITEMS_PER_PAGE = 10;

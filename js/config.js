@@ -13,18 +13,7 @@ function getSitePathPrefix() {
     return '';
 }
 
-document.addEventListener("DOMContentLoaded", function () {
 
-    const toggle = document.getElementById("menuToggle");
-    const nav = document.querySelector(".desktop-nav-list");
-
-    if (!toggle || !nav) return;
-
-    toggle.addEventListener("click", function () {
-        nav.classList.toggle("active");
-    });
-
-});
 
 const prefix = getSitePathPrefix();
 
@@ -45,7 +34,6 @@ const siteConfig = {
 
     },
     
-    
     // Configuração do Menu (Gerenciamento em Massa)
     menu: [
 
@@ -57,7 +45,7 @@ const siteConfig = {
             { title: "Compliance", link: "compliance" },
             { title: "Jurisprudência", link: "jurisprudencia" },
             { title: "Legislação", link: "legislacao" },
-    
+
     ],
     
         // Configuração do Footer (Gerenciamento em Massa)
@@ -792,15 +780,7 @@ document.querySelector('aside');
     }, 300);
 }
 
-function alterarTextoApoiador() {
-    const textoAntigo = "Consulte um de nossos Apoiadores Jurídicos";
-    const textoNovo = "Consulte nossos Apoiadores";
 
-    document.body.innerHTML = document.body.innerHTML.replaceAll(textoAntigo, textoNovo);
-}
-
-// Executa quando a página carregar
-document.addEventListener("DOMContentLoaded", alterarTextoApoiador);
 
 /*
 // Formato da data: "YYYY-MM-DD HH:mm" (Ano-Mês-Dia Hora:Minuto)

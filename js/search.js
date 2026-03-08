@@ -1,20 +1,6 @@
 // Base de dados global de artigos para busca
 const allArticles = [
 {
-    title: 'Trump Tem Uma Semana para Liberar o Petróleo do Oriente Médio Antes dos Preços Explodirem',
-    description: 'Com o Estreito de Ormuz bloqueado pela guerra com o Irã e os preços do barril acumulando alta de 35% no ano, analistas alertam que Trump tem poucos dias para mostrar progresso concreto antes que os mercados percam a paciência.',
-    category: 'Finanças',
-    url: 'politica/trump-uma-semana-liberar-petroleo-oriente-medio-preco-disparar.html',
-    tags: ['petróleo Oriente Médio', 'Estreito de Ormuz', 'crise energética', 'preço do petróleo 2026', 'Trump Tem Uma Semana para Liberar o Petróleo do Oriente Médio Antes dos Preços Explodirem']
-},
-{
-    title: 'Trump Lança Resseguro de US$ 20 Bi para Petroleiros no Estreito de Ormuz',
-    description: 'O governo Trump anunciou um programa de resseguro de US$ 20 bilhões para navios petroleiros no Estreito de Ormuz, em meio ao conflito com o Irã, visando estabilizar o fornecimento global de petróleo.',
-    category: 'Política',
-    url: 'politica/trump-resseguro-20-bilhoes-petroleiros-estreito-ormuz.html',
-    tags: ['resseguro marítimo', 'Estreito de Ormuz', 'crise do petróleo', 'Donald Trump', 'Trump Lança Resseguro de US$ 20 Bi para Petroleiros no Estreito de Ormuz']
-},
-{
         title: 'Paes Joga Xadrez Enquanto Rio Elege Governador na Surdina',
         description: 'Com a dupla vacância no Executivo fluminense, o Rio caminha para uma eleição indireta na Alerj. Eduardo Paes articula alianças para outubro enquanto a direita disputa quem ocupará o Palácio Guanabara antes do pleito de outubro de 2026.',
         category: 'Política',
@@ -361,7 +347,7 @@ const allArticles = [
         title: 'Novo Imposto de Renda',
         description: 'Por muito tempo, a palavra gestão soou estranha nos corredores dos escritórios de advocacia.',
         category: 'Legislação',
-        url: 'politica/advocacia-que-nao-se-conhece-financeiramente-nao-sobrevive-o-imperativo-da-gestao-para-escritorios-em-2026.html',
+        url: 'financas/advocacia-que-nao-se-conhece-financeiramente-nao-sobrevive-o-imperativo-da-gestao-para-escritorios-em-2026.html',
         tags: ['Reforma Tributária ', 'Tributação ', 'Novo Imposto de Renda', 'Faixa ']
     },
     {
@@ -389,14 +375,14 @@ const allArticles = [
         title: 'Advocacia que não se Conhece Financeiramente não Sobrevive',
         description: 'Por muito tempo, a palavra gestão soou estranha nos corredores dos escritórios de advocacia.',
         category: 'Finanças',
-        url: 'politica/advocacia-que-nao-se-conhece-financeiramente.html',
+        url: 'financas/advocacia-que-nao-se-conhece-financeiramente-nao-sobrevive-o-imperativo-da-gestao-para-escritorios-em-2026.html',
         tags: ['Advocacia ', 'sobrevive', 'Advocacia que não se conhece financeiramente não sobrevive', 'Prevenir']
     },
     {
         title: 'O Novo Labirinto Fiscal',
         description: 'O Brasil nunca teve uma relação simples com o capital estrangeiro. A história econômica do país é pontuada por ciclos de abertura e fechamento',
         category: 'Finanças',
-        url: 'politica/o-novo-labirinto-fiscal-as-regras-de-tributacao.html',
+        url: 'financas/o-novo-labirinto-fiscal-as-regras-de-tributacao-de-investimentos-estrangeiros-redesenham-o-mapa-do-capital-no-brasil.html',
         tags: ['O novo labirinto fiscal', 'Revolução Silenciosa', 'multinacional brasileira', 'Prevenir']
     },
     {

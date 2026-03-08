@@ -10,19 +10,6 @@ body {
     line-height: 1.6;
 }
 
-@media (max-width:768px){
-
-.desktop-nav-list{
-    display:none;
-    flex-direction:column;
-}
-
-.desktop-nav-list.active{
-    display:flex;
-}
-
-}
-
 /* Estilo para o botão de leitura integrado ao compartilhar */
 .btn-read-audio {
     background-color: #c41e3a;
