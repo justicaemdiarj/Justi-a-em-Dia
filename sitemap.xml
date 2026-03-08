@@ -901,9 +901,45 @@
         <changefreq>always</changefreq>
         <priority>1.0</priority>
     </url>
-             <url>
+        <url>
         <loc>https://www.justicaemdia.com.br/politica/eua-nao-descartam-sancoes-petroleo-russo-guerra-ira.html</loc>
         <lastmod>2026-03-07</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc>https://www.justicaemdia.com.br/direito-civil/divida-ativa-suspensao-pagamentos-lei-superendividamento.html</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc>https://www.justicaemdia.com.br/legislacao/senado-licenca-paternidade-ampliacao-lei-previdencia.html</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc>https://www.justicaemdia.com.br/compliance/compliance-escudo-invisivel-protecao-consumidor.html</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+      <url>
+        <loc>https://www.justicaemdia.com.br/politica/tarcisio-enterra-terceira-via-eleicoes-2026.html</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+      <url>
+        <loc>https://www.justicaemdia.com.br/direito-militar/sentinelas-mpm-protecao-mulheres-forcas-armadas.html</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+         <url>
+        <loc>https://www.justicaemdia.com.br/jurisprudencia/stj-seguro-vida-blindagem-jurisprudencial-agravamento-risco.html</loc>
+        <lastmod>2026-03-09</lastmod>
         <changefreq>always</changefreq>
         <priority>1.0</priority>
     </url>
