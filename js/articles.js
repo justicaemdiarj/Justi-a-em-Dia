@@ -389,7 +389,7 @@ date: "2026-03-09T07:00:00"
 },
 {
 title: "SentinELAS Chega Para Proteger Recrutas Femininas",
-    link: "politica/sentinelas-mpm-protecao-mulheres-forcas-armadas.html",
+    link: "direito-militar/sentinelas-mpm-protecao-mulheres-forcas-armadas.html",
 source: "",
 date: "2026-03-09T07:00:00"
 },
