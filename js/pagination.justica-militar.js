@@ -7,7 +7,6 @@ const categoryNewsData = [
     image: "../img/sentinelas-mpm-protecao-mulheres-forcas-armadas.jpg",
     excerpt: "O MPM lançou o aplicativo SentinELAS, ferramenta digital de proteção jurídica e acolhimento voltada às mulheres que ingressaram no Serviço Militar Inicial Feminino.",
     link: "../direito-militar/sentinelas-mpm-protecao-mulheres-forcas-armadas.html",
-    category: "politica",
     author: "Justiça em Dia",
     authorLink: "#"
 },
@@ -18,7 +17,6 @@ const categoryNewsData = [
         image: "../img/stm-medidas-protetivas-militar-trans-assedio-sexual.jpg",
         excerpt: "O Superior Tribunal Militar proferiu, no dia 20 de fevereiro de 2026, uma decisão sem precedentes..",
         link: "../direito-militar/stm-medidas-protetivas-militar-trans-assedio-sexual.html",
-        category: "Direito Militar",
         author: "Justiça em Dia",
         authorLink: "#"
     },
@@ -29,7 +27,6 @@ const categoryNewsData = [
         image: "../img/vinte-anos-de-espera-de-pm-goiais.jpg",
         excerpt: "Um policial militar de Goiás que ingressou na corporação em 1996 e esperou até 2021 para ser promovido de Soldado a Cabo..",
         link: "../direito-militar/vinte-anos-de-espera-de-pm-goiais.html",
-        category: "Direito Militar",
         author: "Justiça em Dia",
         authorLink: "#"
     },
@@ -40,7 +37,6 @@ const categoryNewsData = [
         image: "https://images.unsplash.com/photo-1590247813693-5541d1c609fd?w=1200&q=80",
         excerpt: "O soldado do Exército recorre ao Supremo Tribunal Federal questionando punição disciplinar que lhe custou quinze dias de prisão.",
         link: "../direito-militar/a-farda-e-a-constituicao-o-direito-militar-entre-a-tradicao-e-os-direitos-fundamentais.html",
-        category: "Direito Militar",
         author: "Justiça em Dia",
         authorLink: "#"
     },
@@ -51,7 +47,6 @@ const categoryNewsData = [
         image: "../img/processo-administrativo-disciplinar-militar.jpg",
         excerpt: "O processo administrativo disciplinar militar constitui instrumento jurídico específico destinado à apuração de transgressões disciplinares praticadas por integrantes das Forças Armadas e Forças Auxiliares.",
         link: "../direito-militar/processo-administrativo-disciplinar-militar.html",
-        category: "Direito Militar",
         author: "Justiça em Dia",
         authorLink: "#"
     },

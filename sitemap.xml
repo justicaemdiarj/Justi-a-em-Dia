@@ -439,12 +439,6 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://www.justicaemdia.com.br/financas-pessoais-e-planejamento-financeiro/index.html</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
         <loc>https://www.justicaemdia.com.br/infracoes-penais/index.html</loc>
         <lastmod>2026-03-02</lastmod>
         <changefreq>always</changefreq>
@@ -548,12 +542,6 @@
     </url>
     <url>
         <loc>https://www.justicaemdia.com.br/mediacao-familiar/index.html</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://www.justicaemdia.com.br/mercado-financeiro-e-de-investimento/index.html</loc>
         <lastmod>2026-03-02</lastmod>
         <changefreq>always</changefreq>
         <priority>1.0</priority>
@@ -937,11 +925,34 @@
         <changefreq>always</changefreq>
         <priority>1.0</priority>
     </url>
-                 <url>
+        <url>
         <loc>https://www.justicaemdia.com.br/direito-de-familia/divorcio-extrajudicial-consensual-litigioso-diferencas.html</loc>
         <lastmod>2026-03-09</lastmod>
         <changefreq>always</changefreq>
         <priority>1.0</priority>
     </url>
-</urlset>
-           
+    <url>
+        <loc>https://www.justicaemdia.com.br/politica/mdb-divide-rejeita-vice-chapa-lula-eleicoes-2026.html</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.justicaemdia.com.br/politica/o-novo-labirinto-fiscal-as-regras-de-tributacao.html</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+            <url>
+        <loc>https://www.justicaemdia.com.br/legislacao/sc-regulamenta-cordao-girassol-deficiencias-ocultas-alesc.html</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.justicaemdia.com.br/direito-de-familia/cartorios-protecao-patrimonial-mulheres-violencia-silenciosa.html</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+    </urlset>

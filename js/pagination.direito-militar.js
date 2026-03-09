@@ -7,7 +7,6 @@ const categoryNewsData = [
     image: "../img/sentinelas-mpm-protecao-mulheres-forcas-armadas.jpg",
     excerpt: "O MPM lançou o aplicativo SentinELAS, ferramenta digital de proteção jurídica e acolhimento voltada às mulheres que ingressaram no Serviço Militar Inicial Feminino.",
     link: "../direito-militar/sentinelas-mpm-protecao-mulheres-forcas-armadas.html",
-    category: "politica",
     author: "Justiça em Dia",
     authorLink: "#"
 },
