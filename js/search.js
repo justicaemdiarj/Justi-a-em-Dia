@@ -1,6 +1,48 @@
 // Base de dados global de artigos para busca
 const allArticles = [
 {
+    title: 'STJ e Seguro de Vida Blindagem Jurisprudencial',
+    description: 'O STJ consolidou blindagem protetiva ao redor do seguro de vida, exigindo dolo específico para excluir cobertura por agravamento de risco, em entendimento positivado pelo Marco Legal dos Seguros.',
+    category: 'Jurisprudência',
+    url: 'jurisprudencia/stj-seguro-vida-blindagem-jurisprudencial-agravamento-risco.html',
+    tags: ['seguro de vida', 'STJ', 'agravamento de risco', 'Súmula 610', 'Súmula 620', 'Marco Legal dos Seguros', 'dolo específico', 'indenização securitária', 'jurisprudência']
+},
+{
+    title: 'SentinELAS Chega Para Proteger Recrutas Femininas',
+    description: 'O MPM lançou o aplicativo SentinELAS, ferramenta digital de proteção jurídica e acolhimento voltada às mulheres que ingressaram no Serviço Militar Inicial Feminino.',
+    category: 'Direito Militar',
+    url: 'direito-militar/sentinelas-mpm-protecao-mulheres-forcas-armadas.html',
+    tags: ['SentinELAS', 'MPM', 'Ministério Público Militar', 'mulheres Forças Armadas', 'serviço militar feminino', 'proteção jurídica militar', 'assédio sexual militar', 'SMIF']
+},
+{
+    title: 'Tarcísio Enterra Terceira Via em 2026',
+    description: 'O governador de São Paulo descartou qualquer alternativa eleitoral fora da disputa entre Lula e Flávio Bolsonaro e declarou apoio formal ao senador do PL para 2026.',
+    category: 'Política',
+    url: 'politica/tarcisio-enterra-terceira-via-eleicoes-2026.html',
+    tags: ['Tarcísio de Freitas', 'terceira via', 'eleições 2026', 'Flávio Bolsonaro', 'Lula', 'polarização política', 'PSD', 'cenário eleitoral', 'reeleição São Paulo']
+},
+{
+    title: 'Compliance Como Escudo Invisível Consumidor',
+    description: 'O compliance vai muito além da burocracia corporativa: é o mecanismo silencioso que protege o consumidor contra fraudes, crédito predatório e vazamento de dados.',
+    category: 'Compliance',
+    url: 'compliance/compliance-escudo-invisivel-protecao-consumidor.html',
+    tags: ['compliance', 'proteção do consumidor', 'gestão de riscos', 'governança corporativa', 'prevenção de fraudes', 'crédito responsável', 'proteção de dados', 'conformidade regulatória']
+},
+{
+    title: 'Licença Paternidade Vai Até Vinte Dias',
+    description: 'O Senado Federal aprovou a expansão gradual da licença-paternidade no Brasil, elevando o prazo de cinco para vinte dias até 2029, com custeio pelo RGPS.',
+    category: 'Legislação',
+    url: 'legislacao/senado-licenca-paternidade-ampliacao-lei-previdencia.html',
+    tags: ['licença paternidade', 'ampliação licença paternidade', 'Senado Federal', 'STF omissão legislativa', 'Política Nacional de Cuidados', 'previdência social', 'salário paternidade', 'legislação trabalhista']
+},
+{
+    title: 'Suspensão de Dívida Ativa: o Que a Lei Garante',
+    description: 'A Lei do Superendividamento permite que consumidores endividados suspendam obrigações financeiras por até seis meses, mediante análise judicial.',
+    category: 'Direito Civil',
+    url: 'direito-civil/divida-ativa-suspensao-pagamentos-lei-superendividamento.html',
+    tags: ['dívida ativa', 'superendividamento', 'lei do superendividamento', 'suspensão de pagamento', 'renegociação de dívidas', 'direito civil', 'mínimo existencial']
+},
+{
     title: 'Trump Tem Uma Semana para Liberar o Petróleo do Oriente Médio Antes dos Preços Explodirem',
     description: 'Com o Estreito de Ormuz bloqueado pela guerra com o Irã e os preços do barril acumulando alta de 35% no ano, analistas alertam que Trump tem poucos dias para mostrar progresso concreto antes que os mercados percam a paciência.',
     category: 'Política',

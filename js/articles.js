@@ -1,21 +1,30 @@
 const posts = [
 {
-    title: "Consumidor Brasileiro Desprotegido Frente à Europa",
-    description: "Padrões manipulativos de design no e-commerce exploram a vulnerabilidade do consumidor brasileiro enquanto a Europa já pune as práticas com severidade",
-    description2: "Dark patterns e a omissão regulatória brasileira diante de milhões de consumidores manipulados digitalmente",
-    image: "img/armadilhas-digitais-consumidor-brasileiro-desprotegido-frente-europa.jpg",
-    link: "direito-civil/armadilhas-digitais-consumidor-brasileiro-desprotegido-frente-europa.html",
-    date: "2026-03-08T07:00:00",
+    title: "Suspensão de Dívida Ativa: o Que a Lei Garante",
+    description: "A Lei do Superendividamento permite suspender pagamentos por até seis meses mediante análise judicial",
+    description2: "Entenda quais dívidas são alcançadas pela norma e como acionar o mecanismo de proteção ao consumidor",
+    image: "img/divida-ativa-suspensao-pagamentos-lei-superendividamento.jpg",
+    link: "direito-civil/divida-ativa-suspensao-pagamentos-lei-superendividamento.html",
+    date: "2026-03-09T07:00:00",
   section: "featured"
 },
   {
-    title: "CGU Eleva o Padrão do Compliance",
-    description: "Portaria Normativa CGU 226/25 transforma a avaliação de programas de integridade nas contratações públicas brasileiras",
-    description2: "Empresas com compliance de fachada arriscam inidoneidade e exclusão definitiva de licitações públicas",
-    image: "img/cgu-eleva-padrao-compliance-contratacoes-publicas-pn-226-25.jpg",
-    link: "compliance/cgu-eleva-padrao-compliance-contratacoes-publicas-pn-226-25.html",
-    date: "2026-03-07T07:00:00",
+   title: "SentinELAS Chega Para Proteger Recrutas Femininas",
+    description: "MPM lança app de proteção jurídica para mulheres no Serviço Militar Inicial Feminino",
+    description2: "Ferramenta reúne canais de denúncia, orientação jurídica e conteúdo educativo para recrutas",
+    image: "img/sentinelas-mpm-protecao-mulheres-forcas-armadas.jpg",
+    link: "politica/sentinelas-mpm-protecao-mulheres-forcas-armadas.html",
+    date: "2026-03-09T07:00:00",
   section: "featured-secundario"
+},
+{
+ title: "Droga Apreendida Afasta Benefício Penal?",
+ description: "A 3ª Seção do STJ suspendeu o julgamento dos Temas Repetitivos 1.154 e 1.241",
+description2:"Natureza da droga podem afastar o tráfico privilegiado ou modular a fração de redução da pena na dosimetria penal",
+ image: "img/stj-quantidade-droga-trafico-privilegiado-dosimetria-pena.jpg",
+ link: "direito-penal/stj-quantidade-droga-trafico-privilegiado-dosimetria-pena.html",
+ date: "2026-03-08T07:00:00",
+ section: "featured-terciario"
 },
   {
     title: "Droga Apreendida Afasta Benefício Penal?",
@@ -25,24 +34,25 @@ const posts = [
     section: "destaque"
   },
    {
-    title: "Cartórios na Linha de Frente Contra Violência Patrimonial Feminina",
-   image: "img/cartorios-protecao-patrimonial-mulheres-violencia-silenciosa.jpg",
-    link: "direito-de-familia/cartorios-protecao-patrimonial-mulheres-violencia-silenciosa.html",
-    date: "2026-03-08T07:00:00",
+    title: "Tarcísio Enterra Terceira Via em 2026",
+    image: "img/tarcisio-enterra-terceira-via-eleicoes-2026.jpg",
+    link: "politica/tarcisio-enterra-terceira-via-eleicoes-2026.html",
+    date: "2026-03-09T07:00:00",
     section: "destaque"
   },
   {
-    title: "Senado Aprova Redução de Penas",
-    image: "img/senado-aprova-reducao-penas-8j-dosimetria-sancao.jpg",
-    link: "direito-penal/senado-aprova-reducao-penas-8j-dosimetria-sancao.html",
-    date: "2026-03-07T07:00:00",
+    title: "Licença Paternidade Vai Até Vinte Dias",
+    image: "img/senado-licenca-paternidade-ampliacao-lei-previdencia.jpg",
+    link: "legislacao/senado-licenca-paternidade-ampliacao-lei-previdencia.html",
+    date: "2026-03-09T07:00:00",
     section: "destaque"
   },
   {
-   title: "Migração Partidária Reforça Centro-Direita na Câmara",
-    image: "img/migracao-partidaria-reforco-centro-direita-camara-janela-2026.jpg",
-    link: "politica/migracao-partidaria-reforco-centro-direita-camara-janela-2026.html",
-    date: "2026-03-07T07:00:00",
+   
+    title: "Compliance Como Escudo Invisível Consumidor",
+    image: "img/compliance-escudo-invisivel-protecao-consumidor.jpg",
+    link: "compliance/compliance-escudo-invisivel-protecao-consumidor.html",
+    date: "2026-03-09T07:00:00",
     section: "veja"
   },
   {
@@ -82,7 +92,7 @@ function renderContent(){
 
   const container = document.getElementById("dynamicContent");
 
-const featuredTop = posts[0];
+const featuredTop = posts.find(p => p.section === "featured");
 
 container.innerHTML += `
   <div class="featured-block">
@@ -186,6 +196,44 @@ if(featuredSecondary){
 
 container.innerHTML += renderBanner("depois-destaques");
 
+/* ===== FEATURED TERCIÁRIO ===== */
+
+const featuredThird = posts.find(p => p.section === "featured-terciario");
+
+if(featuredThird){
+  container.innerHTML += `
+    <div class="featured-block">
+
+      <a href="${featuredThird.link}">
+        <div class="featured-image">
+          <img src="${featuredThird.image}">
+        </div>
+      </a>
+
+      <h2 class="featured-title">
+        <a href="${featuredThird.link}">
+          ${featuredThird.title}
+        </a>
+      </h2>
+
+      <p class="featured-description">
+        <a href="${featuredThird.link}">
+          ${featuredThird.description || ""}
+        </a>
+      </p>
+
+      <p class="featured-description">
+        <a href="${featuredThird.link}">
+          ${featuredThird.description2 || ""}
+        </a>
+      </p>
+
+      <div class="post-time">${getTimeAgo(featuredThird.date)}</div>
+
+    </div>
+    <div class="linha-divisoria"></div>
+  `;
+}
 /* ===== VEJA TAMBÉM ===== */
 const vejaPosts = posts
   .filter(p => p.section === "veja")
@@ -212,29 +260,32 @@ container.innerHTML += `
 
 }
 
+
 document.addEventListener("DOMContentLoaded", renderContent);
+
 
 document.addEventListener("DOMContentLoaded", function(){
 
   /* ===== MAIS LIDOS ===== */
   const posts = [
-    {
+  
+{
     title: "Dez Anos do CPC",
     link: "jurisprudencia/dez-anos-cpc-2015-webinar-legado-jurisprudencia.html",
     date: "2026-03-07T07:00:00"
-    },
-    {
+},
+{
     title: "Tolerância zero: o arcabouço legal contra violência feminina",
     link: "direito-de-familia/tolerancia-zero-arcabouco-legal-violencia-contra-mulher.html",
     date: "2026-03-06T07:00:00"
-    },
-{
-    title: "TRF-4 garante aposentadoria negada por 48 horas",
-    link: "direito-trabalhista/trf4-aposentadoria-invalidez-inss-periodo-graca-doenca-dinamica.html",
-    date: "2026-03-06T07:00:00"
 },
 {
- title: "Droga Apreendida Afasta Benefício Penal?",
+    title: "Licença Paternidade Vai Até Vinte Dias",
+    link: "legislacao/senado-licenca-paternidade-ampliacao-lei-previdencia.html",
+    date: "2026-03-09T07:00:00"
+},
+{
+      title: "Droga Apreendida Afasta Benefício Penal?",
       link: "direito-penal/stj-quantidade-droga-trafico-privilegiado-dosimetria-pena.html",
       date: "2026-03-08T07:00:00"
 },
@@ -300,10 +351,10 @@ document.addEventListener("DOMContentLoaded", function(){
 const principaisNoticias = [
 
 {
-title: "O STF e os Limites do Poder Municipal Sobre a Sala de Aula",
-link: "legislacao/stf-limites-do-poder-municipal-sobre-sala-de-aula.html",
+  title: "Licença Paternidade Vai Até Vinte Dias",
+    link: "legislacao/senado-licenca-paternidade-ampliacao-lei-previdencia.html",
 source: "",
-date: "2026-03-03T07:00:00",
+date: "2026-03-09T07:00:00"
 },
 
 {
@@ -331,16 +382,16 @@ source: "",
 date: "2026-03-07T07:00:00"
 },
 {
-title: "Mediação Estratégica e Compliance",
-link: "compliance/mediacao-estrategica-e-compliance.html",
+title: "Compliance Como Escudo Invisível Consumidor",
+    link: "compliance/compliance-escudo-invisivel-protecao-consumidor.html",
 source: "",
-date: "2026-03-01T07:00:00"
+date: "2026-03-09T07:00:00"
 },
 {
-title: "Justiça Militar Condena PM por Lesão Grave no Recife",
-link: "direito-militar/pm-condenado-lesao-grave-bala-borracha-passinho-recife.html",
+title: "SentinELAS Chega Para Proteger Recrutas Femininas",
+    link: "politica/sentinelas-mpm-protecao-mulheres-forcas-armadas.html",
 source: "",
-date: "2026-03-05T07:00:00"
+date: "2026-03-09T07:00:00"
 },
 {
 title: "Tolerância zero: o arcabouço legal contra violência feminina",
@@ -349,10 +400,10 @@ source: "",
 date: "2026-03-06T07:00:00"
 },
 {
-title: "O Escudo que o Poder Tenta Dobrar",
-link: "compliance/o-escudo-que-o-poder-tenta-dobrar.html",
+   title: "STJ e Seguro de Vida Blindagem Jurisprudencial",
+    link: "jurisprudencia/stj-seguro-vida-blindagem-jurisprudencial-agravamento-risco.html",
 source: "",
-date: "2026-03-03T07:00:00"
+ date: "2026-03-09T07:00:00"
 },
 
 ];

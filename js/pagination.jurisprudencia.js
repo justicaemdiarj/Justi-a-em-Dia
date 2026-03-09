@@ -1,6 +1,17 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
-  {
+{
+    title: "STJ e Seguro de Vida Blindagem Jurisprudencial",
+    date: "09/03/2026",
+    timestamp: "2026-03-09T07:00:00",
+    image: "../img/stj-seguro-vida-blindagem-jurisprudencial-agravamento-risco.jpg",
+    excerpt: "O STJ consolidou blindagem protetiva ao redor do seguro de vida, exigindo dolo específico para excluir cobertura por agravamento de risco, em entendimento positivado pelo Marco Legal dos Seguros.",
+    link: "../jurisprudencia/stj-seguro-vida-blindagem-jurisprudencial-agravamento-risco.html",
+    category: "jurisprudencia",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+{
     title: "Dez Anos do CPC",
     date: "07/03/2026",
     timestamp: "2026-03-07T07:00:00",

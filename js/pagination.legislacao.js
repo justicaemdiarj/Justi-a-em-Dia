@@ -1,6 +1,16 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
-    {
+{
+    title: "Licença Paternidade Vai Até Vinte Dias",
+    date: "09/03/2026",
+    timestamp: "2026-03-09T07:00:00",
+    image: "../img/senado-licenca-paternidade-ampliacao-lei-previdencia.jpg",
+    excerpt: "O Senado Federal aprovou a expansão gradual da licença-paternidade no Brasil, elevando o prazo de cinco para vinte dias até 2029, com custeio pelo RGPS.",
+    link: "../legislacao/senado-licenca-paternidade-ampliacao-lei-previdencia.html",
+    category: "legislacao",
+    author: "Justiça em Dia",
+},
+{
     title: "SC regulamenta Cordão de Girassol para deficiências ocultas",
     date: "06/03/2026",
     timestamp: "2026-03-06T07:00:00",

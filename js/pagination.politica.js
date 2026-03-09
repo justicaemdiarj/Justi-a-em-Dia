@@ -1,7 +1,17 @@
 // Dados de notícias para Política
 const categoryNewsData = [
 
-
+{
+    title: "Tarcísio Enterra Terceira Via em 2026",
+    date: "09/03/2026",
+    timestamp: "2026-03-09T07:00:00",
+    image: "../img/tarcisio-enterra-terceira-via-eleicoes-2026.jpg",
+    excerpt: "O governador de São Paulo descartou qualquer alternativa eleitoral fora da disputa entre Lula e Flávio Bolsonaro e declarou apoio formal ao senador do PL para 2026.",
+    link: "../politica/tarcisio-enterra-terceira-via-eleicoes-2026.html",
+    category: "politica",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 {
     title: "EUA Não Descartam Reduzir Sanções ao Petróleo Russo Para Conter Alta de Preços Após Guerra no Irã",
     date: "09/03/2026",

@@ -13,6 +13,30 @@ const tickerConfig = {
 
 const globalNewsData = [
 {
+    title: "STJ e Seguro de Vida Blindagem Jurisprudencial",
+    link: "jurisprudencia/stj-seguro-vida-blindagem-jurisprudencial-agravamento-risco.html",
+},
+{
+    title: "SentinELAS Chega Para Proteger Recrutas Femininas",
+    link: "direito-militar/sentinelas-mpm-protecao-mulheres-forcas-armadas.html",
+},
+{
+    title: "Tarcísio Enterra Terceira Via em 2026",
+    link: "politica/tarcisio-enterra-terceira-via-eleicoes-2026.html",
+},
+{
+    title: "Compliance Como Escudo Invisível Consumidor",
+    link: "compliance/compliance-escudo-invisivel-protecao-consumidor.html",
+},
+{
+    title: "Licença Paternidade Vai Até Vinte Dias",
+    link: "legislacao/senado-licenca-paternidade-ampliacao-lei-previdencia.html",
+},
+{
+    title: "Suspensão de Dívida Ativa: o Que a Lei Garante",
+    link: "direito-civil/divida-ativa-suspensao-pagamentos-lei-superendividamento.html",
+},
+{
     title: "EUA Não Descartam Reduzir Sanções ao Petróleo Russo Para Conter Alta de Preços Após Guerra no Irã",
     link: "politica/eua-nao-descartam-sancoes-petroleo-russo-guerra-ira.html",
 },

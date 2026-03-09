@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
 {
+    title: "Suspensão de Dívida Ativa: o Que a Lei Garante",
+    date: "09/03/2026",
+    timestamp: "2026-03-09T07:00:00",
+    image: "../img/divida-ativa-suspensao-pagamentos-lei-superendividamento.jpg",
+    excerpt: "A Lei do Superendividamento permite que consumidores endividados suspendam obrigações financeiras por até seis meses, mediante análise judicial.",
+    link: "../direito-civil/divida-ativa-suspensao-pagamentos-lei-superendividamento.html",
+    category: "direito-civil",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+{
     title: "Consumidor Brasileiro Desprotegido Frente à Europa",
     date: "08/03/2026",
     timestamp: "2026-03-08T07:00:00",

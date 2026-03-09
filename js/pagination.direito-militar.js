@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
-    {
+ {
+    title: "SentinELAS Chega Para Proteger Recrutas Femininas",
+    date: "09/03/2026",
+    timestamp: "2026-03-09T07:00:00",
+    image: "../img/sentinelas-mpm-protecao-mulheres-forcas-armadas.jpg",
+    excerpt: "O MPM lançou o aplicativo SentinELAS, ferramenta digital de proteção jurídica e acolhimento voltada às mulheres que ingressaram no Serviço Militar Inicial Feminino.",
+    link: "../direito-militar/sentinelas-mpm-protecao-mulheres-forcas-armadas.html",
+    category: "politica",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+{
     title: "PMs Viram Réus por Roubo Fardado",
     date: "07/03/2026",
     timestamp: "2026-03-07T07:00:00",
