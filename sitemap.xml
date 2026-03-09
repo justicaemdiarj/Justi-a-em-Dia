@@ -61,18 +61,6 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://www.justicaemdia.com.br/apoiadores/consultora-rh-barbara-souza.html</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://www.justicaemdia.com.br/apoiadores/consultora-rh-renata-lima.html</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
         <loc>https://www.justicaemdia.com.br/apoiadores/index.html</loc>
         <lastmod>2026-03-02</lastmod>
         <changefreq>always</changefreq>
@@ -943,10 +931,5 @@
         <changefreq>always</changefreq>
         <priority>1.0</priority>
     </url>
-         <url>
-        <loc>https://www.justicaemdia.com.br/direito-de-familia/divorcio-extrajudicial-consensual-litigioso-diferencas.html</loc>
-        <lastmod>2026-03-09</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
 </urlset>
+           
