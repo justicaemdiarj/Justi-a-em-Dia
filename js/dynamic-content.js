@@ -12,6 +12,10 @@ const tickerConfig = {
 };
 
 const globalNewsData = [
+    {
+    title: "Três Caminhos, Uma Escolha Decisiva no Divórcio",
+    link: "direito-de-familia/divorcio-extrajudicial-consensual-litigioso-diferencas.html",
+},
 {
     title: "STJ e Seguro de Vida Blindagem Jurisprudencial",
     link: "jurisprudencia/stj-seguro-vida-blindagem-jurisprudencial-agravamento-risco.html",

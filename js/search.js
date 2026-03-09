@@ -1,6 +1,13 @@
 // Base de dados global de artigos para busca
 const allArticles = [
 {
+    title: 'Três Caminhos, Uma Escolha Decisiva no Divórcio',
+    description: 'Entenda as diferenças entre o divórcio extrajudicial em cartório, o consensual judicial e o litigioso, seus requisitos legais, custos e impactos para cônjuges e filhos.',
+    category: 'Direito de Família',
+    url: 'direito-de-familia/divorcio-extrajudicial-consensual-litigioso-diferencas.html',
+    tags: ['Romer carvalho','divórcio extrajudicial', 'divórcio consensual', 'divórcio litigioso', 'direito de família', 'partilha de bens', 'guarda de filhos', 'alimentos', 'dissolução do casamento', 'cartório']
+},
+{
     title: 'STJ e Seguro de Vida Blindagem Jurisprudencial',
     description: 'O STJ consolidou blindagem protetiva ao redor do seguro de vida, exigindo dolo específico para excluir cobertura por agravamento de risco, em entendimento positivado pelo Marco Legal dos Seguros.',
     category: 'Jurisprudência',

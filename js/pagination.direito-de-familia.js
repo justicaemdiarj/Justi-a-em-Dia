@@ -1,6 +1,15 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
-   
+  {
+    title: "Três Caminhos, Uma Escolha Decisiva no Divórcio",
+    date: "09/03/2026",
+    timestamp: "2026-03-09T07:00:00",
+    image: "../img/divorcio-extrajudicial-consensual-litigioso-diferencas.jpg",
+    excerpt: "Entenda as diferenças entre o divórcio extrajudicial em cartório, o consensual judicial e o litigioso, seus requisitos legais, custos e impactos para cônjuges e filhos.",
+    link: "../direito-de-familia/divorcio-extrajudicial-consensual-litigioso-diferencas.html",
+    author: "Romer Carvalho",
+    authorLink: "../apoiadores/advogado-romer-carvalho.html"
+},   
 {
     title: "Cartórios na Linha de Frente Contra Violência Patrimonial Feminina",
     date: "08/03/2026",

@@ -13,7 +13,7 @@ const posts = [
     description: "MPM lança app de proteção jurídica para mulheres no Serviço Militar Inicial Feminino",
     description2: "Ferramenta reúne canais de denúncia, orientação jurídica e conteúdo educativo para recrutas",
     image: "img/sentinelas-mpm-protecao-mulheres-forcas-armadas.jpg",
-    link: "politica/sentinelas-mpm-protecao-mulheres-forcas-armadas.html",
+    link: "direito-militar/sentinelas-mpm-protecao-mulheres-forcas-armadas.html",
     date: "2026-03-09T07:00:00",
   section: "featured-secundario"
 },
