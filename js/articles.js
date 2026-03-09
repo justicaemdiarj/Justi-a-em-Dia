@@ -27,10 +27,10 @@ description2:"Natureza da droga podem afastar o tráfico privilegiado ou modular
  section: "featured-terciario"
 },
   {
-    title: "Droga Apreendida Afasta Benefício Penal?",
-   image: "img/stj-quantidade-droga-trafico-privilegiado-dosimetria-pena.jpg",
-    link: "direito-penal/stj-quantidade-droga-trafico-privilegiado-dosimetria-pena.html",
-    date: "2026-03-08T07:00:00",
+    title: "Três Caminhos, Uma Escolha Decisiva no Divórcio",
+   image: "img/divorcio-extrajudicial-consensual-litigioso-diferencas.jpg",
+    link: "direito-de-familia/divorcio-extrajudicial-consensual-litigioso-diferencas.html",
+    date: "2026-03-09T07:00:00",
     section: "destaque"
   },
    {
