@@ -45,6 +45,7 @@ const siteConfig = {
             { title: "Compliance", link: "compliance" },
             { title: "Jurisprudência", link: "jurisprudencia" },
             { title: "Legislação", link: "legislacao" },
+            { title: "Política", link: "politica" },
 
     ],
     
