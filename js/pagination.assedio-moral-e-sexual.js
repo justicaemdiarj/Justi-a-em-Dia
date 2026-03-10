@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
 {
+    title: "Assédio Moral Explode nas Varas Trabalhistas",
+    date: "10/03/2026",
+    timestamp: "2026-03-10T07:00:00",
+    image: "../img/assedio-moral-dano-moral-acoes-trabalhistas-burnout-crescimento.jpg",
+    excerpt: "Pedidos de indenização por dano moral em ações trabalhistas crescem desde 2020. Em 2025, processos por assédio moral registraram alta de mais de 22%, com destaque para burnout e transtornos psiquiátricos.",
+    link: "../direito-trabalhista/assedio-moral-dano-moral-acoes-trabalhistas-burnout-crescimento.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+{
     title: "Processos Explodem na Justiça Laboral",
     date: "08/03/2026",
     timestamp: "2026-03-08T07:00:00",

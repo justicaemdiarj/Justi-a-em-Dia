@@ -1,6 +1,34 @@
 // Base de dados global de artigos para busca
 const allArticles = [
 {
+    title: 'Receita Falsa Opioide e a Semi-Imputabilidade',
+    description: 'Funcionário de clínica veterinária falsificou receituários para adquirir opioides e foi condenado pela 1ª Vara Criminal de Tupã. O caso expõe a fronteira entre dependência química e responsabilidade penal reduzida.',
+    category: 'Direito Criminal',
+    url: 'direito-penal/receita-falsa-opioide-semi-imputabilidade-condenacao-penal.html',
+    tags: ['receita falsa', 'documento falso', 'semi-imputabilidade', 'princípio da consunção', 'Receita Falsa Opioide e a Semi-Imputabilidade']
+},
+{
+    title: 'Compliance Virou Escudo Jurídico das Empresas',
+    description: 'Com 83,8 milhões de processos em tramitação e fiscalização digital crescente, o compliance corporativo consolida-se como proteção jurídica e financeira essencial. Especialistas apontam cinco frentes de intervenção para reduzir passivos e fortalecer a governança empresarial.',
+    category: 'Compliance',
+    url: 'compliance/compliance-escudo-juridico-governanca-empresas-lei-anticorrupcao.html',
+    tags: ['Compliance corporativo', 'Lei Anticorrupção', 'Governança empresarial', 'Risco jurídico', 'Compliance Virou Escudo Jurídico das Empresas']
+},
+{
+    title: 'Fuga à Viatura Abre Porta Sem Mandado',
+    description: 'STJ consolida entendimento de que fuga em direção ao domicílio ao avistar viatura policial justifica ingresso forçado sem mandado. Tese tensiona a inviolabilidade constitucional do lar e os limites do flagrante presumido.',
+    category: 'Jurisprudência',
+    url: 'jurisprudencia/fuga-viatura-policial-domicilio-sem-mandado-stj-jurisprudencia.html',
+    tags: ['Inviolabilidade do domicílio', 'Fuga policial', 'Flagrante delito', 'STJ', 'Fuga à Viatura Abre Porta Sem Mandado']
+},
+{
+    title: 'Senado Endurece Proteção Contra Feminicídio',
+    description: 'O PL 953/2026 eleva a pena máxima do feminicídio para 50 anos, tipifica instigação por terceiros contra vítimas e cria cadastro nacional de condenados. Proposta tramita no Senado no aniversário de 20 anos da Lei Maria da Penha.',
+    category: 'Legislação',
+    url: 'legislacao/senado-feminicidio-pena-maxima-protecao-mulheres-pl-953.html',
+    tags: ['Feminicídio', 'Lei Maria da Penha', 'PL 953 2026', 'Violência doméstica', 'Senado Endurece Proteção Contra Feminicídio']
+},
+{
     title: 'Diálogos de Vorcaro Ameaçam Provas no STF',
     description: 'Vazamento de mensagens do celular de Daniel Vorcaro levou o STF a abrir inquérito. Especialistas alertam que a divulgação ilícita pode gerar nulidades processuais e comprometer as investigações sobre o Banco Master.',
     category: 'Política',

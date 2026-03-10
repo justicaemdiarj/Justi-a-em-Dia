@@ -1,6 +1,16 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
 {
+    title: "Compliance Virou Escudo Jurídico das Empresas",
+    date: "10/03/2026",
+    timestamp: "2026-03-10T07:00:00",
+    image: "../img/compliance-escudo-juridico-governanca-empresas-lei-anticorrupcao.jpg",
+    excerpt: "Com 83,8 milhões de processos em tramitação e fiscalização digital em expansão, o compliance corporativo migrou de custo burocrático para instrumento essencial de proteção jurídica e financeira das empresas brasileiras.",
+    link: "../compliance/compliance-escudo-juridico-governanca-empresas-lei-anticorrupcao.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+{
     title: "Compliance Como Escudo Invisível Consumidor",
     date: "09/03/2026",
     timestamp: "2026-03-09T07:00:00",

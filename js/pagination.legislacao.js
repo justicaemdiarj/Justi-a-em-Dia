@@ -1,6 +1,16 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
 {
+    title: "Senado Endurece Proteção Contra Feminicídio",
+    date: "10/03/2026",
+    timestamp: "2026-03-10T07:00:00",
+    image: "../img/senado-feminicidio-pena-maxima-protecao-mulheres-pl-953.jpg",
+    excerpt: "O PL 953/2026 eleva a pena máxima do feminicídio para 50 anos, criminaliza terceiros que intimidam vítimas e cria cadastro nacional de condenados por violência doméstica.",
+    link: "../legislacao/senado-feminicidio-pena-maxima-protecao-mulheres-pl-953.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+{
     title: "Licença Paternidade Vai Até Vinte Dias",
     date: "09/03/2026",
     timestamp: "2026-03-09T07:00:00",

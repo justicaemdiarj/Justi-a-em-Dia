@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
 {
+    title: "Receita Falsa Opioide e a Semi-Imputabilidade",
+    date: "10/03/2026",
+    timestamp: "2026-03-10T07:00:00",
+    image: "../img/receita-falsa-opioide-semi-imputabilidade-condenacao-penal.jpg",
+    excerpt: "Dependência química mitiga pena mas não afasta condenação penal.",
+    link: "../direito-penal/receita-falsa-opioide-semi-imputabilidade-condenacao-penal.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+{
     title: "Droga Apreendida Afasta Benefício Penal?",
     date: "08/03/2026",
     timestamp: "2026-03-08T07:00:00",

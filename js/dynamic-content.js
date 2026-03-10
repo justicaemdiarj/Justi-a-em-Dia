@@ -13,6 +13,22 @@ const tickerConfig = {
 
 const globalNewsData = [
 {
+    title: "Receita Falsa Opioide e a Semi-Imputabilidade",
+    link: "direito-penal/receita-falsa-opioide-semi-imputabilidade-condenacao-penal.html",
+},
+{
+    title: "Assédio Moral Explode nas Varas Trabalhistas",
+    link: "direito-trabalhista/assedio-moral-dano-moral-acoes-trabalhistas-burnout-crescimento.html",
+},
+{
+    title: "Fuga à Viatura Abre Porta Sem Mandado",
+    link: "jurisprudencia/fuga-viatura-policial-domicilio-sem-mandado-stj-jurisprudencia.html",
+},
+{
+    title: "Senado Endurece Proteção Contra Feminicídio",
+    link: "legislacao/senado-feminicidio-pena-maxima-protecao-mulheres-pl-953.html",
+},
+{
     title: "Diálogos de Vorcaro Ameaçam Provas no STF",
     link: "politica/vorcaro-dialogos-vazamento-nulidade-provas-stf-banco-master.html",
 },
@@ -52,59 +68,6 @@ const globalNewsData = [
     title: "Trump Tem Uma Semana para Liberar o Petróleo do Oriente Médio Antes dos Preços Explodirem",
     link: "politica/trump-uma-semana-liberar-petroleo-oriente-medio-preco-disparar.html",
 },
-{
-    title: "Trump Lança Resseguro de US$ 20 Bi para Petroleiros no Estreito de Ormuz",
-    link: "politica/trump-resseguro-20-bilhoes-petroleiros-estreito-ormuz.html",
-},
-{
-        title: "Paes Joga Xadrez Enquanto Rio Elege Governador na Surdina",
-        link: "politica/paes-eleicao-indireta-rio-governador-tampao-alerj-2026.html",
-},
-{
-        title: "Lula Apoia Paes no RJ, Mas Exige Chapa Competitiva",
-        link: "politica/lula-apoio-paes-rj-chapa-competitiva-eleicoes-2026.html",
-},
-{
-        title: "Processos Explodem na Justiça",
-        link: "direito-trabalhista/assedio-moral-sexual-processos-trabalhistas-aumento-2025.html",
-},
-{
-        title: "Droga Apreendida Afasta Benefício Penal?",
-        link: "direito-penal/stj-quantidade-droga-trafico-privilegiado-dosimetria-pena.html",
-},
-{
-        title: "Cartórios na Linha de Frente Contra Violência Patrimonial Feminina",
-        link: "direito-de-familia/cartorios-protecao-patrimonial-mulheres-violencia-silenciosa.html",
-},
-{
-        title: "Consumidor Brasileiro Desprotegido Frente à Europa",
-        link: "direito-civil/armadilhas-digitais-consumidor-brasileiro-desprotegido-frente-europa.html",
-},
-{
-    title: "PMs Viram Réus por Roubo Fardado",
-    link: "direito-militar/pms-presos-roubo-celulares-onibus-expediente-rj-2026.html",
-},
-{
-    title: "Código Civil Ignora a Família Real",
-    link: "direito-de-familia/codigo-civil-ignora-familia-real-reforma-urgente-sucessoes.html",
-},
-{
-    title: "Migração Partidária Reforça Centro-Direita na Câmara",
-    link: "politica/migracao-partidaria-reforco-centro-direita-camara-janela-2026.html",
-},
-{
-    title: "Senado Aprova Redução de Penas",
-    link: "direito-penal/senado-aprova-reducao-penas-8j-dosimetria-sancao.html",
-},
-{
-    title: "Rio Protege Servidores do Assédio Funcional",
-    link: "direito-trabalhista/rio-protege-servidores-assedio-funcional-guia-smit.html",
-},
-{
-    title: "CGU Eleva o Padrão do Compliance",
-    link: "compliance/cgu-eleva-padrao-compliance-contratacoes-publicas-pn-226-25.html",
-},
-
 ];
 
 // Array para armazenar todas as notícias coletadas dos arquivos de paginação

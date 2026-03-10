@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
-   {
+{
+    title: "Receita Falsa Opioide e a Semi-Imputabilidade",
+    date: "10/03/2026",
+    timestamp: "2026-03-10T07:00:00",
+    image: "../img/receita-falsa-opioide-semi-imputabilidade-condenacao-penal.jpg",
+    excerpt: "Dependência química mitiga pena mas não afasta condenação penal.",
+    link: "../direito-penal/receita-falsa-opioide-semi-imputabilidade-condenacao-penal.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+{
     title: "MPRJ reverte posição e pede internação de menor",
     date: "06/03/2026",
     timestamp: "2026-03-06T07:00:00",

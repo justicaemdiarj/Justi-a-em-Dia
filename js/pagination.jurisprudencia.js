@@ -1,6 +1,16 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
 {
+    title: "Fuga à Viatura Abre Porta Sem Mandado",
+    date: "10/03/2026",
+    timestamp: "2026-03-10T07:00:00",
+    image: "../img/fuga-viatura-policial-domicilio-sem-mandado-stj-jurisprudencia.jpg",
+    excerpt: "STJ consolida que fuga em direção ao domicílio ao ver viatura policial configura fundada suspeita e autoriza ingresso forçado sem mandado judicial.",
+    link: "../jurisprudencia/fuga-viatura-policial-domicilio-sem-mandado-stj-jurisprudencia.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+{
     title: "STJ e Seguro de Vida Blindagem Jurisprudencial",
     date: "09/03/2026",
     timestamp: "2026-03-09T07:00:00",

@@ -9,21 +9,21 @@ const posts = [
   section: "featured"
 },
   {
-    title: "Suspensão de Dívida Ativa: o Que a Lei Garante",
-    description: "A Lei do Superendividamento permite suspender pagamentos por até seis meses mediante análise judicial",
-    description2: "Entenda quais dívidas são alcançadas pela norma e como acionar o mecanismo de proteção ao consumidor",
-    image: "img/divida-ativa-suspensao-pagamentos-lei-superendividamento.jpg",
-    link: "direito-civil/divida-ativa-suspensao-pagamentos-lei-superendividamento.html",
-    date: "2026-03-09T07:00:00",
+    title: "Senado Endurece Proteção Contra Feminicídio",
+    description: "PL 953/2026 eleva pena máxima para 50 anos e cria cadastro nacional de condenados por violência doméstica",
+    description2: "Projeto tipifica instigação por terceiros e amplia medidas protetivas no ano dos 20 anos da Lei Maria da Penha",
+    image: "img/senado-feminicidio-pena-maxima-protecao-mulheres-pl-953.jpg",
+    link: "legislacao/senado-feminicidio-pena-maxima-protecao-mulheres-pl-953.html",
+    date: "2026-03-10T07:00:00",
   section: "featured-secundario"
 },
 {
-   title: "SentinELAS Chega Para Proteger Recrutas Femininas",
-    description: "MPM lança app de proteção jurídica para mulheres no Serviço Militar Inicial Feminino",
-    description2: "Ferramenta reúne canais de denúncia, orientação jurídica e conteúdo educativo para recrutas",
-    image: "img/sentinelas-mpm-protecao-mulheres-forcas-armadas.jpg",
-    link: "direito-militar/sentinelas-mpm-protecao-mulheres-forcas-armadas.html",
-    date: "2026-03-09T07:00:00",
+   title: "Fuga à Viatura Abre Porta Sem Mandado",
+    description: "STJ consolida que correr ao ver a polícia e entrar em casa justifica ingresso policial forçado sem mandado",
+    description2: "Tese divide doutrinadores e tensiona a inviolabilidade constitucional do domicílio",
+    image: "img/fuga-viatura-policial-domicilio-sem-mandado-stj-jurisprudencia.jpg",
+    link: "jurisprudencia/fuga-viatura-policial-domicilio-sem-mandado-stj-jurisprudencia.html",
+    date: "2026-03-10T07:00:00",
  section: "featured-terciario"
 },
   {
@@ -34,10 +34,10 @@ const posts = [
     section: "destaque"
   },
    {
-    title: "Tarcísio Enterra Terceira Via em 2026",
-    image: "img/tarcisio-enterra-terceira-via-eleicoes-2026.jpg",
-    link: "politica/tarcisio-enterra-terceira-via-eleicoes-2026.html",
-    date: "2026-03-09T07:00:00",
+    title: "Receita Falsa Opioide e a Semi-Imputabilidade",
+    image: "img/receita-falsa-opioide-semi-imputabilidade-condenacao-penal.jpg",
+  link: "direito-penal/receita-falsa-opioide-semi-imputabilidade-condenacao-penal.html",
+  date: "2026-03-10T07:00:00",
     section: "destaque"
   },
   {
@@ -56,17 +56,17 @@ const posts = [
     section: "veja"
   },
   {
-    title: "Lula Apoia Paes no RJ, Mas Exige Chapa Competitiva",
-    image: "img/lula-apoio-paes-rj-chapa-competitiva-eleicoes-2026.jpg",
-    link: "politica/lula-apoio-paes-rj-chapa-competitiva-eleicoes-2026.html",
-    date: "2026-03-08T07:00:00",
+     title: "Compliance Virou Escudo Jurídico das Empresas",
+     image: "img/compliance-escudo-juridico-governanca-empresas-lei-anticorrupcao.jpg",
+    link: "compliance/compliance-escudo-juridico-governanca-empresas-lei-anticorrupcao.html",
+    date: "2026-03-10T07:00:00",
     section: "veja"
   },
   {
-    title: "Processos Explodem na Justiça",
-   image: "img/assedio-moral-sexual-processos-trabalhistas-aumento-2025.jpg",
-    link: "direito-trabalhista/assedio-moral-sexual-processos-trabalhistas-aumento-2025.html",
-    date: "2026-03-08T07:00:00",
+    title: 'Assédio Moral Explode nas Varas Trabalhistas',
+    image: "img/assedio-moral-dano-moral-acoes-trabalhistas-burnout-crescimento.jpg",
+    link: "../direito-trabalhista/assedio-moral-dano-moral-acoes-trabalhistas-burnout-crescimento.html",
+    date: "2026-03-10T07:00:00",
     section: "veja"
   }
 ];
@@ -275,9 +275,9 @@ document.addEventListener("DOMContentLoaded", function(){
     date: "2026-03-07T07:00:00"
 },
 {
-    title: "Tolerância zero: o arcabouço legal contra violência feminina",
-    link: "direito-de-familia/tolerancia-zero-arcabouco-legal-violencia-contra-mulher.html",
-    date: "2026-03-06T07:00:00"
+    title: "Compliance Virou Escudo Jurídico das Empresas",
+    link: "compliance/compliance-escudo-juridico-governanca-empresas-lei-anticorrupcao.html",
+    date: "2026-03-10T07:00:00"
 },
 {
     title: "Licença Paternidade Vai Até Vinte Dias",
@@ -290,9 +290,9 @@ document.addEventListener("DOMContentLoaded", function(){
       date: "2026-03-08T07:00:00"
 },
  {
-    title: "Rio Protege Servidores do Assédio Funcional",
-    link: "direito-trabalhista/rio-protege-servidores-assedio-funcional-guia-smit.html",
-    date: "2026-03-07T07:00:00"
+   title: "Assédio Moral Explode nas Varas Trabalhistas",
+    link: "direito-trabalhista/assedio-moral-dano-moral-acoes-trabalhistas-burnout-crescimento.html",
+    date: "2026-03-10T07:00:00"
 },
     {
     title: "Código Civil Ignora a Família Real",
@@ -370,10 +370,10 @@ source: "",
 date: "2026-03-05T03:00:00"
 },
 {
-title: "A Decisão do TJMG que Ameaça Décadas de Proteção à Infância",
-link: "direito-penal/casamento-crianca-crime-tjmg-estupro-vulneravel-protecao-infancia.html",
+title: "Receita Falsa Opioide e a Semi-Imputabilidade",
+  link: "direito-penal/receita-falsa-opioide-semi-imputabilidade-condenacao-penal.html",
 source: "",
-date: "2026-03-04T07:00:00"
+date: "2026-03-10T07:00:00"
 },
 {
 title: "PMs Viram Réus por Roubo Fardado",
@@ -394,10 +394,10 @@ source: "",
 date: "2026-03-09T07:00:00"
 },
 {
-title: "Tolerância zero: o arcabouço legal contra violência feminina",
-link: "direito-de-familia/tolerancia-zero-arcabouco-legal-violencia-contra-mulher.html",
+    title: "Compliance Virou Escudo Jurídico das Empresas",
+  link: "compliance/compliance-escudo-juridico-governanca-empresas-lei-anticorrupcao.html",
 source: "",
-date: "2026-03-06T07:00:00"
+date: "2026-03-10T07:00:00",
 },
 {
    title: "STJ e Seguro de Vida Blindagem Jurisprudencial",
