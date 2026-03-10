@@ -4,7 +4,7 @@ const categoryNewsData = [
     title: "Compliance Como Escudo Invisível Consumidor",
     date: "09/03/2026",
     timestamp: "2026-03-09T07:00:00",
-    image: "img/compliance-escudo-invisivel-protecao-consumidor.jpg",
+    image: "../img/compliance-escudo-invisivel-protecao-consumidor.jpg",
     excerpt: "O compliance vai muito além da burocracia corporativa: é o mecanismo silencioso que protege o consumidor contra fraudes, crédito predatório e vazamento de dados.",
     link: "../compliance/compliance-escudo-invisivel-protecao-consumidor.html",
     category: "compliance",

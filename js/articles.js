@@ -1,29 +1,29 @@
 const posts = [
 {
+    title: "Diálogos de Vorcaro Ameaçam Provas no STF",
+    description: "STF abre inquérito após vazamento de mensagens do celular do dono do Banco Master",
+    description2: "Especialistas alertam que ilicitude pode gerar nulidades e comprometer todo o processo",
+    image: "img/vorcaro-dialogos-vazamento-nulidade-provas-stf-banco-master.jpg",
+    link: "politica/vorcaro-dialogos-vazamento-nulidade-provas-stf-banco-master.html",
+    date: "2026-03-10T07:00:00",
+  section: "featured"
+},
+  {
     title: "Suspensão de Dívida Ativa: o Que a Lei Garante",
     description: "A Lei do Superendividamento permite suspender pagamentos por até seis meses mediante análise judicial",
     description2: "Entenda quais dívidas são alcançadas pela norma e como acionar o mecanismo de proteção ao consumidor",
     image: "img/divida-ativa-suspensao-pagamentos-lei-superendividamento.jpg",
     link: "direito-civil/divida-ativa-suspensao-pagamentos-lei-superendividamento.html",
     date: "2026-03-09T07:00:00",
-  section: "featured"
+  section: "featured-secundario"
 },
-  {
+{
    title: "SentinELAS Chega Para Proteger Recrutas Femininas",
     description: "MPM lança app de proteção jurídica para mulheres no Serviço Militar Inicial Feminino",
     description2: "Ferramenta reúne canais de denúncia, orientação jurídica e conteúdo educativo para recrutas",
     image: "img/sentinelas-mpm-protecao-mulheres-forcas-armadas.jpg",
     link: "direito-militar/sentinelas-mpm-protecao-mulheres-forcas-armadas.html",
     date: "2026-03-09T07:00:00",
-  section: "featured-secundario"
-},
-{
- title: "Droga Apreendida Afasta Benefício Penal?",
- description: "A 3ª Seção do STJ suspendeu o julgamento dos Temas Repetitivos 1.154 e 1.241",
-description2:"Natureza da droga podem afastar o tráfico privilegiado ou modular a fração de redução da pena na dosimetria penal",
- image: "img/stj-quantidade-droga-trafico-privilegiado-dosimetria-pena.jpg",
- link: "direito-penal/stj-quantidade-droga-trafico-privilegiado-dosimetria-pena.html",
- date: "2026-03-08T07:00:00",
  section: "featured-terciario"
 },
   {

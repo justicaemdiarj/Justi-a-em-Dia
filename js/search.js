@@ -1,6 +1,20 @@
 // Base de dados global de artigos para busca
 const allArticles = [
 {
+    title: 'Diálogos de Vorcaro Ameaçam Provas no STF',
+    description: 'Vazamento de mensagens do celular de Daniel Vorcaro levou o STF a abrir inquérito. Especialistas alertam que a divulgação ilícita pode gerar nulidades processuais e comprometer as investigações sobre o Banco Master.',
+    category: 'Política',
+    url: 'politica/vorcaro-dialogos-vazamento-nulidade-provas-stf-banco-master.html',
+    tags: ['Vorcaro', 'Banco Master', 'STF', 'Vazamento de provas', 'Diálogos de Vorcaro Ameaçam Provas no STF']
+},
+{
+    title: 'Three Paths, One Decisive Choice in Divorce',
+    description: 'Brazil records hundreds of thousands of marital dissolutions every year, and the way in which this process is conducted has implications that go far beyond the...',
+    category: 'Family Law',
+    url: 'direito-de-familia/divorce-extrajudicial-consensual-litigious-differences.html',
+    tags: ['Romer carvalho','Three Paths, One Decisive Choice in Divorce', 'out-of-court divorce', 'consensual divorce', 'contested divorce', 'family law', 'division of assets', 'child custody', 'alimony', 'dissolution of marriage', 'registry office']
+},
+{
     title: 'Três Caminhos, Uma Escolha Decisiva no Divórcio',
     description: 'Entenda as diferenças entre o divórcio extrajudicial em cartório, o consensual judicial e o litigioso, seus requisitos legais, custos e impactos para cônjuges e filhos.',
     category: 'Direito de Família',

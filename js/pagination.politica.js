@@ -1,6 +1,15 @@
 // Dados de notícias para Política
 const categoryNewsData = [
-
+{
+    title: "Diálogos de Vorcaro Ameaçam Provas no STF",
+    date: "10/03/2026",
+    timestamp: "2026-03-10T07:00:00",
+    image: "../img/vorcaro-dialogos-vazamento-nulidade-provas-stf-banco-master.jpg",
+    excerpt: "Vazamento de mensagens do celular de Daniel Vorcaro abre inquérito no STF e ameaça a validade das provas colhidas nas investigações sobre o Banco Master.",
+    link: "../politica/vorcaro-dialogos-vazamento-nulidade-provas-stf-banco-master.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 {
     title: "Tarcísio Enterra Terceira Via em 2026",
     date: "09/03/2026",

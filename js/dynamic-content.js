@@ -12,7 +12,11 @@ const tickerConfig = {
 };
 
 const globalNewsData = [
-    {
+{
+    title: "Diálogos de Vorcaro Ameaçam Provas no STF",
+    link: "politica/vorcaro-dialogos-vazamento-nulidade-provas-stf-banco-master.html",
+},
+{
     title: "Três Caminhos, Uma Escolha Decisiva no Divórcio",
     link: "direito-de-familia/divorcio-extrajudicial-consensual-litigioso-diferencas.html",
 },
