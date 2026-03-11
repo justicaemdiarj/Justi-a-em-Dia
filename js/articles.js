@@ -1,72 +1,73 @@
 const posts = [
 {
-    title: "Diálogos de Vorcaro Ameaçam Provas no STF",
-    description: "STF abre inquérito após vazamento de mensagens do celular do dono do Banco Master",
-    description2: "Especialistas alertam que ilicitude pode gerar nulidades e comprometer todo o processo",
-    image: "img/vorcaro-dialogos-vazamento-nulidade-provas-stf-banco-master.jpg",
-    link: "politica/vorcaro-dialogos-vazamento-nulidade-provas-stf-banco-master.html",
-    date: "2026-03-10T07:00:00",
+  
+  title: "Leilão de Imóvel Exige Notificação Prévia ao Devedor",
+  description: "A execução extrajudicial de imóveis por alienação fiduciária só é válida quando o credor comprova ter esgotado todos os meios de intimação pessoal do devedor",
+  description2: "Consolidação de propriedade sem notificação adequada é nula de pleno direito, reafirma Justiça Federal",
+  image: "img/leilao-extrajudicial-notificacao-devedor-imovel.jpg",
+  link: "direito-civil/leilao-extrajudicial-notificacao-devedor-imovel.html",
+  date: "2026-03-11T07:00:00",
   section: "featured"
 },
   {
-    title: "Senado Endurece Proteção Contra Feminicídio",
-    description: "PL 953/2026 eleva pena máxima para 50 anos e cria cadastro nacional de condenados por violência doméstica",
-    description2: "Projeto tipifica instigação por terceiros e amplia medidas protetivas no ano dos 20 anos da Lei Maria da Penha",
-    image: "img/senado-feminicidio-pena-maxima-protecao-mulheres-pl-953.jpg",
-    link: "legislacao/senado-feminicidio-pena-maxima-protecao-mulheres-pl-953.html",
-    date: "2026-03-10T07:00:00",
+  title: "Mediação Familiar Ganha Força em Mutirão Virtual",
+  description: "Cejusc de Fortaleza mobiliza 50 mediadores em 20 salas virtuais para resolver 266 demandas familiares acumuladas nas Varas de Família da Capital",
+  description2: "Mutirão virtual do TJCE reafirma a mediação como caminho prioritário para pacificação de conflitos familiares",
+  image: "img/cejusc-fortaleza-mutirao-virtual-mediacao-familia.jpg",
+  link: "direito-de-familia/cejusc-fortaleza-mutirao-virtual-mediacao-familia.html",
+  date: "2026-03-11T07:00:00",
   section: "featured-secundario"
 },
 {
-   title: "Fuga à Viatura Abre Porta Sem Mandado",
-    description: "STJ consolida que correr ao ver a polícia e entrar em casa justifica ingresso policial forçado sem mandado",
-    description2: "Tese divide doutrinadores e tensiona a inviolabilidade constitucional do domicílio",
-    image: "img/fuga-viatura-policial-domicilio-sem-mandado-stj-jurisprudencia.jpg",
-    link: "jurisprudencia/fuga-viatura-policial-domicilio-sem-mandado-stj-jurisprudencia.html",
-    date: "2026-03-10T07:00:00",
+title: "Esposa de Moraes Detalha Contrato Milionário com Master",
+  description: "Escritório Barci de Moraes divulgou nota detalhando 36 pareceres e 94 reuniões ao Banco Master em contrato de R$ 129 milhões voltado a compliance e código de ética, negando qualquer atuação perante o STF",
+  description2: "O caso expõe tensão institucional grave entre os vínculos financeiros da família Moraes e a instituição controlada por Daniel Vorcaro, preso pela PF e submetido a liquidação extrajudicial pelo Banco Central",
+  image: "img/viviane-barci-moraes-contrato-banco-master-compliance-etica.jpg",
+  link: "compliance/viviane-barci-moraes-contrato-banco-master-compliance-etica.html",
+  date: "2026-03-11T07:00:00",
  section: "featured-terciario"
 },
   {
-    title: "Três Caminhos, Uma Escolha Decisiva no Divórcio",
-   image: "img/divorcio-extrajudicial-consensual-litigioso-diferencas.jpg",
-    link: "direito-de-familia/divorcio-extrajudicial-consensual-litigioso-diferencas.html",
-    date: "2026-03-09T07:00:00",
+   title: "Suspeita de Homicídio Deixa Prisão Preventiva",
+   image: "img/suspeita-homicidio-liberdade-prisao-preventiva-bento-goncalves.jpg",
+  link: "direito-penal/suspeita-homicidio-liberdade-prisao-preventiva-bento-goncalves.html",
+  date: "2026-03-11T07:00:00",
     section: "destaque"
   },
    {
-    title: "Receita Falsa Opioide e a Semi-Imputabilidade",
-    image: "img/receita-falsa-opioide-semi-imputabilidade-condenacao-penal.jpg",
-  link: "direito-penal/receita-falsa-opioide-semi-imputabilidade-condenacao-penal.html",
-  date: "2026-03-10T07:00:00",
+    title: "Nexo Causal Ausente Derruba Pedido de Indenização Trabalhista",
+   image: "img/nexo-causal-ausente-indenizacao-acidente-trabalho-improcedente.jpg",
+  link: "direito-trabalhista/nexo-causal-ausente-indenizacao-acidente-trabalho-improcedente.html",
+  date: "2026-03-11T07:00:00",
     section: "destaque"
   },
   {
-    title: "Licença Paternidade Vai Até Vinte Dias",
-    image: "img/senado-licenca-paternidade-ampliacao-lei-previdencia.jpg",
-    link: "legislacao/senado-licenca-paternidade-ampliacao-lei-previdencia.html",
-    date: "2026-03-09T07:00:00",
+    title: "Militares Doentes Ganham Isenção Previdenciária em Minas",
+    image: "img/isencao-previdenciaria-militares-doencas-graves-minas-gerais-zema.jpg",
+  link: "direito-militar/isencao-previdenciaria-militares-doencas-graves-minas-gerais-zema.html",
+  date: "2026-03-11T07:00:00",
     section: "destaque"
   },
   {
    
-    title: "Compliance Como Escudo Invisível Consumidor",
-    image: "img/compliance-escudo-invisivel-protecao-consumidor.jpg",
-    link: "compliance/compliance-escudo-invisivel-protecao-consumidor.html",
-    date: "2026-03-09T07:00:00",
+    title: "TST Pune Uso de Precedentes Falsos Gerados por IA",
+ image: "img/tst-pune-precedentes-falsos-ia-litigancia-ma-fe-telecom.jpg",
+  link: "jurisprudencia/tst-pune-precedentes-falsos-ia-litigancia-ma-fe-telecom.html",
+  date: "2026-03-11T07:00:00",
     section: "veja"
   },
   {
-     title: "Compliance Virou Escudo Jurídico das Empresas",
-     image: "img/compliance-escudo-juridico-governanca-empresas-lei-anticorrupcao.jpg",
-    link: "compliance/compliance-escudo-juridico-governanca-empresas-lei-anticorrupcao.html",
-    date: "2026-03-10T07:00:00",
+    title: "Reforma Legislativa Reestrutura Proteção do Produtor Rural",
+    image: "img/reforma-legislativa-seguro-rural-pl-2951-plano-safra-2026.jpg",
+    link: "legislacao/reforma-legislativa-seguro-rural-pl-2951-plano-safra-2026.html",
+    date: "2026-03-11T07:00:00",
     section: "veja"
   },
   {
-    title: 'Assédio Moral Explode nas Varas Trabalhistas',
-    image: "img/assedio-moral-dano-moral-acoes-trabalhistas-burnout-crescimento.jpg",
-    link: "../direito-trabalhista/assedio-moral-dano-moral-acoes-trabalhistas-burnout-crescimento.html",
-    date: "2026-03-10T07:00:00",
+    title: "Direita Fragmentada Aposta Tudo em Flávio Bolsonaro",
+    image: "img/direita-fragmentada-flavio-bolsonaro-eleicoes-2026.jpg",
+  link: "politica/direita-fragmentada-flavio-bolsonaro-eleicoes-2026.html",
+  date: "2026-03-11T07:00:00",
     section: "veja"
   }
 ];
@@ -270,9 +271,9 @@ document.addEventListener("DOMContentLoaded", function(){
   const posts = [
   
 {
-    title: "Dez Anos do CPC",
-    link: "jurisprudencia/dez-anos-cpc-2015-webinar-legado-jurisprudencia.html",
-    date: "2026-03-07T07:00:00"
+    title: "Suspensão de Dívida Ativa: o Que a Lei Garante",
+    link: "direito-civil/divida-ativa-suspensao-pagamentos-lei-superendividamento.html",
+    date: "2026-03-09T07:00:00"
 },
 {
     title: "Compliance Virou Escudo Jurídico das Empresas",
@@ -285,9 +286,9 @@ document.addEventListener("DOMContentLoaded", function(){
     date: "2026-03-09T07:00:00"
 },
 {
-      title: "Droga Apreendida Afasta Benefício Penal?",
-      link: "direito-penal/stj-quantidade-droga-trafico-privilegiado-dosimetria-pena.html",
-      date: "2026-03-08T07:00:00"
+ title: "Suspeita de Homicídio Deixa Prisão Preventiva",
+  link: "direito-penal/suspeita-homicidio-liberdade-prisao-preventiva-bento-goncalves.html",
+  date: "2026-03-11T07:00:00"
 },
  {
    title: "Assédio Moral Explode nas Varas Trabalhistas",
@@ -295,15 +296,9 @@ document.addEventListener("DOMContentLoaded", function(){
     date: "2026-03-10T07:00:00"
 },
     {
-    title: "Código Civil Ignora a Família Real",
-    link: "direito-de-familia/codigo-civil-ignora-familia-real-reforma-urgente-sucessoes.html",
-    date: "2026-03-07T07:00:00"
-    }
-    ,
-    {
-    title: "PMs Viram Réus por Roubo Fardado",
-    link: "direito-militar/pms-presos-roubo-celulares-onibus-expediente-rj-2026.html",
-    date: "2026-03-07T07:00:00"
+ title: "Direita Fragmentada Aposta Tudo em Flávio Bolsonaro",
+  link: "politica/direita-fragmentada-flavio-bolsonaro-eleicoes-2026.html",
+  date: "2026-03-11T07:00:00"
     }
   ];
 
@@ -358,16 +353,16 @@ date: "2026-03-09T07:00:00"
 },
 
 {
-title: "Operação Argos: PF Age Contra Abuso Sexual Infantil",
-link: "direito-penal/operacao-argos-pf-abuso-sexual-infantojuvenil-porto-velho.html",
+title: "Leilão de Imóvel Exige Notificação Prévia ao Devedor",
+  link: "direito-civil/leilao-extrajudicial-notificacao-devedor-imovel.html",
 source: "",
-date: "2026-03-05T07:00:00"
+date: "2026-03-11T07:00:00"
 },
 {
-title: "O Que é Revelado Sobre o Caso do Banco Master e os Limites do Compliance",
-link: "compliance/banco-master-compliance-gestao-fraudulenta-temeraria-limites-governanca.html",
+title: "Tarcísio Enterra Terceira Via em 2026",
+link: "politica/tarcisio-enterra-terceira-via-eleicoes-2026.html",
 source: "",
-date: "2026-03-05T03:00:00"
+date: "2026-03-10T03:00:00"
 },
 {
 title: "Receita Falsa Opioide e a Semi-Imputabilidade",
@@ -376,16 +371,16 @@ source: "",
 date: "2026-03-10T07:00:00"
 },
 {
-title: "PMs Viram Réus por Roubo Fardado",
-link: "direito-militar/pms-presos-roubo-celulares-onibus-expediente-rj-2026.html",
+title: "Consumidor Brasileiro Desprotegido Frente à Europa",
+link: "direito-civil/armadilhas-digitais-consumidor-brasileiro-desprotegido-frente-europa.html",
 source: "",
-date: "2026-03-07T07:00:00"
+date: "2026-03-08T07:00:00"
 },
 {
-title: "Compliance Como Escudo Invisível Consumidor",
-    link: "compliance/compliance-escudo-invisivel-protecao-consumidor.html",
+title: "Droga Apreendida Afasta Benefício Penal?",
+    link: "direito-penal/stj-quantidade-droga-trafico-privilegiado-dosimetria-pena.html",
 source: "",
-date: "2026-03-09T07:00:00"
+date: "2026-03-08T07:00:00"
 },
 {
 title: "SentinELAS Chega Para Proteger Recrutas Femininas",

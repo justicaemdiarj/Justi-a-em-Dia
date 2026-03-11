@@ -12,6 +12,44 @@ const tickerConfig = {
 };
 
 const globalNewsData = [
+
+{
+    title: "Esposa de Moraes Detalha Contrato Milionário com Master",
+    link: "compliance/viviane-barci-moraes-contrato-banco-master-compliance-etica.html",
+},
+{
+    title: "Direita Fragmentada Aposta Tudo em Flávio Bolsonaro",
+    link: "politica/direita-fragmentada-flavio-bolsonaro-eleicoes-2026.html",
+},
+{
+    title: "Reforma Legislativa Reestrutura Proteção do Produtor Rural",
+    link: "legislacao/reforma-legislativa-seguro-rural-pl-2951-plano-safra-2026.html",
+},
+{
+    title: "TST Pune Uso de Precedentes Falsos Gerados por IA",
+    link: "jurisprudencia/tst-pune-precedentes-falsos-ia-litigancia-ma-fe-telecom.html",
+},
+{
+    title: "Militares Doentes Ganham Isenção Previdenciária em Minas",
+    link: "direito-militar/isencao-previdenciaria-militares-doencas-graves-minas-gerais-zema.html",
+},
+{
+    title: "Nexo Causal Ausente Derruba Pedido de Indenização Trabalhista",
+    link: "direito-trabalhista/nexo-causal-ausente-indenizacao-acidente-trabalho-improcedente.html",
+},  
+{
+    title: "Suspeita de Homicídio Deixa Prisão Preventiva",
+    link: "direito-penal/suspeita-homicidio-liberdade-prisao-preventiva-bento-goncalves.html",
+},
+    
+{
+    title: "Mediação Familiar Ganha Força em Mutirão Virtual",
+    link: "direito-de-familia/cejusc-fortaleza-mutirao-virtual-mediacao-familia.html",
+},
+{
+    title: "Leilão de Imóvel Exige Notificação Prévia ao Devedor",
+    link: "direito-civil/leilao-extrajudicial-notificacao-devedor-imovel.html",
+},
 {
     title: "Receita Falsa Opioide e a Semi-Imputabilidade",
     link: "direito-penal/receita-falsa-opioide-semi-imputabilidade-condenacao-penal.html",

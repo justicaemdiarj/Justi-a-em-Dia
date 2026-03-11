@@ -1,5 +1,17 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
+    
+{
+    title: "Reforma Legislativa Reestrutura Proteção do Produtor Rural",
+    date: "11/03/2026",
+    timestamp: "2026-03-11T07:00:00",
+    image: "../img/reforma-legislativa-seguro-rural-pl-2951-plano-safra-2026.jpg",
+    excerpt: "O Ministério da Agricultura e o Congresso Nacional articulam a aprovação do PL 2951/2024, que vincula o seguro rural ao crédito subsidiado do Plano Safra, introduz o seguro paramétrico e propõe migrar gradualmente o risco climático do Tesouro para o mercado segurador privado.",
+    link: "../legislacao/reforma-legislativa-seguro-rural-pl-2951-plano-safra-2026.html",
+    category: "legislacao",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 {
     title: "Senado Endurece Proteção Contra Feminicídio",
     date: "10/03/2026",

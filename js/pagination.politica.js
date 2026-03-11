@@ -1,5 +1,17 @@
 // Dados de notícias para Política
 const categoryNewsData = [
+    
+{
+    title: "Direita Fragmentada Aposta Tudo em Flávio Bolsonaro",
+    date: "11/03/2026",
+    timestamp: "2026-03-11T07:00:00",
+    image: "../img/direita-fragmentada-flavio-bolsonaro-eleicoes-2026.jpg",
+    excerpt: "A campanha de Flávio Bolsonaro classifica como inviável a coexistência de três candidaturas conservadoras competitivas em 2026. Com Jair Bolsonaro preso e inelegível, a direita enfrenta sua maior crise de representação e a disputa interna com Caiado e Ratinho Jr expõe as fraturas do campo conservador.",
+    link: "../politica/direita-fragmentada-flavio-bolsonaro-eleicoes-2026.html",
+    category: "politica",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 {
     title: "Diálogos de Vorcaro Ameaçam Provas no STF",
     date: "10/03/2026",

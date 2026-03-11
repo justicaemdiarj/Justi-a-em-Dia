@@ -1,5 +1,16 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
+    {
+    title: "Suspeita de Homicídio Deixa Prisão Preventiva",
+    date: "11/03/2026",
+    timestamp: "2026-03-11T07:00:00",
+    image: "../img/suspeita-homicidio-liberdade-prisao-preventiva-bento-goncalves.jpg",
+    excerpt: "Magistrada de Bento Gonçalves substitui prisão preventiva de acusada de encomender assassinato do companheiro por medidas cautelares. Ministério Público recorreu ao TJRS para reverter o despacho.",
+    link: "../direito-penal/suspeita-homicidio-liberdade-prisao-preventiva-bento-goncalves.html",
+    category: "direito-penal",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
      {
         title: "O Habeas Corpus e a Garantia que Ninguém Pode Confiscar",
       	date: "03/03/2026",

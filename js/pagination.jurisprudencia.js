@@ -1,5 +1,17 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
+    
+{
+    title: "TST Pune Uso de Precedentes Falsos Gerados por IA",
+    date: "11/03/2026",
+    timestamp: "2026-03-11T07:00:00",
+    image: "../img/tst-pune-precedentes-falsos-ia-litigancia-ma-fe-telecom.jpg",
+    excerpt: "A Sexta Turma do TST condenou por litigância de má-fé empresa de telecomunicações e advogado após identificar precedentes judiciais inexistentes ou adulterados nas contrarrazões de recurso, possivelmente gerados por inteligência artificial. Ofícios foram encaminhados à OAB e ao MPF.",
+    link: "../jurisprudencia/tst-pune-precedentes-falsos-ia-litigancia-ma-fe-telecom.html",
+    category: "jurisprudencia",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 {
     title: "Fuga à Viatura Abre Porta Sem Mandado",
     date: "10/03/2026",

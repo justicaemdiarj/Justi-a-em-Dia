@@ -1,5 +1,16 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
+    
+{
+    title: "Leilão de Imóvel Exige Notificação Prévia ao Devedor",
+    date: "11/03/2026",
+    timestamp: "2026-03-11T07:00:00",
+    image: "../img/leilao-extrajudicial-notificacao-devedor-imovel.jpg",
+    excerpt: "A execução extrajudicial de imóveis por alienação fiduciária só é legítima quando o credor esgota todos os meios de intimação pessoal do devedor antes de recorrer ao edital.",
+    link: "../direito-civil/leilao-extrajudicial-notificacao-devedor-imovel.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 {
     title: "Suspensão de Dívida Ativa: o Que a Lei Garante",
     date: "09/03/2026",
@@ -7,7 +18,6 @@ const categoryNewsData = [
     image: "../img/divida-ativa-suspensao-pagamentos-lei-superendividamento.jpg",
     excerpt: "A Lei do Superendividamento permite que consumidores endividados suspendam obrigações financeiras por até seis meses, mediante análise judicial.",
     link: "../direito-civil/divida-ativa-suspensao-pagamentos-lei-superendividamento.html",
-    category: "direito-civil",
     author: "Justiça em Dia",
     authorLink: "#"
 },

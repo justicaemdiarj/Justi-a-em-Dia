@@ -1,7 +1,18 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
 
-    {
+  {
+    title: "Mediação Familiar Ganha Força em Mutirão Virtual",
+    date: "11/03/2026",
+    timestamp: "2026-03-11T07:00:00",
+    image: "../img/cejusc-fortaleza-mutirao-virtual-mediacao-familia.jpg",
+    excerpt: "O Cejusc de Fortaleza promove mutirão virtual com 266 audiências de mediação nas Varas de Família da Capital, reunindo 50 mediadores em 20 salas simultâneas para acelerar a solução consensual de conflitos familiares.",
+    link: "../direito-de-familia/cejusc-fortaleza-mutirao-virtual-mediacao-familia.html",
+    category: "direito-de-familia",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+{
         title: "O Amor Que Se Cobra na Justiça",
         date: "01/03/2026",
         timestamp: "2026-03-01T12:00:00",

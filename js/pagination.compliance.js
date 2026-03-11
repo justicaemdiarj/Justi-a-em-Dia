@@ -1,5 +1,17 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
+    
+{
+    title: "Esposa de Moraes Detalha Contrato Milionário com Master",
+    date: "11/03/2026",
+    timestamp: "2026-03-11T07:00:00",
+    image: "../img/viviane-barci-moraes-contrato-banco-master-compliance-etica.jpg",
+    excerpt: "A advogada Viviane Barci de Moraes detalhou em nota pública os serviços prestados ao Banco Master em contrato avaliado em R$ 129 milhões, alegando foco em compliance e revisão do código de ética, e negando qualquer atuação da banca perante o STF onde seu marido, o ministro Alexandre de Moraes, exerce mandato vitalício.",
+    link: "../compliance/viviane-barci-moraes-contrato-banco-master-compliance-etica.html",
+    category: "compliance",
+        author: "Romer Carvalho",
+        authorLink: "../apoiadores/advogado-romer-carvalho.html"
+},
 {
     title: "Compliance Virou Escudo Jurídico das Empresas",
     date: "10/03/2026",

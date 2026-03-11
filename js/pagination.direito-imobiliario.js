@@ -1,7 +1,17 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
 
-    {
+   {
+    title: "Leilão de Imóvel Exige Notificação Prévia ao Devedor",
+    date: "11/03/2026",
+    timestamp: "2026-03-11T07:00:00",
+    image: "../img/leilao-extrajudicial-notificacao-devedor-imovel.jpg",
+    excerpt: "A execução extrajudicial de imóveis por alienação fiduciária só é legítima quando o credor esgota todos os meios de intimação pessoal do devedor antes de recorrer ao edital.",
+    link: "../direito-civil/leilao-extrajudicial-notificacao-devedor-imovel.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+{
         title: "Validade Jurídica dos Contratos Firmados por Meios Eletrônicos",
         date: "01/03/2026",
         timestamp: "2026-03-01T12:00:00",

@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
-        {
+    {
+    title: "Nexo Causal Ausente Derruba Pedido de Indenização Trabalhista",
+    date: "11/03/2026",
+    timestamp: "2026-03-11T07:00:00",
+    image: "../img/nexo-causal-ausente-indenizacao-acidente-trabalho-improcedente.jpg",
+    excerpt: "A Justiça do Trabalho da 15ª Região julgou improcedentes pedidos de indenização por danos morais e materiais de auxiliar de serviços gerais que alegava acidente durante limpeza. Perícia médica afastou o nexo causal, identificando patologias de natureza degenerativa e bilateral.",
+    link: "../direito-trabalhista/nexo-causal-ausente-indenizacao-acidente-trabalho-improcedente.html",
+    category: "direito-trabalhista",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
         title: "Como o Salário Mínimo se Tornou a Mais Simbólica Batalha do Constitucional",
         date: "03/03/2026",
         timestamp: "2026-03-03T07:00:00",
