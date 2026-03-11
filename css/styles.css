@@ -10,6 +10,10 @@ body {
     line-height: 1.6;
 }
 
+.destaque-yellow{
+        background-color: yellow;
+}
+
 /* Estilo para o botão de leitura integrado ao compartilhar */
 .btn-read-audio {
     background-color: #c41e3a;
@@ -25,10 +29,6 @@ body {
     gap: 8px;
     transition: all 0.3s ease;
     font-size: 0.85rem;
-}
-
-.destaque-yellow{
-        background-color: yellow;
 }
 
 .btn-read-audio:hover {
