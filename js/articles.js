@@ -269,12 +269,6 @@ document.addEventListener("DOMContentLoaded", function(){
 
   /* ===== MAIS LIDOS ===== */
   const posts = [
-  
-{
- title: "PGFN Cria Laboratório de Teses da Reforma Tributária",
-  link: "legislacao/pgfn-incubadora-teses-reforma-tributaria-ibs-cbs-contencioso.html",
-  date: "2026-03-11T07:00:00"
-},
 {
     title: "Compliance Virou Escudo Jurídico das Empresas",
     link: "compliance/compliance-escudo-juridico-governanca-empresas-lei-anticorrupcao.html",
@@ -283,7 +277,7 @@ document.addEventListener("DOMContentLoaded", function(){
 {
  title: "Itaú Fecha Contas de Securitizadora Ligada ao Master",
   link: "compliance/itau-encerra-contas-cri-base-securitizadora-compliance-zero-master.html",
-  date: "2026-03-11T07:00:00"
+  date: "2026-03-12T07:00:00"
 },
 {
  title: "Suspeita de Homicídio Deixa Prisão Preventiva",
