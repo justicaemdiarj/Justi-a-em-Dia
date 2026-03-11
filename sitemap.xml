@@ -1099,4 +1099,62 @@
         <changefreq>always</changefreq>
         <priority>1.0</priority>
     </url>
+       <url>
+        <loc>https://www.justicaemdia.com.br/politica/eleicoes-2026-empate-tecnico-lula-flavio-tarcisio.html</loc>
+        <lastmod>2026-03-12</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.justicaemdia.com.br/legislacao/bh-olimpiadas-cientificas-estudantes-incentivo-legislativo.html</loc>
+        <lastmod>2026-03-12</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.justicaemdia.com.br/jurisprudencia/depositos-bancarios-presuncao-fiscal-omissao-receitas-carf.html</loc>
+        <lastmod>2026-03-12</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.justicaemdia.com.br/compliance/mindway-ai-amelco-parceria-compliance-jogo-responsavel-global.html</loc>
+        <lastmod>2026-03-12</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc>https://www.justicaemdia.com.br/direito-militar/condenacao-golpe-perda-patente-militares-stf.html</loc>
+        <lastmod>2026-03-12</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc>https://www.justicaemdia.com.br/direito-penal/anpp-ambiental-confissao-pessoa-juridica-correu-pessoa-fisica.html</loc>
+        <lastmod>2026-03-12</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc>https://www.justicaemdia.com.br/direito-civil/responsabilidade-fornecedor-obras-cdc-obrigacao-resultado.html</loc>
+        <lastmod>2026-03-12</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+     <url>
+        <loc>https://www.justicaemdia.com.br/direito-de-familia/stj-dividendos-ex-conjuge-cotista-anomalo-apuracao-haveres.html</loc>
+        <lastmod>2026-03-12</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.justicaemdia.com.br/direito-trabalhista/stf-moraes-condenacao-trabalhista-limite-peticao-inicial-adi-6002.html</loc>
+        <lastmod>2026-03-12</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
     </urlset>
+
+   
+    
+   
