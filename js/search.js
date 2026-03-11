@@ -1,5 +1,69 @@
 // Base de dados global de artigos para busca
 const allArticles = [
+
+{
+    title: 'Esposa de Moraes Detalha Contrato Milionário com Master',
+    description: 'A advogada Viviane Barci de Moraes detalhou em nota pública os serviços prestados ao Banco Master em contrato de R$ 129 milhões, alegando foco em compliance e revisão do código de ética, negando atuação perante o STF.',
+    category: 'Compliance',
+    url: 'compliance/viviane-barci-moraes-contrato-banco-master-compliance-etica.html',
+    tags: ['Romer carvalho','Viviane Barci Moraes', 'Banco Master compliance', 'Alexandre de Moraes STF conflito', 'contrato milionário escritório', 'Esposa de Moraes Detalha Contrato Milionário com Master']
+},
+{
+    title: 'Direita Fragmentada Aposta Tudo em Flávio Bolsonaro',
+    description: 'A campanha de Flávio Bolsonaro classifica como inviável a coexistência de três candidaturas conservadoras competitivas em 2026. Com Jair Bolsonaro preso e inelegível, a direita enfrenta sua maior crise de representação.',
+    category: 'Política',
+    url: 'politica/direita-fragmentada-flavio-bolsonaro-eleicoes-2026.html',
+    tags: ['Flávio Bolsonaro 2026', 'direita fragmentada eleições', 'PL presidencial', 'Caiado Ratinho Jr candidatura', 'Direita Fragmentada Aposta Tudo em Flávio Bolsonaro']
+},
+{
+    title: 'Reforma Legislativa Reestrutura Proteção do Produtor Rural',
+    description: 'O Ministério da Agricultura e o Congresso Nacional articulam a aprovação do PL 2951/2024, que vincula o seguro rural ao crédito subsidiado do Plano Safra e propõe migrar gradualmente o risco climático do Tesouro para o mercado segurador privado.',
+    category: 'Legislação',
+    url: 'legislacao/reforma-legislativa-seguro-rural-pl-2951-plano-safra-2026.html',
+    tags: ['seguro rural', 'PL 2951/2024', 'Plano Safra 2026', 'seguro paramétrico', 'Reforma Legislativa Reestrutura Proteção do Produtor Rural']
+},
+{
+    title: 'TST Pune Uso de Precedentes Falsos Gerados por IA',
+    description: 'A Sexta Turma do TST condenou por litigância de má-fé empresa de telecomunicações e advogado após identificar precedentes judiciais inexistentes ou adulterados possivelmente gerados por inteligência artificial. Ofícios foram encaminhados à OAB e ao MPF.',
+    category: 'Jurisprudência',
+    url: 'jurisprudencia/tst-pune-precedentes-falsos-ia-litigancia-ma-fe-telecom.html',
+    tags: ['TST', 'inteligência artificial advocacia', 'litigância de má-fé', 'jurisprudência falsa IA', 'TST Pune Uso de Precedentes Falsos Gerados por IA']
+},
+{
+    title: 'Militares Doentes Ganham Isenção Previdenciária em Minas',
+    description: 'O governo Zema encaminha à ALMG projeto de lei que estende a policiais e bombeiros militares aposentados ou pensionistas portadores de doenças graves a isenção de contribuição previdenciária até o dobro do teto do INSS.',
+    category: 'Direito Militar',
+    url: 'direito-militar/isencao-previdenciaria-militares-doencas-graves-minas-gerais-zema.html',
+    tags: ['isenção previdenciária militar', 'PMMG', 'Zema ALMG', 'doenças graves servidores militares', 'Militares Doentes Ganham Isenção Previdenciária em Minas']
+},
+{
+    title: 'Nexo Causal Ausente Derruba Pedido de Indenização Trabalhista',
+    description: 'A Justiça do Trabalho da 15ª Região julgou improcedentes pedidos de indenização de auxiliar de serviços gerais que alegava acidente durante limpeza. Perícia médica afastou nexo causal e identificou patologias degenerativas.',
+    category: 'Direito Trabalhista',
+    url: 'direito-trabalhista/nexo-causal-ausente-indenizacao-acidente-trabalho-improcedente.html',
+    tags: ['acidente de trabalho', 'nexo causal', 'doença ocupacional', 'perícia médica trabalhista', 'Nexo Causal Ausente Derruba Pedido de Indenização Trabalhista']
+},
+{
+    title: 'Suspeita de Homicídio Deixa Prisão Preventiva',
+    description: 'Magistrada de Bento Gonçalves substitui prisão preventiva de acusada de encomender assassinato do companheiro por medidas cautelares. Ministério Público recorreu ao TJRS para reverter o despacho.',
+    category: 'Direito Criminal',
+    url: 'direito-penal/suspeita-homicidio-liberdade-prisao-preventiva-bento-goncalves.html',
+    tags: ['prisão preventiva', 'medidas cautelares', 'homicídio doloso', 'TJRS', 'Suspeita de Homicídio Deixa Prisão Preventiva']
+},
+{
+    title: 'Mediação Familiar Ganha Força em Mutirão Virtual',
+    description: 'O Cejusc de Fortaleza promove mutirão virtual com 266 audiências de mediação nas Varas de Família da Capital, reunindo 50 mediadores em 20 salas simultâneas para acelerar a solução consensual de conflitos familiares.',
+    category: 'Direito de Família',
+    url: 'direito-de-familia/cejusc-fortaleza-mutirao-virtual-mediacao-familia.html',
+    tags: ['mediação familiar', 'Cejusc Fortaleza', 'TJCE', 'solução consensual', 'Mediação Familiar Ganha Força em Mutirão Virtual']
+},    
+{
+    title: 'Leilão de Imóvel Exige Notificação Prévia ao Devedor',
+    description: 'A execução extrajudicial de imóveis por alienação fiduciária só é legítima quando o credor esgota todos os meios de intimação pessoal do devedor antes de recorrer ao edital.',
+    category: 'Direito Civil',
+    url: 'direito-civil/leilao-extrajudicial-notificacao-devedor-imovel.html',
+    tags: ['alienação fiduciária', 'leilão extrajudicial', 'notificação do devedor', 'Lei 9.514/1997', 'Leilão de Imóvel Exige Notificação Prévia ao Devedor']
+},
 {
     title: 'Receita Falsa Opioide e a Semi-Imputabilidade',
     description: 'Funcionário de clínica veterinária falsificou receituários para adquirir opioides e foi condenado pela 1ª Vara Criminal de Tupã. O caso expõe a fronteira entre dependência química e responsabilidade penal reduzida.',
