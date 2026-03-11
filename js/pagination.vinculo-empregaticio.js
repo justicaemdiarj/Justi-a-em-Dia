@@ -4,7 +4,7 @@ const categoryNewsData = [
         title: "Vínculo Empregatício Nas Novas Formas de Trabalho por Aplicativo",
         date: "01/03/2026",
         timestamp: "2026-03-01T12:00:00",
-        image: "../img/vinculo-empregaticio-trabalho-aplicativo.jpg",
+        image: "../img/vinculo-empregaticio-trabalho-aplicativo.webp",
         excerpt: "A economia de plataformas digitais revolucionou o mercado de trabalho nas últimas décadas, introduzindo modelos de prestação de serviços que desafiam as categorias tradicionais do direito laboral.",
         link: "../direito-trabalhista/vinculo-empregaticio-trabalho-aplicativo.html",
         author: "Justiça em Dia",

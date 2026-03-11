@@ -5,7 +5,7 @@ const categoryNewsData = [
     title: "Leilão de Imóvel Exige Notificação Prévia ao Devedor",
     date: "11/03/2026",
     timestamp: "2026-03-11T07:00:00",
-    image: "../img/leilao-extrajudicial-notificacao-devedor-imovel.jpg",
+    image: "../img/leilao-extrajudicial-notificacao-devedor-imovel.webp",
     excerpt: "A execução extrajudicial de imóveis por alienação fiduciária só é legítima quando o credor esgota todos os meios de intimação pessoal do devedor antes de recorrer ao edital.",
     link: "../direito-civil/leilao-extrajudicial-notificacao-devedor-imovel.html",
     author: "Justiça em Dia",

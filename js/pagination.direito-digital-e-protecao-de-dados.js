@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
-    {
+ {
+    title: "Proteção ou Vigilância Digital sobre Crianças e Jovens",
+    date: "12/03/2026",
+    timestamp: "2026-03-12T07:00:00",
+    image: "../img/lei-eca-digital-privacidade-criancas-adolescentes.webp",
+    excerpt: "A Lei 15.211/2025 impõe vínculo obrigatório de contas digitais de adolescentes a responsáveis adultos, ameaçando vítimas de abuso doméstico e gerando exclusão digital.",
+    link: "../direito-de-familia/lei-eca-digital-privacidade-criancas-adolescentes.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},   
+   {
         title: "O Direito de Não Ser Lembrado",
         date: "01/03/2026",
         timestamp: "2026-03-01T12:00:00",

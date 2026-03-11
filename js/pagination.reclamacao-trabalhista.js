@@ -4,7 +4,7 @@ const categoryNewsData = [
         title: "Empresa e Advogado São Condenados pelo TST",
         date: "04/03/2026",
         timestamp: "2026-03-04T07:00:00",
-        image: "../img/empresa-advogado-condenados-tst-citacoes-falsas-jurisprudencia.jpg",
+        image: "../img/empresa-advogado-condenados-tst-citacoes-falsas-jurisprudencia.webp",
         excerpt: "O Tribunal Superior do Trabalho condenou uma empresa e seu advogado por litigância de má-fé após a constatação..",
         link: "../direito-trabalhista/empresa-advogado-condenados-tst-citacoes-falsas-jurisprudencia.html",
         category: "Direito Trabalhista",

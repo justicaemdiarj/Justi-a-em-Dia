@@ -1,10 +1,21 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
-     {
+ {
+    title: "ANPP Chega à Justiça Militar Brasileira",
+    date: "12/03/2026",
+    timestamp: "2026-03-12T07:00:00",
+    image: "../img/anpp-justica-militar-acordo-nao-persecucao-penal-aplicacao.webp",
+    excerpt: "A aplicação do Acordo de Não Persecução Penal na Justiça Militar gera intenso debate sobre sua compatibilidade com os princípios da hierarquia, disciplina e indisponibilidade da ação penal militar, com posições divergentes no STM e ausência de regulamentação específica no CPPM.",
+    link: "../direito-militar/anpp-justica-militar-acordo-nao-persecucao-penal-aplicacao.html",
+    category: "direito-militar",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},    
+{
     title: "PMs Viram Réus por Roubo Fardado",
     date: "07/03/2026",
     timestamp: "2026-03-07T07:00:00",
-    image: "../img/pms-presos-roubo-celulares-onibus-expediente-rj-2026.jpg",
+    image: "../img/pms-presos-roubo-celulares-onibus-expediente-rj-2026.webp",
     excerpt: "Três PMs do RJ foram presos em flagrante por roubar celulares de passageiros durante o expediente, configurando roubo qualificado e abuso de autoridade.",
     link: "../direito-militar/pms-presos-roubo-celulares-onibus-expediente-rj-2026.html",
     author: "Justiça em Dia",
@@ -14,7 +25,7 @@ const categoryNewsData = [
     title: "Justiça Militar Condena PM por Lesão Grave no Recife",
     date: "05/03/2026",
     timestamp: "2026-03-05T07:00:00",
-    image: "../img/pm-condenado-lesao-grave-bala-borracha-passinho-recife.jpg",
+    image: "../img/pm-condenado-lesao-grave-bala-borracha-passinho-recife.webp",
     excerpt: "A Vara da Justiça Militar Estadual de Pernambuco condenou policial militar a três anos e seis meses por lesão corporal grave após disparar bala de borracha e cegar estudante em encontro de passinho no Recife.",
     link: "../direito-militar/pm-condenado-lesao-grave-bala-borracha-passinho-recife.html",
     author: "Justiça em Dia",
@@ -34,7 +45,7 @@ const categoryNewsData = [
         title: "Processo Administrativo Disciplinar Militar e Garantias Constitucionais",
         date: "01/03/2026",
         timestamp: "2026-03-01T12:00:00",
-        image: "../img/processo-administrativo-disciplinar-militar.jpg",
+        image: "../img/processo-administrativo-disciplinar-militar.webp",
         excerpt: "O processo administrativo disciplinar militar constitui instrumento jurídico específico destinado à apuração de transgressões disciplinares praticadas por integrantes das Forças Armadas e Forças Auxiliares.",
         link: "../direito-militar/processo-administrativo-disciplinar-militar.html",
         author: "Justiça em Dia",
@@ -44,7 +55,7 @@ const categoryNewsData = [
         title: "Hierarquia e Disciplina Versus Direitos Fundamentais do Militar",
         date: "01/03/2026",
         timestamp: "2026-03-01T12:00:00",
-        image: "../img/hierarquia-disciplina-direitos-fundamentais-militar.jpg",
+        image: "../img/hierarquia-disciplina-direitos-fundamentais-militar.webp",
         excerpt: "A condição militar caracteriza-se por especificidades que a distinguem de outras relações funcionais, fundamentando-se nos princípios estruturantes da hierarquia e disciplina.",
         link: "../direito-militar/hierarquia-disciplina-direitos-fundamentais-militar.html",
         author: "Justiça em Dia",

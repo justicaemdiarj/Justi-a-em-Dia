@@ -1,10 +1,20 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
-       {
+ {
+    title: "Braskem Paga o Preço pelo Caos em Maceió",
+    date: "12/03/2026",
+    timestamp: "2026-03-12T07:00:00",
+    image: "../img/braskem-indenizacao-trabalhador-desastre-maceio.webp",
+    excerpt: "O STJ reconheceu a responsabilidade civil da Braskem pelo dano moral de ex-porteiro demitido após a evacuação de bairros atingidos pelo afundamento do solo em Maceió.",
+    link: "../direito-civil/braskem-indenizacao-trabalhador-desastre-maceio.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+{
     title: "SBT condenado por humilhação em programa televisivo",
     date: "06/03/2026",
     timestamp: "2026-03-06T07:00:00",
-    image: "../img/sbt-condenado-humilhacao-programa-televisivo-ratinho-danos-morais.jpg",
+    image: "../img/sbt-condenado-humilhacao-programa-televisivo-ratinho-danos-morais.webp",
     excerpt: "A 9ª Vara Cível de São Paulo condenou o SBT ao pagamento de R$ 30 mil por danos morais a participante do Programa do Ratinho submetido a exposição vexatória em rede nacional, com determinação de remoção do conteúdo das plataformas digitais da emissora.",
     link: "../direito-civil/sbt-condenado-humilhacao-programa-televisivo-ratinho-danos-morais.html",
     category: "Direito Civil",
@@ -15,7 +25,7 @@ const categoryNewsData = [
         title: "Marçal e Datena Encerram Batalha Judicial",
       	date: "03/03/2026",
         timestamp: "2026-03-03T07:00:00",
-        image: "../img/a-cadeira-que-virou-acordo.jpg",
+        image: "../img/a-cadeira-que-virou-acordo.webp",
         excerpt: "O capítulo judicial da cadeirada mais famosa da política brasileira recente chegou ao fim...",
         link: "../direito-civil/a-cadeira-que-virou-acordo.html",
         category: "Direito Civil",
@@ -26,7 +36,7 @@ const categoryNewsData = [
         title: "Bisturi e Balança da Justiça",
         date: "01/03/2026",
         timestamp: "2026-03-01T12:00:00",
-        image: "../img/cirurgia-estetica.jpg",
+        image: "../img/cirurgia-estetica.webp",
         excerpt: "A relação médico-paciente encerra peculiaridade que a distingue de quase todas as demais relações profissionais: não há garantia de resultado. O médic...",
         link: "../direito-civil/bisturi-e-balanca-da-justica-os-limites-da-responsabilidade-civil-na-medicina-e-estetica.html",
         category: "Direito Civil",

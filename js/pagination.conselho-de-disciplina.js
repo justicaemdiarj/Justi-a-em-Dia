@@ -4,7 +4,7 @@ const categoryNewsData = [
         title: "Processo Administrativo Disciplinar Militar e Garantias Constitucionais",
         date: "01/03/2026",
         timestamp: "2026-03-01T12:00:00",
-        image: "../img/processo-administrativo-disciplinar-militar.jpg",
+        image: "../img/processo-administrativo-disciplinar-militar.webp",
         excerpt: "O processo administrativo disciplinar militar constitui instrumento jurídico específico destinado à apuração de transgressões disciplinares praticadas por integrantes das Forças Armadas e Forças Auxiliares.",
         link: "../direito-militar/processo-administrativo-disciplinar-militar.html",
         category: "Direito Militar",

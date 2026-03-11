@@ -1,10 +1,20 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
-               {
+ {
+    title: "TST Garante Insalubridade Máxima a Socorrista do SAMU",
+    date: "11/03/2026",
+    timestamp: "2026-03-12T07:00:00",
+    image: "../img/tst-insalubridade-grau-maximo-socorrista-samu-doenca-infectocontagiosa.webp",
+    excerpt: "A Sexta Turma do TST condenou consórcio intermunicipal de saúde a pagar adicional de insalubridade de 40% a socorrista do SAMU, firmando que o contato com pacientes portadores de doenças infectocontagiosas é suficiente para o grau máximo, dispensando o requisito de trabalho permanente em área de isolamento.",
+    link: "../direito-trabalhista/tst-insalubridade-grau-maximo-socorrista-samu-doenca-infectocontagiosa.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+}, 
+  {
         title: "Como o Salário Mínimo se Tornou a Mais Simbólica Batalha do Constitucional",
         date: "03/03/2026",
         timestamp: "2026-03-03T07:00:00",
-        image: "../img/salario-minimo-tornou-simbolo-constitucional.jpg",
+        image: "../img/salario-minimo-tornou-simbolo-constitucional.webp",
         excerpt: "O relatório foi revisado três vezes, cada vírgula analisada, cada dado conferido. Mesmo assim, quando apresentado na reunião..",
         link: "../direito-trabalhista/salario-minimo-tornou-simbolo-constitucional-social-brasileiro.html",
         category: "Direito Trabalhista",
@@ -15,7 +25,7 @@ const categoryNewsData = [
         title: "Corte trabalhista rejeita adicional de risco a bancário por combustível guardado no edifício onde trabalha",
         date: "01/03/2026",
         timestamp: "2026-03-01T12:00:00",
-        image: "https://www.spbancarios.com.br/Uploads/ckfinder/userfiles/images/_MAU8083_materia.jpg",
+        image: "https://www.spbancarios.com.br/Uploads/ckfinder/userfiles/images/_MAU8083_materia.webp",
         excerpt: "Adicional exige contato direto e habitual com inflamáveis — presença eventual de combustível no local de trabalho não basta...",
         link: "../direito-trabalhista/corte-trabalhista-rejeita-adicional-de-risco-a-bancario-por-combustivel-guardado-no-edificio-onde-trabalha.html",
         category: "Direito Trabalhista",

@@ -4,7 +4,7 @@ const categoryNewsData = [
     title: "Militares Doentes Ganham Isenção Previdenciária em Minas",
     date: "11/03/2026",
     timestamp: "2026-03-11T07:00:00",
-    image: "../img/isencao-previdenciaria-militares-doencas-graves-minas-gerais-zema.jpg",
+    image: "../img/isencao-previdenciaria-militares-doencas-graves-minas-gerais-zema.webp",
     excerpt: "O governo Zema encaminha à ALMG projeto de lei que estende a policiais e bombeiros militares aposentados ou pensionistas portadores de doenças graves a isenção de contribuição previdenciária até o dobro do teto do INSS, benefício já concedido aos servidores civis estaduais.",
     link: "../direito-militar/isencao-previdenciaria-militares-doencas-graves-minas-gerais-zema.html",
     category: "direito-militar",

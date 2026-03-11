@@ -1,10 +1,21 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
-    {
+  
+  {
+    title: "Família Vorcaro Aciona MP Contra Ameaças Digitais",
+    date: "12/03/2026",
+    timestamp: "2026-03-12T07:00:00",
+    image: "../img/mp-sp-inquerito-ameacas-digitais-vorcaro-familia-cyberstalking.webp",
+    excerpt: "O Ministério Público de São Paulo requisitou ao DECAP a abertura de inquérito policial para apurar cyberstalking, ameaças e uso não autorizado de imagens de familiares do banqueiro Daniel Vorcaro nas redes sociais, enquanto ele é investigado pela PF como líder de organização criminosa com núcleo de intimidação e obstrução de Justiça.",
+    link: "../direito-penal/mp-sp-inquerito-ameacas-digitais-vorcaro-familia-cyberstalking.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+}, 
+ {
     title: "Operação Argos: PF Age Contra Abuso Sexual Infantil",
     date: "05/03/2026",
     timestamp: "2026-03-05T07:00:00",
-    image: "../img/operacao-argos-pf-abuso-sexual-infantojuvenil-porto-velho.jpg",
+    image: "../img/operacao-argos-pf-abuso-sexual-infantojuvenil-porto-velho.webp",
     excerpt: "A Polícia Federal deflagrou a Operação Argos em Porto Velho para combater crimes de abuso sexual infantojuvenil, cumprindo mandado de busca e apreensão expedido pela Justiça Federal de Rondônia.",
     link: "../direito-penal/operacao-argos-pf-abuso-sexual-infantojuvenil-porto-velho.html",
     category: "direito-penal",
@@ -15,7 +26,7 @@ const categoryNewsData = [
         title: "Princípio da Insignificância e sua Aplicação nos Crimes Patrimoniais",
         date: "01/03/2026",
         timestamp: "2026-03-01T12:00:00",
-        image: "../img/principio-insignificancia-crimes-patrimoniais.jpg",
+        image: "../img/principio-insignificancia-crimes-patrimoniais.webp",
         excerpt: "O princípio da insignificância, também denominado princípio da bagatela, constitui importante instrumento de racionalização do sistema penal, permitindo a exclusão da tipicidade material em condutas que, embora formalmente adequadas a tipos penais, não apresentam relevância suficiente para justificar a intervenção do direito penal.",
         link: "../direito-penal/principio-insignificancia-crimes-patrimoniais.html",
         author: "Justiça em Dia",

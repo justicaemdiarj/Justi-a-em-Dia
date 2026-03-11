@@ -1,73 +1,73 @@
 const posts = [
 {
   
-  title: "Leilão de Imóvel Exige Notificação Prévia ao Devedor",
-  description: "A execução extrajudicial de imóveis por alienação fiduciária só é válida quando o credor comprova ter esgotado todos os meios de intimação pessoal do devedor",
-  description2: "Consolidação de propriedade sem notificação adequada é nula de pleno direito, reafirma Justiça Federal",
-  image: "img/leilao-extrajudicial-notificacao-devedor-imovel.jpg",
-  link: "direito-civil/leilao-extrajudicial-notificacao-devedor-imovel.html",
-  date: "2026-03-11T07:00:00",
+ title: "Itaú Fecha Contas de Securitizadora Ligada ao Master",
+  description: "O Itaú BBA encerrou as contas dos CRIs emitidos pela Base Securitizadora após a 3ª fase da Operação Compliance Zero prender investigados e bloquear até R$ 22 bilhões em ativos do ecossistema Banco Master",
+  description2: "A decisão expõe o contágio reputacional e operacional do caso Master ao mercado de capitais e acende alerta sobre a situação de investidores que adquiriram Certificados de Recebíveis Imobiliários emitidos pela empresa investigada",
+  image: "img/itau-encerra-contas-cri-base-securitizadora-compliance-zero-master.webp",
+  link: "compliance/itau-encerra-contas-cri-base-securitizadora-compliance-zero-master.html",
+  date: "2026-03-12T07:00:00",
   section: "featured"
 },
   {
-  title: "Mediação Familiar Ganha Força em Mutirão Virtual",
-  description: "Cejusc de Fortaleza mobiliza 50 mediadores em 20 salas virtuais para resolver 266 demandas familiares acumuladas nas Varas de Família da Capital",
-  description2: "Mutirão virtual do TJCE reafirma a mediação como caminho prioritário para pacificação de conflitos familiares",
-  image: "img/cejusc-fortaleza-mutirao-virtual-mediacao-familia.jpg",
-  link: "direito-de-familia/cejusc-fortaleza-mutirao-virtual-mediacao-familia.html",
-  date: "2026-03-11T07:00:00",
+ title: "PGFN Cria Laboratório de Teses da Reforma Tributária",
+  description: "A Procuradoria-Geral da Fazenda Nacional instalou uma incubadora de teses jurídicas para mapear preventivamente os litígios que emergirão da transição para o IVA Dual instituído pela Lei Complementar 214/2025",
+  description2: "A iniciativa reconhece que a coexistência de oito anos entre o sistema tributário antigo e o novo modelo de CBS e IBS gerará contencioso de alta complexidade e volume, exigindo inteligência jurídica preventiva do Estado",
+  image: "img/pgfn-incubadora-teses-reforma-tributaria-ibs-cbs-contencioso.webp",
+  link: "legislacao/pgfn-incubadora-teses-reforma-tributaria-ibs-cbs-contencioso.html",
+  date: "2026-03-12T07:00:00",
   section: "featured-secundario"
 },
 {
-title: "Esposa de Moraes Detalha Contrato Milionário com Master",
-  description: "Escritório Barci de Moraes divulgou nota detalhando 36 pareceres e 94 reuniões ao Banco Master em contrato de R$ 129 milhões voltado a compliance e código de ética, negando qualquer atuação perante o STF",
-  description2: "O caso expõe tensão institucional grave entre os vínculos financeiros da família Moraes e a instituição controlada por Daniel Vorcaro, preso pela PF e submetido a liquidação extrajudicial pelo Banco Central",
-  image: "img/viviane-barci-moraes-contrato-banco-master-compliance-etica.jpg",
-  link: "compliance/viviane-barci-moraes-contrato-banco-master-compliance-etica.html",
-  date: "2026-03-11T07:00:00",
+ title: "Lula Larga 2026 Pior do que Estava em 2022",
+  description: "Rejeição de 54%, desaprovação acima de 49% e vantagem reduzida a 5 pontos sobre Flávio Bolsonaro no segundo turno revelam que Lula entra na corrida pela reeleição em posição mais frágil do que a de 2022",
+  description2: "A erosão da base no Nordeste, onde a diferença sobre Flávio caiu de 29 para 18 pontos em um mês, e a fadiga narrativa apontada pelo marqueteiro Sidônio Palmeira tornam o cenário eleitoral o mais incerto desde a redemocratização",
+  image: "img/lula-larga-2026-pior-posicao-eleitoral-2022-rejeicao-pesquisas.webp",
+  link: "politica/lula-larga-2026-pior-posicao-eleitoral-2022-rejeicao-pesquisas.html",
+  date: "2026-03-12T07:00:00",
  section: "featured-terciario"
 },
   {
-   title: "Suspeita de Homicídio Deixa Prisão Preventiva",
-   image: "img/suspeita-homicidio-liberdade-prisao-preventiva-bento-goncalves.jpg",
-  link: "direito-penal/suspeita-homicidio-liberdade-prisao-preventiva-bento-goncalves.html",
-  date: "2026-03-11T07:00:00",
+ title: "ANPP Chega à Justiça Militar Brasileira",
+ image: "img/anpp-justica-militar-acordo-nao-persecucao-penal-aplicacao.webp",
+  link: "direito-militar/anpp-justica-militar-acordo-nao-persecucao-penal-aplicacao.html",
+  date: "2026-03-12T07:00:00",
     section: "destaque"
   },
    {
-    title: "Nexo Causal Ausente Derruba Pedido de Indenização Trabalhista",
-   image: "img/nexo-causal-ausente-indenizacao-acidente-trabalho-improcedente.jpg",
-  link: "direito-trabalhista/nexo-causal-ausente-indenizacao-acidente-trabalho-improcedente.html",
-  date: "2026-03-11T07:00:00",
+  title: "Proteção ou Vigilância Digital sobre Crianças e Jovens",
+ image: "img/lei-eca-digital-privacidade-criancas-adolescentes.webp",
+    link: "direito-de-familia/lei-eca-digital-privacidade-criancas-adolescentes.html",
+    date: "2026-03-12T07:00:00",
     section: "destaque"
   },
   {
-    title: "Militares Doentes Ganham Isenção Previdenciária em Minas",
-    image: "img/isencao-previdenciaria-militares-doencas-graves-minas-gerais-zema.jpg",
-  link: "direito-militar/isencao-previdenciaria-militares-doencas-graves-minas-gerais-zema.html",
-  date: "2026-03-11T07:00:00",
+     title: "TJ-BA Impulsiona Súmulas para Acelerar Julgamentos",
+ image: "img/tj-ba-sumulas-uniformizacao-jurisprudencia-celeridade-ato-normativo-2026.webp",
+  link: "jurisprudencia/tj-ba-sumulas-uniformizacao-jurisprudencia-celeridade-ato-normativo-2026.html",
+  date: "2026-03-12T07:00:00",
     section: "destaque"
   },
   {
    
-    title: "TST Pune Uso de Precedentes Falsos Gerados por IA",
- image: "img/tst-pune-precedentes-falsos-ia-litigancia-ma-fe-telecom.jpg",
-  link: "jurisprudencia/tst-pune-precedentes-falsos-ia-litigancia-ma-fe-telecom.html",
-  date: "2026-03-11T07:00:00",
+    title: "Braskem Paga o Preço pelo Caos em Maceió",
+  image: "img/braskem-indenizacao-trabalhador-desastre-maceio.webp",
+    link: "direito-civil/braskem-indenizacao-trabalhador-desastre-maceio.html",
+    date: "2026-03-12T07:00:00",
     section: "veja"
   },
   {
-    title: "Reforma Legislativa Reestrutura Proteção do Produtor Rural",
-    image: "img/reforma-legislativa-seguro-rural-pl-2951-plano-safra-2026.jpg",
-    link: "legislacao/reforma-legislativa-seguro-rural-pl-2951-plano-safra-2026.html",
-    date: "2026-03-11T07:00:00",
+  title: "TST Garante Insalubridade Máxima a Socorrista do SAMU",
+   image: "img/tst-insalubridade-grau-maximo-socorrista-samu-doenca-infectocontagiosa.webp",
+  link: "direito-trabalhista/tst-insalubridade-grau-maximo-socorrista-samu-doenca-infectocontagiosa.html",
+  date: "2026-03-12T07:00:00",
     section: "veja"
   },
   {
-    title: "Direita Fragmentada Aposta Tudo em Flávio Bolsonaro",
-    image: "img/direita-fragmentada-flavio-bolsonaro-eleicoes-2026.jpg",
-  link: "politica/direita-fragmentada-flavio-bolsonaro-eleicoes-2026.html",
-  date: "2026-03-11T07:00:00",
+   title: "Família Vorcaro Aciona MP Contra Ameaças Digitais",
+ image: "img/mp-sp-inquerito-ameacas-digitais-vorcaro-familia-cyberstalking.webp",
+  link: "direito-penal/mp-sp-inquerito-ameacas-digitais-vorcaro-familia-cyberstalking.html",
+  date: "2026-03-12T07:00:00",
     section: "veja"
   }
 ];
@@ -271,9 +271,9 @@ document.addEventListener("DOMContentLoaded", function(){
   const posts = [
   
 {
-    title: "Suspensão de Dívida Ativa: o Que a Lei Garante",
-    link: "direito-civil/divida-ativa-suspensao-pagamentos-lei-superendividamento.html",
-    date: "2026-03-09T07:00:00"
+ title: "PGFN Cria Laboratório de Teses da Reforma Tributária",
+  link: "legislacao/pgfn-incubadora-teses-reforma-tributaria-ibs-cbs-contencioso.html",
+  date: "2026-03-11T07:00:00"
 },
 {
     title: "Compliance Virou Escudo Jurídico das Empresas",
@@ -281,9 +281,9 @@ document.addEventListener("DOMContentLoaded", function(){
     date: "2026-03-10T07:00:00"
 },
 {
-    title: "Licença Paternidade Vai Até Vinte Dias",
-    link: "legislacao/senado-licenca-paternidade-ampliacao-lei-previdencia.html",
-    date: "2026-03-09T07:00:00"
+ title: "Itaú Fecha Contas de Securitizadora Ligada ao Master",
+  link: "compliance/itau-encerra-contas-cri-base-securitizadora-compliance-zero-master.html",
+  date: "2026-03-11T07:00:00"
 },
 {
  title: "Suspeita de Homicídio Deixa Prisão Preventiva",
@@ -346,10 +346,10 @@ document.addEventListener("DOMContentLoaded", function(){
 const principaisNoticias = [
 
 {
-  title: "Licença Paternidade Vai Até Vinte Dias",
-    link: "legislacao/senado-licenca-paternidade-ampliacao-lei-previdencia.html",
+title: "Proteção ou Vigilância Digital sobre Crianças e Jovens",
+    link: "direito-de-familia/lei-eca-digital-privacidade-criancas-adolescentes.html",
 source: "",
-date: "2026-03-09T07:00:00"
+date: "2026-03-12T07:00:00"
 },
 
 {
@@ -383,10 +383,10 @@ source: "",
 date: "2026-03-08T07:00:00"
 },
 {
-title: "SentinELAS Chega Para Proteger Recrutas Femininas",
-    link: "direito-militar/sentinelas-mpm-protecao-mulheres-forcas-armadas.html",
+ title: "ANPP Chega à Justiça Militar Brasileira",
+  link: "direito-militar/anpp-justica-militar-acordo-nao-persecucao-penal-aplicacao.html",
 source: "",
-date: "2026-03-09T07:00:00"
+date: "2026-03-12T07:00:00"
 },
 {
     title: "Compliance Virou Escudo Jurídico das Empresas",

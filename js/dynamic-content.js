@@ -14,6 +14,42 @@ const tickerConfig = {
 const globalNewsData = [
 
 {
+    title: "Braskem Paga o Preço pelo Caos em Maceió",
+    link: "direito-civil/braskem-indenizacao-trabalhador-desastre-maceio.html",
+},
+{
+    title: "Proteção ou Vigilância Digital sobre Crianças e Jovens",
+    link: "direito-de-familia/lei-eca-digital-privacidade-criancas-adolescentes.html",
+},
+{
+    title: "Família Vorcaro Aciona MP Contra Ameaças Digitais",
+    link: "direito-penal/mp-sp-inquerito-ameacas-digitais-vorcaro-familia-cyberstalking.html",
+},
+{
+    title: "TST Garante Insalubridade Máxima a Socorrista do SAMU",
+    link: "direito-trabalhista/tst-insalubridade-grau-maximo-socorrista-samu-doenca-infectocontagiosa.html",
+},
+{
+    title: "ANPP Chega à Justiça Militar Brasileira",
+    link: "direito-militar/anpp-justica-militar-acordo-nao-persecucao-penal-aplicacao.html",
+},
+{
+    title: "TJ-BA Impulsiona Súmulas para Acelerar Julgamentos",
+    link: "jurisprudencia/tj-ba-sumulas-uniformizacao-jurisprudencia-celeridade-ato-normativo-2026.html",
+},
+{
+    title: "Lula Larga 2026 Pior do que Estava em 2022",
+    link: "politica/lula-larga-2026-pior-posicao-eleitoral-2022-rejeicao-pesquisas.html",
+},
+{
+    title: "PGFN Cria Laboratório de Teses da Reforma Tributária",
+    link: "legislacao/pgfn-incubadora-teses-reforma-tributaria-ibs-cbs-contencioso.html",
+},
+{
+    title: "Itaú Fecha Contas de Securitizadora Ligada ao Master",
+    link: "compliance/itau-encerra-contas-cri-base-securitizadora-compliance-zero-master.html",
+},
+{
     title: "Esposa de Moraes Detalha Contrato Milionário com Master",
     link: "compliance/viviane-barci-moraes-contrato-banco-master-compliance-etica.html",
 },

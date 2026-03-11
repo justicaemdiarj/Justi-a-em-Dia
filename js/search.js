@@ -2,11 +2,74 @@
 const allArticles = [
 
 {
+    title: 'Braskem Paga o Preço pelo Caos em Maceió',
+    description: 'O STJ reconheceu a responsabilidade civil da Braskem pelo dano moral de ex-porteiro demitido após a evacuação de bairros atingidos pelo afundamento do solo em Maceió.',
+    category: 'Direito Civil',
+    url: 'direito-civil/braskem-indenizacao-trabalhador-desastre-maceio.html',
+    tags: ['Braskem', 'Maceió', 'Desastre Ambiental', 'Responsabilidade Civil', 'Braskem Paga o Preço pelo Caos em Maceió']
+},
+{
+    title: 'Proteção ou Vigilância Digital sobre Crianças e Jovens',
+    description: 'A Lei 15.211/2025 impõe vínculo obrigatório de contas digitais de adolescentes a responsáveis adultos, ameaçando vítimas de abuso doméstico e gerando exclusão digital.',
+    category: 'Direito de Família',
+    url: 'direito-de-familia/lei-eca-digital-privacidade-criancas-adolescentes.html',
+    tags: ['ECA Digital', 'Lei 15.211/2025', 'Privacidade Digital', 'Crianças e Adolescentes', 'Proteção ou Vigilância Digital sobre Crianças e Jovens']
+},
+{
+    title: 'Família Vorcaro Aciona MP Contra Ameaças Digitais',
+    description: 'O MP-SP requisitou ao DECAP inquérito para apurar cyberstalking, ameaças e uso não autorizado de imagens de familiares do banqueiro Daniel Vorcaro nas redes sociais, enquanto ele responde a investigações da PF por fraude, lavagem de dinheiro e obstrução de Justiça.',
+    category: 'Direito Criminal',
+    url: 'direito-penal/mp-sp-inquerito-ameacas-digitais-vorcaro-familia-cyberstalking.html',
+    tags: ['MP-SP inquérito ameaças Vorcaro', 'cyberstalking família banqueiro digital', 'Lei 14132 stalking redes sociais', 'Operação Compliance Zero Vorcaro família', 'Família Vorcaro Aciona MP Contra Ameaças Digitais']
+},
+{
+    title: 'TST Garante Insalubridade Máxima a Socorrista do SAMU',
+    description: 'A Sexta Turma do TST reconheceu o direito de socorrista do SAMU ao adicional de insalubridade de 40%, firmando que o contato com pacientes portadores de doenças infectocontagiosas é suficiente para o grau máximo, sem exigir trabalho permanente em área de isolamento.',
+    category: 'Direito Trabalhista',
+    url: 'direito-trabalhista/tst-insalubridade-grau-maximo-socorrista-samu-doenca-infectocontagiosa.html',
+    tags: ['TST insalubridade grau máximo SAMU', 'adicional insalubridade socorrista infectocontagioso', 'NR-15 agente biológico grau máximo', 'ministro Augusto César TST insalubridade', 'TST Garante Insalubridade Máxima a Socorrista do SAMU']
+},
+{
+    title: 'ANPP Chega à Justiça Militar Brasileira',
+    description: 'A aplicação do Acordo de Não Persecução Penal na Justiça Militar gera intenso debate sobre compatibilidade com os princípios da hierarquia e disciplina castrense, com posições divergentes no STM e ausência de regulamentação específica no CPPM.',
+    category: 'Direito Militar',
+    url: 'direito-militar/anpp-justica-militar-acordo-nao-persecucao-penal-aplicacao.html',
+    tags: ['ANPP Justiça Militar', 'Acordo Não Persecução Penal militar', 'Pacote Anticrime CPPM', 'STM ANPP jurisprudência', 'ANPP Chega à Justiça Militar Brasileira']
+},
+{
+    title: 'TJ-BA Impulsiona Súmulas para Acelerar Julgamentos',
+    description: 'O TJ-BA editou o Ato Normativo Conjunto nº 7/2026 recomendando a criação de enunciados de súmula para matérias com jurisprudência reiterada, visando reduzir o retrabalho nos colegiados, permitir decisões monocráticas e fortalecer a segurança jurídica em toda a Justiça baiana.',
+    category: 'Jurisprudência',
+    url: 'jurisprudencia/tj-ba-sumulas-uniformizacao-jurisprudencia-celeridade-ato-normativo-2026.html',
+    tags: ['TJ-BA súmulas jurisprudência 2026', 'Ato Normativo Conjunto 7 TJBA', 'uniformização jurisprudência celeridade', 'art 926 CPC precedentes tribunais', 'TJ-BA Impulsiona Súmulas para Acelerar Julgamentos']
+},
+{
+    title: 'Lula Larga 2026 Pior do que Estava em 2022',
+    description: 'As pesquisas de março de 2026 revelam que Lula inicia a corrida pela reeleição em posição mais frágil do que em 2022, com rejeição de 54%, desaprovação acima de 49% e vantagem reduzida a 5 pontos sobre Flávio Bolsonaro no segundo turno.',
+    category: 'Política',
+    url: 'politica/lula-larga-2026-pior-posicao-eleitoral-2022-rejeicao-pesquisas.html',
+    tags: ['Lula eleições 2026 pesquisa', 'rejeição Lula 2026 Quaest', 'Flávio Bolsonaro empate técnico', 'Toledo análise eleitoral', 'Lula Larga 2026 Pior do que Estava em 2022']
+},
+{
+    title: 'PGFN Cria Laboratório de Teses da Reforma Tributária',
+    description: 'A Procuradoria-Geral da Fazenda Nacional instalou uma incubadora de teses jurídicas para mapear e antecipar os litígios da transição para o IVA Dual da reforma tributária, apostando na prevenção do contencioso e na transação tributária como estratégia de segurança jurídica.',
+    category: 'Legislação',
+    url: 'legislacao/pgfn-incubadora-teses-reforma-tributaria-ibs-cbs-contencioso.html',
+    tags: ['PGFN incubadora teses tributárias', 'reforma tributária IBS CBS litígios', 'contencioso tributário 2026', 'transação tributária PTI reform', 'PGFN Cria Laboratório de Teses da Reforma Tributária']
+},
+{
+    title: 'Itaú Fecha Contas de Securitizadora Ligada ao Master',
+    description: 'O Itaú BBA encerrou as contas bancárias vinculadas aos CRIs emitidos pela Base Securitizadora, investigada na Operação Compliance Zero da PF. A decisão expõe o contágio do caso Banco Master ao mercado de capitais brasileiro.',
+    category: 'Compliance',
+    url: 'compliance/itau-encerra-contas-cri-base-securitizadora-compliance-zero-master.html',
+    tags: ['Itaú BBA CRI securitizadora', 'Base Securitizadora Compliance Zero', 'Banco Master liquidação 2026', 'mercado securitização CRI irregularidade', 'Itaú Fecha Contas de Securitizadora Ligada ao Master']
+},
+{
     title: 'Esposa de Moraes Detalha Contrato Milionário com Master',
     description: 'A advogada Viviane Barci de Moraes detalhou em nota pública os serviços prestados ao Banco Master em contrato de R$ 129 milhões, alegando foco em compliance e revisão do código de ética, negando atuação perante o STF.',
     category: 'Compliance',
     url: 'compliance/viviane-barci-moraes-contrato-banco-master-compliance-etica.html',
-    tags: ['Romer carvalho','Viviane Barci Moraes', 'Banco Master compliance', 'Alexandre de Moraes STF conflito', 'contrato milionário escritório', 'Esposa de Moraes Detalha Contrato Milionário com Master']
+    tags: ['Viviane Barci Moraes', 'Banco Master compliance', 'Alexandre de Moraes STF conflito', 'contrato milionário escritório', 'Esposa de Moraes Detalha Contrato Milionário com Master']
 },
 {
     title: 'Direita Fragmentada Aposta Tudo em Flávio Bolsonaro',
