@@ -3,13 +3,13 @@
 
     const CONFIG = {
         enabled: true,
-        allowedPages: "cont.html",
+        allowedPages: ["inde.html"],
         
         // Pode ser:
         // - YouTube: https://www.youtube.com/watch?v=3MJslaIGvGQ
         // - Vimeo: https://vimeo.com/123456789
         // - Local/Direto: img/video.mp4 ou https://site.com/video.mp4
-        videoUrl: "../img/video-emprego-x.mp4",
+        videoUrl: "https://vimeo.com/123456789",
         
         link: "",
         openInNewTab: true,

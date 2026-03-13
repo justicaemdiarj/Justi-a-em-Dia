@@ -1,73 +1,73 @@
 const posts = [
 {
   
- title: "Itaú Fecha Contas de Securitizadora Ligada ao Master",
-  description: "O Itaú BBA encerrou as contas dos CRIs emitidos pela Base Securitizadora após a 3ª fase da Operação Compliance Zero prender investigados e bloquear até R$ 22 bilhões em ativos do ecossistema Banco Master",
-  description2: "A decisão expõe o contágio reputacional e operacional do caso Master ao mercado de capitais e acende alerta sobre a situação de investidores que adquiriram Certificados de Recebíveis Imobiliários emitidos pela empresa investigada",
-  image: "img/itau-encerra-contas-cri-base-securitizadora-compliance-zero-master.webp",
-  link: "compliance/itau-encerra-contas-cri-base-securitizadora-compliance-zero-master.html",
-  date: "2026-03-12T07:00:00",
+   title: "Empate Técnico Redefine Disputa Presidencial",
+    description: "Pesquisa Meio/Ideia mostra Lula tecnicamente empatado com Flávio Bolsonaro e Tarcísio no segundo turno",
+    description2: "Levantamento registrado no TSE revela corrida presidencial aberta com alta rejeição ao presidente",
+    image: "img/eleicoes-2026-empate-tecnico-lula-flavio-tarcisio.webp",
+    link: "politica/eleicoes-2026-empate-tecnico-lula-flavio-tarcisio.html",
+    date: "2026-03-13T07:00:00",
   section: "featured"
 },
   {
- title: "PGFN Cria Laboratório de Teses da Reforma Tributária",
-  description: "A Procuradoria-Geral da Fazenda Nacional instalou uma incubadora de teses jurídicas para mapear preventivamente os litígios que emergirão da transição para o IVA Dual instituído pela Lei Complementar 214/2025",
-  description2: "A iniciativa reconhece que a coexistência de oito anos entre o sistema tributário antigo e o novo modelo de CBS e IBS gerará contencioso de alta complexidade e volume, exigindo inteligência jurídica preventiva do Estado",
-  image: "img/pgfn-incubadora-teses-reforma-tributaria-ibs-cbs-contencioso.webp",
-  link: "legislacao/pgfn-incubadora-teses-reforma-tributaria-ibs-cbs-contencioso.html",
-  date: "2026-03-12T07:00:00",
+   title: "BH Aprova Incentivo a Olimpíadas Científicas Escolares",
+    description: "PL 559/2025 cria programa municipal para estimular alunos da rede pública a competir em olimpíadas científicas",
+    description2: "Câmara de BH avança na valorização da educação científica e do talento jovem na escola pública",
+    image: "img/bh-olimpiadas-cientificas-estudantes-incentivo-legislativo.webp",
+    link: "legislacao/bh-olimpiadas-cientificas-estudantes-incentivo-legislativo.html",
+    date: "2026-03-13T07:00:00",
   section: "featured-secundario"
 },
 {
- title: "Lula Larga 2026 Pior do que Estava em 2022",
-  description: "Rejeição de 54%, desaprovação acima de 49% e vantagem reduzida a 5 pontos sobre Flávio Bolsonaro no segundo turno revelam que Lula entra na corrida pela reeleição em posição mais frágil do que a de 2022",
-  description2: "A erosão da base no Nordeste, onde a diferença sobre Flávio caiu de 29 para 18 pontos em um mês, e a fadiga narrativa apontada pelo marqueteiro Sidônio Palmeira tornam o cenário eleitoral o mais incerto desde a redemocratização",
-  image: "img/lula-larga-2026-pior-posicao-eleitoral-2022-rejeicao-pesquisas.webp",
-  link: "politica/lula-larga-2026-pior-posicao-eleitoral-2022-rejeicao-pesquisas.html",
-  date: "2026-03-12T07:00:00",
+  title: "Depósitos Bancários e Presunção Fiscal no CARF",
+    description: "CARF consolida jurisprudência sobre presunção de omissão de receitas em depósitos bancários sem origem comprovada",
+    description2: "Artigo 42 da Lei 9.430/96 inverte ônus probatório e expõe contribuinte a pesadas autuações fiscais",
+    image: "img/depositos-bancarios-presuncao-fiscal-omissao-receitas-carf.webp",
+    link: "jurisprudencia/depositos-bancarios-presuncao-fiscal-omissao-receitas-carf.html",
+    date: "2026-03-13T07:00:00",
  section: "featured-terciario"
 },
   {
- title: "ANPP Chega à Justiça Militar Brasileira",
- image: "img/anpp-justica-militar-acordo-nao-persecucao-penal-aplicacao.webp",
-  link: "direito-militar/anpp-justica-militar-acordo-nao-persecucao-penal-aplicacao.html",
-  date: "2026-03-12T07:00:00",
+ title: "IA e Jogo Responsável Unem Forças Globalmente",
+   image: "img/mindway-ai-amelco-parceria-compliance-jogo-responsavel-global.webp",
+    link: "compliance/mindway-ai-amelco-parceria-compliance-jogo-responsavel-global.html",
+  date: "2026-03-13T07:00:00",
     section: "destaque"
   },
    {
-  title: "Proteção ou Vigilância Digital sobre Crianças e Jovens",
- image: "img/lei-eca-digital-privacidade-criancas-adolescentes.webp",
-    link: "direito-de-familia/lei-eca-digital-privacidade-criancas-adolescentes.html",
-    date: "2026-03-12T07:00:00",
+  title: "Condenação por Golpe Ameaça Patentes Militares",
+image: "img/condenacao-golpe-perda-patente-militares-stf.webp",
+    link: "direito-militar/condenacao-golpe-perda-patente-militares-stf.html",
+    date: "2026-03-13T07:00:00",
     section: "destaque"
   },
   {
-     title: "TJ-BA Impulsiona Súmulas para Acelerar Julgamentos",
- image: "img/tj-ba-sumulas-uniformizacao-jurisprudencia-celeridade-ato-normativo-2026.webp",
-  link: "jurisprudencia/tj-ba-sumulas-uniformizacao-jurisprudencia-celeridade-ato-normativo-2026.html",
-  date: "2026-03-12T07:00:00",
+    title: "ANPP Ambiental, Quando a Empresa Confessa pelo Dirigente",
+ image: "img/anpp-ambiental-confissao-pessoa-juridica-correu-pessoa-fisica.webp",
+    link: "direito-penal/anpp-ambiental-confissao-pessoa-juridica-correu-pessoa-fisica.html",
+  date: "2026-03-13T07:00:00",
     section: "destaque"
   },
   {
    
-    title: "Braskem Paga o Preço pelo Caos em Maceió",
-  image: "img/braskem-indenizacao-trabalhador-desastre-maceio.webp",
-    link: "direito-civil/braskem-indenizacao-trabalhador-desastre-maceio.html",
-    date: "2026-03-12T07:00:00",
+    title: "Obra Mal Feita, Quem Paga a Conta ao Consumidor",
+    image: "img/responsabilidade-fornecedor-obras-cdc-obrigacao-resultado.webp",
+    link: "direito-civil/responsabilidade-fornecedor-obras-cdc-obrigacao-resultado.html",
+    date: "2026-03-13T07:00:00",
     section: "veja"
   },
   {
-  title: "TST Garante Insalubridade Máxima a Socorrista do SAMU",
-   image: "img/tst-insalubridade-grau-maximo-socorrista-samu-doenca-infectocontagiosa.webp",
-  link: "direito-trabalhista/tst-insalubridade-grau-maximo-socorrista-samu-doenca-infectocontagiosa.html",
-  date: "2026-03-12T07:00:00",
+     title: "STJ Garante Dividendos ao Ex-Cônjuge Até Partilha Final",
+   image: "img/stj-dividendos-ex-conjuge-cotista-anomalo-apuracao-haveres.webp",
+    link: "direito-de-familia/stj-dividendos-ex-conjuge-cotista-anomalo-apuracao-haveres.html",
+  date: "2026-03-13T07:00:00",
     section: "veja"
   },
   {
-   title: "Família Vorcaro Aciona MP Contra Ameaças Digitais",
- image: "img/mp-sp-inquerito-ameacas-digitais-vorcaro-familia-cyberstalking.webp",
-  link: "direito-penal/mp-sp-inquerito-ameacas-digitais-vorcaro-familia-cyberstalking.html",
-  date: "2026-03-12T07:00:00",
+title: "STF Limita Condenação Trabalhista ao Pedido Inicial",
+  image: "img/stf-moraes-condenacao-trabalhista-limite-peticao-inicial-adi-6002.webp",
+    link: "direito-trabalhista/stf-moraes-condenacao-trabalhista-limite-peticao-inicial-adi-6002.html",
+  date: "2026-03-13T07:00:00",
     section: "veja"
   }
 ];
@@ -269,6 +269,12 @@ document.addEventListener("DOMContentLoaded", function(){
 
   /* ===== MAIS LIDOS ===== */
   const posts = [
+  
+{
+ title: "PGFN Cria Laboratório de Teses da Reforma Tributária",
+  link: "legislacao/pgfn-incubadora-teses-reforma-tributaria-ibs-cbs-contencioso.html",
+  date: "2026-03-11T07:00:00"
+},
 {
     title: "Compliance Virou Escudo Jurídico das Empresas",
     link: "compliance/compliance-escudo-juridico-governanca-empresas-lei-anticorrupcao.html",
@@ -277,7 +283,7 @@ document.addEventListener("DOMContentLoaded", function(){
 {
  title: "Itaú Fecha Contas de Securitizadora Ligada ao Master",
   link: "compliance/itau-encerra-contas-cri-base-securitizadora-compliance-zero-master.html",
-  date: "2026-03-12T07:00:00"
+  date: "2026-03-11T07:00:00"
 },
 {
  title: "Suspeita de Homicídio Deixa Prisão Preventiva",

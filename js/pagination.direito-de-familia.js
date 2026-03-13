@@ -1,6 +1,17 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
- 
+
+
+{
+        title: "STJ Garante Dividendos ao Ex-Cônjuge Até Partilha Final",
+        date: "13/03/2026",
+        timestamp: "2026-03-13T07:00:00",
+        image: "../img/stj-dividendos-ex-conjuge-cotista-anomalo-apuracao-haveres.webp",
+        excerpt: "STJ decide que ex-cônjuge com direito à meação de cotas societárias também recebe proporcionalmente os lucros e dividendos distribuídos pela empresa até a efetiva quitação dos haveres, vedando enriquecimento sem causa do sócio remanescente.",
+        link: "../direito-de-familia/stj-dividendos-ex-conjuge-cotista-anomalo-apuracao-haveres.html",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    }, 
 {
     title: "Proteção ou Vigilância Digital sobre Crianças e Jovens",
     date: "12/03/2026",

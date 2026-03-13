@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
 
+{
+        title: "Obra Mal Feita, Quem Paga a Conta ao Consumidor",
+        date: "13/03/2026",
+        timestamp: "2026-03-13T07:00:00",
+        image: "../img/responsabilidade-fornecedor-obras-cdc-obrigacao-resultado.webp",
+        excerpt: "A responsabilidade civil do fornecedor por falhas em obras é objetiva pelo artigo 14 do CDC e pelo artigo 618 do Código Civil, que impõe garantia de cinco anos pela solidez e segurança da edificação, sem necessidade de prova de culpa pelo consumidor.",
+        link: "../direito-civil/responsabilidade-fornecedor-obras-cdc-obrigacao-resultado.html",
+        categoria: "direito-civil",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
  {
     title: "Braskem Paga o Preço pelo Caos em Maceió",
     date: "12/03/2026",

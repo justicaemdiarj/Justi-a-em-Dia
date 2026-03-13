@@ -2,13 +2,22 @@
 const categoryNewsData = [
 
 {
+        title: "Depósitos Bancários e Presunção Fiscal no CARF",
+        date: "13/03/2026",
+        timestamp: "2026-03-13T07:00:00",
+        image: "../img/depositos-bancarios-presuncao-fiscal-omissao-receitas-carf.webp",
+        excerpt: "O CARF consolidou vasta jurisprudência sobre a presunção de omissão de receitas por depósitos bancários não comprovados, impondo ao contribuinte o ônus de demonstrar a origem dos recursos mediante documentação hábil e idônea.",
+        link: "../jurisprudencia/depositos-bancarios-presuncao-fiscal-omissao-receitas-carf.html",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+{
     title: "TJ-BA Impulsiona Súmulas para Acelerar Julgamentos",
     date: "12/03/2026",
     timestamp: "2026-03-12T07:00:00",
     image: "../img/tj-ba-sumulas-uniformizacao-jurisprudencia-celeridade-ato-normativo-2026.webp",
     excerpt: "O Tribunal de Justiça da Bahia editou o Ato Normativo Conjunto nº 7/2026, que recomenda a desembargadores e presidentes de colegiados a proposição de enunciados de súmula para matérias com jurisprudência reiterada, visando reduzir o retrabalho nas sessões, permitir decisões monocráticas e fortalecer a segurança jurídica na Justiça baiana.",
     link: "../jurisprudencia/tj-ba-sumulas-uniformizacao-jurisprudencia-celeridade-ato-normativo-2026.html",
-    category: "jurisprudencia",
     author: "Justiça em Dia",
     authorLink: "#"
 },    
@@ -19,7 +28,6 @@ const categoryNewsData = [
     image: "../img/tst-pune-precedentes-falsos-ia-litigancia-ma-fe-telecom.webp",
     excerpt: "A Sexta Turma do TST condenou por litigância de má-fé empresa de telecomunicações e advogado após identificar precedentes judiciais inexistentes ou adulterados nas contrarrazões de recurso, possivelmente gerados por inteligência artificial. Ofícios foram encaminhados à OAB e ao MPF.",
     link: "../jurisprudencia/tst-pune-precedentes-falsos-ia-litigancia-ma-fe-telecom.html",
-    category: "jurisprudencia",
     author: "Justiça em Dia",
     authorLink: "#"
 },
@@ -40,7 +48,6 @@ const categoryNewsData = [
     image: "../img/stj-seguro-vida-blindagem-jurisprudencial-agravamento-risco.webp",
     excerpt: "O STJ consolidou blindagem protetiva ao redor do seguro de vida, exigindo dolo específico para excluir cobertura por agravamento de risco, em entendimento positivado pelo Marco Legal dos Seguros.",
     link: "../jurisprudencia/stj-seguro-vida-blindagem-jurisprudencial-agravamento-risco.html",
-    category: "jurisprudencia",
     author: "Justiça em Dia",
     authorLink: "#"
 },
@@ -51,7 +58,6 @@ const categoryNewsData = [
     image: "../img/dez-anos-cpc-2015-webinar-legado-jurisprudencia.webp",
     excerpt: "Webinar debate os dez anos do CPC de 2015 e a consolidação da jurisprudência no processo civil brasileiro.",
     link: "../jurisprudencia/dez-anos-cpc-2015-webinar-legado-jurisprudencia.html",
-    category: "Jurisprudência",
     author: "Justiça em Dia",
     authorLink: "#"
   },

@@ -1,5 +1,17 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
+    
+{
+        title: "IA e Jogo Responsável Unem Forças Globalmente",
+        date: "13/03/2026",
+        timestamp: "2026-03-13T07:00:00",
+        image: "../img/mindway-ai-amelco-parceria-compliance-jogo-responsavel-global.webp",
+        excerpt: "Mindway AI e Amelco firmam aliança estratégica para expandir globalmente ferramentas de compliance regulatório e proteção de jogadores baseadas em inteligência artificial.",
+        link: "../compliance/mindway-ai-amelco-parceria-compliance-jogo-responsavel-global.html",
+        categoria: "compliance",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
 {
     title: "Itaú Fecha Contas de Securitizadora Ligada ao Master",
     date: "12/03/2026",

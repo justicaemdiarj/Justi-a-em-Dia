@@ -1,6 +1,18 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
 
+    
+ {
+        title: "Condenação por Golpe Ameaça Patentes Militares",
+        date: "13/03/2026",
+        timestamp: "2026-03-13T07:00:00",
+        image: "../img/condenacao-golpe-perda-patente-militares-stf.webp",
+        excerpt: "Especialistas em Direito Militar explicam que condenação criminal superior a dois anos pode desencadear processo administrativo de perda de posto e patente dos militares acusados de participação na tentativa de golpe de Estado.",
+        link: "../direito-militar/condenacao-golpe-perda-patente-militares-stf.html",
+        categoria: "direito-militar",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
 {
     title: "ANPP Chega à Justiça Militar Brasileira",
     date: "12/03/2026",

@@ -2,6 +2,17 @@
 const categoryNewsData = [
 
 {
+        title: "BH Aprova Incentivo a Olimpíadas Científicas Escolares",
+        date: "13/03/2026",
+        timestamp: "2026-03-13T07:00:00",
+        image: "../img/bh-olimpiadas-cientificas-estudantes-incentivo-legislativo.webp",
+        excerpt: "Câmara de BH aprova PL 559/2025 que institui programa municipal de incentivo à participação de alunos da rede pública em olimpíadas científicas nacionais e internacionais.",
+        link: "../legislacao/bh-olimpiadas-cientificas-estudantes-incentivo-legislativo.html",
+        categoria: "legislacao",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+{
     title: "PGFN Cria Laboratório de Teses da Reforma Tributária",
     date: "12/03/2026",
     timestamp: "2026-03-12T07:00:00",

@@ -2,6 +2,16 @@
 const categoryNewsData = [
 
 {
+        title: "ANPP Ambiental, Quando a Empresa Confessa pelo Dirigente",
+        date: "13/03/2026",
+        timestamp: "2026-03-13T07:00:00",
+        image: "../img/anpp-ambiental-confissao-pessoa-juridica-correu-pessoa-fisica.webp",
+        excerpt: "A confissão de pessoa jurídica em ANPP por crime ambiental gera paradoxo jurídico sobre seus efeitos probatórios no corréu pessoa física que recusou o benefício, colocando em xeque garantias do contraditório e da presunção de inocência.",
+        link: "../direito-penal/anpp-ambiental-confissao-pessoa-juridica-correu-pessoa-fisica.html",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+{
     title: "Família Vorcaro Aciona MP Contra Ameaças Digitais",
     date: "12/03/2026",
     timestamp: "2026-03-12T07:00:00",

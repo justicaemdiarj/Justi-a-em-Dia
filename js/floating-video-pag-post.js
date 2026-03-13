@@ -2,15 +2,13 @@
     'use strict';
 
     const CONFIG = {
-        enabled: true,
-        allowedPages: "cont.html",
-        
+        enabled: false,
+        allowedPages: ["banco-master-compliance-gestao-fraudulenta-temeraria-limites-governanca.html","o-escudo-que-o-poder-tenta-dobrar.html","quem-audita-os-auditores.html"],
         // Pode ser:
         // - YouTube: https://www.youtube.com/watch?v=3MJslaIGvGQ
         // - Vimeo: https://vimeo.com/123456789
-        // - Local/Direto: img/video.mp4 ou https://site.com/video.mp4
-        videoUrl: "https://vimeo.com/147456482",
-        
+       //  - Local/Direto: img/banner-apoiadores/romer-carvalho-compliance.mp4;
+        videoUrl: "../img/banner-apoiadores/romer-carvalho-compliance.mov",
         link: "",
         openInNewTab: true,
         position: "bottom-right",

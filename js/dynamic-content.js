@@ -12,7 +12,43 @@ const tickerConfig = {
 };
 
 const globalNewsData = [
-
+    
+{
+    title: "Lula e Flávio Empatam pela Primeira Vez",
+    link: "politica/quaest-lula-flavio-empatados-41-segundo-turno-2026.html",
+},
+    {
+        title: "STF Limita Condenação Trabalhista ao Pedido Inicial",
+        link: "direito-trabalhista/stf-moraes-condenacao-trabalhista-limite-peticao-inicial-adi-6002.html",
+    },
+{
+        title: "STJ Garante Dividendos ao Ex-Cônjuge Até Partilha Final",
+        link: "direito-de-familia/stj-dividendos-ex-conjuge-cotista-anomalo-apuracao-haveres.html",
+},
+{
+        title: "Obra Mal Feita, Quem Paga a Conta ao Consumidor",
+        link: "direito-civil/responsabilidade-fornecedor-obras-cdc-obrigacao-resultado.html",
+},
+{
+        title: "ANPP Ambiental, Quando a Empresa Confessa pelo Dirigente",
+        link: "direito-penal/anpp-ambiental-confissao-pessoa-juridica-correu-pessoa-fisica.html",
+},
+{
+        title: "IA e Jogo Responsável Unem Forças Globalmente",
+        link: "compliance/mindway-ai-amelco-parceria-compliance-jogo-responsavel-global.html",
+},
+{
+        title: "Depósitos Bancários e Presunção Fiscal no CARF",
+        link: "jurisprudencia/depositos-bancarios-presuncao-fiscal-omissao-receitas-carf.html",
+},
+{
+        title: "BH Aprova Incentivo a Olimpíadas Científicas Escolares",
+        link: "legislacao/bh-olimpiadas-cientificas-estudantes-incentivo-legislativo.html",
+},
+{
+  title: "Empate Técnico Redefine Disputa Presidencial",
+  link: "politica/eleicoes-2026-empate-tecnico-lula-flavio-tarcisio.html",
+},
 {
     title: "Braskem Paga o Preço pelo Caos em Maceió",
     link: "direito-civil/braskem-indenizacao-trabalhador-desastre-maceio.html",
@@ -36,111 +72,6 @@ const globalNewsData = [
 {
     title: "TJ-BA Impulsiona Súmulas para Acelerar Julgamentos",
     link: "jurisprudencia/tj-ba-sumulas-uniformizacao-jurisprudencia-celeridade-ato-normativo-2026.html",
-},
-{
-    title: "Lula Larga 2026 Pior do que Estava em 2022",
-    link: "politica/lula-larga-2026-pior-posicao-eleitoral-2022-rejeicao-pesquisas.html",
-},
-{
-    title: "PGFN Cria Laboratório de Teses da Reforma Tributária",
-    link: "legislacao/pgfn-incubadora-teses-reforma-tributaria-ibs-cbs-contencioso.html",
-},
-{
-    title: "Itaú Fecha Contas de Securitizadora Ligada ao Master",
-    link: "compliance/itau-encerra-contas-cri-base-securitizadora-compliance-zero-master.html",
-},
-{
-    title: "Esposa de Moraes Detalha Contrato Milionário com Master",
-    link: "compliance/viviane-barci-moraes-contrato-banco-master-compliance-etica.html",
-},
-{
-    title: "Direita Fragmentada Aposta Tudo em Flávio Bolsonaro",
-    link: "politica/direita-fragmentada-flavio-bolsonaro-eleicoes-2026.html",
-},
-{
-    title: "Reforma Legislativa Reestrutura Proteção do Produtor Rural",
-    link: "legislacao/reforma-legislativa-seguro-rural-pl-2951-plano-safra-2026.html",
-},
-{
-    title: "TST Pune Uso de Precedentes Falsos Gerados por IA",
-    link: "jurisprudencia/tst-pune-precedentes-falsos-ia-litigancia-ma-fe-telecom.html",
-},
-{
-    title: "Militares Doentes Ganham Isenção Previdenciária em Minas",
-    link: "direito-militar/isencao-previdenciaria-militares-doencas-graves-minas-gerais-zema.html",
-},
-{
-    title: "Nexo Causal Ausente Derruba Pedido de Indenização Trabalhista",
-    link: "direito-trabalhista/nexo-causal-ausente-indenizacao-acidente-trabalho-improcedente.html",
-},  
-{
-    title: "Suspeita de Homicídio Deixa Prisão Preventiva",
-    link: "direito-penal/suspeita-homicidio-liberdade-prisao-preventiva-bento-goncalves.html",
-},
-    
-{
-    title: "Mediação Familiar Ganha Força em Mutirão Virtual",
-    link: "direito-de-familia/cejusc-fortaleza-mutirao-virtual-mediacao-familia.html",
-},
-{
-    title: "Leilão de Imóvel Exige Notificação Prévia ao Devedor",
-    link: "direito-civil/leilao-extrajudicial-notificacao-devedor-imovel.html",
-},
-{
-    title: "Receita Falsa Opioide e a Semi-Imputabilidade",
-    link: "direito-penal/receita-falsa-opioide-semi-imputabilidade-condenacao-penal.html",
-},
-{
-    title: "Assédio Moral Explode nas Varas Trabalhistas",
-    link: "direito-trabalhista/assedio-moral-dano-moral-acoes-trabalhistas-burnout-crescimento.html",
-},
-{
-    title: "Fuga à Viatura Abre Porta Sem Mandado",
-    link: "jurisprudencia/fuga-viatura-policial-domicilio-sem-mandado-stj-jurisprudencia.html",
-},
-{
-    title: "Senado Endurece Proteção Contra Feminicídio",
-    link: "legislacao/senado-feminicidio-pena-maxima-protecao-mulheres-pl-953.html",
-},
-{
-    title: "Diálogos de Vorcaro Ameaçam Provas no STF",
-    link: "politica/vorcaro-dialogos-vazamento-nulidade-provas-stf-banco-master.html",
-},
-{
-    title: "Três Caminhos, Uma Escolha Decisiva no Divórcio",
-    link: "direito-de-familia/divorcio-extrajudicial-consensual-litigioso-diferencas.html",
-},
-{
-    title: "STJ e Seguro de Vida Blindagem Jurisprudencial",
-    link: "jurisprudencia/stj-seguro-vida-blindagem-jurisprudencial-agravamento-risco.html",
-},
-{
-    title: "SentinELAS Chega Para Proteger Recrutas Femininas",
-    link: "direito-militar/sentinelas-mpm-protecao-mulheres-forcas-armadas.html",
-},
-{
-    title: "Tarcísio Enterra Terceira Via em 2026",
-    link: "politica/tarcisio-enterra-terceira-via-eleicoes-2026.html",
-},
-{
-    title: "Compliance Como Escudo Invisível Consumidor",
-    link: "compliance/compliance-escudo-invisivel-protecao-consumidor.html",
-},
-{
-    title: "Licença Paternidade Vai Até Vinte Dias",
-    link: "legislacao/senado-licenca-paternidade-ampliacao-lei-previdencia.html",
-},
-{
-    title: "Suspensão de Dívida Ativa: o Que a Lei Garante",
-    link: "direito-civil/divida-ativa-suspensao-pagamentos-lei-superendividamento.html",
-},
-{
-    title: "EUA Não Descartam Reduzir Sanções ao Petróleo Russo Para Conter Alta de Preços Após Guerra no Irã",
-    link: "politica/eua-nao-descartam-sancoes-petroleo-russo-guerra-ira.html",
-},
-{
-    title: "Trump Tem Uma Semana para Liberar o Petróleo do Oriente Médio Antes dos Preços Explodirem",
-    link: "politica/trump-uma-semana-liberar-petroleo-oriente-medio-preco-disparar.html",
 },
 ];
 

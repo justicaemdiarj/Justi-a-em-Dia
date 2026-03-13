@@ -1,6 +1,75 @@
 // Base de dados global de artigos para busca
 const allArticles = [
-
+    {
+    title: 'Lula e Flávio Empatam pela Primeira Vez',
+    description: 'A pesquisa Genial/Quaest registra pela primeira vez o empate entre Lula e Flávio Bolsonaro no segundo turno, ambos com 41%, evidenciando a erosão da vantagem petista rumo às eleições de 2026.',
+    category: 'Política',
+    url: 'politica/quaest-lula-flavio-empatados-41-segundo-turno-2026.html',
+    tags: ['Quaest', 'Eleições 2026', 'Lula', 'Flávio Bolsonaro', 'Lula e Flávio Empatam pela Primeira Vez']
+},
+    {
+        title: 'STF Limita Condenação Trabalhista ao Pedido Inicial',
+        description: 'O ministro Alexandre de Moraes cassou acórdão do TRT-4 que permitia condenação trabalhista acima do valor pedido na inicial, limitando a ação ao montante declarado com base na Súmula Vinculante 10 e no artigo 97 da CF, enquanto a ADI 6002 aguarda julgamento no plenário do STF.',
+        category: 'Direito Trabalhista',
+        url: 'direito-trabalhista/stf-moraes-condenacao-trabalhista-limite-peticao-inicial-adi-6002.html',
+        tags: ['Condenação Trabalhista', 'Petição Inicial', 'ADI 6002', 'Reforma Trabalhista', 'Artigo 840 CLT', 'Súmula Vinculante 10', 'Alexandre de Moraes', 'Reclamação Constitucional', 'Reserva de Plenário']
+    },
+    {
+        title: 'STJ Garante Dividendos ao Ex-Cônjuge Até Partilha Final',
+        description: 'A Terceira Turma do STJ decidiu que o ex-cônjuge com direito à meação de cotas societárias também faz jus à parcela proporcional dos lucros e dividendos distribuídos até a efetiva quitação dos haveres, com base no artigo 1.660 do Código Civil e na vedação ao enriquecimento sem causa.',
+        category: 'Direito de Família',
+        url: 'direito-de-familia/stj-dividendos-ex-conjuge-cotista-anomalo-apuracao-haveres.html',
+        tags: ['STJ Dividendos Ex-Cônjuge', 'Meação Cotas Empresa', 'Apuração de Haveres', 'Comunhão Parcial de Bens', 'Cotista Anômalo', 'REsp 2223719', 'Artigo 1660 Código Civil', 'Reforma Código Civil', 'Direito de Família Empresarial']
+    },
+     {
+        title: 'Obra Mal Feita, Quem Paga a Conta ao Consumidor',
+        description: 'A responsabilidade civil do fornecedor por falhas na execução de obras é objetiva, apoiada no artigo 618 do Código Civil e no artigo 14 do CDC, que impõem obrigação de resultado ao empreiteiro e garantia de cinco anos pela solidez e segurança da edificação.',
+        category: 'Direito Civil',
+        url: 'direito-civil/responsabilidade-fornecedor-obras-cdc-obrigacao-resultado.html',
+        tags: ['Responsabilidade do Fornecedor', 'Falhas em Obras', 'Obrigação de Resultado', 'CDC', 'Artigo 618 Código Civil', 'Vício Construtivo', 'Dano Moral', 'Empreitada', 'Construção Civil', 'Direito do Consumidor']
+    },
+  {
+        title: 'ANPP Ambiental, Quando a Empresa Confessa pelo Dirigente',
+        description: 'A celebração de ANPP por pessoa jurídica em crimes ambientais gera paradoxo jurídico: a confissão corporativa pode refletir indevidamente sobre o corréu pessoa física que recusou o acordo, comprometendo o contraditório e a presunção de inocência.',
+        category: 'Direito Criminial',
+        url: 'direito-penal/anpp-ambiental-confissao-pessoa-juridica-correu-pessoa-fisica.html',
+        tags: ['ANPP', 'Crimes Ambientais', 'Pessoa Jurídica', 'Lei 9605/98', 'Confissão Corporativa', 'Corréu', 'Artigo 28-A CPP', 'Direito Penal Ambiental', 'Responsabilidade Penal Empresa']
+    },
+    {
+        title: 'Condenação por Golpe Ameaça Patentes Militares',
+        description: 'Especialistas em Direito Militar explicam que condenação criminal superior a dois anos pode desencadear o Conselho de Justificação e a perda de posto dos militares acusados de envolvimento na trama golpista julgada pelo STF.',
+        category: 'Direito Militar',
+        url: 'direito-militar/condenacao-golpe-perda-patente-militares-stf.html',
+        tags: ['Perda de Patente Militar', 'Golpe de Estado', 'STF', 'Conselho de Justificação', 'Superior Tribunal Militar', 'Direito Militar', 'Jair Bolsonaro', 'Indignidade para o Oficialato']
+    },
+    {
+        title: 'IA e Jogo Responsável Unem Forças Globalmente',
+        description: 'A Mindway AI e a Amelco firmaram aliança estratégica para expandir globalmente ferramentas de compliance regulatório e proteção de jogadores baseadas em inteligência artificial, integrando tecnologia de jogo responsável à plataforma B2B da Amelco.',
+        category: 'Compliance',
+        url: 'compliance/mindway-ai-amelco-parceria-compliance-jogo-responsavel-global.html',
+        tags: ['Mindway AI', 'Amelco', 'Compliance Regulatório', 'Jogo Responsável', 'Inteligência Artificial', 'iGaming', 'Licenciamento Global', 'Proteção de Jogadores']
+    },
+     {
+        title: 'Depósitos Bancários e Presunção Fiscal no CARF',
+        description: 'O Conselho Administrativo de Recursos Fiscais consolidou jurisprudência sobre omissão de receitas por depósitos bancários não comprovados, à luz do artigo 42 da Lei 9.430/96, com inversão do ônus probatório ao contribuinte.',
+        category: 'Jurisprudência',
+        url: 'jurisprudencia/depositos-bancarios-presuncao-fiscal-omissao-receitas-carf.html',
+        tags: ['CARF', 'Omissão de Receitas', 'Depósitos Bancários', 'Artigo 42 Lei 9430/96', 'Presunção Legal', 'Jurisprudência Tributária', 'Ônus da Prova', 'Direito Tributário']
+    },
+    {
+        title: 'BH Aprova Incentivo a Olimpíadas Científicas Escolares',
+        description: 'A Comissão de Legislação e Justiça da Câmara Municipal de BH aprovou o PL 559/2025, criando programa de incentivo à participação de estudantes da rede pública em olimpíadas científicas nacionais e internacionais.',
+        category: 'Legislação',
+        url: 'legislacao/bh-olimpiadas-cientificas-estudantes-incentivo-legislativo.html',
+        tags: ['PL 559/2025', 'Olimpíadas Científicas', 'Câmara Municipal BH', 'Educação Científica', 'Legislação Municipal', 'Incentivo Escolar', 'Belo Horizonte']
+    },
+   {
+        title: 'Empate Técnico Redefine Disputa Presidencial',
+        description: 'Nova pesquisa Meio/Ideia registrada no TSE revela que Lula empata tecnicamente com Flávio Bolsonaro e Tarcísio de Freitas em cenários de segundo turno, sinalizando uma corrida eleitoral de 2026 extremamente disputada.',
+        category: 'Política',
+        url: 'politica/eleicoes-2026-empate-tecnico-lula-flavio-tarcisio.html',
+        tags: ['Eleições 2026', 'Lula', 'Tarcísio de Freitas', 'Flávio Bolsonaro', 'Pesquisa Meio Ideia', 'Empate Técnico', 'Segundo Turno']
+    },
 {
     title: 'Braskem Paga o Preço pelo Caos em Maceió',
     description: 'O STJ reconheceu a responsabilidade civil da Braskem pelo dano moral de ex-porteiro demitido após a evacuação de bairros atingidos pelo afundamento do solo em Maceió.',

@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
     {
+        title: "STF Limita Condenação Trabalhista ao Pedido Inicial",
+        date: "13/03/2026",
+        timestamp: "2026-03-13T07:00:00",
+        image: "../img/stf-moraes-condenacao-trabalhista-limite-peticao-inicial-adi-6002.webp",
+        excerpt: "O ministro Alexandre de Moraes cassou acórdão do TRT-4 que tratava valores da petição inicial trabalhista como mera estimativa, limitando condenação ao valor pedido, com fundamento na Súmula Vinculante 10 e na cláusula de reserva de plenário.",
+        link: "../direito-trabalhista/stf-moraes-condenacao-trabalhista-limite-peticao-inicial-adi-6002.html",
+        categoria: "direito-trabalhista",
+        author: "Justiça em Dia",
+        authorLink: "#"
+    },
+    {
         title: "Empresa e Advogado São Condenados pelo TST",
         date: "04/03/2026",
         timestamp: "2026-03-04T07:00:00",

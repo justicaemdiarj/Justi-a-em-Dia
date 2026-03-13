@@ -3,14 +3,12 @@
 
     const CONFIG = {
         enabled: true,
-        allowedPages: "cont.html",
-        
+      allowedPages: ["inde.html"],
         // Pode ser:
         // - YouTube: https://www.youtube.com/watch?v=3MJslaIGvGQ
         // - Vimeo: https://vimeo.com/123456789
         // - Local/Direto: img/video.mp4 ou https://site.com/video.mp4
-        videoUrl: "https://vimeo.com/1162169331",
-        
+        videoUrl: "img/banner-apoiadores/romer-carvalho-compliance.mov",
         link: "",
         openInNewTab: true,
         position: "bottom-right",

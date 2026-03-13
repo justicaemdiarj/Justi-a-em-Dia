@@ -1,6 +1,18 @@
 // Dados de notícias para Política
 const categoryNewsData = [
 
+
+{
+        title: "Empate Técnico Redefine Disputa Presidencial",
+        date: "13/03/2026",
+        timestamp: "2026-03-13T07:00:00",
+        image: "../img/eleicoes-2026-empate-tecnico-lula-flavio-tarcisio.webp",
+        excerpt: "Nova pesquisa Meio/Ideia revela empate técnico entre Lula, Flávio Bolsonaro e Tarcísio de Freitas no segundo turno de 2026.",
+        link: "../politica/eleicoes-2026-empate-tecnico-lula-flavio-tarcisio.html",
+        categoria: "politica",
+        author: "Justiça em Dia",
+        authorLink: "#"
+},
 {
     title: "Lula Larga 2026 Pior do que Estava em 2022",
     date: "12/03/2026",
