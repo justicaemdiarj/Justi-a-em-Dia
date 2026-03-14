@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
 
+
+ {
+    title: "Habeas Corpus Amordaçado pela Jurisprudência",
+    date: "14/03/2026",
+    timestamp: "2026-03-14T07:00:00",
+    image: "../img/habeas-corpus-vedacao-debate-fatico-prisao-preventiva-inconstitucional.webp",
+    excerpt: "Advogados criminalistas denunciam a construção jurisprudencial que veda à defesa o debate fático no habeas corpus em matéria de prisão preventiva, sustentando que a restrição viola a presunção de inocência e a paridade de armas.",
+    link: "../direito-penal/habeas-corpus-vedacao-debate-fatico-prisao-preventiva-inconstitucional.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 {
         title: "ANPP Ambiental, Quando a Empresa Confessa pelo Dirigente",
         date: "13/03/2026",
@@ -153,7 +164,7 @@ const categoryNewsData = [
     },
 ];
 
-const ITEMS_PER_PAGE = 10;
+const ITEMS_PER_PAGE = 15;
 let currentPage = 1;
 
 /**

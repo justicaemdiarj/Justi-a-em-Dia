@@ -1,7 +1,16 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
 
-    
+ {
+    title: "Danos Morais na Justiça Militar Ganham Piso",
+    date: "14/03/2026",
+    timestamp: "2026-03-14T07:00:00",
+    image: "../img/stm-danos-morais-indenizacao-minima-jurisprudencia-vitimas.webp",
+    excerpt: "O Superior Tribunal Militar firmou jurisprudência inédita ao estabelecer valor mínimo de indenização por danos morais em sentenças condenatórias na Justiça Militar da União.",
+    link: "../direito-militar/stm-danos-morais-indenizacao-minima-jurisprudencia-vitimas.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},   
  {
         title: "Condenação por Golpe Ameaça Patentes Militares",
         date: "13/03/2026",
@@ -117,7 +126,7 @@ const categoryNewsData = [
     },
 ];
 
-const ITEMS_PER_PAGE = 10;
+const ITEMS_PER_PAGE = 15;
 let currentPage = 1;
 
 /**

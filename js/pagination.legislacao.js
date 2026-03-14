@@ -1,6 +1,17 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
 
+
+{
+    title: "Cerrado Ganha Força Legislativa em Goiás",
+    date: "14/03/2026",
+    timestamp: "2026-03-14T07:00:00",
+    image: "../img/gomide-leis-ambientais-cerrado-goias-sementes-cerrado.webp",
+    excerpt: "O deputado Antônio Gomide lidera a produção legislativa ambiental em Goiás com 24 leis sancionadas e retoma o Programa Sementes do Cerrado, iniciativa educativa em parceria com a PUC Goiás para formação de consciência ecológica entre estudantes.",
+    link: "../legislacao/gomide-leis-ambientais-cerrado-goias-sementes-cerrado.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 {
         title: "BH Aprova Incentivo a Olimpíadas Científicas Escolares",
         date: "13/03/2026",
@@ -147,7 +158,7 @@ const categoryNewsData = [
     },
 ];
 
-const ITEMS_PER_PAGE = 10;
+const ITEMS_PER_PAGE = 15;
 let currentPage = 1;
 
 /**

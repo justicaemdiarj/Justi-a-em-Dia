@@ -1,6 +1,66 @@
 // Base de dados global de artigos para busca
 const allArticles = [
-    {
+
+
+
+
+{
+    title: 'Danos Morais na Justiça Militar Ganham Piso',
+    description: 'O Superior Tribunal Militar firmou jurisprudência inédita ao aplicar o artigo 387 do CPP, estabelecendo valor mínimo de indenização por danos morais em sentenças condenatórias na Justiça Militar da União.',
+    category: 'Direito Militar',
+    url: 'direito-militar/stm-danos-morais-indenizacao-minima-jurisprudencia-vitimas.html',
+    tags: ['STM', 'danos morais', 'indenização mínima', 'jurisprudência militar', 'Danos Morais na Justiça Militar Ganham Piso']
+},
+{
+    title: 'Quando o Passado Condena o Presente',
+    description: 'Ex-agente condenado por facilitação de contrabando é nomeado para cargo de compliance em prefeitura brasileira. A contradição entre o histórico criminal do indicado e a função designada expõe o uso político e distorcido dos princípios de integridade e governança pública.',
+    category: 'Compliance',
+    url: 'compliance/ex-agente-preso-contrabando-cargo-compliance-prefeitura.html',
+    tags: ['compliance público', 'integridade administrativa', 'improbidade administrativa', 'governança pública', 'Quando o Passado Condena o Presente']
+},
+{
+    title: 'Aplicativos Vencem a Batalha do Vínculo Trabalhista',
+    description: 'O relator do PLP 152/2025 declarou que o vínculo empregatício entre motoristas e plataformas é um ponto vencido no projeto, que criará regime normativo próprio para trabalhadores plataformizados e afastará a CLT.',
+    category: 'Direito Trabalhista',
+    url: 'direito-trabalhista/plp-152-2025-vinculo-empregaticio-motoristas-aplicativos-regulamentacao.html',
+    tags: ['PLP 152/2025', 'Trabalho por Aplicativo', 'Vínculo Empregatício', 'Trabalhador Plataformizado', 'Aplicativos Vencem a Batalha do Vínculo Trabalhista']
+},
+{
+    title: 'Habeas Corpus Amordaçado pela Jurisprudência',
+    description: 'Advogados criminalistas denunciam a construção jurisprudencial que veda à defesa o debate fático no habeas corpus em matéria de prisão preventiva, sustentando que a restrição viola a presunção de inocência e a paridade de armas.',
+    category: 'Direito Criminal',
+    url: 'direito-penal/habeas-corpus-vedacao-debate-fatico-prisao-preventiva-inconstitucional.html',
+    tags: ['Habeas Corpus', 'Prisão Preventiva', 'Presunção de Inocência', 'Paridade de Armas', 'Habeas Corpus Amordaçado pela Jurisprudência']
+},
+{
+    title: 'Violência Doméstica em Números que Assustam',
+    description: 'Servidor do PJSC apresenta dados do CNJ que revelam 945 mil medidas protetivas e 1.470 feminicídios em 2025 no Brasil, com destaque para os índices alarmantes de Chapecó e a dimensão oculta da violência doméstica em SC.',
+    category: 'Direito de Família',
+    url: 'direito-de-familia/violencia-domestica-numeros-sc-brasil-feminicidio-medidas-protetivas.html',
+    tags: ['Violência Doméstica', 'Feminicídio', 'Lei Maria da Penha', 'Santa Catarina', 'Violência Doméstica em Números que Assustam']
+},    
+{
+    title: 'Cerrado Ganha Força Legislativa em Goiás',
+    description: 'O deputado Antônio Gomide lidera a produção legislativa ambiental em Goiás com 24 leis sancionadas e retoma o Programa Sementes do Cerrado, iniciativa educativa em parceria com a PUC Goiás para formação de consciência ecológica entre estudantes.',
+    category: 'Legislação',
+    url: 'legislacao/gomide-leis-ambientais-cerrado-goias-sementes-cerrado.html',
+    tags: ['Cerrado', 'Legislação Ambiental', 'Goiás', 'Antônio Gomide', 'Cerrado Ganha Força Legislativa em Goiás']
+},
+{
+    title: 'Agências de Viagem Ganham Terreno no Judiciário',
+    description: 'Decisões recentes do STJ sinalizam interpretação mais favorável às agências de viagens nos casos de responsabilidade solidária, distinguindo o papel de intermediação do de fornecedor direto de serviços turísticos.',
+    category: 'Jurisprudência',
+    url: 'jurisprudencia/agencias-viagem-responsabilidade-solidaria-jurisprudencia-stj-turismo.html',
+    tags: ['Responsabilidade Solidária', 'Agências de Viagens', 'STJ', 'Abav', 'Agências de Viagem Ganham Terreno no Judiciário']
+},    
+{
+    title: 'Código Civil Ganha Nova Chance de Evolução',
+    description: 'A CTCivil do Senado debate responsabilidade civil em audiência pública com juristas de referência, no âmbito do PL 4/2025 que propõe atualizar mais de 900 artigos do Código Civil vigente desde 2002.',
+    category: 'Direito Civil',
+    url: 'direito-civil/codigo-civil-atualizacao-responsabilidade-civil-debate-senado-2026.html',
+    tags: ['Código Civil', 'Responsabilidade Civil', 'PL 4/2025', 'CTCivil', 'Código Civil Ganha Nova Chance de Evolução']
+},
+{
     title: 'Lula e Flávio Empatam pela Primeira Vez',
     description: 'A pesquisa Genial/Quaest registra pela primeira vez o empate entre Lula e Flávio Bolsonaro no segundo turno, ambos com 41%, evidenciando a erosão da vantagem petista rumo às eleições de 2026.',
     category: 'Política',

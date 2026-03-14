@@ -12,7 +12,39 @@ const tickerConfig = {
 };
 
 const globalNewsData = [
-    
+
+{
+    title: "Danos Morais na Justiça Militar Ganham Piso",
+    link: "direito-militar/stm-danos-morais-indenizacao-minima-jurisprudencia-vitimas.html",
+},
+{
+    title: "Quando o Passado Condena o Presente",
+    link: "compliance/ex-agente-preso-contrabando-cargo-compliance-prefeitura.html",
+},
+{
+    title: "Aplicativos Vencem a Batalha do Vínculo Trabalhista",
+    link: "direito-trabalhista/plp-152-2025-vinculo-empregaticio-motoristas-aplicativos-regulamentacao.html",
+},
+{
+    title: "Habeas Corpus Amordaçado pela Jurisprudência",
+    link: "direito-penal/habeas-corpus-vedacao-debate-fatico-prisao-preventiva-inconstitucional.html",
+},
+{
+    title: "Violência Doméstica em Números que Assustam",
+    link: "direito-de-familia/violencia-domestica-numeros-sc-brasil-feminicidio-medidas-protetivas.html",
+},
+{
+    title: "Cerrado Ganha Força Legislativa em Goiás",
+    link: "legislacao/gomide-leis-ambientais-cerrado-goias-sementes-cerrado.html",
+},
+{
+    title: "Agências de Viagem Ganham Terreno no Judiciário",
+    link: "jurisprudencia/agencias-viagem-responsabilidade-solidaria-jurisprudencia-stj-turismo.html",
+},
+{
+    title: "Código Civil Ganha Nova Chance de Evolução",
+    link: "direito-civil/codigo-civil-atualizacao-responsabilidade-civil-debate-senado-2026.html",
+},    
 {
     title: "Lula e Flávio Empatam pela Primeira Vez",
     link: "politica/quaest-lula-flavio-empatados-41-segundo-turno-2026.html",
@@ -37,42 +69,7 @@ const globalNewsData = [
         title: "IA e Jogo Responsável Unem Forças Globalmente",
         link: "compliance/mindway-ai-amelco-parceria-compliance-jogo-responsavel-global.html",
 },
-{
-        title: "Depósitos Bancários e Presunção Fiscal no CARF",
-        link: "jurisprudencia/depositos-bancarios-presuncao-fiscal-omissao-receitas-carf.html",
-},
-{
-        title: "BH Aprova Incentivo a Olimpíadas Científicas Escolares",
-        link: "legislacao/bh-olimpiadas-cientificas-estudantes-incentivo-legislativo.html",
-},
-{
-  title: "Empate Técnico Redefine Disputa Presidencial",
-  link: "politica/eleicoes-2026-empate-tecnico-lula-flavio-tarcisio.html",
-},
-{
-    title: "Braskem Paga o Preço pelo Caos em Maceió",
-    link: "direito-civil/braskem-indenizacao-trabalhador-desastre-maceio.html",
-},
-{
-    title: "Proteção ou Vigilância Digital sobre Crianças e Jovens",
-    link: "direito-de-familia/lei-eca-digital-privacidade-criancas-adolescentes.html",
-},
-{
-    title: "Família Vorcaro Aciona MP Contra Ameaças Digitais",
-    link: "direito-penal/mp-sp-inquerito-ameacas-digitais-vorcaro-familia-cyberstalking.html",
-},
-{
-    title: "TST Garante Insalubridade Máxima a Socorrista do SAMU",
-    link: "direito-trabalhista/tst-insalubridade-grau-maximo-socorrista-samu-doenca-infectocontagiosa.html",
-},
-{
-    title: "ANPP Chega à Justiça Militar Brasileira",
-    link: "direito-militar/anpp-justica-militar-acordo-nao-persecucao-penal-aplicacao.html",
-},
-{
-    title: "TJ-BA Impulsiona Súmulas para Acelerar Julgamentos",
-    link: "jurisprudencia/tj-ba-sumulas-uniformizacao-jurisprudencia-celeridade-ato-normativo-2026.html",
-},
+
 ];
 
 // Array para armazenar todas as notícias coletadas dos arquivos de paginação

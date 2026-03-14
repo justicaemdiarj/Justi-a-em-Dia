@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
-    {
+  
+  {
+    title: "Aplicativos Vencem a Batalha do Vínculo Trabalhista",
+    date: "14/03/2026",
+    timestamp: "2026-03-14T07:00:00",
+    image: "../img/plp-152-2025-vinculo-empregaticio-motoristas-aplicativos-regulamentacao.webp",
+    excerpt: "O relator do PLP 152/2025 declarou que o vínculo empregatício entre motoristas e plataformas é um ponto vencido no projeto, que criará regime normativo próprio para trabalhadores plataformizados e afastará a CLT.",
+    link: "../direito-trabalhista/plp-152-2025-vinculo-empregaticio-motoristas-aplicativos-regulamentacao.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+  {
         title: "Vínculo Empregatício Nas Novas Formas de Trabalho por Aplicativo",
         date: "01/03/2026",
         timestamp: "2026-03-01T12:00:00",
@@ -12,7 +23,7 @@ const categoryNewsData = [
     },
 ];
 
-const ITEMS_PER_PAGE = 10;
+const ITEMS_PER_PAGE = 15;
 let currentPage = 1;
 
 /**

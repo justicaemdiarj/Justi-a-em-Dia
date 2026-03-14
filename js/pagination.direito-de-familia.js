@@ -1,7 +1,16 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
 
-
+{
+    title: "Violência Doméstica em Números que Assustam",
+    date: "14/03/2026",
+    timestamp: "2026-03-14T07:00:00",
+    image: "../img/violencia-domestica-numeros-sc-brasil-feminicidio-medidas-protetivas.webp",
+    excerpt: "Servidor do PJSC apresenta dados do CNJ que revelam 945 mil medidas protetivas e 1.470 feminicídios em 2025 no Brasil, com destaque para os índices alarmantes de Chapecó e a dimensão oculta da violência doméstica em SC.",
+    link: "../direito-de-familia/violencia-domestica-numeros-sc-brasil-feminicidio-medidas-protetivas.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 {
         title: "STJ Garante Dividendos ao Ex-Cônjuge Até Partilha Final",
         date: "13/03/2026",
@@ -156,7 +165,7 @@ const categoryNewsData = [
     },
 ];
 
-const ITEMS_PER_PAGE = 10;
+const ITEMS_PER_PAGE = 15;
 let currentPage = 1;
 
 /**

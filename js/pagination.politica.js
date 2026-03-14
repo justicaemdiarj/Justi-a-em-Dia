@@ -1,7 +1,16 @@
 // Dados de notícias para Política
 const categoryNewsData = [
 
-
+{
+    title: "Lula e Flávio Empatam pela Primeira Vez",
+    date: "14/03/2026",
+    timestamp: "2026-03-14T07:00:00",
+    image: "../img/quaest-lula-flavio-empatados-41-segundo-turno-2026.webp",
+    excerpt: "A pesquisa Genial/Quaest registra pela primeira vez o empate entre Lula e Flávio Bolsonaro no segundo turno, ambos com 41%, evidenciando a erosão da vantagem petista rumo às eleições de 2026.",
+    link: "../politica/quaest-lula-flavio-empatados-41-segundo-turno-2026.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 {
         title: "Empate Técnico Redefine Disputa Presidencial",
         date: "13/03/2026",
@@ -188,7 +197,7 @@ const categoryNewsData = [
     },
 ];
 
-const ITEMS_PER_PAGE = 10;
+const ITEMS_PER_PAGE = 15;
 let currentPage = 1;
 
 /**

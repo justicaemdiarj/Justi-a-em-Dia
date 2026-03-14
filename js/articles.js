@@ -1,73 +1,73 @@
 const posts = [
 {
   
-   title: "Empate Técnico Redefine Disputa Presidencial",
-    description: "Pesquisa Meio/Ideia mostra Lula tecnicamente empatado com Flávio Bolsonaro e Tarcísio no segundo turno",
-    description2: "Levantamento registrado no TSE revela corrida presidencial aberta com alta rejeição ao presidente",
-    image: "img/eleicoes-2026-empate-tecnico-lula-flavio-tarcisio.webp",
-    link: "politica/eleicoes-2026-empate-tecnico-lula-flavio-tarcisio.html",
-    date: "2026-03-13T07:00:00",
+  title: "Quando o Passado Condena o Presente",
+  description: "Ex-agente condenado por facilitação de contrabando é nomeado para cargo de compliance em prefeitura brasileira",
+  description2: "A contradição entre o histórico criminal do indicado e a função designada expõe o uso político e distorcido dos princípios de integridade e governança pública",
+  image: "img/ex-agente-preso-contrabando-cargo-compliance-prefeitura.webp",
+  link: "compliance/ex-agente-preso-contrabando-cargo-compliance-prefeitura.html",
+    date: "2026-03-14T07:00:00",
   section: "featured"
 },
   {
-   title: "BH Aprova Incentivo a Olimpíadas Científicas Escolares",
-    description: "PL 559/2025 cria programa municipal para estimular alunos da rede pública a competir em olimpíadas científicas",
-    description2: "Câmara de BH avança na valorização da educação científica e do talento jovem na escola pública",
-    image: "img/bh-olimpiadas-cientificas-estudantes-incentivo-legislativo.webp",
-    link: "legislacao/bh-olimpiadas-cientificas-estudantes-incentivo-legislativo.html",
-    date: "2026-03-13T07:00:00",
+    title: "Código Civil Ganha Nova Chance de Evolução",
+    description: "Senado reúne juristas de referência para debater responsabilidade civil e modernizar o Código Civil",
+    description2: "PL 4/2025 propõe revisar mais de 900 artigos e incluir capítulo inédito sobre direito digital",
+    image: "img/codigo-civil-atualizacao-responsabilidade-civil-debate-senado-2026.webp",
+    link: "direito-civil/codigo-civil-atualizacao-responsabilidade-civil-debate-senado-2026.html",
+    date: "2026-03-14T07:00:00",
   section: "featured-secundario"
 },
 {
-  title: "Depósitos Bancários e Presunção Fiscal no CARF",
-    description: "CARF consolida jurisprudência sobre presunção de omissão de receitas em depósitos bancários sem origem comprovada",
-    description2: "Artigo 42 da Lei 9.430/96 inverte ônus probatório e expõe contribuinte a pesadas autuações fiscais",
-    image: "img/depositos-bancarios-presuncao-fiscal-omissao-receitas-carf.webp",
-    link: "jurisprudencia/depositos-bancarios-presuncao-fiscal-omissao-receitas-carf.html",
-    date: "2026-03-13T07:00:00",
+    title: "Lula e Flávio Empatam pela Primeira Vez",
+    description: "Pesquisa Quaest mostra empate inédito entre Lula e Flávio Bolsonaro no segundo turno de 2026",
+    description2: "Aprovação do governo cai ao menor nível desde julho de 2025 com desgaste acumulado",
+    image: "img/quaest-lula-flavio-empatados-41-segundo-turno-2026.webp",
+    link: "politica/quaest-lula-flavio-empatados-41-segundo-turno-2026.html",
+    date: "2026-03-14T07:00:00",
  section: "featured-terciario"
 },
   {
- title: "IA e Jogo Responsável Unem Forças Globalmente",
-   image: "img/mindway-ai-amelco-parceria-compliance-jogo-responsavel-global.webp",
-    link: "compliance/mindway-ai-amelco-parceria-compliance-jogo-responsavel-global.html",
-  date: "2026-03-13T07:00:00",
+ title: "Cerrado Ganha Força Legislativa em Goiás",
+      image: "img/gomide-leis-ambientais-cerrado-goias-sementes-cerrado.webp",
+    link: "legislacao/gomide-leis-ambientais-cerrado-goias-sementes-cerrado.html",
+  date: "2026-03-14T07:00:00",
     section: "destaque"
   },
    {
-  title: "Condenação por Golpe Ameaça Patentes Militares",
-image: "img/condenacao-golpe-perda-patente-militares-stf.webp",
-    link: "direito-militar/condenacao-golpe-perda-patente-militares-stf.html",
-    date: "2026-03-13T07:00:00",
+  title: "Violência Doméstica em Números que Assustam",
+    image: "img/violencia-domestica-numeros-sc-brasil-feminicidio-medidas-protetivas.webp",
+    link: "direito-de-familia/violencia-domestica-numeros-sc-brasil-feminicidio-medidas-protetivas.html",
+  date: "2026-03-14T07:00:00",
     section: "destaque"
   },
   {
-    title: "ANPP Ambiental, Quando a Empresa Confessa pelo Dirigente",
- image: "img/anpp-ambiental-confissao-pessoa-juridica-correu-pessoa-fisica.webp",
-    link: "direito-penal/anpp-ambiental-confissao-pessoa-juridica-correu-pessoa-fisica.html",
-  date: "2026-03-13T07:00:00",
+     title: "Habeas Corpus Amordaçado pela Jurisprudência",
+   image: "img/habeas-corpus-vedacao-debate-fatico-prisao-preventiva-inconstitucional.webp",
+    link: "direito-penal/habeas-corpus-vedacao-debate-fatico-prisao-preventiva-inconstitucional.html",
+ date: "2026-03-14T07:00:00",
     section: "destaque"
   },
   {
    
-    title: "Obra Mal Feita, Quem Paga a Conta ao Consumidor",
-    image: "img/responsabilidade-fornecedor-obras-cdc-obrigacao-resultado.webp",
-    link: "direito-civil/responsabilidade-fornecedor-obras-cdc-obrigacao-resultado.html",
-    date: "2026-03-13T07:00:00",
+    title: "Aplicativos Vencem a Batalha do Vínculo Trabalhista",
+     image: "img/plp-152-2025-vinculo-empregaticio-motoristas-aplicativos-regulamentacao.webp",
+    link: "direito-trabalhista/plp-152-2025-vinculo-empregaticio-motoristas-aplicativos-regulamentacao.html",
+    date: "2026-03-14T07:00:00",
     section: "veja"
   },
   {
-     title: "STJ Garante Dividendos ao Ex-Cônjuge Até Partilha Final",
-   image: "img/stj-dividendos-ex-conjuge-cotista-anomalo-apuracao-haveres.webp",
-    link: "direito-de-familia/stj-dividendos-ex-conjuge-cotista-anomalo-apuracao-haveres.html",
-  date: "2026-03-13T07:00:00",
+  title: "Agências de Viagem Ganham Terreno no Judiciário",
+ image: "img/agencias-viagem-responsabilidade-solidaria-jurisprudencia-stj-turismo.webp",
+    link: "jurisprudencia/agencias-viagem-responsabilidade-solidaria-jurisprudencia-stj-turismo.html",
+  date: "2026-03-14T07:00:00",
     section: "veja"
   },
   {
-title: "STF Limita Condenação Trabalhista ao Pedido Inicial",
-  image: "img/stf-moraes-condenacao-trabalhista-limite-peticao-inicial-adi-6002.webp",
-    link: "direito-trabalhista/stf-moraes-condenacao-trabalhista-limite-peticao-inicial-adi-6002.html",
-  date: "2026-03-13T07:00:00",
+ title: "Danos Morais na Justiça Militar Ganham Piso",
+  image: "img/stm-danos-morais-indenizacao-minima-jurisprudencia-vitimas.webp",
+  link: "direito-militar/stm-danos-morais-indenizacao-minima-jurisprudencia-vitimas.html",
+  date: "2026-03-14T07:00:00",
     section: "veja"
   }
 ];
@@ -377,10 +377,10 @@ source: "",
 date: "2026-03-08T07:00:00"
 },
 {
-title: "Droga Apreendida Afasta Benefício Penal?",
-    link: "direito-penal/stj-quantidade-droga-trafico-privilegiado-dosimetria-pena.html",
+title: "Obra Mal Feita, Quem Paga a Conta ao Consumidor",
+    link: "direito-civil/responsabilidade-fornecedor-obras-cdc-obrigacao-resultado.html",
 source: "",
-date: "2026-03-08T07:00:00"
+date: "2026-03-13T07:00:00"
 },
 {
  title: "ANPP Chega à Justiça Militar Brasileira",
@@ -395,10 +395,10 @@ source: "",
 date: "2026-03-10T07:00:00",
 },
 {
-   title: "STJ e Seguro de Vida Blindagem Jurisprudencial",
-    link: "jurisprudencia/stj-seguro-vida-blindagem-jurisprudencial-agravamento-risco.html",
+   title: "STJ Garante Dividendos ao Ex-Cônjuge Até Partilha Final",
+    link: "direito-de-familia/stj-dividendos-ex-conjuge-cotista-anomalo-apuracao-haveres.html",
 source: "",
- date: "2026-03-09T07:00:00"
+ date: "2026-03-13T07:00:00"
 },
 
 ];

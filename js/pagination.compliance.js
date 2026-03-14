@@ -1,6 +1,17 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
+
     
+{
+    title: "Quando o Passado Condena o Presente",
+    date: "14/03/2026",
+    timestamp: "2026-03-14T07:00:00",
+    image: "../img/ex-agente-preso-contrabando-cargo-compliance-prefeitura.webp",
+    excerpt: "Ex-agente condenado por facilitação de contrabando é nomeado para cargo de compliance em prefeitura brasileira.",
+    link: "../compliance/ex-agente-preso-contrabando-cargo-compliance-prefeitura.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},    
 {
         title: "IA e Jogo Responsável Unem Forças Globalmente",
         date: "13/03/2026",
@@ -199,7 +210,7 @@ const categoryNewsData = [
     },
 ];
 
-const ITEMS_PER_PAGE = 10;
+const ITEMS_PER_PAGE = 15;
 let currentPage = 1;
 
 /**

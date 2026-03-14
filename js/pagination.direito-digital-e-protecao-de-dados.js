@@ -1,5 +1,16 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
+
+    {
+    title: "Código Civil Ganha Nova Chance de Evolução",
+    date: "14/03/2026",
+    timestamp: "2026-03-14T07:00:00",
+    image: "../img/codigo-civil-atualizacao-responsabilidade-civil-debate-senado-2026.webp",
+    excerpt: "A CTCivil do Senado debate responsabilidade civil em audiência pública com juristas de referência, no âmbito do PL 4/2025 que propõe atualizar mais de 900 artigos do Código Civil vigente desde 2002.",
+    link: "../direito-civil/codigo-civil-atualizacao-responsabilidade-civil-debate-senado-2026.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
  {
     title: "Proteção ou Vigilância Digital sobre Crianças e Jovens",
     date: "12/03/2026",
@@ -23,7 +34,7 @@ const categoryNewsData = [
     },
 ];
 
-const ITEMS_PER_PAGE = 10;
+const ITEMS_PER_PAGE = 15;
 let currentPage = 1;
 
 /**

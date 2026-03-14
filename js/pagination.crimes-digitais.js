@@ -25,7 +25,7 @@ const categoryNewsData = [
 ];
 
 // Configuração de paginação
-const itemsPerPage = 10;
+const itemsPerPage = 15;
 let currentPage = 1;
 
 // Função para renderizar notícias

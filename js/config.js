@@ -69,7 +69,7 @@ const siteConfig = {
     supporters: [
         { 
             name: "Advogado Romer Carvalho", 
-            logo: "img/dr_romer_carvalho.png", 
+            logo: "img/dr_romer_carvalho.webp", 
             link: "apoiadores/advogado-romer-carvalho.html?author=Romer Carvalho",
             description: "Especialista em Direito Civil e Processual Civil, com vasta experiência em consultoria e contencioso estratégico."
         },
@@ -203,7 +203,6 @@ const banners = [
 
 ];
 
-
 function bannerAtivo(banner){
 
   if(!banner.active) return false;
@@ -249,6 +248,255 @@ siteConfig.postNewsletterBanners = [
 
     
 ];
+
+// BANNER LATERAL // POPUP //
+ 
+(function () {
+
+    const CONFIG = {
+    enabled: false, 
+        image: "../img/alcolumbre-bloqueia-indicacao-messias-stf-2026.webp",
+        link: "https://seusite.com",
+        width: "300px"
+    };
+   // se estiver desativado, não executa
+    if (!CONFIG.enabled) return;
+    // CSS
+    const style = document.createElement("style");
+    style.innerHTML = `
+        #bannerLateralJS{
+            position:fixed;
+            right:0;
+            top:50%;
+            transform:translateY(-50%);
+            width:${CONFIG.width};
+            background:#fff;
+            box-shadow:-3px 0 5px rgba(0,0,0,0.2);
+            transition:right .4s ease;
+            z-index:99999;
+            font-family:Arial;
+
+            border:3px solid red;
+            animation:piscandoBorda 1s infinite;
+        }
+
+        #bannerLateralJS.recolhido{
+            right:-295px;
+        }
+
+        #bannerLateralJS img{
+            width:100%;
+            display:block;
+        }
+
+#bannerToggle{
+    position:absolute;
+    left:-40px;
+    top:15px;
+    width:60px;
+    height:60px;
+    border:none;
+    border-radius:50%;
+    background:#e60023;
+    color:#fff;
+    cursor:pointer;
+    font-size:18px;
+    font-weight:bold;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    box-shadow:0 4px 10px rgba(0,0,0,0.3);
+    transition:all .3s ease;
+}
+
+#bannerToggle:hover{
+    background:#ff0033;
+    transform:scale(1.1);
+}
+
+       @keyframes sirene{
+    0%{
+        border-color:#ff0000;
+        box-shadow:0 0 15px red;
+    }
+    50%{
+        border-color:#550000;
+        box-shadow:0 0 2px red;
+    }
+    100%{
+        border-color:#ff0000;
+        box-shadow:0 0 15px red;
+    }
+}
+
+#bannerLateralJS{
+    border:3px solid red;
+    animation:sirene 0.8s infinite;
+}
+        }
+    `;
+    document.head.appendChild(style);
+
+    // HTML
+    const banner = document.createElement("div");
+    banner.id = "bannerLateralJS";
+
+    banner.innerHTML = `
+        <button id="bannerToggle">X</button>
+        <a href="${CONFIG.link}" target="_blank">
+            <img src="${CONFIG.image}" alt="banner">
+        </a>
+    `;
+
+    document.body.appendChild(banner);
+
+    const btn = document.getElementById("bannerToggle");
+
+    btn.addEventListener("click", function () {
+
+        banner.classList.toggle("recolhido");
+
+        if (banner.classList.contains("recolhido")) {
+            btn.innerHTML = "<";
+        } else {
+            btn.innerHTML = "X";
+        }
+
+    });
+
+})();
+
+
+
+// Banner que sobe de baixo
+
+(function(){
+
+const CONFIG = {
+    enabled: false,
+
+    // páginas permitidas
+    allowedPages: ["politica/index.html", ],
+    imageDesktop: "../img/banner-uol.png",
+    imageMobile: "../img/banner-mobile-uol.png",
+    link: "https://seusite.com",
+    height: "100px"
+};
+
+// desativado
+if(!CONFIG.enabled) return;
+
+// verificar página atual
+const currentPage = window.location.pathname;
+
+if(
+    CONFIG.allowedPages.length > 0 &&
+    !CONFIG.allowedPages.some(page => currentPage.includes(page))
+){
+    return;
+}
+
+// escolher imagem
+const bannerImage = window.innerWidth <= 768 ? CONFIG.imageMobile : CONFIG.imageDesktop;
+
+// CSS
+const style = document.createElement("style");
+style.innerHTML = `
+#bannerBottom{
+    position:fixed;
+    left:0;
+    bottom:-120px;
+    width:100%;
+    height:${CONFIG.height};
+    background:#fff;
+    z-index:99999;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transition:bottom .4s ease;
+    box-shadow:0 -3px 15px rgba(0,0,0,0.25);
+
+    border-top:4px solid red;
+    animation:bordaPulse 1.2s infinite;
+}
+
+#bannerBottom.show{
+    bottom:0;
+}
+
+#bannerBottom img{
+    max-width:100%;
+    max-height:100%;
+    object-fit:cover;
+}
+
+#bannerClose{
+    position:absolute;
+    right:15px;
+    top:-35px;
+    width:40px;
+    height:40px;
+    border:none;
+    border-radius:50%;
+    background:#e60023;
+    color:#fff;
+    font-size:18px;
+    cursor:pointer;
+    z-index:999999;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+#bannerClose:hover{
+    background:#ff0033;
+}
+
+@keyframes bordaPulse{
+0%{box-shadow:0 -5px 10px rgba(255,0,0,0.4);}
+50%{box-shadow:0 -10px 25px rgba(255,0,0,0.8);}
+100%{box-shadow:0 -5px 10px rgba(255,0,0,0.4);}
+}
+`;
+document.head.appendChild(style);
+
+// criar banner
+const banner = document.createElement("div");
+banner.id = "bannerBottom";
+
+banner.innerHTML = `
+<button id="bannerClose">✕</button>
+<a href="${CONFIG.link}" target="_blank">
+<img src="${bannerImage}" alt="banner">
+</a>
+`;
+
+document.body.appendChild(banner);
+
+// mostrar banner
+setTimeout(()=>{
+    banner.classList.add("show");
+},500);
+
+// botão
+const btn = document.getElementById("bannerClose");
+
+btn.onclick = function(e){
+
+    e.preventDefault();
+    e.stopPropagation();
+
+    banner.classList.toggle("show");
+
+    if(banner.classList.contains("show")){
+        btn.innerHTML="✕";
+    }else{
+        btn.innerHTML="▲";
+    }
+
+};
+
+})();
 
 
 function isBannerActiveJS(banner) {

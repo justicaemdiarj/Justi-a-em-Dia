@@ -1,6 +1,17 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
 
+
+{
+    title: "Agências de Viagem Ganham Terreno no Judiciário",
+    date: "14/03/2026",
+    timestamp: "2026-03-14T07:00:00",
+    image: "../img/agencias-viagem-responsabilidade-solidaria-jurisprudencia-stj-turismo.webp",
+    excerpt: "Decisões recentes do STJ sinalizam interpretação mais favorável às agências de viagens nos casos de responsabilidade solidária, distinguindo o papel de intermediação do de fornecedor direto de serviços turísticos.",
+    link: "../jurisprudencia/agencias-viagem-responsabilidade-solidaria-jurisprudencia-stj-turismo.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 {
         title: "Depósitos Bancários e Presunção Fiscal no CARF",
         date: "13/03/2026",
@@ -143,7 +154,7 @@ const categoryNewsData = [
     },
 ];
 
-const ITEMS_PER_PAGE = 10;
+const ITEMS_PER_PAGE = 15;
 let currentPage = 1;
 
 /**
