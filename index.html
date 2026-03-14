@@ -687,6 +687,17 @@ text-decoration:none;
 .featured-description a:hover{
 text-decoration:underline;
 }
+
+.borda-piscando{
+    border:3px solid red;
+    animation:piscando 1s infinite;
+}
+
+@keyframes piscando{
+    0%{ border-color:red; }
+    50%{ border-color:transparent; }
+    100%{ border-color:red; }
+}
 </style>
     <script src="js/offline.js"></script>
 </head>
@@ -765,15 +776,24 @@ text-decoration:underline;
 
     <section id="dynamicContent"></section>
 
-
+ 
     <!-- ===== SIDEBAR ===== -->
     <aside class="sidebar">
+            <!-- Supporters Carousel Section -->
+            <section class="supporters-section">
+                <div class="container">
+                    <h2 class="section-title">Apoiadores</h2>
+                    <div id="supporters-carousel">
 
+                    </div>
+                </div>
+            </section>
 <!-- Banner Publicidade (Mobile/Desktop) -->
                     <div class="banner-label" style="text-align: center; margin-top: 20px; font-size: 0.8rem; color: #666; text-transform: uppercase;"></div>
                     <div id="banner-mobile-container" class="banner-container" style="text-align: center;">
                         <!-- Banner será inserido aqui via JS -->
                     </div>
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1291781375798658"
      crossorigin="anonymous"></script>
 <ins class="adsbygoogle"
@@ -829,15 +849,7 @@ text-decoration:underline;
             <!-- Banner Desktop (Aparece apenas em desktop via JS/CSS) -->
             <div id="banner-desktop-container" class="banner-sidebar"></div>
 
-            <!-- Supporters Carousel Section -->
-            <section class="supporters-section">
-                <div class="container">
-                    <h2 class="section-title">Nossos Apoiadores</h2>
-                    <div id="supporters-carousel">
 
-                    </div>
-                </div>
-            </section>
         </div>
     </main>
 
@@ -952,8 +964,123 @@ text-decoration:underline;
     <script src="js/cookies.js"></script>
     <script src="js/b3-widget.js"></script>
 
+<!--// BANNER LATERAL // POPUP //-->
+<script>
+(function () {
 
+    const CONFIG = {
+    enabled: false, 
+        image: "img/alcolumbre-bloqueia-indicacao-messias-stf-2026.webp",
+        link: "https://seusite.com",
+        width: "300px"
+    };
+   // se estiver desativado, não executa
+    if (!CONFIG.enabled) return;
+    // CSS
+    const style = document.createElement("style");
+    style.innerHTML = `
+        #bannerLateralJS{
+            position:fixed;
+            right:0;
+            top:50%;
+            transform:translateY(-50%);
+            width:${CONFIG.width};
+            background:#fff;
+            box-shadow:-3px 0 5px rgba(0,0,0,0.2);
+            transition:right .4s ease;
+            z-index:99999;
+            font-family:Arial;
 
+            border:3px solid red;
+            animation:piscandoBorda 1s infinite;
+        }
+
+        #bannerLateralJS.recolhido{
+            right:-295px;
+        }
+
+        #bannerLateralJS img{
+            width:100%;
+            display:block;
+        }
+
+#bannerToggle{
+    position:absolute;
+    left:-40px;
+    top:15px;
+    width:60px;
+    height:60px;
+    border:none;
+    border-radius:50%;
+    background:#e60023;
+    color:#fff;
+    cursor:pointer;
+    font-size:18px;
+    font-weight:bold;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    box-shadow:0 4px 10px rgba(0,0,0,0.3);
+    transition:all .3s ease;
+}
+
+#bannerToggle:hover{
+    background:#ff0033;
+    transform:scale(1.1);
+}
+
+       @keyframes sirene{
+    0%{
+        border-color:#ff0000;
+        box-shadow:0 0 15px red;
+    }
+    50%{
+        border-color:#550000;
+        box-shadow:0 0 2px red;
+    }
+    100%{
+        border-color:#ff0000;
+        box-shadow:0 0 15px red;
+    }
+}
+
+#bannerLateralJS{
+    border:3px solid red;
+    animation:sirene 0.8s infinite;
+}
+        }
+    `;
+    document.head.appendChild(style);
+
+    // HTML
+    const banner = document.createElement("div");
+    banner.id = "bannerLateralJS";
+
+    banner.innerHTML = `
+        <button id="bannerToggle">X</button>
+        <a href="${CONFIG.link}" target="_blank">
+            <img src="${CONFIG.image}" alt="banner">
+        </a>
+    `;
+
+    document.body.appendChild(banner);
+
+    const btn = document.getElementById("bannerToggle");
+
+    btn.addEventListener("click", function () {
+
+        banner.classList.toggle("recolhido");
+
+        if (banner.classList.contains("recolhido")) {
+            btn.innerHTML = "<";
+        } else {
+            btn.innerHTML = "X";
+        }
+
+    });
+
+})();
+</script> 
 
 
 <script>

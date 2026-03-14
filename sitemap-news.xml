@@ -1595,4 +1595,103 @@
       <news:title>Stf moraes condenacao trabalhista limite peticao inicial adi 6002</news:title>
     </news:news>
   </url>
+    <url>
+    <loc>https://www.justicaemdia.com.br/direito-civil/codigo-civil-atualizacao-responsabilidade-civil-debate-senado-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Justiça em Dia</news:name>
+        <news:language>pt</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-14T07:00:00-07:00</news:publication_date>
+      <news:title>Código Civil Ganha Nova Chance de Evolução</news:title>
+    </news:news>
+  </url>
+    <url>
+    <loc>https://www.justicaemdia.com.br/politica/quaest-lula-flavio-empatados-41-segundo-turno-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Justiça em Dia</news:name>
+        <news:language>pt</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-14T07:00:00-07:00</news:publication_date>
+      <news:title>Lula e Flávio Empatam pela Primeira Vez</news:title>
+    </news:news>
+  </url>
+    <url>
+    <loc>https://www.justicaemdia.com.br/jurisprudencia/agencias-viagem-responsabilidade-solidaria-jurisprudencia-stj-turismo.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Justiça em Dia</news:name>
+        <news:language>pt</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-14T07:00:00-07:00</news:publication_date>
+      <news:title>Agências de Viagem Ganham Terreno no Judiciário</news:title>
+    </news:news>
+  </url>
+    <url>
+    <loc>https://www.justicaemdia.com.br/legislacao/gomide-leis-ambientais-cerrado-goias-sementes-cerrado.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Justiça em Dia</news:name>
+        <news:language>pt</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-14T07:00:00-07:00</news:publication_date>
+      <news:title>Cerrado Ganha Força Legislativa em Goiás</news:title>
+    </news:news>
+  </url>
+    <url>
+    <loc>https://www.justicaemdia.com.br/direito-de-familia/violencia-domestica-numeros-sc-brasil-feminicidio-medidas-protetivas.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Justiça em Dia</news:name>
+        <news:language>pt</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-14T07:00:00-07:00</news:publication_date>
+      <news:title>Violência Doméstica em Números que Assustam</news:title>
+    </news:news>
+  </url>
+    <url>
+    <loc>https://www.justicaemdia.com.br/direito-penal/habeas-corpus-vedacao-debate-fatico-prisao-preventiva-inconstitucional.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Justiça em Dia</news:name>
+        <news:language>pt</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-14T07:00:00-07:00</news:publication_date>
+      <news:title>Habeas Corpus Amordaçado pela Jurisprudência</news:title>
+    </news:news>
+  </url>
+    <url>
+    <loc>https://www.justicaemdia.com.br/direito-trabalhista/plp-152-2025-vinculo-empregaticio-motoristas-aplicativos-regulamentacao.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Justiça em Dia</news:name>
+        <news:language>pt</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-14T07:00:00-07:00</news:publication_date>
+      <news:title>Aplicativos Vencem a Batalha do Vínculo Trabalhista</news:title>
+    </news:news>
+  </url>
+  <url>
+  <loc>https://www.justicaemdia.com.br/compliance/ex-agente-preso-contrabando-cargo-compliance-prefeitura.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-03-14T07:00:00-07:00</news:publication_date>
+    <news:title>Quando o Passado Condena o Presente</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-militar/stm-danos-morais-indenizacao-minima-jurisprudencia-vitimas.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-03-14T07:00:00-07:00</news:publication_date>
+    <news:title>Danos Morais na Justiça Militar Ganham Piso</news:title>
+  </news:news>
+</url>
 </urlset>
