@@ -14,6 +14,7 @@ body {
         background-color: yellow;
 }
 
+
 /* Estilo para o botão de leitura integrado ao compartilhar */
 .btn-read-audio {
     background-color: #c41e3a;
@@ -29,6 +30,46 @@ body {
     gap: 8px;
     transition: all 0.3s ease;
     font-size: 0.85rem;
+}
+
+/* Estilização da Faixa de Apoiadores no Banner */
+.banner-supporters-wrapper {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.banner-supporters-label {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #999;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+/* Ajuste do Carrossel para o Banner */
+#supporters-carousel.supporters-carousel-mini {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+#supporters-carousel.supporters-carousel-mini img {
+    height: 35px; /* Altura fixa para alinhar todos os logos */
+    width: auto;
+    filter: grayscale(100%);
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}
+
+#supporters-carousel.supporters-carousel-mini img:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+    transform: scale(1.1);
 }
 
 .btn-read-audio:hover {
@@ -117,7 +158,7 @@ body {
 @media (max-width: 992px) {
 .font-control {
     padding: 0px;
-    margin-left: 120px;
+    margin-left: 15px;
 }
 }
 
@@ -1177,11 +1218,12 @@ img {
 }
 
 .section-title {
-    font-size: 28px;
+    font-size: 18px;
     margin-bottom: 25px;
     padding-bottom: 15px;
     border-bottom: 3px solid #c41e3a;
     color: #1a1a1a;
+    text-align: center;
 }
 
 .video-grid {
@@ -1606,7 +1648,7 @@ img {
 /* Seção de Apoiadores */
 .supporters-section {
     margin: 50px 0;
-    padding: 40px 0;
+    padding: 12px 0;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.05);
@@ -2229,7 +2271,6 @@ img {
     gap: 12px;
     margin: 0 0 25px 0;
     padding-bottom: 15px;
-    border-bottom: 1px solid #eee;
 }
 
 .share-label {
