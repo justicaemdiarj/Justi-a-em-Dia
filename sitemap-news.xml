@@ -1694,4 +1694,59 @@
     <news:title>Danos Morais na Justiça Militar Ganham Piso</news:title>
   </news:news>
 </url>
+  <url>
+    <loc>https://www.justicaemdia.com.br/direito-militar/pm-licenciado-1996-retorno-ativo-publicacao-diario-oficial-nulidade-ato-administrativo.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Justiça em Dia</news:name>
+        <news:language>pt</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-15T08:00:00-03:00</news:publication_date>
+      <news:title>Policial Licenciado em 1996 Volta ao Serviço Ativo</news:title>
+    </news:news>
+  </url>
+    <url>
+    <loc>https://www.justicaemdia.com.br/direito-trabalhista/assedio-moral-sexual-trabalho-provas-denunciar-mpt-cartilha.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Justiça em Dia</news:name>
+        <news:language>pt</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-15T08:00:00-03:00</news:publication_date>
+      <news:title>Como Provar Assédio no Ambiente de Trabalho</news:title>
+    </news:news>
+  </url>
+    <url>
+    <loc>https://www.justicaemdia.com.br/direito-civil/pl-codigo-civil-tramitacao-atraso-senado-calendario-eleitoral-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Justiça em Dia</news:name>
+        <news:language>pt</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-15T08:00:00-03:00</news:publication_date>
+      <news:title>Novo Código Civil Enfrenta Freio no Senado</news:title>
+    </news:news>
+  </url>
+    <url>
+    <loc>https://www.justicaemdia.com.br/direito-de-familia/tjac-judiciario-acolhimento-violencia-domestica-lei-maria-penha-20-anos.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Justiça em Dia</news:name>
+        <news:language>pt</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-15T08:00:00-03:00</news:publication_date>
+      <news:title>Judiciário do Acre Vai Além da Punição</news:title>
+    </news:news>
+  </url>
+    <url>
+    <loc>https://www.justicaemdia.com.br/compliance/secretaria-cultura-cuiaba-compliance-integridade-administracao-publica-municipal.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Justiça em Dia</news:name>
+        <news:language>pt</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-15T08:00:00-03:00</news:publication_date>
+      <news:title>Cultura de Cuiabá Adota Compliance na Gestão</news:title>
+    </news:news>
+  </url>
 </urlset>
