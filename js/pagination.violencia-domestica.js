@@ -1,5 +1,16 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
+    {
+    title: "Judiciário do Acre Vai Além da Punição",
+    date: "15/03/2026",
+    timestamp: "2026-03-15T07:00:00",
+    image: "../img/tjac-judiciario-acolhimento-violencia-domestica-lei-maria-penha-20-anos.webp",
+    excerpt: "O TJAC mobilizou magistrados e servidores de todas as comarcas do Acre na 32ª Semana Justiça pela Paz em Casa com 140 audiências, suporte psicossocial pelo Ceavi, cartilha educativa e capacitação de estudantes em técnicas restaurativas, no ano em que a Lei Maria da Penha completa 20 anos.",
+    link: "../direito-de-familia/tjac-judiciario-acolhimento-violencia-domestica-lei-maria-penha-20-anos.html",
+    category: "direito-de-familia",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 {
     title: "Violência Doméstica em Números que Assustam",
     date: "14/03/2026",

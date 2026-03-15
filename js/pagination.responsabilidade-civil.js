@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
     {
+    title: "Novo Código Civil Enfrenta Freio no Senado",
+    date: "15/03/2026",
+    timestamp: "2026-03-15T07:00:00",
+    image: "../img/pl-codigo-civil-tramitacao-atraso-senado-calendario-eleitoral-2026.webp",
+    excerpt: "O PL 4/2025, que modifica 1.197 artigos do Código Civil e introduz o direito civil digital, enfrenta risco real de atraso no Senado. A complexidade do texto e o calendário eleitoral de 2026 levam senadores a admitir que a votação prevista para junho pode ser empurrada para 2027.",
+    link: "../direito-civil/pl-codigo-civil-tramitacao-atraso-senado-calendario-eleitoral-2026.html",
+    category: "direito-civil",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Responsabilidade Objetiva e Nexo Causal no STJ",
     date: "05/03/2026",
     timestamp: "2026-03-05T07:00:00",

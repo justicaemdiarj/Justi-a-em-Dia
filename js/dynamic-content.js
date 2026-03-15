@@ -12,7 +12,26 @@ const tickerConfig = {
 };
 
 const globalNewsData = [
-
+{
+    title: "Cultura de Cuiabá Adota Compliance na Gestão",
+    link: "compliance/secretaria-cultura-cuiaba-compliance-integridade-administracao-publica-municipal.html",
+},
+{
+    title: "Judiciário do Acre Vai Além da Punição",
+    link: "direito-de-familia/tjac-judiciario-acolhimento-violencia-domestica-lei-maria-penha-20-anos.html",
+},
+{
+    title: "Novo Código Civil Enfrenta Freio no Senado",
+    link: "direito-civil/pl-codigo-civil-tramitacao-atraso-senado-calendario-eleitoral-2026.html",
+},
+{
+    title: "Como Provar Assédio no Ambiente de Trabalho",
+    link: "direito-trabalhista/assedio-moral-sexual-trabalho-provas-denunciar-mpt-cartilha.html",
+},
+{
+    title: "Policial Licenciado em 1996 Volta ao Serviço Ativo",
+    link: "direito-militar/pm-licenciado-1996-retorno-ativo-publicacao-diario-oficial-nulidade-ato-administrativo.html",
+},
 {
     title: "Danos Morais na Justiça Militar Ganham Piso",
     link: "direito-militar/stm-danos-morais-indenizacao-minima-jurisprudencia-vitimas.html",

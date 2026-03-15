@@ -1,9 +1,40 @@
 // Base de dados global de artigos para busca
 const allArticles = [
-
-
-
-
+{
+    title: 'Cultura de Cuiabá Adota Compliance na Gestão',
+    description: 'A Prefeitura de Cuiabá avança na implantação de compliance em suas secretarias municipais. A Secretaria de Cultura reuniu toda a equipe para orientações sobre prevenção de riscos e conduta ética no serviço público, com base na Lei Anticorrupção 12.846/2013 e na Nova Lei de Licitações.',
+    category: 'Compliance',
+    url: 'compliance/secretaria-cultura-cuiaba-compliance-integridade-administracao-publica-municipal.html',
+    tags: ['Romer carvalho','compliance administração pública Cuiabá', 'Secretaria Cultura Cuiabá integridade', 'programa compliance municipal Mato Grosso', 'Lei Anticorrupção 12846 gestão pública', 'Cultura de Cuiabá Adota Compliance na Gestão']
+},
+{
+    title: 'Judiciário do Acre Vai Além da Punição',
+    description: 'O TJAC realizou a 32ª Semana Justiça pela Paz em Casa com 140 audiências, suporte psicossocial pelo Ceavi, lançamento de cartilha educativa e capacitação de estudantes em técnicas restaurativas, no ano em que a Lei Maria da Penha completa 20 anos.',
+    category: 'Direito de Família',
+    url: 'direito-de-familia/tjac-judiciario-acolhimento-violencia-domestica-lei-maria-penha-20-anos.html',
+    tags: ['TJAC violência doméstica acolhimento 2026', 'Semana Justiça pela Paz em Casa Acre', 'Lei Maria da Penha 20 anos', 'Ceavi suporte psicossocial vítimas', 'Judiciário do Acre Vai Além da Punição']
+},
+{
+    title: 'Novo Código Civil Enfrenta Freio no Senado',
+    description: 'O PL 4/2025 enfrenta risco de atraso na tramitação do Senado. A complexidade do texto que modifica 1.197 artigos do Código Civil e a proximidade do calendário eleitoral de 2026 podem empurrar a votação para 2027, gerando insegurança jurídica nos mercados.',
+    category: 'Direito Civil',
+    url: 'direito-civil/pl-codigo-civil-tramitacao-atraso-senado-calendario-eleitoral-2026.html',
+    tags: ['PL 4 2025 Código Civil tramitação Senado', 'calendário eleitoral 2026 atraso votação', 'reforma Código Civil responsabilidade civil prescrição', 'direito civil digital novo Código Civil', 'Novo Código Civil Enfrenta Freio no Senado']
+},
+{
+    title: 'Como Provar Assédio no Ambiente de Trabalho',
+    description: 'O MPT publicou cartilha orientando vítimas de assédio moral e sexual a reunir provas como gravações, mensagens e diários de ocorrências. A denúncia pode ser anônima pelo MPT, Disque 100 ou Ligue 180, com base na Convenção 190 da OIT e na CLT.',
+    category: 'Direito Trabalhista',
+    url: 'direito-trabalhista/assedio-moral-sexual-trabalho-provas-denunciar-mpt-cartilha.html',
+    tags: ['assédio moral trabalho como provar', 'cartilha MPT assédio sexual', 'Convenção 190 OIT violência assédio', 'denúncia anônima assédio trabalho', 'Como Provar Assédio no Ambiente de Trabalho']
+},  
+{
+    title: 'Policial Licenciado em 1996 Volta ao Serviço Ativo',
+    description: 'A Justiça da Paraíba reconheceu que um licenciamento da PM de 1996 jamais produziu efeitos válidos por falta de publicação no Diário Oficial, determinando o retorno do soldado ao serviço ativo quase 29 anos depois e expondo o passivo oculto das administrações militares estaduais.',
+    category: 'Direito Militar',
+    url: 'direito-militar/pm-licenciado-1996-retorno-ativo-publicacao-diario-oficial-nulidade-ato-administrativo.html',
+    tags: ['PM licenciado volta ativa Paraíba', 'nulidade ato administrativo sem publicação', 'princípio publicidade direito militar', 'reintegração policial judicial Diário Oficial', 'Policial Licenciado em 1996 Volta ao Serviço Ativo']
+},
 {
     title: 'Danos Morais na Justiça Militar Ganham Piso',
     description: 'O Superior Tribunal Militar firmou jurisprudência inédita ao aplicar o artigo 387 do CPP, estabelecendo valor mínimo de indenização por danos morais em sentenças condenatórias na Justiça Militar da União.',

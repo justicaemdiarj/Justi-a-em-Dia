@@ -1,44 +1,44 @@
 const posts = [
 {
   
-  title: "Quando o Passado Condena o Presente",
-  description: "Ex-agente condenado por facilitação de contrabando é nomeado para cargo de compliance em prefeitura brasileira",
-  description2: "A contradição entre o histórico criminal do indicado e a função designada expõe o uso político e distorcido dos princípios de integridade e governança pública",
-  image: "img/ex-agente-preso-contrabando-cargo-compliance-prefeitura.webp",
-  link: "compliance/ex-agente-preso-contrabando-cargo-compliance-prefeitura.html",
-    date: "2026-03-14T07:00:00",
+  title: "Novo Código Civil Enfrenta Freio no Senado",
+  description: "O PL 4/2025 que propõe a atualização mais abrangente do Código Civil desde 2002, modificando 1.197 artigos e introduzindo o direito civil digital, enfrenta risco de atraso na tramitação do Senado por complexidade técnica e calendário eleitoral desfavorável",
+  description2: "Senadores admitem que a votação em plenário prevista para junho pode não ocorrer no prazo, abrindo o risco de que a decisão sobre contratos, responsabilidade civil, família e sucessões seja empurrada para 2027 com composição parlamentar renovada",
+  image: "img/pl-codigo-civil-tramitacao-atraso-senado-calendario-eleitoral-2026.webp",
+  link: "direito-civil/pl-codigo-civil-tramitacao-atraso-senado-calendario-eleitoral-2026.html",
+  date: "2026-03-15T07:00:00",
   section: "featured"
 },
   {
-    title: "Código Civil Ganha Nova Chance de Evolução",
-    description: "Senado reúne juristas de referência para debater responsabilidade civil e modernizar o Código Civil",
-    description2: "PL 4/2025 propõe revisar mais de 900 artigos e incluir capítulo inédito sobre direito digital",
-    image: "img/codigo-civil-atualizacao-responsabilidade-civil-debate-senado-2026.webp",
-    link: "direito-civil/codigo-civil-atualizacao-responsabilidade-civil-debate-senado-2026.html",
-    date: "2026-03-14T07:00:00",
+  title: "Como Provar Assédio no Ambiente de Trabalho",
+  description: "O MPT publicou cartilha orientando vítimas de assédio moral e sexual a reunir provas válidas juridicamente, como gravações, mensagens, e-mails e diários de ocorrências, e a formalizar denúncias de forma anônima pelos canais disponíveis",
+  description2: "A Convenção 190 da OIT amplia o conceito de assédio para incluir episódios únicos e práticas fora do horário de trabalho, reforçando a proteção a grupos vulnerabilizados como mulheres negras e trabalhadores em vínculos precários",
+  image: "img/assedio-moral-sexual-trabalho-provas-denunciar-mpt-cartilha.webp",
+  link: "direito-trabalhista/assedio-moral-sexual-trabalho-provas-denunciar-mpt-cartilha.html",
+  date: "2026-03-15T07:00:00",
   section: "featured-secundario"
 },
 {
-    title: "Lula e Flávio Empatam pela Primeira Vez",
-    description: "Pesquisa Quaest mostra empate inédito entre Lula e Flávio Bolsonaro no segundo turno de 2026",
-    description2: "Aprovação do governo cai ao menor nível desde julho de 2025 com desgaste acumulado",
-    image: "img/quaest-lula-flavio-empatados-41-segundo-turno-2026.webp",
-    link: "politica/quaest-lula-flavio-empatados-41-segundo-turno-2026.html",
-    date: "2026-03-14T07:00:00",
+  title: "Policial Licenciado em 1996 Volta ao Serviço Ativo",
+  description: "A Justiça da Paraíba reconheceu que o licenciamento de um soldado da PM em 1996 jamais produziu efeitos jurídicos válidos por nunca ter sido publicado no Diário Oficial, determinando seu retorno ao serviço ativo quase 29 anos depois",
+  description2: "O caso expõe o passivo oculto das administrações militares estaduais e reafirma que a publicidade é requisito de eficácia dos atos administrativos, não uma formalidade dispensável",
+  image: "img/pm-licenciado-1996-retorno-ativo-publicacao-diario-oficial-nulidade-ato-administrativo.webp",
+  link: "direito-militar/pm-licenciado-1996-retorno-ativo-publicacao-diario-oficial-nulidade-ato-administrativo.html",
+  date: "2026-03-15T07:00:00",
  section: "featured-terciario"
 },
   {
- title: "Cerrado Ganha Força Legislativa em Goiás",
-      image: "img/gomide-leis-ambientais-cerrado-goias-sementes-cerrado.webp",
-    link: "legislacao/gomide-leis-ambientais-cerrado-goias-sementes-cerrado.html",
-  date: "2026-03-14T07:00:00",
+  title: "Judiciário do Acre Vai Além da Punição",
+  image: "img/tjac-judiciario-acolhimento-violencia-domestica-lei-maria-penha-20-anos.webp",
+  link: "direito-de-familia/tjac-judiciario-acolhimento-violencia-domestica-lei-maria-penha-20-anos.html",
+  date: "2026-03-15T07:00:00",
     section: "destaque"
   },
    {
-  title: "Violência Doméstica em Números que Assustam",
-    image: "img/violencia-domestica-numeros-sc-brasil-feminicidio-medidas-protetivas.webp",
-    link: "direito-de-familia/violencia-domestica-numeros-sc-brasil-feminicidio-medidas-protetivas.html",
-  date: "2026-03-14T07:00:00",
+   title: "Cultura de Cuiabá Adota Compliance na Gestão",
+  image: "img/secretaria-cultura-cuiaba-compliance-integridade-administracao-publica-municipal.webp",
+  link: "compliance/secretaria-cultura-cuiaba-compliance-integridade-administracao-publica-municipal.html",
+  date: "2026-03-15T07:00:00",
     section: "destaque"
   },
   {

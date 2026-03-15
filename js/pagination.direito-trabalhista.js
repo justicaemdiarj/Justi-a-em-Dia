@@ -2,7 +2,17 @@
 const categoryNewsData = [
 
 
-
+{
+    title: "Como Provar Assédio no Ambiente de Trabalho",
+    date: "15/03/2026",
+    timestamp: "2026-03-15T07:00:00",
+    image: "../img/assedio-moral-sexual-trabalho-provas-denunciar-mpt-cartilha.webp",
+    excerpt: "O Ministério Público do Trabalho publicou cartilha orientando vítimas de assédio moral e sexual sobre como reunir provas para formalizar denúncias. Gravações, mensagens e diários de ocorrências têm valor probatório reconhecido. A denúncia pode ser anônima e feita ao MPT, ao Disque 100 ou ao Ligue 180.",
+    link: "../direito-trabalhista/assedio-moral-sexual-trabalho-provas-denunciar-mpt-cartilha.html",
+    category: "direito-trabalhista",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 {
     title: "Aplicativos Vencem a Batalha do Vínculo Trabalhista",
     date: "14/03/2026",

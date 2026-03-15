@@ -1,7 +1,17 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
 
-    
+{
+    title: "Cultura de Cuiabá Adota Compliance na Gestão",
+    date: "15/03/2026",
+    timestamp: "2026-03-15T07:00:00",
+    image: "../img/secretaria-cultura-cuiaba-compliance-integridade-administracao-publica-municipal.webp",
+    excerpt: "A Prefeitura de Cuiabá avança na implantação de compliance em suas secretarias. A Secretaria de Cultura reuniu toda a equipe para orientações sobre prevenção de riscos legais, financeiros e de reputação, conduta ética e atendimento ao público como parte de programa de integridade que já percorreu a Secretaria de Desenvolvimento Econômico e a Controladoria-Geral do Município.",
+    link: "../compliance/secretaria-cultura-cuiaba-compliance-integridade-administracao-publica-municipal.html",
+    category: "compliance",
+    author: "Romer Carvalho",
+    authorLink: "../apoiadores/advogado-romer-carvalho.html"
+},    
 {
     title: "Quando o Passado Condena o Presente",
     date: "14/03/2026",

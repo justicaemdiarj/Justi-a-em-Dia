@@ -1,5 +1,16 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
+{
+    title: "Policial Licenciado em 1996 Volta ao Serviço Ativo",
+    date: "15/03/2026",
+    timestamp: "2026-03-15T07:00:00",
+    image: "../img/pm-licenciado-1996-retorno-ativo-publicacao-diario-oficial-nulidade-ato-administrativo.webp",
+    excerpt: "A Justiça da Paraíba reconheceu que um licenciamento da Polícia Militar realizado em 1996 jamais produziu efeitos jurídicos válidos por nunca ter sido publicado no Diário Oficial do Estado, determinando o retorno do soldado ao serviço ativo quase 29 anos depois.",
+    link: "../direito-militar/pm-licenciado-1996-retorno-ativo-publicacao-diario-oficial-nulidade-ato-administrativo.html",
+    category: "direito-militar",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
    {
     title: "Danos Morais na Justiça Militar Ganham Piso",
     date: "14/03/2026",
