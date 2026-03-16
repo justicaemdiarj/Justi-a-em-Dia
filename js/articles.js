@@ -271,9 +271,9 @@ document.addEventListener("DOMContentLoaded", function(){
   const posts = [
   
 {
- title: "PGFN Cria Laboratório de Teses da Reforma Tributária",
-  link: "legislacao/pgfn-incubadora-teses-reforma-tributaria-ibs-cbs-contencioso.html",
-  date: "2026-03-11T07:00:00"
+ title: "Direita Domina Arena Digital nas Eleições 2026",
+  link: "politica/direita-lidera-arena-digital-eleicoes-2026-pre-candidato-redes-sociais.html",
+  date: "2026-03-16T07:00:00"
 },
 {
     title: "Lula e Flávio Empatam pela Primeira Vez",
@@ -281,9 +281,9 @@ document.addEventListener("DOMContentLoaded", function(){
     date: "2026-03-14T07:00:00"
 },
 {
- title: "Itaú Fecha Contas de Securitizadora Ligada ao Master",
-  link: "compliance/itau-encerra-contas-cri-base-securitizadora-compliance-zero-master.html",
-  date: "2026-03-11T07:00:00"
+ title: "Cultura de Cuiabá Adota Compliance na Gestão",
+  link: "compliance/secretaria-cultura-cuiaba-compliance-integridade-administracao-publica-municipal.html",
+  date: "2026-03-15T07:00:00"
 },
 {
  title: "Como Provar Assédio no Ambiente de Trabalho",
@@ -349,10 +349,10 @@ date: "2026-03-12T07:00:00"
 },
 
 {
-title: "Leilão de Imóvel Exige Notificação Prévia ao Devedor",
-  link: "direito-civil/leilao-extrajudicial-notificacao-devedor-imovel.html",
+title: "Cultura de Cuiabá Adota Compliance na Gestão",
+  link: "compliance/secretaria-cultura-cuiaba-compliance-integridade-administracao-publica-municipal.html",
 source: "",
-date: "2026-03-11T07:00:00"
+date: "2026-03-15T07:00:00"
 },
 {
 title: "Novo Código Civil Enfrenta Freio no Senado",
@@ -385,10 +385,10 @@ source: "",
 date: "2026-03-12T07:00:00"
 },
 {
-    title: "Compliance Virou Escudo Jurídico das Empresas",
-  link: "compliance/compliance-escudo-juridico-governanca-empresas-lei-anticorrupcao.html",
+    title: "Código Civil Ganha Nova Chance de Evolução",
+  link: "direito-civil/codigo-civil-atualizacao-responsabilidade-civil-debate-senado-2026.html",
 source: "",
-date: "2026-03-10T07:00:00",
+date: "2026-03-14T07:00:00",
 },
 {
    title: "STJ Garante Dividendos ao Ex-Cônjuge Até Partilha Final",
