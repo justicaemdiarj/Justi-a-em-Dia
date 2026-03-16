@@ -1,5 +1,16 @@
 // Dados de notícias para Política
 const categoryNewsData = [
+    {
+    title: "Direita Domina Arena Digital nas Eleições 2026",
+    date: "16/03/2026",
+    timestamp: "2026-03-16T12:00:00",
+    image: "../img/direita-lidera-arena-digital-eleicoes-2026-pre-candidato-redes-sociais.webp",
+    excerpt: "O pré-candidato do PL lidera o Índice Datrix de Presidenciáveis com 37,14 pontos e 49,7 milhões de interações, superando o presidente em 76% no engajamento digital. O campo governista ocupa a quarta posição e enfrenta queda no mar aberto, enquanto a arena digital se consolida como campo decisivo para outubro de 2026.",
+    link: "../politica/direita-lidera-arena-digital-eleicoes-2026-pre-candidato-redes-sociais.html",
+    category: "politica",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 
 {
     title: "Lula e Flávio Empatam pela Primeira Vez",

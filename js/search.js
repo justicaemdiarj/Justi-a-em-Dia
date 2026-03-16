@@ -1,5 +1,54 @@
 // Base de dados global de artigos para busca
 const allArticles = [
+    {
+    title: 'Tocantins Avança no Debate Nacional de Compliance',
+    description: 'Palmas sedia em abril de 2026 o primeiro Congresso Tocantinense de Compliance, evento que insere a capital na agenda nacional de integridade, governança e combate à corrupção, reunindo gestores públicos, empresários e especialistas jurídicos.',
+    category: 'compliance',
+    url: 'compliance/tocantins-congresso-compliance-governanca-integridade-palmas.html',
+    tags: ['compliance', 'governança pública', 'integridade', 'Tocantins', 'LGPD', 'Tocantins Avança no Debate Nacional de Compliance']
+},
+{
+    title: 'PL 4920 Tensiona Previdência das Forças Armadas',
+    description: 'O Projeto de Lei 4920/2024, de iniciativa do Poder Executivo, propõe mudanças estruturais no regime previdenciário dos militares, incluindo idade mínima para a reserva e extinção da morte ficta, gerando rejeição massiva na consulta pública da Câmara dos Deputados.',
+    category: 'Direito Militar',
+    url: 'direito-militar/pl-4920-previdencia-forcas-armadas-rejeicao-militares.html',
+    tags: ['PL 4920/2024', 'previdência militar', 'forças armadas', 'morte ficta', 'reserva remunerada', 'PL 4920 Tensiona Previdência das Forças Armadas']
+},
+{
+    title: 'Combate ao Assédio nas Relações Trabalhistas Públicas',
+    description: 'A publicação de uma revista especializada no enfrentamento do assédio moral e sexual no ambiente do Poder Judiciário reacende o debate sobre proteção à dignidade dos servidores e a urgência de reformas legislativas.',
+    category: 'Direito trabalhista',
+    url: 'direito-trabalhista/combate-assedio-moral-sexual-judiciario-revista-campanha.html',
+    tags: ['assédio moral', 'assédio sexual', 'direito trabalhista', 'servidores públicos', 'Poder Judiciário', 'Combate ao Assédio nas Relações Trabalhistas Públicas']
+},
+{
+    title: 'Estados Podem Ganhar Poder de Criminalizar',
+    description: 'O PLP 41/2025, pautado na CSP do Senado, autoriza estados e DF a legislarem sobre direito penal, processual penal e execução penal usando o parágrafo único do art. 22 da CF. O texto enfrenta objeções da ADI 7.712 do STF que declarou inconstitucional lei estadual por invadir competência penal da União.',
+    category: 'Direito Criminal',
+    url: 'direito-penal/plp-41-2025-estados-legislar-direito-penal-csp-senado-competencia-uniao.html',
+    tags: ['PLP 41 2025 estados legislar direito penal', 'art 22 paragrafo unico CF delegacao penal estados', 'CSP Senado competencia penal descentralizacao', 'STF ADI 7712 inconstitucionalidade lei estadual penal', 'Estados Podem Ganhar Poder de Criminalizar']
+},
+{
+    title: 'FGTS Entra na Partilha do Divórcio',
+    description: 'O saldo do FGTS acumulado durante o casamento em regime de comunhão parcial integra o patrimônio comum e deve ser dividido no divórcio. O STJ consolidou o direito à meação do cônjuge não titular, mas a desinformação faz esse ativo ser ignorado em acordos extrajudiciais.',
+    category: 'Direito de Família',
+    url: 'direito-de-familia/fgts-partilha-bens-divorcio-comunhao-parcial-STJ.html',
+    tags: ['FGTS partilha bens divorcio comunhao parcial', 'meacao FGTS casamento STJ jurisprudencia', 'divorcio extrajudicial FGTS omitido acordo', 'art 1658 CC comunhao parcial bens FGTS', 'FGTS Entra na Partilha do Divórcio']
+},
+{
+    title: 'Responsabilidade Civil Divide Debate no Novo Código',
+    description: 'A CTCivil realizou audiência pública em março de 2026 sobre as alterações do PL 4/2025 na responsabilidade civil: sanção pedagógica até quatro vezes o dano moral, danos futuros e indiretos, restrição da culpa do advogado ao dolo e nova teoria do risco especial diferenciado dividem especialistas.',
+    category: 'Direito Civil',
+    url: 'direito-civil/reforma-codigo-civil-responsabilidade-civil-debate-juizes-pl-4-2025-sancao-pedagogica.html',
+    tags: ['PL 4 2025 responsabilidade civil debate Senado', 'sanção pedagógica quádruplo dano moral reforma', 'art 944-A danos futuros indiretos Código Civil', 'responsabilidade advogado dolo fraude PL 4 2025', 'Responsabilidade Civil Divide Debate no Novo Código']
+},
+    {
+    title: 'Direita Domina Arena Digital nas Eleições 2026',
+    description: 'O pré-candidato do PL lidera o ranking digital de presidenciáveis com 49,7 milhões de interações e 37,14 pontos no Índice Datrix, superando o presidente em 76% no engajamento. O campo governista ocupa a quarta posição com tendência de queda no mar aberto.',
+    category: 'Política',
+    url: 'politica/direita-lidera-arena-digital-eleicoes-2026-pre-candidato-redes-sociais.html',
+    tags: ['eleições 2026 redes sociais presidenciáveis', 'Índice Datrix pré-candidato PL liderança digital', 'herança digital capital político bolsonarismo 2026', 'Lula queda popularidade mar aberto redes', 'Direita Domina Arena Digital nas Eleições 2026']
+},
 {
     title: 'Cultura de Cuiabá Adota Compliance na Gestão',
     description: 'A Prefeitura de Cuiabá avança na implantação de compliance em suas secretarias municipais. A Secretaria de Cultura reuniu toda a equipe para orientações sobre prevenção de riscos e conduta ética no serviço público, com base na Lei Anticorrupção 12.846/2013 e na Nova Lei de Licitações.',

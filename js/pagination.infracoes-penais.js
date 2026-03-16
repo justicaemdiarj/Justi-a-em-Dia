@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
-    {
+{
+    title: "Estados Podem Ganhar Poder de Criminalizar",
+    date: "16/03/2026",
+    timestamp: "2026-03-16T012:00:00",
+    image: "../img/plp-41-2025-estados-legislar-direito-penal-csp-senado-competencia-uniao.webp",
+    excerpt: "A CSP do Senado pautou o PLP 41/2025, que usa o parágrafo único do art. 22 da CF para autorizar estados e DF a criarem tipos penais, fixarem penas, qualificarem crimes hediondos e disciplinarem processo e execução penal para crimes da Justiça estadual. O texto, com parecer favorável, segue para análise terminativa na CCJ e enfrenta objeções constitucionais do STF.",
+    link: "../direito-penal/plp-41-2025-estados-legislar-direito-penal-csp-senado-competencia-uniao.html",
+    category: "direito-penal",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+{
         title: "ANPP Ambiental, Quando a Empresa Confessa pelo Dirigente",
         date: "13/03/2026",
         timestamp: "2026-03-13T07:00:00",
@@ -9,7 +20,7 @@ const categoryNewsData = [
         link: "../direito-penal/anpp-ambiental-confissao-pessoa-juridica-correu-pessoa-fisica.html",
         author: "Justiça em Dia",
         authorLink: "#"
-    },
+},
 {
     title: "Receita Falsa Opioide e a Semi-Imputabilidade",
     date: "10/03/2026",

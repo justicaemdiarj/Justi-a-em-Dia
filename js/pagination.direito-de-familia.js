@@ -1,7 +1,17 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
 
-
+{
+    title: "FGTS Entra na Partilha do Divórcio",
+    date: "16/03/2026",
+    timestamp: "2026-03-16T12:00:00",
+    image: "../img/fgts-partilha-bens-divorcio-comunhao-parcial-STJ.webp",
+    excerpt: "O saldo do FGTS acumulado durante o casamento em regime de comunhão parcial integra o patrimônio comum do casal e deve ser incluído na partilha de bens no divórcio, segundo entendimento consolidado pelo STJ. O cônjuge não titular tem direito à meação do valor depositado no período da união, mas a desinformação faz com que esse ativo seja frequentemente omitido nos acordos.",
+    link: "../direito-de-familia/fgts-partilha-bens-divorcio-comunhao-parcial-STJ.html",
+    category: "direito-de-familia",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 {
     title: "Judiciário do Acre Vai Além da Punição",
     date: "15/03/2026",

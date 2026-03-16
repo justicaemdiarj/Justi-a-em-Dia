@@ -13,6 +13,34 @@ const tickerConfig = {
 
 const globalNewsData = [
 {
+    title: "Tocantins Avança no Debate Nacional de Compliance",
+    link: "compliance/tocantins-congresso-compliance-governanca-integridade-palmas.html",
+},
+{
+    title: "PL 4920 Tensiona Previdência das Forças Armadas",
+    link: "direito-trabalhista/pl-4920-previdencia-forcas-armadas-rejeicao-militares.html",
+},
+{
+    title: "Combate ao Assédio nas Relações Trabalhistas Públicas",
+    link: "direito-trabalhista/combate-assedio-moral-sexual-judiciario-revista-campanha.html",
+},
+{
+    title: "Estados Podem Ganhar Poder de Criminalizar",
+    link: "direito-penal/plp-41-2025-estados-legislar-direito-penal-csp-senado-competencia-uniao.html",
+},
+{
+    title: "FGTS Entra na Partilha do Divórcio",
+    link: "direito-de-familia/fgts-partilha-bens-divorcio-comunhao-parcial-STJ.html",
+},
+{
+    title: "Responsabilidade Civil Divide Debate no Novo Código",
+    link: "direito-civil/reforma-codigo-civil-responsabilidade-civil-debate-juizes-pl-4-2025-sancao-pedagogica.html",
+},
+{
+    title: "Direita Domina Arena Digital nas Eleições 2026",
+    link: "politica/direita-lidera-arena-digital-eleicoes-2026-pre-candidato-redes-sociais.html",
+},
+{
     title: "Cultura de Cuiabá Adota Compliance na Gestão",
     link: "compliance/secretaria-cultura-cuiaba-compliance-integridade-administracao-publica-municipal.html",
 },
@@ -51,42 +79,6 @@ const globalNewsData = [
 {
     title: "Violência Doméstica em Números que Assustam",
     link: "direito-de-familia/violencia-domestica-numeros-sc-brasil-feminicidio-medidas-protetivas.html",
-},
-{
-    title: "Cerrado Ganha Força Legislativa em Goiás",
-    link: "legislacao/gomide-leis-ambientais-cerrado-goias-sementes-cerrado.html",
-},
-{
-    title: "Agências de Viagem Ganham Terreno no Judiciário",
-    link: "jurisprudencia/agencias-viagem-responsabilidade-solidaria-jurisprudencia-stj-turismo.html",
-},
-{
-    title: "Código Civil Ganha Nova Chance de Evolução",
-    link: "direito-civil/codigo-civil-atualizacao-responsabilidade-civil-debate-senado-2026.html",
-},    
-{
-    title: "Lula e Flávio Empatam pela Primeira Vez",
-    link: "politica/quaest-lula-flavio-empatados-41-segundo-turno-2026.html",
-},
-    {
-        title: "STF Limita Condenação Trabalhista ao Pedido Inicial",
-        link: "direito-trabalhista/stf-moraes-condenacao-trabalhista-limite-peticao-inicial-adi-6002.html",
-    },
-{
-        title: "STJ Garante Dividendos ao Ex-Cônjuge Até Partilha Final",
-        link: "direito-de-familia/stj-dividendos-ex-conjuge-cotista-anomalo-apuracao-haveres.html",
-},
-{
-        title: "Obra Mal Feita, Quem Paga a Conta ao Consumidor",
-        link: "direito-civil/responsabilidade-fornecedor-obras-cdc-obrigacao-resultado.html",
-},
-{
-        title: "ANPP Ambiental, Quando a Empresa Confessa pelo Dirigente",
-        link: "direito-penal/anpp-ambiental-confissao-pessoa-juridica-correu-pessoa-fisica.html",
-},
-{
-        title: "IA e Jogo Responsável Unem Forças Globalmente",
-        link: "compliance/mindway-ai-amelco-parceria-compliance-jogo-responsavel-global.html",
 },
 
 ];

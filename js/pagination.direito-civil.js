@@ -1,5 +1,16 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
+    {
+    title: "Responsabilidade Civil Divide Debate no Novo Código",
+    date: "16/03/2026",
+    timestamp: "2026-03-16T12:00:00",
+    image: "../img/reforma-codigo-civil-responsabilidade-civil-debate-juizes-pl-4-2025-sancao-pedagogica.webp",
+    excerpt: "A audiência pública da CTCivil em 12 de março de 2026 expôs as profundas divisões em torno das propostas do PL 4/2025 para a responsabilidade civil: sanção pedagógica até quatro vezes o dano, danos futuros e indiretos, restrição da culpa do advogado ao dolo e risco especial diferenciado dividem especialistas e preocupam a magistratura que aplica essas normas diariamente.",
+    link: "../direito-civil/reforma-codigo-civil-responsabilidade-civil-debate-juizes-pl-4-2025-sancao-pedagogica.html",
+    category: "direito-civil",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
         {
     title: "Novo Código Civil Enfrenta Freio no Senado",
     date: "15/03/2026",

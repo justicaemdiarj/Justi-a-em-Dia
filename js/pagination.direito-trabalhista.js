@@ -1,7 +1,16 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
 
-
+{
+    title: "Combate ao Assédio nas Relações Trabalhistas Públicas",
+    date: "16/03/2026",
+    timestamp: "2026-03-16T12:00:00",
+    image: "../img/combate-assedio-moral-sexual-judiciario-revista-campanha.webp",
+    excerpt: "A publicação de uma revista especializada no enfrentamento do assédio moral e sexual no ambiente do Poder Judiciário reacende o debate sobre proteção à dignidade dos servidores e a urgência de reformas legislativas que punam efetivamente os agressores, inclusive magistrados.",
+    link: "../direito-trabalhista/combate-assedio-moral-sexual-judiciario-revista-campanha.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 {
     title: "Como Provar Assédio no Ambiente de Trabalho",
     date: "15/03/2026",

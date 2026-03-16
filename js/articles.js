@@ -1,56 +1,56 @@
 const posts = [
 {
   
-  title: "Novo Código Civil Enfrenta Freio no Senado",
-  description: "O PL 4/2025 que propõe a atualização mais abrangente do Código Civil desde 2002, modificando 1.197 artigos e introduzindo o direito civil digital, enfrenta risco de atraso na tramitação do Senado por complexidade técnica e calendário eleitoral desfavorável",
-  description2: "Senadores admitem que a votação em plenário prevista para junho pode não ocorrer no prazo, abrindo o risco de que a decisão sobre contratos, responsabilidade civil, família e sucessões seja empurrada para 2027 com composição parlamentar renovada",
-  image: "img/pl-codigo-civil-tramitacao-atraso-senado-calendario-eleitoral-2026.webp",
-  link: "direito-civil/pl-codigo-civil-tramitacao-atraso-senado-calendario-eleitoral-2026.html",
-  date: "2026-03-15T07:00:00",
+  title: "Direita Domina Arena Digital nas Eleições 2026",
+  description: "O pré-candidato do PL acumulou 49,7 milhões de interações nos dois primeiros meses de 2026, superando o presidente em 76% no engajamento digital e liderando o Índice Datrix de Presidenciáveis com 37,14 pontos, enquanto o campo governista cai para a quarta posição com tendência negativa no mar aberto",
+  description2: "A resistência declarada do presidente ao universo digital contrasta com a sofisticação da estratégia oposicionista, que transfere a herança política do fundador da sigla para o pré-candidato e expande presença fora da bolha conservadora, apontando para uma disputa eleitoral digital de alta intensidade em outubro",
+  image: "img/direita-lidera-arena-digital-eleicoes-2026-pre-candidato-redes-sociais.webp",
+  link: "politica/direita-lidera-arena-digital-eleicoes-2026-pre-candidato-redes-sociais.html",
+  date: "2026-03-16T12:00:00",
   section: "featured"
 },
   {
-  title: "Como Provar Assédio no Ambiente de Trabalho",
-  description: "O MPT publicou cartilha orientando vítimas de assédio moral e sexual a reunir provas válidas juridicamente, como gravações, mensagens, e-mails e diários de ocorrências, e a formalizar denúncias de forma anônima pelos canais disponíveis",
-  description2: "A Convenção 190 da OIT amplia o conceito de assédio para incluir episódios únicos e práticas fora do horário de trabalho, reforçando a proteção a grupos vulnerabilizados como mulheres negras e trabalhadores em vínculos precários",
-  image: "img/assedio-moral-sexual-trabalho-provas-denunciar-mpt-cartilha.webp",
-  link: "direito-trabalhista/assedio-moral-sexual-trabalho-provas-denunciar-mpt-cartilha.html",
-  date: "2026-03-15T07:00:00",
+  title: "Responsabilidade Civil Divide Debate no Novo Código",
+  description: "A Comissão Temporária do Senado realizou audiência pública sobre as propostas do PL 4/2025 para a responsabilidade civil, que incluem sanção pedagógica de até quatro vezes o dano moral, indenização por danos futuros e indiretos e nova teoria do risco especial diferenciado, temas que dividem profundamente especialistas e preocupam a magistratura",
+  description2: "A restrição da responsabilidade civil do advogado ao dolo e a expansão da responsabilidade objetiva para atividades de risco qualificado elevam o passivo contingente de empresas e criam novo mapa de exposição jurídica que o mercado de seguros já começa a precificar antes mesmo da aprovação do projeto",
+  image: "img/reforma-codigo-civil-responsabilidade-civil-debate-juizes-pl-4-2025-sancao-pedagogica.webp",
+  link: "direito-civil/reforma-codigo-civil-responsabilidade-civil-debate-juizes-pl-4-2025-sancao-pedagogica.html",
+  date: "2026-03-16T12:00:00",
   section: "featured-secundario"
 },
 {
-  title: "Policial Licenciado em 1996 Volta ao Serviço Ativo",
-  description: "A Justiça da Paraíba reconheceu que o licenciamento de um soldado da PM em 1996 jamais produziu efeitos jurídicos válidos por nunca ter sido publicado no Diário Oficial, determinando seu retorno ao serviço ativo quase 29 anos depois",
-  description2: "O caso expõe o passivo oculto das administrações militares estaduais e reafirma que a publicidade é requisito de eficácia dos atos administrativos, não uma formalidade dispensável",
-  image: "img/pm-licenciado-1996-retorno-ativo-publicacao-diario-oficial-nulidade-ato-administrativo.webp",
-  link: "direito-militar/pm-licenciado-1996-retorno-ativo-publicacao-diario-oficial-nulidade-ato-administrativo.html",
-  date: "2026-03-15T07:00:00",
+  title: "FGTS Entra na Partilha do Divórcio",
+  description: "O saldo do FGTS acumulado durante o casamento em regime de comunhão parcial integra o patrimônio comum do casal e deve ser incluído na partilha de bens no divórcio, segundo jurisprudência consolidada do STJ com base nos arts. 1.658 a 1.666 do Código Civil",
+  description2: "A desinformação faz com que esse ativo seja frequentemente omitido em acordos de divórcio extrajudicial, gerando prejuízo ao cônjuge que tem direito à meação do valor depositado no período da união e pode ainda reabrir a questão via ação de sobrepartilha no prazo de dez anos",
+  image: "img/fgts-partilha-bens-divorcio-comunhao-parcial-STJ.webp",
+  link: "direito-de-familia/fgts-partilha-bens-divorcio-comunhao-parcial-STJ.html",
+  date: "2026-03-16T12:00:00",
  section: "featured-terciario"
 },
   {
-  title: "Judiciário do Acre Vai Além da Punição",
-  image: "img/tjac-judiciario-acolhimento-violencia-domestica-lei-maria-penha-20-anos.webp",
-  link: "direito-de-familia/tjac-judiciario-acolhimento-violencia-domestica-lei-maria-penha-20-anos.html",
-  date: "2026-03-15T07:00:00",
+  title: "Estados Podem Ganhar Poder de Criminalizar",
+  image: "img/plp-41-2025-estados-legislar-direito-penal-csp-senado-competencia-uniao.webp",
+  link: "direito-penal/plp-41-2025-estados-legislar-direito-penal-csp-senado-competencia-uniao.html",
+  date: "2026-03-16T12:00:00",
     section: "destaque"
   },
    {
-   title: "Cultura de Cuiabá Adota Compliance na Gestão",
-  image: "img/secretaria-cultura-cuiaba-compliance-integridade-administracao-publica-municipal.webp",
-  link: "compliance/secretaria-cultura-cuiaba-compliance-integridade-administracao-publica-municipal.html",
-  date: "2026-03-15T07:00:00",
+    title: "Combate ao Assédio nas Relações Trabalhistas Públicas",
+  image: "img/combate-assedio-moral-sexual-judiciario-revista-campanha.webp",
+    link: "direito-trabalhista/combate-assedio-moral-sexual-judiciario-revista-campanha.html",
+  date: "2026-03-16T12:00:00",
     section: "destaque"
   },
   {
-     title: "Habeas Corpus Amordaçado pela Jurisprudência",
-   image: "img/habeas-corpus-vedacao-debate-fatico-prisao-preventiva-inconstitucional.webp",
-    link: "direito-penal/habeas-corpus-vedacao-debate-fatico-prisao-preventiva-inconstitucional.html",
- date: "2026-03-14T07:00:00",
+    title: "PL 4920 Tensiona Previdência das Forças Armadas",
+ image: "img/tocantins-congresso-compliance-governanca-integridade-palmas.webp",
+    link: "compliance/tocantins-congresso-compliance-governanca-integridade-palmas.html",
+  date: "2026-03-16T12:00:00",
     section: "destaque"
   },
   {
    
-    title: "Aplicativos Vencem a Batalha do Vínculo Trabalhista",
+    title: "Tocantins Avança no Debate Nacional de Compliance",
      image: "img/plp-152-2025-vinculo-empregaticio-motoristas-aplicativos-regulamentacao.webp",
     link: "direito-trabalhista/plp-152-2025-vinculo-empregaticio-motoristas-aplicativos-regulamentacao.html",
     date: "2026-03-14T07:00:00",
@@ -276,9 +276,9 @@ document.addEventListener("DOMContentLoaded", function(){
   date: "2026-03-11T07:00:00"
 },
 {
-    title: "Compliance Virou Escudo Jurídico das Empresas",
-    link: "compliance/compliance-escudo-juridico-governanca-empresas-lei-anticorrupcao.html",
-    date: "2026-03-10T07:00:00"
+    title: "Lula e Flávio Empatam pela Primeira Vez",
+    link: "politica/quaest-lula-flavio-empatados-41-segundo-turno-2026.html",
+    date: "2026-03-14T07:00:00"
 },
 {
  title: "Itaú Fecha Contas de Securitizadora Ligada ao Master",
@@ -286,20 +286,16 @@ document.addEventListener("DOMContentLoaded", function(){
   date: "2026-03-11T07:00:00"
 },
 {
- title: "Suspeita de Homicídio Deixa Prisão Preventiva",
-  link: "direito-penal/suspeita-homicidio-liberdade-prisao-preventiva-bento-goncalves.html",
-  date: "2026-03-11T07:00:00"
+ title: "Como Provar Assédio no Ambiente de Trabalho",
+  link: "direito-trabalhista/assedio-moral-sexual-trabalho-provas-denunciar-mpt-cartilha.html",
+  date: "2026-03-15T07:00:00"
 },
  {
-   title: "Assédio Moral Explode nas Varas Trabalhistas",
-    link: "direito-trabalhista/assedio-moral-dano-moral-acoes-trabalhistas-burnout-crescimento.html",
-    date: "2026-03-10T07:00:00"
+   title: "Agências de Viagem Ganham Terreno no Judiciário",
+    link: "jurisprudencia/agencias-viagem-responsabilidade-solidaria-jurisprudencia-stj-turismo.html",
+    date: "2026-03-14T07:00:00"
 },
-    {
- title: "Direita Fragmentada Aposta Tudo em Flávio Bolsonaro",
-  link: "politica/direita-fragmentada-flavio-bolsonaro-eleicoes-2026.html",
-  date: "2026-03-11T07:00:00"
-    }
+
   ];
 
 
@@ -359,22 +355,22 @@ source: "",
 date: "2026-03-11T07:00:00"
 },
 {
-title: "Tarcísio Enterra Terceira Via em 2026",
-link: "politica/tarcisio-enterra-terceira-via-eleicoes-2026.html",
+title: "Novo Código Civil Enfrenta Freio no Senado",
+link: "direito-civil/pl-codigo-civil-tramitacao-atraso-senado-calendario-eleitoral-2026.html",
 source: "",
-date: "2026-03-10T03:00:00"
+date: "2026-03-15T03:00:00"
 },
 {
-title: "Receita Falsa Opioide e a Semi-Imputabilidade",
-  link: "direito-penal/receita-falsa-opioide-semi-imputabilidade-condenacao-penal.html",
+title: "Judiciário do Acre Vai Além da Punição",
+  link: "direito-de-familia/tjac-judiciario-acolhimento-violencia-domestica-lei-maria-penha-20-anos.html",
 source: "",
-date: "2026-03-10T07:00:00"
+date: "2026-03-15T07:00:00"
 },
 {
-title: "Consumidor Brasileiro Desprotegido Frente à Europa",
-link: "direito-civil/armadilhas-digitais-consumidor-brasileiro-desprotegido-frente-europa.html",
+title: "Habeas Corpus Amordaçado pela Jurisprudência",
+link: "direito-penal/habeas-corpus-vedacao-debate-fatico-prisao-preventiva-inconstitucional.html",
 source: "",
-date: "2026-03-08T07:00:00"
+date: "2026-03-14T07:00:00"
 },
 {
 title: "Obra Mal Feita, Quem Paga a Conta ao Consumidor",

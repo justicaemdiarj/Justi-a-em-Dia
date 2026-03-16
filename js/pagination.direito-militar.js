@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
 {
+    title: "PL 4920 Tensiona Previdência das Forças Armadas",
+    date: "16/03/2026",
+    timestamp: "2026-03-16T12:00:00",
+    image: "../img/pl-4920-previdencia-forcas-armadas-rejeicao-militares.webp",
+    excerpt: "O Projeto de Lei 4920/2024, de iniciativa do Poder Executivo, propõe mudanças estruturais no regime previdenciário dos militares, incluindo idade mínima para a reserva e extinção da morte ficta, gerando rejeição massiva de 91% na consulta pública da Câmara dos Deputados.",
+    link: "../direito-militar/pl-4920-previdencia-forcas-armadas-rejeicao-militares.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+{
     title: "Policial Licenciado em 1996 Volta ao Serviço Ativo",
     date: "15/03/2026",
     timestamp: "2026-03-15T07:00:00",

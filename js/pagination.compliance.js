@@ -1,6 +1,15 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
-
+{
+    title: "Tocantins Avança no Debate Nacional de Compliance",
+    date: "16/03/2026",
+    timestamp: "2026-03-16T12:00:00",
+    image: "../img/tocantins-congresso-compliance-governanca-integridade-palmas.webp",
+    excerpt: "Palmas sedia em abril de 2026 o primeiro Congresso Tocantinense de Compliance, evento que insere a capital na agenda nacional de integridade, governança e combate à corrupção, reunindo gestores públicos, empresários e especialistas jurídicos num fórum técnico de alto nível.",
+    link: "../compliance/tocantins-congresso-compliance-governanca-integridade-palmas.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 {
     title: "Cultura de Cuiabá Adota Compliance na Gestão",
     date: "15/03/2026",

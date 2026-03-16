@@ -1,7 +1,16 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
 
-
+{
+    title: "Estados Podem Ganhar Poder de Criminalizar",
+    date: "16/03/2026",
+    timestamp: "2026-03-16T012:00:00",
+    image: "../img/plp-41-2025-estados-legislar-direito-penal-csp-senado-competencia-uniao.webp",
+    excerpt: "A CSP do Senado pautou o PLP 41/2025, que usa o parágrafo único do art. 22 da CF para autorizar estados e DF a criarem tipos penais, fixarem penas, qualificarem crimes hediondos e disciplinarem processo e execução penal para crimes da Justiça estadual. O texto, com parecer favorável, segue para análise terminativa na CCJ e enfrenta objeções constitucionais do STF.",
+    link: "../direito-penal/plp-41-2025-estados-legislar-direito-penal-csp-senado-competencia-uniao.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
  {
     title: "Habeas Corpus Amordaçado pela Jurisprudência",
     date: "14/03/2026",
@@ -226,7 +235,7 @@ function renderNews(page) {
                 <div class="category-post-content">
                     <a href="${item.link}" class="category-post-link-wrapper">
                         <h3 class="category-post-title">${item.title}</h3>
-                    
+                   
                     <p class="category-post-excerpt">${item.excerpt}</p></a>
                     <div class="category-post-meta-container">
                         <p class="category-post-meta">${timeDisplay} &bull; Em ${item.author || 'Notícias'}</p>
