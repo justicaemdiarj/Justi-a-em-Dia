@@ -1749,4 +1749,81 @@
       <news:title>Cultura de Cuiabá Adota Compliance na Gestão</news:title>
     </news:news>
   </url>
+    <url>
+    <loc>https://www.justicaemdia.com.br/politica/direita-lidera-arena-digital-eleicoes-2026-pre-candidato-redes-sociais.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Justiça em Dia</news:name>
+        <news:language>pt</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-16T12:00:00-03:00</news:publication_date>
+      <news:title>Direita Domina Arena Digital nas Eleições 2026</news:title>
+    </news:news>
+  </url>
+    <url>
+    <loc>https://www.justicaemdia.com.br/direito-civil/reforma-codigo-civil-responsabilidade-civil-debate-juizes-pl-4-2025-sancao-pedagogica.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Justiça em Dia</news:name>
+        <news:language>pt</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-16T12:00:00-03:00</news:publication_date>
+      <news:title>Responsabilidade Civil Divide Debate no Novo Código</news:title>
+    </news:news>
+  </url>
+    <url>
+    <loc>https://www.justicaemdia.com.br/direito-de-familia/fgts-partilha-bens-divorcio-comunhao-parcial-STJ.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Justiça em Dia</news:name>
+        <news:language>pt</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-16T12:00:00-03:00</news:publication_date>
+      <news:title>FGTS Entra na Partilha do Divórcio</news:title>
+    </news:news>
+  </url>
+    <url>
+    <loc>https://www.justicaemdia.com.br/direito-penal/plp-41-2025-estados-legislar-direito-penal-csp-senado-competencia-uniao.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Justiça em Dia</news:name>
+        <news:language>pt</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-16T12:00:00-03:00</news:publication_date>
+      <news:title>Estados Podem Ganhar Poder de Criminalizar</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.justicaemdia.com.br/direito-trabalhista/combate-assedio-moral-sexual-judiciario-revista-campanha.html</loc>
+    <news:news>
+        <news:publication>
+            <news:name>Justiça em Dia</news:name>
+            <news:language>pt</news:language>
+        </news:publication>
+      <news:publication_date>2026-03-16T12:00:00-03:00</news:publication_date>
+        <news:title>Combate ao Assédio nas Relações Trabalhistas Públicas</news:title>
+    </news:news>
+</url>
+<url>
+    <loc>https://www.justicaemdia.com.br/direito-militar/pl-4920-previdencia-forcas-armadas-rejeicao-militares.html</loc>
+    <news:news>
+        <news:publication>
+            <news:name>Justiça em Dia</news:name>
+            <news:language>pt</news:language>
+        </news:publication>
+      <news:publication_date>2026-03-16T12:00:00-03:00</news:publication_date>
+        <news:title>PL 4920 Tensiona Previdência das Forças Armadas</news:title>
+    </news:news>
+</url>
+<url>
+    <loc>https://www.justicaemdia.com.br/compliance/tocantins-congresso-compliance-governanca-integridade-palmas.html</loc>
+    <news:news>
+        <news:publication>
+            <news:name>Justiça em Dia</news:name>
+            <news:language>pt</news:language>
+        </news:publication>
+      <news:publication_date>2026-03-16T12:00:00-03:00</news:publication_date>
+        <news:title>Tocantins Avança no Debate Nacional de Compliance</news:title>
+    </news:news>
+</url>
 </urlset>
