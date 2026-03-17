@@ -1,6 +1,15 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
-
+{
+    title: "ECA Digital Protege Crianças no Ambiente Virtual",
+    date: "17/03/2026",
+    timestamp: "2026-03-17T07:00:00",
+    image: "../img/eca-digital-vigor-marco-2026-protecao-criancas-adolescentes-internet.webp",
+    excerpt: "Nova lei impõe obrigações às plataformas digitais brasileiras.",
+    link: "../direito-de-familia/eca-digital-vigor-marco-2026-protecao-criancas-adolescentes-internet.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 {
     title: "FGTS Entra na Partilha do Divórcio",
     date: "16/03/2026",

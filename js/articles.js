@@ -1,73 +1,74 @@
 const posts = [
+  
 {
   
-  title: "Direita Domina Arena Digital nas Eleições 2026",
-  description: "O pré-candidato do PL acumulou 49,7 milhões de interações nos dois primeiros meses de 2026, superando o presidente em 76% no engajamento digital e liderando o Índice Datrix de Presidenciáveis com 37,14 pontos, enquanto o campo governista cai para a quarta posição com tendência negativa no mar aberto",
-  description2: "A resistência declarada do presidente ao universo digital contrasta com a sofisticação da estratégia oposicionista, que transfere a herança política do fundador da sigla para o pré-candidato e expande presença fora da bolha conservadora, apontando para uma disputa eleitoral digital de alta intensidade em outubro",
-  image: "img/direita-lidera-arena-digital-eleicoes-2026-pre-candidato-redes-sociais.webp",
-  link: "politica/direita-lidera-arena-digital-eleicoes-2026-pre-candidato-redes-sociais.html",
-  date: "2026-03-16T12:00:00",
+  title: "Acesso à Justiça Internacional Pelo Paraná",
+  description: "O Tribunal de Justiça do Paraná lança plataforma inédita para consulta à jurisprudência da Corte IDH",
+  description2: "Ferramenta integra precedentes internacionais ao sistema de busca do tribunal paranaense",
+  image: "img/tjpr-plataforma-jurisprudencia-corte-interamericana-direitos-humanos.webp",
+  link: "jurisprudencia/tjpr-plataforma-jurisprudencia-corte-interamericana-direitos-humanos.html",
+  date: "2026-03-17T07:00:00",
   section: "featured"
 },
   {
-  title: "Responsabilidade Civil Divide Debate no Novo Código",
-  description: "A Comissão Temporária do Senado realizou audiência pública sobre as propostas do PL 4/2025 para a responsabilidade civil, que incluem sanção pedagógica de até quatro vezes o dano moral, indenização por danos futuros e indiretos e nova teoria do risco especial diferenciado, temas que dividem profundamente especialistas e preocupam a magistratura",
-  description2: "A restrição da responsabilidade civil do advogado ao dolo e a expansão da responsabilidade objetiva para atividades de risco qualificado elevam o passivo contingente de empresas e criam novo mapa de exposição jurídica que o mercado de seguros já começa a precificar antes mesmo da aprovação do projeto",
-  image: "img/reforma-codigo-civil-responsabilidade-civil-debate-juizes-pl-4-2025-sancao-pedagogica.webp",
-  link: "direito-civil/reforma-codigo-civil-responsabilidade-civil-debate-juizes-pl-4-2025-sancao-pedagogica.html",
-  date: "2026-03-16T12:00:00",
+  title: "PGFN e Receita Regulam o Devedor Contumaz",
+  description: "PGFN e Receita Federal articulam regulamentação da LC 225/2026 sobre inadimplência tributária sistemática",
+  description2: "Nova norma impõe sanções severas ao contribuinte com passivo fiscal reiterado e injustificado",
+  image: "img/pgfn-receita-federal-regulamentacao-devedor-contumaz-lc-225-2026.webp",
+  link: "legislacao/pgfn-receita-federal-regulamentacao-devedor-contumaz-lc-225-2026.html",
+  date: "2026-03-17T07:00:00",
   section: "featured-secundario"
 },
 {
-  title: "FGTS Entra na Partilha do Divórcio",
-  description: "O saldo do FGTS acumulado durante o casamento em regime de comunhão parcial integra o patrimônio comum do casal e deve ser incluído na partilha de bens no divórcio, segundo jurisprudência consolidada do STJ com base nos arts. 1.658 a 1.666 do Código Civil",
-  description2: "A desinformação faz com que esse ativo seja frequentemente omitido em acordos de divórcio extrajudicial, gerando prejuízo ao cônjuge que tem direito à meação do valor depositado no período da união e pode ainda reabrir a questão via ação de sobrepartilha no prazo de dez anos",
-  image: "img/fgts-partilha-bens-divorcio-comunhao-parcial-STJ.webp",
-  link: "direito-de-familia/fgts-partilha-bens-divorcio-comunhao-parcial-STJ.html",
-  date: "2026-03-16T12:00:00",
+  title: "Justiça Digital Sem Advogado no Rio",
+  description: "TJRJ lança plataforma para protocolo digital de petições nos juizados especiais sem necessidade de advogado",
+  description2: "Iniciativa democratiza o acesso à tutela jurisdicional cível no Estado do Rio de Janeiro",
+  image: "img/tjrj-peticao-cidada-juizados-especiais-civeis-online-sem-advogado.webp",
+  link: "direito-civil/tjrj-peticao-cidada-juizados-especiais-civeis-online-sem-advogado.html",
+  date: "2026-03-17T07:00:00",
  section: "featured-terciario"
 },
   {
-  title: "Estados Podem Ganhar Poder de Criminalizar",
-  image: "img/plp-41-2025-estados-legislar-direito-penal-csp-senado-competencia-uniao.webp",
-  link: "direito-penal/plp-41-2025-estados-legislar-direito-penal-csp-senado-competencia-uniao.html",
-  date: "2026-03-16T12:00:00",
+   title: "ECA Digital Protege Crianças no Ambiente Virtual",
+   image: "img/eca-digital-vigor-marco-2026-protecao-criancas-adolescentes-internet.webp",
+  link: "direito-de-familia/eca-digital-vigor-marco-2026-protecao-criancas-adolescentes-internet.html",
+  date: "2026-03-17T07:00:00",
     section: "destaque"
   },
    {
-    title: "Combate ao Assédio nas Relações Trabalhistas Públicas",
-  image: "img/combate-assedio-moral-sexual-judiciario-revista-campanha.webp",
-    link: "direito-trabalhista/combate-assedio-moral-sexual-judiciario-revista-campanha.html",
-  date: "2026-03-16T12:00:00",
+   title: "HC e Prisão Cautelar Sob Tensão Constitucional",
+ image: "img/habeas-corpus-prisao-cautelar-vedacao-debate-fatico-assimetria-inconstitucional.webp",
+  link: "direito-penal/habeas-corpus-prisao-cautelar-vedacao-debate-fatico-assimetria-inconstitucional.html",
+  date: "2026-03-17T07:00:00",
     section: "destaque"
   },
   {
-    title: "PL 4920 Tensiona Previdência das Forças Armadas",
- image: "img/tocantins-congresso-compliance-governanca-integridade-palmas.webp",
-    link: "compliance/tocantins-congresso-compliance-governanca-integridade-palmas.html",
-  date: "2026-03-16T12:00:00",
+    title: "Entre o Excesso e o Vazio do Compliance",
+  image: "img/overcompliance-compliance-zero-equilibrio-programas-integridade-empresas.webp",
+  link: "compliance/overcompliance-compliance-zero-equilibrio-programas-integridade-empresas.html",
+  date: "2026-03-17T07:00:00",
     section: "destaque"
   },
   {
    
-    title: "Tocantins Avança no Debate Nacional de Compliance",
-     image: "img/plp-152-2025-vinculo-empregaticio-motoristas-aplicativos-regulamentacao.webp",
-    link: "direito-trabalhista/plp-152-2025-vinculo-empregaticio-motoristas-aplicativos-regulamentacao.html",
-    date: "2026-03-14T07:00:00",
+  title: "STF Abre Acordo Penal à Justiça Militar",
+  image: "img/stf-anpp-acordo-nao-persecucao-penal-justica-militar-crime-militar.webp",
+  link: "direito-militar/stf-anpp-acordo-nao-persecucao-penal-justica-militar-crime-militar.html",
+  date: "2026-03-17T07:00:00",
     section: "veja"
   },
   {
-  title: "Agências de Viagem Ganham Terreno no Judiciário",
- image: "img/agencias-viagem-responsabilidade-solidaria-jurisprudencia-stj-turismo.webp",
-    link: "jurisprudencia/agencias-viagem-responsabilidade-solidaria-jurisprudencia-stj-turismo.html",
-  date: "2026-03-14T07:00:00",
+  title: "Insalubridade Para Motoboys a Partir de Abril",
+  image: "img/insalubridade-motoboys-entregadores-abril-2026-direitos-trabalhistas.webp",
+  link: "direito-trabalhista/insalubridade-motoboys-entregadores-abril-2026-direitos-trabalhistas.html",
+  date: "2026-03-17T07:00:00",
     section: "veja"
   },
   {
- title: "Danos Morais na Justiça Militar Ganham Piso",
-  image: "img/stm-danos-morais-indenizacao-minima-jurisprudencia-vitimas.webp",
-  link: "direito-militar/stm-danos-morais-indenizacao-minima-jurisprudencia-vitimas.html",
-  date: "2026-03-14T07:00:00",
+  title: "Senado Guia Mulheres Para a Política",
+  image: "img/senado-guia-candidata-mulheres-politica-representatividade-cotas-genero.webp",
+  link: "politica/senado-guia-candidata-mulheres-politica-representatividade-cotas-genero.html",
+  date: "2026-03-17T07:00:00",
     section: "veja"
   }
 ];

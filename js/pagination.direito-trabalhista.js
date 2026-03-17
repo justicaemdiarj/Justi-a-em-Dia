@@ -1,5 +1,15 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
+    {
+    title: "Insalubridade Para Motoboys a Partir de Abril",
+    date: "17/03/2026",
+    timestamp: "2026-03-17T07:00:00",
+    image: "../img/insalubridade-motoboys-entregadores-abril-2026-direitos-trabalhistas.webp",
+    excerpt: "Entregadores terão adicional reconhecido pelo Ministério do Trabalho.",
+    link: "../direito-trabalhista/insalubridade-motoboys-entregadores-abril-2026-direitos-trabalhistas.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 
 {
     title: "Combate ao Assédio nas Relações Trabalhistas Públicas",

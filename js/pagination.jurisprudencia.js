@@ -1,7 +1,16 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
 
-
+{
+    title: "Acesso à Justiça Internacional Pelo Paraná",
+    date: "17/03/2026",
+    timestamp: "2026-03-17T07:00:00",
+    image: "../img/tjpr-plataforma-jurisprudencia-corte-interamericana-direitos-humanos.webp",
+    excerpt: "Plataforma inédita rompe barreira da jurisprudência interamericana.",
+    link: "../jurisprudencia/tjpr-plataforma-jurisprudencia-corte-interamericana-direitos-humanos.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 {
     title: "Agências de Viagem Ganham Terreno no Judiciário",
     date: "14/03/2026",

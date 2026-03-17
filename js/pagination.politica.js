@@ -1,6 +1,16 @@
 // Dados de notícias para Política
 const categoryNewsData = [
     {
+    title: "Senado Guia Mulheres Para a Política",
+    date: "17/03/2026",
+    timestamp: "2026-03-17T07:00:00",
+    image: "../img/senado-guia-candidata-mulheres-politica-representatividade-cotas-genero.webp",
+    excerpt: "Publicação pioneira enfrenta barreiras da representatividade feminina.",
+    link: "../politica/senado-guia-candidata-mulheres-politica-representatividade-cotas-genero.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Direita Domina Arena Digital nas Eleições 2026",
     date: "16/03/2026",
     timestamp: "2026-03-16T12:00:00",

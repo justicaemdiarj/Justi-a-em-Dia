@@ -1,5 +1,15 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
+    {
+    title: "STF Abre Acordo Penal à Justiça Militar",
+    date: "17/03/2026",
+    timestamp: "2026-03-17T07:00:00",
+    image: "../img/stf-anpp-acordo-nao-persecucao-penal-justica-militar-crime-militar.webp",
+    excerpt: "ANPP chega ao direito castrense por decisão histórica.",
+    link: "../direito-militar/stf-anpp-acordo-nao-persecucao-penal-justica-militar-crime-militar.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 {
     title: "PL 4920 Tensiona Previdência das Forças Armadas",
     date: "16/03/2026",

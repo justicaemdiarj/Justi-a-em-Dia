@@ -105,11 +105,11 @@ const siteConfig = {
         // pages: "full" para todas as páginas, ou array de URLs específicas (ex: ["index.html", "contato.html"])
         uol: [
             { 
-                 name: "Banner UOL Padrão", 
-                  img: window.innerWidth <= 768 ? "img/banner-mobile-uol.png" : "img/banner-uol.png", 
-                 link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", 
+                 name: "Objetiva Labs", 
+                  img: window.innerWidth <= 200 ? "img/banner-apoiadores/objetiva-labs-banner-topo-desktop.gif" : "img/banner-apoiadores/objetiva-labs-banner-topo-desktop.gif", 
+                 link: "https://www.objetivalabs.com.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", 
                  endDate: null, 
-                 pages: ["indx.html"]
+                 pages: ["conato.html"]
             },
             // BANNER ESPECIFICO POR PÁGINA OU MESCLA
             

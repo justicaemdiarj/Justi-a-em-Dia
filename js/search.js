@@ -1,6 +1,69 @@
 // Base de dados global de artigos para busca
 const allArticles = [
     {
+    title: 'Senado Guia Mulheres Para a Política',
+    description: 'O Senado Federal lançou publicação para orientar mulheres no ingresso à vida política, abordando legislação eleitoral, cotas de gênero, fundo eleitoral e combate à violência política de gênero.',
+    category: 'Política',
+    url: 'politica/senado-guia-candidata-mulheres-politica-representatividade-cotas-genero.html',
+    tags: ['mulheres na política', 'cotas de gênero', 'Senado Federal', 'representatividade política', 'Senado Guia Mulheres Para a Política']
+},
+    {
+    title: 'Insalubridade Para Motoboys a Partir de Abril',
+    description: 'A partir de abril de 2026, motociclistas profissionais terão direito ao adicional de insalubridade, reconhecendo os riscos à saúde da exposição a ruído, gases tóxicos e radiação solar na atividade de entrega.',
+    category: 'Direito Trabalhista',
+    url: 'direito-trabalhista/insalubridade-motoboys-entregadores-abril-2026-direitos-trabalhistas.html',
+    tags: ['insalubridade motoboys', 'adicional de insalubridade', 'entregadores', 'direito trabalhista', 'Insalubridade Para Motoboys a Partir de Abril']
+},
+        {
+    title: 'STF Abre Acordo Penal à Justiça Militar',
+    description: 'O STF reconheceu a aplicabilidade do Acordo de Não Persecução Penal na Justiça Militar, estendendo ao direito castrense o instrumento negocial previsto no CPP e consolidando mudança de paradigma no processo penal militar.',
+    category: 'Direito Militar',
+    url: 'direito-militar/stf-anpp-acordo-nao-persecucao-penal-justica-militar-crime-militar.html',
+    tags: ['ANPP', 'Justiça Militar', 'STF', 'crime militar', 'STF Abre Acordo Penal à Justiça Militar']
+},
+    {
+    title: 'Entre o Excesso e o Vazio do Compliance',
+    description: 'O compliance corporativo oscila entre o overcompliance burocrático sem efetividade e a ausência total de controles internos, ambos perigosos para a sustentabilidade jurídica e reputacional das organizações.',
+    category: 'Compliance',
+    url: 'compliance/overcompliance-compliance-zero-equilibrio-programas-integridade-empresas.html',
+    tags: ['overcompliance', 'compliance zero', 'programa de integridade', 'governança corporativa', 'Entre o Excesso e o Vazio do Compliance']
+},
+    {
+    title: 'HC e Prisão Cautelar Sob Tensão Constitucional',
+    description: 'A vedação ao exame de matéria fática no habeas corpus cria assimetria inconstitucional nas prisões cautelares, comprometendo o contraditório, a ampla defesa e o devido processo legal.',
+    category: 'Direito Criminal',
+    url: 'direito-penal/habeas-corpus-prisao-cautelar-vedacao-debate-fatico-assimetria-inconstitucional.html',
+    tags: ['habeas corpus', 'prisão cautelar', 'assimetria inconstitucional', 'debate fático', 'HC e Prisão Cautelar Sob Tensão Constitucional']
+},
+{
+    title: 'ECA Digital Protege Crianças no Ambiente Virtual',
+    description: 'O ECA Digital entrou em vigor em março de 2026, impondo novas obrigações às plataformas digitais para proteção integral de crianças e adolescentes no ambiente online.',
+    category: 'Direito de Família',
+    url: 'direito-de-familia/eca-digital-vigor-marco-2026-protecao-criancas-adolescentes-internet.html',
+    tags: ['ECA Digital', 'proteção de crianças', 'plataformas digitais', 'adolescentes internet', 'ECA Digital Protege Crianças no Ambiente Virtual']
+},
+{
+    title: 'Justiça Digital Sem Advogado no Rio',
+    description: 'O Tribunal de Justiça do Rio de Janeiro inaugura plataforma que permite ao cidadão protocolar petições nos juizados especiais cíveis de forma digital e sem necessidade de advogado.',
+    category: 'Direito Civil',
+    url: 'direito-civil/tjrj-peticao-cidada-juizados-especiais-civeis-online-sem-advogado.html',
+    tags: ['Petição Cidadã', 'TJRJ', 'juizados especiais cíveis', 'acesso à justiça', 'Justiça Digital Sem Advogado no Rio']
+},
+{
+    title: 'PGFN e Receita Regulam o Devedor Contumaz',
+    description: 'A Procuradoria-Geral da Fazenda Nacional articula com a Receita Federal a regulamentação da LC 225/2026, que tipifica o devedor contumaz e impõe restrições severas a contribuintes com inadimplência tributária substancial.',
+    category: 'Legislação',
+    url: 'legislacao/pgfn-receita-federal-regulamentacao-devedor-contumaz-lc-225-2026.html',
+    tags: ['devedor contumaz', 'PGFN', 'Receita Federal', 'LC 225 2026', 'PGFN e Receita Regulam o Devedor Contumaz']
+},
+    {
+    title: 'Acesso à Justiça Internacional Pelo Paraná',
+    description: 'O Tribunal de Justiça do Paraná avança na integração da jurisprudência interamericana ao sistema judiciário brasileiro com uma plataforma de consulta inédita às decisões da Corte IDH.',
+    category: 'Jurisprudência',
+    url: 'jurisprudencia/tjpr-plataforma-jurisprudencia-corte-interamericana-direitos-humanos.html',
+    tags: ['Corte Interamericana de Direitos Humanos', 'TJPR', 'jurisprudência internacional', 'Acesso à Justiça Internacional Pelo Paraná']
+},
+    {
     title: 'Tocantins Avança no Debate Nacional de Compliance',
     description: 'Palmas sedia em abril de 2026 o primeiro Congresso Tocantinense de Compliance, evento que insere a capital na agenda nacional de integridade, governança e combate à corrupção, reunindo gestores públicos, empresários e especialistas jurídicos.',
     category: 'compliance',

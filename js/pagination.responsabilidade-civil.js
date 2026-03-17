@@ -1,5 +1,25 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
+    {
+    title: "ECA Digital Protege Crianças no Ambiente Virtual",
+    date: "17/03/2026",
+    timestamp: "2026-03-17T07:00:00",
+    image: "../img/eca-digital-vigor-marco-2026-protecao-criancas-adolescentes-internet.webp",
+    excerpt: "Nova lei impõe obrigações às plataformas digitais brasileiras.",
+    link: "../direito-de-familia/eca-digital-vigor-marco-2026-protecao-criancas-adolescentes-internet.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
+    title: "Justiça Digital Sem Advogado no Rio",
+    date: "17/03/2026",
+    timestamp: "2026-03-17T07:00:00",
+    image: "../img/tjrj-peticao-cidada-juizados-especiais-civeis-online-sem-advogado.webp",
+    excerpt: "Plataforma fluminense democratiza o acesso à jurisdição civil.",
+    link: "../direito-civil/tjrj-peticao-cidada-juizados-especiais-civeis-online-sem-advogado.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
         {
     title: "Responsabilidade Civil Divide Debate no Novo Código",
     date: "16/03/2026",

@@ -12,6 +12,42 @@ const tickerConfig = {
 };
 
 const globalNewsData = [
+    {
+    title: "Senado Guia Mulheres Para a Política",
+    link: "politica/senado-guia-candidata-mulheres-politica-representatividade-cotas-genero.html",
+},
+    {
+    title: "Insalubridade Para Motoboys a Partir de Abril",
+    link: "direito-trabalhista/insalubridade-motoboys-entregadores-abril-2026-direitos-trabalhistas.html",
+},
+    {
+    title: "STF Abre Acordo Penal à Justiça Militar",
+    link: "direito-militar/stf-anpp-acordo-nao-persecucao-penal-justica-militar-crime-militar.html",
+},
+    {
+    title: "Entre o Excesso e o Vazio do Compliance",
+    link: "compliance/overcompliance-compliance-zero-equilibrio-programas-integridade-empresas.html",
+},
+    {
+    title: "HC e Prisão Cautelar Sob Tensão Constitucional",
+    link: "direito-penal/habeas-corpus-prisao-cautelar-vedacao-debate-fatico-assimetria-inconstitucional.html",
+},
+    {
+    title: "ECA Digital Protege Crianças no Ambiente Virtual",
+    link: "direito-de-familia/eca-digital-vigor-marco-2026-protecao-criancas-adolescentes-internet.html",
+},
+    {
+    title: "Justiça Digital Sem Advogado no Rio",
+    link: "direito-civil/tjrj-peticao-cidada-juizados-especiais-civeis-online-sem-advogado.html",
+},
+    {
+    title: "PGFN e Receita Regulam o Devedor Contumaz",
+    link: "legislacao/pgfn-receita-federal-regulamentacao-devedor-contumaz-lc-225-2026.html",
+},
+    {
+    title: "Acesso à Justiça Internacional Pelo Paraná",
+    link: "jurisprudencia/tjpr-plataforma-jurisprudencia-corte-interamericana-direitos-humanos.html",
+},
 {
     title: "Tocantins Avança no Debate Nacional de Compliance",
     link: "compliance/tocantins-congresso-compliance-governanca-integridade-palmas.html",
@@ -43,42 +79,6 @@ const globalNewsData = [
 {
     title: "Cultura de Cuiabá Adota Compliance na Gestão",
     link: "compliance/secretaria-cultura-cuiaba-compliance-integridade-administracao-publica-municipal.html",
-},
-{
-    title: "Judiciário do Acre Vai Além da Punição",
-    link: "direito-de-familia/tjac-judiciario-acolhimento-violencia-domestica-lei-maria-penha-20-anos.html",
-},
-{
-    title: "Novo Código Civil Enfrenta Freio no Senado",
-    link: "direito-civil/pl-codigo-civil-tramitacao-atraso-senado-calendario-eleitoral-2026.html",
-},
-{
-    title: "Como Provar Assédio no Ambiente de Trabalho",
-    link: "direito-trabalhista/assedio-moral-sexual-trabalho-provas-denunciar-mpt-cartilha.html",
-},
-{
-    title: "Policial Licenciado em 1996 Volta ao Serviço Ativo",
-    link: "direito-militar/pm-licenciado-1996-retorno-ativo-publicacao-diario-oficial-nulidade-ato-administrativo.html",
-},
-{
-    title: "Danos Morais na Justiça Militar Ganham Piso",
-    link: "direito-militar/stm-danos-morais-indenizacao-minima-jurisprudencia-vitimas.html",
-},
-{
-    title: "Quando o Passado Condena o Presente",
-    link: "compliance/ex-agente-preso-contrabando-cargo-compliance-prefeitura.html",
-},
-{
-    title: "Aplicativos Vencem a Batalha do Vínculo Trabalhista",
-    link: "direito-trabalhista/plp-152-2025-vinculo-empregaticio-motoristas-aplicativos-regulamentacao.html",
-},
-{
-    title: "Habeas Corpus Amordaçado pela Jurisprudência",
-    link: "direito-penal/habeas-corpus-vedacao-debate-fatico-prisao-preventiva-inconstitucional.html",
-},
-{
-    title: "Violência Doméstica em Números que Assustam",
-    link: "direito-de-familia/violencia-domestica-numeros-sc-brasil-feminicidio-medidas-protetivas.html",
 },
 
 ];

@@ -1,7 +1,16 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
 
-
+{
+    title: "PGFN e Receita Regulam o Devedor Contumaz",
+    date: "17/03/2026",
+    timestamp: "2026-03-17T07:00:00",
+    image: "../img/pgfn-receita-federal-regulamentacao-devedor-contumaz-lc-225-2026.webp",
+    excerpt: "Nova norma redefine inadimplência tributária no país.",
+    link: "../legislacao/pgfn-receita-federal-regulamentacao-devedor-contumaz-lc-225-2026.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 {
     title: "Cerrado Ganha Força Legislativa em Goiás",
     date: "14/03/2026",

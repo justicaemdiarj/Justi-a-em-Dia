@@ -1,6 +1,15 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
-
+{
+    title: "HC e Prisão Cautelar Sob Tensão Constitucional",
+    date: "17/03/2026",
+    timestamp: "2026-03-17T07:00:00",
+    image: "../img/habeas-corpus-prisao-cautelar-vedacao-debate-fatico-assimetria-inconstitucional.webp",
+    excerpt: "Vedação fática no HC compromete garantias processuais fundamentais.",
+    link: "../direito-penal/habeas-corpus-prisao-cautelar-vedacao-debate-fatico-assimetria-inconstitucional.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 {
     title: "Estados Podem Ganhar Poder de Criminalizar",
     date: "16/03/2026",

@@ -1,5 +1,15 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
+    {
+    title: "Entre o Excesso e o Vazio do Compliance",
+    date: "17/03/2026",
+    timestamp: "2026-03-17T07:00:00",
+    image: "../img/overcompliance-compliance-zero-equilibrio-programas-integridade-empresas.webp",
+    excerpt: "Dois extremos que destroem programas de integridade corporativa.",
+    link: "../compliance/overcompliance-compliance-zero-equilibrio-programas-integridade-empresas.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 {
     title: "Tocantins Avança no Debate Nacional de Compliance",
     date: "16/03/2026",
