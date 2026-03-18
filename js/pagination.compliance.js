@@ -1,16 +1,6 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
     {
-    title: "Compliance Como Barreira Contra Fraudes Corporativas",
-    date: "19/03/2026",
-    timestamp: "2026-03-19T07:00:00",
-    image: "../img/compliance-prevencao-fraude-controles-internos-governanca-corporativa.webp",
-    excerpt: "Controles internos definem a sobrevivência das organizações modernas.",
-    link: "../compliance/compliance-prevencao-fraude-controles-internos-governanca-corporativa.html",
-    author: "Justiça em Dia",
-    authorLink: "#"
-},
-    {
     title: "SP Reestrutura Compliance Policial Após Escândalo",
     date: "18/03/2026",
     timestamp: "2026-03-18T07:00:00",

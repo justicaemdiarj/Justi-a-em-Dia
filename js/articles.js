@@ -2,12 +2,12 @@ const posts = [
   
 {
   
-  title: "Compliance Como Barreira Contra Fraudes Corporativas",
-  description: "O compliance antifrude integra controles internos, cultura de integridade e tecnologia para proteger organizações das fraudes que custam trilhões ao mercado global",
-  description2: "Programa de prevenção efetivo reduz janela de oportunidade, limita exposição jurídica e fortalece a sustentabilidade das organizações",
-  image: "img/compliance-prevencao-fraude-controles-internos-governanca-corporativa.webp",
-  link: "compliance/compliance-prevencao-fraude-controles-internos-governanca-corporativa.html",
-  date: "2026-03-19T07:00:00",
+  title: "PL Quer Pragmatismo Para Vencer em 2026",
+  description: "Cúpula do Partido Liberal admite que discurso radical afasta o centro eleitoral e prega agenda propositiva para 2026",
+  description2: "Estratégia oposicionista aposta no cotidiano econômico do eleitor para reverter desvantagem nas pesquisas de intenção de voto",
+  image: "img/pl-pragmatismo-agenda-eleicoes-2026-estrategia-eleitoral-oposicao.webp",
+  link: "politica/pl-pragmatismo-agenda-eleicoes-2026-estrategia-eleitoral-oposicao.html",
+  date: "2026-03-18T07:00:00",
   section: "featured"
 },
   {

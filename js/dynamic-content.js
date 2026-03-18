@@ -13,10 +13,6 @@ const tickerConfig = {
 
 const globalNewsData = [
     {
-    title: "Compliance Como Barreira Contra Fraudes Corporativas",
-    link: "compliance/compliance-prevencao-fraude-controles-internos-governanca-corporativa.html",
-},
-    {
     title: "Justiça Militar Condena PMs no Amapá",
     link: "direito-militar/justica-militar-amapa-condenacao-policiais-militares-macapa.html",
 },

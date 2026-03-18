@@ -1,13 +1,6 @@
 // Base de dados global de artigos para busca
 const allArticles = [
     {
-    title: 'Compliance Como Barreira Contra Fraudes Corporativas',
-    description: 'O compliance antifrude é instrumento estratégico essencial para proteger organizações de desvios internos, integrando controles, cultura de integridade e tecnologia para reduzir perdas financeiras e exposição jurídica.',
-    category: 'Compliance',
-    url: 'compliance/compliance-prevencao-fraude-controles-internos-governanca-corporativa.html',
-    tags: ['compliance antifrude', 'prevenção de fraude', 'controles internos', 'programa de integridade', 'Compliance Como Barreira Contra Fraudes Corporativas']
-},
-    {
     title: 'Justiça Militar Condena PMs no Amapá',
     description: 'A Justiça Militar do Amapá condenou dois policiais militares em Macapá, reacendendo o debate sobre a efetividade do foro castrense estadual na responsabilização de agentes de segurança pública por crimes militares.',
     category: 'Direito Militar',
