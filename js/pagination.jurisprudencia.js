@@ -1,5 +1,15 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
+    {
+    title: "STF Recebe Obra Sobre Direitos Humanos Interamericanos",
+    date: "18/03/2026",
+    timestamp: "2026-03-18T07:00:00",
+    image: "../img/stf-lancamento-livro-jurisprudencia-corte-interamericana-direitos-humanos.webp",
+    excerpt: "Publicação sistematiza precedentes da Corte IDH para o Brasil.",
+    link: "../jurisprudencia/stf-lancamento-livro-jurisprudencia-corte-interamericana-direitos-humanos.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 
 {
     title: "Acesso à Justiça Internacional Pelo Paraná",

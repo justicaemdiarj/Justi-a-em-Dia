@@ -2,73 +2,73 @@ const posts = [
   
 {
   
-  title: "Acesso à Justiça Internacional Pelo Paraná",
-  description: "O Tribunal de Justiça do Paraná lança plataforma inédita para consulta à jurisprudência da Corte IDH",
-  description2: "Ferramenta integra precedentes internacionais ao sistema de busca do tribunal paranaense",
-  image: "img/tjpr-plataforma-jurisprudencia-corte-interamericana-direitos-humanos.webp",
-  link: "jurisprudencia/tjpr-plataforma-jurisprudencia-corte-interamericana-direitos-humanos.html",
-  date: "2026-03-17T07:00:00",
+  title: "Compliance Como Barreira Contra Fraudes Corporativas",
+  description: "O compliance antifrude integra controles internos, cultura de integridade e tecnologia para proteger organizações das fraudes que custam trilhões ao mercado global",
+  description2: "Programa de prevenção efetivo reduz janela de oportunidade, limita exposição jurídica e fortalece a sustentabilidade das organizações",
+  image: "img/compliance-prevencao-fraude-controles-internos-governanca-corporativa.webp",
+  link: "compliance/compliance-prevencao-fraude-controles-internos-governanca-corporativa.html",
+  date: "2026-03-19T07:00:00",
   section: "featured"
 },
   {
-  title: "PGFN e Receita Regulam o Devedor Contumaz",
-  description: "PGFN e Receita Federal articulam regulamentação da LC 225/2026 sobre inadimplência tributária sistemática",
-  description2: "Nova norma impõe sanções severas ao contribuinte com passivo fiscal reiterado e injustificado",
-  image: "img/pgfn-receita-federal-regulamentacao-devedor-contumaz-lc-225-2026.webp",
-  link: "legislacao/pgfn-receita-federal-regulamentacao-devedor-contumaz-lc-225-2026.html",
-  date: "2026-03-17T07:00:00",
+  title: "SP Reestrutura Compliance Policial Após Escândalo",
+  description: "Governo de SP publica decreto de reestruturação do compliance das polícias após operação desvendar esquema de corrupção nas corporações",
+  description2: "Nova arquitetura de controle interno prevê canais de denúncia protegidos e auditorias sobre procedimentos sensíveis das forças policiais",
+  image: "img/sp-decreto-reestruturacao-compliance-policias-corrupcao-integridade.webp",
+  link: "compliance/sp-decreto-reestruturacao-compliance-policias-corrupcao-integridade.html",
+  date: "2026-03-18T07:00:00",
   section: "featured-secundario"
 },
 {
-  title: "Justiça Digital Sem Advogado no Rio",
-  description: "TJRJ lança plataforma para protocolo digital de petições nos juizados especiais sem necessidade de advogado",
-  description2: "Iniciativa democratiza o acesso à tutela jurisdicional cível no Estado do Rio de Janeiro",
-  image: "img/tjrj-peticao-cidada-juizados-especiais-civeis-online-sem-advogado.webp",
-  link: "direito-civil/tjrj-peticao-cidada-juizados-especiais-civeis-online-sem-advogado.html",
-  date: "2026-03-17T07:00:00",
+  title: "Holding Familiar e a Divisão do Patrimônio",
+  description: "A holding familiar transforma a partilha de bens em questão societária, com regras distintas para herança, divórcio e conflitos entre herdeiros cotistas",
+  description2: "Planejamento patrimonial exige atenção às mudanças tributárias da reforma e ao acordo de sócios para evitar conflitos sucessórios",
+  image: "img/holding-familiar-partilha-bens-sucessao-patrimonial-divorcio-heranca.webp",
+  link: "direito-de-familia/holding-familiar-partilha-bens-sucessao-patrimonial-divorcio-heranca.html",
+  date: "2026-03-18T07:00:00",
  section: "featured-terciario"
 },
   {
-   title: "ECA Digital Protege Crianças no Ambiente Virtual",
-   image: "img/eca-digital-vigor-marco-2026-protecao-criancas-adolescentes-internet.webp",
-  link: "direito-de-familia/eca-digital-vigor-marco-2026-protecao-criancas-adolescentes-internet.html",
-  date: "2026-03-17T07:00:00",
+  title: "Contraditório nas Cautelares Penais em Debate",
+  image: "img/medidas-cautelares-direito-contraditorio-processo-penal-garantias.webp",
+  link: "direito-penal/medidas-cautelares-direito-contraditorio-processo-penal-garantias.html",
+  date: "2026-03-18T07:00:00",
     section: "destaque"
   },
    {
-   title: "HC e Prisão Cautelar Sob Tensão Constitucional",
- image: "img/habeas-corpus-prisao-cautelar-vedacao-debate-fatico-assimetria-inconstitucional.webp",
-  link: "direito-penal/habeas-corpus-prisao-cautelar-vedacao-debate-fatico-assimetria-inconstitucional.html",
-  date: "2026-03-17T07:00:00",
+  title: "Risco Cirúrgico Não Gera Responsabilidade Automática",
+  image: "img/complicacao-pos-operatoria-responsabilidade-civil-medica-culpa-nexo-causal.webp",
+  link: "direito-civil/complicacao-pos-operatoria-responsabilidade-civil-medica-culpa-nexo-causal.html",
+  date: "2026-03-18T07:00:00",
     section: "destaque"
   },
   {
-    title: "Entre o Excesso e o Vazio do Compliance",
-  image: "img/overcompliance-compliance-zero-equilibrio-programas-integridade-empresas.webp",
-  link: "compliance/overcompliance-compliance-zero-equilibrio-programas-integridade-empresas.html",
-  date: "2026-03-17T07:00:00",
+      title: "Escala 6x1 Sob o Olhar da CLT",
+  image: "img/escala-6x1-clt-jornada-trabalho-legalidade-direitos-trabalhistas.webp",
+  link: "direito-trabalhista/escala-6x1-clt-jornada-trabalho-legalidade-direitos-trabalhistas.html",
+  date: "2026-03-18T07:00:00",
     section: "destaque"
   },
   {
    
-  title: "STF Abre Acordo Penal à Justiça Militar",
-  image: "img/stf-anpp-acordo-nao-persecucao-penal-justica-militar-crime-militar.webp",
-  link: "direito-militar/stf-anpp-acordo-nao-persecucao-penal-justica-militar-crime-militar.html",
-  date: "2026-03-17T07:00:00",
+  title: "Justiça Militar Condena PMs no Amapá",
+  image: "img/justica-militar-amapa-condenacao-policiais-militares-macapa.webp",
+  link: "direito-militar/justica-militar-amapa-condenacao-policiais-militares-macapa.html",
+  date: "2026-03-18T07:00:00",
     section: "veja"
   },
   {
-  title: "Insalubridade Para Motoboys a Partir de Abril",
-  image: "img/insalubridade-motoboys-entregadores-abril-2026-direitos-trabalhistas.webp",
-  link: "direito-trabalhista/insalubridade-motoboys-entregadores-abril-2026-direitos-trabalhistas.html",
-  date: "2026-03-17T07:00:00",
+  title: "STF Recebe Obra Sobre Direitos Humanos Interamericanos",
+  image: "img/stf-lancamento-livro-jurisprudencia-corte-interamericana-direitos-humanos.webp",
+  link: "jurisprudencia/stf-lancamento-livro-jurisprudencia-corte-interamericana-direitos-humanos.html",
+  date: "2026-03-18T07:00:00",
     section: "veja"
   },
   {
-  title: "Senado Guia Mulheres Para a Política",
-  image: "img/senado-guia-candidata-mulheres-politica-representatividade-cotas-genero.webp",
-  link: "politica/senado-guia-candidata-mulheres-politica-representatividade-cotas-genero.html",
-  date: "2026-03-17T07:00:00",
+  title: "Amazonas Avança na Lei Climática Estadual",
+  image: "img/amazonas-legislacao-ambiental-mudancas-climaticas-assembleia-legislativa.webp",
+  link: "legislacao/amazonas-legislacao-ambiental-mudancas-climaticas-assembleia-legislativa.html",
+  date: "2026-03-18T07:00:00",
     section: "veja"
   }
 ];

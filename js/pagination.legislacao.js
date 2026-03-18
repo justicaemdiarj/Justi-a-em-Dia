@@ -1,5 +1,15 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
+    {
+    title: "Amazonas Avança na Lei Climática Estadual",
+    date: "18/03/2026",
+    timestamp: "2026-03-18T07:00:00",
+    image: "../img/amazonas-legislacao-ambiental-mudancas-climaticas-assembleia-legislativa.webp",
+    excerpt: "Assembleia reforça normas ambientais para proteger a floresta.",
+    link: "../legislacao/amazonas-legislacao-ambiental-mudancas-climaticas-assembleia-legislativa.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 
 {
     title: "PGFN e Receita Regulam o Devedor Contumaz",

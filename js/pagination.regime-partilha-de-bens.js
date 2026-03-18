@@ -1,5 +1,15 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
+        {
+    title: "Holding Familiar e a Divisão do Patrimônio",
+    date: "18/03/2026",
+    timestamp: "2026-03-18T07:00:00",
+    image: "../img/holding-familiar-partilha-bens-sucessao-patrimonial-divorcio-heranca.webp",
+    excerpt: "Estrutura societária transforma a lógica da partilha hereditária.",
+    link: "../direito-de-familia/holding-familiar-partilha-bens-sucessao-patrimonial-divorcio-heranca.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 {
         title: "STJ Garante Dividendos ao Ex-Cônjuge Até Partilha Final",
         date: "13/03/2026",

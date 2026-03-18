@@ -1,6 +1,16 @@
 // Dados de notícias para Política
 const categoryNewsData = [
     {
+    title: "PL Quer Pragmatismo Para Vencer em 2026",
+    date: "18/03/2026",
+    timestamp: "2026-03-18T07:00:00",
+    image: "../img/pl-pragmatismo-agenda-eleicoes-2026-estrategia-eleitoral-oposicao.webp",
+    excerpt: "Oposição reconhece que radicalismo afasta eleitores decisivos.",
+    link: "../politica/pl-pragmatismo-agenda-eleicoes-2026-estrategia-eleitoral-oposicao.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Senado Guia Mulheres Para a Política",
     date: "17/03/2026",
     timestamp: "2026-03-17T07:00:00",

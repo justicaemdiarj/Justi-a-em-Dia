@@ -222,7 +222,7 @@ function bannerAtivo(banner){
 
   return `
   <div class="banner-middle">
-    <a href="${banner.link}" target="_blank">
+    <a href="${banner.link}" target="_blank" rel="nofollow>
       <img src="${banner.image}" alt="Publicidade">
     </a>
   </div>
@@ -686,16 +686,16 @@ if (footerSections.length >= 3) {
     if (socialContainer) {
         let socialLinksHTML = '';
         if (!isEmpty(siteConfig.social.facebook)) {
-            socialLinksHTML += `<a href="${siteConfig.social.facebook}" target="_blank" rel="noopener noreferrer" title="Facebook" class="social-link"><i class="fab fa-facebook-f"></i></a>`;
+            socialLinksHTML += `<a href="${siteConfig.social.facebook}" target="_blank" rel="noopener noreferrer nofollow" title="Facebook" class="social-link"><i class="fab fa-facebook-f"></i></a>`;
         }
         if (!isEmpty(siteConfig.social.instagram)) {
-            socialLinksHTML += `<a href="${siteConfig.social.instagram}" target="_blank" rel="noopener noreferrer" title="Instagram" class="social-link"><i class="fab fa-instagram"></i></a>`;
+            socialLinksHTML += `<a href="${siteConfig.social.instagram}" target="_blank" rel="noopener noreferrer nofollow" title="Instagram" class="social-link"><i class="fab fa-instagram"></i></a>`;
         }
         if (!isEmpty(siteConfig.social.twitter)) {
-            socialLinksHTML += `<a href="${siteConfig.social.twitter}" target="_blank" rel="noopener noreferrer" title="Twitter" class="social-link"><i class="fab fa-x-twitter"></i></a>`;
+            socialLinksHTML += `<a href="${siteConfig.social.twitter}" target="_blank" rel="noopener noreferrer nofollow" title="Twitter" class="social-link"><i class="fab fa-x-twitter"></i></a>`;
         }
         if (!isEmpty(siteConfig.social.linkedin)) {
-            socialLinksHTML += `<a href="${siteConfig.social.linkedin}" target="_blank" rel="noopener noreferrer" title="LinkedIn" class="social-link"><i class="fab fa-linkedin-in"></i></a>`;
+            socialLinksHTML += `<a href="${siteConfig.social.linkedin}" target="_blank" rel="noopener noreferrer nofollow" title="LinkedIn" class="social-link"><i class="fab fa-linkedin-in"></i></a>`;
         }
         
         if (socialLinksHTML !== '') {
@@ -733,7 +733,7 @@ if (footerSections.length >= 3) {
                 const a = document.createElement('a');
                 a.href = banner.link;
                 a.target = '_blank';
-                a.rel = 'noopener noreferrer';
+                a.rel = 'noopener noreferrer nofollow';
                 a.className = 'programmatic-banner';
                 a.style.display = index === currentIndex ? 'block' : 'none';
                 a.style.transition = 'opacity 0.5s ease-in-out';
@@ -787,7 +787,7 @@ if (footerSections.length >= 3) {
                 if (supLink.startsWith('apoiadores/')) supLink = '../' + supLink;
             }
             supportersHtml += `
-                <a href="${supLink}" class="supporter-item">
+                <a href="${supLink}" class="supporter-item" rel="nofollow">
                     <img src="${logoPath}" alt="${sup.name}" title="${sup.name}">
                 </a>
             `;
@@ -953,7 +953,7 @@ function injectPostContentBanners() {
         const bannerHtml = `
             <div class="dynamic-post-banner" style="margin: 30px 0; text-align: center;">
                 <p style="font-size: 10px; color: #999; margin-bottom: 5px; text-transform: uppercase;">Publicidade</p>
-                <a href="${banner.link}" target="_blank">
+                <a href="${banner.link}" target="_blank" rel="nofollow">
                     <img src="${imgSrc}" alt="${banner.name}" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
                 </a>
             </div>
@@ -995,7 +995,7 @@ document.querySelector('aside');
         const bannerHtml = `
         <div class="dynamic-sidebar-banner" style="margin-bottom:20px;text-align:center;">
             <p style="font-size:10px;color:#999;margin-bottom:5px;text-transform:uppercase;">Publicidade</p>
-            <a href="${siteConfig.sidebarTopBanner.link}" target="_blank">
+            <a href="${siteConfig.sidebarTopBanner.link}" target="_blank" rel="nofollow">
                 <img src="${imgSrc}" alt="${siteConfig.sidebarTopBanner.name}" style="width:100%;border-radius:12px;">
             </a>
         </div>

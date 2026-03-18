@@ -1,6 +1,15 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
- 
+     {
+    title: "Contraditório nas Cautelares Penais em Debate",
+    date: "18/03/2026",
+    timestamp: "2026-03-18T07:00:00",
+    image: "../img/medidas-cautelares-direito-contraditorio-processo-penal-garantias.webp",
+    excerpt: "Garantia constitucional colide com urgência das restrições penais.",
+    link: "../direito-penal/medidas-cautelares-direito-contraditorio-processo-penal-garantias.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
  {
     title: "HC e Prisão Cautelar Sob Tensão Constitucional",
     date: "17/03/2026",

@@ -1,6 +1,76 @@
 // Base de dados global de artigos para busca
 const allArticles = [
     {
+    title: 'Compliance Como Barreira Contra Fraudes Corporativas',
+    description: 'O compliance antifrude é instrumento estratégico essencial para proteger organizações de desvios internos, integrando controles, cultura de integridade e tecnologia para reduzir perdas financeiras e exposição jurídica.',
+    category: 'Compliance',
+    url: 'compliance/compliance-prevencao-fraude-controles-internos-governanca-corporativa.html',
+    tags: ['compliance antifrude', 'prevenção de fraude', 'controles internos', 'programa de integridade', 'Compliance Como Barreira Contra Fraudes Corporativas']
+},
+    {
+    title: 'Justiça Militar Condena PMs no Amapá',
+    description: 'A Justiça Militar do Amapá condenou dois policiais militares em Macapá, reacendendo o debate sobre a efetividade do foro castrense estadual na responsabilização de agentes de segurança pública por crimes militares.',
+    category: 'Direito Militar',
+    url: 'direito-militar/justica-militar-amapa-condenacao-policiais-militares-macapa.html',
+    tags: ['Justiça Militar Amapá', 'policiais militares condenados', 'crime militar', 'foro castrense', 'Justiça Militar Condena PMs no Amapá']
+},
+    {
+    title: 'Amazonas Avança na Lei Climática Estadual',
+    description: 'A Assembleia Legislativa do Amazonas aprova medidas que fortalecem a legislação ambiental estadual e ampliam os instrumentos jurídicos de enfrentamento às mudanças climáticas na maior extensão florestal do planeta.',
+    category: 'Legislação',
+    url: 'legislacao/amazonas-legislacao-ambiental-mudancas-climaticas-assembleia-legislativa.html',
+    tags: ['legislação ambiental Amazonas', 'mudanças climáticas', 'Amazônia', 'direito ambiental', 'Amazonas Avança na Lei Climática Estadual']
+},
+    {
+    title: 'STF Recebe Obra Sobre Direitos Humanos Interamericanos',
+    description: 'Lançamento no STF de obra que sistematiza a jurisprudência da Corte Interamericana de Direitos Humanos reforça o compromisso do Judiciário brasileiro com o controle de convencionalidade e a integração dos precedentes internacionais.',
+    category: 'Jurisprudência',
+    url: 'jurisprudencia/stf-lancamento-livro-jurisprudencia-corte-interamericana-direitos-humanos.html',
+    tags: ['Corte Interamericana', 'jurisprudência interamericana', 'STF', 'controle de convencionalidade', 'STF Recebe Obra Sobre Direitos Humanos Interamericanos']
+},
+    {
+    title: 'Contraditório nas Cautelares Penais em Debate',
+    description: 'A tensão entre a urgência das medidas cautelares penais e o direito constitucional ao contraditório expõe o conflito entre efetividade da persecução penal e garantias fundamentais do investigado no processo penal brasileiro.',
+    category: 'Direito Criminal',
+    url: 'direito-penal/medidas-cautelares-direito-contraditorio-processo-penal-garantias.html',
+    tags: ['medidas cautelares', 'contraditório', 'processo penal', 'garantias processuais', 'Contraditório nas Cautelares Penais em Debate']
+},
+    {
+    title: 'Risco Cirúrgico Não Gera Responsabilidade Automática',
+    description: 'Complicações pós-operatórias não configuram responsabilidade civil objetiva do médico, sendo necessária a demonstração de culpa, dano e nexo causal para o reconhecimento do dever de indenizar.',
+    category: 'Direito Civil',
+    url: 'direito-civil/complicacao-pos-operatoria-responsabilidade-civil-medica-culpa-nexo-causal.html',
+    tags: ['responsabilidade civil médica', 'complicação pós-operatória', 'obrigação de meio', 'culpa médica', 'Risco Cirúrgico Não Gera Responsabilidade Automática']
+},
+    {
+    title: 'Escala 6x1 Sob o Olhar da CLT',
+    description: 'A escala 6x1 é permitida pela CLT, mas exige pagamento de horas extras e garantia de descanso semanal remunerado que frequentemente são descumpridos, gerando passivos trabalhistas expressivos.',
+    category: 'Direito Trabalhista',
+    url: 'direito-trabalhista/escala-6x1-clt-jornada-trabalho-legalidade-direitos-trabalhistas.html',
+    tags: ['escala 6x1', 'jornada de trabalho', 'CLT', 'horas extras', 'Escala 6x1 Sob o Olhar da CLT']
+},
+    {
+    title: 'Holding Familiar e a Divisão do Patrimônio',
+    description: 'A holding familiar transforma a lógica da partilha de bens, deslocando o conflito do direito das sucessões para o direito societário e exigindo planejamento jurídico cuidadoso em casos de herança, divórcio e conflitos entre herdeiros.',
+    category: 'Direito de Família',
+    url: 'direito-de-familia/holding-familiar-partilha-bens-sucessao-patrimonial-divorcio-heranca.html',
+    tags: ['holding familiar', 'partilha de bens', 'planejamento sucessório', 'divórcio holding', 'Holding Familiar e a Divisão do Patrimônio']
+},
+    {
+    title: 'SP Reestrutura Compliance Policial Após Escândalo',
+    description: 'O governo de São Paulo publicou decreto que reorganiza o compliance das polícias após operação revelar esquema de corrupção sistêmica nas corporações, criando novos mecanismos de controle interno e integridade institucional.',
+    category: 'Compliance',
+    url: 'compliance/sp-decreto-reestruturacao-compliance-policias-corrupcao-integridade.html',
+    tags: ['compliance policial', 'corrupção polícia SP', 'decreto São Paulo', 'integridade policial', 'SP Reestrutura Compliance Policial Após Escândalo']
+},
+    {
+    title: 'PL Quer Pragmatismo Para Vencer em 2026',
+    description: 'A liderança do Partido Liberal admite que a vitória em 2026 exige agenda propositiva voltada ao cotidiano do eleitor, reconhecendo que o confronto radical desgastou a base e afasta o centro eleitoral decisivo.',
+    category: 'Política',
+    url: 'politica/pl-pragmatismo-agenda-eleicoes-2026-estrategia-eleitoral-oposicao.html',
+    tags: ['PL 2026', 'eleições 2026', 'Partido Liberal', 'estratégia eleitoral', 'PL Quer Pragmatismo Para Vencer em 2026']
+},
+    {
     title: 'Senado Guia Mulheres Para a Política',
     description: 'O Senado Federal lançou publicação para orientar mulheres no ingresso à vida política, abordando legislação eleitoral, cotas de gênero, fundo eleitoral e combate à violência política de gênero.',
     category: 'Política',
