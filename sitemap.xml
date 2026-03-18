@@ -583,18 +583,6 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://www.justicaemdia.com.br/vagas/index.html</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://www.justicaemdia.com.br/vagas/vaga-juridica.html</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
         <loc>https://www.justicaemdia.com.br/vinculo-empregaticio/index.html</loc>
         <lastmod>2026-03-02</lastmod>
         <changefreq>always</changefreq>
@@ -1333,9 +1321,69 @@
         <changefreq>always</changefreq>
         <priority>1.0</priority>
     </url>
-            <url>
+        <url>
         <loc>https://www.justicaemdia.com.br/politica/senado-guia-candidata-mulheres-politica-representatividade-cotas-genero.html</loc>
         <lastmod>2026-03-17</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc>https://www.justicaemdia.com.br/politica/pl-pragmatismo-agenda-eleicoes-2026-estrategia-eleitoral-oposicao.html</loc>
+        <lastmod>2026-03-18</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc>https://www.justicaemdia.com.br/compliance/sp-decreto-reestruturacao-compliance-policias-corrupcao-integridade.html</loc>
+        <lastmod>2026-03-18</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc>https://www.justicaemdia.com.br/direito-de-familia/holding-familiar-partilha-bens-sucessao-patrimonial-divorcio-heranca.html</loc>
+        <lastmod>2026-03-18</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc>https://www.justicaemdia.com.br/direito-trabalhista/escala-6x1-clt-jornada-trabalho-legalidade-direitos-trabalhistas.html</loc>
+        <lastmod>2026-03-18</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc>https://www.justicaemdia.com.br/direito-civil/complicacao-pos-operatoria-responsabilidade-civil-medica-culpa-nexo-causal.html</loc>
+        <lastmod>2026-03-18</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc>https://www.justicaemdia.com.br/direito-penal/medidas-cautelares-direito-contraditorio-processo-penal-garantias.html</loc>
+        <lastmod>2026-03-18</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc>https://www.justicaemdia.com.br/jurisprudencia/stf-lancamento-livro-jurisprudencia-corte-interamericana-direitos-humanos.html</loc>
+        <lastmod>2026-03-18</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc>https://www.justicaemdia.com.br/legislacao/amazonas-legislacao-ambiental-mudancas-climaticas-assembleia-legislativa.html</loc>
+        <lastmod>2026-03-18</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc>https://www.justicaemdia.com.br/direito-militar/justica-militar-amapa-condenacao-policiais-militares-macapa.html</loc>
+        <lastmod>2026-03-18</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+            <url>
+        <loc>https://www.justicaemdia.com.br/compliance/compliance-prevencao-fraude-controles-internos-governanca-corporativa.htmlw</loc>
+        <lastmod>2026-03-19</lastmod>
         <changefreq>always</changefreq>
         <priority>1.0</priority>
     </url>

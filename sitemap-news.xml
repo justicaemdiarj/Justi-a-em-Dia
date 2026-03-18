@@ -595,17 +595,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.justicaemdia.com.br/vagas/vaga-juridica.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Justiça em Dia</news:name>
-        <news:language>pt</news:language>
-      </news:publication>
-      <news:publication_date>2026-03-02T07:00:00-03:00</news:publication_date>
-      <news:title>Vaga juridica</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.justicaemdia.com.br/direito-civil/a-cadeira-que-virou-acordo.html</loc>
     <news:news>
       <news:publication>
@@ -1923,6 +1912,116 @@
     </news:publication>
     <news:publication_date>2026-03-17T08:00:00-03:00</news:publication_date>
     <news:title>Senado Guia Mulheres Para a Política</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/politica/pl-pragmatismo-agenda-eleicoes-2026-estrategia-eleitoral-oposicao.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-03-18T07:00:00-03:00</news:publication_date>
+    <news:title>PL Quer Pragmatismo Para Vencer em 2026</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/compliance/sp-decreto-reestruturacao-compliance-policias-corrupcao-integridade.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-03-18T07:00:00-03:00</news:publication_date>
+    <news:title>SP Reestrutura Compliance Policial Após Escândalo</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-de-familia/holding-familiar-partilha-bens-sucessao-patrimonial-divorcio-heranca.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-03-18T07:00:00-03:00</news:publication_date>
+    <news:title>Holding Familiar e a Divisão do Patrimônio</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-trabalhista/escala-6x1-clt-jornada-trabalho-legalidade-direitos-trabalhistas.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-03-18T07:00:00-03:00</news:publication_date>
+    <news:title>Escala 6x1 Sob o Olhar da CLT</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-civil/complicacao-pos-operatoria-responsabilidade-civil-medica-culpa-nexo-causal.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-03-18T07:00:00-03:00</news:publication_date>
+    <news:title>Risco Cirúrgico Não Gera Responsabilidade Automática</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-penal/medidas-cautelares-direito-contraditorio-processo-penal-garantias.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-03-18T07:00:00-03:00</news:publication_date>
+    <news:title>Contraditório nas Cautelares Penais em Debate</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/jurisprudencia/stf-lancamento-livro-jurisprudencia-corte-interamericana-direitos-humanos.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-03-18T07:00:00-03:00</news:publication_date>
+    <news:title>STF Recebe Obra Sobre Direitos Humanos Interamericanos</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/legislacao/amazonas-legislacao-ambiental-mudancas-climaticas-assembleia-legislativa.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-03-18T07:00:00-03:00</news:publication_date>
+    <news:title>Amazonas Avança na Lei Climática Estadual</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-militar/justica-militar-amapa-condenacao-policiais-militares-macapa.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-03-18T07:00:00-03:00</news:publication_date>
+    <news:title>Justiça Militar Condena PMs no Amapá</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/compliance/compliance-prevencao-fraude-controles-internos-governanca-corporativa.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-03-18T07:00:00-03:00</news:publication_date>
+    <news:title>Compliance Como Barreira Contra Fraudes Corporativas</news:title>
   </news:news>
 </url>
 </urlset>
