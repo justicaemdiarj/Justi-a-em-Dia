@@ -323,36 +323,30 @@ function renderNews(page) {
         const timeDisplay = getRelativeTime(item.timestamp, item.date);
         
 if (index === 3) {
-
     const bannerDiv = document.createElement('div');
     bannerDiv.className = 'banner-wrapper-full';
 
     newsContainer.appendChild(bannerDiv);
 
-    // 🔥 HTML FIXO (2 imagens sobrepostas)
-    bannerDiv.innerHTML = `
-        <div style="margin: 30px 0; text-align: center;">
-            <p style="font-size: 10px; color: #999; margin-bottom: 5px;">PUBLICIDADE</p>
+    // HTML fixo (NÃO recria mais)
+bannerDiv.innerHTML = `
+    <div style="margin: 30px 0; text-align: center;">
+        <p style="font-size: 10px; color: #999; margin-bottom: 5px;">PUBLICIDADE</p>
 
-            <a id="bannerLink" href="#" target="_blank" rel="nofollow" 
-               style="position: relative; display: block;">
+        <a id="bannerLink" href="#" target="_blank" rel="nofollow" style="position: relative; display: block;">
+            
+            <img id="bannerImg1" src="" 
+                style="width:100%; border-radius:8px; position:absolute; top:0; left:0; opacity:1; transition: opacity 0.8s ease;">
+            
+            <img id="bannerImg2" src="" 
+                style="width:100%; border-radius:8px; position:absolute; top:0; left:0; opacity:0; transition: opacity 0.8s ease;">
+        
+        </a>
+    </div>
+`;
 
-                <img id="bannerImg1"
-                     style="width:100%; border-radius:8px; position:absolute; top:0; left:0; opacity:1; transition: opacity 0.8s ease;">
-
-                <img id="bannerImg2"
-                     style="width:100%; border-radius:8px; position:absolute; top:0; left:0; opacity:0; transition: opacity 0.8s ease;">
-
-            </a>
-        </div>
-    `;
-
-    // 🔥 AQUI é onde entra o código que você mandou
-    const img1 = bannerDiv.querySelector('#bannerImg1');
-    const img2 = bannerDiv.querySelector('#bannerImg2');
+    const img = bannerDiv.querySelector('#bannerImg');
     const link = bannerDiv.querySelector('#bannerLink');
-
-    let showingFirst = true;
 
     function renderRandomBanner() {
 
@@ -375,23 +369,24 @@ if (index === 3) {
             imgPath = prefix + imgPath;
         }
 
-        const nextImg = showingFirst ? img2 : img1;
-        const currentImg = showingFirst ? img1 : img2;
+        // 🔥 FADE OUT
+        img.style.opacity = '0';
 
-        nextImg.src = imgPath;
-        link.href = banner.link;
+        setTimeout(() => {
+            // troca conteúdo sem recriar DOM
+            img.src = imgPath;
+            link.href = banner.link;
 
-        nextImg.style.opacity = '1';
-        currentImg.style.opacity = '0';
-
-        showingFirst = !showingFirst;
+            // 🔥 FADE IN
+            img.style.opacity = '1';
+        }, 300);
     }
 
-    // 🔥 PRIMEIRO BANNER
+    // primeira carga
     renderRandomBanner();
 
-    // 🔁 TROCA AUTOMÁTICA
-    setInterval(renderRandomBanner, 6000);
+    // troca automática (agora suave)
+    setInterval(renderRandomBanner, 5000);
 }
 
         const shareHtml = typeof getShareButtonsHtml === 'function' ? getShareButtonsHtml(item.title, item.link) : '';
