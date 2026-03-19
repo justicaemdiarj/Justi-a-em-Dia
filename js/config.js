@@ -171,14 +171,6 @@ siteConfig.postContentBanners = [
         pages: ["compliance/compliance-prevencao-fraude-controles-internos-governanca-corporativa.html","direito-de-familia/litigancia-predatoria-familia-judiciario-instrumento-opressao.html","compliance/secretaria-cultura-cuiaba-compliance-integridade-administracao-publica-municipal.html","direito-de-familia/divorce-extrajudicial-consensual-litigious-differences.html","direito-de-familia/divorcio-extrajudicial-consensual-litigioso-diferencas.html","compliance/banco-master-compliance-gestao-fraudulenta-temeraria-limites-governanca.html","compliance/o-escudo-que-o-poder-tenta-dobrar.html","compliance/quem-audita-os-auditores.html","direito-de-familia/como-comprovar-uniao-estavel.html"],
         position: 6    // Inserir após o 6º parágrafo
     },
-    /*{
-        name: "Apoiador Objetiva Labs",
-        img: "img/banner-apoiadores/objetiva-labs-banner-desktop-1.png",
-        link: "https://www.objetivalabs.com.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario",
-        pages: "full",
-        position: 6    // Inserir após o 6º parágrafo
-    }*/
-
 
 ];
 

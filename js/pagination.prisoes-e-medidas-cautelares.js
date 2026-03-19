@@ -133,41 +133,66 @@ if (index === 3) {
 
     newsContainer.appendChild(bannerDiv);
 
+    // HTML fixo (NÃO recria mais)
+    bannerDiv.innerHTML = `
+        <div style="margin: 30px 0; text-align: center;">
+            <p style="font-size: 10px; color: #999; margin-bottom: 5px;">PUBLICIDADE</p>
+            <a id="bannerLink" href="#" target="_blank" rel="nofollow">
+                <img id="bannerImg" src="" style="max-width:100%; border-radius:8px; transition: opacity 0.5s;">
+            </a>
+        </div>
+    `;
+
+    const img = bannerDiv.querySelector('#bannerImg');
+    const link = bannerDiv.querySelector('#bannerLink');
+
     function renderRandomBanner() {
 
-        const isMobile = window.innerWidth <= 768;
+    const isMobile = window.innerWidth <= 768;
 
-        const banners = isMobile 
-            ? siteConfig.banners.mobile 
-            : siteConfig.banners.desktop;
+    const banners = isMobile 
+        ? siteConfig.banners.mobile 
+        : siteConfig.banners.desktop;
 
-        const activeBanners = banners.filter(isBannerActiveJS);
+    const activeBanners = banners.filter(isBannerActiveJS);
+    if (!activeBanners.length) return;
 
-        if (!activeBanners.length) return;
+    const banner = activeBanners[
+        Math.floor(Math.random() * activeBanners.length)
+    ];
 
-        const banner = activeBanners[
-            Math.floor(Math.random() * activeBanners.length)
-        ];
+    let imgPath = banner.img;
 
-        let imgPath = banner.img;
-
-        if (!imgPath.startsWith('http')) {
-            imgPath = prefix + imgPath;
-        }
-
-        bannerDiv.innerHTML = `
-            <div style="margin: 30px 0; text-align: center;">
-                <p style="font-size: 10px; color: #999; margin-bottom: 5px;">PUBLICIDADE</p>
-                <a href="${banner.link}" target="_blank" rel="nofollow">
-                    <img src="${imgPath}" style="max-width:100%; border-radius:8px;">
-                </a>
-            </div>
-        `;
+    if (!imgPath.startsWith('http')) {
+        imgPath = prefix + imgPath;
     }
 
+    // 🔥 PRÉ-CARREGA a imagem antes de trocar
+    const newImg = new Image();
+    newImg.src = imgPath;
+
+    newImg.onload = () => {
+
+        // fade out suave
+        img.style.opacity = '0';
+
+        setTimeout(() => {
+
+            // troca só depois que carregou
+            img.src = imgPath;
+            link.href = banner.link;
+
+            // fade in suave
+            img.style.opacity = '1';
+
+        }, 400); // tempo alinhado com transição
+    };
+}
+    // primeira carga
     renderRandomBanner();
 
-    setInterval(renderRandomBanner, 2000);
+    // troca automática (agora suave)
+    setInterval(renderRandomBanner, 5000);
 }
 
         const shareHtml = typeof getShareButtonsHtml === 'function' ? getShareButtonsHtml(item.title, item.link) : '';

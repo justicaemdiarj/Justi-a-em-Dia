@@ -1,6 +1,6 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
-    {
+   /* {
     title: "Garantias Locatícias sob Escrutínio Jurídico no Brasil",
     date: "20/03/2026",
     timestamp: "2026-03-20T07:00:00",
@@ -10,7 +10,7 @@ const categoryNewsData = [
     categoria: "direito-civil",
     author: "Justiça em Dia",
     authorLink: "#"
-},
+},*/
     {
     title: "Tokens Imobiliários e o Fólio Real Brasileiro",
     date: "19/03/2026",
