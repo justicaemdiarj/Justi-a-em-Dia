@@ -328,6 +328,19 @@ if (index === 3) {
 
     newsContainer.appendChild(bannerDiv);
 
+    // HTML fixo (NÃO recria mais)
+    bannerDiv.innerHTML = `
+        <div style="margin: 30px 0; text-align: center;">
+            <p style="font-size: 10px; color: #999; margin-bottom: 5px;">PUBLICIDADE</p>
+            <a id="bannerLink" href="#" target="_blank" rel="nofollow">
+                <img id="bannerImg" src="" style="max-width:100%; border-radius:8px; transition: opacity 0.5s;">
+            </a>
+        </div>
+    `;
+
+    const img = bannerDiv.querySelector('#bannerImg');
+    const link = bannerDiv.querySelector('#bannerLink');
+
     function renderRandomBanner() {
 
         const isMobile = window.innerWidth <= 768;
@@ -337,7 +350,6 @@ if (index === 3) {
             : siteConfig.banners.desktop;
 
         const activeBanners = banners.filter(isBannerActiveJS);
-
         if (!activeBanners.length) return;
 
         const banner = activeBanners[
@@ -350,19 +362,24 @@ if (index === 3) {
             imgPath = prefix + imgPath;
         }
 
-        bannerDiv.innerHTML = `
-            <div style="margin: 30px 0; text-align: center;">
-                <p style="font-size: 10px; color: #999; margin-bottom: 5px;">PUBLICIDADE</p>
-                <a href="${banner.link}" target="_blank" rel="nofollow">
-                    <img src="${imgPath}" style="max-width:100%; border-radius:8px;">
-                </a>
-            </div>
-        `;
+        // 🔥 FADE OUT
+        img.style.opacity = '0';
+
+        setTimeout(() => {
+            // troca conteúdo sem recriar DOM
+            img.src = imgPath;
+            link.href = banner.link;
+
+            // 🔥 FADE IN
+            img.style.opacity = '1';
+        }, 300);
     }
 
+    // primeira carga
     renderRandomBanner();
 
-    setInterval(renderRandomBanner, 4000);
+    // troca automática (agora suave)
+    setInterval(renderRandomBanner, 5000);
 }
 
         const shareHtml = typeof getShareButtonsHtml === 'function' ? getShareButtonsHtml(item.title, item.link) : '';
