@@ -2,12 +2,12 @@ const posts = [
   
 {
   
-    title: "Garantias Locatícias sob Escrutínio Jurídico no Brasil",
-    description: "A escolha da garantia locatícia adequada impacta diretamente a segurança jurídica dos contratos de locação no Brasil",
-    description2: "Seguro-fiança e título de capitalização ganham espaço frente ao fiador e à caução tradicionais",
-    image: "img/garantias-locaticias-escrutinio-juridico-brasil.webp",
-    link: "direito-civil/garantias-locaticias-escrutinio-juridico-brasil.html",
-    date: "2026-03-20T07:00:00",
+  title: "Compliance Como Barreira Contra Fraudes Corporativas",
+  description: "O compliance antifrude integra controles internos, cultura de integridade e tecnologia para proteger organizações das fraudes que custam trilhões ao mercado global",
+  description2: "Programa de prevenção efetivo reduz janela de oportunidade, limita exposição jurídica e fortalece a sustentabilidade das organizações",
+  image: "img/compliance-prevencao-fraude-controles-internos-governanca-corporativa.webp",
+  link: "compliance/compliance-prevencao-fraude-controles-internos-governanca-corporativa.html",
+  date: "2026-03-19T07:00:00",
   section: "featured"
 },
   {
@@ -129,6 +129,7 @@ container.innerHTML += `
       <div class="linha-divisoria"></div>
 `;
 
+container.innerHTML += renderBanner("antes-destaques");
 
 /* ===== DESTAQUES ===== */
 
@@ -194,6 +195,8 @@ if(featuredSecondary){
     <div class="linha-divisoria"></div>
   `;
 }
+
+container.innerHTML += renderBanner("depois-destaques");
 
 /* ===== FEATURED TERCIÁRIO ===== */
 
