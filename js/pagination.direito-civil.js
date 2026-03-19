@@ -343,38 +343,46 @@ if (index === 3) {
 
     function renderRandomBanner() {
 
-        const isMobile = window.innerWidth <= 768;
+    const isMobile = window.innerWidth <= 768;
 
-        const banners = isMobile 
-            ? siteConfig.banners.mobile 
-            : siteConfig.banners.desktop;
+    const banners = isMobile 
+        ? siteConfig.banners.mobile 
+        : siteConfig.banners.desktop;
 
-        const activeBanners = banners.filter(isBannerActiveJS);
-        if (!activeBanners.length) return;
+    const activeBanners = banners.filter(isBannerActiveJS);
+    if (!activeBanners.length) return;
 
-        const banner = activeBanners[
-            Math.floor(Math.random() * activeBanners.length)
-        ];
+    const banner = activeBanners[
+        Math.floor(Math.random() * activeBanners.length)
+    ];
 
-        let imgPath = banner.img;
+    let imgPath = banner.img;
 
-        if (!imgPath.startsWith('http')) {
-            imgPath = prefix + imgPath;
-        }
+    if (!imgPath.startsWith('http')) {
+        imgPath = prefix + imgPath;
+    }
 
-        // 🔥 FADE OUT
+    // 🔥 PRÉ-CARREGA a imagem antes de trocar
+    const newImg = new Image();
+    newImg.src = imgPath;
+
+    newImg.onload = () => {
+
+        // fade out suave
         img.style.opacity = '0';
 
         setTimeout(() => {
-            // troca conteúdo sem recriar DOM
+
+            // troca só depois que carregou
             img.src = imgPath;
             link.href = banner.link;
 
-            // 🔥 FADE IN
+            // fade in suave
             img.style.opacity = '1';
-        }, 300);
-    }
 
+        }, 400); // tempo alinhado com transição
+    };
+}
     // primeira carga
     renderRandomBanner();
 
