@@ -3630,29 +3630,192 @@ img {
     color: #fff;
 }
 
-/* Ajustes para Mobile */
 @media (max-width: 600px) {
-    .supporter-content {
-        flex-direction: column;
-        text-align: center;
-        gap: 15px;
+
+    .supporter-card-horizontal {
+        padding: 15px;
     }
-    
+
+
+    .supporter-top {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 12px;
+    }
+
+    /* imagem menor */
     .supporter-avatar {
-        width: 90px;
-        height: 90px;
+        width: 95px;
+        height: 95px;
+        border-radius: 10px;
     }
-    
+
+    /* infos ao lado */
+    .supporter-info {
+        flex: 1;
+        text-align: left;
+    }
+
+    .supporter-name {
+        font-size: 1rem;
+        margin-bottom: 4px;
+    }
+
+    .supporter-specialty {
+        font-size: 0.85rem;
+        line-height: 1.3;
+    }
+
+    .supporter-oab {
+        font-size: 0.75rem;
+    }
+
+
     .supporter-action {
         width: 100%;
+        margin-top: 12px;
     }
-    
+
     .btn-view-profile {
         width: 100%;
-        box-sizing: border-box;
+        display: block;
+        text-align: center;
+        padding: 11px;
     }
-    
+    .btn-view-profile:hover{
+        background: #a12136;
+    }
+}
+
+@media (max-width: 600px) {
+    .supporter-top {
+        flex-direction: row !important;
+    }
+}
+
+@media (max-width: 600px) {
+
+  
     .supporter-card-horizontal {
-        padding: 25px 15px 20px 15px;
+        display: grid !important;
+        grid-template-columns: 70px 1fr;
+        grid-template-areas:
+            "avatar info"
+            "button button";
+        gap: 10px 12px;
+        align-items: center;
+        padding: 15px;
     }
+
+    .supporter-avatar-wrapper {
+        grid-area: avatar;
+    }
+
+
+
+    .supporter-info {
+        grid-area: info;
+        text-align: left !important;
+    }
+
+    .supporter-name {
+        font-size: 1rem;
+        margin: 0 0 4px 0;
+    }
+
+    .supporter-specialty {
+        font-size: 0.85rem;
+        line-height: 1.3;
+    }
+
+    .supporter-oab {
+        font-size: 0.75rem;
+    }
+
+
+    .supporter-action {
+        grid-area: button;
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .btn-view-profile {
+        width: 100%;
+        display: block;
+        text-align: center;
+        padding: 12px;
+    }
+
+  
+    .supporter-top {
+        display: contents !important;
+    }
+}
+
+.supporter-name {
+    white-space: nowrap;
+}
+.supporter-top {
+    display: flex !important;
+}
+
+.btn-view-profile {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(196, 30, 58, 0.25);
+    transition: all 0.3s ease;
+}
+
+/* hover bonito */
+.btn-view-profile:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(196, 30, 58, 0.35);
+    background: linear-gradient(135deg, #b51a33, #d92c47);
+}
+
+/* efeito no ícone */
+.btn-view-profile i {
+    transition: transform 0.3s ease;
+}
+
+.btn-view-profile:hover i {
+    transform: translateX(4px);
+}
+
+.supporter-action {
+    display: flex;
+    align-items: center;
+}
+
+.supporter-card-horizontal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px 25px;
+    border-radius: 14px;
+
+    background: #f8f8f8;
+
+    gap: 20px; /* 🔥 espaço entre blocos */
+}
+
+.supporter-top {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* 🔥 espaço entre imagem e texto */
+}
+
+.supporter-action {
+    margin-left: auto; /* 🔥 joga pra direita */
+    display: flex;
+    align-items: center;
 }
