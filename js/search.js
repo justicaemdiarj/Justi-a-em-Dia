@@ -68,7 +68,7 @@ const allArticles = [
     description: 'O compliance antifrude é instrumento estratégico essencial para proteger organizações de desvios internos, integrando controles, cultura de integridade e tecnologia para reduzir perdas financeiras e exposição jurídica.',
     category: 'Compliance',
     url: 'compliance/compliance-prevencao-fraude-controles-internos-governanca-corporativa.html',
-    tags: ['compliance antifrude', 'prevenção de fraude', 'controles internos', 'programa de integridade', 'Compliance Como Barreira Contra Fraudes Corporativas']
+    tags: ['Romer carvalho','compliance antifrude', 'prevenção de fraude', 'controles internos', 'programa de integridade', 'Compliance Como Barreira Contra Fraudes Corporativas']
 },
     {
     title: 'Justiça Militar Condena PMs no Amapá',
