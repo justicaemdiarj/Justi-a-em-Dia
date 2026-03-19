@@ -1,7 +1,6 @@
 const posts = [
   
 {
-  
   title: "Compliance Como Barreira Contra Fraudes Corporativas",
   description: "O compliance antifrude integra controles internos, cultura de integridade e tecnologia para proteger organizações das fraudes que custam trilhões ao mercado global",
   description2: "Programa de prevenção efetivo reduz janela de oportunidade, limita exposição jurídica e fortalece a sustentabilidade das organizações",
@@ -129,7 +128,6 @@ container.innerHTML += `
       <div class="linha-divisoria"></div>
 `;
 
-container.innerHTML += renderBanner("antes-destaques");
 
 /* ===== DESTAQUES ===== */
 
@@ -195,8 +193,6 @@ if(featuredSecondary){
     <div class="linha-divisoria"></div>
   `;
 }
-
-container.innerHTML += renderBanner("depois-destaques");
 
 /* ===== FEATURED TERCIÁRIO ===== */
 
