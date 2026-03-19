@@ -152,13 +152,48 @@ function renderNews(page) {
         item.authorLink = typeof getAuthorLink === 'function' ? getAuthorLink(item.author) : '#';
         const timeDisplay = getRelativeTime(item.timestamp, item.date);
         
-        // Inserir banner no meio da página (ex: após o 3º item)
-        if (index === 3) {
-            const bannerDiv = document.createElement('div');
-            bannerDiv.className = 'banner-wrapper-full';
-            bannerDiv.innerHTML = typeof getMiddleBannerHtml === 'function' ? getMiddleBannerHtml() : '';
-            newsContainer.appendChild(bannerDiv);
+if (index === 3) {
+    const bannerDiv = document.createElement('div');
+    bannerDiv.className = 'banner-wrapper-full';
+
+    newsContainer.appendChild(bannerDiv);
+
+    function renderRandomBanner() {
+
+        const isMobile = window.innerWidth <= 768;
+
+        const banners = isMobile 
+            ? siteConfig.banners.mobile 
+            : siteConfig.banners.desktop;
+
+        const activeBanners = banners.filter(isBannerActiveJS);
+
+        if (!activeBanners.length) return;
+
+        const banner = activeBanners[
+            Math.floor(Math.random() * activeBanners.length)
+        ];
+
+        let imgPath = banner.img;
+
+        if (!imgPath.startsWith('http')) {
+            imgPath = prefix + imgPath;
         }
+
+        bannerDiv.innerHTML = `
+            <div style="margin: 30px 0; text-align: center;">
+                <p style="font-size: 10px; color: #999; margin-bottom: 5px;">PUBLICIDADE</p>
+                <a href="${banner.link}" target="_blank" rel="nofollow">
+                    <img src="${imgPath}" style="max-width:100%; border-radius:8px;">
+                </a>
+            </div>
+        `;
+    }
+
+    renderRandomBanner();
+
+    setInterval(renderRandomBanner, 2000);
+}
 
         const shareHtml = typeof getShareButtonsHtml === 'function' ? getShareButtonsHtml(item.title, item.link) : '';
         

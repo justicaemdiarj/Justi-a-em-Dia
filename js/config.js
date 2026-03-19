@@ -100,6 +100,7 @@ const siteConfig = {
     ],
     displaySupporters: false, // ATIVAÇÃO/INATIVAÇÃO APOIADORES
     
+    
     banners: {
         // Formato da data: "YYYY-MM-DD" ou null para permanente
         // pages: "full" para todas as páginas, ou array de URLs específicas (ex: ["index.html", "contato.html"])
@@ -130,13 +131,14 @@ const siteConfig = {
             
         ],
         desktop: [
-        { name: "Apoiador Romer Carvalho", img: "img/banner-apoiadores/apoiador-romer-carvalho-desktop-1.png", link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2026-12-31", pages: "full" },
-        { name: "Apoiador Romer Carvalho", img: "img/banner-apoiadores/apoiador-romer-carvalho-desktop-2.png", link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2026-12-31", pages: "full" },
+        { name: "Apoiador Romer Carvalho", img: "img/banner-apoiadores/apoiador-romer-carvalho-desktop-1.png", link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2028-12-31", pages: "full" },
+        { name: "Apoiador Romer Carvalho", img: "img/banner-apoiadores/apoiador-romer-carvalho-desktop-2.png", link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2028-12-31", pages: "full" },
+        { name: "Apoiador Objetiva Labs", img: "img/banner-apoiadores/objetiva-labs-banner-desktop-1.png", link: "https://www.objetivalabs.com.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2028-12-31", pages: "full" },
         ],
         mobile: [
-       { name: "Apoiador Romer Carvalho", img: "img/banner-apoiadores/apoiador-romer-carvalho-mobile-1.png", link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2026-12-31", pages: "full" },
-       { name: "Apoiador Romer Carvalho", img: "img/banner-apoiadores/apoiador-romer-carvalho-mobile-2.png", link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2026-12-31", pages: "full"},
-         { name: "Objetiva Labs", img: "img/banner-apoiadores/objetiva-labs-banner-mobile.png", link: "https://www.objetivalabs.com.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2026-12-31", pages: "full"},
+       { name: "Apoiador Romer Carvalho", img: "img/banner-apoiadores/apoiador-romer-carvalho-mobile-1.png", link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2028-12-31", pages: "full" },
+       { name: "Apoiador Romer Carvalho", img: "img/banner-apoiadores/apoiador-romer-carvalho-mobile-2.png", link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2028-12-31", pages: "full"},
+       { name: "Apoiador Objetiva Labs", img: "img/banner-apoiadores/objetiva-labs-banner-mobile.png", link: "https://www.objetivalabs.com.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2028-12-31", pages: "full"},
         ]
     },
 };
@@ -156,19 +158,28 @@ siteConfig.sidebarBanners = [
 
 siteConfig.postContentBanners = [
     {
-        name: "Banner Promocional 1",
-        img: "img/banner-apoiadores/apoiador-romer-carvalho-desktop-1.png",
+        name: "Apoiador Romer Carvalho",
+        img: "img/banner-apoiadores/apoiador-romer-carvalho-desktop-1.png", 
         link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario",
-        pages: "full", // "full" para todos ou ["caminho/pagina.html"] para específicas
-        position: 3    // Inserir após o 3º parágrafo
+       pages: ["compliance/compliance-prevencao-fraude-controles-internos-governanca-corporativa.html","direito-de-familia/litigancia-predatoria-familia-judiciario-instrumento-opressao.html","compliance/secretaria-cultura-cuiaba-compliance-integridade-administracao-publica-municipal.html","direito-de-familia/divorce-extrajudicial-consensual-litigious-differences.html","direito-de-familia/divorcio-extrajudicial-consensual-litigioso-diferencas.html","compliance/banco-master-compliance-gestao-fraudulenta-temeraria-limites-governanca.html","compliance/o-escudo-que-o-poder-tenta-dobrar.html","compliance/quem-audita-os-auditores.html","direito-de-familia/como-comprovar-uniao-estavel.html"], // "full" para todos ou ["caminho/pagina.html"] para específicas
+        position: 3    // Inserir após o 3º parágrafo 
     },
     {
-        name: "Banner Promocional 2",
-        img: "img/banner-apoiadores/apoiador-romer-carvalho-desktop-1.png",
+        name: "Apoiador Romer Carvalho",
+        img: "img/banner-apoiadores/apoiador-romer-carvalho-desktop-2.png",
         link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario",
+        pages: ["compliance/compliance-prevencao-fraude-controles-internos-governanca-corporativa.html","direito-de-familia/litigancia-predatoria-familia-judiciario-instrumento-opressao.html","compliance/secretaria-cultura-cuiaba-compliance-integridade-administracao-publica-municipal.html","direito-de-familia/divorce-extrajudicial-consensual-litigious-differences.html","direito-de-familia/divorcio-extrajudicial-consensual-litigioso-diferencas.html","compliance/banco-master-compliance-gestao-fraudulenta-temeraria-limites-governanca.html","compliance/o-escudo-que-o-poder-tenta-dobrar.html","compliance/quem-audita-os-auditores.html","direito-de-familia/como-comprovar-uniao-estavel.html"],
+        position: 6    // Inserir após o 6º parágrafo
+    },
+    /*{
+        name: "Apoiador Objetiva Labs",
+        img: "img/banner-apoiadores/objetiva-labs-banner-desktop-1.png",
+        link: "https://www.objetivalabs.com.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario",
         pages: "full",
-        position: 5    // Inserir após o 6º parágrafo
-    }
+        position: 6    // Inserir após o 6º parágrafo
+    }*/
+
+
 ];
 
 // Banner acima de Sobre a Categoria 
@@ -180,29 +191,6 @@ siteConfig.sidebarTopBanner = {
     pages: "full" // "full" para todas as páginas
 };
 
-const banners = [
-
-{
-  id: "bannerAntesDestaques",
-  active: false,
-  start: "2026-03-01",
-  end: "2026-03-30",
-  image: window.innerWidth <= 768 ? "img/banner-mobile-uol.png" : "img/banner-uol.png", 
-  link: "https://api.whatsapp.com/send/?phone=5521990670186&text=Ol%C3%A1%21+Gostaria+de+informa%C3%A7%C3%B5es+sobre+como+ser+membro+do+site+Justi%C3%A7a+em+Dia.+Poderia+ajudar%3F&type=phone_number&app_absent=0",
-  position: "antes-destaques"
-},
-
-{
-  id: "bannerDepoisDestaques",
-  active: false,
-  start: "2026-03-01",
-  end: "2026-03-30",
-  image: window.innerWidth <= 768 ? "img/banner-mobile-uol.png" : "img/banner-uol.png", 
-  link: "https://api.whatsapp.com/send/?phone=5521990670186&text=Ol%C3%A1%21+Gostaria+de+informa%C3%A7%C3%B5es+sobre+como+ser+membro+do+site+Justi%C3%A7a+em+Dia.+Poderia+ajudar%3F&type=phone_number&app_absent=0",
-  position: "depois-destaques"
-}
-
-];
 
 function bannerAtivo(banner){
 
@@ -222,7 +210,7 @@ function bannerAtivo(banner){
 
   return `
   <div class="banner-middle">
-    <a href="${banner.link}" target="_blank">
+    <a href="${banner.link}" target="_blank" rel="nofollow>
       <img src="${banner.image}" alt="Publicidade">
     </a>
   </div>
@@ -539,6 +527,21 @@ function isEmpty(value) {
     return !value || value.trim() === '' || value === '#';
 }
 
+function shuffleArray(array) {
+    let currentIndex = array.length, randomIndex;
+
+    while (currentIndex !== 0) {
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex--;
+
+        [array[currentIndex], array[randomIndex]] = [
+            array[randomIndex], array[currentIndex]
+        ];
+    }
+
+    return array;
+}
+
 function updateGlobalElements() {
     loadFontAwesome();
     
@@ -686,16 +689,16 @@ if (footerSections.length >= 3) {
     if (socialContainer) {
         let socialLinksHTML = '';
         if (!isEmpty(siteConfig.social.facebook)) {
-            socialLinksHTML += `<a href="${siteConfig.social.facebook}" target="_blank" rel="noopener noreferrer" title="Facebook" class="social-link"><i class="fab fa-facebook-f"></i></a>`;
+            socialLinksHTML += `<a href="${siteConfig.social.facebook}" target="_blank" rel="noopener noreferrer nofollow" title="Facebook" class="social-link"><i class="fab fa-facebook-f"></i></a>`;
         }
         if (!isEmpty(siteConfig.social.instagram)) {
-            socialLinksHTML += `<a href="${siteConfig.social.instagram}" target="_blank" rel="noopener noreferrer" title="Instagram" class="social-link"><i class="fab fa-instagram"></i></a>`;
+            socialLinksHTML += `<a href="${siteConfig.social.instagram}" target="_blank" rel="noopener noreferrer nofollow" title="Instagram" class="social-link"><i class="fab fa-instagram"></i></a>`;
         }
         if (!isEmpty(siteConfig.social.twitter)) {
-            socialLinksHTML += `<a href="${siteConfig.social.twitter}" target="_blank" rel="noopener noreferrer" title="Twitter" class="social-link"><i class="fab fa-x-twitter"></i></a>`;
+            socialLinksHTML += `<a href="${siteConfig.social.twitter}" target="_blank" rel="noopener noreferrer nofollow" title="Twitter" class="social-link"><i class="fab fa-x-twitter"></i></a>`;
         }
         if (!isEmpty(siteConfig.social.linkedin)) {
-            socialLinksHTML += `<a href="${siteConfig.social.linkedin}" target="_blank" rel="noopener noreferrer" title="LinkedIn" class="social-link"><i class="fab fa-linkedin-in"></i></a>`;
+            socialLinksHTML += `<a href="${siteConfig.social.linkedin}" target="_blank" rel="noopener noreferrer nofollow" title="LinkedIn" class="social-link"><i class="fab fa-linkedin-in"></i></a>`;
         }
         
         if (socialLinksHTML !== '') {
@@ -709,58 +712,79 @@ if (footerSections.length >= 3) {
         const middlePostContainer = document.getElementById('banner-post-middle');
         const mobileContainer = document.getElementById('banner-mobile-container');
 
-        function createBannerCarousel(container, bannerList) {
-            let activeBanners = bannerList.filter(isBannerActiveJS);
-            if (!container || activeBanners.length === 0) {
-                if (container) container.style.display = 'none';
-                return;
-            }
+function createBannerCarousel(container, bannerList) {
+    // Filtra apenas os banners ativos para a página atual
+    let activeBanners = bannerList.filter(isBannerActiveJS);
+    
+    if (!container || activeBanners.length === 0) {
+        if (container) container.style.display = 'none';
+        return;
+    }
 
-            if (!isHomePage) {
-                activeBanners = activeBanners.sort(() => Math.random() - 0.5);
-            }
-            
-            container.innerHTML = ''; 
-            container.style.overflow = 'hidden';
-            container.style.position = 'relative';
-            container.style.display = 'block';
-            
-            let currentIndex = 0;
-            const bannerElements = activeBanners.map((banner, index) => {
-                let imgPath = banner.img;
-                if (isSubPage && imgPath.startsWith('img/')) imgPath = '../' + imgPath;
-                
-                const a = document.createElement('a');
-                a.href = banner.link;
-                a.target = '_blank';
-                a.rel = 'noopener noreferrer';
-                a.className = 'programmatic-banner';
-                a.style.display = index === currentIndex ? 'block' : 'none';
-                a.style.transition = 'opacity 0.5s ease-in-out';
-                a.innerHTML = `
-                    <p class="banner-label" style="display: block !important; font-size: 0.7rem; color: #999; text-transform: uppercase; margin-bottom: 5px; text-align: center;">Publicidade</p>
-                    <img src="${imgPath}" alt="${banner.name}" title="${banner.name}" style="width: 100%; border-radius: 8px;">
-                `;
-                container.appendChild(a);
-                return a;
-            });
+    // Não embaralhamos a lista aqui, pois a seleção aleatória será contínua
 
-            if (bannerElements.length > 1) {
-                setInterval(() => {
-                    bannerElements[currentIndex].style.opacity = '0';
-                    setTimeout(() => {
-                        bannerElements[currentIndex].style.display = 'none';
-                        currentIndex = (currentIndex + 1) % bannerElements.length;
-                        bannerElements[currentIndex].style.display = 'block';
-                        bannerElements[currentIndex].style.opacity = '0';
-                        setTimeout(() => {
-                            bannerElements[currentIndex].style.opacity = '1';
-                        }, 50);
-                    }, 500);
-                }, 4000);
-            }
+    container.innerHTML = ''; 
+    container.style.overflow = 'hidden';
+    container.style.position = 'relative';
+    container.style.display = 'block';
+    
+let currentIndex = Math.floor(Math.random() * activeBanners.length);
+    const bannerElements = activeBanners.map((banner, index) => {
+        let imgPath = banner.img;
+        // Ajuste de caminho para subpáginas
+        if (typeof isSubPage !== 'undefined' && isSubPage && imgPath.startsWith('img/')) {
+            imgPath = '../' + imgPath;
         }
+        
+        const a = document.createElement('a');
+        a.href = banner.link;
+        a.target = '_blank';
+        a.rel = 'noopener noreferrer nofollow';
+        a.className = 'programmatic-banner';
+        
+        // Estilo inicial: apenas o primeiro (índice 0) aparece
+      a.style.display = index === currentIndex ? 'block' : 'none';
+a.style.opacity = index === currentIndex ? '1' : '0';
+        a.style.transition = 'opacity 0.8s ease-in-out'; // Transição mais suave
+        
+        a.innerHTML = `
+            <p class="banner-label" style="display: block !important; font-size: 0.7rem; color: #999; text-transform: uppercase; margin-bottom: 5px; text-align: center;">Publicidade</p>
+            <img src="${imgPath}" alt="${banner.name}" title="${banner.name}" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+        `;
+        container.appendChild(a);
+        return a;
+    });
 
+    // Se houver mais de um banner, inicia o rodízio aleatório contínuo
+    if (bannerElements.length > 1) {
+        const rotateBanner = () => {
+            // Esconde o banner atual com fade out
+            bannerElements[currentIndex].style.opacity = '1';
+            
+            setTimeout(() => {
+                bannerElements[currentIndex].style.display = 'none';
+                
+                let nextIndex;
+                // Garante que o próximo banner seja diferente do atual
+                do {
+                    nextIndex = Math.floor(Math.random() * bannerElements.length);
+                } while (nextIndex === currentIndex);
+
+                // Mostra o novo banner aleatório com fade in
+                bannerElements[nextIndex].style.display = 'block';
+                // Pequeno delay para o navegador processar o display:block antes do opacity
+                setTimeout(() => {
+                    bannerElements[nextIndex].style.opacity = '1';
+                    currentIndex = nextIndex; // Atualiza o índice do banner atual
+                }, 50);
+            }, 800); // Duração do fade out (deve ser igual ao transition-duration do CSS)
+        };
+
+        // Define um intervalo entre 4 e 6 segundos para cada troca (mais dinâmico)
+        const intervalTime = 2000 + Math.random() * 2000;
+        setInterval(rotateBanner, intervalTime);
+    }
+}
         createBannerCarousel(uolContainer, siteConfig.banners.uol);
         createBannerCarousel(desktopContainer, siteConfig.banners.desktop);
         createBannerCarousel(middlePostContainer, siteConfig.banners.desktop);
@@ -770,10 +794,14 @@ if (footerSections.length >= 3) {
     // ...
     setupProgrammaticBanners();
 
-    const supportersSection = document.querySelector('section.supporters-section');
-    if (!siteConfig.displaySupporters && supportersSection) {
+  const supportersSection = document.querySelector('section.supporters-section');
+if (supportersSection) {
+    if (siteConfig.displaySupporters === false) {
         supportersSection.style.display = 'none';
+    } else {
+        supportersSection.style.display = 'block';
     }
+}
 
     const supportersContainer = document.getElementById('supporters-carousel');
     if (siteConfig.displaySupporters && supportersContainer) {
@@ -787,7 +815,7 @@ if (footerSections.length >= 3) {
                 if (supLink.startsWith('apoiadores/')) supLink = '../' + supLink;
             }
             supportersHtml += `
-                <a href="${supLink}" class="supporter-item">
+                <a href="${supLink}" class="supporter-item" rel="nofollow">
                     <img src="${logoPath}" alt="${sup.name}" title="${sup.name}">
                 </a>
             `;
@@ -938,13 +966,29 @@ function injectPostContentBanners() {
     const paragraphs = postContent.querySelectorAll('p');
     if (paragraphs.length === 0) return;
 
-    // Ordenar banners por posição decrescente para não afetar o índice ao inserir
-    const sortedBanners = [...siteConfig.postContentBanners]
-        .filter(isBannerActiveJS)
-        .sort((a, b) => b.position - a.position);
+    // Filtra apenas os banners ativos para a página atual
+    let activeBanners = [...siteConfig.postContentBanners]
+        .filter(isBannerActiveJS);
 
-    sortedBanners.forEach(banner => {
-        // Ajusta o caminho da imagem se estiver em subpasta
+    if (activeBanners.length === 0) return;
+
+    // Agrupa os banners por posição
+    const bannersByPosition = {};
+    activeBanners.forEach(banner => {
+        if (!bannersByPosition[banner.position]) {
+            bannersByPosition[banner.position] = [];
+        }
+        bannersByPosition[banner.position].push(banner);
+    });
+
+    // Para cada posição, escolhe apenas um banner aleatório do grupo
+    const selectedBanners = Object.values(bannersByPosition).map(group => {
+        // Se houver mais de um banner para a mesma posição, escolhe um aleatoriamente
+        return group[Math.floor(Math.random() * group.length)];
+    });
+
+    // Percorre cada banner selecionado e insere no conteúdo
+    selectedBanners.forEach((banner) => {
         let imgSrc = banner.img;
         if (typeof prefix !== 'undefined' && !imgSrc.startsWith('http')) {
             imgSrc = prefix + imgSrc;
@@ -953,18 +997,18 @@ function injectPostContentBanners() {
         const bannerHtml = `
             <div class="dynamic-post-banner" style="margin: 30px 0; text-align: center;">
                 <p style="font-size: 10px; color: #999; margin-bottom: 5px; text-transform: uppercase;">Publicidade</p>
-                <a href="${banner.link}" target="_blank">
-                    <img src="${imgSrc}" alt="${banner.name}" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+                <a href="${banner.link}" target="_blank" rel="nofollow">
+                    <img src="${imgSrc}" alt="${banner.name}" style="max-width: 100%; border-radius: 8px;">
                 </a>
             </div>
         `;
 
-        // Insere após o parágrafo indicado (ou no último se a posição for maior que o total)
+        // Usa a posição definida no config.js (com fallback para o último parágrafo se necessário)
         const targetIndex = Math.min(banner.position - 1, paragraphs.length - 1);
+
         paragraphs[targetIndex].insertAdjacentHTML('afterend', bannerHtml);
     });
 }
-
 function injectSidebarTopBanner() {
 
     if (!siteConfig.sidebarTopBanner) return;
@@ -995,7 +1039,7 @@ document.querySelector('aside');
         const bannerHtml = `
         <div class="dynamic-sidebar-banner" style="margin-bottom:20px;text-align:center;">
             <p style="font-size:10px;color:#999;margin-bottom:5px;text-transform:uppercase;">Publicidade</p>
-            <a href="${siteConfig.sidebarTopBanner.link}" target="_blank">
+            <a href="${siteConfig.sidebarTopBanner.link}" target="_blank" rel="nofollow">
                 <img src="${imgSrc}" alt="${siteConfig.sidebarTopBanner.name}" style="width:100%;border-radius:12px;">
             </a>
         </div>
@@ -1030,7 +1074,12 @@ document.querySelector('aside');
     }, 300);
 }
 
-
+document.addEventListener('DOMContentLoaded', () => {
+    const section = document.querySelector('.supporters-section');
+    if (section && typeof siteConfig !== 'undefined' && siteConfig.displaySupporters === false) {
+        section.style.setProperty('display', 'none', 'important');
+    }
+});
 
 /*
 // Formato da data: "YYYY-MM-DD HH:mm" (Ano-Mês-Dia Hora:Minuto)

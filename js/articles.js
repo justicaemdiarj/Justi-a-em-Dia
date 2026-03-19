@@ -2,73 +2,73 @@ const posts = [
   
 {
   
-  title: "Acesso à Justiça Internacional Pelo Paraná",
-  description: "O Tribunal de Justiça do Paraná lança plataforma inédita para consulta à jurisprudência da Corte IDH",
-  description2: "Ferramenta integra precedentes internacionais ao sistema de busca do tribunal paranaense",
-  image: "img/tjpr-plataforma-jurisprudencia-corte-interamericana-direitos-humanos.webp",
-  link: "jurisprudencia/tjpr-plataforma-jurisprudencia-corte-interamericana-direitos-humanos.html",
-  date: "2026-03-17T07:00:00",
+    title: "Garantias Locatícias sob Escrutínio Jurídico no Brasil",
+    description: "A escolha da garantia locatícia adequada impacta diretamente a segurança jurídica dos contratos de locação no Brasil",
+    description2: "Seguro-fiança e título de capitalização ganham espaço frente ao fiador e à caução tradicionais",
+    image: "img/garantias-locaticias-escrutinio-juridico-brasil.webp",
+    link: "direito-civil/garantias-locaticias-escrutinio-juridico-brasil.html",
+    date: "2026-03-20T07:00:00",
   section: "featured"
 },
   {
-  title: "PGFN e Receita Regulam o Devedor Contumaz",
-  description: "PGFN e Receita Federal articulam regulamentação da LC 225/2026 sobre inadimplência tributária sistemática",
-  description2: "Nova norma impõe sanções severas ao contribuinte com passivo fiscal reiterado e injustificado",
-  image: "img/pgfn-receita-federal-regulamentacao-devedor-contumaz-lc-225-2026.webp",
-  link: "legislacao/pgfn-receita-federal-regulamentacao-devedor-contumaz-lc-225-2026.html",
-  date: "2026-03-17T07:00:00",
+    title: "Tokens Imobiliários e o Fólio Real Brasileiro",
+    description: "A tokenização imobiliária avança no Brasil, mas esbarra na ausência de marco registral sólido. Sem o assentamento do criptoativo na matrícula, o negócio carece de segurança jurídica.",
+    description2: "Sem registro na matrícula imobiliária, o token não transfere propriedade e pode expor emissores a riscos penais e civis graves.",
+    image: "img/tokens-imobiliarios-folio-real-matricula-registro.webp",
+    link: "direito-civil/tokens-imobiliarios-folio-real-matricula-registro.html",
+    date: "2026-03-19T07:00:00",
   section: "featured-secundario"
 },
 {
-  title: "Justiça Digital Sem Advogado no Rio",
-  description: "TJRJ lança plataforma para protocolo digital de petições nos juizados especiais sem necessidade de advogado",
-  description2: "Iniciativa democratiza o acesso à tutela jurisdicional cível no Estado do Rio de Janeiro",
-  image: "img/tjrj-peticao-cidada-juizados-especiais-civeis-online-sem-advogado.webp",
-  link: "direito-civil/tjrj-peticao-cidada-juizados-especiais-civeis-online-sem-advogado.html",
-  date: "2026-03-17T07:00:00",
+    title: "A Velha Guarda do PT Volta ao Front",
+    description: "Histórico aliado de Lula profere discurso que antecipa a narrativa de combate da campanha petista de 2026, convocando a esquerda à mobilização em evento que reuniu ministros, parlamentares e lideranças do Centrão.",
+    description2: "O retorno da velha guarda do PT à cena eleitoral integra estratégia deliberada de Lula para reforçar a base aliada no Congresso e fortalecer a campanha pela reeleição presidencial.",
+    image: "img/velha-guarda-pt-retorno-campanha-lula-reeleicao-2026.webp",
+    link: "politica/velha-guarda-pt-retorno-campanha-lula-reeleicao-2026.html",
+    date: "2026-03-19T07:00:00",
  section: "featured-terciario"
 },
   {
-   title: "ECA Digital Protege Crianças no Ambiente Virtual",
-   image: "img/eca-digital-vigor-marco-2026-protecao-criancas-adolescentes-internet.webp",
-  link: "direito-de-familia/eca-digital-vigor-marco-2026-protecao-criancas-adolescentes-internet.html",
-  date: "2026-03-17T07:00:00",
+    title: "Brasil Endurece o Cerco ao Crime Organizado",
+    image: "img/marco-legal-crime-organizado-legislacao-penal-2025.webp",
+    link: "direito-penal/marco-legal-crime-organizado-legislacao-penal-2025.html",
+    date: "2026-03-19T07:00:00",
     section: "destaque"
   },
    {
-   title: "HC e Prisão Cautelar Sob Tensão Constitucional",
- image: "img/habeas-corpus-prisao-cautelar-vedacao-debate-fatico-assimetria-inconstitucional.webp",
-  link: "direito-penal/habeas-corpus-prisao-cautelar-vedacao-debate-fatico-assimetria-inconstitucional.html",
-  date: "2026-03-17T07:00:00",
+   title: "Churrasco no Atestado Custa o Emprego",
+    image: "img/justa-causa-atestado-medico-churrasco-redes-sociais-trt-go.webp",
+    link: "direito-trabalhista/justa-causa-atestado-medico-churrasco-redes-sociais-trt-go.html",
+    date: "2026-03-19T07:00:00",
     section: "destaque"
   },
   {
-    title: "Entre o Excesso e o Vazio do Compliance",
-  image: "img/overcompliance-compliance-zero-equilibrio-programas-integridade-empresas.webp",
-  link: "compliance/overcompliance-compliance-zero-equilibrio-programas-integridade-empresas.html",
-  date: "2026-03-17T07:00:00",
+    title: "Tiro pelas Costas: Agente Estatal Condenado",
+    image: "img/ex-policial-militar-condenado-homicidio-adolescente-cuiaba-tiro-costas.webp",
+    link: "direito-militar/ex-policial-militar-condenado-homicidio-adolescente-cuiaba-tiro-costas.html",
+    date: "2026-03-19T07:00:00",
     section: "destaque"
   },
   {
    
-  title: "STF Abre Acordo Penal à Justiça Militar",
-  image: "img/stf-anpp-acordo-nao-persecucao-penal-justica-militar-crime-militar.webp",
-  link: "direito-militar/stf-anpp-acordo-nao-persecucao-penal-justica-militar-crime-militar.html",
-  date: "2026-03-17T07:00:00",
+    title: "CNJ Reforça o Judiciário nos Direitos Humanos",
+    image: "img/cnj-protocolos-direitos-humanos-judiciario-sistema-interamericano.webp",
+    link: "jurisprudencia/cnj-protocolos-direitos-humanos-judiciario-sistema-interamericano.html",
+    date: "2026-03-19T07:00:00",
     section: "veja"
   },
   {
-  title: "Insalubridade Para Motoboys a Partir de Abril",
-  image: "img/insalubridade-motoboys-entregadores-abril-2026-direitos-trabalhistas.webp",
-  link: "direito-trabalhista/insalubridade-motoboys-entregadores-abril-2026-direitos-trabalhistas.html",
-  date: "2026-03-17T07:00:00",
+    title: "Rondônia Lidera Gestão Federal de Convênios",
+    image: "img/rondonia-capacitacao-transferegov-convenios-projetos-sociais.webp",
+    link: "legislacao/rondonia-capacitacao-transferegov-convenios-projetos-sociais.html",
+    date: "2026-03-19T07:00:00",
     section: "veja"
   },
   {
-  title: "Senado Guia Mulheres Para a Política",
-  image: "img/senado-guia-candidata-mulheres-politica-representatividade-cotas-genero.webp",
-  link: "politica/senado-guia-candidata-mulheres-politica-representatividade-cotas-genero.html",
-  date: "2026-03-17T07:00:00",
+ title: "Quando o Judiciário Vira Instrumento de Opressão",
+    image: "img/litigancia-predatoria-familia-judiciario-instrumento-opressao.webp",
+    link: "direito-de-familia/litigancia-predatoria-familia-judiciario-instrumento-opressao.html",
+    date: "2026-03-19T07:00:00",
     section: "veja"
   }
 ];
@@ -129,7 +129,6 @@ container.innerHTML += `
       <div class="linha-divisoria"></div>
 `;
 
-container.innerHTML += renderBanner("antes-destaques");
 
 /* ===== DESTAQUES ===== */
 
@@ -195,8 +194,6 @@ if(featuredSecondary){
     <div class="linha-divisoria"></div>
   `;
 }
-
-container.innerHTML += renderBanner("depois-destaques");
 
 /* ===== FEATURED TERCIÁRIO ===== */
 

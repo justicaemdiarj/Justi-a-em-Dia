@@ -13,6 +13,82 @@ const tickerConfig = {
 
 const globalNewsData = [
     {
+    title: "Garantias Locatícias sob Escrutínio Jurídico no Brasil",
+    link: "direito-civil/garantias-locaticias-escrutinio-juridico-brasil.html",
+},
+    {
+    title: "A Velha Guarda do PT Volta ao Front",
+    link: "politica/velha-guarda-pt-retorno-campanha-lula-reeleicao-2026.html",
+},
+    {
+    title: "Rondônia Lidera Gestão Federal de Convênios",
+    link: "legislacao/rondonia-capacitacao-transferegov-convenios-projetos-sociais.html",
+},
+    {
+    title: "CNJ Reforça o Judiciário nos Direitos Humanos",
+    link: "jurisprudencia/cnj-protocolos-direitos-humanos-judiciario-sistema-interamericano.html",
+},
+    {
+    title: "Tiro pelas Costas: Agente Estatal Condenado",
+    link: "direito-militar/ex-policial-militar-condenado-homicidio-adolescente-cuiaba-tiro-costas.html",
+},
+    {
+    title: "Churrasco no Atestado Custa o Emprego",
+    link: "direito-trabalhista/justa-causa-atestado-medico-churrasco-redes-sociais-trt-go.html",
+},
+    {
+    title: "Brasil Endurece o Cerco ao Crime Organizado",
+    link: "direito-penal/marco-legal-crime-organizado-legislacao-penal-2025.html",
+},
+    {
+    title: "Quando o Judiciário Vira Instrumento de Opressão",
+    link: "direito-de-familia/litigancia-predatoria-familia-judiciario-instrumento-opressao.html",
+},
+    {
+    title: "Tokens Imobiliários e o Fólio Real Brasileiro",
+    link: "direito-civil/tokens-imobiliarios-folio-real-matricula-registro.html",
+},
+    {
+    title: "Compliance Como Barreira Contra Fraudes Corporativas",
+    link: "compliance/compliance-prevencao-fraude-controles-internos-governanca-corporativa.html",
+},
+    {
+    title: "Justiça Militar Condena PMs no Amapá",
+    link: "direito-militar/justica-militar-amapa-condenacao-policiais-militares-macapa.html",
+},
+    {
+    title: "Amazonas Avança na Lei Climática Estadual",
+    link: "legislacao/amazonas-legislacao-ambiental-mudancas-climaticas-assembleia-legislativa.html",
+},
+    {
+    title: "STF Recebe Obra Sobre Direitos Humanos Interamericanos",
+    link: "jurisprudencia/stf-lancamento-livro-jurisprudencia-corte-interamericana-direitos-humanos.html",
+},
+    {
+    title: "Contraditório nas Cautelares Penais em Debate",
+    link: "direito-penal/medidas-cautelares-direito-contraditorio-processo-penal-garantias.html",
+},
+    {
+    title: "Risco Cirúrgico Não Gera Responsabilidade Automática",
+    link: "direito-civil/complicacao-pos-operatoria-responsabilidade-civil-medica-culpa-nexo-causal.html",
+},
+    {
+    title: "Escala 6x1 Sob o Olhar da CLT",
+    link: "direito-trabalhista/escala-6x1-clt-jornada-trabalho-legalidade-direitos-trabalhistas.html",
+},
+    {
+    title: "Holding Familiar e a Divisão do Patrimônio",
+    link: "direito-de-familia/holding-familiar-partilha-bens-sucessao-patrimonial-divorcio-heranca.html",
+},
+    {
+    title: "SP Reestrutura Compliance Policial Após Escândalo",
+    link: "compliance/sp-decreto-reestruturacao-compliance-policias-corrupcao-integridade.html",
+},
+    {
+    title: "PL Quer Pragmatismo Para Vencer em 2026",
+    link: "politica/pl-pragmatismo-agenda-eleicoes-2026-estrategia-eleitoral-oposicao.html",
+},
+    {
     title: "Senado Guia Mulheres Para a Política",
     link: "politica/senado-guia-candidata-mulheres-politica-representatividade-cotas-genero.html",
 },
@@ -35,50 +111,6 @@ const globalNewsData = [
     {
     title: "ECA Digital Protege Crianças no Ambiente Virtual",
     link: "direito-de-familia/eca-digital-vigor-marco-2026-protecao-criancas-adolescentes-internet.html",
-},
-    {
-    title: "Justiça Digital Sem Advogado no Rio",
-    link: "direito-civil/tjrj-peticao-cidada-juizados-especiais-civeis-online-sem-advogado.html",
-},
-    {
-    title: "PGFN e Receita Regulam o Devedor Contumaz",
-    link: "legislacao/pgfn-receita-federal-regulamentacao-devedor-contumaz-lc-225-2026.html",
-},
-    {
-    title: "Acesso à Justiça Internacional Pelo Paraná",
-    link: "jurisprudencia/tjpr-plataforma-jurisprudencia-corte-interamericana-direitos-humanos.html",
-},
-{
-    title: "Tocantins Avança no Debate Nacional de Compliance",
-    link: "compliance/tocantins-congresso-compliance-governanca-integridade-palmas.html",
-},
-{
-    title: "PL 4920 Tensiona Previdência das Forças Armadas",
-    link: "direito-trabalhista/pl-4920-previdencia-forcas-armadas-rejeicao-militares.html",
-},
-{
-    title: "Combate ao Assédio nas Relações Trabalhistas Públicas",
-    link: "direito-trabalhista/combate-assedio-moral-sexual-judiciario-revista-campanha.html",
-},
-{
-    title: "Estados Podem Ganhar Poder de Criminalizar",
-    link: "direito-penal/plp-41-2025-estados-legislar-direito-penal-csp-senado-competencia-uniao.html",
-},
-{
-    title: "FGTS Entra na Partilha do Divórcio",
-    link: "direito-de-familia/fgts-partilha-bens-divorcio-comunhao-parcial-STJ.html",
-},
-{
-    title: "Responsabilidade Civil Divide Debate no Novo Código",
-    link: "direito-civil/reforma-codigo-civil-responsabilidade-civil-debate-juizes-pl-4-2025-sancao-pedagogica.html",
-},
-{
-    title: "Direita Domina Arena Digital nas Eleições 2026",
-    link: "politica/direita-lidera-arena-digital-eleicoes-2026-pre-candidato-redes-sociais.html",
-},
-{
-    title: "Cultura de Cuiabá Adota Compliance na Gestão",
-    link: "compliance/secretaria-cultura-cuiaba-compliance-integridade-administracao-publica-municipal.html",
 },
 
 ];

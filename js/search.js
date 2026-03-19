@@ -1,6 +1,139 @@
 // Base de dados global de artigos para busca
 const allArticles = [
     {
+    title: 'Garantias Locatícias sob Escrutínio Jurídico no Brasil',
+    description: 'Mercado imobiliário e segurança contratual em debate. A escolha da garantia locatícia adequada impacta diretamente a segurança jurídica dos contratos de locação e o acesso à moradia no Brasil.',
+    category: 'Direito Civil',
+    url: 'direito-civil/garantias-locaticias-escrutinio-juridico-brasil.html',
+    tags: ['Garantias Locatícias', 'Seguro-Fiança', 'Título de Capitalização', 'Lei do Inquilinato', 'Garantias Locatícias sob Escrutínio Jurídico no Brasil']
+},
+    {
+    title: 'A Velha Guarda do PT Volta ao Front',
+    description: 'Histórico aliado do presidente Lula profere discurso que antecipa os eixos da campanha petista de 2026, convocando a esquerda ao combate eleitoral e marcando o retorno oficial da velha guarda do PT à cena política brasileira.',
+    category: 'Política',
+    url: 'politica/velha-guarda-pt-retorno-campanha-lula-reeleicao-2026.html',
+    tags: ['Eleições 2026', 'PT Campanha Lula', 'Velha Guarda PT', 'Reeleição Lula', 'A Velha Guarda do PT Volta ao Front']
+},
+    {
+    title: 'Rondônia Lidera Gestão Federal de Convênios',
+    description: 'O governo de Rondônia promove capacitação de servidores no sistema Transferegov, com foco em elaboração de projetos, legislação de convênios e captação de recursos federais. O estado ocupa o primeiro lugar nacional em eficiência na execução de instrumentos de repasse.',
+    category: 'Legislação',
+    url: 'legislacao/rondonia-capacitacao-transferegov-convenios-projetos-sociais.html',
+    tags: ['Transferegov', 'Convênios Federais', 'Capacitação Servidores', 'Gestão Pública', 'Rondônia Lidera Gestão Federal de Convênios']
+},
+    {
+    title: 'CNJ Reforça o Judiciário nos Direitos Humanos',
+    description: 'O Conselho Nacional de Justiça publicou dois protocolos institucionais voltados ao fortalecimento da atuação dos tribunais brasileiros em direitos humanos, alinhando o Judiciário ao Sistema Interamericano e às obrigações internacionais do Estado brasileiro.',
+    category: 'Jurisprudência',
+    url: 'jurisprudencia/cnj-protocolos-direitos-humanos-judiciario-sistema-interamericano.html',
+    tags: ['CNJ Direitos Humanos', 'Sistema Interamericano', 'Protocolos Judiciário', 'UMF CNJ', 'CNJ Reforça o Judiciário nos Direitos Humanos']
+},
+    {
+    title: 'Tiro pelas Costas: Agente Estatal Condenado',
+    description: 'O Tribunal do Júri da Comarca de Cuiabá condenou ex-integrante da Polícia Militar de Mato Grosso a nove anos de reclusão pelo homicídio de adolescente desarmado atingido pelas costas. Caso expõe debate sobre uso desproporcional da força letal por agentes públicos.',
+    category: 'Direito Militar',
+    url: 'direito-militar/ex-policial-militar-condenado-homicidio-adolescente-cuiaba-tiro-costas.html',
+    tags: ['Ex-Policial Militar Condenado', 'Uso da Força Letal', 'Tribunal do Júri', 'Direito Militar', 'Tiro pelas Costas: Agente Estatal Condenado']
+},
+    {
+    title: 'Churrasco no Atestado Custa o Emprego',
+    description: 'O TRT-GO confirmou a dispensa por justa causa de trabalhador que publicou fotos em redes sociais durante afastamento médico. A decisão unânime reforça que o conteúdo digital público pode ser usado como prova material em processos trabalhistas.',
+    category: 'Direito Trabalhista',
+    url: 'direito-trabalhista/justa-causa-atestado-medico-churrasco-redes-sociais-trt-go.html',
+    tags: ['Justa Causa', 'Atestado Médico', 'Redes Sociais', 'Direito Trabalhista', 'Churrasco no Atestado Custa o Emprego']
+},
+    {
+    title: 'Brasil Endurece o Cerco ao Crime Organizado',
+    description: 'Em 2025, o Congresso Nacional aprovou um conjunto robusto de medidas penais que redesenham o enfrentamento ao crime organizado no Brasil. Do novo marco legal contra facções e milícias ao recrudescimento de penas para crimes hediondos, o país inaugura uma nova fase legislativa na área de segurança pública.',
+    category: 'Direito Criminal',
+    url: 'direito-penal/marco-legal-crime-organizado-legislacao-penal-2025.html',
+    tags: ['Crime Organizado', 'Marco Legal Segurança Pública', 'Legislação Penal 2025', 'Milícias', 'Brasil Endurece o Cerco ao Crime Organizado']
+},
+    {
+    title: 'Quando o Judiciário Vira Instrumento de Opressão',
+    description: 'Nas Varas de Família, o processo judicial tem sido desvirtuado como ferramenta de assédio e controle coercitivo por ex-parceiros. A litigância predatória expõe a insuficiência dos mecanismos tradicionais de má-fé processual e exige uma virada dogmática urgente.',
+    category: 'Direito de Família',
+    url: 'direito-de-familia/litigancia-predatoria-familia-judiciario-instrumento-opressao.html',
+    tags: ['Litigância Abusiva', 'Assédio Processual', 'Direito de Família', 'Violência Doméstica', 'Quando o Judiciário Vira Instrumento de Opressão']
+},
+    {
+    title: 'Tokens Imobiliários e o Fólio Real Brasileiro',
+    description: 'A tokenização imobiliária avança no Brasil, mas esbarra na ausência de marco registral sólido. Sem o assentamento do criptoativo na matrícula do imóvel, o negócio carece de segurança jurídica e pode expor emissores e investidores a riscos legais graves.',
+    category: 'Direito Civil',
+    url: 'direito-civil/tokens-imobiliarios-folio-real-matricula-registro.html',
+    tags: ['Tokenização Imobiliária', 'Registro de Imóveis', 'Criptoativos Imobiliários', 'Direitos Reais', 'Tokens Imobiliários e o Fólio Real Brasileiro']
+},
+    {
+    title: 'Compliance Como Barreira Contra Fraudes Corporativas',
+    description: 'O compliance antifrude é instrumento estratégico essencial para proteger organizações de desvios internos, integrando controles, cultura de integridade e tecnologia para reduzir perdas financeiras e exposição jurídica.',
+    category: 'Compliance',
+    url: 'compliance/compliance-prevencao-fraude-controles-internos-governanca-corporativa.html',
+    tags: ['compliance antifrude', 'prevenção de fraude', 'controles internos', 'programa de integridade', 'Compliance Como Barreira Contra Fraudes Corporativas']
+},
+    {
+    title: 'Justiça Militar Condena PMs no Amapá',
+    description: 'A Justiça Militar do Amapá condenou dois policiais militares em Macapá, reacendendo o debate sobre a efetividade do foro castrense estadual na responsabilização de agentes de segurança pública por crimes militares.',
+    category: 'Direito Militar',
+    url: 'direito-militar/justica-militar-amapa-condenacao-policiais-militares-macapa.html',
+    tags: ['Justiça Militar Amapá', 'policiais militares condenados', 'crime militar', 'foro castrense', 'Justiça Militar Condena PMs no Amapá']
+},
+    {
+    title: 'Amazonas Avança na Lei Climática Estadual',
+    description: 'A Assembleia Legislativa do Amazonas aprova medidas que fortalecem a legislação ambiental estadual e ampliam os instrumentos jurídicos de enfrentamento às mudanças climáticas na maior extensão florestal do planeta.',
+    category: 'Legislação',
+    url: 'legislacao/amazonas-legislacao-ambiental-mudancas-climaticas-assembleia-legislativa.html',
+    tags: ['legislação ambiental Amazonas', 'mudanças climáticas', 'Amazônia', 'direito ambiental', 'Amazonas Avança na Lei Climática Estadual']
+},
+    {
+    title: 'STF Recebe Obra Sobre Direitos Humanos Interamericanos',
+    description: 'Lançamento no STF de obra que sistematiza a jurisprudência da Corte Interamericana de Direitos Humanos reforça o compromisso do Judiciário brasileiro com o controle de convencionalidade e a integração dos precedentes internacionais.',
+    category: 'Jurisprudência',
+    url: 'jurisprudencia/stf-lancamento-livro-jurisprudencia-corte-interamericana-direitos-humanos.html',
+    tags: ['Corte Interamericana', 'jurisprudência interamericana', 'STF', 'controle de convencionalidade', 'STF Recebe Obra Sobre Direitos Humanos Interamericanos']
+},
+    {
+    title: 'Contraditório nas Cautelares Penais em Debate',
+    description: 'A tensão entre a urgência das medidas cautelares penais e o direito constitucional ao contraditório expõe o conflito entre efetividade da persecução penal e garantias fundamentais do investigado no processo penal brasileiro.',
+    category: 'Direito Criminal',
+    url: 'direito-penal/medidas-cautelares-direito-contraditorio-processo-penal-garantias.html',
+    tags: ['medidas cautelares', 'contraditório', 'processo penal', 'garantias processuais', 'Contraditório nas Cautelares Penais em Debate']
+},
+    {
+    title: 'Risco Cirúrgico Não Gera Responsabilidade Automática',
+    description: 'Complicações pós-operatórias não configuram responsabilidade civil objetiva do médico, sendo necessária a demonstração de culpa, dano e nexo causal para o reconhecimento do dever de indenizar.',
+    category: 'Direito Civil',
+    url: 'direito-civil/complicacao-pos-operatoria-responsabilidade-civil-medica-culpa-nexo-causal.html',
+    tags: ['responsabilidade civil médica', 'complicação pós-operatória', 'obrigação de meio', 'culpa médica', 'Risco Cirúrgico Não Gera Responsabilidade Automática']
+},
+    {
+    title: 'Escala 6x1 Sob o Olhar da CLT',
+    description: 'A escala 6x1 é permitida pela CLT, mas exige pagamento de horas extras e garantia de descanso semanal remunerado que frequentemente são descumpridos, gerando passivos trabalhistas expressivos.',
+    category: 'Direito Trabalhista',
+    url: 'direito-trabalhista/escala-6x1-clt-jornada-trabalho-legalidade-direitos-trabalhistas.html',
+    tags: ['escala 6x1', 'jornada de trabalho', 'CLT', 'horas extras', 'Escala 6x1 Sob o Olhar da CLT']
+},
+    {
+    title: 'Holding Familiar e a Divisão do Patrimônio',
+    description: 'A holding familiar transforma a lógica da partilha de bens, deslocando o conflito do direito das sucessões para o direito societário e exigindo planejamento jurídico cuidadoso em casos de herança, divórcio e conflitos entre herdeiros.',
+    category: 'Direito de Família',
+    url: 'direito-de-familia/holding-familiar-partilha-bens-sucessao-patrimonial-divorcio-heranca.html',
+    tags: ['holding familiar', 'partilha de bens', 'planejamento sucessório', 'divórcio holding', 'Holding Familiar e a Divisão do Patrimônio']
+},
+    {
+    title: 'SP Reestrutura Compliance Policial Após Escândalo',
+    description: 'O governo de São Paulo publicou decreto que reorganiza o compliance das polícias após operação revelar esquema de corrupção sistêmica nas corporações, criando novos mecanismos de controle interno e integridade institucional.',
+    category: 'Compliance',
+    url: 'compliance/sp-decreto-reestruturacao-compliance-policias-corrupcao-integridade.html',
+    tags: ['compliance policial', 'corrupção polícia SP', 'decreto São Paulo', 'integridade policial', 'SP Reestrutura Compliance Policial Após Escândalo']
+},
+    {
+    title: 'PL Quer Pragmatismo Para Vencer em 2026',
+    description: 'A liderança do Partido Liberal admite que a vitória em 2026 exige agenda propositiva voltada ao cotidiano do eleitor, reconhecendo que o confronto radical desgastou a base e afasta o centro eleitoral decisivo.',
+    category: 'Política',
+    url: 'politica/pl-pragmatismo-agenda-eleicoes-2026-estrategia-eleitoral-oposicao.html',
+    tags: ['PL 2026', 'eleições 2026', 'Partido Liberal', 'estratégia eleitoral', 'PL Quer Pragmatismo Para Vencer em 2026']
+},
+    {
     title: 'Senado Guia Mulheres Para a Política',
     description: 'O Senado Federal lançou publicação para orientar mulheres no ingresso à vida política, abordando legislação eleitoral, cotas de gênero, fundo eleitoral e combate à violência política de gênero.',
     category: 'Política',

@@ -1,5 +1,26 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
+    {
+    title: "Rondônia Lidera Gestão Federal de Convênios",
+    date: "19/03/2026",
+    timestamp: "2026-03-19T07:00:00",
+    image: "../img/rondonia-capacitacao-transferegov-convenios-projetos-sociais.webp",
+    excerpt: "O governo de Rondônia capacita servidores no sistema Transferegov para melhorar a captação e execução de recursos federais, posicionando o estado em primeiro lugar nacional no indicador de eficiência em convênios.",
+    link: "../legislacao/rondonia-capacitacao-transferegov-convenios-projetos-sociais.html",
+    categoria: "legislacao",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
+    title: "Amazonas Avança na Lei Climática Estadual",
+    date: "18/03/2026",
+    timestamp: "2026-03-18T07:00:00",
+    image: "../img/amazonas-legislacao-ambiental-mudancas-climaticas-assembleia-legislativa.webp",
+    excerpt: "Assembleia reforça normas ambientais para proteger a floresta.",
+    link: "../legislacao/amazonas-legislacao-ambiental-mudancas-climaticas-assembleia-legislativa.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 
 {
     title: "PGFN e Receita Regulam o Devedor Contumaz",
@@ -208,13 +229,48 @@ function renderNews(page) {
         item.authorLink = typeof getAuthorLink === 'function' ? getAuthorLink(item.author) : '#';
         const timeDisplay = getRelativeTime(item.timestamp, item.date);
         
-        // Inserir banner no meio da página (ex: após o 3º item)
-        if (index === 3) {
-            const bannerDiv = document.createElement('div');
-            bannerDiv.className = 'banner-wrapper-full';
-            bannerDiv.innerHTML = typeof getMiddleBannerHtml === 'function' ? getMiddleBannerHtml() : '';
-            newsContainer.appendChild(bannerDiv);
+if (index === 3) {
+    const bannerDiv = document.createElement('div');
+    bannerDiv.className = 'banner-wrapper-full';
+
+    newsContainer.appendChild(bannerDiv);
+
+    function renderRandomBanner() {
+
+        const isMobile = window.innerWidth <= 768;
+
+        const banners = isMobile 
+            ? siteConfig.banners.mobile 
+            : siteConfig.banners.desktop;
+
+        const activeBanners = banners.filter(isBannerActiveJS);
+
+        if (!activeBanners.length) return;
+
+        const banner = activeBanners[
+            Math.floor(Math.random() * activeBanners.length)
+        ];
+
+        let imgPath = banner.img;
+
+        if (!imgPath.startsWith('http')) {
+            imgPath = prefix + imgPath;
         }
+
+        bannerDiv.innerHTML = `
+            <div style="margin: 30px 0; text-align: center;">
+                <p style="font-size: 10px; color: #999; margin-bottom: 5px;">PUBLICIDADE</p>
+                <a href="${banner.link}" target="_blank" rel="nofollow">
+                    <img src="${imgPath}" style="max-width:100%; border-radius:8px;">
+                </a>
+            </div>
+        `;
+    }
+
+    renderRandomBanner();
+
+    setInterval(renderRandomBanner, 2000);
+}
 
         const shareHtml = typeof getShareButtonsHtml === 'function' ? getShareButtonsHtml(item.title, item.link) : '';
         

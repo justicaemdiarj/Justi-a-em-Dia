@@ -1,6 +1,26 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
     {
+    title: "Compliance Como Barreira Contra Fraudes Corporativas",
+    date: "19/03/2026",
+    timestamp: "2026-03-19T07:00:00",
+    image: "../img/compliance-prevencao-fraude-controles-internos-governanca-corporativa.webp",
+    excerpt: "Controles internos definem a sobrevivência das organizações modernas.",
+    link: "../compliance/compliance-prevencao-fraude-controles-internos-governanca-corporativa.html",
+    author: "Romer Carvalho",
+    authorLink: "../apoiadores/advogado-romer-carvalho.html"
+},
+    {
+    title: "SP Reestrutura Compliance Policial Após Escândalo",
+    date: "18/03/2026",
+    timestamp: "2026-03-18T07:00:00",
+    image: "../img/sp-decreto-reestruturacao-compliance-policias-corrupcao-integridade.webp",
+    excerpt: "Decreto reorganiza controle interno das forças de segurança paulistas.",
+    link: "../compliance/sp-decreto-reestruturacao-compliance-policias-corrupcao-integridade.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Entre o Excesso e o Vazio do Compliance",
     date: "17/03/2026",
     timestamp: "2026-03-17T07:00:00",
@@ -279,13 +299,48 @@ function renderNews(page) {
     paginatedItems.forEach((item, index) => {
         const timeDisplay = getRelativeTime(item.timestamp, item.date);
         
-        // Inserir banner no meio da página (ex: após o 3º item)
-        if (index === 3) {
-            const bannerDiv = document.createElement('div');
-            bannerDiv.className = 'banner-wrapper-full';
-            bannerDiv.innerHTML = typeof getMiddleBannerHtml === 'function' ? getMiddleBannerHtml() : '';
-            newsContainer.appendChild(bannerDiv);
+if (index === 3) {
+    const bannerDiv = document.createElement('div');
+    bannerDiv.className = 'banner-wrapper-full';
+
+    newsContainer.appendChild(bannerDiv);
+
+    function renderRandomBanner() {
+
+        const isMobile = window.innerWidth <= 768;
+
+        const banners = isMobile 
+            ? siteConfig.banners.mobile 
+            : siteConfig.banners.desktop;
+
+        const activeBanners = banners.filter(isBannerActiveJS);
+
+        if (!activeBanners.length) return;
+
+        const banner = activeBanners[
+            Math.floor(Math.random() * activeBanners.length)
+        ];
+
+        let imgPath = banner.img;
+
+        if (!imgPath.startsWith('http')) {
+            imgPath = prefix + imgPath;
         }
+
+        bannerDiv.innerHTML = `
+            <div style="margin: 30px 0; text-align: center;">
+                <p style="font-size: 10px; color: #999; margin-bottom: 5px;">PUBLICIDADE</p>
+                <a href="${banner.link}" target="_blank" rel="nofollow">
+                    <img src="${imgPath}" style="max-width:100%; border-radius:8px;">
+                </a>
+            </div>
+        `;
+    }
+
+    renderRandomBanner();
+
+    setInterval(renderRandomBanner, 2000);
+}
 
         const shareHtml = typeof getShareButtonsHtml === 'function' ? getShareButtonsHtml(item.title, item.link) : '';
         

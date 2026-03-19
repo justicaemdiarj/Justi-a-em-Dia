@@ -1,5 +1,26 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
+    {
+    title: "Brasil Endurece o Cerco ao Crime Organizado",
+    date: "19/03/2026",
+    timestamp: "2026-03-19T07:00:00",
+    image: "../img/marco-legal-crime-organizado-legislacao-penal-2025.webp",
+    excerpt: "Em 2025, o Congresso Nacional aprovou um conjunto robusto de medidas penais que redesenham o enfrentamento ao crime organizado no Brasil, com impactos diretos sobre o sistema prisional e a persecução penal.",
+    link: "../direito-penal/marco-legal-crime-organizado-legislacao-penal-2025.html",
+    categoria: "direito-penal",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
+    title: "Contraditório nas Cautelares Penais em Debate",
+    date: "18/03/2026",
+    timestamp: "2026-03-18T07:00:00",
+    image: "../img/medidas-cautelares-direito-contraditorio-processo-penal-garantias.webp",
+    excerpt: "Garantia constitucional colide com urgência das restrições penais.",
+    link: "../direito-penal/medidas-cautelares-direito-contraditorio-processo-penal-garantias.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 {
     title: "HC e Prisão Cautelar Sob Tensão Constitucional",
     date: "17/03/2026",
@@ -223,13 +244,48 @@ function renderNews(page) {
         item.authorLink = typeof getAuthorLink === 'function' ? getAuthorLink(item.author) : '#';
         const timeDisplay = getRelativeTime(item.timestamp, item.date);
         
-        // Inserir banner no meio da página (ex: após o 3º item)
-        if (index === 3) {
-            const bannerDiv = document.createElement('div');
-            bannerDiv.className = 'banner-wrapper-full';
-            bannerDiv.innerHTML = typeof getMiddleBannerHtml === 'function' ? getMiddleBannerHtml() : '';
-            newsContainer.appendChild(bannerDiv);
+if (index === 3) {
+    const bannerDiv = document.createElement('div');
+    bannerDiv.className = 'banner-wrapper-full';
+
+    newsContainer.appendChild(bannerDiv);
+
+    function renderRandomBanner() {
+
+        const isMobile = window.innerWidth <= 768;
+
+        const banners = isMobile 
+            ? siteConfig.banners.mobile 
+            : siteConfig.banners.desktop;
+
+        const activeBanners = banners.filter(isBannerActiveJS);
+
+        if (!activeBanners.length) return;
+
+        const banner = activeBanners[
+            Math.floor(Math.random() * activeBanners.length)
+        ];
+
+        let imgPath = banner.img;
+
+        if (!imgPath.startsWith('http')) {
+            imgPath = prefix + imgPath;
         }
+
+        bannerDiv.innerHTML = `
+            <div style="margin: 30px 0; text-align: center;">
+                <p style="font-size: 10px; color: #999; margin-bottom: 5px;">PUBLICIDADE</p>
+                <a href="${banner.link}" target="_blank" rel="nofollow">
+                    <img src="${imgPath}" style="max-width:100%; border-radius:8px;">
+                </a>
+            </div>
+        `;
+    }
+
+    renderRandomBanner();
+
+    setInterval(renderRandomBanner, 2000);
+}
 
         const shareHtml = typeof getShareButtonsHtml === 'function' ? getShareButtonsHtml(item.title, item.link) : '';
         
