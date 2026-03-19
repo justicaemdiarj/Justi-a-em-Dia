@@ -329,21 +329,14 @@ if (index === 3) {
     newsContainer.appendChild(bannerDiv);
 
     // HTML fixo (NÃO recria mais)
-bannerDiv.innerHTML = `
-    <div style="margin: 30px 0; text-align: center;">
-        <p style="font-size: 10px; color: #999; margin-bottom: 5px;">PUBLICIDADE</p>
-
-        <a id="bannerLink" href="#" target="_blank" rel="nofollow" style="position: relative; display: block;">
-            
-            <img id="bannerImg1" src="" 
-                style="width:100%; border-radius:8px; position:absolute; top:0; left:0; opacity:1; transition: opacity 0.8s ease;">
-            
-            <img id="bannerImg2" src="" 
-                style="width:100%; border-radius:8px; position:absolute; top:0; left:0; opacity:0; transition: opacity 0.8s ease;">
-        
-        </a>
-    </div>
-`;
+    bannerDiv.innerHTML = `
+        <div style="margin: 30px 0; text-align: center;">
+            <p style="font-size: 10px; color: #999; margin-bottom: 5px;">PUBLICIDADE</p>
+            <a id="bannerLink" href="#" target="_blank" rel="nofollow">
+                <img id="bannerImg" src="" style="max-width:100%; border-radius:8px; transition: opacity 0.5s;">
+            </a>
+        </div>
+    `;
 
     const img = bannerDiv.querySelector('#bannerImg');
     const link = bannerDiv.querySelector('#bannerLink');
