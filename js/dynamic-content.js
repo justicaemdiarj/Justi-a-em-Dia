@@ -13,42 +13,6 @@ const tickerConfig = {
 
 const globalNewsData = [
     {
-    title: "Justiça Militar Condena PMs no Amapá",
-    link: "direito-militar/justica-militar-amapa-condenacao-policiais-militares-macapa.html",
-},
-    {
-    title: "Amazonas Avança na Lei Climática Estadual",
-    link: "legislacao/amazonas-legislacao-ambiental-mudancas-climaticas-assembleia-legislativa.html",
-},
-    {
-    title: "STF Recebe Obra Sobre Direitos Humanos Interamericanos",
-    link: "jurisprudencia/stf-lancamento-livro-jurisprudencia-corte-interamericana-direitos-humanos.html",
-},
-    {
-    title: "Contraditório nas Cautelares Penais em Debate",
-    link: "direito-penal/medidas-cautelares-direito-contraditorio-processo-penal-garantias.html",
-},
-    {
-    title: "Risco Cirúrgico Não Gera Responsabilidade Automática",
-    link: "direito-civil/complicacao-pos-operatoria-responsabilidade-civil-medica-culpa-nexo-causal.html",
-},
-    {
-    title: "Escala 6x1 Sob o Olhar da CLT",
-    link: "direito-trabalhista/escala-6x1-clt-jornada-trabalho-legalidade-direitos-trabalhistas.html",
-},
-    {
-    title: "Holding Familiar e a Divisão do Patrimônio",
-    link: "direito-de-familia/holding-familiar-partilha-bens-sucessao-patrimonial-divorcio-heranca.html",
-},
-    {
-    title: "SP Reestrutura Compliance Policial Após Escândalo",
-    link: "compliance/sp-decreto-reestruturacao-compliance-policias-corrupcao-integridade.html",
-},
-    {
-    title: "PL Quer Pragmatismo Para Vencer em 2026",
-    link: "politica/pl-pragmatismo-agenda-eleicoes-2026-estrategia-eleitoral-oposicao.html",
-},
-    {
     title: "Senado Guia Mulheres Para a Política",
     link: "politica/senado-guia-candidata-mulheres-politica-representatividade-cotas-genero.html",
 },

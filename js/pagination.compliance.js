@@ -1,16 +1,6 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
     {
-    title: "SP Reestrutura Compliance Policial Após Escândalo",
-    date: "18/03/2026",
-    timestamp: "2026-03-18T07:00:00",
-    image: "../img/sp-decreto-reestruturacao-compliance-policias-corrupcao-integridade.webp",
-    excerpt: "Decreto reorganiza controle interno das forças de segurança paulistas.",
-    link: "../compliance/sp-decreto-reestruturacao-compliance-policias-corrupcao-integridade.html",
-    author: "Justiça em Dia",
-    authorLink: "#"
-},
-    {
     title: "Entre o Excesso e o Vazio do Compliance",
     date: "17/03/2026",
     timestamp: "2026-03-17T07:00:00",

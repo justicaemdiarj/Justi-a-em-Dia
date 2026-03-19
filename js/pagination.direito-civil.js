@@ -1,16 +1,6 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
     {
-    title: "Risco Cirúrgico Não Gera Responsabilidade Automática",
-    date: "18/03/2026",
-    timestamp: "2026-03-18T07:00:00",
-    image: "../img/complicacao-pos-operatoria-responsabilidade-civil-medica-culpa-nexo-causal.webp",
-    excerpt: "Obrigação médica é de meio e não de resultado.",
-    link: "../direito-civil/complicacao-pos-operatoria-responsabilidade-civil-medica-culpa-nexo-causal.html",
-    author: "Justiça em Dia",
-    authorLink: "#"
-},
-    {
     title: "Justiça Digital Sem Advogado no Rio",
     date: "17/03/2026",
     timestamp: "2026-03-17T07:00:00",

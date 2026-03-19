@@ -1,16 +1,6 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
     {
-    title: "Justiça Militar Condena PMs no Amapá",
-    date: "18/03/2026",
-    timestamp: "2026-03-18T07:00:00",
-    image: "../img/justica-militar-amapa-condenacao-policiais-militares-macapa.webp",
-    excerpt: "Foro castrense estadual pune conduta de agentes policiais.",
-    link: "../direito-militar/justica-militar-amapa-condenacao-policiais-militares-macapa.html",
-    author: "Justiça em Dia",
-    authorLink: "#"
-},
-    {
     title: "STF Abre Acordo Penal à Justiça Militar",
     date: "17/03/2026",
     timestamp: "2026-03-17T07:00:00",

@@ -1,15 +1,5 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
-        {
-    title: "Escala 6x1 Sob o Olhar da CLT",
-    date: "18/03/2026",
-    timestamp: "2026-03-18T07:00:00",
-    image: "../img/escala-6x1-clt-jornada-trabalho-legalidade-direitos-trabalhistas.webp",
-    excerpt: "Legalidade da jornada depende de condições que muitos ignoram.",
-    link: "../direito-trabalhista/escala-6x1-clt-jornada-trabalho-legalidade-direitos-trabalhistas.html",
-    author: "Justiça em Dia",
-    authorLink: "#"
-},
   
   {
     title: "Aplicativos Vencem a Batalha do Vínculo Trabalhista",
