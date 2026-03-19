@@ -362,7 +362,7 @@ if (index === 3) {
 
     renderRandomBanner();
 
-    setInterval(renderRandomBanner, 2000);
+    setInterval(renderRandomBanner, 4000);
 }
 
         const shareHtml = typeof getShareButtonsHtml === 'function' ? getShareButtonsHtml(item.title, item.link) : '';
