@@ -1,6 +1,17 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
     {
+    title: "Boletim Eleitoral Paulatino Fortalece Transparência Jurisprudencial",
+    date: "20/03/2026",
+    timestamp: "2026-03-20T07:00:00",
+    image: "../img/boletim-eleitoral-fortalece-transparencia-jurisprudencial-tre-pr.webp",
+    excerpt: "Corte paranaense democratiza acesso aos precedentes eleitorais. A primeira edição do boletim periódico de jurisprudência do TRE-PR reúne, em linguagem simples, julgados inovadores e de impacto eleitoral.",
+    link: "../legislacao/boletim-eleitoral-fortalece-transparencia-jurisprudencial-tre-pr.html",
+    categoria: "legislacao",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Rondônia Lidera Gestão Federal de Convênios",
     date: "19/03/2026",
     timestamp: "2026-03-19T07:00:00",

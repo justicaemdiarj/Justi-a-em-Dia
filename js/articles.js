@@ -1,73 +1,73 @@
 const posts = [
   
 {
-  title: "Compliance Como Barreira Contra Fraudes Corporativas",
-  description: "O compliance antifrude integra controles internos, cultura de integridade e tecnologia para proteger organizações das fraudes que custam trilhões ao mercado global",
-  description2: "Programa de prevenção efetivo reduz janela de oportunidade, limita exposição jurídica e fortalece a sustentabilidade das organizações",
-  image: "img/compliance-prevencao-fraude-controles-internos-governanca-corporativa.webp",
-  link: "compliance/compliance-prevencao-fraude-controles-internos-governanca-corporativa.html",
-  date: "2026-03-19T07:00:00",
+    title: "Garantias Locatícias sob Escrutínio Jurídico no Brasil",
+    description: "A escolha da garantia locatícia adequada impacta diretamente a segurança jurídica dos contratos de locação no Brasil",
+    description2: "Seguro-fiança e título de capitalização ganham espaço frente ao fiador e à caução tradicionais",
+    image: "img/garantias-locaticias-escrutinio-juridico-brasil.webp",
+    link: "direito-civil/garantias-locaticias-escrutinio-juridico-brasil.html",
+    date: "2026-03-20T07:00:00",
   section: "featured"
 },
   {
-    title: "Tokens Imobiliários e o Fólio Real Brasileiro",
-    description: "A tokenização imobiliária avança no Brasil, mas esbarra na ausência de marco registral sólido. Sem o assentamento do criptoativo na matrícula, o negócio carece de segurança jurídica.",
-    description2: "Sem registro na matrícula imobiliária, o token não transfere propriedade e pode expor emissores a riscos penais e civis graves.",
-    image: "img/tokens-imobiliarios-folio-real-matricula-registro.webp",
-    link: "direito-civil/tokens-imobiliarios-folio-real-matricula-registro.html",
-    date: "2026-03-19T07:00:00",
+    title: "Prerrogativas Presidenciais Resistem à Custódia Judicial",
+    description: "TRF-6 decide por unanimidade e restabelece estrutura de apoio a ex-presidente mesmo durante cumprimento de pena",
+    description2: "Lei de 1986 não prevê restrições por prisão e veda criação judicial de sanções acessórias",
+    image: "img/prerrogativas-presidenciais-resistem-custodia-judicial.webp",
+    link: "politica/prerrogativas-presidenciais-resistem-custodia-judicial.html",
+    date: "2026-03-20T07:00:00",
   section: "featured-secundario"
 },
 {
-    title: "A Velha Guarda do PT Volta ao Front",
-    description: "Histórico aliado de Lula profere discurso que antecipa a narrativa de combate da campanha petista de 2026, convocando a esquerda à mobilização em evento que reuniu ministros, parlamentares e lideranças do Centrão.",
-    description2: "O retorno da velha guarda do PT à cena eleitoral integra estratégia deliberada de Lula para reforçar a base aliada no Congresso e fortalecer a campanha pela reeleição presidencial.",
-    image: "img/velha-guarda-pt-retorno-campanha-lula-reeleicao-2026.webp",
-    link: "politica/velha-guarda-pt-retorno-campanha-lula-reeleicao-2026.html",
-    date: "2026-03-19T07:00:00",
+    title: "Aposentadoria por Contribuição Ainda Confunde Trabalhadores",
+    description: "Regras de transição do INSS seguem válidas em 2026 com novos ajustes que podem gerar perdas financeiras irreversíveis ao segurado",
+    description2: "Planejamento previdenciário especializado é essencial para escolher a modalidade mais vantajosa antes de requerer o benefício",
+    image: "img/aposentadoria-contribuicao-confunde-trabalhadores-regras-2026.webp",
+    link: "direito-trabalhista/aposentadoria-contribuicao-confunde-trabalhadores-regras-2026.html",
+    date: "2026-03-20T07:00:00",
  section: "featured-terciario"
 },
   {
-    title: "Brasil Endurece o Cerco ao Crime Organizado",
-    image: "img/marco-legal-crime-organizado-legislacao-penal-2025.webp",
-    link: "direito-penal/marco-legal-crime-organizado-legislacao-penal-2025.html",
-    date: "2026-03-19T07:00:00",
+        title: "Boletim Eleitoral Paulatino Fortalece Transparência Jurisprudencial",
+    image: "img/boletim-eleitoral-fortalece-transparencia-jurisprudencial-tre-pr.webp",
+    link: "legislacao/boletim-eleitoral-fortalece-transparencia-jurisprudencial-tre-pr.html",
+    date: "2026-03-20T07:00:00",
     section: "destaque"
   },
    {
-   title: "Churrasco no Atestado Custa o Emprego",
-    image: "img/justa-causa-atestado-medico-churrasco-redes-sociais-trt-go.webp",
-    link: "direito-trabalhista/justa-causa-atestado-medico-churrasco-redes-sociais-trt-go.html",
-    date: "2026-03-19T07:00:00",
+    title: "TSE Recria Censura Eleitoral pela Via Jurisprudencial",
+    image: "img/tse-recria-censura-eleitoral-via-jurisprudencial.webp",
+    link: "jurisprudencia/tse-recria-censura-eleitoral-via-jurisprudencial.html",
+    date: "2026-03-20T07:00:00",
     section: "destaque"
   },
   {
-    title: "Tiro pelas Costas: Agente Estatal Condenado",
-    image: "img/ex-policial-militar-condenado-homicidio-adolescente-cuiaba-tiro-costas.webp",
-    link: "direito-militar/ex-policial-militar-condenado-homicidio-adolescente-cuiaba-tiro-costas.html",
-    date: "2026-03-19T07:00:00",
+     title: "Norma Técnica Redefine Governança Fiscal Empresarial",
+    image: "img/norma-tecnica-redefine-governanca-fiscal-empresarial.webp",
+    link: "compliance/norma-tecnica-redefine-governanca-fiscal-empresarial.html",
+    date: "2026-03-20T07:00:00",
     section: "destaque"
   },
   {
    
-    title: "CNJ Reforça o Judiciário nos Direitos Humanos",
-    image: "img/cnj-protocolos-direitos-humanos-judiciario-sistema-interamericano.webp",
-    link: "jurisprudencia/cnj-protocolos-direitos-humanos-judiciario-sistema-interamericano.html",
-    date: "2026-03-19T07:00:00",
+  title: "Exclusão da Defesa em Escuta Infantil Anula Sentença",
+    image: "img/exclusao-defesa-escuta-infantil-anula-sentenca.webp",
+    link: "direito-penal/exclusao-defesa-escuta-infantil-anula-sentenca.html",
+    date: "2026-03-20T07:00:00",
     section: "veja"
   },
   {
-    title: "Rondônia Lidera Gestão Federal de Convênios",
-    image: "img/rondonia-capacitacao-transferegov-convenios-projetos-sociais.webp",
-    link: "legislacao/rondonia-capacitacao-transferegov-convenios-projetos-sociais.html",
-    date: "2026-03-19T07:00:00",
+   title: "Divórcio Unilateral em Cartório Transforma Direito Familiar",
+    image: "img/divorcio-unilateral-cartorio-transforma-direito-familiar.webp",
+    link: "direito-de-familia/divorcio-unilateral-cartorio-transforma-direito-familiar.html",
+    date: "2026-03-20T07:00:00",
     section: "veja"
   },
   {
- title: "Quando o Judiciário Vira Instrumento de Opressão",
-    image: "img/litigancia-predatoria-familia-judiciario-instrumento-opressao.webp",
-    link: "direito-de-familia/litigancia-predatoria-familia-judiciario-instrumento-opressao.html",
-    date: "2026-03-19T07:00:00",
+    title: "Oficial Preso por Feminicídio Abala Corporação Paulista",
+    image: "img/oficial-preso-feminicidio-abala-corporacao-paulista.webp",
+    link: "direito-militar/oficial-preso-feminicidio-abala-corporacao-paulista.html",
+    date: "2026-03-20T07:00:00",
     section: "veja"
   }
 ];
@@ -268,19 +268,19 @@ document.addEventListener("DOMContentLoaded", function(){
   const posts = [
   
 {
- title: "Direita Domina Arena Digital nas Eleições 2026",
-  link: "politica/direita-lidera-arena-digital-eleicoes-2026-pre-candidato-redes-sociais.html",
-  date: "2026-03-16T07:00:00"
+ title: "Compliance Como Barreira Contra Fraudes Corporativas",
+  link: "compliance-prevencao-fraude-controles-internos-governanca-corporativa.html",
+  date: "2026-03-19T07:00:00"
 },
 {
-    title: "Lula e Flávio Empatam pela Primeira Vez",
-    link: "politica/quaest-lula-flavio-empatados-41-segundo-turno-2026.html",
-    date: "2026-03-14T07:00:00"
+    title: "Tokens Imobiliários e o Fólio Real Brasileiro",
+    link: "direito-civil/tokens-imobiliarios-folio-real-matricula-registro.html",
+    date: "2026-03-19T07:00:00"
 },
 {
- title: "Cultura de Cuiabá Adota Compliance na Gestão",
-  link: "compliance/secretaria-cultura-cuiaba-compliance-integridade-administracao-publica-municipal.html",
-  date: "2026-03-15T07:00:00"
+ title: "Cerrado Ganha Força Legislativa em Goiás",
+  link: "legislacao/gomide-leis-ambientais-cerrado-goias-sementes-cerrado.html",
+  date: "2026-03-14T07:00:00"
 },
 {
  title: "Como Provar Assédio no Ambiente de Trabalho",
@@ -288,9 +288,9 @@ document.addEventListener("DOMContentLoaded", function(){
   date: "2026-03-15T07:00:00"
 },
  {
-   title: "Agências de Viagem Ganham Terreno no Judiciário",
-    link: "jurisprudencia/agencias-viagem-responsabilidade-solidaria-jurisprudencia-stj-turismo.html",
-    date: "2026-03-14T07:00:00"
+   title: "Insalubridade Para Motoboys a Partir de Abril",
+    link: "direito-trabalhista/insalubridade-motoboys-entregadores-abril-2026-direitos-trabalhistas.html",
+    date: "2026-03-17T07:00:00"
 },
 
   ];
@@ -339,47 +339,47 @@ document.addEventListener("DOMContentLoaded", function(){
 const principaisNoticias = [
 
 {
-title: "Proteção ou Vigilância Digital sobre Crianças e Jovens",
-    link: "direito-de-familia/lei-eca-digital-privacidade-criancas-adolescentes.html",
+title: "ECA Digital Protege Crianças no Ambiente Virtual  ",
+    link: "direito-de-familia/eca-digital-vigor-marco-2026-protecao-criancas-adolescentes-internet.html",
 source: "",
-date: "2026-03-12T07:00:00"
+date: "2026-03-17T07:00:00"
 },
 
 {
-title: "Cultura de Cuiabá Adota Compliance na Gestão",
-  link: "compliance/secretaria-cultura-cuiaba-compliance-integridade-administracao-publica-municipal.html",
+title: "PL Quer Pragmatismo Para Vencer em 2026",
+  link: "politica/pl-pragmatismo-agenda-eleicoes-2026-estrategia-eleitoral-oposicao.html",
 source: "",
-date: "2026-03-15T07:00:00"
+date: "2026-03-18T07:00:00"
 },
 {
-title: "Novo Código Civil Enfrenta Freio no Senado",
-link: "direito-civil/pl-codigo-civil-tramitacao-atraso-senado-calendario-eleitoral-2026.html",
+title: "Senado Guia Mulheres Para a Política",
+link: "politica/senado-guia-candidata-mulheres-politica-representatividade-cotas-genero.html",
 source: "",
-date: "2026-03-15T03:00:00"
+date: "2026-03-17T03:00:00"
 },
 {
-title: "Judiciário do Acre Vai Além da Punição",
-  link: "direito-de-familia/tjac-judiciario-acolhimento-violencia-domestica-lei-maria-penha-20-anos.html",
+title: "SP Reestrutura Compliance Policial Após Escândalo",
+  link: "compliance/sp-decreto-reestruturacao-compliance-policias-corrupcao-integridade.html",
 source: "",
-date: "2026-03-15T07:00:00"
+date: "2026-03-18T07:00:00"
 },
 {
-title: "Habeas Corpus Amordaçado pela Jurisprudência",
-link: "direito-penal/habeas-corpus-vedacao-debate-fatico-prisao-preventiva-inconstitucional.html",
+title: "Tocantins Avança no Debate Nacional de Compliance",
+link: "compliance/tocantins-congresso-compliance-governanca-integridade-palmas.html",
 source: "",
-date: "2026-03-14T07:00:00"
+date: "2026-03-16T07:00:00"
 },
 {
-title: "Obra Mal Feita, Quem Paga a Conta ao Consumidor",
-    link: "direito-civil/responsabilidade-fornecedor-obras-cdc-obrigacao-resultado.html",
+title: "Quando o Judiciário Vira Instrumento de Opressão",
+    link: "direito-de-familia/litigancia-predatoria-familia-judiciario-instrumento-opressao.html",
 source: "",
-date: "2026-03-13T07:00:00"
+date: "2026-03-19T07:00:00"
 },
 {
- title: "ANPP Chega à Justiça Militar Brasileira",
-  link: "direito-militar/anpp-justica-militar-acordo-nao-persecucao-penal-aplicacao.html",
+ title: "Holding Familiar e a Divisão do Patrimônio",
+  link: "direito-de-familia/holding-familiar-partilha-bens-sucessao-patrimonial-divorcio-heranca.html",
 source: "",
-date: "2026-03-12T07:00:00"
+date: "2026-03-18T07:00:00"
 },
 {
     title: "Código Civil Ganha Nova Chance de Evolução",
@@ -388,10 +388,10 @@ source: "",
 date: "2026-03-14T07:00:00",
 },
 {
-   title: "STJ Garante Dividendos ao Ex-Cônjuge Até Partilha Final",
-    link: "direito-de-familia/stj-dividendos-ex-conjuge-cotista-anomalo-apuracao-haveres.html",
+   title: "Contraditório nas Cautelares Penais em Debate",
+    link: "direito-penal/medidas-cautelares-direito-contraditorio-processo-penal-garantias.html",
 source: "",
- date: "2026-03-13T07:00:00"
+ date: "2026-03-18T07:00:00"
 },
 
 ];

@@ -1,13 +1,22 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
     {
+    title: "Divórcio Unilateral em Cartório Transforma Direito Familiar",
+    date: "20/03/2026",
+    timestamp: "2026-03-20T07:00:00",
+    image: "../img/divorcio-unilateral-cartorio-transforma-direito-familiar.webp",
+    excerpt: "Autonomia individual redefine dissolução do vínculo conjugal. A proposta de divórcio unilateral em cartório, amparada pela jurisprudência do STJ e pela reforma do Código Civil, representa avanço na desburocratização do direito de família brasileiro.",
+    link: "../direito-de-familia/divorcio-unilateral-cartorio-transforma-direito-familiar.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Quando o Judiciário Vira Instrumento de Opressão",
     date: "19/03/2026",
     timestamp: "2026-03-19T07:00:00",
     image: "../img/litigancia-predatoria-familia-judiciario-instrumento-opressao.webp",
     excerpt: "Nas Varas de Família, o processo judicial tem sido desvirtuado como ferramenta de assédio e controle coercitivo. A litigância predatória expõe a insuficiência dos mecanismos tradicionais e exige uma virada dogmática urgente.",
     link: "../direito-de-familia/litigancia-predatoria-familia-judiciario-instrumento-opressao.html",
-    categoria: "direito-de-familia",
     author: "Justiça em Dia",
     authorLink: "#"
 },

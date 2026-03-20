@@ -13,6 +13,38 @@ const tickerConfig = {
 
 const globalNewsData = [
     {
+    title: "Oficial Preso por Feminicídio Abala Corporação Paulista",
+    link: "direito-militar/oficial-preso-feminicidio-abala-corporacao-paulista.html",
+},
+    {
+    title: "Exclusão da Defesa em Escuta Infantil Anula Sentença",
+    link: "direito-penal/exclusao-defesa-escuta-infantil-anula-sentenca.html",
+},
+    {
+    title: "Divórcio Unilateral em Cartório Transforma Direito Familiar",
+    link: "direito-de-familia/divorcio-unilateral-cartorio-transforma-direito-familiar.html",
+},
+    {
+    title: "Aposentadoria por Contribuição Ainda Confunde Trabalhadores",
+    link: "direito-trabalhista/aposentadoria-contribuicao-confunde-trabalhadores-regras-2026.html",
+},
+    {
+    title: "Norma Técnica Redefine Governança Fiscal Empresarial",
+    link: "compliance/norma-tecnica-redefine-governanca-fiscal-empresarial.html",
+},
+    {
+    title: "TSE Recria Censura Eleitoral pela Via Jurisprudencial",
+    link: "jurisprudencia/tse-recria-censura-eleitoral-via-jurisprudencial.html",
+},
+    {
+    title: "Boletim Eleitoral Paulatino Fortalece Transparência Jurisprudencial",
+    link: "legislacao/boletim-eleitoral-fortalece-transparencia-jurisprudencial-tre-pr.html",
+},
+    {
+    title: "Prerrogativas Presidenciais Resistem à Custódia Judicial",
+    link: "politica/prerrogativas-presidenciais-resistem-custodia-judicial.html",
+},
+    {
     title: "Garantias Locatícias sob Escrutínio Jurídico no Brasil",
     link: "direito-civil/garantias-locaticias-escrutinio-juridico-brasil.html",
 },
@@ -36,82 +68,7 @@ const globalNewsData = [
     title: "Churrasco no Atestado Custa o Emprego",
     link: "direito-trabalhista/justa-causa-atestado-medico-churrasco-redes-sociais-trt-go.html",
 },
-    {
-    title: "Brasil Endurece o Cerco ao Crime Organizado",
-    link: "direito-penal/marco-legal-crime-organizado-legislacao-penal-2025.html",
-},
-    {
-    title: "Quando o Judiciário Vira Instrumento de Opressão",
-    link: "direito-de-familia/litigancia-predatoria-familia-judiciario-instrumento-opressao.html",
-},
-    {
-    title: "Tokens Imobiliários e o Fólio Real Brasileiro",
-    link: "direito-civil/tokens-imobiliarios-folio-real-matricula-registro.html",
-},
-    {
-    title: "Compliance Como Barreira Contra Fraudes Corporativas",
-    link: "compliance/compliance-prevencao-fraude-controles-internos-governanca-corporativa.html",
-},
-    {
-    title: "Justiça Militar Condena PMs no Amapá",
-    link: "direito-militar/justica-militar-amapa-condenacao-policiais-militares-macapa.html",
-},
-    {
-    title: "Amazonas Avança na Lei Climática Estadual",
-    link: "legislacao/amazonas-legislacao-ambiental-mudancas-climaticas-assembleia-legislativa.html",
-},
-    {
-    title: "STF Recebe Obra Sobre Direitos Humanos Interamericanos",
-    link: "jurisprudencia/stf-lancamento-livro-jurisprudencia-corte-interamericana-direitos-humanos.html",
-},
-    {
-    title: "Contraditório nas Cautelares Penais em Debate",
-    link: "direito-penal/medidas-cautelares-direito-contraditorio-processo-penal-garantias.html",
-},
-    {
-    title: "Risco Cirúrgico Não Gera Responsabilidade Automática",
-    link: "direito-civil/complicacao-pos-operatoria-responsabilidade-civil-medica-culpa-nexo-causal.html",
-},
-    {
-    title: "Escala 6x1 Sob o Olhar da CLT",
-    link: "direito-trabalhista/escala-6x1-clt-jornada-trabalho-legalidade-direitos-trabalhistas.html",
-},
-    {
-    title: "Holding Familiar e a Divisão do Patrimônio",
-    link: "direito-de-familia/holding-familiar-partilha-bens-sucessao-patrimonial-divorcio-heranca.html",
-},
-    {
-    title: "SP Reestrutura Compliance Policial Após Escândalo",
-    link: "compliance/sp-decreto-reestruturacao-compliance-policias-corrupcao-integridade.html",
-},
-    {
-    title: "PL Quer Pragmatismo Para Vencer em 2026",
-    link: "politica/pl-pragmatismo-agenda-eleicoes-2026-estrategia-eleitoral-oposicao.html",
-},
-    {
-    title: "Senado Guia Mulheres Para a Política",
-    link: "politica/senado-guia-candidata-mulheres-politica-representatividade-cotas-genero.html",
-},
-    {
-    title: "Insalubridade Para Motoboys a Partir de Abril",
-    link: "direito-trabalhista/insalubridade-motoboys-entregadores-abril-2026-direitos-trabalhistas.html",
-},
-    {
-    title: "STF Abre Acordo Penal à Justiça Militar",
-    link: "direito-militar/stf-anpp-acordo-nao-persecucao-penal-justica-militar-crime-militar.html",
-},
-    {
-    title: "Entre o Excesso e o Vazio do Compliance",
-    link: "compliance/overcompliance-compliance-zero-equilibrio-programas-integridade-empresas.html",
-},
-    {
-    title: "HC e Prisão Cautelar Sob Tensão Constitucional",
-    link: "direito-penal/habeas-corpus-prisao-cautelar-vedacao-debate-fatico-assimetria-inconstitucional.html",
-},
-    {
-    title: "ECA Digital Protege Crianças no Ambiente Virtual",
-    link: "direito-de-familia/eca-digital-vigor-marco-2026-protecao-criancas-adolescentes-internet.html",
-},
+
 
 ];
 

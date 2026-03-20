@@ -1,13 +1,22 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
     {
+    title: "Exclusão da Defesa em Escuta Infantil Anula Sentença",
+    date: "20/03/2026",
+    timestamp: "2026-03-20T07:00:00",
+    image: "../img/exclusao-defesa-escuta-infantil-anula-sentenca.webp",
+    excerpt: "Contraditório violado invalida condenação por crime grave. O TJ-SP anulou sentença de 19 anos por ausência da defesa técnica durante escuta especializada de vítima infantil realizada por videoconferência.",
+    link: "../direito-penal/exclusao-defesa-escuta-infantil-anula-sentenca.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Brasil Endurece o Cerco ao Crime Organizado",
     date: "19/03/2026",
     timestamp: "2026-03-19T07:00:00",
     image: "../img/marco-legal-crime-organizado-legislacao-penal-2025.webp",
     excerpt: "Em 2025, o Congresso Nacional aprovou um conjunto robusto de medidas penais que redesenham o enfrentamento ao crime organizado no Brasil, com impactos diretos sobre o sistema prisional e a persecução penal.",
     link: "../direito-penal/marco-legal-crime-organizado-legislacao-penal-2025.html",
-    categoria: "direito-penal",
     author: "Justiça em Dia",
     authorLink: "#"
 },

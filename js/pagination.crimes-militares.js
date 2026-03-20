@@ -1,13 +1,22 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
     {
+    title: "Oficial Preso por Feminicídio Abala Corporação Paulista",
+    date: "20/03/2026",
+    timestamp: "2026-03-20T07:00:00",
+    image: "../img/oficial-preso-feminicidio-abala-corporacao-paulista.webp",
+    excerpt: "Perícia destrói tese de suicídio forjado por militar. Tenente-coronel da PM-SP foi preso preventivamente por feminicídio e fraude processual após laudos contrariarem a versão de suicídio da esposa, também policial militar.",
+    link: "../direito-militar/oficial-preso-feminicidio-abala-corporacao-paulista.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Tiro pelas Costas: Agente Estatal Condenado",
     date: "19/03/2026",
     timestamp: "2026-03-19T07:00:00",
     image: "../img/ex-policial-militar-condenado-homicidio-adolescente-cuiaba-tiro-costas.webp",
     excerpt: "O Tribunal do Júri de Cuiabá condenou ex-policial militar a nove anos de reclusão pelo homicídio de adolescente desarmado atingido pelas costas durante perseguição por infração de trânsito.",
     link: "../direito-militar/ex-policial-militar-condenado-homicidio-adolescente-cuiaba-tiro-costas.html",
-    categoria: "direito-militar",
     author: "Justiça em Dia",
     authorLink: "#"
 },

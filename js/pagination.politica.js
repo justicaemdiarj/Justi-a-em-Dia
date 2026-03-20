@@ -1,6 +1,17 @@
 // Dados de notícias para Política
 const categoryNewsData = [
     {
+    title: "Prerrogativas Presidenciais Resistem à Custódia Judicial",
+    date: "20/03/2026",
+    timestamp: "2026-03-20T07:00:00",
+    image: "../img/prerrogativas-presidenciais-resistem-custodia-judicial.webp",
+    excerpt: "Tribunal garante benefícios a ex-mandatário preso. A 4ª Turma do TRF-6 restabeleceu por unanimidade carros oficiais, motoristas, seguranças e assessores a ex-presidente mesmo durante o cumprimento de pena em regime fechado.",
+    link: "../politica/prerrogativas-presidenciais-resistem-custodia-judicial.html",
+    categoria: "politica",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "A Velha Guarda do PT Volta ao Front",
     date: "19/03/2026",
     timestamp: "2026-03-19T07:00:00",

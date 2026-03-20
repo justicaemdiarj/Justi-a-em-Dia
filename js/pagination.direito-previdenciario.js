@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
         {
+    title: "Aposentadoria por Contribuição Ainda Confunde Trabalhadores",
+    date: "20/03/2026",
+    timestamp: "2026-03-20T07:00:00",
+    image: "../img/aposentadoria-contribuicao-confunde-trabalhadores-regras-2026.webp",
+    excerpt: "Reforma previdenciária criou regras que persistem mal compreendidas. As regras de transição da aposentadoria por tempo de contribuição seguem válidas em 2026 com novos ajustes que podem gerar perdas financeiras irreversíveis para quem decide pelo momento errado.",
+    link: "../direito-trabalhista/aposentadoria-contribuicao-confunde-trabalhadores-regras-2026.html",
+    categoria: "direito-trabalhista",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+        {
     title: "TRF-4 garante aposentadoria negada por 48 horas",
     date: "06/03/2026",
     timestamp: "2026-03-06T07:00:00",

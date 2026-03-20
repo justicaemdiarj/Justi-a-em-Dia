@@ -1,6 +1,17 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
     {
+    title: "TSE Recria Censura Eleitoral pela Via Jurisprudencial",
+    date: "20/03/2026",
+    timestamp: "2026-03-20T07:00:00",
+    image: "../img/tse-recria-censura-eleitoral-via-jurisprudencial.webp",
+    excerpt: "Pré-campanha volta à insegurança normativa anterior. A ampliação jurisprudencial dos critérios de propaganda antecipada pelo TSE ameaça a segurança jurídica, a liberdade de expressão e a igualdade na pré-campanha eleitoral.",
+    link: "../jurisprudencia/tse-recria-censura-eleitoral-via-jurisprudencial.html",
+    categoria: "jurisprudencia",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "CNJ Reforça o Judiciário nos Direitos Humanos",
     date: "19/03/2026",
     timestamp: "2026-03-19T07:00:00",

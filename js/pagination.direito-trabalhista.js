@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
     {
+    title: "Aposentadoria por Contribuição Ainda Confunde Trabalhadores",
+    date: "20/03/2026",
+    timestamp: "2026-03-20T07:00:00",
+    image: "../img/aposentadoria-contribuicao-confunde-trabalhadores-regras-2026.webp",
+    excerpt: "Reforma previdenciária criou regras que persistem mal compreendidas. As regras de transição da aposentadoria por tempo de contribuição seguem válidas em 2026 com novos ajustes que podem gerar perdas financeiras irreversíveis para quem decide pelo momento errado.",
+    link: "../direito-trabalhista/aposentadoria-contribuicao-confunde-trabalhadores-regras-2026.html",
+    categoria: "direito-trabalhista",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Churrasco no Atestado Custa o Emprego",
     date: "19/03/2026",
     timestamp: "2026-03-19T07:00:00",

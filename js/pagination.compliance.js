@@ -1,6 +1,17 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
     {
+    title: "Norma Técnica Redefine Governança Fiscal Empresarial",
+    date: "20/03/2026",
+    timestamp: "2026-03-20T07:00:00",
+    image: "../img/norma-tecnica-redefine-governanca-fiscal-empresarial.webp",
+    excerpt: "Fisco passa a exigir método, não só recolhimento. A ABNT NBR 17301 inaugura novo paradigma para o compliance tributário no Brasil, exigindo sistema estruturado de gestão fiscal com políticas formais, registros documentados e controles continuamente revisados.",
+    link: "../compliance/norma-tecnica-redefine-governanca-fiscal-empresarial.html",
+    categoria: "compliance",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Compliance Como Barreira Contra Fraudes Corporativas",
     date: "19/03/2026",
     timestamp: "2026-03-19T07:00:00",

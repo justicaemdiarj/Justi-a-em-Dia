@@ -1,5 +1,15 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
+        {
+    title: "Exclusão da Defesa em Escuta Infantil Anula Sentença",
+    date: "20/03/2026",
+    timestamp: "2026-03-20T07:00:00",
+    image: "../img/exclusao-defesa-escuta-infantil-anula-sentenca.webp",
+    excerpt: "Contraditório violado invalida condenação por crime grave. O TJ-SP anulou sentença de 19 anos por ausência da defesa técnica durante escuta especializada de vítima infantil realizada por videoconferência.",
+    link: "../direito-penal/exclusao-defesa-escuta-infantil-anula-sentenca.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
      {
     title: "Contraditório nas Cautelares Penais em Debate",
     date: "18/03/2026",

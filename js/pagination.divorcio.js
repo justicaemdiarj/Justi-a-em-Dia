@@ -1,5 +1,15 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
+        {
+    title: "Divórcio Unilateral em Cartório Transforma Direito Familiar",
+    date: "20/03/2026",
+    timestamp: "2026-03-20T07:00:00",
+    image: "../img/divorcio-unilateral-cartorio-transforma-direito-familiar.webp",
+    excerpt: "Autonomia individual redefine dissolução do vínculo conjugal. A proposta de divórcio unilateral em cartório, amparada pela jurisprudência do STJ e pela reforma do Código Civil, representa avanço na desburocratização do direito de família brasileiro.",
+    link: "../direito-de-familia/divorcio-unilateral-cartorio-transforma-direito-familiar.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
     {
     title: "FGTS Entra na Partilha do Divórcio",
     date: "16/03/2026",

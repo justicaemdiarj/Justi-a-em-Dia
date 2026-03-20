@@ -1,6 +1,62 @@
 // Base de dados global de artigos para busca
 const allArticles = [
     {
+    title: 'Oficial Preso por Feminicídio Abala Corporação Paulista',
+    description: 'Perícia destrói tese de suicídio forjado por militar. Tenente-coronel da PM-SP foi preso preventivamente por feminicídio e fraude processual após laudos periciais contrariarem a versão de suicídio da esposa, também policial militar.',
+    category: 'Direito Militar',
+    url: 'direito-militar/oficial-preso-feminicidio-abala-corporacao-paulista.html',
+    tags: ['Feminicídio Policial Militar', 'Tenente-Coronel Preso SP', 'Fraude Processual Crime', 'Justiça Militar Feminicídio', 'Oficial Preso por Feminicídio Abala Corporação Paulista']
+},
+    {
+    title: 'Exclusão da Defesa em Escuta Infantil Anula Sentença',
+    description: 'Contraditório violado invalida condenação por crime grave. O TJ-SP anulou sentença de 19 anos por ausência da defesa técnica durante escuta especializada de vítima infantil realizada por videoconferência, com base na violação do contraditório e da ampla defesa.',
+    category: 'Direito Penal',
+    url: 'direito-penal/exclusao-defesa-escuta-infantil-anula-sentenca.html',
+    tags: ['Escuta Especializada Criança', 'Lei 13431 2017', 'Nulidade Processual Penal', 'Contraditório Ampla Defesa', 'Exclusão da Defesa em Escuta Infantil Anula Sentença']
+},
+    {
+    title: 'Divórcio Unilateral em Cartório Transforma Direito Familiar',
+    description: 'Autonomia individual redefine dissolução do vínculo conjugal. A proposta de divórcio unilateral em cartório, amparada pela jurisprudência do STJ e pela reforma do Código Civil, representa avanço na desburocratização do direito de família brasileiro.',
+    category: 'Direito de Família',
+    url: 'direito-de-familia/divorcio-unilateral-cartorio-transforma-direito-familiar.html',
+    tags: ['Divórcio Unilateral Cartório', 'Reforma Código Civil', 'Direito Potestativo', 'STJ Divórcio Liminar', 'Divórcio Unilateral em Cartório Transforma Direito Familiar']
+},
+    {
+    title: 'Aposentadoria por Contribuição Ainda Confunde Trabalhadores',
+    description: 'Reforma previdenciária criou regras que persistem mal compreendidas. As regras de transição da aposentadoria por tempo de contribuição seguem válidas em 2026 com novos ajustes que podem gerar perdas financeiras irreversíveis para quem decide pelo momento errado.',
+    category: 'Direito Trabalhista',
+    url: 'direito-trabalhista/aposentadoria-contribuicao-confunde-trabalhadores-regras-2026.html',
+    tags: ['Aposentadoria por Tempo de Contribuição', 'Regras de Transição INSS 2026', 'Reforma da Previdência', 'Planejamento Previdenciário', 'Aposentadoria por Contribuição Ainda Confunde Trabalhadores']
+},
+    {
+    title: 'Norma Técnica Redefine Governança Fiscal Empresarial',
+    description: 'Fisco passa a exigir método, não só recolhimento. A ABNT NBR 17301 inaugura novo paradigma para o compliance tributário no Brasil, exigindo sistema estruturado de gestão fiscal com políticas formais, registros documentados e controles continuamente revisados.',
+    category: 'Compliance',
+    url: 'compliance/norma-tecnica-redefine-governanca-fiscal-empresarial.html',
+    tags: ['ABNT NBR 17301', 'Compliance Tributário', 'Governança Fiscal', 'Receita Federal', 'Norma Técnica Redefine Governança Fiscal Empresarial']
+},
+    {
+    title: 'TSE Recria Censura Eleitoral pela Via Jurisprudencial',
+    description: 'Pré-campanha volta à insegurança normativa anterior. A ampliação jurisprudencial dos critérios de propaganda antecipada pelo TSE ameaça a segurança jurídica, a liberdade de expressão e a igualdade na pré-campanha eleitoral.',
+    category: 'Jurisprudência',
+    url: 'jurisprudencia/tse-recria-censura-eleitoral-via-jurisprudencial.html',
+    tags: ['TSE', 'Pré-Campanha Eleitoral', 'Propaganda Antecipada', 'Segurança Jurídica', 'TSE Recria Censura Eleitoral pela Via Jurisprudencial']
+},
+    {
+    title: 'Boletim Eleitoral Paulatino Fortalece Transparência Jurisprudencial',
+    description: 'Corte paranaense democratiza acesso aos precedentes eleitorais. A primeira edição do boletim periódico de jurisprudência do TRE-PR reúne, em linguagem simples, julgados inovadores e de impacto eleitoral.',
+    category: 'Legislação',
+    url: 'legislacao/boletim-eleitoral-fortalece-transparencia-jurisprudencial-tre-pr.html',
+    tags: ['TRE-PR', 'Informativo Jurisprudência Eleitoral', 'Precedentes Eleitorais', 'Transparência Judicial', 'Boletim Eleitoral Paulatino Fortalece Transparência Jurisprudencial']
+},
+    {
+    title: 'Prerrogativas Presidenciais Resistem à Custódia Judicial',
+    description: 'Tribunal garante benefícios a ex-mandatário preso. A 4ª Turma do TRF-6 restabeleceu por unanimidade carros oficiais, motoristas, seguranças e assessores a ex-presidente mesmo durante cumprimento de pena em regime fechado.',
+    category: 'Política',
+    url: 'politica/prerrogativas-presidenciais-resistem-custodia-judicial.html',
+    tags: ['TRF-6', 'Prerrogativas Ex-Presidente', 'Lei 7474 1986', 'Benefícios Ex-Presidente Preso', 'Prerrogativas Presidenciais Resistem à Custódia Judicial']
+},
+    {
     title: 'Garantias Locatícias sob Escrutínio Jurídico no Brasil',
     description: 'Mercado imobiliário e segurança contratual em debate. A escolha da garantia locatícia adequada impacta diretamente a segurança jurídica dos contratos de locação e o acesso à moradia no Brasil.',
     category: 'Direito Civil',
