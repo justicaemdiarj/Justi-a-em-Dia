@@ -13,6 +13,18 @@ const tickerConfig = {
 
 const globalNewsData = [
     {
+    title: "Testamento e Jurisprudência no Fio da Navalha",
+    link: "jurisprudencia/testamento-disposicoes-jurisprudencia-direito-sucessorio-brasil.html",
+},
+    {
+    title: "Conformidade Jurídica como Escudo e Espada Corporativa",
+    link: "compliance/conformidade-juridica-escudo-espada-vantagem-corporativa.html",
+},
+    {
+    title: "Governo Abaixo da Régua Histórica da Reeleição",
+    link: "politica/governo-abaixo-regua-historica-reeleicao.html",
+},
+    {
     title: "Oficial Preso por Feminicídio Abala Corporação Paulista",
     link: "direito-militar/oficial-preso-feminicidio-abala-corporacao-paulista.html",
 },

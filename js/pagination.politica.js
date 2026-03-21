@@ -1,6 +1,17 @@
 // Dados de notícias para Política
 const categoryNewsData = [
     {
+    title: "Governo Abaixo da Régua Histórica da Reeleição",
+    date: "21/03/2026",
+    timestamp: "2026-03-21T07:00:00",
+    image: "../img/governo-abaixo-regua-historica-reeleicao.webp",
+    excerpt: "Aprovação presidencial ameaça candidatura em 2026. Pesquisas de março mostram avaliação do governo abaixo do patamar histórico de presidentes que venceram eleições desde 2002, com rejeição pessoal chegando a 57%.",
+    link: "../politica/governo-abaixo-regua-historica-reeleicao.html",
+    categoria: "politica",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Prerrogativas Presidenciais Resistem à Custódia Judicial",
     date: "20/03/2026",
     timestamp: "2026-03-20T07:00:00",

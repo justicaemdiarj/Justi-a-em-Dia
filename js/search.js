@@ -1,6 +1,27 @@
 // Base de dados global de artigos para busca
 const allArticles = [
     {
+    title: 'Testamento e Jurisprudência no Fio da Navalha',
+    description: 'A jurisprudência brasileira tem sido convocada a arbitrar conflitos surgidos a partir de disposições testamentárias, traçando os limites entre autonomia do testador e proteção dos herdeiros necessários.',
+    category: 'Jurisprudência',
+    url: 'jurisprudencia/testamento-disposicoes-jurisprudencia-direito-sucessorio-brasil.html',
+    tags: ['testamento', 'disposições testamentárias', 'direito sucessório', 'herdeiros necessários', 'Testamento e Jurisprudência no Fio da Navalha']
+},
+    {
+    title: 'Conformidade Jurídica como Escudo e Espada Corporativa',
+    description: 'O compliance deixou de ser um custo regulatório para se tornar um pilar estratégico nas organizações brasileiras, protegendo reputação e atraindo investidores.',
+    category: 'Compliance',
+    url: 'compliance/conformidade-juridica-escudo-espada-vantagem-corporativa.html',
+    tags: ['compliance', 'governança corporativa', 'lei anticorrupção', 'cultura de compliance', 'Conformidade Jurídica como Escudo e Espada Corporativa']
+},
+    {
+    title: 'Governo Abaixo da Régua Histórica da Reeleição',
+    description: 'Aprovação presidencial ameaça candidatura em 2026. Pesquisas de março mostram avaliação do governo abaixo do patamar histórico de presidentes que venceram eleições desde 2002, com rejeição pessoal chegando a 57%.',
+    category: 'Política',
+    url: 'politica/governo-abaixo-regua-historica-reeleicao.html',
+    tags: ['Aprovação Governo 2026', 'Pesquisa Eleitoral Presidente', 'Rejeição Presidencial Março 2026', 'Eleições 2026 Candidatura', 'Governo Abaixo da Régua Histórica da Reeleição']
+},
+    {
     title: 'Oficial Preso por Feminicídio Abala Corporação Paulista',
     description: 'Perícia destrói tese de suicídio forjado por militar. Tenente-coronel da PM-SP foi preso preventivamente por feminicídio e fraude processual após laudos periciais contrariarem a versão de suicídio da esposa, também policial militar.',
     category: 'Direito Militar',

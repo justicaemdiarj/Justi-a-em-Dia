@@ -1,30 +1,30 @@
 const posts = [
   
 {
-    title: "Garantias Locatícias sob Escrutínio Jurídico no Brasil",
-    description: "A escolha da garantia locatícia adequada impacta diretamente a segurança jurídica dos contratos de locação no Brasil",
-    description2: "Seguro-fiança e título de capitalização ganham espaço frente ao fiador e à caução tradicionais",
-    image: "img/garantias-locaticias-escrutinio-juridico-brasil.webp",
-    link: "direito-civil/garantias-locaticias-escrutinio-juridico-brasil.html",
-    date: "2026-03-20T07:00:00",
+    title: "Governo Abaixo da Régua Histórica da Reeleição",
+    description: "Aprovação cai abaixo de 40% em pesquisas e coloca presidente no mesmo patamar de governantes que perderam eleições desde 2002",
+    description2: "Rejeição pessoal de 57% supera insatisfação com o governo e acende alerta sobre viabilidade da candidatura à reeleição",
+    image: "img/governo-abaixo-regua-historica-reeleicao.webp",
+    link: "politica/governo-abaixo-regua-historica-reeleicao.html",
+    date: "2026-03-21T07:00:00",
   section: "featured"
 },
   {
-    title: "Prerrogativas Presidenciais Resistem à Custódia Judicial",
-    description: "TRF-6 decide por unanimidade e restabelece estrutura de apoio a ex-presidente mesmo durante cumprimento de pena",
-    description2: "Lei de 1986 não prevê restrições por prisão e veda criação judicial de sanções acessórias",
-    image: "img/prerrogativas-presidenciais-resistem-custodia-judicial.webp",
-    link: "politica/prerrogativas-presidenciais-resistem-custodia-judicial.html",
-    date: "2026-03-20T07:00:00",
+    title: "Conformidade Jurídica como Escudo e Espada Corporativa",
+    description: "O compliance migrou do departamento jurídico para o centro das decisões estratégicas corporativas no Brasil",
+    description2: "Organizações com cultura de conformidade sólida protegem sua reputação e atraem capital qualificado",
+    image: "img/conformidade-juridica-escudo-espada-vantagem-corporativa.webp",
+    link: "compliance/conformidade-juridica-escudo-espada-vantagem-corporativa.html",
+    date: "2026-03-21T06:00:00",
   section: "featured-secundario"
 },
 {
-    title: "Aposentadoria por Contribuição Ainda Confunde Trabalhadores",
-    description: "Regras de transição do INSS seguem válidas em 2026 com novos ajustes que podem gerar perdas financeiras irreversíveis ao segurado",
-    description2: "Planejamento previdenciário especializado é essencial para escolher a modalidade mais vantajosa antes de requerer o benefício",
-    image: "img/aposentadoria-contribuicao-confunde-trabalhadores-regras-2026.webp",
-    link: "direito-trabalhista/aposentadoria-contribuicao-confunde-trabalhadores-regras-2026.html",
-    date: "2026-03-20T07:00:00",
+    title: "Testamento e Jurisprudência no Fio da Navalha",
+    description: "Tribunais brasileiros definem os contornos válidos das disposições de última vontade no direito sucessório",
+    description2: "Entre a legítima intocável e a autonomia testamentária, a jurisprudência traça limites precisos",
+    image: "img/testamento-disposicoes-jurisprudencia-direito-sucessorio-brasil.webp",
+    link: "jurisprudencia/testamento-disposicoes-jurisprudencia-direito-sucessorio-brasil.html",
+    date: "2026-03-21T08:00:00",
  section: "featured-terciario"
 },
   {

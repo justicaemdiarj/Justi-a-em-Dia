@@ -1,6 +1,17 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
     {
+    title: "Testamento e Jurisprudência no Fio da Navalha",
+    date: "21/03/2026",
+    timestamp: "2026-03-21T08:00:00",
+    image: "../img/testamento-disposicoes-jurisprudencia-direito-sucessorio-brasil.webp",
+    excerpt: "A jurisprudência brasileira traça os limites das disposições testamentárias entre a autonomia do testador e a proteção dos herdeiros necessários.",
+    link: "../jurisprudencia/testamento-disposicoes-jurisprudencia-direito-sucessorio-brasil.html",
+    categoria: "jurisprudencia",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "TSE Recria Censura Eleitoral pela Via Jurisprudencial",
     date: "20/03/2026",
     timestamp: "2026-03-20T07:00:00",

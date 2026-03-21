@@ -1,6 +1,17 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
     {
+    title: "Conformidade Jurídica como Escudo e Espada Corporativa",
+    date: "21/03/2026",
+    timestamp: "2026-03-21T06:00:00",
+    image: "../img/conformidade-juridica-escudo-espada-vantagem-corporativa.webp",
+    excerpt: "O compliance deixou de ser custo regulatório para se tornar ativo estratégico nas organizações brasileiras.",
+    link: "../compliance/conformidade-juridica-escudo-espada-vantagem-corporativa.html",
+    categoria: "compliance",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Norma Técnica Redefine Governança Fiscal Empresarial",
     date: "20/03/2026",
     timestamp: "2026-03-20T07:00:00",
