@@ -1,6 +1,17 @@
 // Dados de notícias para Política
 const categoryNewsData = [
     {
+    title: "MDB Perde Quadro e PSB Ganha Candidatura Senatorial",
+    date: "23/03/2026",
+    timestamp: "2026-03-23T06:00:00",
+    image: "../img/desfiliacao-mdb-psb-senado-sao-paulo-eleicoes-2026.webp",
+    excerpt: "Ex-ministra deixa o MDB após quase 30 anos e migra para o PSB para disputar vaga no Senado por São Paulo nas eleições de 2026, reordenando alianças no maior colégio eleitoral do país.",
+    link: "../politica/desfiliacao-mdb-psb-senado-sao-paulo-eleicoes-2026.html",
+    categoria: "politica",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Governo Abaixo da Régua Histórica da Reeleição",
     date: "21/03/2026",
     timestamp: "2026-03-21T07:00:00",

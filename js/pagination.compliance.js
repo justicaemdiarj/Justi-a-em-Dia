@@ -1,6 +1,17 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
     {
+    title: "Farda e Integridade Selam Pacto de Conformidade",
+    date: "23/03/2026",
+    timestamp: "2026-03-23T08:00:00",
+    image: "../img/bombeiros-militar-cge-compliance-publico-integridade-governanca.webp",
+    excerpt: "Corpo de Bombeiros Militar do MS e a CGE firmaram compromisso para implantação do Compliance Público, inaugurando nova fase de governança e integridade institucional na corporação.",
+    link: "../compliance/bombeiros-militar-cge-compliance-publico-integridade-governanca.html",
+    categoria: "compliance",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Conformidade Jurídica como Escudo e Espada Corporativa",
     date: "21/03/2026",
     timestamp: "2026-03-21T06:00:00",

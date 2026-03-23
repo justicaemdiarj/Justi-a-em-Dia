@@ -1,5 +1,16 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
+    {
+    title: "Direito ao Porte que a Burocracia Engavetou",
+    date: "23/03/2026",
+    timestamp: "2026-03-23T06:00:00",
+    image: "../img/porte-arma-policial-bombeiro-lei-organica-carteira-funcional-ms.webp",
+    excerpt: "A Lei Orgânica garante porte de arma nacional a militares estaduais, mas o MS trava o direito por ausência da Carteira Funcional Nacional Padrão e de regulamentação.",
+    link: "../direito-militar/porte-arma-policial-bombeiro-lei-organica-carteira-funcional-ms.html",
+    categoria: "direito-militar",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
         {
     title: "Oficial Preso por Feminicídio Abala Corporação Paulista",
     date: "20/03/2026",

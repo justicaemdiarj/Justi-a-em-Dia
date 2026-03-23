@@ -80,6 +80,42 @@ const globalNewsData = [
     title: "Churrasco no Atestado Custa o Emprego",
     link: "direito-trabalhista/justa-causa-atestado-medico-churrasco-redes-sociais-trt-go.html",
 },
+{
+    title: "Reforma Civil Rasga o Véu da Responsabilidade",
+    link: "direito-civil/pl-codigo-civil-responsabilidade-civil-ampliacao-debate-juridico.html",
+},
+{
+    title: "Brincar como Direito, Lei como Escudo Infantil",
+    link: "direito-de-familia/lei-14826-2024-brincar-parentalidade-positiva-prevencao-violencia-criancas.html",
+},
+{
+    title: "Dosimetria da Pena e a Herança Penal Intemporal",
+    link: "direito-penal/dosimetria-pena-ensinamentos-classicos-direito-penal-brasileiro.html",
+},
+{
+    title: "Sequela Laboral que o INSS Tentou Ignorar",
+    link: "direito-trabalhista/auxilio-acidente-sequela-permanente-inss-qualidade-segurado-tjmt.html",
+},
+{
+    title: "Farda e Integridade Selam Pacto de Conformidade",
+    link: "compliance/bombeiros-militar-cge-compliance-publico-integridade-governanca.html",
+},
+{
+    title: "Direito ao Porte que a Burocracia Engavetou",
+    link: "direito-militar/porte-arma-policial-bombeiro-lei-organica-carteira-funcional-ms.html",
+},
+{
+    title: "Quando o Tribunal Reescreve o que a Lei Diz",
+    link: "jurisprudencia/jurisprudencia-ignora-lei-astreintes-cpc-stj-separacao-poderes.html",
+},
+{
+    title: "Três Frentes que Assombram o Direito Corporativo",
+    link: "legislacao/ciberseguranca-tributacao-geopolitica-preocupacoes-lideres-juridicos-brasil.html",
+},
+{
+    title: "MDB Perde Quadro e PSB Ganha Candidatura Senatorial",
+    link: "politica/desfiliacao-mdb-psb-senado-sao-paulo-eleicoes-2026.html",
+},
 
 
 ];

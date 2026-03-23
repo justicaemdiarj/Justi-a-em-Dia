@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
         {
+    title: "Reforma Civil Rasga o Véu da Responsabilidade",
+    date: "23/03/2026",
+    timestamp: "2026-03-23T07:00:00",
+    image: "../img/pl-codigo-civil-responsabilidade-civil-ampliacao-debate-juridico.webp",
+    excerpt: "O PL 4 de 2025 propõe ampliar a responsabilidade civil no Código Civil e divide juristas entre proteção às vítimas e risco à segurança jurídica.",
+    link: "../direito-civil/pl-codigo-civil-responsabilidade-civil-ampliacao-debate-juridico.html",
+    categoria: "direito-civil",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+        {
     title: "Risco Cirúrgico Não Gera Responsabilidade Automática",
     date: "18/03/2026",
     timestamp: "2026-03-18T07:00:00",

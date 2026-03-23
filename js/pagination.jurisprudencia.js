@@ -1,6 +1,17 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
     {
+    title: "Quando o Tribunal Reescreve o que a Lei Diz",
+    date: "23/03/2026",
+    timestamp: "2026-03-23T06:00:00",
+    image: "../img/jurisprudencia-ignora-lei-astreintes-cpc-stj-separacao-poderes.webp",
+    excerpt: "A Corte Especial do STJ reafirmou exigência de intimação pessoal para astreintes ignorando a alteração expressa do CPC de 2015, acendendo debate sobre os limites do Judiciário.",
+    link: "../jurisprudencia/jurisprudencia-ignora-lei-astreintes-cpc-stj-separacao-poderes.html",
+    categoria: "jurisprudencia",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Testamento e Jurisprudência no Fio da Navalha",
     date: "21/03/2026",
     timestamp: "2026-03-21T08:00:00",

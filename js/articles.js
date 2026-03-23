@@ -1,73 +1,73 @@
 const posts = [
   
 {
-    title: "Governo Abaixo da Régua Histórica da Reeleição",
-    description: "Aprovação cai abaixo de 40% em pesquisas e coloca presidente no mesmo patamar de governantes que perderam eleições desde 2002",
-    description2: "Rejeição pessoal de 57% supera insatisfação com o governo e acende alerta sobre viabilidade da candidatura à reeleição",
-    image: "img/governo-abaixo-regua-historica-reeleicao.webp",
-    link: "politica/governo-abaixo-regua-historica-reeleicao.html",
-    date: "2026-03-21T07:00:00",
+    title: "Reforma Civil Rasga o Véu da Responsabilidade",
+    description: "PL 4 de 2025 propõe ampliar responsabilidade civil e acende debate técnico entre especialistas do direito privado",
+    description2: "Entre proteção às vítimas e segurança jurídica, proposta divide doutrina e alerta setores econômicos",
+    image: "img/pl-codigo-civil-responsabilidade-civil-ampliacao-debate-juridico.webp",
+    link: "direito-civil/pl-codigo-civil-responsabilidade-civil-ampliacao-debate-juridico.html",
+    date: "2026-03-23T07:00:00",
   section: "featured"
 },
   {
-    title: "Conformidade Jurídica como Escudo e Espada Corporativa",
-    description: "O compliance migrou do departamento jurídico para o centro das decisões estratégicas corporativas no Brasil",
-    description2: "Organizações com cultura de conformidade sólida protegem sua reputação e atraem capital qualificado",
-    image: "img/conformidade-juridica-escudo-espada-vantagem-corporativa.webp",
-    link: "compliance/conformidade-juridica-escudo-espada-vantagem-corporativa.html",
-    date: "2026-03-21T06:00:00",
+    title: "Brincar como Direito, Lei como Escudo Infantil",
+    description: "Lei nº 14.826 de 2024 reconhece o brincar e a parentalidade positiva como proteção jurídica à criança",
+    description2: "Nova norma aposta na prevenção afetiva antes que a violência doméstica se instale",
+    image: "img/lei-14826-2024-brincar-parentalidade-positiva-prevencao-violencia-criancas.webp",
+    link: "direito-de-familia/lei-14826-2024-brincar-parentalidade-positiva-prevencao-violencia-criancas.html",
+    date: "2026-03-23T08:00:00",
   section: "featured-secundario"
 },
 {
-    title: "Testamento e Jurisprudência no Fio da Navalha",
-    description: "Tribunais brasileiros definem os contornos válidos das disposições de última vontade no direito sucessório",
-    description2: "Entre a legítima intocável e a autonomia testamentária, a jurisprudência traça limites precisos",
-    image: "img/testamento-disposicoes-jurisprudencia-direito-sucessorio-brasil.webp",
-    link: "jurisprudencia/testamento-disposicoes-jurisprudencia-direito-sucessorio-brasil.html",
-    date: "2026-03-21T08:00:00",
+ title: "Dosimetria da Pena e a Herança Penal Intemporal",
+    description: "Doutrina clássica do penalismo brasileiro segue sendo referência técnica obrigatória na fixação das penas pelos tribunais",
+    description2: "Sistema trifásico e circunstâncias judiciais revelam a atualidade dos fundamentos históricos do direito penal nacional",
+    image: "img/dosimetria-pena-ensinamentos-classicos-direito-penal-brasileiro.webp",
+    link: "direito-penal/dosimetria-pena-ensinamentos-classicos-direito-penal-brasileiro.html",
+    date: "2026-03-23T07:00:00", 
  section: "featured-terciario"
 },
   {
-        title: "Boletim Eleitoral Paulatino Fortalece Transparência Jurisprudencial",
-    image: "img/boletim-eleitoral-fortalece-transparencia-jurisprudencial-tre-pr.webp",
-    link: "legislacao/boletim-eleitoral-fortalece-transparencia-jurisprudencial-tre-pr.html",
-    date: "2026-03-20T07:00:00",
+     title: "Sequela Laboral que o INSS Tentou Ignorar",
+image: "img/auxilio-acidente-sequela-permanente-inss-qualidade-segurado-tjmt.webp",
+    link: "direito-trabalhista/auxilio-acidente-sequela-permanente-inss-qualidade-segurado-tjmt.html",
+    date: "2026-03-23T06:00:00",
     section: "destaque"
   },
    {
-    title: "TSE Recria Censura Eleitoral pela Via Jurisprudencial",
-    image: "img/tse-recria-censura-eleitoral-via-jurisprudencial.webp",
-    link: "jurisprudencia/tse-recria-censura-eleitoral-via-jurisprudencial.html",
-    date: "2026-03-20T07:00:00",
+    title: "Farda e Integridade Selam Pacto de Conformidade",
+image: "img/bombeiros-militar-cge-compliance-publico-integridade-governanca.webp",
+    link: "compliance/bombeiros-militar-cge-compliance-publico-integridade-governanca.html",
+    date: "2026-03-23T08:00:00",
     section: "destaque"
   },
   {
-     title: "Norma Técnica Redefine Governança Fiscal Empresarial",
-    image: "img/norma-tecnica-redefine-governanca-fiscal-empresarial.webp",
-    link: "compliance/norma-tecnica-redefine-governanca-fiscal-empresarial.html",
-    date: "2026-03-20T07:00:00",
+   title: "Direito ao Porte que a Burocracia Engavetou",
+     image: "img/porte-arma-policial-bombeiro-lei-organica-carteira-funcional-ms.webp",
+    link: "direito-militar/porte-arma-policial-bombeiro-lei-organica-carteira-funcional-ms.html",
+    date: "2026-03-23T06:00:00",
     section: "destaque"
   },
   {
    
-  title: "Exclusão da Defesa em Escuta Infantil Anula Sentença",
-    image: "img/exclusao-defesa-escuta-infantil-anula-sentenca.webp",
-    link: "direito-penal/exclusao-defesa-escuta-infantil-anula-sentenca.html",
-    date: "2026-03-20T07:00:00",
+  title: "Quando o Tribunal Reescreve o que a Lei Diz",
+  image: "img/jurisprudencia-ignora-lei-astreintes-cpc-stj-separacao-poderes.webp",
+    link: "jurisprudencia/jurisprudencia-ignora-lei-astreintes-cpc-stj-separacao-poderes.html",
+    date: "2026-03-23T06:00:00",
     section: "veja"
   },
   {
-   title: "Divórcio Unilateral em Cartório Transforma Direito Familiar",
-    image: "img/divorcio-unilateral-cartorio-transforma-direito-familiar.webp",
-    link: "direito-de-familia/divorcio-unilateral-cartorio-transforma-direito-familiar.html",
-    date: "2026-03-20T07:00:00",
+    title: "Três Frentes que Assombram o Direito Corporativo",
+    image: "img/ciberseguranca-tributacao-geopolitica-preocupacoes-lideres-juridicos-brasil.webp",
+    link: "legislacao/ciberseguranca-tributacao-geopolitica-preocupacoes-lideres-juridicos-brasil.html",
+    date: "2026-03-23T06:00:00",
     section: "veja"
   },
   {
-    title: "Oficial Preso por Feminicídio Abala Corporação Paulista",
-    image: "img/oficial-preso-feminicidio-abala-corporacao-paulista.webp",
-    link: "direito-militar/oficial-preso-feminicidio-abala-corporacao-paulista.html",
-    date: "2026-03-20T07:00:00",
+   title: "MDB Perde Quadro e PSB Ganha Candidatura Senatorial",
+    image: "img/desfiliacao-mdb-psb-senado-sao-paulo-eleicoes-2026.webp",
+    link: "politica/desfiliacao-mdb-psb-senado-sao-paulo-eleicoes-2026.html",
+    date: "2026-03-23T06:00:00",
     section: "veja"
   }
 ];

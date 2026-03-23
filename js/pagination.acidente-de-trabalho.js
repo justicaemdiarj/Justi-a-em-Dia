@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
     {
+    title: "Sequela Laboral que o INSS Tentou Ignorar",
+    date: "23/03/2026",
+    timestamp: "2026-03-23T06:00:00",
+    image: "../img/auxilio-acidente-sequela-permanente-inss-qualidade-segurado-tjmt.webp",
+    excerpt: "Tribunal de Justiça de Mato Grosso garantiu auxílio-acidente a trabalhador com sequela permanente após rejeição administrativa do INSS por falha contributiva do empregador.",
+    link: "../direito-trabalhista/auxilio-acidente-sequela-permanente-inss-qualidade-segurado-tjmt.html",
+    categoria: "direito-trabalhista",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Nexo Causal Ausente Derruba Pedido de Indenização Trabalhista",
     date: "11/03/2026",
     timestamp: "2026-03-11T07:00:00",

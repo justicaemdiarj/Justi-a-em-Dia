@@ -1,6 +1,17 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
     {
+    title: "Três Frentes que Assombram o Direito Corporativo",
+    date: "23/03/2026",
+    timestamp: "2026-03-23T06:00:00",
+    image: "../img/ciberseguranca-tributacao-geopolitica-preocupacoes-lideres-juridicos-brasil.webp",
+    excerpt: "Cibersegurança, reforma tributária e geopolítica dominam a agenda dos líderes jurídicos corporativos brasileiros e exigem postura estratégica e multidisciplinar das áreas de direito.",
+    link: "../legislacao/ciberseguranca-tributacao-geopolitica-preocupacoes-lideres-juridicos-brasil.html",
+    categoria: "legislacao",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Boletim Eleitoral Paulatino Fortalece Transparência Jurisprudencial",
     date: "20/03/2026",
     timestamp: "2026-03-20T07:00:00",

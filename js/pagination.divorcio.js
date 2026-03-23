@@ -1,6 +1,17 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
         {
+    title: "Brincar como Direito, Lei como Escudo Infantil",
+    date: "23/03/2026",
+    timestamp: "2026-03-23T08:00:00",
+    image: "../img/lei-14826-2024-brincar-parentalidade-positiva-prevencao-violencia-criancas.webp",
+    excerpt: "A Lei nº 14.826 de 2024 reconhece o brincar e a parentalidade positiva como instrumentos jurídicos de prevenção à violência contra crianças no Brasil.",
+    link: "../direito-de-familia/lei-14826-2024-brincar-parentalidade-positiva-prevencao-violencia-criancas.html",
+    categoria: "direito-de-familia",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+        {
     title: "Divórcio Unilateral em Cartório Transforma Direito Familiar",
     date: "20/03/2026",
     timestamp: "2026-03-20T07:00:00",

@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
     {
+    title: "Dosimetria da Pena e a Herança Penal Intemporal",
+    date: "23/03/2026",
+    timestamp: "2026-03-23T07:00:00",
+    image: "../img/dosimetria-pena-ensinamentos-classicos-direito-penal-brasileiro.webp",
+    excerpt: "Os fundamentos doutrinários clássicos sobre dosimetria da pena permanecem como referência técnica incontornável nas decisões dos tribunais brasileiros.",
+    link: "../direito-penal/dosimetria-pena-ensinamentos-classicos-direito-penal-brasileiro.html",
+    categoria: "direito-penal",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Exclusão da Defesa em Escuta Infantil Anula Sentença",
     date: "20/03/2026",
     timestamp: "2026-03-20T07:00:00",

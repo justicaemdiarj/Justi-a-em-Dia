@@ -1,6 +1,62 @@
 // Base de dados global de artigos para busca
 const allArticles = [
     {
+    title: 'MDB Perde Quadro e PSB Ganha Candidatura Senatorial',
+    description: 'Liderança política nacional deixa o MDB após quase 30 anos e se filia ao PSB para disputar o Senado por São Paulo em 2026, em movimento que reordena as alianças políticas no estado.',
+    category: 'Política',
+    url: 'politica/desfiliacao-mdb-psb-senado-sao-paulo-eleicoes-2026.html',
+    tags: ['MDB', 'PSB', 'Senado São Paulo', 'eleições 2026', 'MDB Perde Quadro e PSB Ganha Candidatura Senatorial']
+},
+    {
+    title: 'Três Frentes que Assombram o Direito Corporativo',
+    description: 'Cibersegurança, reforma tributária e instabilidade geopolítica concentram as principais preocupações dos líderes jurídicos das grandes organizações brasileiras em 2026.',
+    category: 'Legislação',
+    url: 'legislacao/ciberseguranca-tributacao-geopolitica-preocupacoes-lideres-juridicos-brasil.html',
+    tags: ['cibersegurança', 'tributação', 'geopolítica', 'líderes jurídicos', 'Três Frentes que Assombram o Direito Corporativo']
+},
+    {
+    title: 'Quando o Tribunal Reescreve o que a Lei Diz',
+    description: 'O STJ manteve a Súmula 410 sobre astreintes ignorando a alteração expressa do CPC de 2015, expondo o risco institucional de jurisprudência que sobrevive à lei que a originou.',
+    category: 'Jurisprudência',
+    url: 'jurisprudencia/jurisprudencia-ignora-lei-astreintes-cpc-stj-separacao-poderes.html',
+    tags: ['jurisprudência', 'STJ', 'astreintes', 'CPC 2015', 'Quando o Tribunal Reescreve o que a Lei Diz']
+},
+    {
+    title: 'Direito ao Porte que a Burocracia Engavetou',
+    description: 'A Lei Orgânica das Polícias Militares garante porte de arma nacional a militares estaduais ativos e veteranos, mas no MS o direito não é aplicado por ausência da Carteira Funcional Nacional Padrão.',
+    category: 'Direito Militar',
+    url: 'direito-militar/porte-arma-policial-bombeiro-lei-organica-carteira-funcional-ms.html',
+    tags: ['porte de arma', 'policial militar', 'bombeiro militar', 'Lei Orgânica', 'Direito ao Porte que a Burocracia Engavetou']
+},
+    {
+    title: 'Farda e Integridade Selam Pacto de Conformidade',
+    description: 'O Corpo de Bombeiros Militar do MS e a CGE firmaram compromisso formal para implantar o Compliance Público na corporação, avançando na governança institucional e controle interno.',
+    category: 'Compliance',
+    url: 'compliance/bombeiros-militar-cge-compliance-publico-integridade-governanca.html',
+    tags: ['compliance público', 'Corpo de Bombeiros', 'CGE', 'integridade pública', 'Farda e Integridade Selam Pacto de Conformidade']
+},
+    {
+    title: 'Sequela Laboral que o INSS Tentou Ignorar',
+    description: 'O TJMT garantiu auxílio-acidente a trabalhador com amputação parcial do dedo em acidente laboral, reconhecendo que falhas contributivas do empregador não afastam a qualidade de segurado.',
+    category: 'Direito Trabalhista',
+    url: 'direito-trabalhista/auxilio-acidente-sequela-permanente-inss-qualidade-segurado-tjmt.html',
+    tags: ['auxílio-acidente', 'acidente de trabalho', 'INSS', 'qualidade de segurado', 'Sequela Laboral que o INSS Tentou Ignorar']
+},
+    {
+    title: 'Dosimetria da Pena e a Herança Penal Intemporal',
+    description: 'Os ensinamentos clássicos do penalismo brasileiro sobre dosimetria da pena continuam orientando magistrados no sistema trifásico de fixação de sanções penais nos tribunais do país.',
+    category: 'Direito Criminal',
+    url: 'direito-penal/dosimetria-pena-ensinamentos-classicos-direito-penal-brasileiro.html',
+    tags: ['dosimetria da pena', 'sistema trifásico', 'individualização da pena', 'direito penal', 'Dosimetria da Pena e a Herança Penal Intemporal']
+},
+    {
+    title: 'Reforma Civil Rasga o Véu da Responsabilidade',
+    description: 'O PL 4 de 2025 que atualiza o Código Civil propõe ampliar o regime de responsabilidade civil e divide a comunidade jurídica entre avanço protetivo e risco à segurança jurídica.',
+    category: 'Direito Civil',
+    url: 'direito-civil/pl-codigo-civil-responsabilidade-civil-ampliacao-debate-juridico.html',
+    tags: ['responsabilidade civil', 'código civil', 'PL 4 2025', 'reforma civil', 'Reforma Civil Rasga o Véu da Responsabilidade']
+},
+    {
     title: 'Testamento e Jurisprudência no Fio da Navalha',
     description: 'A jurisprudência brasileira tem sido convocada a arbitrar conflitos surgidos a partir de disposições testamentárias, traçando os limites entre autonomia do testador e proteção dos herdeiros necessários.',
     category: 'Jurisprudência',
