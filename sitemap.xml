@@ -43,18 +43,6 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://www.justicaemdia.com.br/acidente-de-trabalho</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://www.justicaemdia.com.br/adicional-de-insalubridade-periculosidade</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
         <loc>https://www.justicaemdia.com.br/apoiadores/advogado-romer-carvalho.html</loc>
         <lastmod>2026-03-02</lastmod>
         <changefreq>always</changefreq>
@@ -62,12 +50,6 @@
     </url>
     <url>
         <loc>https://www.justicaemdia.com.br/apoiadores</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://www.justicaemdia.com.br/assedio-moral-e-sexual</loc>
         <lastmod>2026-03-02</lastmod>
         <changefreq>always</changefreq>
         <priority>1.0</priority>
@@ -134,24 +116,6 @@
     </url>
     <url>
         <loc>https://www.justicaemdia.com.br/compliance/responsabilidade-alta-gestao-compliance.html</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://www.justicaemdia.com.br/conselho-de-disciplina</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://www.justicaemdia.com.br/crimes-militares</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://www.justicaemdia.com.br/danos-morais-e-materiais</loc>
         <lastmod>2026-03-02</lastmod>
         <changefreq>always</changefreq>
         <priority>1.0</priority>
@@ -259,24 +223,6 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://www.justicaemdia.com.br/direito-digital-e-protecao-de-dados</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://www.justicaemdia.com.br/direito-do-consumidor</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://www.justicaemdia.com.br/direito-imobiliario</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
         <loc>https://www.justicaemdia.com.br/direito-militar/a-farda-e-a-constituicao-o-direito-militar-entre-a-tradicao-e-os-direitos-fundamentais.html</loc>
         <lastmod>2026-03-02</lastmod>
         <changefreq>always</changefreq>
@@ -337,18 +283,6 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://www.justicaemdia.com.br/direito-previdenciario</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://www.justicaemdia.com.br/direito-previdenciario-militar</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
         <loc>https://www.justicaemdia.com.br/direito-trabalhista/a-destruicao-metodica-da-competencia-quando-a-critica-vira-arma-de-aniquilacao-profissional.html</loc>
         <lastmod>2026-03-02</lastmod>
         <changefreq>always</changefreq>
@@ -397,30 +331,6 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://www.justicaemdia.com.br/divorcio</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://www.justicaemdia.com.br/dosiometria-da-pena</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://www.justicaemdia.com.br/empreendedorismo</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://www.justicaemdia.com.br/empresas-e-negocios</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
         <loc>https://www.justicaemdia.com.br/politica/advocacia-que-nao-se-conhece-financeiramente.html</loc>
         <lastmod>2026-03-02</lastmod>
         <changefreq>always</changefreq>
@@ -434,18 +344,6 @@
     </url>
     <url>
         <loc>https://www.justicaemdia.com.br/politica/o-novo-labirinto-fiscal-as-regras-de-tributacao-de-investimentos-estrangeiros-redesenham-o-mapa-do-capital-no-brasil.html</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://www.justicaemdia.com.br/infracoes-penais</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://www.justicaemdia.com.br/inquerito-policial</loc>
         <lastmod>2026-03-02</lastmod>
         <changefreq>always</changefreq>
         <priority>1.0</priority>
@@ -493,12 +391,6 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://www.justicaemdia.com.br/justica-militar</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
         <loc>https://www.justicaemdia.com.br/legislacao/a-lei-antes-do-fato-como-a-regulacao-preditiva-antecipa-riscos-tecnologicos.html</loc>
         <lastmod>2026-03-02</lastmod>
         <changefreq>always</changefreq>
@@ -541,55 +433,7 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://www.justicaemdia.com.br/mediacao-familiar</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
         <loc>https://www.justicaemdia.com.br/politica</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://www.justicaemdia.com.br/prisoes-e-medidas-cautelares</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://www.justicaemdia.com.br/reclamacao-trabalhista</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://www.justicaemdia.com.br/reforma-e-reserva</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://www.justicaemdia.com.br/regime-partilha-de-bens</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://www.justicaemdia.com.br/responsabilidade-civil</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://www.justicaemdia.com.br/vinculo-empregaticio</loc>
-        <lastmod>2026-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://www.justicaemdia.com.br/violencia-domestica</loc>
         <lastmod>2026-03-02</lastmod>
         <changefreq>always</changefreq>
         <priority>1.0</priority>
@@ -1558,6 +1402,60 @@
 <url>
     <loc>https://www.justicaemdia.com.br/politica/desfiliacao-mdb-psb-senado-sao-paulo-eleicoes-2026.html</loc>
     <lastmod>2026-03-23</lastmod>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+</url>
+<url>
+    <loc>https://www.justicaemdia.com.br/politica/governo-federal-comunicacao-realizacoes-politicas-publicas-2026.html</loc>
+    <lastmod>2026-03-24</lastmod>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+</url>
+<url>
+    <loc>https://www.justicaemdia.com.br/legislacao/eca-digital-regulacao-plataformas-protecao-criancas-adolescentes-lei.html</loc>
+    <lastmod>2026-03-24</lastmod>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+</url>
+<url>
+    <loc>https://www.justicaemdia.com.br/jurisprudencia/stf-arbitro-constitucional-esporte-nacional.html</loc>
+    <lastmod>2026-03-24</lastmod>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+</url>
+<url>
+    <loc>https://www.justicaemdia.com.br/compliance/compliance-pilar-estrategia-corporativa-moderna.html</loc>
+    <lastmod>2026-03-24</lastmod>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+</url>
+<url>
+    <loc>https://www.justicaemdia.com.br/direito-militar/militar-condenado-perseguicao-obsessiva-quartel.html</loc>
+    <lastmod>2026-03-24</lastmod>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+</url>
+<url>
+    <loc>https://www.justicaemdia.com.br/direito-civil/oab-debate-nova-lei-contrato-seguro.html</loc>
+    <lastmod>2026-03-24</lastmod>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+</url>
+<url>
+    <loc>https://www.justicaemdia.com.br/direito-de-familia/reserva-imovel-planta-custodia-notarial-escrow-incorporacao.html</loc>
+    <lastmod>2026-03-24</lastmod>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+</url>
+<url>
+    <loc>https://www.justicaemdia.com.br/direito-penal/filhos-como-arma-maes-como-alvo-violencia-vicaria-mulher.html</loc>
+    <lastmod>2026-03-24</lastmod>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+</url>
+<url>
+    <loc>https://www.justicaemdia.com.br/direito-trabalhista/demissao-massa-pacto-silencio-clausula-confidencialidade-abusiva.html</loc>
+    <lastmod>2026-03-24</lastmod>
     <changefreq>always</changefreq>
     <priority>1.0</priority>
 </url>

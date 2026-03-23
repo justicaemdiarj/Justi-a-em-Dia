@@ -2343,4 +2343,103 @@
         <news:title>MDB Perde Quadro e PSB Ganha Candidatura Senatorial</news:title>
     </news:news>
 </url>
+<url>
+    <loc>https://www.justicaemdia.com.br/politica/governo-federal-comunicacao-realizacoes-politicas-publicas-2026.html</loc>
+    <news:news>
+        <news:publication>
+            <news:name>Justiça em Dia</news:name>
+            <news:language>pt</news:language>
+        </news:publication>
+        <news:publication_date>2026-03-24T07:00:00-03:00</news:publication_date>
+        <news:title>Governar em Silêncio Não Garante Reeleição</news:title>
+    </news:news>
+</url>
+<url>
+    <loc>https://www.justicaemdia.com.br/legislacao/eca-digital-regulacao-plataformas-protecao-criancas-adolescentes-lei.html</loc>
+    <news:news>
+        <news:publication>
+            <news:name>Justiça em Dia</news:name>
+            <news:language>pt</news:language>
+        </news:publication>
+        <news:publication_date>2026-03-24T07:00:00-03:00</news:publication_date>
+        <news:title>ECA Digital Mira a Lógica das Plataformas</news:title>
+    </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/jurisprudencia/stf-arbitro-constitucional-esporte-nacional.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-03-24T07:00:00-03:00</news:publication_date>
+    <news:title>STF como Árbitro Constitucional do Esporte Nacional</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/compliance/compliance-pilar-estrategia-corporativa-moderna.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-03-24T07:00:00-03:00</news:publication_date>
+    <news:title>Compliance como Pilar da Estratégia Corporativa Moderna</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-militar/militar-condenado-perseguicao-obsessiva-quartel.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-03-24T07:00:00-03:00</news:publication_date>
+    <news:title>Militar Condenado por Perseguição Obsessiva no Quartel</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-civil/oab-debate-nova-lei-contrato-seguro.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-03-24T07:00:00-03:00</news:publication_date>
+    <news:title>OAB Debate Nova Lei do Contrato de Seguro</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-de-familia/reserva-imovel-planta-custodia-notarial-escrow-incorporacao.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-03-24T07:00:00-03:00</news:publication_date>
+    <news:title>Reserva de Imóvel na Planta e a Custódia Notarial</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-penal/filhos-como-arma-maes-como-alvo-violencia-vicaria-mulher.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-03-24T07:00:00-03:00</news:publication_date>
+    <news:title>Filhos Como Arma, Mães Como Alvo</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-trabalhista/demissao-massa-pacto-silencio-clausula-confidencialidade-abusiva.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-03-24T07:00:00-03:00</news:publication_date>
+    <news:title>Demissão em Massa e o Pacto do Silêncio</news:title>
+  </news:news>
+</url>
 </urlset>
