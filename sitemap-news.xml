@@ -2442,4 +2442,103 @@
     <news:title>Demissão em Massa e o Pacto do Silêncio</news:title>
   </news:news>
 </url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-militar/reforma-militar-invalidez-acidente-servico.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-03-25T07:00:00-03:00</news:publication_date>
+    <news:title>Reforma Militar por Incapacidade e Acidente de Serviço</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-civil/teoria-geral-contratos-principios-requisitos.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-03-25T07:00:00-03:00</news:publication_date>
+    <news:title>Contratos: A Espinha Dorsal do Direito Civil</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-de-familia/direito-sucessorio-planejamento-testamento-vocacao-hereditaria.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-03-25T07:00:00-03:00</news:publication_date>
+    <news:title>Herança Não Planejada Vira Batalha Judicial</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-penal/tipos-penais-crimes-especie-homicidio-furto-roubo-estelionato-hediondos.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-03-25T09:00:00-03:00</news:publication_date>
+    <news:title>O Mapa dos Crimes que Assombram o Brasil</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-trabalhista/inteligencia-artificial-futuro-trabalho-direitos-trabalhistas.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-03-25T08:00:00-03:00</news:publication_date>
+    <news:title>Máquinas que Trabalham: Quem Protege o Humano?</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/politica/renuncia-governador-rj-pressao-politica-julgamento-tse.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-03-25T07:00:00-03:00</news:publication_date>
+    <news:title>Renúncia no Rio de Janeiro Sob Pressão Política</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/compliance/compliance-escudo-corporativo-futuro-integridade-brasil.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-03-25T07:00:00-03:00</news:publication_date>
+    <news:title>Compliance Como Escudo Corporativo no Brasil</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/jurisprudencia/distrato-imobiliario-precedente-vinculante-stj.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-03-25T07:00:00-03:00</news:publication_date>
+    <news:title>Distrato Imobiliário Rumo ao Precedente Vinculante no STJ</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/legislacao/lei-celular-escolas-avaliacao-nacional-mec.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-03-25T10:00:00-03:00</news:publication_date>
+    <news:title>Lei Celular nas Escolas sob Avaliação Nacional</news:title>
+  </news:news>
+</url>
 </urlset>
