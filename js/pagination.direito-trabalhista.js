@@ -1,5 +1,15 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
+    {
+    title: "Demissão em Massa e o Pacto do Silêncio",
+    date: "24/03/2026",
+    timestamp: "2026-03-24T10:00:00",
+    image: "../img/demissao-massa-pacto-silencio-clausula-confidencialidade-abusiva.webp",
+    excerpt: "Cláusulas de confidencialidade por prazo indeterminado em termos de rescisão são classificadas como abusivas por especialistas em direito trabalhista no Brasil.",
+    link: "../direito-trabalhista/demissao-massa-pacto-silencio-clausula-confidencialidade-abusiva.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
         {
     title: "Sequela Laboral que o INSS Tentou Ignorar",
     date: "23/03/2026",

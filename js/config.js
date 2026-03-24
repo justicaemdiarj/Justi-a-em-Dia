@@ -35,18 +35,33 @@ const siteConfig = {
     },
     
     // Configuração do Menu (Gerenciamento em Massa)
-    menu: [
 
-       { title: "Direito Civil", link: "direito-civil" },
+menu: [
+        { title: "Início", link: ".." },
+        {
+            title: "Áreas do Direito",
+            link: "#", 
+            isClickable: false,
+            subcategories: [
+            { title: "Direito Civil", link: "direito-civil" },
             { title: "Direito de Família", link: "direito-de-familia" },
             { title: "Direito Criminal", link: "direito-penal" },
             { title: "Direito Trabalhista", link: "direito-trabalhista" },
             { title: "Direito Militar", link: "direito-militar" },
-            { title: "Compliance", link: "compliance" },
-            { title: "Jurisprudência", link: "jurisprudencia" },
-            { title: "Legislação", link: "legislacao" },
-            { title: "Política", link: "politica" },
 
+            ]
+        },
+        {
+            title: "Recursos Jurídicos",
+            link: "#",
+            isClickable: false,
+            subcategories: [
+                { title: "Jurisprudência", link: "jurisprudencia" },
+                { title: "Legislação", link: "legislacao" },
+            ]
+        },
+        { title: "Compliance", link: "compliance" },
+        { title: "Política", link: "politica" },
     ],
     
         // Configuração do Footer (Gerenciamento em Massa)

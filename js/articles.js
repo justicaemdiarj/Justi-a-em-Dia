@@ -1,73 +1,73 @@
 const posts = [
   
 {
-    title: "Reforma Civil Rasga o Véu da Responsabilidade",
-    description: "PL 4 de 2025 propõe ampliar responsabilidade civil e acende debate técnico entre especialistas do direito privado",
-    description2: "Entre proteção às vítimas e segurança jurídica, proposta divide doutrina e alerta setores econômicos",
-    image: "img/pl-codigo-civil-responsabilidade-civil-ampliacao-debate-juridico.webp",
-    link: "direito-civil/pl-codigo-civil-responsabilidade-civil-ampliacao-debate-juridico.html",
-    date: "2026-03-23T07:00:00",
+    title: "Governar em Silêncio Não Garante Reeleição",
+    description: "Governo federal acumula realizações em políticas públicas mas enfrenta paradoxo de gestão invisível ao eleitorado",
+    description2: "Com 2026 se aproximando, a narrativa das conquistas precisa alcançar o cidadão antes que a oposição ocupe esse vazio",
+    image: "img/governo-federal-comunicacao-realizacoes-politicas-publicas-2026.webp",
+    link: "politica/governo-federal-comunicacao-realizacoes-politicas-publicas-2026.html",
+    date: "2026-03-24T06:00:00",
   section: "featured"
 },
   {
-    title: "Brincar como Direito, Lei como Escudo Infantil",
-    description: "Lei nº 14.826 de 2024 reconhece o brincar e a parentalidade positiva como proteção jurídica à criança",
-    description2: "Nova norma aposta na prevenção afetiva antes que a violência doméstica se instale",
-    image: "img/lei-14826-2024-brincar-parentalidade-positiva-prevencao-violencia-criancas.webp",
-    link: "direito-de-familia/lei-14826-2024-brincar-parentalidade-positiva-prevencao-violencia-criancas.html",
-    date: "2026-03-23T08:00:00",
+title: "ECA Digital Mira a Lógica das Plataformas",
+    description: "ECA Digital inaugura marco legislativo inédito ao responsabilizar a arquitetura algorítmica das plataformas pelos danos a crianças e adolescentes",
+    description2: "Nova lei vai além da punição de crimes e regula o modelo de negócios das big techs no ambiente digital infantojuvenil",
+    image: "img/eca-digital-regulacao-plataformas-protecao-criancas-adolescentes-lei.webp",
+    link: "legislacao/eca-digital-regulacao-plataformas-protecao-criancas-adolescentes-lei.html",
+    date: "2026-03-24T07:00:00",
   section: "featured-secundario"
 },
 {
- title: "Dosimetria da Pena e a Herança Penal Intemporal",
-    description: "Doutrina clássica do penalismo brasileiro segue sendo referência técnica obrigatória na fixação das penas pelos tribunais",
-    description2: "Sistema trifásico e circunstâncias judiciais revelam a atualidade dos fundamentos históricos do direito penal nacional",
-    image: "img/dosimetria-pena-ensinamentos-classicos-direito-penal-brasileiro.webp",
-    link: "direito-penal/dosimetria-pena-ensinamentos-classicos-direito-penal-brasileiro.html",
-    date: "2026-03-23T07:00:00", 
+    title: "STF como Árbitro Constitucional do Esporte Nacional",
+    description: "O Supremo Tribunal Federal delimita os poderes do Estado e das entidades desportivas dentro dos parâmetros constitucionais",
+    description2: "Jurisprudência da Corte reafirma autonomia desportiva com limites claros de transparência e legalidade",
+    image: "img/stf-arbitro-constitucional-esporte-nacional.webp",
+    link: "jurisprudencia/stf-arbitro-constitucional-esporte-nacional.html",
+    date: "2026-03-24T07:00:00",
  section: "featured-terciario"
 },
   {
-     title: "Sequela Laboral que o INSS Tentou Ignorar",
-image: "img/auxilio-acidente-sequela-permanente-inss-qualidade-segurado-tjmt.webp",
-    link: "direito-trabalhista/auxilio-acidente-sequela-permanente-inss-qualidade-segurado-tjmt.html",
-    date: "2026-03-23T06:00:00",
+  title: "Compliance como Pilar da Estratégia Corporativa Moderna",
+  image: "img/compliance-pilar-estrategia-corporativa-moderna.webp",
+    link: "compliance/compliance-pilar-estrategia-corporativa-moderna.html",
+    date: "2026-03-24T08:00:00",
     section: "destaque"
   },
    {
-    title: "Farda e Integridade Selam Pacto de Conformidade",
-image: "img/bombeiros-militar-cge-compliance-publico-integridade-governanca.webp",
-    link: "compliance/bombeiros-militar-cge-compliance-publico-integridade-governanca.html",
-    date: "2026-03-23T08:00:00",
+    title: "Militar Condenado por Perseguição Obsessiva no Quartel",
+    image: "img/militar-condenado-perseguicao-obsessiva-quartel.webp",
+    link: "direito-militar/militar-condenado-perseguicao-obsessiva-quartel.html",
+    date: "2026-03-24T09:00:00",
     section: "destaque"
   },
   {
-   title: "Direito ao Porte que a Burocracia Engavetou",
-     image: "img/porte-arma-policial-bombeiro-lei-organica-carteira-funcional-ms.webp",
-    link: "direito-militar/porte-arma-policial-bombeiro-lei-organica-carteira-funcional-ms.html",
-    date: "2026-03-23T06:00:00",
+   title: "OAB Debate Nova Lei do Contrato de Seguro",
+      image: "img/oab-debate-nova-lei-contrato-seguro.webp",
+    link: "direito-civil/oab-debate-nova-lei-contrato-seguro.html",
+    date: "2026-03-24T06:00:00",
     section: "destaque"
   },
   {
    
-  title: "Quando o Tribunal Reescreve o que a Lei Diz",
-  image: "img/jurisprudencia-ignora-lei-astreintes-cpc-stj-separacao-poderes.webp",
-    link: "jurisprudencia/jurisprudencia-ignora-lei-astreintes-cpc-stj-separacao-poderes.html",
-    date: "2026-03-23T06:00:00",
+  title: "Reserva de Imóvel na Planta e a Custódia Notarial",
+ image: "img/reserva-imovel-planta-custodia-notarial-escrow-incorporacao.webp",
+  link: "direito-de-familia/reserva-imovel-planta-custodia-notarial-escrow-incorporacao.html",
+  date: "2026-03-24T09:00:00",
     section: "veja"
   },
   {
-    title: "Três Frentes que Assombram o Direito Corporativo",
-    image: "img/ciberseguranca-tributacao-geopolitica-preocupacoes-lideres-juridicos-brasil.webp",
-    link: "legislacao/ciberseguranca-tributacao-geopolitica-preocupacoes-lideres-juridicos-brasil.html",
-    date: "2026-03-23T06:00:00",
+    title: "Filhos Como Arma, Mães Como Alvo",
+  image: "img/filhos-como-arma-maes-como-alvo-violencia-vicaria-mulher.webp",
+  link: "direito-penal/filhos-como-arma-maes-como-alvo-violencia-vicaria-mulher.html",
+  date: "2026-03-24T07:00:00",
     section: "veja"
   },
   {
-   title: "MDB Perde Quadro e PSB Ganha Candidatura Senatorial",
-    image: "img/desfiliacao-mdb-psb-senado-sao-paulo-eleicoes-2026.webp",
-    link: "politica/desfiliacao-mdb-psb-senado-sao-paulo-eleicoes-2026.html",
-    date: "2026-03-23T06:00:00",
+  title: "Demissão em Massa e o Pacto do Silêncio",
+  image: "img/demissao-massa-pacto-silencio-clausula-confidencialidade-abusiva.webp",
+  link: "direito-trabalhista/demissao-massa-pacto-silencio-clausula-confidencialidade-abusiva.html",
+  date: "2026-03-24T10:00:00",
     section: "veja"
   }
 ];

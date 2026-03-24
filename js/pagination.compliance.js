@@ -1,6 +1,17 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
     {
+    title: "Compliance como Pilar da Estratégia Corporativa Moderna",
+    date: "24/03/2026",
+    timestamp: "2026-03-24T08:00:00",
+    image: "../img/compliance-pilar-estrategia-corporativa-moderna.webp",
+    excerpt: "O compliance deixou de ser mero instrumento de adequação normativa para se tornar vetor estratégico nas organizações brasileiras.",
+    link: "../compliance/compliance-pilar-estrategia-corporativa-moderna.html",
+    categoria: "compliance",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Farda e Integridade Selam Pacto de Conformidade",
     date: "23/03/2026",
     timestamp: "2026-03-23T08:00:00",

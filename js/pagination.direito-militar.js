@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
     {
+    title: "Militar Condenado por Perseguição Obsessiva no Quartel",
+    date: "24/03/2026",
+    timestamp: "2026-03-24T09:00:00",
+    image: "../img/militar-condenado-perseguicao-obsessiva-quartel.webp",
+    excerpt: "Sargento da Marinha é condenado por perseguir colega de farda durante dois anos, expondo vulnerabilidades do ambiente castrense diante de condutas persecutórias.",
+    link: "../direito-militar/militar-condenado-perseguicao-obsessiva-quartel.html",
+    categoria: "direito-militar",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Direito ao Porte que a Burocracia Engavetou",
     date: "23/03/2026",
     timestamp: "2026-03-23T06:00:00",

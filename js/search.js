@@ -1,6 +1,69 @@
 // Base de dados global de artigos para busca
 const allArticles = [
     {
+    title: 'Demissão em Massa e o Pacto do Silêncio',
+    description: 'Cláusulas de confidencialidade por prazo indeterminado inseridas em termos de rescisão sem mediação sindical são classificadas como abusivas por especialistas em direito trabalhista.',
+    category: 'Direito Trabalhista',
+    url: 'direito-trabalhista/demissao-massa-pacto-silencio-clausula-confidencialidade-abusiva.html',
+    tags: ['Demissão em Massa', 'Cláusula de Confidencialidade Abusiva', 'Reforma Trabalhista', 'CLT', 'Direito Trabalhista']
+},
+    {
+    title: 'Filhos Como Arma, Mães Como Alvo',
+    description: 'A violência vicária contra a mulher expõe uma das faces mais cruéis da violência de gênero no Brasil, onde filhos e familiares são instrumentalizados para punir e controlar emocionalmente a mãe.',
+    category: 'Direito Criminal',
+    url: 'direito-penal/filhos-como-arma-maes-como-alvo-violencia-vicaria-mulher.html',
+    tags: ['Violência Vicária', 'Homicídio Vicário', 'Lei Maria da Penha', 'Violência Contra a Mulher', 'PL 3880 2024']
+},
+    {
+    title: 'Reserva de Imóvel na Planta e a Custódia Notarial',
+    description: 'A celebração de termos de reserva de imóvel antes do registro da incorporação imobiliária levanta questões jurídicas cruciais sobre legalidade e proteção patrimonial dos adquirentes.',
+    category: 'Direito de Família',
+    url: 'direito-de-familia/reserva-imovel-planta-custodia-notarial-escrow-incorporacao.html',
+    tags: ['Incorporação Imobiliária', 'Escrow Account Notarial', 'Termo de Reserva de Imóvel', 'Registro de Imóveis', 'Lei 4591']
+},
+    {
+    title: 'OAB Debate Nova Lei do Contrato de Seguro',
+    description: 'A Comissão Nacional de Direito Securitário da OAB promove debates técnicos e prepara seminário nacional sobre a nova legislação que regulamentará os contratos de seguro no Brasil.',
+    category: 'Direito Civil',
+    url: 'direito-civil/oab-debate-nova-lei-contrato-seguro.html',
+    tags: ['direito securitário', 'lei do contrato de seguro', 'OAB', 'mercado de seguros', 'OAB Debate Nova Lei do Contrato de Seguro']
+},
+    {
+    title: 'Militar Condenado por Perseguição Obsessiva no Quartel',
+    description: 'Sargento da Marinha do Brasil é condenado pela prática de stalking contra colega de farda durante dois anos, em caso que evidencia a aplicação da lei antistalking no ambiente castrense.',
+    category: 'Direito Militar',
+    url: 'direito-militar/militar-condenado-perseguicao-obsessiva-quartel.html',
+    tags: ['stalking', 'direito militar', 'Marinha do Brasil', 'perseguição obsessiva', 'Militar Condenado por Perseguição Obsessiva no Quartel']
+},
+    {
+    title: 'Compliance como Pilar da Estratégia Corporativa Moderna',
+    description: 'O compliance deixou de ser mero instrumento de adequação normativa para se tornar vetor estratégico nas organizações brasileiras, reduzindo riscos jurídicos e construindo reputação sólida.',
+    category: 'Compliance',
+    url: 'compliance/compliance-pilar-estrategia-corporativa-moderna.html',
+    tags: ['compliance', 'estratégia empresarial', 'governança corporativa', 'programa de integridade', 'Compliance como Pilar da Estratégia Corporativa Moderna']
+},
+    {
+    title: 'STF como Árbitro Constitucional do Esporte Nacional',
+    description: 'O Supremo Tribunal Federal consolida sua atuação como instância decisiva na regulação do esporte brasileiro, delimitando poderes do Estado e das entidades desportivas.',
+    category: 'Jurisprudência',
+    url: 'jurisprudencia/stf-arbitro-constitucional-esporte-nacional.html',
+    tags: ['STF', 'esporte brasileiro', 'direito desportivo', 'autonomia desportiva', 'STF como Árbitro Constitucional do Esporte Nacional']
+},
+    {
+    title: 'ECA Digital Mira a Lógica das Plataformas',
+    description: 'O ECA Digital representa marco legislativo inédito ao regular não apenas crimes digitais contra crianças, mas a própria arquitetura algorítmica das plataformas que produz danos ao desenvolvimento infantojuvenil.',
+    category: 'Legislação',
+    url: 'legislacao/eca-digital-regulacao-plataformas-protecao-criancas-adolescentes-lei.html',
+    tags: ['ECA Digital', 'plataformas digitais', 'proteção de crianças', 'algoritmos', 'ECA Digital Mira a Lógica das Plataformas']
+},
+    {
+    title: 'Governar em Silêncio Não Garante Reeleição',
+    description: 'O governo federal precisa comunicar com mais eficiência suas realizações em políticas públicas para converter resultados concretos em capital político antes das eleições de 2026.',
+    category: 'Política',
+    url: 'politica/governo-federal-comunicacao-realizacoes-politicas-publicas-2026.html',
+    tags: ['governo federal', 'comunicação política', 'políticas públicas', 'eleições 2026', 'Governar em Silêncio Não Garante Reeleição']
+},
+    {
     title: 'MDB Perde Quadro e PSB Ganha Candidatura Senatorial',
     description: 'Liderança política nacional deixa o MDB após quase 30 anos e se filia ao PSB para disputar o Senado por São Paulo em 2026, em movimento que reordena as alianças políticas no estado.',
     category: 'Política',

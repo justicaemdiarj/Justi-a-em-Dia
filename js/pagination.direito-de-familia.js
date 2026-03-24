@@ -1,6 +1,16 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
     {
+    title: "Reserva de Imóvel na Planta e a Custódia Notarial",
+    date: "24/03/2026",
+    timestamp: "2026-03-24T09:00:00",
+    image: "../img/reserva-imovel-planta-custodia-notarial-escrow-incorporacao.webp",
+    excerpt: "A legalidade do termo de reserva de imóvel em incorporações e o papel da escrow account notarial na proteção do adquirente.",
+    link: "../direito-de-familia/reserva-imovel-planta-custodia-notarial-escrow-incorporacao.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Brincar como Direito, Lei como Escudo Infantil",
     date: "23/03/2026",
     timestamp: "2026-03-23T08:00:00",

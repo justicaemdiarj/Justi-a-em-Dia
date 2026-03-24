@@ -1,6 +1,17 @@
 // Dados de notícias para Política
 const categoryNewsData = [
     {
+    title: "Governar em Silêncio Não Garante Reeleição",
+    date: "24/03/2026",
+    timestamp: "2026-03-24T06:00:00",
+    image: "../img/governo-federal-comunicacao-realizacoes-politicas-publicas-2026.webp",
+    excerpt: "O governo federal acumula realizações em emprego, renda e infraestrutura, mas enfrenta o paradoxo de uma gestão pouco percebida pelo eleitorado às vésperas de 2026.",
+    link: "../politica/governo-federal-comunicacao-realizacoes-politicas-publicas-2026.html",
+    categoria: "politica",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "MDB Perde Quadro e PSB Ganha Candidatura Senatorial",
     date: "23/03/2026",
     timestamp: "2026-03-23T06:00:00",

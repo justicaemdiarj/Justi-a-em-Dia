@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
     {
+    title: "Filhos Como Arma, Mães Como Alvo",
+    date: "24/03/2026",
+    timestamp: "2026-03-24T07:00:00",
+    image: "../img/filhos-como-arma-maes-como-alvo-violencia-vicaria-mulher.webp",
+    excerpt: "A violência vicária contra a mulher e o debate jurídico em torno do PL 3880/2024, que tipifica o homicídio vicário e amplia a Lei Maria da Penha.",
+    link: "../direito-penal/filhos-como-arma-maes-como-alvo-violencia-vicaria-mulher.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Dosimetria da Pena e a Herança Penal Intemporal",
     date: "23/03/2026",
     timestamp: "2026-03-23T07:00:00",

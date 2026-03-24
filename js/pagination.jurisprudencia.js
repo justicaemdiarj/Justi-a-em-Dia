@@ -1,6 +1,17 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
     {
+    title: "STF como Árbitro Constitucional do Esporte Nacional",
+    date: "24/03/2026",
+    timestamp: "2026-03-24T07:00:00",
+    image: "../img/stf-arbitro-constitucional-esporte-nacional.webp",
+    excerpt: "O STF delimita poderes do Estado e das entidades desportivas dentro dos parâmetros constitucionais.",
+    link: "../jurisprudencia/stf-arbitro-constitucional-esporte-nacional.html",
+    categoria: "jurisprudencia",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Quando o Tribunal Reescreve o que a Lei Diz",
     date: "23/03/2026",
     timestamp: "2026-03-23T06:00:00",

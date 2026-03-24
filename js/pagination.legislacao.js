@@ -1,6 +1,17 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
     {
+    title: "ECA Digital Mira a Lógica das Plataformas",
+    date: "24/03/2026",
+    timestamp: "2026-03-24T07:00:00",
+    image: "../img/eca-digital-regulacao-plataformas-protecao-criancas-adolescentes-lei.webp",
+    excerpt: "O ECA Digital inaugura marco legislativo inédito ao responsabilizar a lógica algorítmica das plataformas digitais pelos danos causados a crianças e adolescentes no ambiente virtual.",
+    link: "../legislacao/eca-digital-regulacao-plataformas-protecao-criancas-adolescentes-lei.html",
+    categoria: "legislacao",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Três Frentes que Assombram o Direito Corporativo",
     date: "23/03/2026",
     timestamp: "2026-03-23T06:00:00",

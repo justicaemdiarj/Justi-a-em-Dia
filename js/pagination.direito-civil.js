@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
     {
+    title: "OAB Debate Nova Lei do Contrato de Seguro",
+    date: "24/03/2026",
+    timestamp: "2026-03-24T06:00:00",
+    image: "../img/oab-debate-nova-lei-contrato-seguro.webp",
+    excerpt: "A Comissão Nacional de Direito Securitário da OAB intensifica os debates sobre a nova legislação que regulamentará os contratos de seguro no Brasil e prepara seminário técnico nacional.",
+    link: "../direito-civil/oab-debate-nova-lei-contrato-seguro.html",
+    categoria: "direito-civil",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Reforma Civil Rasga o Véu da Responsabilidade",
     date: "23/03/2026",
     timestamp: "2026-03-23T07:00:00",

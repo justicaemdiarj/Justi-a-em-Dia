@@ -116,6 +116,42 @@ const globalNewsData = [
     title: "MDB Perde Quadro e PSB Ganha Candidatura Senatorial",
     link: "politica/desfiliacao-mdb-psb-senado-sao-paulo-eleicoes-2026.html",
 },
+{
+    title: "Governar em Silêncio Não Garante Reeleição",
+    link: "politica/governo-federal-comunicacao-realizacoes-politicas-publicas-2026.html",
+},
+{
+    title: "ECA Digital Mira a Lógica das Plataformas",
+    link: "legislacao/eca-digital-regulacao-plataformas-protecao-criancas-adolescentes-lei.html",
+},
+{
+    title: "STF como Árbitro Constitucional do Esporte Nacional",
+    link: "jurisprudencia/stf-arbitro-constitucional-esporte-nacional.html",
+},
+{
+    title: "Compliance como Pilar da Estratégia Corporativa Moderna",
+    link: "compliance/compliance-pilar-estrategia-corporativa-moderna.html",
+},
+{
+    title: "Militar Condenado por Perseguição Obsessiva no Quartel",
+    link: "direito-militar/militar-condenado-perseguicao-obsessiva-quartel.html",
+},
+{
+    title: "OAB Debate Nova Lei do Contrato de Seguro",
+    link: "direito-civil/oab-debate-nova-lei-contrato-seguro.html",
+},
+{
+    title: "Reserva de Imóvel na Planta e a Custódia Notarial",
+    link: "direito-de-familia/reserva-imovel-planta-custodia-notarial-escrow-incorporacao.html",
+},
+{
+    title: "Filhos Como Arma, Mães Como Alvo",
+    link: "direito-penal/filhos-como-arma-maes-como-alvo-violencia-vicaria-mulher.html",
+},
+{
+    title: "Demissão em Massa e o Pacto do Silêncio",
+    link: "direito-trabalhista/demissao-massa-pacto-silencio-clausula-confidencialidade-abusiva.html",
+},
 
 
 ];
