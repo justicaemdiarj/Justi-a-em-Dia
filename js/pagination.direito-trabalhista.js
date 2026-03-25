@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
     {
+  title: "Máquinas que Trabalham e Quem Protege o Humano?",
+  date: "25/03/2026",
+  timestamp: "2026-03-25T08:00:00",
+  image: "../img/inteligencia-artificial-futuro-trabalho-direitos-trabalhistas.webp",
+  excerpt: "A inteligência artificial remodela o mercado de trabalho com velocidade que o direito trabalhista brasileiro ainda não acompanhou.",
+  link: "../direito-trabalhista/inteligencia-artificial-futuro-trabalho-direitos-trabalhistas.html",
+  categoria: "direito-trabalhista",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
     title: "Demissão em Massa e o Pacto do Silêncio",
     date: "24/03/2026",
     timestamp: "2026-03-24T10:00:00",

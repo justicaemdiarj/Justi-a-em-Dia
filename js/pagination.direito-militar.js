@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
     {
+  title: "Reforma Militar por Incapacidade e Acidente de Serviço",
+  date: "25/03/2026",
+  timestamp: "2026-03-25T08:00:00",
+  image: "../img/reforma-militar-invalidez-acidente-servico.webp",
+  excerpt: "A reforma por invalidez ou acidente de serviço é um direito do militar que teve sua saúde comprometida no exercício da função pública.",
+  link: "../direito-militar/reforma-militar-invalidez-acidente-servico.html",
+  categoria: "direito-militar",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
     title: "Militar Condenado por Perseguição Obsessiva no Quartel",
     date: "24/03/2026",
     timestamp: "2026-03-24T09:00:00",

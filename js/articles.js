@@ -1,73 +1,73 @@
 const posts = [
   
 {
-    title: "Governar em Silêncio Não Garante Reeleição",
-    description: "Governo federal acumula realizações em políticas públicas mas enfrenta paradoxo de gestão invisível ao eleitorado",
-    description2: "Com 2026 se aproximando, a narrativa das conquistas precisa alcançar o cidadão antes que a oposição ocupe esse vazio",
-    image: "img/governo-federal-comunicacao-realizacoes-politicas-publicas-2026.webp",
-    link: "politica/governo-federal-comunicacao-realizacoes-politicas-publicas-2026.html",
-    date: "2026-03-24T06:00:00",
+  title: "Reforma Militar por Incapacidade e Acidente de Serviço",
+  description: "A reforma por invalidez é um direito do militar acometido por enfermidade no exercício da função pública",
+  description2: "Entenda o arcabouço jurídico e as tendências jurisprudenciais do direito militar brasileiro",
+  image: "img/reforma-militar-invalidez-acidente-servico.webp",
+  link: "direito-militar/reforma-militar-invalidez-acidente-servico.html",
+    date: "2026-03-25T08:00:00",
   section: "featured"
 },
   {
-title: "ECA Digital Mira a Lógica das Plataformas",
-    description: "ECA Digital inaugura marco legislativo inédito ao responsabilizar a arquitetura algorítmica das plataformas pelos danos a crianças e adolescentes",
-    description2: "Nova lei vai além da punição de crimes e regula o modelo de negócios das big techs no ambiente digital infantojuvenil",
-    image: "img/eca-digital-regulacao-plataformas-protecao-criancas-adolescentes-lei.webp",
-    link: "legislacao/eca-digital-regulacao-plataformas-protecao-criancas-adolescentes-lei.html",
-    date: "2026-03-24T07:00:00",
+  title: "Contratos: A Espinha Dorsal do Direito Civil",
+  description: "A teoria geral dos contratos sustenta todo negócio jurídico no direito civil brasileiro",
+  description2: "Princípios, requisitos e vícios que toda parte contratante precisa conhecer",
+  image: "img/teoria-geral-contratos-principios-requisitos.webp",
+  link: "direito-civil/teoria-geral-contratos-principios-requisitos.html",
+    date: "2026-03-25T07:00:00",
   section: "featured-secundario"
 },
 {
-    title: "STF como Árbitro Constitucional do Esporte Nacional",
-    description: "O Supremo Tribunal Federal delimita os poderes do Estado e das entidades desportivas dentro dos parâmetros constitucionais",
-    description2: "Jurisprudência da Corte reafirma autonomia desportiva com limites claros de transparência e legalidade",
-    image: "img/stf-arbitro-constitucional-esporte-nacional.webp",
-    link: "jurisprudencia/stf-arbitro-constitucional-esporte-nacional.html",
-    date: "2026-03-24T07:00:00",
+  title: "Lei Celular nas Escolas sob Avaliação Nacional",
+  description: "MEC lança levantamento com mais de 8 mil escolas para medir os efeitos reais da Lei 15.100/2025 no cotidiano escolar brasileiro",
+  description2: "Prazo para participação se encerra em 2 de abril e resultados orientarão decisões de política pública educacional",
+  image: "img/lei-celular-escolas-avaliacao-nacional-mec.webp",
+  link: "legislacao/lei-celular-escolas-avaliacao-nacional-mec.html",
+  date: "2026-03-25T10:00:00",
  section: "featured-terciario"
 },
   {
-  title: "Compliance como Pilar da Estratégia Corporativa Moderna",
-  image: "img/compliance-pilar-estrategia-corporativa-moderna.webp",
-    link: "compliance/compliance-pilar-estrategia-corporativa-moderna.html",
-    date: "2026-03-24T08:00:00",
+  title: "Herança Não Planejada Vira Batalha Judicial",
+  image: "img/direito-sucessorio-planejamento-testamento-vocacao-hereditaria.webp",
+  link: "direito-de-familia/direito-sucessorio-planejamento-testamento-vocacao-hereditaria.html",
+  date: "2026-03-25T09:00:00",
     section: "destaque"
   },
    {
-    title: "Militar Condenado por Perseguição Obsessiva no Quartel",
-    image: "img/militar-condenado-perseguicao-obsessiva-quartel.webp",
-    link: "direito-militar/militar-condenado-perseguicao-obsessiva-quartel.html",
-    date: "2026-03-24T09:00:00",
+     title: "O Mapa dos Crimes que Assombram o Brasil",
+      image: "img/tipos-penais-crimes-especie-homicidio-furto-roubo-estelionato-hediondos.webp",
+      link: "direito-penal/tipos-penais-crimes-especie-homicidio-furto-roubo-estelionato-hediondos.html",
+      date: "2026-03-25T09:00:00",
     section: "destaque"
   },
   {
-   title: "OAB Debate Nova Lei do Contrato de Seguro",
-      image: "img/oab-debate-nova-lei-contrato-seguro.webp",
-    link: "direito-civil/oab-debate-nova-lei-contrato-seguro.html",
-    date: "2026-03-24T06:00:00",
+   title: "Máquinas que Trabalham e Quem Protege o Humano?",
+  image: "img/inteligencia-artificial-futuro-trabalho-direitos-trabalhistas.webp",
+  link: "direito-trabalhista/inteligencia-artificial-futuro-trabalho-direitos-trabalhistas.html",
+  date: "2026-03-25T08:00:00",
     section: "destaque"
   },
   {
    
-  title: "Reserva de Imóvel na Planta e a Custódia Notarial",
- image: "img/reserva-imovel-planta-custodia-notarial-escrow-incorporacao.webp",
-  link: "direito-de-familia/reserva-imovel-planta-custodia-notarial-escrow-incorporacao.html",
-  date: "2026-03-24T09:00:00",
+  title: "Renúncia no Rio de Janeiro Sob Pressão Política",
+    image: "img/renuncia-governador-rj-pressao-politica-julgamento-tse.webp",
+    link: "politica/renuncia-governador-rj-pressao-politica-julgamento-tse.html",
+    date: "2026-03-25T07:00:00",
     section: "veja"
   },
   {
-    title: "Filhos Como Arma, Mães Como Alvo",
-  image: "img/filhos-como-arma-maes-como-alvo-violencia-vicaria-mulher.webp",
-  link: "direito-penal/filhos-como-arma-maes-como-alvo-violencia-vicaria-mulher.html",
-  date: "2026-03-24T07:00:00",
+  title: "Distrato Imobiliário Rumo ao Precedente Vinculante no STJ",
+  image: "img/distrato-imobiliario-precedente-vinculante-stj.webp",
+  link: "jurisprudencia/distrato-imobiliario-precedente-vinculante-stj.html",
+  date: "2026-03-25T09:00:00",
     section: "veja"
   },
   {
-  title: "Demissão em Massa e o Pacto do Silêncio",
-  image: "img/demissao-massa-pacto-silencio-clausula-confidencialidade-abusiva.webp",
-  link: "direito-trabalhista/demissao-massa-pacto-silencio-clausula-confidencialidade-abusiva.html",
-  date: "2026-03-24T10:00:00",
+  title: "Compliance Como Escudo Corporativo no Brasil",
+    image: "img/compliance-escudo-corporativo-futuro-integridade-brasil.webp",
+    link: "compliance/compliance-escudo-corporativo-futuro-integridade-brasil.html",
+    date: "2026-03-25T07:00:00",
     section: "veja"
   }
 ];
@@ -268,29 +268,29 @@ document.addEventListener("DOMContentLoaded", function(){
   const posts = [
   
 {
- title: "Compliance Como Barreira Contra Fraudes Corporativas",
-  link: "compliance-prevencao-fraude-controles-internos-governanca-corporativa.html",
-  date: "2026-03-19T07:00:00"
+ title: "Governar em Silêncio Não Garante Reeleição",
+  link: "politica/governo-federal-comunicacao-realizacoes-politicas-publicas-2026.html",
+  date: "2026-03-24T07:00:00"
 },
 {
-    title: "Tokens Imobiliários e o Fólio Real Brasileiro",
-    link: "direito-civil/tokens-imobiliarios-folio-real-matricula-registro.html",
-    date: "2026-03-19T07:00:00"
+    title: "MDB Perde Quadro e PSB Ganha Candidatura Senatorial",
+    link: "politica/desfiliacao-mdb-psb-senado-sao-paulo-eleicoes-2026.html",
+    date: "2026-03-23T07:00:00"
 },
 {
- title: "Cerrado Ganha Força Legislativa em Goiás",
-  link: "legislacao/gomide-leis-ambientais-cerrado-goias-sementes-cerrado.html",
-  date: "2026-03-14T07:00:00"
+ title: "Governo Abaixo da Régua Histórica da Reeleição",
+  link: "politica/governo-abaixo-regua-historica-reeleicao.html",
+  date: "2026-03-21T07:00:00"
 },
 {
- title: "Como Provar Assédio no Ambiente de Trabalho",
-  link: "direito-trabalhista/assedio-moral-sexual-trabalho-provas-denunciar-mpt-cartilha.html",
-  date: "2026-03-15T07:00:00"
+ title: "Prerrogativas Presidenciais Resistem à Custódia Judicial",
+  link: "politica/prerrogativas-presidenciais-resistem-custodia-judicial.html",
+  date: "2026-03-20T07:00:00"
 },
  {
-   title: "Insalubridade Para Motoboys a Partir de Abril",
-    link: "direito-trabalhista/insalubridade-motoboys-entregadores-abril-2026-direitos-trabalhistas.html",
-    date: "2026-03-17T07:00:00"
+   title: "Compliance como Pilar da Estratégia Corporativa Moderna",
+    link: "compliance/compliance-pilar-estrategia-corporativa-moderna.html",
+    date: "2026-03-24T07:00:00"
 },
 
   ];
@@ -352,10 +352,10 @@ source: "",
 date: "2026-03-18T07:00:00"
 },
 {
-title: "Senado Guia Mulheres Para a Política",
-link: "politica/senado-guia-candidata-mulheres-politica-representatividade-cotas-genero.html",
+title: "Farda e Integridade Selam Pacto de Conformidade",
+link: "compliance/bombeiros-militar-cge-compliance-publico-integridade-governanca.html",
 source: "",
-date: "2026-03-17T03:00:00"
+date: "2026-03-23T03:00:00"
 },
 {
 title: "SP Reestrutura Compliance Policial Após Escândalo",
@@ -364,34 +364,34 @@ source: "",
 date: "2026-03-18T07:00:00"
 },
 {
-title: "Tocantins Avança no Debate Nacional de Compliance",
-link: "compliance/tocantins-congresso-compliance-governanca-integridade-palmas.html",
+title: "Prerrogativas Presidenciais Resistem à Custódia Judicial",
+link: "politica/prerrogativas-presidenciais-resistem-custodia-judicial.html",
 source: "",
-date: "2026-03-16T07:00:00"
+date: "2026-03-20T07:00:00"
 },
 {
-title: "Quando o Judiciário Vira Instrumento de Opressão",
-    link: "direito-de-familia/litigancia-predatoria-familia-judiciario-instrumento-opressao.html",
+title: "Divórcio Unilateral em Cartório Transforma Direito Familiar",
+    link: "direito-de-familia/divorcio-unilateral-cartorio-transforma-direito-familiar.html",
 source: "",
-date: "2026-03-19T07:00:00"
+date: "2026-03-20T07:00:00"
 },
 {
- title: "Holding Familiar e a Divisão do Patrimônio",
-  link: "direito-de-familia/holding-familiar-partilha-bens-sucessao-patrimonial-divorcio-heranca.html",
+ title: "Compliance como Pilar da Estratégia Corporativa Moderna",
+  link: "compliance/compliance-pilar-estrategia-corporativa-moderna.html",
 source: "",
-date: "2026-03-18T07:00:00"
+date: "2026-03-24T07:00:00"
 },
 {
-    title: "Código Civil Ganha Nova Chance de Evolução",
-  link: "direito-civil/codigo-civil-atualizacao-responsabilidade-civil-debate-senado-2026.html",
+    title: "MDB Perde Quadro e PSB Ganha Candidatura Senatorial",
+  link: "politica/desfiliacao-mdb-psb-senado-sao-paulo-eleicoes-2026.html",
 source: "",
-date: "2026-03-14T07:00:00",
+date: "2026-03-23T07:00:00",
 },
 {
-   title: "Contraditório nas Cautelares Penais em Debate",
-    link: "direito-penal/medidas-cautelares-direito-contraditorio-processo-penal-garantias.html",
+   title: "Reserva de Imóvel na Planta e a Custódia Notarial",
+    link: "direito-de-familia/reserva-imovel-planta-custodia-notarial-escrow-incorporacao.html",
 source: "",
- date: "2026-03-18T07:00:00"
+ date: "2026-03-24T07:00:00"
 },
 
 ];

@@ -1088,6 +1088,54 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
+const performAction = () => {
+    const query = searchInput.value;
+    if (query.length >= 2) {
+        // Adiciona efeito visual de carregamento no botão
+        searchBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i>'; 
+        
+        setTimeout(() => {
+            const results = searchArticles(query);
+            displaySearchResults(results, query);
+            suggestionContainer.style.display = 'none';
+            
+            // Restaura o ícone original após a busca
+            searchBtn.innerHTML = '<i class="fas fa-search"></i>';
+        }, 500); // Pequeno delay para o efeito ser visível
+    }
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+    const input = document.getElementById('searchInput');
+    const messages = ["Artigos...", "Informações...", "Notícias...", "Digite aqui..."];
+    let messageIndex = 0;
+    let charIndex = 0;
+
+    function typeEffect() {
+        if (charIndex < messages[messageIndex].length) {
+            input.setAttribute('placeholder', messages[messageIndex].substring(0, charIndex + 1));
+            charIndex++;
+            setTimeout(typeEffect, 200);
+        } else {
+            setTimeout(eraseEffect, 1000);
+        }
+    }
+
+    function eraseEffect() {
+        if (charIndex > 0) {
+            input.setAttribute('placeholder', messages[messageIndex].substring(0, charIndex - 1));
+            charIndex--;
+            setTimeout(eraseEffect, 50);
+        } else {
+            messageIndex = (messageIndex + 1) % messages.length;
+            setTimeout(typeEffect, 500);
+        }
+    }
+
+    typeEffect();
+});
+
+
 /*
 // Formato da data: "YYYY-MM-DD HH:mm" (Ano-Mês-Dia Hora:Minuto)
 siteConfig.scheduledPosts = [

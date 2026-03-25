@@ -1,6 +1,16 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
     {
+    title: "Lei Celular nas Escolas sob Avaliação Nacional",
+    date: "25/03/2026",
+    timestamp: "2026-03-25T10:00:00",
+    image: "../img/lei-celular-escolas-avaliacao-nacional-mec.webp",
+    excerpt: "O MEC conduz levantamento com mais de 8 mil escolas para avaliar os efeitos do primeiro ano de vigência da Lei 15.100/2025, que regulamenta o uso de celulares no ambiente escolar.",
+    link: "../legislacao/lei-celular-escolas-avaliacao-nacional-mec.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "ECA Digital Mira a Lógica das Plataformas",
     date: "24/03/2026",
     timestamp: "2026-03-24T07:00:00",

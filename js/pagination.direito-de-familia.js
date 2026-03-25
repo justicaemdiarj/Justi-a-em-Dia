@@ -1,6 +1,17 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
     {
+  title: "Herança Não Planejada Vira Batalha Judicial",
+  date: "25/03/2026",
+  timestamp: "2026-03-25T09:00:00",
+  image: "../img/direito-sucessorio-planejamento-testamento-vocacao-hereditaria.webp",
+  excerpt: "O direito sucessório disciplina quem herda, em que ordem e sob quais condições. Saiba como o planejamento protege o patrimônio familiar.",
+  link: "../direito-de-familia/direito-sucessorio-planejamento-testamento-vocacao-hereditaria.html",
+  categoria: "direito-de-familia",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
     title: "Reserva de Imóvel na Planta e a Custódia Notarial",
     date: "24/03/2026",
     timestamp: "2026-03-24T09:00:00",

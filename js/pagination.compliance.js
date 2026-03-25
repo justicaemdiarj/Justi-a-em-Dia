@@ -1,6 +1,16 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
     {
+    title: "Compliance Como Escudo Corporativo no Brasil",
+    date: "25/03/2026",
+    timestamp: "2026-03-25T07:00:00",
+    image: "../img/compliance-escudo-corporativo-futuro-integridade-brasil.webp",
+    excerpt: "O compliance avança no Brasil como exigência estratégica e jurídica para empresas de todos os portes, redefinindo mercado, reputação e governança corporativa.",
+    link: "../compliance/compliance-escudo-corporativo-futuro-integridade-brasil.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Compliance como Pilar da Estratégia Corporativa Moderna",
     date: "24/03/2026",
     timestamp: "2026-03-24T08:00:00",

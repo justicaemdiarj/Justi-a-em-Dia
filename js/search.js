@@ -1,6 +1,69 @@
 // Base de dados global de artigos para busca
 const allArticles = [
     {
+    title: 'Lei Celular nas Escolas sob Avaliação Nacional',
+    description: 'O Ministério da Educação conduz levantamento nacional com mais de 8 mil escolas públicas e privadas para mensurar os efeitos do primeiro ano de vigência da Lei 15.100/2025, que regulamenta o uso de dispositivos móveis no ambiente escolar.',
+    category: 'Legislação',
+    url: 'legislacao/lei-celular-escolas-avaliacao-nacional-mec.html',
+    tags: ['Lei 15.100/2025', 'Celular nas Escolas', 'MEC', 'Educação Digital', 'Pesquisa Nacional', 'Lei Celular nas Escolas sob Avaliação Nacional']
+},
+    {
+    title: 'Distrato Imobiliário Rumo ao Precedente Vinculante no STJ',
+    description: 'O Superior Tribunal de Justiça avança na uniformização da jurisprudência sobre a Lei do Distrato, com decisões reafirmando a retenção de 50% em contratos sob patrimônio de afetação e movimentação institucional para julgamento em rito repetitivo.',
+    category: 'Jurisprudência',
+    url: 'jurisprudencia/distrato-imobiliario-precedente-vinculante-stj.html',
+    tags: ['Lei do Distrato', 'STJ', 'Patrimônio de Afetação', 'Precedente Vinculante', 'Recursos Repetitivos', 'Distrato Imobiliário Rumo ao Precedente Vinculante no STJ']
+},
+    {
+    title: 'Compliance Como Escudo Corporativo no Brasil',
+    description: 'O compliance avança no Brasil como exigência estratégica e jurídica para empresas de todos os portes. Integridade corporativa redefine mercado, reputação e governança.',
+    category: 'Compliance',
+    url: 'compliance/compliance-escudo-corporativo-futuro-integridade-brasil.html',
+    tags: ['Compliance', 'Integridade Corporativa', 'Governança Empresarial', 'Anticorrupção', 'Compliance Como Escudo Corporativo no Brasil']
+},
+    {
+    title: 'Renúncia no Rio de Janeiro Sob Pressão Política',
+    description: 'A saída antecipada do governador do Rio de Janeiro sob pressão política e julgamento no TSE expõe as fragilidades da governança fluminense e os impactos institucionais, fiscais e democráticos.',
+    category: 'Política',
+    url: 'politica/renuncia-governador-rj-pressao-politica-julgamento-tse.html',
+    tags: ['Renúncia Governador', 'TSE', 'Rio de Janeiro', 'Direito Eleitoral', 'Crise Política', 'Renúncia no Rio de Janeiro Sob Pressão Política']
+},
+    {
+  title: 'Máquinas que Trabalham e Quem Protege o Humano?',
+  description: 'A inteligência artificial remodela o mercado de trabalho com velocidade que o direito trabalhista brasileiro ainda não acompanhou.',
+  category: 'Direito Trabalhista',
+  url: 'direito-trabalhista/inteligencia-artificial-futuro-trabalho-direitos-trabalhistas.html',
+  tags: ['Inteligência Artificial', 'Futuro do Trabalho', 'Automação', 'Direito Trabalhista', 'Subordinação Algorítmica']
+},
+    {
+  title: 'O Mapa dos Crimes que Assombram o Brasil',
+  description: 'Homicídio, furto, roubo, estelionato, crimes hediondos e contra a administração pública: entenda os principais tipos penais do direito brasileiro.',
+  category: 'Direito Criminal',
+  url: 'direito-penal/tipos-penais-crimes-especie-homicidio-furto-roubo-estelionato-hediondos.html',
+  tags: ['Tipos Penais', 'Homicídio', 'Crimes Hediondos', 'Estelionato', 'Corrupção']
+},
+    {
+  title: 'Herança Não Planejada Vira Batalha Judicial',
+  description: 'O direito sucessório disciplina quem herda, em que ordem e sob quais condições. Saiba como o planejamento protege o patrimônio familiar.',
+  category: 'Direito de Família',
+  url: 'direito-de-familia/direito-sucessorio-planejamento-testamento-vocacao-hereditaria.html',
+  tags: ['Direito Sucessório', 'Testamento', 'Vocação Hereditária', 'Planejamento Sucessório', 'Inventário']
+},
+    {
+  title: 'Contratos: A Espinha Dorsal do Direito Civil',
+  description: 'A teoria geral dos contratos estabelece os princípios e requisitos que sustentam todo negócio jurídico no direito civil brasileiro.',
+  category: 'Direito Civil',
+  url: 'direito-civil/teoria-geral-contratos-principios-requisitos.html',
+  tags: ['Teoria Geral dos Contratos', 'Direito Civil', 'Boa-fé Objetiva', 'Autonomia Privada', 'Função Social do Contrato']
+},
+    {
+  title: 'Reforma Militar por Incapacidade e Acidente de Serviço',
+  description: 'A reforma por invalidez ou acidente de serviço é um direito do militar que teve sua saúde comprometida no exercício da função pública.',
+  category: 'Direito Militar',
+  url: 'direito-militar/reforma-militar-invalidez-acidente-servico.html',
+  tags: ['Reforma Militar', 'Invalidez Militar', 'Acidente de Serviço', 'Direito Militar', 'Proventos Integrais']
+},
+    {
     title: 'Demissão em Massa e o Pacto do Silêncio',
     description: 'Cláusulas de confidencialidade por prazo indeterminado inseridas em termos de rescisão sem mediação sindical são classificadas como abusivas por especialistas em direito trabalhista.',
     category: 'Direito Trabalhista',

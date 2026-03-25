@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
     {
+  title: "O Mapa dos Crimes que Assombram o Brasil",
+  date: "25/03/2026",
+  timestamp: "2026-03-25T09:00:00",
+  image: "../img/tipos-penais-crimes-especie-homicidio-furto-roubo-estelionato-hediondos.webp",
+  excerpt: "Homicídio, furto, roubo, estelionato, crimes hediondos e contra a administração pública: entenda os principais tipos penais do direito brasileiro.",
+  link: "../direito-penal/tipos-penais-crimes-especie-homicidio-furto-roubo-estelionato-hediondos.html",
+  categoria: "direito-penal",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
     title: "Filhos Como Arma, Mães Como Alvo",
     date: "24/03/2026",
     timestamp: "2026-03-24T07:00:00",

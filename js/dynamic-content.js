@@ -152,7 +152,42 @@ const globalNewsData = [
     title: "Demissão em Massa e o Pacto do Silêncio",
     link: "direito-trabalhista/demissao-massa-pacto-silencio-clausula-confidencialidade-abusiva.html",
 },
-
+{
+  title: "Reforma Militar por Incapacidade e Acidente de Serviço",
+  link: "direito-militar/reforma-militar-invalidez-acidente-servico.html",
+},
+{
+  title: "Contratos: A Espinha Dorsal do Direito Civil",
+  link: "direito-civil/teoria-geral-contratos-principios-requisitos.html",
+},
+{
+  title: "Herança Não Planejada Vira Batalha Judicial",
+  link: "direito-de-familia/direito-sucessorio-planejamento-testamento-vocacao-hereditaria.html",
+},
+{
+  title: "O Mapa dos Crimes que Assombram o Brasil",
+  link: "direito-penal/tipos-penais-crimes-especie-homicidio-furto-roubo-estelionato-hediondos.html",
+},
+{
+  title: "Máquinas que Trabalham: Quem Protege o Humano?",
+  link: "direito-trabalhista/inteligencia-artificial-futuro-trabalho-direitos-trabalhistas.html",
+},
+{
+    title: "Renúncia no Rio de Janeiro Sob Pressão Política",
+    link: "politica/renuncia-governador-rj-pressao-politica-julgamento-tse.html",
+},
+{
+    title: "Compliance Como Escudo Corporativo no Brasil",
+    link: "compliance/compliance-escudo-corporativo-futuro-integridade-brasil.html",
+},
+{
+    title: "Distrato Imobiliário Rumo ao Precedente Vinculante no STJ",
+    link: "jurisprudencia/distrato-imobiliario-precedente-vinculante-stj.html",
+},
+{
+    title: "Lei Celular nas Escolas sob Avaliação Nacional",
+    link: "legislacao/lei-celular-escolas-avaliacao-nacional-mec.html",
+},
 
 ];
 

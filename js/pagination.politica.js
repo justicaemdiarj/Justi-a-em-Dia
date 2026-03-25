@@ -1,6 +1,16 @@
 // Dados de notícias para Política
 const categoryNewsData = [
     {
+    title: "Renúncia no Rio de Janeiro Sob Pressão Política",
+    date: "25/03/2026",
+    timestamp: "2026-03-25T07:00:00",
+    image: "../img/renuncia-governador-rj-pressao-politica-julgamento-tse.webp",
+    excerpt: "A saída antecipada do governador do Rio de Janeiro sob pressão política e julgamento no TSE expõe as fragilidades da governança fluminense.",
+    link: "../politica/renuncia-governador-rj-pressao-politica-julgamento-tse.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Governar em Silêncio Não Garante Reeleição",
     date: "24/03/2026",
     timestamp: "2026-03-24T06:00:00",

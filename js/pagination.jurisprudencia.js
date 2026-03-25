@@ -1,6 +1,16 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
     {
+    title: "Distrato Imobiliário Rumo ao Precedente Vinculante no STJ",
+    date: "25/03/2026",
+    timestamp: "2026-03-25T09:00:00",
+    image: "../img/distrato-imobiliario-precedente-vinculante-stj.webp",
+    excerpt: "O STJ avança na uniformização da jurisprudência sobre a Lei do Distrato, com decisões reafirmando a retenção de 50% em contratos sob patrimônio de afetação.",
+    link: "../jurisprudencia/distrato-imobiliario-precedente-vinculante-stj.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "STF como Árbitro Constitucional do Esporte Nacional",
     date: "24/03/2026",
     timestamp: "2026-03-24T07:00:00",

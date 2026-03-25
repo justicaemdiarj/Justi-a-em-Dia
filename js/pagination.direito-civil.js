@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
     {
+  title: "Contratos: A Espinha Dorsal do Direito Civil",
+  date: "25/03/2026",
+  timestamp: "2026-03-25T07:00:00",
+  image: "../img/teoria-geral-contratos-principios-requisitos.webp",
+  excerpt: "A teoria geral dos contratos estabelece os princípios e requisitos que sustentam todo negócio jurídico no direito civil brasileiro.",
+  link: "../direito-civil/teoria-geral-contratos-principios-requisitos.html",
+  categoria: "direito-civil",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
     title: "OAB Debate Nova Lei do Contrato de Seguro",
     date: "24/03/2026",
     timestamp: "2026-03-24T06:00:00",
