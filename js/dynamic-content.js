@@ -188,6 +188,42 @@ const globalNewsData = [
     title: "Lei Celular nas Escolas sob Avaliação Nacional",
     link: "legislacao/lei-celular-escolas-avaliacao-nacional-mec.html",
 },
+{
+  title: "Artigos do Código Civil Que Você Precisa Dominar",
+  link: "direito-civil/artigos-codigo-civil-que-voce-precisa-dominar.html",
+},
+{
+  title: "Ação Penal Militar e o Direito de Recorrer",
+  link: "direito-militar/acao-penal-militar-direito-de-recorrer.html",
+},
+{
+  title: "Construir Compliance do Zero é Possível",
+  link: "compliance/construir-compliance-do-zero-e-possivel.html",
+},
+{
+  title: "Quando o Afeto Constrói Vínculos Jurídicos Reais",
+  link: "direito-de-familia/quando-afeto-constroi-vinculos-juridicos-reais.html",
+},
+{
+  title: "Polícia Federal na Linha de Frente Digital",
+  link: "direito-penal/policia-federal-linha-de-frente-digital.html",
+},
+{
+    title: "Segurança no Trabalho Como Direito Fundamental",
+    link: "direito-trabalhista/seguranca-trabalho-direito-fundamental-prevencao-acidentes-doencas-ocupacionais.html",
+},
+{
+    title: "Jurisprudência Como Fonte Viva do Direito",
+    link: "jurisprudencia/jurisprudencia-fonte-viva-direito-funcoes-precedentes.html",
+},
+{
+    title: "Legislativo Como Guardião dos Direitos Coletivos",
+    link: "legislacao/legislativo-guardiao-direitos-coletivos-seguranca-juridica.html",
+},
+{
+    title: "Pragmatismo Político Sobrepõe Divergências Históricas",
+    link: "politica/pragmatismo-politico-sobrpoe-divergencias-historicas-filiacao-pl-parana-2026.html",
+},
 
 ];
 

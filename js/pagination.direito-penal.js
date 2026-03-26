@@ -1,13 +1,22 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
     {
+  title: "Polícia Federal na Linha de Frente Digital",
+  date: "26/03/2026",
+  timestamp: "2026-03-26T09:00:00",
+  image: "../img/policia-federal-linha-de-frente-digital.webp",
+  excerpt: "A Polícia Federal lidera o combate aos crimes cibernéticos com investigações de alta complexidade técnica e cooperação internacional.",
+  link: "../direito-penal/policia-federal-linha-de-frente-digital.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
   title: "O Mapa dos Crimes que Assombram o Brasil",
   date: "25/03/2026",
   timestamp: "2026-03-25T09:00:00",
   image: "../img/tipos-penais-crimes-especie-homicidio-furto-roubo-estelionato-hediondos.webp",
   excerpt: "Homicídio, furto, roubo, estelionato, crimes hediondos e contra a administração pública: entenda os principais tipos penais do direito brasileiro.",
   link: "../direito-penal/tipos-penais-crimes-especie-homicidio-furto-roubo-estelionato-hediondos.html",
-  categoria: "direito-penal",
   author: "Justiça em Dia",
   authorLink: "#"
 },

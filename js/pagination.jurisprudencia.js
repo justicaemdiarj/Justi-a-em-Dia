@@ -1,6 +1,16 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
     {
+    title: "Jurisprudência Como Fonte Viva do Direito",
+    date: "26/03/2026",
+    timestamp: "2026-03-26T10:00:00",
+    image: "../img/jurisprudencia-fonte-viva-direito-funcoes-precedentes.webp",
+    excerpt: "A jurisprudência é o conjunto de decisões reiteradas dos tribunais que interpreta, integra e uniformiza o ordenamento jurídico brasileiro.",
+    link: "../jurisprudencia/jurisprudencia-fonte-viva-direito-funcoes-precedentes.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Distrato Imobiliário Rumo ao Precedente Vinculante no STJ",
     date: "25/03/2026",
     timestamp: "2026-03-25T09:00:00",

@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
     {
+  title: "Ação Penal Militar e o Direito de Recorrer",
+  date: "26/03/2026",
+  timestamp: "2026-03-26T07:00:00",
+  image: "../img/acao-penal-militar-direito-de-recorrer.webp",
+  excerpt: "A justiça militar brasileira opera sob legislação própria e exige domínio técnico especializado.",
+  link: "../direito-militar/acao-penal-militar-direito-de-recorrer.html",
+  categoria: "direito-militar",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
   title: "Reforma Militar por Incapacidade e Acidente de Serviço",
   date: "25/03/2026",
   timestamp: "2026-03-25T08:00:00",

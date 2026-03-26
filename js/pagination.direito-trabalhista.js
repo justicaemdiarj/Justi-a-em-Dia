@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
     {
+    title: "Segurança no Trabalho Como Direito Fundamental",
+    date: "26/03/2026",
+    timestamp: "2026-03-26T09:00:00",
+    image: "../img/seguranca-trabalho-direito-fundamental-prevencao-acidentes-doencas-ocupacionais.webp",
+    excerpt: "O ordenamento jurídico brasileiro consolida um conjunto robusto de obrigações destinadas à proteção da integridade física e psíquica do trabalhador no ambiente laboral.",
+    link: "../direito-trabalhista/seguranca-trabalho-direito-fundamental-prevencao-acidentes-doencas-ocupacionais.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
   title: "Máquinas que Trabalham e Quem Protege o Humano?",
   date: "25/03/2026",
   timestamp: "2026-03-25T08:00:00",

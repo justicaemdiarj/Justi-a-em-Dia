@@ -1,6 +1,16 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
     {
+    title: "Legislativo Como Guardião dos Direitos Coletivos",
+    date: "26/03/2026",
+    timestamp: "2026-03-26T09:00:00",
+    image: "../img/legislativo-guardiao-direitos-coletivos-seguranca-juridica.webp",
+    excerpt: "O Poder Legislativo é o pilar normativo da democracia brasileira, responsável por garantir segurança jurídica, delimitar direitos fundamentais e impor deveres a cidadãos e instituições.",
+    link: "../legislacao/legislativo-guardiao-direitos-coletivos-seguranca-juridica.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Lei Celular nas Escolas sob Avaliação Nacional",
     date: "25/03/2026",
     timestamp: "2026-03-25T10:00:00",

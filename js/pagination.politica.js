@@ -1,6 +1,16 @@
 // Dados de notícias para Política
 const categoryNewsData = [
     {
+    title: "Pragmatismo Político Sobrepõe Divergências Históricas",
+    date: "26/03/2026",
+    timestamp: "2026-03-26T08:00:00",
+    image: "../img/pragmatismo-politico-sobrpoe-divergencias-historicas-filiacao-pl-parana-2026.webp",
+    excerpt: "A filiação do senador paranaense ao Partido Liberal recompõe uma aliança marcada por acusações graves de interferência institucional e ruptura pública, expondo a lógica do pragmatismo eleitoral brasileiro.",
+    link: "../politica/pragmatismo-politico-sobrpoe-divergencias-historicas-filiacao-pl-parana-2026.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Renúncia no Rio de Janeiro Sob Pressão Política",
     date: "25/03/2026",
     timestamp: "2026-03-25T07:00:00",

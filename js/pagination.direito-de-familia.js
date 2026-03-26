@@ -1,6 +1,17 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
     {
+  title: "Quando o Afeto Constrói Vínculos Jurídicos Reais",
+  date: "26/03/2026",
+  timestamp: "2026-03-26T10:00:00",
+  image: "../img/quando-afeto-constroi-vinculos-juridicos-reais.webp",
+  excerpt: "A parentalidade socioafetiva transformou o direito de família ao reconhecer que o afeto constrói vínculos jurídicos tão legítimos quanto os biológicos.",
+  link: "../direito-de-familia/quando-afeto-constroi-vinculos-juridicos-reais.html",
+  categoria: "direito-de-familia",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
   title: "Herança Não Planejada Vira Batalha Judicial",
   date: "25/03/2026",
   timestamp: "2026-03-25T09:00:00",

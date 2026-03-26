@@ -1,6 +1,17 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
     {
+  title: "Construir Compliance do Zero é Possível",
+  date: "26/03/2026",
+  timestamp: "2026-03-26T08:00:00",
+  image: "../img/construir-compliance-do-zero-e-possivel.webp",
+  excerpt: "Criar uma cultura de compliance do zero exige diagnóstico, liderança comprometida e estruturas funcionais robustas.",
+  link: "../compliance/construir-compliance-do-zero-e-possivel.html",
+  categoria: "compliance",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
     title: "Compliance Como Escudo Corporativo no Brasil",
     date: "25/03/2026",
     timestamp: "2026-03-25T07:00:00",

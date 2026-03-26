@@ -1,5 +1,16 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
+{
+  title: "Artigos do Código Civil Que Você Precisa Dominar",
+  date: "26/03/2026",
+  timestamp: "2026-03-26T09:00:00",
+  image: "../img/artigos-codigo-civil-que-voce-precisa-dominar.webp",
+  excerpt: "Revisar o Código Civil exige método e foco nos dispositivos de maior incidência forense.",
+  link: "../direito-civil/artigos-codigo-civil-que-voce-precisa-dominar.html",
+  categoria: "direito-civil",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
     {
   title: "Contratos: A Espinha Dorsal do Direito Civil",
   date: "25/03/2026",

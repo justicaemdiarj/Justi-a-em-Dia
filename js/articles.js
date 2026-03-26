@@ -1,73 +1,73 @@
 const posts = [
   
 {
-  title: "Reforma Militar por Incapacidade e Acidente de Serviço",
-  description: "A reforma por invalidez é um direito do militar acometido por enfermidade no exercício da função pública",
-  description2: "Entenda o arcabouço jurídico e as tendências jurisprudenciais do direito militar brasileiro",
-  image: "img/reforma-militar-invalidez-acidente-servico.webp",
-  link: "direito-militar/reforma-militar-invalidez-acidente-servico.html",
-    date: "2026-03-25T08:00:00",
+  title: "Artigos do Código Civil Que Você Precisa Dominar",
+  description: "Revisar o Código Civil exige método e foco nos dispositivos de maior incidência forense.",
+  description2: "Conheça os artigos prioritários para concursos, exames e a prática profissional.",
+  image: "img/artigos-codigo-civil-que-voce-precisa-dominar.webp",
+  link: "direito-civil/artigos-codigo-civil-que-voce-precisa-dominar.html",
+  date: "2026-03-26T09:00:00",
   section: "featured"
 },
   {
-  title: "Contratos: A Espinha Dorsal do Direito Civil",
-  description: "A teoria geral dos contratos sustenta todo negócio jurídico no direito civil brasileiro",
-  description2: "Princípios, requisitos e vícios que toda parte contratante precisa conhecer",
-  image: "img/teoria-geral-contratos-principios-requisitos.webp",
-  link: "direito-civil/teoria-geral-contratos-principios-requisitos.html",
-    date: "2026-03-25T07:00:00",
+  title: "Construir Compliance do Zero é Possível",
+  description: "Criar uma cultura de compliance exige diagnóstico, liderança e estruturas robustas.",
+  description2: "Entenda como transformar integridade em vantagem competitiva real.",
+  image: "img/construir-compliance-do-zero-e-possivel.webp",
+  link: "compliance/construir-compliance-do-zero-e-possivel.html",
+  date: "2026-03-26T08:00:00",
   section: "featured-secundario"
 },
 {
-  title: "Lei Celular nas Escolas sob Avaliação Nacional",
-  description: "MEC lança levantamento com mais de 8 mil escolas para medir os efeitos reais da Lei 15.100/2025 no cotidiano escolar brasileiro",
-  description2: "Prazo para participação se encerra em 2 de abril e resultados orientarão decisões de política pública educacional",
-  image: "img/lei-celular-escolas-avaliacao-nacional-mec.webp",
-  link: "legislacao/lei-celular-escolas-avaliacao-nacional-mec.html",
-  date: "2026-03-25T10:00:00",
+  title: "Ação Penal Militar e o Direito de Recorrer",
+  description: "A justiça militar opera sob legislação própria e exige técnica especializada.",
+  description2: "Entenda os recursos disponíveis no processo penal castrense brasileiro.",
+  image: "img/acao-penal-militar-direito-de-recorrer.webp",
+  link: "direito-militar/acao-penal-militar-direito-de-recorrer.html",
+  date: "2026-03-26T07:00:00",
  section: "featured-terciario"
 },
   {
-  title: "Herança Não Planejada Vira Batalha Judicial",
-  image: "img/direito-sucessorio-planejamento-testamento-vocacao-hereditaria.webp",
-  link: "direito-de-familia/direito-sucessorio-planejamento-testamento-vocacao-hereditaria.html",
-  date: "2026-03-25T09:00:00",
+    title: "Quando o Afeto Constrói Vínculos Jurídicos Reais",
+  image: "img/quando-afeto-constroi-vinculos-juridicos-reais.webp",
+  link: "direito-de-familia/quando-afeto-constroi-vinculos-juridicos-reais.html",
+  date: "2026-03-26T10:00:00",
     section: "destaque"
   },
    {
-     title: "O Mapa dos Crimes que Assombram o Brasil",
-      image: "img/tipos-penais-crimes-especie-homicidio-furto-roubo-estelionato-hediondos.webp",
-      link: "direito-penal/tipos-penais-crimes-especie-homicidio-furto-roubo-estelionato-hediondos.html",
-      date: "2026-03-25T09:00:00",
+     title: "Polícia Federal na Linha de Frente Digital",
+  image: "img/policia-federal-linha-de-frente-digital.webp",
+  link: "direito-penal/policia-federal-linha-de-frente-digital.html",
+  date: "2026-03-26T09:00:00",
     section: "destaque"
   },
   {
-   title: "Máquinas que Trabalham e Quem Protege o Humano?",
-  image: "img/inteligencia-artificial-futuro-trabalho-direitos-trabalhistas.webp",
-  link: "direito-trabalhista/inteligencia-artificial-futuro-trabalho-direitos-trabalhistas.html",
-  date: "2026-03-25T08:00:00",
+  title: "Jurisprudência Como Fonte Viva do Direito",
+    image: "img/jurisprudencia-fonte-viva-direito-funcoes-precedentes.webp",
+    link: "jurisprudencia/jurisprudencia-fonte-viva-direito-funcoes-precedentes.html",
+    date: "2026-03-26T10:00:00",
     section: "destaque"
   },
   {
    
-  title: "Renúncia no Rio de Janeiro Sob Pressão Política",
-    image: "img/renuncia-governador-rj-pressao-politica-julgamento-tse.webp",
-    link: "politica/renuncia-governador-rj-pressao-politica-julgamento-tse.html",
-    date: "2026-03-25T07:00:00",
+   title: "Legislativo Como Guardião dos Direitos Coletivos",
+    image: "img/legislativo-guardiao-direitos-coletivos-seguranca-juridica.webp",
+    link: "legislacao/legislativo-guardiao-direitos-coletivos-seguranca-juridica.html",
+    date: "2026-03-26T09:00:00",
     section: "veja"
   },
   {
-  title: "Distrato Imobiliário Rumo ao Precedente Vinculante no STJ",
-  image: "img/distrato-imobiliario-precedente-vinculante-stj.webp",
-  link: "jurisprudencia/distrato-imobiliario-precedente-vinculante-stj.html",
-  date: "2026-03-25T09:00:00",
+   title: "Pragmatismo Político Sobrepõe Divergências Históricas",
+    image: "img/pragmatismo-politico-sobrpoe-divergencias-historicas-filiacao-pl-parana-2026.webp",
+    link: "politica/pragmatismo-politico-sobrpoe-divergencias-historicas-filiacao-pl-parana-2026.html",
+    date: "2026-03-26T08:00:00",
     section: "veja"
   },
   {
-  title: "Compliance Como Escudo Corporativo no Brasil",
-    image: "img/compliance-escudo-corporativo-futuro-integridade-brasil.webp",
-    link: "compliance/compliance-escudo-corporativo-futuro-integridade-brasil.html",
-    date: "2026-03-25T07:00:00",
+  title: "Segurança no Trabalho Como Direito Fundamental",
+    image: "img/seguranca-trabalho-direito-fundamental-prevencao-acidentes-doencas-ocupacionais.webp",
+    link: "direito-trabalhista/seguranca-trabalho-direito-fundamental-prevencao-acidentes-doencas-ocupacionais.html",
+    date: "2026-03-26T09:00:00",
     section: "veja"
   }
 ];

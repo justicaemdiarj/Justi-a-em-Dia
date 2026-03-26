@@ -1,6 +1,69 @@
 // Base de dados global de artigos para busca
 const allArticles = [
     {
+    title: 'Pragmatismo Político Sobrepõe Divergências Históricas',
+    description: 'A filiação do senador paranaense ao Partido Liberal recompõe uma aliança marcada por acusações graves de interferência institucional e ruptura pública, expondo a lógica do pragmatismo eleitoral brasileiro.',
+    category: 'Política',
+    url: 'politica/pragmatismo-politico-sobrpoe-divergencias-historicas-filiacao-pl-parana-2026.html',
+    tags: ['Política Brasileira', 'Eleições 2026', 'Partido Liberal', 'Paraná', 'Pragmatismo Eleitoral']
+},
+    {
+    title: 'Legislativo Como Guardião dos Direitos Coletivos',
+    description: 'O Poder Legislativo é o pilar normativo da democracia brasileira, responsável por garantir segurança jurídica, delimitar direitos fundamentais e impor deveres a cidadãos e instituições.',
+    category: 'Legislação',
+    url: 'legislacao/legislativo-guardiao-direitos-coletivos-seguranca-juridica.html',
+    tags: ['Poder Legislativo', 'Segurança Jurídica', 'Direitos Fundamentais', 'Processo Legislativo', 'Legislação Brasileira']
+},
+    {
+    title: 'Jurisprudência Como Fonte Viva do Direito',
+    description: 'A jurisprudência é o conjunto de decisões reiteradas dos tribunais que interpreta, integra e uniformiza o ordenamento jurídico brasileiro.',
+    category: 'Jurisprudência',
+    url: 'jurisprudencia/jurisprudencia-fonte-viva-direito-funcoes-precedentes.html',
+    tags: ['Jurisprudência', 'Precedente Judicial', 'Súmula Vinculante', 'Segurança Jurídica', 'Sistema de Precedentes']
+},
+    {
+    title: 'Segurança no Trabalho Como Direito Fundamental',
+    description: 'O ordenamento jurídico brasileiro consolida um conjunto robusto de obrigações destinadas à proteção da integridade física e psíquica do trabalhador no ambiente laboral.',
+    category: 'Direito Trabalhista',
+    url: 'direito-trabalhista/seguranca-trabalho-direito-fundamental-prevencao-acidentes-doencas-ocupacionais.html',
+    tags: ['Segurança do Trabalho', 'Saúde Ocupacional', 'Normas Regulamentadoras', 'Acidente de Trabalho', 'Direito Trabalhista']
+},
+    {
+  title: 'Polícia Federal na Linha de Frente Digital',
+  description: 'A Polícia Federal lidera o combate aos crimes cibernéticos no Brasil com investigações de alta complexidade técnica, cooperação internacional e operações contra fraudes, ransomware e lavagem de capitais via criptoativos.',
+  category: 'direito criminal',
+  url: 'direito-penal/policia-federal-linha-de-frente-digital.html',
+  tags: ['Direito Penal', 'Crimes Cibernéticos', 'Polícia Federal na Linha de Frente Digital']
+},
+    {
+  title: 'Quando o Afeto Constrói Vínculos Jurídicos Reais',
+  description: 'A parentalidade socioafetiva transformou o direito de família brasileiro ao reconhecer que o afeto, a convivência e o cuidado constroem vínculos jurídicos tão legítimos quanto os biológicos.',
+  category: 'Direito de Familia',
+  url: 'direito-de-familia/quando-afeto-constroi-vinculos-juridicos-reais.html',
+  tags: ['Direito de Família', 'Parentalidade Socioafetiva', 'Quando o Afeto Constrói Vínculos Jurídicos Reais']
+},
+    {
+  title: 'Construir Compliance do Zero é Possível',
+  description: 'Criar uma cultura de compliance do zero exige diagnóstico, liderança comprometida e estruturas funcionais robustas. Entenda como construir um programa de integridade efetivo e transformar ética em vantagem competitiva.',
+  category: 'Compliance',
+  url: 'compliance/construir-compliance-do-zero-e-possivel.html',
+  tags: ['Compliance', 'Cultura de Compliance', 'Construir Compliance do Zero é Possível']
+},
+    {
+  title: 'Ação Penal Militar e o Direito de Recorrer',
+  description: 'A justiça militar brasileira opera sob legislação própria e exige domínio técnico especializado. Entenda como funciona a ação penal militar e quais são os recursos disponíveis no processo penal castrense.',
+  category: 'Direito  Militar',
+  url: 'direito-militar/acao-penal-militar-direito-de-recorrer.html',
+  tags: ['Direito Militar', 'Ação Penal Militar', 'Ação Penal Militar e o Direito de Recorrer']
+},
+{
+  title: 'Artigos do Código Civil Que Você Precisa Dominar',
+  description: 'Revisar o Código Civil exige método e foco nos dispositivos de maior incidência forense. Conheça os artigos prioritários que todo operador jurídico precisa dominar para atuar com precisão técnica.',
+  category: 'Direito Civil',
+  url: 'direito-civil/artigos-codigo-civil-que-voce-precisa-dominar.html',
+  tags: ['Direito Civil', 'Código Civil', 'Artigos do Código Civil Que Você Precisa Dominar']
+},
+    {
     title: 'Lei Celular nas Escolas sob Avaliação Nacional',
     description: 'O Ministério da Educação conduz levantamento nacional com mais de 8 mil escolas públicas e privadas para mensurar os efeitos do primeiro ano de vigência da Lei 15.100/2025, que regulamenta o uso de dispositivos móveis no ambiente escolar.',
     category: 'Legislação',
