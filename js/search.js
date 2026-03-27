@@ -1,6 +1,69 @@
 // Base de dados global de artigos para busca
 const allArticles = [
     {
+    title: 'Conformidade Tributária como Escudo Jurídico Empresarial',
+    description: 'O compliance tributário deixou de ser opcional e tornou-se imperativo jurídico para empresas brasileiras. Com a reforma tributária em curso e o avanço da fiscalização digital, organizações que investem em governança fiscal blindam seus gestores de responsabilizações penais e administrativas.',
+    category: 'Compliance',
+    url: 'compliance/conformidade-tributaria-escudo-juridico-empresarial.html',
+    tags: ['compliance tributário', 'governança fiscal', 'reforma tributária', 'Receita Federal', 'Conformidade Tributária como Escudo Jurídico Empresarial']
+},
+    {
+    title: 'Como os Tribunais Reescrevem o Sentido das Leis',
+    description: 'A interpretação da lei pelos tribunais brasileiros vai muito além da leitura literal do texto normativo, moldando o alcance das normas por meio de métodos hermenêuticos que definem direitos, obrigações e o próprio equilíbrio entre os poderes da República.',
+    category: 'Jurisprudência',
+    url: 'jurisprudencia/interpretacao-lei-tribunais-hermeneutica-juridica-brasil.html',
+    tags: ['Interpretação da Lei', 'Hermenêutica Jurídica', 'Jurisprudência', 'STF', 'Precedentes Vinculantes', 'Ativismo Judicial', 'Direito Constitucional']
+},
+    {
+    title: 'Novas Leis que Transformam o Direito Brasileiro',
+    description: 'O ordenamento jurídico brasileiro atravessa uma fase intensa de renovação normativa, com atualizações legislativas recentes que impactam diretamente o cotidiano dos cidadãos, das empresas e das instituições públicas.',
+    category: 'Legislação',
+    url: 'legislacao/atualizacoes-legislativas-recentes-impacto-direito-brasileiro.html',
+    tags: ['Atualizações Legislativas', 'Novas Leis', 'Legislação Brasileira', 'Reforma Tributária', 'Marco Legal IA', 'Direito Digital', 'Congresso Nacional']
+},
+    {
+    title: 'Populismo e o Cerco à Democracia Brasileira',
+    description: 'O populismo avança como vetor de erosão das instituições democráticas brasileiras, instrumentalizando o discurso do povo contra as estruturas de controle e freios constitucionais que sustentam o Estado de Direito e a separação dos poderes.',
+    category: 'Política',
+    url: 'politica/populismo-ameaca-institucional-democracia-brasileira.html',
+    tags: ['Populismo', 'Democracia', 'Instituições Democráticas', 'Estado de Direito', 'Separação dos Poderes', 'Constituição Federal', 'Crise Política']
+},
+    {
+    title: 'Pejotização e a Fraude ao Vínculo Empregatício no Brasil',
+    description: 'A pejotização avança como prática de burla à legislação trabalhista brasileira, impondo ao trabalhador a constituição de pessoa jurídica como condição de contratação e suprimindo direitos consolidados pela CLT e pela Constituição Federal.',
+    category: 'Direito Trabalhista',
+    url: 'direito-trabalhista/pejotizacao-fraude-vinculo-empregaticio-direito-trabalhista.html',
+    tags: ['Pejotização', 'Vínculo Empregatício', 'Fraude Trabalhista', 'CLT', 'Pessoa Jurídica', 'Reforma Trabalhista', 'Direitos do Trabalhador']
+},
+    {
+    title: 'Legítima Defesa Entre o Direito e o Excesso',
+    description: 'A legítima defesa exige proporcionalidade, moderação e atualidade da agressão como pressupostos indispensáveis para que a reação defensiva afaste a responsabilidade penal do agente.',
+    category: 'Direito Criminal',
+    url: 'direito-penal/legitima-defesa-requisitos-excesso-excludente-ilicitude-direito-penal.html',
+    tags: ['Legítima Defesa', 'Direito Penal', 'Excludente de Ilicitude', 'Excesso de Legítima Defesa', 'Código Penal']
+},
+    {
+    title: 'União Estável Gera Direitos Tão Sólidos Quanto o Casamento',
+    description: 'A união estável é reconhecida pela Constituição Federal como entidade familiar plena, gerando efeitos jurídicos abrangentes sobre patrimônio, sucessão, alimentos, guarda dos filhos e previdência social.',
+    category: 'Direito de Família',
+    url: 'direito-de-familia/uniao-estavel-efeitos-juridicos-direitos-companheiros-brasil.html',
+    tags: ['União Estável', 'Direito de Família', 'Companheiros', 'Partilha de Bens', 'Direitos Sucessórios']
+},
+    {
+    title: 'Prejuízo Patrimonial e Sofrimento Têm Reparações Distintas',
+    description: 'Dano material e dano moral são categorias distintas no direito civil brasileiro, com fundamentos, pressupostos probatórios e critérios de quantificação próprios.',
+    category: 'Direito Civil',
+    url: 'direito-civil/dano-material-dano-moral-distincoes-reparacao-indenizacao-civil.html',
+    tags: ['Dano Material', 'Dano Moral', 'Responsabilidade Civil', 'Indenização', 'Direito Civil']
+},
+    {
+    title: 'Estado Responde por Danos de Atos Militares',
+    description: 'A responsabilidade civil do Estado por atos militares impõe ao ente público o dever de indenizar vítimas de condutas praticadas por agentes militares no exercício de suas funções, independentemente de culpa.',
+    category: 'Direito Militar',
+    url: 'direito-militar/estado-responde-danos-atos-militares-responsabilidade-civil.html',
+    tags: ['Responsabilidade Civil do Estado', 'Atos Militares', 'Direito Militar', 'Forças Armadas', 'Indenização por Ato Militar']
+},
+    {
     title: 'Pragmatismo Político Sobrepõe Divergências Históricas',
     description: 'A filiação do senador paranaense ao Partido Liberal recompõe uma aliança marcada por acusações graves de interferência institucional e ruptura pública, expondo a lógica do pragmatismo eleitoral brasileiro.',
     category: 'Política',

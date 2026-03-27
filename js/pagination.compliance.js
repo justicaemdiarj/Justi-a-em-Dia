@@ -1,6 +1,16 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
     {
+    title: "Conformidade Tributária como Escudo Jurídico Empresarial",
+    date: "27/03/2026",
+    timestamp: "2026-03-27T09:00:00",
+    image: "../img/conformidade-tributaria-escudo-juridico-empresarial.webp",
+    excerpt: "O compliance tributário deixou de ser opcional e tornou-se imperativo jurídico para empresas brasileiras.",
+    link: "../compliance/conformidade-tributaria-escudo-juridico-empresarial.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
   title: "Construir Compliance do Zero é Possível",
   date: "26/03/2026",
   timestamp: "2026-03-26T08:00:00",

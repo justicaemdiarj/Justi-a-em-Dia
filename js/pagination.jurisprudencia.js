@@ -1,6 +1,17 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
     {
+    title: "Como os Tribunais Reescrevem o Sentido das Leis",
+    date: "27/03/2026",
+    timestamp: "2026-03-27T10:00:00",
+    image: "../img/interpretacao-lei-tribunais-hermeneutica-juridica-brasil.webp",
+    excerpt: "A interpretação da lei pelos tribunais brasileiros vai muito além da leitura literal do texto normativo, moldando o alcance das normas por meio de métodos hermenêuticos que definem direitos, obrigações e o próprio equilíbrio entre os poderes da República.",
+    link: "../jurisprudencia/interpretacao-lei-tribunais-hermeneutica-juridica-brasil.html",
+    categoria: "jurisprudencia",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Jurisprudência Como Fonte Viva do Direito",
     date: "26/03/2026",
     timestamp: "2026-03-26T10:00:00",

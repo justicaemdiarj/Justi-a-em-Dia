@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
     {
+    title: "Pejotização e a Fraude ao Vínculo Empregatício no Brasil",
+    date: "27/03/2026",
+    timestamp: "2026-03-27T09:00:00",
+    image: "../img/pejotizacao-fraude-vinculo-empregaticio-direito-trabalhista.webp",
+    excerpt: "A pejotização avança como prática de burla à legislação trabalhista brasileira, impondo ao trabalhador a constituição de pessoa jurídica como condição de contratação e suprimindo direitos consolidados pela CLT e pela Constituição Federal.",
+    link: "../direito-trabalhista/pejotizacao-fraude-vinculo-empregaticio-direito-trabalhista.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Segurança no Trabalho Como Direito Fundamental",
     date: "26/03/2026",
     timestamp: "2026-03-26T09:00:00",

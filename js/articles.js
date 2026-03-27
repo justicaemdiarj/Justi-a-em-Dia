@@ -1,73 +1,74 @@
 const posts = [
   
+  
 {
-  title: "Artigos do Código Civil Que Você Precisa Dominar",
-  description: "Revisar o Código Civil exige método e foco nos dispositivos de maior incidência forense.",
-  description2: "Conheça os artigos prioritários para concursos, exames e a prática profissional.",
-  image: "img/artigos-codigo-civil-que-voce-precisa-dominar.webp",
-  link: "direito-civil/artigos-codigo-civil-que-voce-precisa-dominar.html",
-  date: "2026-03-26T09:00:00",
+    title: "Estado Responde por Danos de Atos Militares",
+    description: "A teoria da responsabilidade objetiva consagrada pela Constituição Federal impõe ao Estado o dever de indenizar vítimas de atos militares independentemente de culpa do agente",
+    description2: "De operações em áreas urbanas à justiça militar e ao sistema interamericano de direitos humanos, entenda o regime jurídico de reparação por danos castrenses",
+    image: "img/estado-responde-danos-atos-militares-responsabilidade-civil.webp",
+    link: "direito-militar/estado-responde-danos-atos-militares-responsabilidade-civil.html",
+    date: "2026-03-27T10:00:00",
   section: "featured"
 },
   {
-  title: "Construir Compliance do Zero é Possível",
-  description: "Criar uma cultura de compliance exige diagnóstico, liderança e estruturas robustas.",
-  description2: "Entenda como transformar integridade em vantagem competitiva real.",
-  image: "img/construir-compliance-do-zero-e-possivel.webp",
-  link: "compliance/construir-compliance-do-zero-e-possivel.html",
-  date: "2026-03-26T08:00:00",
+    title: "Prejuízo Patrimonial e Sofrimento Têm Reparações Distintas",
+    description: "Dano material e dano moral possuem fundamentos, regimes probatórios e critérios de quantificação distintos que todo cidadão precisa conhecer para garantir reparação integral",
+    description2: "Do dano emergente ao lucro cessante e do dano moral in re ipsa ao dano estético autônomo, entenda as categorias de lesão reconhecidas pelo direito civil brasileiro",
+    image: "img/dano-material-dano-moral-distincoes-reparacao-indenizacao-civil.webp",
+    link: "direito-civil/dano-material-dano-moral-distincoes-reparacao-indenizacao-civil.html",
+    date: "2026-03-27T08:00:00",
   section: "featured-secundario"
 },
 {
-  title: "Ação Penal Militar e o Direito de Recorrer",
-  description: "A justiça militar opera sob legislação própria e exige técnica especializada.",
-  description2: "Entenda os recursos disponíveis no processo penal castrense brasileiro.",
-  image: "img/acao-penal-militar-direito-de-recorrer.webp",
-  link: "direito-militar/acao-penal-militar-direito-de-recorrer.html",
-  date: "2026-03-26T07:00:00",
+    title: "União Estável Gera Direitos Tão Sólidos Quanto o Casamento",
+    description: "Reconhecida pela Constituição Federal, a união estável produz efeitos jurídicos plenos sobre patrimônio, herança, alimentos e previdência social dos companheiros",
+    description2: "Do contrato de convivência à equiparação sucessória pelo STF, entenda os direitos e deveres que decorrem da convivência afetiva no Brasil",
+    image: "img/uniao-estavel-efeitos-juridicos-direitos-companheiros-brasil.webp",
+    link: "direito-de-familia/uniao-estavel-efeitos-juridicos-direitos-companheiros-brasil.html",
+    date: "2026-03-27T09:00:00",
  section: "featured-terciario"
 },
   {
-    title: "Quando o Afeto Constrói Vínculos Jurídicos Reais",
-  image: "img/quando-afeto-constroi-vinculos-juridicos-reais.webp",
-  link: "direito-de-familia/quando-afeto-constroi-vinculos-juridicos-reais.html",
-  date: "2026-03-26T10:00:00",
+    title: "Legítima Defesa Entre o Direito e o Excesso",
+    image: "img/legitima-defesa-requisitos-excesso-excludente-ilicitude-direito-penal.webp",
+    link: "direito-penal/legitima-defesa-requisitos-excesso-excludente-ilicitude-direito-penal.html",
+    date: "2026-03-27T09:00:00",
     section: "destaque"
   },
    {
-     title: "Polícia Federal na Linha de Frente Digital",
-  image: "img/policia-federal-linha-de-frente-digital.webp",
-  link: "direito-penal/policia-federal-linha-de-frente-digital.html",
-  date: "2026-03-26T09:00:00",
+   title: "Pejotização e a Fraude ao Vínculo Empregatício no Brasil",
+    image: "img/pejotizacao-fraude-vinculo-empregaticio-direito-trabalhista.webp",
+    link: "direito-trabalhista/pejotizacao-fraude-vinculo-empregaticio-direito-trabalhista.html",
+    date: "2026-03-27T09:00:00",
     section: "destaque"
   },
   {
-  title: "Jurisprudência Como Fonte Viva do Direito",
-    image: "img/jurisprudencia-fonte-viva-direito-funcoes-precedentes.webp",
-    link: "jurisprudencia/jurisprudencia-fonte-viva-direito-funcoes-precedentes.html",
-    date: "2026-03-26T10:00:00",
+  title: "Populismo e o Cerco à Democracia Brasileira",
+    image: "img/populismo-ameaca-institucional-democracia-brasileira.webp",
+    link: "politica/populismo-ameaca-institucional-democracia-brasileira.html",
+    date: "2026-03-27T07:00:00",
     section: "destaque"
   },
   {
    
-   title: "Legislativo Como Guardião dos Direitos Coletivos",
-    image: "img/legislativo-guardiao-direitos-coletivos-seguranca-juridica.webp",
-    link: "legislacao/legislativo-guardiao-direitos-coletivos-seguranca-juridica.html",
-    date: "2026-03-26T09:00:00",
+     title: "Novas Leis que Transformam o Direito Brasileiro",
+     image: "img/atualizacoes-legislativas-recentes-impacto-direito-brasileiro.webp",
+    link: "legislacao/atualizacoes-legislativas-recentes-impacto-direito-brasileiro.html",
+    date: "2026-03-27T07:00:00",
     section: "veja"
   },
   {
-   title: "Pragmatismo Político Sobrepõe Divergências Históricas",
-    image: "img/pragmatismo-politico-sobrpoe-divergencias-historicas-filiacao-pl-parana-2026.webp",
-    link: "politica/pragmatismo-politico-sobrpoe-divergencias-historicas-filiacao-pl-parana-2026.html",
-    date: "2026-03-26T08:00:00",
+   title: "Como os Tribunais Reescrevem o Sentido das Leis",
+     image: "img/interpretacao-lei-tribunais-hermeneutica-juridica-brasil.webp",
+    link: "jurisprudencia/interpretacao-lei-tribunais-hermeneutica-juridica-brasil.html",
+    date: "2026-03-27T10:00:00",
     section: "veja"
   },
   {
-  title: "Segurança no Trabalho Como Direito Fundamental",
-    image: "img/seguranca-trabalho-direito-fundamental-prevencao-acidentes-doencas-ocupacionais.webp",
-    link: "direito-trabalhista/seguranca-trabalho-direito-fundamental-prevencao-acidentes-doencas-ocupacionais.html",
-    date: "2026-03-26T09:00:00",
+   title: "Conformidade Tributária como Escudo Jurídico Empresarial",
+    image: "img/conformidade-tributaria-escudo-juridico-empresarial.webp",
+    link: "compliance/conformidade-tributaria-escudo-juridico-empresarial.html",
+    date: "2026-03-27T09:00:00",
     section: "veja"
   }
 ];

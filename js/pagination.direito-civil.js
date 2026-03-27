@@ -1,5 +1,15 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
+    {
+    title: "Prejuízo Patrimonial e Sofrimento Têm Reparações Distintas",
+    date: "27/03/2026",
+    timestamp: "2026-03-27T08:00:00",
+    image: "../img/dano-material-dano-moral-distincoes-reparacao-indenizacao-civil.webp",
+    excerpt: "Dano material e dano moral são categorias distintas no direito civil brasileiro, com fundamentos, pressupostos probatórios e critérios de quantificação próprios.",
+    link: "../direito-civil/dano-material-dano-moral-distincoes-reparacao-indenizacao-civil.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 {
   title: "Artigos do Código Civil Que Você Precisa Dominar",
   date: "26/03/2026",

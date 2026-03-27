@@ -1,6 +1,17 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
     {
+    title: "Novas Leis que Transformam o Direito Brasileiro",
+    date: "27/03/2026",
+    timestamp: "2026-03-27T07:00:00",
+    image: "../img/atualizacoes-legislativas-recentes-impacto-direito-brasileiro.webp",
+    excerpt: "O ordenamento jurídico brasileiro atravessa uma fase intensa de renovação normativa, com atualizações legislativas recentes que impactam diretamente o cotidiano dos cidadãos, das empresas e das instituições públicas.",
+    link: "../legislacao/atualizacoes-legislativas-recentes-impacto-direito-brasileiro.html",
+    categoria: "legislacao",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Legislativo Como Guardião dos Direitos Coletivos",
     date: "26/03/2026",
     timestamp: "2026-03-26T09:00:00",

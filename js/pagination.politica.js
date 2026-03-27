@@ -1,6 +1,17 @@
 // Dados de notícias para Política
 const categoryNewsData = [
     {
+    title: "Populismo e o Cerco à Democracia Brasileira",
+    date: "27/03/2026",
+    timestamp: "2026-03-27T07:00:00",
+    image: "../img/populismo-ameaca-institucional-democracia-brasileira.webp",
+    excerpt: "O populismo avança como vetor de erosão das instituições democráticas brasileiras, instrumentalizando o discurso do povo contra as estruturas de controle e freios constitucionais que sustentam o Estado de Direito e a separação dos poderes.",
+    link: "../politica/populismo-ameaca-institucional-democracia-brasileira.html",
+    categoria: "politica",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Pragmatismo Político Sobrepõe Divergências Históricas",
     date: "26/03/2026",
     timestamp: "2026-03-26T08:00:00",

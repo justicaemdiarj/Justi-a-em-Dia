@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
     {
+    title: "Legítima Defesa Entre o Direito e o Excesso",
+    date: "27/03/2026",
+    timestamp: "2026-03-27T09:00:00",
+    image: "../img/legitima-defesa-requisitos-excesso-excludente-ilicitude-direito-penal.webp",
+    excerpt: "A legítima defesa exige proporcionalidade, moderação e atualidade da agressão como pressupostos indispensáveis para que a reação defensiva afaste a responsabilidade penal do agente.",
+    link: "../direito-penal/legitima-defesa-requisitos-excesso-excludente-ilicitude-direito-penal.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
   title: "Polícia Federal na Linha de Frente Digital",
   date: "26/03/2026",
   timestamp: "2026-03-26T09:00:00",

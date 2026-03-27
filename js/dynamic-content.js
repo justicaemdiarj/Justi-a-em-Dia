@@ -12,42 +12,7 @@ const tickerConfig = {
 };
 
 const globalNewsData = [
-    {
-    title: "Testamento e Jurisprudência no Fio da Navalha",
-    link: "jurisprudencia/testamento-disposicoes-jurisprudencia-direito-sucessorio-brasil.html",
-},
-    {
-    title: "Conformidade Jurídica como Escudo e Espada Corporativa",
-    link: "compliance/conformidade-juridica-escudo-espada-vantagem-corporativa.html",
-},
-    {
-    title: "Governo Abaixo da Régua Histórica da Reeleição",
-    link: "politica/governo-abaixo-regua-historica-reeleicao.html",
-},
-    {
-    title: "Oficial Preso por Feminicídio Abala Corporação Paulista",
-    link: "direito-militar/oficial-preso-feminicidio-abala-corporacao-paulista.html",
-},
-    {
-    title: "Exclusão da Defesa em Escuta Infantil Anula Sentença",
-    link: "direito-penal/exclusao-defesa-escuta-infantil-anula-sentenca.html",
-},
-    {
-    title: "Divórcio Unilateral em Cartório Transforma Direito Familiar",
-    link: "direito-de-familia/divorcio-unilateral-cartorio-transforma-direito-familiar.html",
-},
-    {
-    title: "Aposentadoria por Contribuição Ainda Confunde Trabalhadores",
-    link: "direito-trabalhista/aposentadoria-contribuicao-confunde-trabalhadores-regras-2026.html",
-},
-    {
-    title: "Norma Técnica Redefine Governança Fiscal Empresarial",
-    link: "compliance/norma-tecnica-redefine-governanca-fiscal-empresarial.html",
-},
-    {
-    title: "TSE Recria Censura Eleitoral pela Via Jurisprudencial",
-    link: "jurisprudencia/tse-recria-censura-eleitoral-via-jurisprudencial.html",
-},
+  
     {
     title: "Boletim Eleitoral Paulatino Fortalece Transparência Jurisprudencial",
     link: "legislacao/boletim-eleitoral-fortalece-transparencia-jurisprudencial-tre-pr.html",
@@ -224,6 +189,43 @@ const globalNewsData = [
     title: "Pragmatismo Político Sobrepõe Divergências Históricas",
     link: "politica/pragmatismo-politico-sobrpoe-divergencias-historicas-filiacao-pl-parana-2026.html",
 },
+{
+    title: "Estado Responde por Danos de Atos Militares",
+    link: "direito-militar/estado-responde-danos-atos-militares-responsabilidade-civil.html",
+},
+{
+    title: "Prejuízo Patrimonial e Sofrimento Têm Reparações Distintas",
+    link: "direito-civil/dano-material-dano-moral-distincoes-reparacao-indenizacao-civil.html",
+},
+{
+    title: "União Estável Gera Direitos Tão Sólidos Quanto o Casamento",
+    link: "direito-de-familia/uniao-estavel-efeitos-juridicos-direitos-companheiros-brasil.html",
+},
+{
+    title: "Legítima Defesa Entre o Direito e o Excesso",
+    link: "direito-penal/legitima-defesa-requisitos-excesso-excludente-ilicitude-direito-penal.html",
+},
+{
+    title: "Pejotização e a Fraude ao Vínculo Empregatício no Brasil",
+    link: "direito-trabalhista/pejotizacao-fraude-vinculo-empregaticio-direito-trabalhista.html",
+},
+{
+    title: "Populismo e o Cerco à Democracia Brasileira",
+    link: "politica/populismo-ameaca-institucional-democracia-brasileira.html",
+},
+{
+    title: "Novas Leis que Transformam o Direito Brasileiro",
+    link: "legislacao/atualizacoes-legislativas-recentes-impacto-direito-brasileiro.html",
+},
+{
+    title: "Como os Tribunais Reescrevem o Sentido das Leis",
+    link: "jurisprudencia/interpretacao-lei-tribunais-hermeneutica-juridica-brasil.html",
+},
+{
+    title: "Conformidade Tributária como Escudo Jurídico Empresarial",
+    link: "compliance/conformidade-tributaria-escudo-juridico-empresarial.html",
+},
+
 
 ];
 

@@ -1,6 +1,16 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
     {
+    title: "União Estável Gera Direitos Tão Sólidos Quanto o Casamento",
+    date: "27/03/2026",
+    timestamp: "2026-03-27T09:00:00",
+    image: "../img/uniao-estavel-efeitos-juridicos-direitos-companheiros-brasil.webp",
+    excerpt: "A união estável é reconhecida pela Constituição Federal como entidade familiar plena, gerando efeitos jurídicos abrangentes sobre patrimônio, sucessão, alimentos, guarda dos filhos e previdência social.",
+    link: "../direito-de-familia/uniao-estavel-efeitos-juridicos-direitos-companheiros-brasil.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
   title: "Quando o Afeto Constrói Vínculos Jurídicos Reais",
   date: "26/03/2026",
   timestamp: "2026-03-26T10:00:00",

@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
     {
+    title: "Estado Responde por Danos de Atos Militares",
+    date: "27/03/2026",
+    timestamp: "2026-03-27T10:00:00",
+    image: "../img/estado-responde-danos-atos-militares-responsabilidade-civil.webp",
+    excerpt: "A responsabilidade civil do Estado por atos militares impõe ao ente público o dever de indenizar vítimas de condutas praticadas por agentes militares no exercício de suas funções, independentemente de culpa.",
+    link: "../direito-militar/estado-responde-danos-atos-militares-responsabilidade-civil.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
   title: "Ação Penal Militar e o Direito de Recorrer",
   date: "26/03/2026",
   timestamp: "2026-03-26T07:00:00",
