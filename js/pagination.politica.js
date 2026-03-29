@@ -1,6 +1,16 @@
 // Dados de notícias para Política
 const categoryNewsData = [
     {
+    title: "Misoginia no Poder, Uma Ferida Política",
+    date: "30/03/2026",
+    timestamp: "2026-03-30T10:00:00",
+    image: "../img/misoginia-poder-estrutura-politica-brasileira.webp",
+    excerpt: "A misoginia estrutural nos espaços de poder político brasileiro opera como mecanismo de exclusão que compromete a democracia representativa e viola direitos constitucionalmente assegurados às mulheres na vida pública.",
+    link: "../politica/misoginia-poder-estrutura-politica-brasileira.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Populismo e o Cerco à Democracia Brasileira",
     date: "27/03/2026",
     timestamp: "2026-03-27T07:00:00",

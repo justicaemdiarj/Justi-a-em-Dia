@@ -1,6 +1,41 @@
 // Base de dados global de artigos para busca
 const allArticles = [
     {
+  title: 'Assédio Moral no Trabalho e Dignidade Laboral',
+  description: 'O assédio moral no ambiente de trabalho é uma conduta abusiva e reiterada que viola a dignidade do trabalhador e gera responsabilidade civil e trabalhista ao empregador.',
+  category: 'Direito Trabalhista',
+  url: 'direito-trabalhista/assedio-moral-trabalho-dignidade-laboral.html',
+  tags: ['Assédio Moral', 'Direito Trabalhista', 'Dignidade Laboral', 'CLT', 'Dano Moral Trabalhista']
+},
+    {
+    title: 'LGPD e o Novo Estatuto da Privacidade Digital',
+    description: 'A Lei Geral de Proteção de Dados transformou o tratamento de informações pessoais no Brasil, impondo obrigações jurídicas concretas a empresas e ao poder público e conferindo ao titular dos dados um conjunto robusto de direitos fundamentais no ambiente digital.',
+    category: 'Legislação',
+    url: 'legislacao/lgpd-estatuto-privacidade-digital-protecao-dados-brasil.html',
+    tags: ['LGPD', 'Lei Geral de Proteção de Dados', 'Privacidade Digital', 'ANPD', 'Dados Pessoais', 'Titular de Dados', 'Proteção de Dados']
+},
+    {
+    title: 'Quando os Tribunais Mudam de Ideia',
+    description: 'A mudança de entendimento jurisprudencial nos tribunais superiores brasileiros gera impactos profundos sobre a segurança jurídica, o planejamento empresarial e os direitos dos jurisdicionados.',
+    category: 'Jurisprudência',
+    url: 'jurisprudencia/mudanca-entendimento-jurisprudencial-tribunais-brasileiros.html',
+    tags: ['mudança jurisprudencial', 'overruling', 'Quando os Tribunais Mudam de Ideia']
+},
+    {
+    title: 'Due Diligence: Escudo Jurídico Corporativo',
+    description: 'A due diligence é o processo de investigação prévia que protege empresas de passivos ocultos, riscos de integridade e responsabilizações jurídicas em fusões, aquisições e contratos.',
+    category: 'Compliance',
+    url: 'compliance/due-diligence-escudo-juridico-corporativo-brasil.html',
+    tags: ['due diligence', 'compliance corporativo', 'Due Diligence: Escudo Jurídico Corporativo']
+},
+    {
+    title: 'Misoginia no Poder: Uma Ferida Política',
+    description: 'A misoginia estrutural nos espaços de poder político brasileiro opera como mecanismo de exclusão que compromete a democracia representativa e viola direitos constitucionalmente assegurados às mulheres na vida pública.',
+    category: 'Política',
+    url: 'politica/misoginia-poder-estrutura-politica-brasileira.html',
+    tags: ['misoginia', 'violência política de gênero', 'Misoginia no Poder: Uma Ferida Política']
+},
+    {
     title: 'Conformidade Tributária como Escudo Jurídico Empresarial',
     description: 'O compliance tributário deixou de ser opcional e tornou-se imperativo jurídico para empresas brasileiras. Com a reforma tributária em curso e o avanço da fiscalização digital, organizações que investem em governança fiscal blindam seus gestores de responsabilizações penais e administrativas.',
     category: 'Compliance',

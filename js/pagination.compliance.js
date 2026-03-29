@@ -1,6 +1,16 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
     {
+    title: "Due Diligence Como Escudo Jurídico Corporativo",
+    date: "30/03/2026",
+    timestamp: "2026-03-30T08:00:00",
+    image: "../img/due-diligence-escudo-juridico-corporativo-brasil.webp",
+    excerpt: "A due diligence é o processo de investigação prévia que protege empresas de passivos ocultos, riscos de integridade e responsabilizações jurídicas em fusões, aquisições e contratos.",
+    link: "../compliance/due-diligence-escudo-juridico-corporativo-brasil.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Conformidade Tributária como Escudo Jurídico Empresarial",
     date: "27/03/2026",
     timestamp: "2026-03-27T09:00:00",

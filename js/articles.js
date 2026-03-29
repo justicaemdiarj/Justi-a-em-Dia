@@ -2,44 +2,44 @@ const posts = [
   
   
 {
-    title: "Estado Responde por Danos de Atos Militares",
-    description: "A teoria da responsabilidade objetiva consagrada pela Constituição Federal impõe ao Estado o dever de indenizar vítimas de atos militares independentemente de culpa do agente",
-    description2: "De operações em áreas urbanas à justiça militar e ao sistema interamericano de direitos humanos, entenda o regime jurídico de reparação por danos castrenses",
-    image: "img/estado-responde-danos-atos-militares-responsabilidade-civil.webp",
-    link: "direito-militar/estado-responde-danos-atos-militares-responsabilidade-civil.html",
-    date: "2026-03-27T10:00:00",
+  title: "Misoginia no Poder, Uma Ferida Política",
+  description: "A misoginia estrutural nos espaços de poder político brasileiro opera como mecanismo de exclusão que compromete a democracia representativa",
+  description2: "Violência política de gênero e o vácuo normativo que perpetua a exclusão feminina dos espaços de poder no Brasil",
+  image: "img/misoginia-poder-estrutura-politica-brasileira.webp",
+  link: "politica/misoginia-poder-estrutura-politica-brasileira.html",
+  date: "2026-03-30T10:00:00",
   section: "featured"
 },
   {
-    title: "Prejuízo Patrimonial e Sofrimento Têm Reparações Distintas",
-    description: "Dano material e dano moral possuem fundamentos, regimes probatórios e critérios de quantificação distintos que todo cidadão precisa conhecer para garantir reparação integral",
-    description2: "Do dano emergente ao lucro cessante e do dano moral in re ipsa ao dano estético autônomo, entenda as categorias de lesão reconhecidas pelo direito civil brasileiro",
-    image: "img/dano-material-dano-moral-distincoes-reparacao-indenizacao-civil.webp",
-    link: "direito-civil/dano-material-dano-moral-distincoes-reparacao-indenizacao-civil.html",
-    date: "2026-03-27T08:00:00",
+  title: "Due Diligence Como Escudo Jurídico Corporativo",
+  description: "A investigação prévia que blinda negócios contra passivos ocultos e riscos de integridade",
+  description2: "Como a due diligence tornou-se exigência jurídica incontornável no compliance brasileiro",
+  image: "img/due-diligence-escudo-juridico-corporativo-brasil.webp",
+  link: "compliance/due-diligence-escudo-juridico-corporativo-brasil.html",
+  date: "2026-03-30T08:00:00",
   section: "featured-secundario"
 },
 {
-    title: "União Estável Gera Direitos Tão Sólidos Quanto o Casamento",
-    description: "Reconhecida pela Constituição Federal, a união estável produz efeitos jurídicos plenos sobre patrimônio, herança, alimentos e previdência social dos companheiros",
-    description2: "Do contrato de convivência à equiparação sucessória pelo STF, entenda os direitos e deveres que decorrem da convivência afetiva no Brasil",
-    image: "img/uniao-estavel-efeitos-juridicos-direitos-companheiros-brasil.webp",
-    link: "direito-de-familia/uniao-estavel-efeitos-juridicos-direitos-companheiros-brasil.html",
-    date: "2026-03-27T09:00:00",
+  title: "Quando os Tribunais Mudam de Ideia",
+  description: "A virada jurisprudencial que transforma direitos consolidados e abala a segurança jurídica dos jurisdicionados",
+  description2: "Como o overruling nos tribunais superiores impacta negócios, contratos e planejamentos jurídicos no Brasil",
+  image: "img/mudanca-entendimento-jurisprudencial-tribunais-brasileiros.webp",
+  link: "jurisprudencia/mudanca-entendimento-jurisprudencial-tribunais-brasileiros.html",
+  date: "2026-03-30T07:00:00",
  section: "featured-terciario"
 },
   {
-    title: "Legítima Defesa Entre o Direito e o Excesso",
-    image: "img/legitima-defesa-requisitos-excesso-excludente-ilicitude-direito-penal.webp",
-    link: "direito-penal/legitima-defesa-requisitos-excesso-excludente-ilicitude-direito-penal.html",
-    date: "2026-03-27T09:00:00",
+    title: "LGPD e o Novo Estatuto da Privacidade Digital",
+    image: "img/lgpd-estatuto-privacidade-digital-protecao-dados-brasil.webp",
+    link: "legislacao/lgpd-estatuto-privacidade-digital-protecao-dados-brasil.html",
+    date: "2026-03-30T09:00:00",
     section: "destaque"
   },
    {
-   title: "Pejotização e a Fraude ao Vínculo Empregatício no Brasil",
-    image: "img/pejotizacao-fraude-vinculo-empregaticio-direito-trabalhista.webp",
-    link: "direito-trabalhista/pejotizacao-fraude-vinculo-empregaticio-direito-trabalhista.html",
-    date: "2026-03-27T09:00:00",
+  title: "Assédio Moral no Trabalho e Dignidade Laboral",
+  image: "img/assedio-moral-trabalho-dignidade-laboral.webp",
+  link: "direito-trabalhista/assedio-moral-trabalho-dignidade-laboral.html",
+  date: "2026-03-30T09:00:00",
     section: "destaque"
   },
   {

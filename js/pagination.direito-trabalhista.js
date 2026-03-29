@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
     {
+  title: "Assédio Moral no Trabalho e Dignidade Laboral",
+  date: "30/03/2026",
+  timestamp: "2026-03-30T09:00:00",
+  image: "../img/assedio-moral-trabalho-dignidade-laboral.webp",
+  excerpt: "O assédio moral no ambiente de trabalho é uma conduta abusiva e reiterada que viola a dignidade do trabalhador e gera responsabilidade civil e trabalhista ao empregador.",
+  link: "../direito-trabalhista/assedio-moral-trabalho-dignidade-laboral.html",
+  categoria: "direito-trabalhista",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
     title: "Pejotização e a Fraude ao Vínculo Empregatício no Brasil",
     date: "27/03/2026",
     timestamp: "2026-03-27T09:00:00",

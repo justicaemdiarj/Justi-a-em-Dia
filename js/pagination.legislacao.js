@@ -1,6 +1,17 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
     {
+    title: "LGPD e o Novo Estatuto da Privacidade Digital",
+    date: "30/03/2026",
+    timestamp: "2026-03-30T09:00:00",
+    image: "../img/lgpd-estatuto-privacidade-digital-protecao-dados-brasil.webp",
+    excerpt: "A Lei Geral de Proteção de Dados transformou o tratamento de informações pessoais no Brasil, impondo obrigações jurídicas concretas a empresas e ao poder público e conferindo ao titular dos dados um conjunto robusto de direitos fundamentais no ambiente digital.",
+    link: "../legislacao/lgpd-estatuto-privacidade-digital-protecao-dados-brasil.html",
+    categoria: "legislacao",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Novas Leis que Transformam o Direito Brasileiro",
     date: "27/03/2026",
     timestamp: "2026-03-27T07:00:00",

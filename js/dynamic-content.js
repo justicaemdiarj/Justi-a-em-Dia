@@ -13,42 +13,6 @@ const tickerConfig = {
 
 const globalNewsData = [
   
-    {
-    title: "Boletim Eleitoral Paulatino Fortalece Transparência Jurisprudencial",
-    link: "legislacao/boletim-eleitoral-fortalece-transparencia-jurisprudencial-tre-pr.html",
-},
-    {
-    title: "Prerrogativas Presidenciais Resistem à Custódia Judicial",
-    link: "politica/prerrogativas-presidenciais-resistem-custodia-judicial.html",
-},
-    {
-    title: "Garantias Locatícias sob Escrutínio Jurídico no Brasil",
-    link: "direito-civil/garantias-locaticias-escrutinio-juridico-brasil.html",
-},
-    {
-    title: "A Velha Guarda do PT Volta ao Front",
-    link: "politica/velha-guarda-pt-retorno-campanha-lula-reeleicao-2026.html",
-},
-    {
-    title: "Rondônia Lidera Gestão Federal de Convênios",
-    link: "legislacao/rondonia-capacitacao-transferegov-convenios-projetos-sociais.html",
-},
-    {
-    title: "CNJ Reforça o Judiciário nos Direitos Humanos",
-    link: "jurisprudencia/cnj-protocolos-direitos-humanos-judiciario-sistema-interamericano.html",
-},
-    {
-    title: "Tiro pelas Costas: Agente Estatal Condenado",
-    link: "direito-militar/ex-policial-militar-condenado-homicidio-adolescente-cuiaba-tiro-costas.html",
-},
-    {
-    title: "Churrasco no Atestado Custa o Emprego",
-    link: "direito-trabalhista/justa-causa-atestado-medico-churrasco-redes-sociais-trt-go.html",
-},
-{
-    title: "Reforma Civil Rasga o Véu da Responsabilidade",
-    link: "direito-civil/pl-codigo-civil-responsabilidade-civil-ampliacao-debate-juridico.html",
-},
 {
     title: "Brincar como Direito, Lei como Escudo Infantil",
     link: "direito-de-familia/lei-14826-2024-brincar-parentalidade-positiva-prevencao-violencia-criancas.html",
@@ -225,7 +189,26 @@ const globalNewsData = [
     title: "Conformidade Tributária como Escudo Jurídico Empresarial",
     link: "compliance/conformidade-tributaria-escudo-juridico-empresarial.html",
 },
-
+{
+    title: "Misoginia no Poder, Uma Ferida Política",
+    link: "politica/misoginia-poder-estrutura-politica-brasileira.html",
+},
+{
+    title: "Due Diligence Como Escudo Jurídico Corporativo",
+    link: "compliance/due-diligence-escudo-juridico-corporativo-brasil.html",
+},
+{
+    title: "Quando os Tribunais Mudam de Ideia",
+    link: "jurisprudencia/mudanca-entendimento-jurisprudencial-tribunais-brasileiros.html",
+},
+{
+  title: "LGPD e o Novo Estatuto da Privacidade Digital;",
+  link: "legislacao/lgpd-estatuto-privacidade-digital-protecao-dados-brasil.html",
+},
+{
+  title: "Assédio Moral no Trabalho e Dignidade Laboral",
+  link: "direito-trabalhista/assedio-moral-trabalho-dignidade-laboral.html",
+},
 
 ];
 

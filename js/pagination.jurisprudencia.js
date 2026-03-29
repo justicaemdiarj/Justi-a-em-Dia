@@ -1,6 +1,16 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
     {
+    title: "Quando os Tribunais Mudam de Ideia",
+    date: "30/03/2026",
+    timestamp: "2026-03-30T07:00:00",
+    image: "../img/mudanca-entendimento-jurisprudencial-tribunais-brasileiros.webp",
+    excerpt: "A mudança de entendimento jurisprudencial nos tribunais superiores brasileiros gera impactos profundos sobre a segurança jurídica, o planejamento empresarial e os direitos dos jurisdicionados.",
+    link: "../jurisprudencia/mudanca-entendimento-jurisprudencial-tribunais-brasileiros.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Como os Tribunais Reescrevem o Sentido das Leis",
     date: "27/03/2026",
     timestamp: "2026-03-27T10:00:00",

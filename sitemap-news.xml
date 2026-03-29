@@ -2739,4 +2739,59 @@
     <news:title>Conformidade Tributária como Escudo Jurídico Empresarial</news:title>
   </news:news>
 </url>
+<url>
+  <loc>https://www.justicaemdia.com.br/politica/misoginia-poder-estrutura-politica-brasileira.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-03-28T07:00:00-03:00</news:publication_date>
+    <news:title>Misoginia no Poder: Uma Ferida Política</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/compliance/due-diligence-escudo-juridico-corporativo-brasil.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-03-28T07:00:00-03:00</news:publication_date>
+    <news:title>Due Diligence Como Escudo Jurídico Corporativo</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/jurisprudencia/mudanca-entendimento-jurisprudencial-tribunais-brasileiros.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-03-28T07:00:00-03:00</news:publication_date>
+    <news:title>Quando os Tribunais Mudam de Ideia</news:title>
+  </news:news>
+</url>
+<url>
+    <loc>https://www.justicaemdia.com.br/legislacao/lgpd-estatuto-privacidade-digital-protecao-dados-brasil.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Justiça em Dia</news:name>
+        <news:language>pt</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-27T07:00:00-03:00</news:publication_date>
+      <news:title>LGPD e o Novo Estatuto da Privacidade Digital</news:title>
+    </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-trabalhista/assedio-moral-trabalho-dignidade-laboral.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-03-28T07:00:00-03:00</news:publication_date>
+    <news:title>Assédio Moral no Trabalho e Dignidade Laboral</news:title>
+  </news:news>
+</url>
 </urlset>
