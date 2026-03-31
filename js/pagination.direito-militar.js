@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
     {
+  title: "Direitos Fundamentais e a Condição Militar",
+  date: "31/04/2026",
+  timestamp: "2026-03-31T07:00:00",
+  image: "../img/direitos-fundamentais-condicao-militar-brasil.webp",
+  excerpt: "Os direitos fundamentais dos militares brasileiros equilibram proteção constitucional e restrições institucionais próprias da carreira castrense.",
+  link: "../direito-militar/direitos-fundamentais-condicao-militar-brasil.html",
+  categoria: "direito-militar",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
     title: "Estado Responde por Danos de Atos Militares",
     date: "27/03/2026",
     timestamp: "2026-03-27T10:00:00",

@@ -13,42 +13,7 @@ const tickerConfig = {
 
 const globalNewsData = [
   
-{
-    title: "Brincar como Direito, Lei como Escudo Infantil",
-    link: "direito-de-familia/lei-14826-2024-brincar-parentalidade-positiva-prevencao-violencia-criancas.html",
-},
-{
-    title: "Dosimetria da Pena e a Herança Penal Intemporal",
-    link: "direito-penal/dosimetria-pena-ensinamentos-classicos-direito-penal-brasileiro.html",
-},
-{
-    title: "Sequela Laboral que o INSS Tentou Ignorar",
-    link: "direito-trabalhista/auxilio-acidente-sequela-permanente-inss-qualidade-segurado-tjmt.html",
-},
-{
-    title: "Farda e Integridade Selam Pacto de Conformidade",
-    link: "compliance/bombeiros-militar-cge-compliance-publico-integridade-governanca.html",
-},
-{
-    title: "Direito ao Porte que a Burocracia Engavetou",
-    link: "direito-militar/porte-arma-policial-bombeiro-lei-organica-carteira-funcional-ms.html",
-},
-{
-    title: "Quando o Tribunal Reescreve o que a Lei Diz",
-    link: "jurisprudencia/jurisprudencia-ignora-lei-astreintes-cpc-stj-separacao-poderes.html",
-},
-{
-    title: "Três Frentes que Assombram o Direito Corporativo",
-    link: "legislacao/ciberseguranca-tributacao-geopolitica-preocupacoes-lideres-juridicos-brasil.html",
-},
-{
-    title: "MDB Perde Quadro e PSB Ganha Candidatura Senatorial",
-    link: "politica/desfiliacao-mdb-psb-senado-sao-paulo-eleicoes-2026.html",
-},
-{
-    title: "Governar em Silêncio Não Garante Reeleição",
-    link: "politica/governo-federal-comunicacao-realizacoes-politicas-publicas-2026.html",
-},
+
 {
     title: "ECA Digital Mira a Lógica das Plataformas",
     link: "legislacao/eca-digital-regulacao-plataformas-protecao-criancas-adolescentes-lei.html",
@@ -209,6 +174,11 @@ const globalNewsData = [
   title: "Assédio Moral no Trabalho e Dignidade Laboral",
   link: "direito-trabalhista/assedio-moral-trabalho-dignidade-laboral.html",
 },
+{
+  title: "Direitos Fundamentais e a Condição Militar",
+  link: "direito-militar/direitos-fundamentais-condicao-militar-brasil.html",
+},
+
 
 ];
 

@@ -1,6 +1,13 @@
 // Base de dados global de artigos para busca
 const allArticles = [
     {
+  title: 'Direitos Fundamentais e a Condição Militar',
+  description: 'Os direitos fundamentais dos militares brasileiros equilibram proteção constitucional e restrições institucionais próprias da carreira castrense.',
+  category: 'Direito Militar',
+  url: 'direito-militar/direitos-fundamentais-condicao-militar-brasil.html',
+  tags: ['Direito Militar', 'Direitos Fundamentais', 'Estatuto dos Militares', 'Justiça Militar', 'Constituição Federal']
+},
+    {
   title: 'Assédio Moral no Trabalho e Dignidade Laboral',
   description: 'O assédio moral no ambiente de trabalho é uma conduta abusiva e reiterada que viola a dignidade do trabalhador e gera responsabilidade civil e trabalhista ao empregador.',
   category: 'Direito Trabalhista',

@@ -2,12 +2,12 @@ const posts = [
   
   
 {
-  title: "Misoginia no Poder, Uma Ferida Política",
-  description: "A misoginia estrutural nos espaços de poder político brasileiro opera como mecanismo de exclusão que compromete a democracia representativa",
-  description2: "Violência política de gênero e o vácuo normativo que perpetua a exclusão feminina dos espaços de poder no Brasil",
-  image: "img/misoginia-poder-estrutura-politica-brasileira.webp",
-  link: "politica/misoginia-poder-estrutura-politica-brasileira.html",
-  date: "2026-03-30T10:00:00",
+title: "Direitos Fundamentais e a Condição Militar",
+  description: "Proteção constitucional e restrições institucionais na carreira castrense brasileira",
+  description2: "O equilíbrio entre dignidade humana e hierarquia nas Forças Armadas",
+  image: "img/direitos-fundamentais-condicao-militar-brasil.webp",
+  link: "direito-militar/direitos-fundamentais-condicao-militar-brasil.html",
+  date: "2026-03-31T10:00:00",
   section: "featured"
 },
   {
