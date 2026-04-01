@@ -1,5 +1,16 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
+        {
+  title: "Justa Causa e o Fim do Contrato",
+  date: "01/04/2026",
+  timestamp: "2026-04-01T09:00:00",
+  image: "../img/justa-causa-fim-do-contrato-clt-artigo-482.webp",
+  excerpt: "A justa causa é a modalidade mais grave de rescisão contratual no direito trabalhista brasileiro, com requisitos rigorosos e impactos econômicos significativos para empregador e empregado.",
+  link: "../direito-trabalhista/justa-causa-fim-do-contrato-clt-artigo-482.html",
+  categoria: "direito-trabalhista",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
     {
   title: "Assédio Moral no Trabalho e Dignidade Laboral",
   date: "30/03/2026",

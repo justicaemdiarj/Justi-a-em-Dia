@@ -1,6 +1,69 @@
 // Base de dados global de artigos para busca
 const allArticles = [
     {
+    title: 'Decisões que Obrigam Todos os Tribunais do País',
+    description: 'Os precedentes vinculantes transformaram o sistema judiciário brasileiro ao obrigar todos os tribunais a seguirem as teses fixadas pelas cortes superiores.',
+    category: 'Jurisprudência',
+    url: 'jurisprudencia/decisoes-obrigam-todos-tribunais-pais.html',
+    tags: ['Precedentes Vinculantes', 'Jurisprudência Vinculante', 'Decisões que Obrigam Todos os Tribunais do País']
+},
+    {
+    title: 'O Novo Sistema Fiscal Que Muda Tudo',
+    description: 'A reforma tributária brasileira aprovada pela Emenda Constitucional nº 132 de 2023 representa a maior transformação do sistema fiscal do país desde a Constituição de 1988.',
+    category: 'Legislação',
+    url: 'legislacao/novo-sistema-fiscal-reforma-tributaria-brasil.html',
+    tags: ['Reforma Tributária', 'Sistema Tributário', 'O Novo Sistema Fiscal Que Muda Tudo']
+},
+    {
+    title: 'Conformidade Trabalhista Além do Contrato Assinado',
+    description: 'O compliance trabalhista tornou-se pilar estratégico nas organizações brasileiras. Entender as obrigações legais e os riscos de passivos acumulados é essencial para empresas que buscam segurança jurídica nas relações de trabalho.',
+    category: 'Compliance',
+    url: 'compliance/conformidade-trabalhista-alem-do-contrato-assinado.html',
+    tags: ['Compliance Trabalhista', 'Direito do Trabalho', 'Conformidade Trabalhista Além do Contrato Assinado']
+},
+    {
+    title: 'Quando o Judiciário Governa no Lugar do Parlamento',
+    description: 'A judicialização da política redefine o equilíbrio entre os Poderes no Brasil e levanta questões sobre legitimidade democrática e os limites da atuação jurisdicional.',
+    category: 'Política',
+    url: 'politica/judiciario-governa-lugar-parlamento.html',
+    tags: ['Judicialização da Política', 'Ativismo Judicial', 'Quando o Judiciário Governa no Lugar do Parlamento']
+},
+    {
+  title: 'Justa Causa e o Fim do Contrato',
+  description: 'A justa causa é a modalidade mais grave de rescisão contratual no direito trabalhista brasileiro, com requisitos rigorosos e impactos econômicos significativos para empregador e empregado.',
+  category: 'Direito Trabalhista',
+  url: 'direito-trabalhista/justa-causa-fim-do-contrato-clt-artigo-482.html',
+  tags: ['Justa Causa', 'Direito Trabalhista', 'CLT', 'Rescisão Indireta', 'Processo Disciplinar']
+},
+    {
+  title: 'Crimes Digitais e a Lei Fora do Alcance',
+  description: 'Os crimes digitais crescem em sofisticação enquanto o direito penal brasileiro busca acompanhar a criminalidade cibernética e seus impactos econômicos e sociais.',
+  category: 'Direito Criminal',
+  url: 'direito-penal/crimes-digitais-lei-fora-do-alcance-direito-penal.html',
+  tags: ['Crimes Digitais', 'Direito Penal', 'Criminalidade Cibernética', 'Marco Civil da Internet', 'Estelionato Digital']
+},
+    {
+  title: 'Alienação Parental e a Criança Invisível',
+  description: 'A alienação parental compromete o vínculo afetivo da criança com um dos genitores. Entenda a Lei nº 12.318 de 2010, os impactos psicossociais e os desafios do direito de família brasileiro.',
+  category: 'Direito de Família',
+  url: 'direito-de-familia/alienacao-parental-crianca-invisivel-lei-12318.html',
+  tags: ['Alienação Parental', 'Direito de Família', 'Lei 12.318', 'Guarda de Filhos', 'Melhor Interesse da Criança']
+},
+    {
+  title: 'Dano Moral e o Preço da Dignidade',
+  description: 'A responsabilidade civil por danos morais é um dos institutos mais relevantes do direito civil brasileiro, com fundamentos constitucionais e jurisprudência em constante evolução.',
+  category: 'Direito Civil',
+  url: 'direito-civil/dano-moral-preco-dignidade-responsabilidade-civil.html',
+  tags: ['Danos Morais', 'Responsabilidade Civil', 'Direito Civil', 'Indenização', 'Dano Moral Coletivo']
+},
+    {
+  title: 'Hierarquia Militar Como Fundamento Jurídico',
+  description: 'A hierarquia e a disciplina militares são princípios constitucionalmente consagrados que estruturam o direito castrense brasileiro e seus limites democráticos.',
+  category: 'Direito Militar',
+  url: 'direito-militar/hierarquia-militar-fundamento-juridico-disciplina.html',
+  tags: ['Direito Militar', 'Hierarquia Militar', 'Disciplina Militar', 'Código Penal Militar', 'Constituição Federal']
+},
+    {
   title: 'Direitos Fundamentais e a Condição Militar',
   description: 'Os direitos fundamentais dos militares brasileiros equilibram proteção constitucional e restrições institucionais próprias da carreira castrense.',
   category: 'Direito Militar',

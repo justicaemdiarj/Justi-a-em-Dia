@@ -1,6 +1,16 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
     {
+    title: "O Novo Sistema Fiscal Que Muda Tudo",
+    date: "01/04/2026",
+    timestamp: "2026-04-01T10:00:00",
+    image: "../img/novo-sistema-fiscal-reforma-tributaria-brasil.webp",
+    excerpt: "A reforma tributária aprovada pela EC nº 132 de 2023 representa a maior transformação do sistema fiscal brasileiro desde a Constituição de 1988.",
+    link: "../legislacao/novo-sistema-fiscal-reforma-tributaria-brasil.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "LGPD e o Novo Estatuto da Privacidade Digital",
     date: "30/03/2026",
     timestamp: "2026-03-30T09:00:00",

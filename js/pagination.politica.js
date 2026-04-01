@@ -1,5 +1,15 @@
 // Dados de notícias para Política
 const categoryNewsData = [
+{
+    title: "Quando o Judiciário Governa no Lugar do Parlamento",
+    date: "01/04/2026",
+    timestamp: "2026-04-01T11:00:00",
+    image: "../img/judiciario-governa-lugar-parlamento.webp",
+    excerpt: "A judicialização da política redefine o equilíbrio entre os Poderes no Brasil e levanta questões sobre legitimidade democrática.",
+    link: "../politica/judiciario-governa-lugar-parlamento.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
     {
     title: "Misoginia no Poder, Uma Ferida Política",
     date: "30/03/2026",

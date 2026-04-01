@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
     {
+  title: "Hierarquia Militar Como Fundamento Jurídico",
+  date: "01/04/2026",
+  timestamp: "2026-04-01T07:00:00",
+  image: "../img/hierarquia-militar-fundamento-juridico-disciplina.webp",
+  excerpt: "A hierarquia e a disciplina militares são princípios constitucionalmente consagrados que estruturam o direito castrense brasileiro e seus limites democráticos.",
+  link: "../direito-militar/hierarquia-militar-fundamento-juridico-disciplina.html",
+  categoria: "direito-militar",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
   title: "Direitos Fundamentais e a Condição Militar",
   date: "31/04/2026",
   timestamp: "2026-03-31T07:00:00",

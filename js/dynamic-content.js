@@ -12,44 +12,7 @@ const tickerConfig = {
 };
 
 const globalNewsData = [
-  
 
-{
-    title: "ECA Digital Mira a Lógica das Plataformas",
-    link: "legislacao/eca-digital-regulacao-plataformas-protecao-criancas-adolescentes-lei.html",
-},
-{
-    title: "STF como Árbitro Constitucional do Esporte Nacional",
-    link: "jurisprudencia/stf-arbitro-constitucional-esporte-nacional.html",
-},
-{
-    title: "Compliance como Pilar da Estratégia Corporativa Moderna",
-    link: "compliance/compliance-pilar-estrategia-corporativa-moderna.html",
-},
-{
-    title: "Militar Condenado por Perseguição Obsessiva no Quartel",
-    link: "direito-militar/militar-condenado-perseguicao-obsessiva-quartel.html",
-},
-{
-    title: "OAB Debate Nova Lei do Contrato de Seguro",
-    link: "direito-civil/oab-debate-nova-lei-contrato-seguro.html",
-},
-{
-    title: "Reserva de Imóvel na Planta e a Custódia Notarial",
-    link: "direito-de-familia/reserva-imovel-planta-custodia-notarial-escrow-incorporacao.html",
-},
-{
-    title: "Filhos Como Arma, Mães Como Alvo",
-    link: "direito-penal/filhos-como-arma-maes-como-alvo-violencia-vicaria-mulher.html",
-},
-{
-    title: "Demissão em Massa e o Pacto do Silêncio",
-    link: "direito-trabalhista/demissao-massa-pacto-silencio-clausula-confidencialidade-abusiva.html",
-},
-{
-  title: "Reforma Militar por Incapacidade e Acidente de Serviço",
-  link: "direito-militar/reforma-militar-invalidez-acidente-servico.html",
-},
 {
   title: "Contratos: A Espinha Dorsal do Direito Civil",
   link: "direito-civil/teoria-geral-contratos-principios-requisitos.html",
@@ -177,6 +140,42 @@ const globalNewsData = [
 {
   title: "Direitos Fundamentais e a Condição Militar",
   link: "direito-militar/direitos-fundamentais-condicao-militar-brasil.html",
+},
+{
+  title: "Hierarquia Militar Como Fundamento Jurídico",
+  link: "direito-militar/hierarquia-militar-fundamento-juridico-disciplina.html",
+},
+{
+  title: "Dano Moral e o Preço da Dignidade",
+  link: "direito-civil/dano-moral-preco-dignidade-responsabilidade-civil.html",
+},
+{
+  title: "Alienação Parental e a Criança Invisível",
+  link: "direito-de-familia/alienacao-parental-crianca-invisivel-lei-12318.html",
+},
+{
+  title: "Crimes Digitais e a Lei Fora do Alcance",
+  link: "direito-penal/crimes-digitais-lei-fora-do-alcance-direito-penal.html",
+},
+{
+  title: "Justa Causa e o Fim do Contrato",
+  link: "direito-trabalhista/justa-causa-fim-do-contrato-clt-artigo-482.html",
+},
+{
+    title: "Quando o Judiciário Governa no Lugar do Parlamento",
+    link: "politica/judiciario-governa-lugar-parlamento.html",
+},
+{
+    title: "Conformidade Trabalhista Além do Contrato Assinado",
+    link: "compliance/conformidade-trabalhista-alem-do-contrato-assinado.html",
+},
+{
+    title: "O Novo Sistema Fiscal Que Muda Tudo",
+    link: "legislacao/novo-sistema-fiscal-reforma-tributaria-brasil.html",
+},
+{
+    title: "Decisões que Obrigam Todos os Tribunais do País",
+    link: "jurisprudencia/decisoes-obrigam-todos-tribunais-pais.html",
 },
 
 

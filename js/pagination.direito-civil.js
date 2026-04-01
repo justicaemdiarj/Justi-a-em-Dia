@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
     {
+  title: "Dano Moral e o Preço da Dignidade",
+  date: "01/04/2026",
+  timestamp: "2026-04-01T09:00:00",
+  image: "../img/dano-moral-preco-dignidade-responsabilidade-civil.webp",
+  excerpt: "A responsabilidade civil por danos morais é um dos institutos mais relevantes do direito civil brasileiro, com fundamentos constitucionais e jurisprudência em constante evolução.",
+  link: "../direito-civil/dano-moral-preco-dignidade-responsabilidade-civil.html",
+  categoria: "direito-civil",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
     title: "Prejuízo Patrimonial e Sofrimento Têm Reparações Distintas",
     date: "27/03/2026",
     timestamp: "2026-03-27T08:00:00",

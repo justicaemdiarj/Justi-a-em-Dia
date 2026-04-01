@@ -1,6 +1,16 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
     {
+    title: "Conformidade Trabalhista Além do Contrato Assinado",
+    date: "01/04/2026",
+    timestamp: "2026-04-01T06:00:00",
+    image: "../img/conformidade-trabalhista-alem-do-contrato-assinado.webp",
+    excerpt: "O compliance trabalhista tornou-se pilar estratégico nas organizações brasileiras que buscam segurança jurídica nas relações de trabalho.",
+    link: "../compliance/conformidade-trabalhista-alem-do-contrato-assinado.html",
+    author: "Romer Carvalho",
+    authorLink: "../apoiadores/advogado-romer-carvalho.html"
+},
+    {
     title: "Due Diligence Como Escudo Jurídico Corporativo",
     date: "30/03/2026",
     timestamp: "2026-03-30T08:00:00",

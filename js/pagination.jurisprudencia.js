@@ -1,6 +1,16 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
     {
+    title: "Decisões que Obrigam Todos os Tribunais do País",
+    date: "01/04/2026",
+    timestamp: "2026-04-01T05:00:00",
+    image: "../img/decisoes-obrigam-todos-tribunais-pais.webp",
+    excerpt: "Os precedentes vinculantes transformaram o sistema judiciário brasileiro ao obrigar todos os tribunais a seguirem as teses fixadas pelas cortes superiores.",
+    link: "../jurisprudencia/decisoes-obrigam-todos-tribunais-pais.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Quando os Tribunais Mudam de Ideia",
     date: "30/03/2026",
     timestamp: "2026-03-30T07:00:00",

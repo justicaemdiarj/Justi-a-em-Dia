@@ -2,73 +2,73 @@ const posts = [
   
   
 {
-title: "Direitos Fundamentais e a Condição Militar",
-  description: "Proteção constitucional e restrições institucionais na carreira castrense brasileira",
-  description2: "O equilíbrio entre dignidade humana e hierarquia nas Forças Armadas",
-  image: "img/direitos-fundamentais-condicao-militar-brasil.webp",
-  link: "direito-militar/direitos-fundamentais-condicao-militar-brasil.html",
-  date: "2026-03-31T10:00:00",
+  title: "Alienação Parental e a Criança Invisível",
+  description: "Conduta sistemática que compromete o vínculo afetivo da criança com um dos genitores",
+  description2: "Lei nº 12.318, impactos psicossociais e desafios do direito de família brasileiro",
+  image: "img/alienacao-parental-crianca-invisivel-lei-12318.webp",
+  link: "direito-de-familia/alienacao-parental-crianca-invisivel-lei-12318.html",
+  date: "2026-04-01T09:00:00",
   section: "featured"
 },
   {
-  title: "Due Diligence Como Escudo Jurídico Corporativo",
-  description: "A investigação prévia que blinda negócios contra passivos ocultos e riscos de integridade",
-  description2: "Como a due diligence tornou-se exigência jurídica incontornável no compliance brasileiro",
-  image: "img/due-diligence-escudo-juridico-corporativo-brasil.webp",
-  link: "compliance/due-diligence-escudo-juridico-corporativo-brasil.html",
-  date: "2026-03-30T08:00:00",
+ title: "Dano Moral e o Preço da Dignidade",
+  description: "Fundamentos constitucionais e jurisprudenciais da responsabilidade civil por danos morais no Brasil",
+  description2: "Do dano moral coletivo às novas fronteiras da LGPD e do dano existencial",
+  image: "img/dano-moral-preco-dignidade-responsabilidade-civil.webp",
+  link: "direito-civil/dano-moral-preco-dignidade-responsabilidade-civil.html",
+  date: "2026-04-01T09:00:00",
   section: "featured-secundario"
 },
 {
-  title: "Quando os Tribunais Mudam de Ideia",
-  description: "A virada jurisprudencial que transforma direitos consolidados e abala a segurança jurídica dos jurisdicionados",
-  description2: "Como o overruling nos tribunais superiores impacta negócios, contratos e planejamentos jurídicos no Brasil",
-  image: "img/mudanca-entendimento-jurisprudencial-tribunais-brasileiros.webp",
-  link: "jurisprudencia/mudanca-entendimento-jurisprudencial-tribunais-brasileiros.html",
-  date: "2026-03-30T07:00:00",
+ title: "Hierarquia Militar Como Fundamento Jurídico",
+  description: "Princípios constitucionais que estruturam o direito castrense e seus limites democráticos",
+  description2: "Como hierarquia e disciplina se submetem à ordem constitucional brasileira",
+  image: "img/hierarquia-militar-fundamento-juridico-disciplina.webp",
+  link: "direito-militar/hierarquia-militar-fundamento-juridico-disciplina.html",
+  date: "2026-04-01T07:00:00",
  section: "featured-terciario"
 },
   {
-    title: "LGPD e o Novo Estatuto da Privacidade Digital",
-    image: "img/lgpd-estatuto-privacidade-digital-protecao-dados-brasil.webp",
-    link: "legislacao/lgpd-estatuto-privacidade-digital-protecao-dados-brasil.html",
-    date: "2026-03-30T09:00:00",
+  title: "Crimes Digitais e a Lei Fora do Alcance",
+  image: "img/crimes-digitais-lei-fora-do-alcance-direito-penal.webp",
+  link: "direito-penal/crimes-digitais-lei-fora-do-alcance-direito-penal.html",
+  date: "2026-04-01T10:00:00",
     section: "destaque"
   },
    {
-  title: "Assédio Moral no Trabalho e Dignidade Laboral",
-  image: "img/assedio-moral-trabalho-dignidade-laboral.webp",
-  link: "direito-trabalhista/assedio-moral-trabalho-dignidade-laboral.html",
-  date: "2026-03-30T09:00:00",
+  title: "Justa Causa e o Fim do Contrato",
+  image: "img/justa-causa-fim-do-contrato-clt-artigo-482.webp",
+  link: "direito-trabalhista/justa-causa-fim-do-contrato-clt-artigo-482.html",
+  date: "2026-04-01T07:00:00",
     section: "destaque"
   },
   {
-  title: "Populismo e o Cerco à Democracia Brasileira",
-    image: "img/populismo-ameaca-institucional-democracia-brasileira.webp",
-    link: "politica/populismo-ameaca-institucional-democracia-brasileira.html",
-    date: "2026-03-27T07:00:00",
+  title: "Quando o Judiciário Governa no Lugar do Parlamento",
+  image: "img/judiciario-governa-lugar-parlamento.webp",
+  link: "politica/judiciario-governa-lugar-parlamento.html",
+  date: "2026-04-01T11:00:00",
     section: "destaque"
   },
   {
    
-     title: "Novas Leis que Transformam o Direito Brasileiro",
-     image: "img/atualizacoes-legislativas-recentes-impacto-direito-brasileiro.webp",
-    link: "legislacao/atualizacoes-legislativas-recentes-impacto-direito-brasileiro.html",
-    date: "2026-03-27T07:00:00",
+     title: "Conformidade Trabalhista Além do Contrato Assinado",
+  image: "img/conformidade-trabalhista-alem-do-contrato-assinado.webp",
+  link: "compliance/conformidade-trabalhista-alem-do-contrato-assinado.html",
+  date: "2026-04-01T06:00:00",
     section: "veja"
   },
   {
-   title: "Como os Tribunais Reescrevem o Sentido das Leis",
-     image: "img/interpretacao-lei-tribunais-hermeneutica-juridica-brasil.webp",
-    link: "jurisprudencia/interpretacao-lei-tribunais-hermeneutica-juridica-brasil.html",
-    date: "2026-03-27T10:00:00",
+  title: "O Novo Sistema Fiscal Que Muda Tudo",
+  image: "img/novo-sistema-fiscal-reforma-tributaria-brasil.webp",
+  link: "legislacao/novo-sistema-fiscal-reforma-tributaria-brasil.html",
+  date: "2026-04-01T10:00:00",
     section: "veja"
   },
   {
-   title: "Conformidade Tributária como Escudo Jurídico Empresarial",
-    image: "img/conformidade-tributaria-escudo-juridico-empresarial.webp",
-    link: "compliance/conformidade-tributaria-escudo-juridico-empresarial.html",
-    date: "2026-03-27T09:00:00",
+    title: "Decisões que Obrigam Todos os Tribunais do País",
+  image: "img/decisoes-obrigam-todos-tribunais-pais.webp",
+  link: "jurisprudencia/decisoes-obrigam-todos-tribunais-pais.html",
+  date: "2026-04-01T05:00:00",
     section: "veja"
   }
 ];
@@ -274,24 +274,29 @@ document.addEventListener("DOMContentLoaded", function(){
   date: "2026-03-24T07:00:00"
 },
 {
-    title: "MDB Perde Quadro e PSB Ganha Candidatura Senatorial",
-    link: "politica/desfiliacao-mdb-psb-senado-sao-paulo-eleicoes-2026.html",
-    date: "2026-03-23T07:00:00"
+  title: "Quando o Judiciário Governa no Lugar do Parlamento",
+  link: "politica/judiciario-governa-lugar-parlamento.html",
+  date: "2026-04-01T11:00:00"
 },
 {
- title: "Governo Abaixo da Régua Histórica da Reeleição",
-  link: "politica/governo-abaixo-regua-historica-reeleicao.html",
-  date: "2026-03-21T07:00:00"
+  title: "Crimes Digitais e a Lei Fora do Alcance",
+  link: "direito-penal/crimes-digitais-lei-fora-do-alcance-direito-penal.html",
+  date: "2026-04-01T10:00:00"
 },
 {
- title: "Prerrogativas Presidenciais Resistem à Custódia Judicial",
-  link: "politica/prerrogativas-presidenciais-resistem-custodia-judicial.html",
-  date: "2026-03-20T07:00:00"
+  title: "Alienação Parental e a Criança Invisível",
+  link: "direito-de-familia/alienacao-parental-crianca-invisivel-lei-12318.html",
+  date: "2026-04-01T07:00:00"
 },
  {
-   title: "Compliance como Pilar da Estratégia Corporativa Moderna",
-    link: "compliance/compliance-pilar-estrategia-corporativa-moderna.html",
-    date: "2026-03-24T07:00:00"
+  title: "Misoginia no Poder, Uma Ferida Política",
+  link: "politica/misoginia-poder-estrutura-politica-brasileira.html",
+  date: "2026-03-30T06:00:00"
+},
+{
+  title: "Pragmatismo Político Sobrepõe Divergências Históricas",
+  link: "politica/pragmatismo-politico-sobrpoe-divergencias-historicas-filiacao-pl-parana-2026.html",
+  date: "2026-03-26T06:00:00"
 },
 
   ];
@@ -340,41 +345,41 @@ document.addEventListener("DOMContentLoaded", function(){
 const principaisNoticias = [
 
 {
-title: "ECA Digital Protege Crianças no Ambiente Virtual  ",
-    link: "direito-de-familia/eca-digital-vigor-marco-2026-protecao-criancas-adolescentes-internet.html",
+title: "O Silêncio que Adoece",
+    link: "direito-trabalhista/assedio-moral-trabalho-dignidade-laboral.html",
 source: "",
-date: "2026-03-17T07:00:00"
+date: "2026-03-30T07:00:00"
 },
 
 {
-title: "PL Quer Pragmatismo Para Vencer em 2026",
-  link: "politica/pl-pragmatismo-agenda-eleicoes-2026-estrategia-eleitoral-oposicao.html",
+title: "Due Diligence Como Escudo Jurídico Corporativo",
+  link: "compliance/due-diligence-escudo-juridico-corporativo-brasil.html",
 source: "",
-date: "2026-03-18T07:00:00"
+date: "2026-03-30T07:00:00"
 },
 {
-title: "Farda e Integridade Selam Pacto de Conformidade",
-link: "compliance/bombeiros-militar-cge-compliance-publico-integridade-governanca.html",
+title: "Quando os Tribunais Mudam de Ideia",
+link: "jurisprudencia/mudanca-entendimento-jurisprudencial-tribunais-brasileiros.html",
 source: "",
-date: "2026-03-23T03:00:00"
+date: "2026-03-30T03:00:00"
 },
 {
-title: "SP Reestrutura Compliance Policial Após Escândalo",
-  link: "compliance/sp-decreto-reestruturacao-compliance-policias-corrupcao-integridade.html",
+title: "Construir Compliance do Zero é Possível",
+  link: "compliance/construir-compliance-do-zero-e-possivel.html",
 source: "",
-date: "2026-03-18T07:00:00"
+date: "2026-03-26T07:00:00"
 },
 {
-title: "Prerrogativas Presidenciais Resistem à Custódia Judicial",
-link: "politica/prerrogativas-presidenciais-resistem-custodia-judicial.html",
+title: "Direitos Fundamentais e a Condição Militar",
+link: "direito-militar/direitos-fundamentais-condicao-militar-brasil.html",
 source: "",
-date: "2026-03-20T07:00:00"
+date: "2026-03-31T07:00:00"
 },
 {
-title: "Divórcio Unilateral em Cartório Transforma Direito Familiar",
-    link: "direito-de-familia/divorcio-unilateral-cartorio-transforma-direito-familiar.html",
+title: "Misoginia no Poder, Uma Ferida Política",
+    link: "politica/misoginia-poder-estrutura-politica-brasileira.html",
 source: "",
-date: "2026-03-20T07:00:00"
+date: "2026-03-30T07:00:00"
 },
 {
  title: "Compliance como Pilar da Estratégia Corporativa Moderna",

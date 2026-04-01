@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
     {
+  title: "Crimes Digitais e a Lei Fora do Alcance",
+  date: "01/04/2026",
+  timestamp: "2026-04-01T10:00:00",
+  image: "../img/crimes-digitais-lei-fora-do-alcance-direito-penal.webp",
+  excerpt: "Os crimes digitais crescem em sofisticação enquanto o direito penal brasileiro busca acompanhar a criminalidade cibernética e seus impactos econômicos e sociais.",
+  link: "../direito-penal/crimes-digitais-lei-fora-do-alcance-direito-penal.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
     title: "Legítima Defesa Entre o Direito e o Excesso",
     date: "27/03/2026",
     timestamp: "2026-03-27T09:00:00",

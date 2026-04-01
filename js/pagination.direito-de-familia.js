@@ -1,6 +1,17 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
     {
+  title: "Alienação Parental e a Criança Invisível",
+  date: "01/04/2026",
+  timestamp: "2026-04-01T09:00:00",
+  image: "../img/alienacao-parental-crianca-invisivel-lei-12318.webp",
+  excerpt: "A alienação parental compromete o vínculo afetivo da criança com um dos genitores. Entenda a Lei nº 12.318 de 2010, os impactos psicossociais e os desafios do direito de família brasileiro.",
+  link: "../direito-de-familia/alienacao-parental-crianca-invisivel-lei-12318.html",
+  categoria: "direito-de-familia",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
     title: "União Estável Gera Direitos Tão Sólidos Quanto o Casamento",
     date: "27/03/2026",
     timestamp: "2026-03-27T09:00:00",
