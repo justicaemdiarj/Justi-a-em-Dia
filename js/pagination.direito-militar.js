@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
     {
+  title: "Farda, Voz e os Limites Constitucionais",
+  date: "02/04/2026",
+  timestamp: "2026-04-02T09:00:00",
+  image: "../img/liberdade-expressao-militar-limites-constitucionais-brasil.webp",
+  excerpt: "A liberdade de expressão do militar no Brasil enfrenta limitações constitucionais derivadas dos princípios de hierarquia e disciplina das Forças Armadas.",
+  link: "../direito-militar/liberdade-expressao-militar-limites-constitucionais-brasil.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
   title: "Hierarquia Militar Como Fundamento Jurídico",
   date: "01/04/2026",
   timestamp: "2026-04-01T07:00:00",

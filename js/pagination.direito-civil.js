@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
     {
+  title: "Contratos, Confiança e o Dever de Lealdade",
+  date: "02/04/2026",
+  timestamp: "2026-04-02T07:00:00",
+  image: "../img/boa-fe-objetiva-contratos-direito-civil-brasil.webp",
+  excerpt: "A boa-fé objetiva impõe deveres de lealdade e cooperação que transcendem o texto contratual e moldam toda a relação obrigacional.",
+  link: "../direito-civil/boa-fe-objetiva-contratos-direito-civil-brasil.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
   title: "Dano Moral e o Preço da Dignidade",
   date: "01/04/2026",
   timestamp: "2026-04-01T09:00:00",

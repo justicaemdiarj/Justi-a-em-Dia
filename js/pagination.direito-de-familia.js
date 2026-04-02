@@ -1,6 +1,16 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
     {
+  title: "Alimentos sob Revisão, Direitos em Disputa",
+  date: "02/04/2026",
+  timestamp: "2026-04-02T12:00:00",
+  image: "../img/pensao-alimenticia-revisao-direito-familia-brasil.webp",
+  excerpt: "A pensão alimentícia pode ser revista quando há mudança substancial nas condições econômicas das partes envolvidas.",
+  link: "../direito-de-familia/pensao-alimenticia-revisao-direito-familia-brasil.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
   title: "Alienação Parental e a Criança Invisível",
   date: "01/04/2026",
   timestamp: "2026-04-01T09:00:00",

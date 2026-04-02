@@ -1,5 +1,15 @@
 // Dados de notícias para Política
 const categoryNewsData = [
+    {
+    title: "Quando as Instituições Param de Funcionar Juntas",
+    date: "02/04/2026",
+    timestamp: "2026-04-02T06:00:00",
+    image: "../img/quando-instituicoes-param-funcionar-juntas.webp",
+    excerpt: "A crise institucional brasileira expõe tensões profundas entre os Poderes da República, corrói a confiança pública e impacta a economia e a democracia.",
+    link: "../politica/quando-instituicoes-param-funcionar-juntas.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 {
     title: "Quando o Judiciário Governa no Lugar do Parlamento",
     date: "01/04/2026",

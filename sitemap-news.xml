@@ -2904,4 +2904,103 @@
     <news:title>Decisões que Obrigam Todos os Tribunais do País</news:title>
   </news:news>
 </url>
+<url>
+  <loc>https://www.justicaemdia.com.br/jurisprudencia/tese-vale-milhoes-processos-repetitivos.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-04-02T07:00:00-03:00</news:publication_date>
+    <news:title>A Tese que Vale por Milhões de Processos</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/compliance/integridade-corporativa-alem-papel-impresso.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-04-02T07:00:00-03:00</news:publication_date>
+    <news:title>Integridade Corporativa Além do Papel Impresso</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/legislacao/direito-nasceu-era-algoritmos.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-04-02T07:00:00-03:00</news:publication_date>
+    <news:title>O Direito que Nasceu na Era dos Algoritmos</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/politica/quando-instituicoes-param-funcionar-juntas.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-04-02T07:00:00-03:00</news:publication_date>
+    <news:title>Quando as Instituições Param de Funcionar Juntas</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-trabalhista/tempo-mais-direito-protege-horas-extras.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-04-02T07:00:00-03:00</news:publication_date>
+    <news:title>O Tempo a Mais que o Direito Protege</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-penal/feminicidio-violencia-genero-lei-penal-brasil.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-04-02T07:00:00-03:00</news:publication_date>
+    <news:title>Sangue e Silêncio no Coração do Lar</news:title>
+  </news:news>
+</url>  
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-de-familia/pensao-alimenticia-revisao-direito-familia-brasil.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-04-02T07:00:00-03:00</news:publication_date>
+    <news:title>Alimentos sob Revisão, Direitos em Disputa</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-civil/boa-fe-objetiva-contratos-direito-civil-brasil.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-04-02T07:00:00-03:00</news:publication_date>
+    <news:title>Contratos, Confiança e o Dever de Lealdade</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-militar/liberdade-expressao-militar-limites-constitucionais-brasil.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-04-02T07:00:00-03:00</news:publication_date>
+    <news:title>Farda, Voz e os Limites Constitucionais</news:title>
+  </news:news>
+</url>
 </urlset>

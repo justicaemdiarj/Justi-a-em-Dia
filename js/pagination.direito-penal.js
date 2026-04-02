@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
     {
+  title: "Sangue e Silêncio no Coração do Lar",
+  date: "02/04/2026",
+  timestamp: "2026-04-02T07:00:00",
+  image: "../img/feminicidio-violencia-genero-lei-penal-brasil.webp",
+  excerpt: "O feminicídio no Brasil expõe as fraturas do sistema jurídico e da cultura patriarcal e os limites da proteção penal vigente.",
+  link: "../direito-penal/feminicidio-violencia-genero-lei-penal-brasil.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
   title: "Crimes Digitais e a Lei Fora do Alcance",
   date: "01/04/2026",
   timestamp: "2026-04-01T10:00:00",

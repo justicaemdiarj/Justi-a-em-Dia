@@ -177,6 +177,42 @@ const globalNewsData = [
     title: "Decisões que Obrigam Todos os Tribunais do País",
     link: "jurisprudencia/decisoes-obrigam-todos-tribunais-pais.html",
 },
+{
+    title: "A Tese que Vale por Milhões de Processos",
+    link: "jurisprudencia/tese-vale-milhoes-processos-repetitivos.html",
+},
+{
+    title: "Integridade Corporativa Além do Papel Impresso",
+    link: "compliance/integridade-corporativa-alem-papel-impresso.html",
+},
+{
+    title: "O Direito que Nasceu na Era dos Algoritmos",
+    link: "legislacao/direito-nasceu-era-algoritmos.html",
+},
+{
+    title: "Quando as Instituições Param de Funcionar Juntas",
+    link: "politica/quando-instituicoes-param-funcionar-juntas.html",
+},
+{
+    title: "O Tempo a Mais que o Direito Protege",
+    link: "direito-trabalhista/tempo-mais-direito-protege-horas-extras.html",
+},
+{
+  title: "Sangue e Silêncio no Coração do Lar",
+  link: "direito-penal/feminicidio-violencia-genero-lei-penal-brasil.html",
+},
+{
+  title: "Alimentos sob Revisão, Direitos em Disputa",
+  link: "direito-de-familia/pensao-alimenticia-revisao-direito-familia-brasil.html",
+},
+{
+  title: "Contratos, Confiança e o Dever de Lealdade",
+  link: "direito-civil/boa-fe-objetiva-contratos-direito-civil-brasil.html",
+},
+{
+  title: "Farda, Voz e os Limites Constitucionais",
+  link: "direito-militar/liberdade-expressao-militar-limites-constitucionais-brasil.html",
+},
 
 
 ];

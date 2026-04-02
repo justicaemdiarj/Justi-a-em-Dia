@@ -2,73 +2,73 @@ const posts = [
   
   
 {
-  title: "Alienação Parental e a Criança Invisível",
-  description: "Conduta sistemática que compromete o vínculo afetivo da criança com um dos genitores",
-  description2: "Lei nº 12.318, impactos psicossociais e desafios do direito de família brasileiro",
-  image: "img/alienacao-parental-crianca-invisivel-lei-12318.webp",
-  link: "direito-de-familia/alienacao-parental-crianca-invisivel-lei-12318.html",
-  date: "2026-04-01T09:00:00",
+  title: "A Tese que Vale por Milhões de Processos",
+  description: "Recursos repetitivos permitem que uma tese do STJ ou STF resolva milhões de litígios simultâneos",
+  description2: "Entenda como o mecanismo que sobrestou o Judiciário também pode ser sua maior solução",
+  image: "img/tese-vale-milhoes-processos-repetitivos.webp",
+  link: "jurisprudencia/tese-vale-milhoes-processos-repetitivos.html",
+  date: "2026-04-02T11:00:00",
   section: "featured"
 },
   {
- title: "Dano Moral e o Preço da Dignidade",
-  description: "Fundamentos constitucionais e jurisprudenciais da responsabilidade civil por danos morais no Brasil",
-  description2: "Do dano moral coletivo às novas fronteiras da LGPD e do dano existencial",
-  image: "img/dano-moral-preco-dignidade-responsabilidade-civil.webp",
-  link: "direito-civil/dano-moral-preco-dignidade-responsabilidade-civil.html",
-  date: "2026-04-01T09:00:00",
+  title: "Integridade Corporativa Além do Papel Impresso",
+  description: "Programas de integridade tornaram-se exigência legal e diferencial estratégico no mercado brasileiro",
+  description2: "Da Lei Anticorrupção aos critérios ESG, a conformidade que protege e valoriza as organizações",
+  image: "img/integridade-corporativa-alem-papel-impresso.webp",
+  link: "compliance/integridade-corporativa-alem-papel-impresso.html",
+  date: "2026-04-02T07:00:00",
   section: "featured-secundario"
 },
 {
- title: "Hierarquia Militar Como Fundamento Jurídico",
-  description: "Princípios constitucionais que estruturam o direito castrense e seus limites democráticos",
-  description2: "Como hierarquia e disciplina se submetem à ordem constitucional brasileira",
-  image: "img/hierarquia-militar-fundamento-juridico-disciplina.webp",
-  link: "direito-militar/hierarquia-militar-fundamento-juridico-disciplina.html",
-  date: "2026-04-01T07:00:00",
+  title: "Quando as Instituições Param de Funcionar Juntas",
+  description: "A crise institucional expõe o colapso silencioso do equilíbrio entre os Poderes da República",
+  description2: "Conflito interinstitucional, desconfiança pública e os limites constitucionais da disputa política",
+  image: "img/quando-instituicoes-param-funcionar-juntas.webp",
+  link: "politica/quando-instituicoes-param-funcionar-juntas.html",
+  date: "2026-04-02T06:00:00",
  section: "featured-terciario"
 },
   {
-  title: "Crimes Digitais e a Lei Fora do Alcance",
-  image: "img/crimes-digitais-lei-fora-do-alcance-direito-penal.webp",
-  link: "direito-penal/crimes-digitais-lei-fora-do-alcance-direito-penal.html",
-  date: "2026-04-01T10:00:00",
+  title: "O Direito que Nasceu na Era dos Algoritmos",
+  image: "img/direito-nasceu-era-algoritmos.webp",
+  link: "legislacao/direito-nasceu-era-algoritmos.html",
+  date: "2026-04-02T08:00:00",
     section: "destaque"
   },
    {
-  title: "Justa Causa e o Fim do Contrato",
-  image: "img/justa-causa-fim-do-contrato-clt-artigo-482.webp",
-  link: "direito-trabalhista/justa-causa-fim-do-contrato-clt-artigo-482.html",
-  date: "2026-04-01T07:00:00",
+    title: "O Tempo a Mais que o Direito Protege",
+  image: "img/tempo-mais-direito-protege-horas-extras.webp",
+  link: "direito-trabalhista/tempo-mais-direito-protege-horas-extras.html",
+  date: "2026-04-02T07:00:00",
     section: "destaque"
   },
   {
-  title: "Quando o Judiciário Governa no Lugar do Parlamento",
-  image: "img/judiciario-governa-lugar-parlamento.webp",
-  link: "politica/judiciario-governa-lugar-parlamento.html",
-  date: "2026-04-01T11:00:00",
+  title: "Sangue e Silêncio no Coração do Lar",
+  image: "img/feminicidio-violencia-genero-lei-penal-brasil.webp",
+  link: "direito-penal/feminicidio-violencia-genero-lei-penal-brasil.html",
+  date: "2026-04-02T07:00:00",
     section: "destaque"
   },
   {
    
-     title: "Conformidade Trabalhista Além do Contrato Assinado",
-  image: "img/conformidade-trabalhista-alem-do-contrato-assinado.webp",
-  link: "compliance/conformidade-trabalhista-alem-do-contrato-assinado.html",
-  date: "2026-04-01T06:00:00",
+   title: "Alimentos sob Revisão, Direitos em Disputa",
+  image: "img/pensao-alimenticia-revisao-direito-familia-brasil.webp",
+  link: "direito-de-familia/pensao-alimenticia-revisao-direito-familia-brasil.html",
+  date: "2026-04-02T12:00:00",
     section: "veja"
   },
   {
-  title: "O Novo Sistema Fiscal Que Muda Tudo",
-  image: "img/novo-sistema-fiscal-reforma-tributaria-brasil.webp",
-  link: "legislacao/novo-sistema-fiscal-reforma-tributaria-brasil.html",
-  date: "2026-04-01T10:00:00",
+  title: "Contratos, Confiança e o Dever de Lealdade",
+  image: "img/boa-fe-objetiva-contratos-direito-civil-brasil.webp",
+  link: "direito-civil/boa-fe-objetiva-contratos-direito-civil-brasil.html",
+  date: "2026-04-02T07:00:00",
     section: "veja"
   },
   {
-    title: "Decisões que Obrigam Todos os Tribunais do País",
-  image: "img/decisoes-obrigam-todos-tribunais-pais.webp",
-  link: "jurisprudencia/decisoes-obrigam-todos-tribunais-pais.html",
-  date: "2026-04-01T05:00:00",
+  title: "Farda, Voz e os Limites Constitucionais",
+  image: "img/liberdade-expressao-militar-limites-constitucionais-brasil.webp",
+  link: "direito-militar/liberdade-expressao-militar-limites-constitucionais-brasil.html",
+  date: "2026-04-02T09:00:00",
     section: "veja"
   }
 ];
@@ -294,9 +294,9 @@ document.addEventListener("DOMContentLoaded", function(){
   date: "2026-03-30T06:00:00"
 },
 {
-  title: "Pragmatismo Político Sobrepõe Divergências Históricas",
-  link: "politica/pragmatismo-politico-sobrpoe-divergencias-historicas-filiacao-pl-parana-2026.html",
-  date: "2026-03-26T06:00:00"
+  title: "A Tese que Vale por Milhões de Processos",
+  link: "jurisprudencia/tese-vale-milhoes-processos-repetitivos.html",
+  date: "2026-04-02T11:00:00"
 },
 
   ];
@@ -388,10 +388,10 @@ source: "",
 date: "2026-03-24T07:00:00"
 },
 {
-    title: "MDB Perde Quadro e PSB Ganha Candidatura Senatorial",
-  link: "politica/desfiliacao-mdb-psb-senado-sao-paulo-eleicoes-2026.html",
+    title: "Quando o Judiciário Governa no Lugar do Parlamento",
+  link: "politica/judiciario-governa-lugar-parlamento.html",
 source: "",
-date: "2026-03-23T07:00:00",
+date: "2026-04-01T07:00:00",
 },
 {
    title: "Reserva de Imóvel na Planta e a Custódia Notarial",

@@ -1,6 +1,16 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
     {
+    title: "O Direito que Nasceu na Era dos Algoritmos",
+    date: "02/04/2026",
+    timestamp: "2026-04-02T08:00:00",
+    image: "../img/direito-nasceu-era-algoritmos.webp",
+    excerpt: "O direito digital avança no Brasil com o Marco Civil da Internet, a LGPD e novas propostas sobre inteligência artificial e plataformas digitais.",
+    link: "../legislacao/direito-nasceu-era-algoritmos.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "O Novo Sistema Fiscal Que Muda Tudo",
     date: "01/04/2026",
     timestamp: "2026-04-01T10:00:00",

@@ -1,6 +1,16 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
     {
+    title: "Integridade Corporativa Além do Papel Impresso",
+    date: "02/04/2026",
+    timestamp: "2026-04-02T07:00:00",
+    image: "../img/integridade-corporativa-alem-papel-impresso.webp",
+    excerpt: "Os programas de integridade tornaram-se requisito jurídico e estratégico para empresas que buscam conformidade e reputação no mercado brasileiro.",
+    link: "../compliance/integridade-corporativa-alem-papel-impresso.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Conformidade Trabalhista Além do Contrato Assinado",
     date: "01/04/2026",
     timestamp: "2026-04-01T06:00:00",

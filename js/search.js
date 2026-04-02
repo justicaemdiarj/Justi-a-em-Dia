@@ -1,6 +1,69 @@
 // Base de dados global de artigos para busca
 const allArticles = [
     {
+  title: 'Farda, Voz e os Limites Constitucionais',
+  description: 'A liberdade de expressão do militar no Brasil enfrenta limitações constitucionais derivadas dos princípios de hierarquia e disciplina das Forças Armadas. Entenda o Estatuto dos Militares e os desafios do ambiente digital.',
+  category: 'Direito Militar',
+  url: 'direito-militar/liberdade-expressao-militar-limites-constitucionais-brasil.html',
+  tags: ['Liberdade de Expressão Militar', 'Direito Militar', 'Estatuto dos Militares', 'Forças Armadas', 'Farda, Voz e os Limites Constitucionais']
+},
+    {
+  title: 'Alimentos sob Revisão, Direitos em Disputa',
+  description: 'A pensão alimentícia no Brasil pode ser revista sempre que houver alteração substancial nas condições econômicas das partes. Entenda os critérios jurídicos, o ônus da prova e as tendências do STJ.',
+  category: 'Direito de Família',
+  url: 'direito-de-familia/pensao-alimenticia-revisao-direito-familia-brasil.html',
+  tags: ['Pensão Alimentícia', 'Revisão Alimentar', 'Direito de Família', 'Alimentos Gravídicos', 'Alimentos sob Revisão, Direitos em Disputa']
+},
+{
+  title: 'Contratos, Confiança e o Dever de Lealdade',
+  description: 'A boa-fé objetiva nos contratos brasileiros impõe deveres de lealdade, informação e cooperação que vão além do texto escrito. Entenda suas funções, figuras parcelares e como os tribunais aplicam esse princípio.',
+  category: 'Direito Civil',
+  url: 'direito-civil/boa-fe-objetiva-contratos-direito-civil-brasil.html',
+  tags: ['Boa-Fé Objetiva', 'Contratos', 'Direito Civil', 'Venire Contra Factum Proprium', 'Contratos, Confiança e o Dever de Lealdade']
+},
+    {
+  title: 'Sangue e Silêncio no Coração do Lar',
+  description: 'O feminicídio no Brasil expõe as fraturas do sistema jurídico e da cultura patriarcal. A Lei 13.104 de 2015 qualificou o homicídio por razão de gênero, mas a efetividade da proteção penal ainda enfrenta falhas institucionais e omissões estatais.',
+  category: 'Direito Criminal',
+  url: 'direito-penal/feminicidio-violencia-genero-lei-penal-brasil.html',
+  tags: ['Feminicídio', 'Violência de Gênero', 'Lei Maria da Penha', 'Direito Penal', 'Sangue e Silêncio no Coração do Lar']
+},
+    {
+    title: 'O Tempo a Mais que o Direito Protege',
+    description: 'As horas extras lideram os litígios trabalhistas no Brasil. Entenda os limites legais da sobrejornada, o banco de horas, os reflexos nas verbas rescisórias e os impactos da Reforma Trabalhista.',
+    category: 'Direito Trabalhista',
+    url: 'direito-trabalhista/tempo-mais-direito-protege-horas-extras.html',
+    tags: ['Horas Extras', 'Jornada de Trabalho', 'O Tempo a Mais que o Direito Protege']
+},
+    {
+    title: 'Quando as Instituições Param de Funcionar Juntas',
+    description: 'A crise institucional brasileira expõe tensões profundas entre os Poderes da República, corrói a confiança pública e impacta a economia e a democracia nacional.',
+    category: 'Política',
+    url: 'politica/quando-instituicoes-param-funcionar-juntas.html',
+    tags: ['Crise Institucional', 'Separação de Poderes', 'Quando as Instituições Param de Funcionar Juntas']
+},
+    {
+    title: 'O Direito que Nasceu na Era dos Algoritmos',
+    description: 'O direito digital avança no Brasil com o Marco Civil da Internet, a LGPD e novas propostas sobre inteligência artificial e plataformas digitais, com impactos jurídicos, econômicos e sociais expressivos.',
+    category: 'Legislação',
+    url: 'legislacao/direito-nasceu-era-algoritmos.html',
+    tags: ['Direito Digital', 'LGPD', 'O Direito que Nasceu na Era dos Algoritmos']
+},
+    {
+    title: 'Integridade Corporativa Além do Papel Impresso',
+    description: 'Os programas de integridade deixaram de ser opcionais e se tornaram requisito jurídico e estratégico para empresas que operam no Brasil, da Lei Anticorrupção aos critérios ESG.',
+    category: 'Compliance',
+    url: 'compliance/integridade-corporativa-alem-papel-impresso.html',
+    tags: ['Programas de Integridade', 'Compliance Anticorrupção', 'Integridade Corporativa Além do Papel Impresso']
+},
+    {
+    title: 'A Tese que Vale por Milhões de Processos',
+    description: 'Os recursos repetitivos permitem que uma única decisão do STJ ou STF fixe tese jurídica aplicável a centenas de milhares de processos sobrestados no Brasil.',
+    category: 'Jurisprudência',
+    url: 'jurisprudencia/tese-vale-milhoes-processos-repetitivos.html',
+    tags: ['Recursos Repetitivos', 'Tese Vinculante', 'A Tese que Vale por Milhões de Processos']
+},
+    {
     title: 'Decisões que Obrigam Todos os Tribunais do País',
     description: 'Os precedentes vinculantes transformaram o sistema judiciário brasileiro ao obrigar todos os tribunais a seguirem as teses fixadas pelas cortes superiores.',
     category: 'Jurisprudência',

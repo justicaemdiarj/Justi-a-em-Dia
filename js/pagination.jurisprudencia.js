@@ -1,6 +1,16 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
     {
+    title: "A Tese que Vale por Milhões de Processos",
+    date: "02/04/2026",
+    timestamp: "2026-04-02T11:00:00",
+    image: "../img/tese-vale-milhoes-processos-repetitivos.webp",
+    excerpt: "Os recursos repetitivos permitem que uma única decisão do STJ ou STF fixe tese jurídica aplicável a centenas de milhares de processos sobrestados.",
+    link: "../jurisprudencia/tese-vale-milhoes-processos-repetitivos.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Decisões que Obrigam Todos os Tribunais do País",
     date: "01/04/2026",
     timestamp: "2026-04-01T05:00:00",

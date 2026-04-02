@@ -1,5 +1,15 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
+    {
+    title: "O Tempo a Mais que o Direito Protege",
+    date: "02/04/2026",
+    timestamp: "2026-04-02T07:00:00",
+    image: "../img/tempo-mais-direito-protege-horas-extras.webp",
+    excerpt: "As horas extras lideram os litígios trabalhistas no Brasil. Entenda os limites legais da sobrejornada, o banco de horas e os reflexos nas verbas rescisórias.",
+    link: "../direito-trabalhista/tempo-mais-direito-protege-horas-extras.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
         {
   title: "Justa Causa e o Fim do Contrato",
   date: "01/04/2026",
