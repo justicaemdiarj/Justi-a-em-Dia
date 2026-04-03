@@ -7,8 +7,8 @@ const categoryNewsData = [
     image: "../img/integridade-corporativa-alem-papel-impresso.webp",
     excerpt: "Os programas de integridade tornaram-se requisito jurídico e estratégico para empresas que buscam conformidade e reputação no mercado brasileiro.",
     link: "../compliance/integridade-corporativa-alem-papel-impresso.html",
-    author: "Justiça em Dia",
-    authorLink: "#"
+    author: "Romer Carvalho",
+    authorLink: "../apoiadores/advogado-romer-carvalho.html"
 },
     {
     title: "Conformidade Trabalhista Além do Contrato Assinado",

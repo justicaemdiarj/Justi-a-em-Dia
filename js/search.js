@@ -54,7 +54,7 @@ const allArticles = [
     description: 'Os programas de integridade deixaram de ser opcionais e se tornaram requisito jurídico e estratégico para empresas que operam no Brasil, da Lei Anticorrupção aos critérios ESG.',
     category: 'Compliance',
     url: 'compliance/integridade-corporativa-alem-papel-impresso.html',
-    tags: ['Programas de Integridade', 'Compliance Anticorrupção', 'Integridade Corporativa Além do Papel Impresso']
+    tags: ['Programas de Integridade', 'Romer carvalho', 'Compliance Anticorrupção', 'Integridade Corporativa Além do Papel Impresso']
 },
     {
     title: 'A Tese que Vale por Milhões de Processos',
@@ -82,7 +82,7 @@ const allArticles = [
     description: 'O compliance trabalhista tornou-se pilar estratégico nas organizações brasileiras. Entender as obrigações legais e os riscos de passivos acumulados é essencial para empresas que buscam segurança jurídica nas relações de trabalho.',
     category: 'Compliance',
     url: 'compliance/conformidade-trabalhista-alem-do-contrato-assinado.html',
-    tags: ['Compliance Trabalhista', 'Direito do Trabalho', 'Conformidade Trabalhista Além do Contrato Assinado']
+    tags: ['Compliance Trabalhista', 'Romer carvalho', 'Direito do Trabalho', 'Conformidade Trabalhista Além do Contrato Assinado']
 },
     {
     title: 'Quando o Judiciário Governa no Lugar do Parlamento',
