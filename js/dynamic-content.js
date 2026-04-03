@@ -21,7 +21,7 @@ const globalNewsData = [
     link: "jurisprudencia/mudanca-entendimento-jurisprudencial-tribunais-brasileiros.html",
 },
 {
-  title: "LGPD e o Novo Estatuto da Privacidade Digital;",
+  title: "LGPD e o Novo Estatuto da Privacidade Digital",
   link: "legislacao/lgpd-estatuto-privacidade-digital-protecao-dados-brasil.html",
 },
 {
