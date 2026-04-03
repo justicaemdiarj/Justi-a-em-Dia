@@ -1,6 +1,16 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
     {
+  title: "A Última Vontade e Seus Herdeiros",
+  date: "03/04/2026",
+  timestamp: "2026-04-03T08:00:00",
+  image: "../img/testamento-heranca-direito-sucessorio-brasil.webp",
+  excerpt: "O testamento e a herança no Brasil equilibram a autonomia do testador com a proteção dos herdeiros necessários num sistema sucessório de crescente complexidade.",
+  link: "../direito-de-familia/testamento-heranca-direito-sucessorio-brasil.html",
+    author: "Romer Carvalho",
+    authorLink: "../apoiadores/advogado-romer-carvalho.html"
+},
+    {
   title: "Alimentos sob Revisão, Direitos em Disputa",
   date: "02/04/2026",
   timestamp: "2026-04-02T12:00:00",

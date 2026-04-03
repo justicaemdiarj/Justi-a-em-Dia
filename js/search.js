@@ -1,6 +1,27 @@
 // Base de dados global de artigos para busca
 const allArticles = [
     {
+  title: 'Duas Fardas, Um Salário, Nenhuma Explicação',
+  description: 'A acumulação de cargos por militares no Brasil enfrenta vedação constitucional expressa. Entenda o regime jurídico das cessões, os limites da presença castrense em cargos civis e a atuação do TCU.',
+  category: 'Direito Militar',
+  url: 'direito-militar/acumulacao-cargos-militares-vedacao-constitucional-brasil.html',
+  tags: ['Acumulação de Cargos Militares', 'Direito Militar', 'Cessão de Militares', 'Vedação Constitucional', 'Duas Fardas, Um Salário, Nenhuma Explicação']
+},
+    {
+  title: 'Ser Humano, Ser Direito, Ser Protegido',
+  description: 'Os direitos da personalidade no Brasil protegem honra, imagem, privacidade e identidade como atributos inalienáveis. Entenda o Código Civil, a LGPD, o direito ao esquecimento e os desafios da era digital.',
+  category: 'Direito Civil',
+  url: 'direito-civil/direitos-personalidade-dignidade-humana-brasil.html',
+  tags: ['Direitos da Personalidade', 'Dignidade Humana', 'Privacidade', 'LGPD', 'Ser Humano, Ser Direito, Ser Protegido']
+},
+    {
+  title: 'A Última Vontade e Seus Herdeiros',
+  description: 'O testamento e a herança no Brasil envolvem regras complexas do Código Civil que equilibram a autonomia do testador com a proteção dos herdeiros necessários. Entenda as modalidades testamentárias, a legítima e o inventário.',
+  category: 'Direito de Família',
+  url: 'direito-de-familia/testamento-heranca-direito-sucessorio-brasil.html',
+  tags: ['Romer carvalho','Testamento', 'Herança', 'Direito Sucessório', 'Inventário', 'A Última Vontade e Seus Herdeiros']
+},
+    {
   title: 'Farda, Voz e os Limites Constitucionais',
   description: 'A liberdade de expressão do militar no Brasil enfrenta limitações constitucionais derivadas dos princípios de hierarquia e disciplina das Forças Armadas. Entenda o Estatuto dos Militares e os desafios do ambiente digital.',
   category: 'Direito Militar',

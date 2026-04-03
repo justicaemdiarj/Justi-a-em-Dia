@@ -2,30 +2,30 @@ const posts = [
   
   
 {
-  title: "A Tese que Vale por Milhões de Processos",
-  description: "Recursos repetitivos permitem que uma tese do STJ ou STF resolva milhões de litígios simultâneos",
-  description2: "Entenda como o mecanismo que sobrestou o Judiciário também pode ser sua maior solução",
-  image: "img/tese-vale-milhoes-processos-repetitivos.webp",
-  link: "jurisprudencia/tese-vale-milhoes-processos-repetitivos.html",
-  date: "2026-04-02T11:00:00",
+  title: "A Última Vontade e Seus Herdeiros",
+  description: "Como o testamento e o planejamento sucessório protegem o patrimônio familiar no Brasil",
+  description2: "Legítima, inventário e herança digital entre os desafios do direito sucessório contemporâneo",
+  image: "img/testamento-heranca-direito-sucessorio-brasil.webp",
+  link: "direito-de-familia/testamento-heranca-direito-sucessorio-brasil.html",
+  date: "2026-04-03T08:00:00",
   section: "featured"
 },
   {
-  title: "Integridade Corporativa Além do Papel Impresso",
-  description: "Programas de integridade tornaram-se exigência legal e diferencial estratégico no mercado brasileiro",
-  description2: "Da Lei Anticorrupção aos critérios ESG, a conformidade que protege e valoriza as organizações",
-  image: "img/integridade-corporativa-alem-papel-impresso.webp",
-  link: "compliance/integridade-corporativa-alem-papel-impresso.html",
-  date: "2026-04-02T07:00:00",
+  title: "Ser Humano, Ser Direito, Ser Protegido",
+  description: "Como os direitos da personalidade protegem honra, imagem e privacidade no Brasil",
+  description2: "LGPD, direito ao esquecimento e tutela post mortem entre os desafios da era digital",
+  image: "img/direitos-personalidade-dignidade-humana-brasil.webp",
+  link: "direito-civil/direitos-personalidade-dignidade-humana-brasil.html",
+  date: "2026-04-03T09:00:00",
   section: "featured-secundario"
 },
 {
-  title: "Quando as Instituições Param de Funcionar Juntas",
-  description: "A crise institucional expõe o colapso silencioso do equilíbrio entre os Poderes da República",
-  description2: "Conflito interinstitucional, desconfiança pública e os limites constitucionais da disputa política",
-  image: "img/quando-instituicoes-param-funcionar-juntas.webp",
-  link: "politica/quando-instituicoes-param-funcionar-juntas.html",
-  date: "2026-04-02T06:00:00",
+  title: "Duas Fardas, Um Salário, Nenhuma Explicação",
+  description: "A vedação constitucional à acumulação de cargos militares e seus limites no direito brasileiro",
+  description2: "Cessão irregular, dupla remuneração e o papel do TCU no controle da caserna",
+  image: "img/acumulacao-cargos-militares-vedacao-constitucional-brasil.webp",
+  link: "direito-militar/acumulacao-cargos-militares-vedacao-constitucional-brasil.html",
+  date: "2026-04-03T07:00:00",
  section: "featured-terciario"
 },
   {
@@ -269,9 +269,9 @@ document.addEventListener("DOMContentLoaded", function(){
   const posts = [
   
 {
- title: "Governar em Silêncio Não Garante Reeleição",
-  link: "politica/governo-federal-comunicacao-realizacoes-politicas-publicas-2026.html",
-  date: "2026-03-24T07:00:00"
+ title: "O Direito que Nasceu na Era dos Algoritmos",
+  link: "legislacao/direito-nasceu-era-algoritmos.html",
+  date: "2026-04-02T07:00:00"
 },
 {
   title: "Quando o Judiciário Governa no Lugar do Parlamento",
@@ -364,10 +364,10 @@ source: "",
 date: "2026-03-30T03:00:00"
 },
 {
-title: "Construir Compliance do Zero é Possível",
-  link: "compliance/construir-compliance-do-zero-e-possivel.html",
+title: "Populismo e o Cerco à Democracia Brasileira",
+  link: "politica/populismo-ameaca-institucional-democracia-brasileira.html",
 source: "",
-date: "2026-03-26T07:00:00"
+date: "2026-03-27T07:00:00"
 },
 {
 title: "Direitos Fundamentais e a Condição Militar",
@@ -382,10 +382,10 @@ source: "",
 date: "2026-03-30T07:00:00"
 },
 {
- title: "Compliance como Pilar da Estratégia Corporativa Moderna",
-  link: "compliance/compliance-pilar-estrategia-corporativa-moderna.html",
+ title: "Sangue e Silêncio no Coração do Lar",
+  link: "direito-penal/feminicidio-violencia-genero-lei-penal-brasil.html",
 source: "",
-date: "2026-03-24T07:00:00"
+date: "2026-04-02T07:00:00"
 },
 {
     title: "Quando o Judiciário Governa no Lugar do Parlamento",
@@ -394,10 +394,10 @@ source: "",
 date: "2026-04-01T07:00:00",
 },
 {
-   title: "Reserva de Imóvel na Planta e a Custódia Notarial",
-    link: "direito-de-familia/reserva-imovel-planta-custodia-notarial-escrow-incorporacao.html",
+   title: "Farda, Voz e os Limites Constitucionais",
+    link: "direito-militar/liberdade-expressao-militar-limites-constitucionais-brasil.html",
 source: "",
- date: "2026-03-24T07:00:00"
+ date: "2026-04-02T07:00:00"
 },
 
 ];

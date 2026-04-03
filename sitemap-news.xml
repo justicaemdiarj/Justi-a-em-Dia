@@ -3003,4 +3003,37 @@
     <news:title>Farda, Voz e os Limites Constitucionais</news:title>
   </news:news>
 </url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-de-familia/testamento-heranca-direito-sucessorio-brasil.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-04-03T07:00:00-03:00</news:publication_date>
+    <news:title>A Última Vontade e Seus Herdeiros</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-civil/direitos-personalidade-dignidade-humana-brasil.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-04-03T07:00:00-03:00</news:publication_date>
+    <news:title>Ser Humano, Ser Direito, Ser Protegido</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-militar/acumulacao-cargos-militares-vedacao-constitucional-brasil.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-04-02T07:00:00-03:00</news:publication_date>
+    <news:title>Duas Fardas, Um Salário, Nenhuma Explicação</news:title>
+  </news:news>
+</url>
 </urlset>

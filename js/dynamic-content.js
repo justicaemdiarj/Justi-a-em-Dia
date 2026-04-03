@@ -12,54 +12,7 @@ const tickerConfig = {
 };
 
 const globalNewsData = [
-{
-    title: "Due Diligence Como Escudo Jurídico Corporativo",
-    link: "compliance/due-diligence-escudo-juridico-corporativo-brasil.html",
-},
-{
-    title: "Quando os Tribunais Mudam de Ideia",
-    link: "jurisprudencia/mudanca-entendimento-jurisprudencial-tribunais-brasileiros.html",
-},
-{
-  title: "LGPD e o Novo Estatuto da Privacidade Digital",
-  link: "legislacao/lgpd-estatuto-privacidade-digital-protecao-dados-brasil.html",
-},
-{
-  title: "Assédio Moral no Trabalho e Dignidade Laboral",
-  link: "direito-trabalhista/assedio-moral-trabalho-dignidade-laboral.html",
-},
-{
-  title: "Direitos Fundamentais e a Condição Militar",
-  link: "direito-militar/direitos-fundamentais-condicao-militar-brasil.html",
-},
-{
-  title: "Hierarquia Militar Como Fundamento Jurídico",
-  link: "direito-militar/hierarquia-militar-fundamento-juridico-disciplina.html",
-},
-{
-  title: "Dano Moral e o Preço da Dignidade",
-  link: "direito-civil/dano-moral-preco-dignidade-responsabilidade-civil.html",
-},
-{
-  title: "Alienação Parental e a Criança Invisível",
-  link: "direito-de-familia/alienacao-parental-crianca-invisivel-lei-12318.html",
-},
-{
-  title: "Crimes Digitais e a Lei Fora do Alcance",
-  link: "direito-penal/crimes-digitais-lei-fora-do-alcance-direito-penal.html",
-},
-{
-  title: "Justa Causa e o Fim do Contrato",
-  link: "direito-trabalhista/justa-causa-fim-do-contrato-clt-artigo-482.html",
-},
-{
-    title: "Quando o Judiciário Governa no Lugar do Parlamento",
-    link: "politica/judiciario-governa-lugar-parlamento.html",
-},
-{
-    title: "Conformidade Trabalhista Além do Contrato Assinado",
-    link: "compliance/conformidade-trabalhista-alem-do-contrato-assinado.html",
-},
+
 {
     title: "O Novo Sistema Fiscal Que Muda Tudo",
     link: "legislacao/novo-sistema-fiscal-reforma-tributaria-brasil.html",
@@ -104,7 +57,18 @@ const globalNewsData = [
   title: "Farda, Voz e os Limites Constitucionais",
   link: "direito-militar/liberdade-expressao-militar-limites-constitucionais-brasil.html",
 },
-
+{
+  title: "A Última Vontade e Seus Herdeiros",
+  link: "direito-de-familia/testamento-heranca-direito-sucessorio-brasil.html",
+},
+{
+  title: "Ser Humano, Ser Direito, Ser Protegido",
+  link: "direito-civil/direitos-personalidade-dignidade-humana-brasil.html",
+},
+{
+  title: "Duas Fardas, Um Salário, Nenhuma Explicação",
+  link: "direito-militar/acumulacao-cargos-militares-vedacao-constitucional-brasil.html",
+},
 
 ];
 

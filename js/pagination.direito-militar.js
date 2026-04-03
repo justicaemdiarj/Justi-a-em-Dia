@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
     {
+  title: "Duas Fardas, Um Salário, Nenhuma Explicação",
+  date: "03/04/2026",
+  timestamp: "2026-04-03T07:00:00",
+  image: "../img/acumulacao-cargos-militares-vedacao-constitucional-brasil.webp",
+  excerpt: "A acumulação de cargos por militares enfrenta vedação constitucional expressa e coloca em xeque a isonomia na aplicação das normas públicas no Brasil.",
+  link: "../direito-militar/acumulacao-cargos-militares-vedacao-constitucional-brasil.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
   title: "Farda, Voz e os Limites Constitucionais",
   date: "02/04/2026",
   timestamp: "2026-04-02T09:00:00",

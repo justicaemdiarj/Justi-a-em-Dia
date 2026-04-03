@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
     {
+  title: "Ser Humano, Ser Direito, Ser Protegido",
+  date: "03/04/2026",
+  timestamp: "2026-04-03T09:00:00",
+  image: "../img/direitos-personalidade-dignidade-humana-brasil.webp",
+  excerpt: "Os direitos da personalidade protegem honra, imagem, privacidade e identidade como atributos inalienáveis do ser humano no ordenamento jurídico brasileiro.",
+  link: "../direito-civil/direitos-personalidade-dignidade-humana-brasil.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
   title: "Contratos, Confiança e o Dever de Lealdade",
   date: "02/04/2026",
   timestamp: "2026-04-02T07:00:00",
