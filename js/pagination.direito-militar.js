@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
     {
+  title: "Justiça Militar e os Limites da Competência Castrense",
+  date: "06/04/2026",
+  timestamp: "2026-04-06T07:00:00",
+  image: "../img/justica-militar-competencia-castrense-brasil.webp",
+  excerpt: "A Justiça Militar brasileira e os limites constitucionais de sua competência especializada.",
+  link: "../direito-militar/justica-militar-competencia-castrense-brasil.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
   title: "Duas Fardas, Um Salário, Nenhuma Explicação",
   date: "03/04/2026",
   timestamp: "2026-04-03T07:00:00",

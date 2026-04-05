@@ -1,6 +1,16 @@
 // Dados de notícias para Política
 const categoryNewsData = [
     {
+  title: "Soberania Popular entre Promessa e Realidade",
+  date: "06/04/2026",
+  timestamp: "2026-04-06T10:00:00",
+  image: "../img/soberania-popular-democracia-participacao-brasil.webp",
+  excerpt: "Democracia e participação popular no Brasil entre promessas constitucionais e realidade política.",
+  link: "../politica/soberania-popular-democracia-participacao-brasil.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
     title: "Quando as Instituições Param de Funcionar Juntas",
     date: "02/04/2026",
     timestamp: "2026-04-02T06:00:00",

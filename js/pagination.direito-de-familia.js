@@ -1,6 +1,16 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
     {
+  title: "Fim da Pensão Alimentícia e Seus Reflexos Jurídicos",
+  date: "06/04/2026",
+  timestamp: "2026-04-06T08:00:00",
+  image: "../img/exoneracao-alimentos-reflexos-juridicos-brasil.webp",
+  excerpt: "A exoneração de alimentos e seus reflexos jurídicos no direito de família brasileiro.",
+  link: "../direito-de-familia/exoneracao-alimentos-reflexos-juridicos-brasil.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
   title: "A Última Vontade e Seus Herdeiros",
   date: "03/04/2026",
   timestamp: "2026-04-03T08:00:00",

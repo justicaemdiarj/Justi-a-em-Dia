@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
     {
+  title: "Teletrabalho e o Dilema do Registro de Horas",
+  date: "06/04/2026",
+  timestamp: "2026-04-06T09:00:00",
+  image: "../img/teletrabalho-controle-jornada-home-office-brasil.webp",
+  excerpt: "O controle de jornada no home office e os desafios jurídicos do teletrabalho no Brasil.",
+  link: "../direito-trabalhista/teletrabalho-controle-jornada-home-office-brasil.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
     title: "O Tempo a Mais que o Direito Protege",
     date: "02/04/2026",
     timestamp: "2026-04-02T07:00:00",

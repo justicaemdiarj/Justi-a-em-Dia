@@ -1,6 +1,16 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
     {
+    title: "Ética Corporativa Além do Papel",
+    date: "06/04/2026",
+    timestamp: "2026-04-06T11:00:00",
+    image: "../img/etica-corporativa-alem-do-papel.webp",
+    excerpt: "A cultura de compliance nas empresas brasileiras deixou de ser uma formalidade normativa para se tornar um imperativo estratégico.",
+    link: "../compliance/etica-corporativa-alem-do-papel.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Integridade Corporativa Além do Papel Impresso",
     date: "02/04/2026",
     timestamp: "2026-04-02T07:00:00",

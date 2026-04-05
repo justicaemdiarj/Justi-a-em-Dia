@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
     {
+  title: "Inocência Presumida sob Pressão no Brasil",
+  date: "06/04/2026",
+  timestamp: "2026-04-06T09:00:00",
+  image: "../img/presuncao-inocencia-pressao-democratica-brasil.webp",
+  excerpt: "A presunção de inocência e as ameaças ao princípio fundamental no direito penal brasileiro.",
+  link: "../direito-penal/presuncao-inocencia-pressao-democratica-brasil.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
   title: "Sangue e Silêncio no Coração do Lar",
   date: "02/04/2026",
   timestamp: "2026-04-02T07:00:00",

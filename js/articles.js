@@ -2,73 +2,72 @@ const posts = [
   
   
 {
-  title: "A Última Vontade e Seus Herdeiros",
-  description: "Como o testamento e o planejamento sucessório protegem o patrimônio familiar no Brasil",
-  description2: "Legítima, inventário e herança digital entre os desafios do direito sucessório contemporâneo",
-  image: "img/testamento-heranca-direito-sucessorio-brasil.webp",
-  link: "direito-de-familia/testamento-heranca-direito-sucessorio-brasil.html",
-  date: "2026-04-03T08:00:00",
+  title: "STJ como Árbitro do Direito Infraconstitucional",
+  description: "Como os precedentes do STJ moldam o direito do consumidor, empresarial e público no Brasil",
+  description2: "Súmulas, recursos repetitivos e o impacto econômico das decisões do Superior Tribunal de Justiça",
+  image: "img/stj-arbitro-direito-infraconstitucional-brasil.webp",
+  link: "jurisprudencia/stj-arbitro-direito-infraconstitucional-brasil.html",
+  date: "2026-04-06T07:00:00",
   section: "featured"
 },
   {
-  title: "Ser Humano, Ser Direito, Ser Protegido",
-  description: "Como os direitos da personalidade protegem honra, imagem e privacidade no Brasil",
-  description2: "LGPD, direito ao esquecimento e tutela post mortem entre os desafios da era digital",
-  image: "img/direitos-personalidade-dignidade-humana-brasil.webp",
-  link: "direito-civil/direitos-personalidade-dignidade-humana-brasil.html",
-  date: "2026-04-03T09:00:00",
+  title: "ECA em Xeque diante dos Novos Desafios Sociais",
+  description: "Como o Estatuto da Criança e do Adolescente enfrenta os desafios do ambiente digital e da violência",
+  description2: "Três décadas de proteção integral à infância e os limites ainda a superar no Brasil",
+  image: "img/eca-estatuto-crianca-adolescente-desafios-brasil.webp",
+  link: "legislacao/eca-estatuto-crianca-adolescente-desafios-brasil.html",
+  date: "2026-04-06T09:00:00",
   section: "featured-secundario"
 },
 {
-  title: "Duas Fardas, Um Salário, Nenhuma Explicação",
-  description: "A vedação constitucional à acumulação de cargos militares e seus limites no direito brasileiro",
-  description2: "Cessão irregular, dupla remuneração e o papel do TCU no controle da caserna",
-  image: "img/acumulacao-cargos-militares-vedacao-constitucional-brasil.webp",
-  link: "direito-militar/acumulacao-cargos-militares-vedacao-constitucional-brasil.html",
-  date: "2026-04-03T07:00:00",
+  title: "Soberania Popular entre Promessa e Realidade",
+  description: "Como os mecanismos de participação popular previstos na Constituição de 1988 enfrentam a crise democrática",
+  description2: "Desinformação digital, abstenção eleitoral e déficit participativo ameaçam a democracia brasileira",
+  image: "img/soberania-popular-democracia-participacao-brasil.webp",
+  link: "politica/soberania-popular-democracia-participacao-brasil.html",
+  date: "2026-04-06T10:00:00",
  section: "featured-terciario"
 },
   {
-  title: "O Direito que Nasceu na Era dos Algoritmos",
-  image: "img/direito-nasceu-era-algoritmos.webp",
-  link: "legislacao/direito-nasceu-era-algoritmos.html",
-  date: "2026-04-02T08:00:00",
+  title: "Teletrabalho e o Dilema do Registro de Horas",
+  image: "img/teletrabalho-controle-jornada-home-office-brasil.webp",
+  link: "direito-trabalhista/teletrabalho-controle-jornada-home-office-brasil.html",
+  date: "2026-04-06T09:00:00",
     section: "destaque"
   },
    {
-    title: "O Tempo a Mais que o Direito Protege",
-  image: "img/tempo-mais-direito-protege-horas-extras.webp",
-  link: "direito-trabalhista/tempo-mais-direito-protege-horas-extras.html",
-  date: "2026-04-02T07:00:00",
+  title: "Inocência Presumida sob Pressão no Brasil",
+  image: "img/presuncao-inocencia-pressao-democratica-brasil.webp",
+  link: "direito-penal/presuncao-inocencia-pressao-democratica-brasil.html",
+  date: "2026-04-06T09:00:00",
     section: "destaque"
   },
   {
-  title: "Sangue e Silêncio no Coração do Lar",
-  image: "img/feminicidio-violencia-genero-lei-penal-brasil.webp",
-  link: "direito-penal/feminicidio-violencia-genero-lei-penal-brasil.html",
-  date: "2026-04-02T07:00:00",
+ title: "Fim da Pensão Alimentícia e Seus Reflexos Jurídicos",
+  image: "img/exoneracao-alimentos-reflexos-juridicos-brasil.webp",
+  link: "direito-de-familia/exoneracao-alimentos-reflexos-juridicos-brasil.html",
+  date: "2026-04-06T08:00:00",
     section: "destaque"
   },
   {
-   
-   title: "Alimentos sob Revisão, Direitos em Disputa",
-  image: "img/pensao-alimenticia-revisao-direito-familia-brasil.webp",
-  link: "direito-de-familia/pensao-alimenticia-revisao-direito-familia-brasil.html",
-  date: "2026-04-02T12:00:00",
+  title: "Contratos Digitais e Sua Validade no Direito",
+  image: "img/contratos-digitais-validade-juridica-brasil.webp",
+  link: "direito-civil/contratos-digitais-validade-juridica-brasil.html",
+  date: "2026-04-06T07:00:00",
     section: "veja"
   },
   {
-  title: "Contratos, Confiança e o Dever de Lealdade",
-  image: "img/boa-fe-objetiva-contratos-direito-civil-brasil.webp",
-  link: "direito-civil/boa-fe-objetiva-contratos-direito-civil-brasil.html",
-  date: "2026-04-02T07:00:00",
+  title: "Justiça Militar e os Limites da Competência Castrense",
+  image: "img/justica-militar-competencia-castrense-brasil.webp",
+  link: "direito-militar/justica-militar-competencia-castrense-brasil.html",
+  date: "2026-04-06T07:00:00",
     section: "veja"
   },
   {
-  title: "Farda, Voz e os Limites Constitucionais",
-  image: "img/liberdade-expressao-militar-limites-constitucionais-brasil.webp",
-  link: "direito-militar/liberdade-expressao-militar-limites-constitucionais-brasil.html",
-  date: "2026-04-02T09:00:00",
+  title: "Ética Corporativa Além do Papel",
+  image: "img/etica-corporativa-alem-do-papel.webp",
+  link: "compliance/etica-corporativa-alem-do-papel.html",
+  date: "2026-04-06T11:00:00",
     section: "veja"
   }
 ];

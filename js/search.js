@@ -1,6 +1,69 @@
 // Base de dados global de artigos para busca
 const allArticles = [
     {
+    title: 'Ética Corporativa Além do Papel',
+    description: 'A cultura de compliance nas empresas brasileiras deixou de ser uma formalidade normativa para se tornar um imperativo estratégico de governança e integridade.',
+    category: 'Compliance',
+    url: 'compliance/etica-corporativa-alem-do-papel.html',
+    tags: ['compliance', 'cultura de compliance', 'Ética Corporativa Além do Papel']
+},
+    {
+  title: 'Justiça Militar e os Limites da Competência Castrense',
+  description: 'A Justiça Militar brasileira ocupa posição singular no ordenamento jurídico nacional, com competências definidas pela Constituição Federal e pelo Código Penal Militar.',
+  category: 'Direito militar',
+  url: 'direito-militar/justica-militar-competencia-castrense-brasil.html',
+  tags: ['Justiça Militar', 'Competência Castrense', 'Direito Militar', 'Código Penal Militar', 'STM', 'Crimes Militares']
+},
+    {
+  title: 'Contratos Digitais e Sua Validade no Direito',
+  description: 'Os contratos digitais consolidaram-se como instrumento central da economia contemporânea, mas sua validade jurídica ainda suscita debates relevantes no ordenamento brasileiro.',
+  category: 'Direito civil',
+  url: 'direito-civil/contratos-digitais-validade-juridica-brasil.html',
+  tags: ['Contratos Digitais', 'Validade Jurídica', 'Assinatura Eletrônica', 'Direito Civil', 'Smart Contracts', 'LGPD']
+},
+    {
+  title: 'Fim da Pensão Alimentícia e Seus Reflexos Jurídicos',
+  description: 'A exoneração de alimentos é um dos temas mais sensíveis do direito de família brasileiro, envolvendo a extinção de obrigações que afetam diretamente o equilíbrio econômico e a dignidade das partes.',
+  category: 'Direito de família',
+  url: 'direito-de-familia/exoneracao-alimentos-reflexos-juridicos-brasil.html',
+  tags: ['Exoneração de Alimentos', 'Pensão Alimentícia', 'Direito de Família', 'Obrigação Alimentar', 'Maioridade Civil', 'STJ']
+},
+    {
+  title: 'Inocência Presumida sob Pressão no Brasil',
+  description: 'A presunção de inocência é uma das garantias fundamentais mais ameaçadas do ordenamento jurídico brasileiro, enfrentando erosão sistemática entre oscilações do STF, populismo punitivo e condenação midiática.',
+  category: 'Direito criminal',
+  url: 'direito-penal/presuncao-inocencia-pressao-democratica-brasil.html',
+  tags: ['Presunção de Inocência', 'Direito Penal', 'Garantias Fundamentais', 'STF', 'Prisão Preventiva', 'Devido Processo Legal']
+},
+    {
+  title: 'Teletrabalho e o Dilema do Registro de Horas',
+  description: 'O controle de jornada no home office é um dos temas mais polêmicos do direito trabalhista brasileiro após a Reforma Trabalhista de 2017, criando uma zona cinzenta jurídica com impactos sobre horas extras e saúde mental.',
+  category: 'Direito trabalhista',
+  url: 'direito-trabalhista/teletrabalho-controle-jornada-home-office-brasil.html',
+  tags: ['Controle de Jornada', 'Home Office', 'Teletrabalho', 'Direito Trabalhista', 'CLT', 'Direito à Desconexão', 'Horas Extras']
+},
+    {
+  title: 'Soberania Popular entre Promessa e Realidade',
+  description: 'A democracia brasileira enfrenta o desafio de superar os limites do voto periódico e construir mecanismos reais de participação popular, entre instrumentos constitucionais subutilizados e crise de representatividade.',
+  category: 'politica',
+  url: 'politica/soberania-popular-democracia-participacao-brasil.html',
+  tags: ['Democracia', 'Participação Popular', 'Soberania Popular', 'Constituição Federal', 'Plebiscito', 'Referendo', 'Iniciativa Popular']
+},
+    {
+  title: 'ECA em Xeque diante dos Novos Desafios Sociais',
+  description: 'O Estatuto da Criança e do Adolescente completa mais de três décadas com avanços inegáveis na proteção da infância brasileira, mas enfrenta lacunas críticas diante dos novos desafios do ambiente digital e da violência doméstica.',
+  category: 'legislacao',
+  url: 'legislacao/eca-estatuto-crianca-adolescente-desafios-brasil.html',
+  tags: ['ECA', 'Estatuto da Criança e do Adolescente', 'Proteção Integral', 'Direitos da Criança', 'Medidas Socioeducativas', 'Legislação', 'Infância']
+},
+    {
+  title: 'STJ como Árbitro do Direito Infraconstitucional',
+  description: 'O Superior Tribunal de Justiça é o principal uniformizador da lei federal no Brasil, com precedentes que moldam relações de consumo, contratos empresariais, responsabilidade civil digital e direito público.',
+  category: 'jurisprudencia',
+  url: 'jurisprudencia/stj-arbitro-direito-infraconstitucional-brasil.html',
+  tags: ['STJ', 'Superior Tribunal de Justiça', 'Jurisprudência', 'Precedentes', 'Recurso Especial', 'Súmulas', 'Direito Federal']
+},
+    {
   title: 'Duas Fardas, Um Salário, Nenhuma Explicação',
   description: 'A acumulação de cargos por militares no Brasil enfrenta vedação constitucional expressa. Entenda o regime jurídico das cessões, os limites da presença castrense em cargos civis e a atuação do TCU.',
   category: 'Direito Militar',

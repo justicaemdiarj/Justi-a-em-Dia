@@ -1,6 +1,16 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
     {
+  title: "ECA em Xeque diante dos Novos Desafios Sociais",
+  date: "06/04/2026",
+  timestamp: "2026-04-06T09:00:00",
+  image: "../img/eca-estatuto-crianca-adolescente-desafios-brasil.webp",
+  excerpt: "O Estatuto da Criança e do Adolescente diante dos novos desafios sociais e digitais do Brasil contemporâneo.",
+  link: "../legislacao/eca-estatuto-crianca-adolescente-desafios-brasil.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
     title: "O Direito que Nasceu na Era dos Algoritmos",
     date: "02/04/2026",
     timestamp: "2026-04-02T08:00:00",

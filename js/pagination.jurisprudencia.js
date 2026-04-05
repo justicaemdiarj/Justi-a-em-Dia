@@ -1,6 +1,16 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
     {
+  title: "STJ como Árbitro do Direito Infraconstitucional",
+  date: "06/04/2026",
+  timestamp: "2026-04-06T07:00:00",
+  image: "../img/stj-arbitro-direito-infraconstitucional-brasil.webp",
+  excerpt: "As decisões do STJ e seu papel como uniformizador da jurisprudência federal no Brasil.",
+  link: "../jurisprudencia/stj-arbitro-direito-infraconstitucional-brasil.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
     title: "A Tese que Vale por Milhões de Processos",
     date: "02/04/2026",
     timestamp: "2026-04-02T11:00:00",

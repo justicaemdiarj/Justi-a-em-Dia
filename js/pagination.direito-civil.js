@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
     {
+  title: "Contratos Digitais e Sua Validade no Direito",
+  date: "06/04/2026",
+  timestamp: "2026-04-06T07:00:00",
+  image: "../img/contratos-digitais-validade-juridica-brasil.webp",
+  excerpt: "Os contratos digitais e sua validade jurídica no ordenamento brasileiro.",
+  link: "../direito-civil/contratos-digitais-validade-juridica-brasil.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
   title: "Ser Humano, Ser Direito, Ser Protegido",
   date: "03/04/2026",
   timestamp: "2026-04-03T09:00:00",

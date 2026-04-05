@@ -69,6 +69,45 @@ const globalNewsData = [
   title: "Duas Fardas, Um Salário, Nenhuma Explicação",
   link: "direito-militar/acumulacao-cargos-militares-vedacao-constitucional-brasil.html",
 },
+{
+  title: "STJ como Árbitro do Direito Infraconstitucional",
+  link: "jurisprudencia/stj-arbitro-direito-infraconstitucional-brasil.html",
+},
+{
+  title: "ECA em Xeque diante dos Novos Desafios Sociais",
+  link: "legislacao/eca-estatuto-crianca-adolescente-desafios-brasil.html",
+},
+{
+  title: "Soberania Popular entre Promessa e Realidade",
+  link: "politica/soberania-popular-democracia-participacao-brasil.html",
+},
+{
+  title: "Teletrabalho e o Dilema do Registro de Horas",
+  link: "direito-trabalhista/teletrabalho-controle-jornada-home-office-brasil.html",
+},
+{
+  title: "Inocência Presumida sob Pressão no Brasil",
+  link: "direito-penal/presuncao-inocencia-pressao-democratica-brasil.html",
+},
+{
+  title: "Fim da Pensão Alimentícia e Seus Reflexos Jurídicos",
+  link: "direito-de-familia/exoneracao-alimentos-reflexos-juridicos-brasil.html",
+},
+{
+  title: "Contratos Digitais e Sua Validade no Direito",
+  link: "direito-civil/contratos-digitais-validade-juridica-brasil.html",
+},
+{
+  title: "Justiça Militar e os Limites da Competência Castrense",
+  link: "direito-militar/justica-militar-competencia-castrense-brasil.html",
+},
+{
+    title: "Ética Corporativa Além do Papel",
+    link: "compliance/etica-corporativa-alem-do-papel.html",
+},
+
+
+
 
 ];
 
