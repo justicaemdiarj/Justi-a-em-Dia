@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
     {
+    title: "A Pena que o Brasil Não Sabe Cumprir",
+    date: "07/04/2026",
+    timestamp: "2026-04-07T07:00:00",
+    image: "../img/pena-que-o-brasil-nao-sabe-cumprir.webp",
+    excerpt: "O sistema de execução penal brasileiro enfrenta crise estrutural de superencarceramento, violação de direitos e altas taxas de reincidência.",
+    link: "../direito-penal/pena-que-o-brasil-nao-sabe-cumprir.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
   title: "Inocência Presumida sob Pressão no Brasil",
   date: "06/04/2026",
   timestamp: "2026-04-06T09:00:00",

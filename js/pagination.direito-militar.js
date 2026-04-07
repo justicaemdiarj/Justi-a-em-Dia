@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
     {
+    title: "A Farda Também Tem Direitos a Proteger",
+    date: "07/04/2026",
+    timestamp: "2026-04-07T11:00:00",
+    image: "../img/farda-tambem-tem-direitos-a-proteger.webp",
+    excerpt: "Os direitos previdenciários dos militares são regidos por regime jurídico específico que enfrenta pressões fiscais e reformas legislativas.",
+    link: "../direito-militar/farda-tambem-tem-direitos-a-proteger.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
   title: "Justiça Militar e os Limites da Competência Castrense",
   date: "06/04/2026",
   timestamp: "2026-04-06T07:00:00",

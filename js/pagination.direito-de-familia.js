@@ -1,6 +1,16 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
     {
+    title: "Separar sem Juiz Virou Regra",
+    date: "07/04/2026",
+    timestamp: "2026-04-07T09:00:00",
+    image: "../img/separar-sem-juiz-virou-regra.webp",
+    excerpt: "O divórcio extrajudicial transformou a forma como os brasileiros encerram o casamento, simplificando o processo em cartório.",
+    link: "../direito-de-familia/separar-sem-juiz-virou-regra.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
   title: "Fim da Pensão Alimentícia e Seus Reflexos Jurídicos",
   date: "06/04/2026",
   timestamp: "2026-04-06T08:00:00",

@@ -2,72 +2,72 @@ const posts = [
   
   
 {
-  title: "STJ como Árbitro do Direito Infraconstitucional",
-  description: "Como os precedentes do STJ moldam o direito do consumidor, empresarial e público no Brasil",
-  description2: "Súmulas, recursos repetitivos e o impacto econômico das decisões do Superior Tribunal de Justiça",
-  image: "img/stj-arbitro-direito-infraconstitucional-brasil.webp",
-  link: "jurisprudencia/stj-arbitro-direito-infraconstitucional-brasil.html",
-  date: "2026-04-06T07:00:00",
+  title: "Poder sem Controle Destrói Empresas",
+  description: "A governança corporativa tornou-se exigência central para a sustentabilidade das organizações brasileiras",
+  description2: "Estruturas de controle e transparência definem o futuro das empresas no Brasil",
+  image: "img/poder-sem-controle-destroi-empresas.webp",
+  link: "compliance/poder-sem-controle-destroi-empresas.html",
+  date: "2026-04-07T09:00:00",
   section: "featured"
 },
   {
-  title: "ECA em Xeque diante dos Novos Desafios Sociais",
-  description: "Como o Estatuto da Criança e do Adolescente enfrenta os desafios do ambiente digital e da violência",
-  description2: "Três décadas de proteção integral à infância e os limites ainda a superar no Brasil",
-  image: "img/eca-estatuto-crianca-adolescente-desafios-brasil.webp",
-  link: "legislacao/eca-estatuto-crianca-adolescente-desafios-brasil.html",
-  date: "2026-04-06T09:00:00",
+  title: "Separar sem Juiz Virou Regra",
+  description: "O divórcio extrajudicial transformou a forma como os brasileiros encerram o casamento de forma mais rápida e acessível",
+  description2: "Lei nº 11.441 e os procedimentos em cartório que simplificaram a dissolução conjugal no Brasil",
+  image: "img/separar-sem-juiz-virou-regra.webp",
+  link: "direito-de-familia/separar-sem-juiz-virou-regra.html",
+  date: "2026-04-07T10:00:00",
   section: "featured-secundario"
 },
 {
-  title: "Soberania Popular entre Promessa e Realidade",
-  description: "Como os mecanismos de participação popular previstos na Constituição de 1988 enfrentam a crise democrática",
-  description2: "Desinformação digital, abstenção eleitoral e déficit participativo ameaçam a democracia brasileira",
-  image: "img/soberania-popular-democracia-participacao-brasil.webp",
-  link: "politica/soberania-popular-democracia-participacao-brasil.html",
-  date: "2026-04-06T10:00:00",
+  title: "A Lei que Pôs Empresas no Banco dos Réus",
+  description: "A Lei Anticorrupção transformou a relação entre empresas e poder público ao instituir responsabilidade objetiva",
+  description2: "Impactos normativos e o legado de uma década da Lei nº 12.846 de 2013 no Brasil",
+  image: "img/lei-que-pos-empresas-no-banco-dos-reus.webp",
+  link: "legislacao/lei-que-pos-empresas-no-banco-dos-reus.html",
+  date: "2026-04-07T09:00:00",
  section: "featured-terciario"
 },
   {
-  title: "Teletrabalho e o Dilema do Registro de Horas",
-  image: "img/teletrabalho-controle-jornada-home-office-brasil.webp",
-  link: "direito-trabalhista/teletrabalho-controle-jornada-home-office-brasil.html",
-  date: "2026-04-06T09:00:00",
+  title: "Votar Não Basta, Participar É a Chave",
+  image: "img/votar-nao-basta-participar-e-a-chave.webp",
+  link: "politica/votar-nao-basta-participar-e-a-chave.html",
+  date: "2026-04-07T10:00:00",
     section: "destaque"
   },
    {
-  title: "Inocência Presumida sob Pressão no Brasil",
-  image: "img/presuncao-inocencia-pressao-democratica-brasil.webp",
-  link: "direito-penal/presuncao-inocencia-pressao-democratica-brasil.html",
-  date: "2026-04-06T09:00:00",
+ title: "Demissão Forçada pelo Erro do Patrão",
+  image: "img/demissao-forcada-pelo-erro-do-patrao.webp",
+  link: "direito-trabalhista/demissao-forcada-pelo-erro-do-patrao.html",
+  date: "2026-04-07T07:00:00",
     section: "destaque"
   },
   {
- title: "Fim da Pensão Alimentícia e Seus Reflexos Jurídicos",
-  image: "img/exoneracao-alimentos-reflexos-juridicos-brasil.webp",
-  link: "direito-de-familia/exoneracao-alimentos-reflexos-juridicos-brasil.html",
-  date: "2026-04-06T08:00:00",
+  title: "A Pena que o Brasil Não Sabe Cumprir",
+  image: "img/pena-que-o-brasil-nao-sabe-cumprir.webp",
+  link: "direito-penal/pena-que-o-brasil-nao-sabe-cumprir.html",
+  date: "2026-04-07T07:00:00",
     section: "destaque"
   },
   {
-  title: "Contratos Digitais e Sua Validade no Direito",
-  image: "img/contratos-digitais-validade-juridica-brasil.webp",
-  link: "direito-civil/contratos-digitais-validade-juridica-brasil.html",
-  date: "2026-04-06T07:00:00",
+title: "Quando o Judiciário se Fecha em Si",
+  image: "img/quando-o-judiciario-se-fecha-em-si.webp",
+  link: "jurisprudencia/quando-o-judiciario-se-fecha-em-si.html",
+  date: "2026-04-07T08:00:00",
     section: "veja"
   },
   {
-  title: "Justiça Militar e os Limites da Competência Castrense",
-  image: "img/justica-militar-competencia-castrense-brasil.webp",
-  link: "direito-militar/justica-militar-competencia-castrense-brasil.html",
-  date: "2026-04-06T07:00:00",
+  title: "Sua Imagem Tem Dono e É Você",
+  image: "img/sua-imagem-tem-dono-e-e-voce.webp",
+  link: "direito-civil/sua-imagem-tem-dono-e-e-voce.html",
+  date: "2026-04-07T08:00:00",
     section: "veja"
   },
   {
-  title: "Ética Corporativa Além do Papel",
-  image: "img/etica-corporativa-alem-do-papel.webp",
-  link: "compliance/etica-corporativa-alem-do-papel.html",
-  date: "2026-04-06T11:00:00",
+  title: "A Farda Também Tem Direitos a Proteger",
+  image: "img/farda-tambem-tem-direitos-a-proteger.webp",
+  link: "direito-militar/farda-tambem-tem-direitos-a-proteger.html",
+  date: "2026-04-07T11:00:00",
     section: "veja"
   }
 ];

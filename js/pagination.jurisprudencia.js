@@ -1,6 +1,16 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
     {
+    title: "Quando o Judiciário se Fecha em Si",
+    date: "07/04/2026",
+    timestamp: "2026-04-07T08:00:00",
+    image: "../img/quando-o-judiciario-se-fecha-em-si.webp",
+    excerpt: "A jurisprudência defensiva representa um dos maiores obstáculos ao acesso à justiça no Brasil.",
+    link: "../jurisprudencia/quando-o-judiciario-se-fecha-em-si.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
   title: "STJ como Árbitro do Direito Infraconstitucional",
   date: "06/04/2026",
   timestamp: "2026-04-06T07:00:00",

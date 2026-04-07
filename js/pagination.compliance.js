@@ -1,6 +1,16 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
     {
+    title: "Poder sem Controle Destrói Empresas",
+    date: "07/04/2026",
+    timestamp: "2026-04-07T09:00:00",
+    image: "../img/poder-sem-controle-destroi-empresas.webp",
+    excerpt: "A governança corporativa tornou-se exigência central para a sustentabilidade das organizações brasileiras.",
+    link: "../compliance/poder-sem-controle-destroi-empresas.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Ética Corporativa Além do Papel",
     date: "06/04/2026",
     timestamp: "2026-04-06T11:00:00",

@@ -1,6 +1,16 @@
 // Dados de notícias para Política
 const categoryNewsData = [
     {
+    title: "Votar Não Basta, Participar É a Chave",
+    date: "07/04/2026",
+    timestamp: "2026-04-07T10:00:00",
+    image: "../img/votar-nao-basta-participar-e-a-chave.webp",
+    excerpt: "Os direitos políticos vão muito além do ato de votar e sustentam toda a estrutura da democracia brasileira.",
+    link: "../politica/votar-nao-basta-participar-e-a-chave.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
   title: "Soberania Popular entre Promessa e Realidade",
   date: "06/04/2026",
   timestamp: "2026-04-06T10:00:00",

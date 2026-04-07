@@ -149,3 +149,13 @@ document.addEventListener('DOMContentLoaded', () => {
 console.log('Portal Justica em Dia - Sistema de Noticias v2.3');
 console.log('Menu Dropdown e Gerenciamento de Categorias Ativados');
 
+
+/* Ocultar campo de Orientação Especializada em massa */
+document.addEventListener('DOMContentLoaded', () => {
+    const ctaBoxes = document.querySelectorAll('.cta-box');
+    ctaBoxes.forEach(box => {
+        if (box.textContent.includes('Precisa de orientação especializada?')) {
+            box.style.display = 'none';
+        }
+    });
+});

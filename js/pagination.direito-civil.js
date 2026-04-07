@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
     {
+    title: "Sua Imagem Tem Dono e É Você",
+    date: "07/04/2026",
+    timestamp: "2026-04-07T08:00:00",
+    image: "../img/sua-imagem-tem-dono-e-e-voce.webp",
+    excerpt: "O direito à imagem e à honra são garantias fundamentais ameaçadas pela era digital e pelas novas tecnologias de manipulação.",
+    link: "../direito-civil/sua-imagem-tem-dono-e-e-voce.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
   title: "Contratos Digitais e Sua Validade no Direito",
   date: "06/04/2026",
   timestamp: "2026-04-06T07:00:00",

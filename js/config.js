@@ -29,7 +29,7 @@ const siteConfig = {
     social: {
    //  facebook: "",
    // instagram: "https://instagram.com/justicaemdia_br",
-     twitter: "https://x.com/justicaemdia",
+  //   twitter: "https://x.com/justicaemdia",
      linkedin: "https://linkedin.com/company/justicaemdia",
 
     },
@@ -1107,7 +1107,7 @@ const performAction = () => {
 
 document.addEventListener('DOMContentLoaded', () => {
     const input = document.getElementById('searchInput');
-    const messages = ["Artigos...", "Informações...", "Notícias...", "Digite aqui..."];
+    const messages = ["Artigos sobre...", "Compliance...", "Política...", "Áreas do direito...", "Pesquise aqui..."];
     let messageIndex = 0;
     let charIndex = 0;
 

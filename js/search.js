@@ -1,6 +1,69 @@
 // Base de dados global de artigos para busca
 const allArticles = [
     {
+    title: 'A Farda Também Tem Direitos a Proteger',
+    description: 'Os direitos previdenciários dos militares são regidos por um regime jurídico específico que enfrenta pressões fiscais, reformas legislativas e desafios de sustentabilidade no Brasil.',
+    category: 'Direito Militar',
+    url: 'direito-militar/farda-tambem-tem-direitos-a-proteger.html',
+    tags: ['direitos previdenciários militares', 'inatividade militar', 'A Farda Também Tem Direitos a Proteger']
+},
+    {
+    title: 'Sua Imagem Tem Dono e É Você',
+    description: 'O direito à imagem e à honra são garantias fundamentais ameaçadas pela era digital, exigindo proteção jurídica robusta diante das novas tecnologias e das redes sociais.',
+    category: 'Direito Civil',
+    url: 'direito-civil/sua-imagem-tem-dono-e-e-voce.html',
+    tags: ['direito à imagem', 'direito à honra', 'Sua Imagem Tem Dono e É Você']
+},
+    {
+    title: 'Separar sem Juiz Virou Regra',
+    description: 'O divórcio extrajudicial transformou a forma como os brasileiros encerram o casamento, tornando o procedimento em cartório mais rápido, acessível e menos traumático.',
+    category: 'Direito de Família',
+    url: 'direito-de-familia/separar-sem-juiz-virou-regra.html',
+    tags: ['divórcio extrajudicial', 'direito de família', 'Separar sem Juiz Virou Regra']
+},
+    {
+    title: 'A Pena que o Brasil Não Sabe Cumprir',
+    description: 'O sistema de execução penal brasileiro enfrenta crise estrutural de superencarceramento, violação de direitos fundamentais e altas taxas de reincidência que desafiam a Lei de Execução Penal.',
+    category: 'Direito Criminal',
+    url: 'direito-penal/pena-que-o-brasil-nao-sabe-cumprir.html',
+    tags: ['execução penal', 'sistema prisional', 'A Pena que o Brasil Não Sabe Cumprir']
+},
+    {
+    title: 'Demissão Forçada pelo Erro do Patrão',
+    description: 'A rescisão indireta garante ao trabalhador o direito de encerrar o contrato com todos os benefícios de uma demissão sem justa causa quando o empregador comete falta grave.',
+    category: 'Direito Trabalhista',
+    url: 'direito-trabalhista/demissao-forcada-pelo-erro-do-patrao.html',
+    tags: ['rescisão indireta', 'direito trabalhista', 'Demissão Forçada pelo Erro do Patrão']
+},
+    {
+    title: 'Votar Não Basta, Participar É a Chave',
+    description: 'Os direitos políticos vão muito além do ato de votar, abrangendo participação cidadã, representação e instrumentos de democracia direta que sustentam o Estado democrático de direito.',
+    category: 'Política',
+    url: 'politica/votar-nao-basta-participar-e-a-chave.html',
+    tags: ['direitos políticos', 'democracia', 'Votar Não Basta, Participar É a Chave']
+},
+    {
+    title: 'A Lei que Pôs Empresas no Banco dos Réus',
+    description: 'A Lei Anticorrupção transformou a relação entre empresas e poder público ao instituir responsabilidade objetiva e sancionar pessoas jurídicas por atos lesivos contra a administração pública.',
+    category: 'Legislação',
+    url: 'legislacao/lei-que-pos-empresas-no-banco-dos-reus.html',
+    tags: ['lei anticorrupção', 'Lei 12846', 'A Lei que Pôs Empresas no Banco dos Réus']
+},
+    {
+    title: 'Quando o Judiciário se Fecha em Si',
+    description: 'A jurisprudência defensiva representa um dos maiores obstáculos ao acesso à justiça no Brasil, contrariando princípios constitucionais e comprometendo a segurança jurídica.',
+    category: 'Jurisprudência',
+    url: 'jurisprudencia/quando-o-judiciario-se-fecha-em-si.html',
+    tags: ['jurisprudência defensiva', 'acesso à justiça', 'Quando o Judiciário se Fecha em Si']
+},
+    {
+    title: 'Poder sem Controle Destrói Empresas',
+    description: 'A governança corporativa tornou-se exigência central para a sustentabilidade das organizações brasileiras no cenário jurídico e econômico atual.',
+    category: 'Compliance',
+    url: 'compliance/poder-sem-controle-destroi-empresas.html',
+    tags: ['governança corporativa', 'compliance', 'Poder sem Controle Destrói Empresas']
+},
+    {
     title: 'Ética Corporativa Além do Papel',
     description: 'A cultura de compliance nas empresas brasileiras deixou de ser uma formalidade normativa para se tornar um imperativo estratégico de governança e integridade.',
     category: 'Compliance',

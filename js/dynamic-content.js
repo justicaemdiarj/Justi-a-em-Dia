@@ -13,22 +13,7 @@ const tickerConfig = {
 
 const globalNewsData = [
 
-{
-    title: "O Novo Sistema Fiscal Que Muda Tudo",
-    link: "legislacao/novo-sistema-fiscal-reforma-tributaria-brasil.html",
-},
-{
-    title: "Decisões que Obrigam Todos os Tribunais do País",
-    link: "jurisprudencia/decisoes-obrigam-todos-tribunais-pais.html",
-},
-{
-    title: "A Tese que Vale por Milhões de Processos",
-    link: "jurisprudencia/tese-vale-milhoes-processos-repetitivos.html",
-},
-{
-    title: "Integridade Corporativa Além do Papel Impresso",
-    link: "compliance/integridade-corporativa-alem-papel-impresso.html",
-},
+
 {
     title: "O Direito que Nasceu na Era dos Algoritmos",
     link: "legislacao/direito-nasceu-era-algoritmos.html",
@@ -104,6 +89,42 @@ const globalNewsData = [
 {
     title: "Ética Corporativa Além do Papel",
     link: "compliance/etica-corporativa-alem-do-papel.html",
+},
+{
+    title: "Poder sem Controle Destrói Empresas",
+    link: "compliance/poder-sem-controle-destroi-empresas.html",
+},
+{
+    title: "Quando o Judiciário se Fecha em Si",
+    link: "jurisprudencia/quando-o-judiciario-se-fecha-em-si.html",
+},
+{
+    title: "A Lei que Pôs Empresas no Banco dos Réus",
+    link: "legislacao/lei-que-pos-empresas-no-banco-dos-reus.html",
+},
+{
+    title: "Votar Não Basta, Participar É a Chave",
+    link: "politica/votar-nao-basta-participar-e-a-chave.html",
+},
+{
+    title: "Demissão Forçada pelo Erro do Patrão",
+    link: "direito-trabalhista/demissao-forcada-pelo-erro-do-patrao.html",
+},
+{
+    title: "A Pena que o Brasil Não Sabe Cumprir",
+    link: "direito-penal/pena-que-o-brasil-nao-sabe-cumprir.html",
+},
+{
+    title: "Separar sem Juiz Virou Regra",
+    link: "direito-de-familia/separar-sem-juiz-virou-regra.html",
+},
+{
+    title: "Sua Imagem Tem Dono e É Você",
+    link: "direito-civil/sua-imagem-tem-dono-e-e-voce.html",
+},
+{
+    title: "A Farda Também Tem Direitos a Proteger",
+    link: "direito-militar/farda-tambem-tem-direitos-a-proteger.html",
 },
 
 

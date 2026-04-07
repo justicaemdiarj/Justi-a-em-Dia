@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
     {
+    title: "Demissão Forçada pelo Erro do Patrão",
+    date: "07/04/2026",
+    timestamp: "2026-04-07T07:00:00",
+    image: "../img/demissao-forcada-pelo-erro-do-patrao.webp",
+    excerpt: "A rescisão indireta garante ao trabalhador todos os direitos de uma demissão sem justa causa quando o empregador descumpre suas obrigações.",
+    link: "../direito-trabalhista/demissao-forcada-pelo-erro-do-patrao.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
   title: "Teletrabalho e o Dilema do Registro de Horas",
   date: "06/04/2026",
   timestamp: "2026-04-06T09:00:00",

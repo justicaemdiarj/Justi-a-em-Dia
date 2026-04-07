@@ -1,6 +1,16 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
     {
+    title: "A Lei que Pôs Empresas no Banco dos Réus",
+    date: "07/04/2026",
+    timestamp: "2026-04-07T09:00:00",
+    image: "../img/lei-que-pos-empresas-no-banco-dos-reus.webp",
+    excerpt: "A Lei Anticorrupção transformou a relação entre empresas e poder público ao instituir responsabilidade objetiva das pessoas jurídicas.",
+    link: "../legislacao/lei-que-pos-empresas-no-banco-dos-reus.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
   title: "ECA em Xeque diante dos Novos Desafios Sociais",
   date: "06/04/2026",
   timestamp: "2026-04-06T09:00:00",
