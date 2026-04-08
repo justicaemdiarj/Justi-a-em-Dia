@@ -2,72 +2,72 @@ const posts = [
   
   
 {
-  title: "Poder sem Controle Destrói Empresas",
-  description: "A governança corporativa tornou-se exigência central para a sustentabilidade das organizações brasileiras",
-  description2: "Estruturas de controle e transparência definem o futuro das empresas no Brasil",
-  image: "img/poder-sem-controle-destroi-empresas.webp",
-  link: "compliance/poder-sem-controle-destroi-empresas.html",
-  date: "2026-04-07T09:00:00",
+  title: "Dados Pessoais Exigem Programa de Conformidade",
+  description: "A LGPD transformou o compliance corporativo ao exigir governança de dados em todas as organizações brasileiras",
+  description2: "Encarregado de Dados, mapeamento de dados pessoais e integração entre LGPD e programas de integridade",
+  image: "img/dados-pessoais-exigem-programa-de-conformidade.webp",
+  link: "compliance/dados-pessoais-exigem-programa-de-conformidade.html",
+  date: "2026-04-08T07:00:00",
   section: "featured"
 },
   {
-  title: "Separar sem Juiz Virou Regra",
-  description: "O divórcio extrajudicial transformou a forma como os brasileiros encerram o casamento de forma mais rápida e acessível",
-  description2: "Lei nº 11.441 e os procedimentos em cartório que simplificaram a dissolução conjugal no Brasil",
-  image: "img/separar-sem-juiz-virou-regra.webp",
-  link: "direito-de-familia/separar-sem-juiz-virou-regra.html",
-  date: "2026-04-07T10:00:00",
+  title: "A Palavra Final que Amarra Todos os Juízes",
+  description: "As súmulas vinculantes do STF são instrumentos de uniformização jurisprudencial com efeito obrigatório para todo o Judiciário",
+  description2: "Funcionamento, críticas doutrinárias e impacto das súmulas vinculantes no sistema jurídico brasileiro",
+  image: "img/palavra-final-que-amarra-todos-os-juizes.webp",
+  link: "jurisprudencia/palavra-final-que-amarra-todos-os-juizes.html",
+  date: "2026-04-08T09:00:00",
   section: "featured-secundario"
 },
 {
-  title: "A Lei que Pôs Empresas no Banco dos Réus",
-  description: "A Lei Anticorrupção transformou a relação entre empresas e poder público ao instituir responsabilidade objetiva",
-  description2: "Impactos normativos e o legado de uma década da Lei nº 12.846 de 2013 no Brasil",
-  image: "img/lei-que-pos-empresas-no-banco-dos-reus.webp",
-  link: "legislacao/lei-que-pos-empresas-no-banco-dos-reus.html",
-  date: "2026-04-07T09:00:00",
+  title: "O Código Civil Precisa Crescer com o Brasil",
+  description: "A atualização do Código Civil brasileiro é urgente diante das transformações digitais e sociais do século XXI",
+  description2: "Herança digital, contratos eletrônicos, IA e novas configurações familiares na proposta de reforma do Código Civil",
+  image: "img/codigo-civil-precisa-crescer-com-o-brasil.webp",
+  link: "legislacao/codigo-civil-precisa-crescer-com-o-brasil.html",
+  date: "2026-04-08T09:00:00",
  section: "featured-terciario"
 },
   {
-  title: "Votar Não Basta, Participar É a Chave",
-  image: "img/votar-nao-basta-participar-e-a-chave.webp",
-  link: "politica/votar-nao-basta-participar-e-a-chave.html",
-  date: "2026-04-07T10:00:00",
+  title: "Três Poderes, Uma República em Disputa",
+  image: "img/tres-poderes-uma-republica-em-disputa.webp",
+  link: "politica/tres-poderes-uma-republica-em-disputa.html",
+  date: "2026-04-08T09:00:00",
     section: "destaque"
   },
    {
- title: "Demissão Forçada pelo Erro do Patrão",
-  image: "img/demissao-forcada-pelo-erro-do-patrao.webp",
-  link: "direito-trabalhista/demissao-forcada-pelo-erro-do-patrao.html",
-  date: "2026-04-07T07:00:00",
+  title: "O Escritório Mudou de Endereço, a Lei Também?",
+  image: "img/escritorio-mudou-de-endereco-a-lei-tambem.webp",
+  link: "direito-trabalhista/escritorio-mudou-de-endereco-a-lei-tambem.html",
+  date: "2026-04-08T09:00:00",
     section: "destaque"
   },
   {
-  title: "A Pena que o Brasil Não Sabe Cumprir",
-  image: "img/pena-que-o-brasil-nao-sabe-cumprir.webp",
-  link: "direito-penal/pena-que-o-brasil-nao-sabe-cumprir.html",
-  date: "2026-04-07T07:00:00",
+  title: "Preso Antes de Condenado, Até Quando?",
+  image: "img/preso-antes-de-condenado-ate-quando.webp",
+  link: "direito-penal/preso-antes-de-condenado-ate-quando.html",
+  date: "2026-04-08T09:00:00",
     section: "destaque"
   },
   {
-title: "Quando o Judiciário se Fecha em Si",
-  image: "img/quando-o-judiciario-se-fecha-em-si.webp",
-  link: "jurisprudencia/quando-o-judiciario-se-fecha-em-si.html",
-  date: "2026-04-07T08:00:00",
+  title: "Dividir o Patrimônio Não Precisa Ser Guerra",
+image: "img/dividir-o-patrimonio-nao-precisa-ser-guerra.webp",
+  link: "direito-de-familia/dividir-o-patrimonio-nao-precisa-ser-guerra.html",
+  date: "2026-04-08T09:00:00",
     section: "veja"
   },
   {
-  title: "Sua Imagem Tem Dono e É Você",
-  image: "img/sua-imagem-tem-dono-e-e-voce.webp",
-  link: "direito-civil/sua-imagem-tem-dono-e-e-voce.html",
-  date: "2026-04-07T08:00:00",
+  title: "Clique Errado Pode Custar Caro",
+  image: "img/clique-errado-pode-custar-caro.webp",
+  link: "direito-civil/clique-errado-pode-custar-caro.html",
+  date: "2026-04-08T10:00:00",
     section: "veja"
   },
   {
-  title: "A Farda Também Tem Direitos a Proteger",
-  image: "img/farda-tambem-tem-direitos-a-proteger.webp",
-  link: "direito-militar/farda-tambem-tem-direitos-a-proteger.html",
-  date: "2026-04-07T11:00:00",
+  title: "Quando a Farda Vira Instrumento de Opressão",
+  image: "img/quando-a-farda-vira-instrumento-de-opressao.webp",
+  link: "direito-militar/quando-a-farda-vira-instrumento-de-opressao.html",
+  date: "2026-04-08T06:00:00",
     section: "veja"
   }
 ];

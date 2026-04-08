@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
     {
+    title: "Quando a Farda Vira Instrumento de Opressão",
+    date: "08/04/2026",
+    timestamp: "2026-04-08T06:00:00",
+    image: "../img/quando-a-farda-vira-instrumento-de-opressao.webp",
+    excerpt: "O abuso de autoridade no meio militar é um dos fenômenos mais subnotificados do sistema jurídico brasileiro.",
+    link: "../direito-militar/quando-a-farda-vira-instrumento-de-opressao.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "A Farda Também Tem Direitos a Proteger",
     date: "07/04/2026",
     timestamp: "2026-04-07T11:00:00",

@@ -1,5 +1,69 @@
 // Base de dados global de artigos para busca
 const allArticles = [
+
+{
+    title: 'Quando a Farda Vira Instrumento de Opressão',
+    description: 'O abuso de autoridade no meio militar é um dos fenômenos mais subnotificados do sistema jurídico brasileiro, regido pela Lei nº 13.869 e pelo Código Penal Militar.',
+    category: 'Direito Militar',
+    url: 'direito-militar/quando-a-farda-vira-instrumento-de-opressao.html',
+    tags: ['abuso de autoridade militar', 'direito militar', 'Quando a Farda Vira Instrumento de Opressão']
+},
+{
+    title: 'Clique Errado Pode Custar Caro',
+    description: 'A responsabilidade civil nas redes sociais envolve usuários, plataformas e influenciadores digitais, regulados pelo Marco Civil da Internet, Código Civil e LGPD.',
+    category: 'Direito Civil',
+    url: 'direito-civil/clique-errado-pode-custar-caro.html',
+    tags: ['responsabilidade civil redes sociais', 'Marco Civil da Internet', 'Clique Errado Pode Custar Caro']
+},
+{
+    title: 'Dividir o Patrimônio Não Precisa Ser Guerra',
+    description: 'A partilha de bens no divórcio é um dos aspectos mais complexos do direito de família, envolvendo regimes de bens, Código Civil, pacto antenupcial e mediação familiar.',
+    category: 'Direito de Família',
+    url: 'direito-de-familia/dividir-o-patrimonio-nao-precisa-ser-guerra.html',
+    tags: ['partilha de bens divórcio', 'direito de família', 'Dividir o Patrimônio Não Precisa Ser Guerra']
+},
+{
+    title: 'Preso Antes de Condenado, Até Quando?',
+    description: 'A prisão preventiva e seus limites constitucionais envolvem presunção de inocência, requisitos legais, medidas cautelares alternativas e impactos do Pacote Anticrime no processo penal.',
+    category: 'Direito Criminal',
+    url: 'direito-penal/preso-antes-de-condenado-ate-quando.html',
+    tags: ['prisão preventiva', 'presunção de inocência', 'Preso Antes de Condenado, Até Quando?']
+},
+    {
+    title: 'O Escritório Mudou de Endereço, a Lei Também?',
+    description: 'O trabalho remoto transformou as relações trabalhistas brasileiras, com a CLT, a reforma de 2017 e a jurisprudência do TST regulando o teletrabalho e o direito à desconexão.',
+    category: 'Direito Trabalhista',
+    url: 'direito-trabalhista/escritorio-mudou-de-endereco-a-lei-tambem.html',
+    tags: ['trabalho remoto', 'teletrabalho', 'O Escritório Mudou de Endereço, a Lei Também?']
+},
+    {
+    title: 'Três Poderes, Uma República em Disputa',
+    description: 'A separação dos poderes no Brasil vive momento de tensão inédita, com disputas entre Executivo, Legislativo e Judiciário testando o sistema de freios e contrapesos da Constituição.',
+    category: 'Política',
+    url: 'politica/tres-poderes-uma-republica-em-disputa.html',
+    tags: ['separação dos poderes', 'democracia brasileira', 'Três Poderes, Uma República em Disputa']
+},
+    {
+    title: 'O Código Civil Precisa Crescer com o Brasil',
+    description: 'A atualização do Código Civil brasileiro é urgente diante das transformações digitais, com propostas sobre herança digital, contratos eletrônicos e responsabilidade por inteligência artificial.',
+    category: 'Legislação',
+    url: 'legislacao/codigo-civil-precisa-crescer-com-o-brasil.html',
+    tags: ['atualização Código Civil', 'reforma Código Civil', 'O Código Civil Precisa Crescer com o Brasil']
+},
+    {
+    title: 'A Palavra Final que Amarra Todos os Juízes',
+    description: 'As súmulas vinculantes do STF são instrumentos de uniformização jurisprudencial com efeito obrigatório para o Judiciário e a administração pública, centrais para a segurança jurídica brasileira.',
+    category: 'Jurisprudência',
+    url: 'jurisprudencia/palavra-final-que-amarra-todos-os-juizes.html',
+    tags: ['súmulas vinculantes', 'STF jurisprudência', 'A Palavra Final que Amarra Todos os Juízes']
+},
+    {
+    title: 'Dados Pessoais Exigem Programa de Conformidade',
+    description: 'A LGPD transformou o compliance corporativo ao exigir governança de dados em todas as organizações, com obrigações do Encarregado de Dados e sanções da ANPD.',
+    category: 'Compliance',
+    url: 'compliance/dados-pessoais-exigem-programa-de-conformidade.html',
+    tags: ['compliance LGPD', 'proteção de dados', 'Dados Pessoais Exigem Programa de Conformidade']
+},
     {
     title: 'A Farda Também Tem Direitos a Proteger',
     description: 'Os direitos previdenciários dos militares são regidos por um regime jurídico específico que enfrenta pressões fiscais, reformas legislativas e desafios de sustentabilidade no Brasil.',

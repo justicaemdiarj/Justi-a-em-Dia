@@ -1,6 +1,16 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
     {
+    title: "Dividir o Patrimônio Não Precisa Ser Guerra",
+    date: "08/04/2026",
+    timestamp: "2026-04-08T07:00:00",
+    image: "../img/dividir-o-patrimonio-nao-precisa-ser-guerra.webp",
+    excerpt: "A partilha de bens no divórcio é um dos aspectos mais complexos do direito de família e pode ser resolvida de forma menos conflituosa.",
+    link: "../direito-de-familia/dividir-o-patrimonio-nao-precisa-ser-guerra.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Separar sem Juiz Virou Regra",
     date: "07/04/2026",
     timestamp: "2026-04-07T09:00:00",

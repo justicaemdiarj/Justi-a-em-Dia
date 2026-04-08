@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
     {
+    title: "Preso Antes de Condenado, Até Quando?",
+    date: "08/04/2026",
+    timestamp: "2026-04-08T09:00:00",
+    image: "../img/preso-antes-de-condenado-ate-quando.webp",
+    excerpt: "A prisão preventiva e seus limites constitucionais são um dos temas mais debatidos do direito penal e processual penal brasileiro.",
+    link: "../direito-penal/preso-antes-de-condenado-ate-quando.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "A Pena que o Brasil Não Sabe Cumprir",
     date: "07/04/2026",
     timestamp: "2026-04-07T07:00:00",

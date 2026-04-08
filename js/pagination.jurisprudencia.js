@@ -1,6 +1,16 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
     {
+    title: "A Palavra Final que Amarra Todos os Juízes",
+    date: "08/04/2026",
+    timestamp: "2026-04-08T09:00:00",
+    image: "../img/palavra-final-que-amarra-todos-os-juizes.webp",
+    excerpt: "As súmulas vinculantes do STF são instrumentos de uniformização jurisprudencial com efeito obrigatório para todo o Judiciário e a administração pública.",
+    link: "../jurisprudencia/palavra-final-que-amarra-todos-os-juizes.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Quando o Judiciário se Fecha em Si",
     date: "07/04/2026",
     timestamp: "2026-04-07T08:00:00",

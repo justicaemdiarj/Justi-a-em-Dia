@@ -15,22 +15,6 @@ const globalNewsData = [
 
 
 {
-    title: "O Direito que Nasceu na Era dos Algoritmos",
-    link: "legislacao/direito-nasceu-era-algoritmos.html",
-},
-{
-    title: "Quando as Instituições Param de Funcionar Juntas",
-    link: "politica/quando-instituicoes-param-funcionar-juntas.html",
-},
-{
-    title: "O Tempo a Mais que o Direito Protege",
-    link: "direito-trabalhista/tempo-mais-direito-protege-horas-extras.html",
-},
-{
-  title: "Sangue e Silêncio no Coração do Lar",
-  link: "direito-penal/feminicidio-violencia-genero-lei-penal-brasil.html",
-},
-{
   title: "Alimentos sob Revisão, Direitos em Disputa",
   link: "direito-de-familia/pensao-alimenticia-revisao-direito-familia-brasil.html",
 },
@@ -126,7 +110,42 @@ const globalNewsData = [
     title: "A Farda Também Tem Direitos a Proteger",
     link: "direito-militar/farda-tambem-tem-direitos-a-proteger.html",
 },
-
+{
+    title: "Dados Pessoais Exigem Programa de Conformidade",
+    link: "compliance/dados-pessoais-exigem-programa-de-conformidade.html",
+},
+{
+    title: "A Palavra Final que Amarra Todos os Juízes",
+    link: "jurisprudencia/palavra-final-que-amarra-todos-os-juizes.html",
+},
+{
+    title: "O Código Civil Precisa Crescer com o Brasil",
+    link: "legislacao/codigo-civil-precisa-crescer-com-o-brasil.html",
+},
+{
+    title: "Três Poderes, Uma República em Disputa",
+    link: "politica/tres-poderes-uma-republica-em-disputa.html",
+},
+{
+    title: "O Escritório Mudou de Endereço, a Lei Também?",
+    link: "direito-trabalhista/escritorio-mudou-de-endereco-a-lei-tambem.html",
+},
+{
+    title: "Preso Antes de Condenado, Até Quando?",
+    link: "direito-penal/preso-antes-de-condenado-ate-quando.html",
+},
+{
+    title: "Dividir o Patrimônio Não Precisa Ser Guerra",
+    link: "direito-de-familia/dividir-o-patrimonio-nao-precisa-ser-guerra.html",
+},
+{
+    title: "Clique Errado Pode Custar Caro",
+    link: "direito-civil/clique-errado-pode-custar-caro.html",
+},
+{
+    title: "Quando a Farda Vira Instrumento de Opressão",
+    link: "direito-militar/quando-a-farda-vira-instrumento-de-opressao.html",
+},
 
 
 

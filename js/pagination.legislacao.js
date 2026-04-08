@@ -1,5 +1,16 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
+    
+    {
+    title: "O Código Civil Precisa Crescer com o Brasil",
+    date: "08/04/2026",
+    timestamp: "2026-04-08T09:00:00",
+    image: "../img/codigo-civil-precisa-crescer-com-o-brasil.webp",
+    excerpt: "A atualização do Código Civil brasileiro é uma necessidade urgente diante das transformações digitais e sociais do século XXI.",
+    link: "../legislacao/codigo-civil-precisa-crescer-com-o-brasil.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
     {
     title: "A Lei que Pôs Empresas no Banco dos Réus",
     date: "07/04/2026",

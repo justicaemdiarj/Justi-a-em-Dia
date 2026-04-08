@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
     {
+    title: "Clique Errado Pode Custar Caro",
+    date: "08/04/2026",
+    timestamp: "2026-04-08T10:00:00",
+    image: "../img/clique-errado-pode-custar-caro.webp",
+    excerpt: "A responsabilidade civil nas redes sociais é tema central do direito civil contemporâneo, envolvendo usuários, plataformas e influenciadores digitais.",
+    link: "../direito-civil/clique-errado-pode-custar-caro.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Sua Imagem Tem Dono e É Você",
     date: "07/04/2026",
     timestamp: "2026-04-07T08:00:00",

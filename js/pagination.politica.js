@@ -1,6 +1,16 @@
 // Dados de notícias para Política
 const categoryNewsData = [
     {
+    title: "Três Poderes, Uma República em Disputa",
+    date: "08/04/2026",
+    timestamp: "2026-04-08T09:00:00",
+    image: "../img/tres-poderes-uma-republica-em-disputa.webp",
+    excerpt: "A separação dos poderes no Brasil vive momento de tensão inédita desde a redemocratização, testando freios e contrapesos constitucionais.",
+    link: "../politica/tres-poderes-uma-republica-em-disputa.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Votar Não Basta, Participar É a Chave",
     date: "07/04/2026",
     timestamp: "2026-04-07T10:00:00",

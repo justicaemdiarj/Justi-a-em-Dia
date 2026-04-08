@@ -1,6 +1,16 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
     {
+    title: "Dados Pessoais Exigem Programa de Conformidade",
+    date: "08/04/2026",
+    timestamp: "2026-04-08T07:00:00",
+    image: "../img/dados-pessoais-exigem-programa-de-conformidade.webp",
+    excerpt: "A LGPD transformou o compliance corporativo ao exigir governança de dados em todas as organizações brasileiras.",
+    link: "../compliance/dados-pessoais-exigem-programa-de-conformidade.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Poder sem Controle Destrói Empresas",
     date: "07/04/2026",
     timestamp: "2026-04-07T09:00:00",

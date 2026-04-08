@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
     {
+    title: "O Escritório Mudou de Endereço, a Lei Também?",
+    date: "08/04/2026",
+    timestamp: "2026-04-08T07:00:00",
+    image: "../img/escritorio-mudou-de-endereco-a-lei-tambem.webp",
+    excerpt: "O trabalho remoto transformou as relações trabalhistas brasileiras, mas a legislação ainda apresenta lacunas significativas.",
+    link: "../direito-trabalhista/escritorio-mudou-de-endereco-a-lei-tambem.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Demissão Forçada pelo Erro do Patrão",
     date: "07/04/2026",
     timestamp: "2026-04-07T07:00:00",
