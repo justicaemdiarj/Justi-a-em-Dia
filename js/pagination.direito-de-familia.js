@@ -1,6 +1,16 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
     {
+    title: "Antes do Altar, Escolha o Regime Certo",
+    date: "09/04/2026",
+    timestamp: "2026-04-09T07:00:00",
+    image: "../img/antes-do-altar-escolha-o-regime-certo.webp",
+    excerpt: "A escolha do regime de bens no casamento tem consequências patrimoniais de longo alcance para os cônjuges.",
+    link: "../direito-de-familia/antes-do-altar-escolha-o-regime-certo.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Dividir o Patrimônio Não Precisa Ser Guerra",
     date: "08/04/2026",
     timestamp: "2026-04-08T07:00:00",

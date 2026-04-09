@@ -146,6 +146,42 @@ const globalNewsData = [
     title: "Quando a Farda Vira Instrumento de Opressão",
     link: "direito-militar/quando-a-farda-vira-instrumento-de-opressao.html",
 },
+{
+    title: "A Farda Não Blinda Contra a Improbidade",
+    link: "direito-militar/farda-nao-blinda-contra-improbidade.html",
+},
+{
+    title: "Ganho Sem Fundamento Deve Ser Devolvido",
+    link: "direito-civil/ganho-sem-fundamento-deve-ser-devolvido.html",
+},
+{
+    title: "Antes do Altar, Escolha o Regime Certo",
+    link: "direito-de-familia/antes-do-altar-escolha-o-regime-certo.html",
+},
+{
+    title: "Doze Cidadãos Decidem Sobre a Vida",
+    link: "direito-penal/doze-cidadaos-decidem-sobre-a-vida.html",
+},
+{
+    title: "Acidente de Trabalho Não É Fatalidade",
+    link: "direito-trabalhista/acidente-de-trabalho-nao-e-fatalidade.html",
+},
+{
+    title: "O Estado Deve Contas, Não Favores",
+    link: "politica/estado-deve-contas-nao-favores.html",
+},
+{
+    title: "O Trabalho Ganhou Novas Regras Silenciosas",
+    link: "legislacao/trabalho-ganhou-novas-regras-silenciosas.html",
+},
+{
+    title: "O TST que Muda as Regras do Trabalho",
+    link: "jurisprudencia/tst-que-muda-as-regras-do-trabalho.html",
+},
+{
+    title: "Risco Ignorado É Passivo Acumulado",
+    link: "compliance/risco-ignorado-e-passivo-acumulado.html",
+},
 
 
 

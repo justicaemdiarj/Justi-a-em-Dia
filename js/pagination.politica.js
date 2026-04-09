@@ -1,6 +1,16 @@
 // Dados de notícias para Política
 const categoryNewsData = [
     {
+    title: "O Estado Deve Contas, Não Favores",
+    date: "09/04/2026",
+    timestamp: "2026-04-09T09:00:00",
+    image: "../img/estado-deve-contas-nao-favores.webp",
+    excerpt: "A transparência pública é obrigação constitucional e instrumento essencial de combate à corrupção no Estado brasileiro.",
+    link: "../politica/estado-deve-contas-nao-favores.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Três Poderes, Uma República em Disputa",
     date: "08/04/2026",
     timestamp: "2026-04-08T09:00:00",

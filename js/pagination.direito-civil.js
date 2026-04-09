@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
     {
+    title: "Ganho Sem Fundamento Deve Ser Devolvido",
+    date: "09/04/2026",
+    timestamp: "2026-04-09T09:00:00",
+    image: "../img/ganho-sem-fundamento-deve-ser-devolvido.webp",
+    excerpt: "O enriquecimento sem causa é princípio fundamental do direito civil que proíbe o locupletamento indevido às custas de outrem.",
+    link: "../direito-civil/ganho-sem-fundamento-deve-ser-devolvido.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Clique Errado Pode Custar Caro",
     date: "08/04/2026",
     timestamp: "2026-04-08T10:00:00",

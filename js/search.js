@@ -1,6 +1,69 @@
 // Base de dados global de artigos para busca
 const allArticles = [
 
+    {
+    title: 'Ganho Sem Fundamento Deve Ser Devolvido',
+    description: 'O enriquecimento sem causa é princípio fundamental do direito civil que proíbe o locupletamento indevido, com requisitos legais, pagamento indevido e aplicações jurisprudenciais no Brasil.',
+    category: 'Direito Civil',
+    url: 'direito-civil/ganho-sem-fundamento-deve-ser-devolvido.html',
+    tags: ['enriquecimento sem causa', 'pagamento indevido', 'Ganho Sem Fundamento Deve Ser Devolvido']
+},
+{
+    title: 'Antes do Altar, Escolha o Regime Certo',
+    description: 'A escolha do regime de bens no casamento tem consequências patrimoniais de longo alcance, envolvendo comunhão parcial, universal, separação convencional e participação final nos aquestos.',
+    category: 'Direito de Família',
+    url: 'direito-de-familia/antes-do-altar-escolha-o-regime-certo.html',
+    tags: ['regimes de casamento', 'regime de bens', 'Antes do Altar, Escolha o Regime Certo']
+},
+{
+    title: 'Doze Cidadãos Decidem Sobre a Vida',
+    description: 'O Tribunal do Júri é garantia constitucional que coloca cidadãos comuns como julgadores dos crimes mais graves, com soberania dos veredictos e plenitude de defesa.',
+    category: 'Direito Criminal',
+    url: 'direito-penal/doze-cidadaos-decidem-sobre-a-vida.html',
+    tags: ['tribunal do júri', 'júri popular', 'Doze Cidadãos Decidem Sobre a Vida']
+},
+{
+    title: 'O Estado Deve Contas, Não Favores',
+    description: 'A transparência pública é obrigação constitucional e instrumento essencial de combate à corrupção, estruturada pela Lei de Acesso à Informação e pelos mecanismos digitais de controle.',
+    category: 'Política',
+    url: 'politica/estado-deve-contas-nao-favores.html',
+    tags: ['transparência pública', 'Lei de Acesso à Informação', 'O Estado Deve Contas, Não Favores']
+},
+{
+    title: 'O Trabalho Ganhou Novas Regras Silenciosas',
+    description: 'As leis trabalhistas recentes transformaram as relações de trabalho no Brasil, com inovações sobre assédio, igualdade salarial, trabalho por plataformas e aprendizagem profissional.',
+    category: 'Legislação',
+    url: 'legislacao/trabalho-ganhou-novas-regras-silenciosas.html',
+    tags: ['leis trabalhistas recentes', 'legislação trabalhista', 'O Trabalho Ganhou Novas Regras Silenciosas']
+},
+{
+    title: 'O TST que Muda as Regras do Trabalho',
+    description: 'A jurisprudência trabalhista do TST molda direitos de milhões de trabalhadores e empregadores, com súmulas e precedentes que definem o direito trabalhista brasileiro.',
+    category: 'Jurisprudência',
+    url: 'jurisprudencia/tst-que-muda-as-regras-do-trabalho.html',
+    tags: ['jurisprudência trabalhista', 'TST', 'O TST que Muda as Regras do Trabalho']
+},
+{
+    title: 'Risco Ignorado É Passivo Acumulado',
+    description: 'A gestão de riscos tornou-se função estratégica essencial para a sustentabilidade das organizações, envolvendo frameworks como COSO ERM, ISO 31000 e normas regulatórias brasileiras.',
+    category: 'Compliance',
+    url: 'compliance/risco-ignorado-e-passivo-acumulado.html',
+    tags: ['gestão de riscos', 'compliance', 'Risco Ignorado É Passivo Acumulado']
+},
+{
+    title: 'Acidente de Trabalho Não É Fatalidade',
+    description: 'A segurança do trabalho é obrigação legal e ética do empregador, com normas regulamentadoras, PGR, PCMSO e jurisprudência protegendo trabalhadores de acidentes e doenças ocupacionais.',
+    category: 'Direito Trabalhista',
+    url: 'direito-trabalhista/acidente-de-trabalho-nao-e-fatalidade.html',
+    tags: ['segurança do trabalho', 'normas regulamentadoras', 'Acidente de Trabalho Não É Fatalidade']
+},
+    {
+    title: 'A Farda Não Blinda Contra a Improbidade',
+    description: 'Militar pode responder por improbidade administrativa, conforme a Lei de Improbidade, a reforma de 2021 e a jurisprudência do STJ e STF sobre responsabilização das Forças Armadas.',
+    category: 'Direito Militar',
+    url: 'direito-militar/farda-nao-blinda-contra-improbidade.html',
+    tags: ['improbidade administrativa militar', 'Lei de Improbidade', 'A Farda Não Blinda Contra a Improbidade']
+},
 {
     title: 'Quando a Farda Vira Instrumento de Opressão',
     description: 'O abuso de autoridade no meio militar é um dos fenômenos mais subnotificados do sistema jurídico brasileiro, regido pela Lei nº 13.869 e pelo Código Penal Militar.',

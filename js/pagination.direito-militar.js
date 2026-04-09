@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
     {
+    title: "A Farda Não Blinda Contra a Improbidade",
+    date: "09/04/2026",
+    timestamp: "2026-04-09T07:00:00",
+    image: "../img/farda-nao-blinda-contra-improbidade.webp",
+    excerpt: "Militar pode responder por improbidade administrativa, conforme a jurisprudência do STJ e do STF sobre a responsabilização dos agentes públicos castrenses.",
+    link: "../direito-militar/farda-nao-blinda-contra-improbidade.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Quando a Farda Vira Instrumento de Opressão",
     date: "08/04/2026",
     timestamp: "2026-04-08T06:00:00",

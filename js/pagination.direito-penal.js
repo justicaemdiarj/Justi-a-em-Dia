@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
     {
+    title: "Doze Cidadãos Decidem Sobre a Vida",
+    date: "09/04/2026",
+    timestamp: "2026-04-09T09:00:00",
+    image: "../img/doze-cidadaos-decidem-sobre-a-vida.webp",
+    excerpt: "O Tribunal do Júri é garantia constitucional que coloca cidadãos comuns como julgadores dos crimes mais graves no Brasil.",
+    link: "../direito-penal/doze-cidadaos-decidem-sobre-a-vida.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Preso Antes de Condenado, Até Quando?",
     date: "08/04/2026",
     timestamp: "2026-04-08T09:00:00",

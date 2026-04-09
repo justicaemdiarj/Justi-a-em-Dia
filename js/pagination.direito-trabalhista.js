@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
     {
+    title: "Acidente de Trabalho Não É Fatalidade",
+    date: "09/04/2026",
+    timestamp: "2026-04-09T07:00:00",
+    image: "../img/acidente-de-trabalho-nao-e-fatalidade.webp",
+    excerpt: "A segurança do trabalho é obrigação legal e ética do empregador, com normas regulamentadoras que protegem trabalhadores de riscos reais.",
+    link: "../direito-trabalhista/acidente-de-trabalho-nao-e-fatalidade.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "O Escritório Mudou de Endereço, a Lei Também?",
     date: "08/04/2026",
     timestamp: "2026-04-08T07:00:00",

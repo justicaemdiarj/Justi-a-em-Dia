@@ -1,6 +1,16 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
     {
+    title: "Risco Ignorado É Passivo Acumulado",
+    date: "09/04/2026",
+    timestamp: "2026-04-09T06:00:00",
+    image: "../img/risco-ignorado-e-passivo-acumulado.webp",
+    excerpt: "A gestão de riscos tornou-se função estratégica essencial para a sustentabilidade das organizações brasileiras.",
+    link: "../compliance/risco-ignorado-e-passivo-acumulado.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Dados Pessoais Exigem Programa de Conformidade",
     date: "08/04/2026",
     timestamp: "2026-04-08T07:00:00",

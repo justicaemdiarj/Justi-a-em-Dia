@@ -1,5 +1,15 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
+    {
+    title: "O Trabalho Ganhou Novas Regras Silenciosas",
+    date: "09/04/2026",
+    timestamp: "2026-04-09T10:00:00",
+    image: "../img/trabalho-ganhou-novas-regras-silenciosas.webp",
+    excerpt: "As leis trabalhistas recentes transformaram as relações de trabalho no Brasil com novas exigências além da CLT.",
+    link: "../legislacao/trabalho-ganhou-novas-regras-silenciosas.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
     
     {
     title: "O Código Civil Precisa Crescer com o Brasil",

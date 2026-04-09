@@ -1,6 +1,16 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
     {
+    title: "O TST que Muda as Regras do Trabalho",
+    date: "09/04/2026",
+    timestamp: "2026-04-09T12:00:00",
+    image: "../img/tst-que-muda-as-regras-do-trabalho.webp",
+    excerpt: "A jurisprudência trabalhista do TST molda direitos de milhões de trabalhadores e empregadores no Brasil.",
+    link: "../jurisprudencia/tst-que-muda-as-regras-do-trabalho.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "A Palavra Final que Amarra Todos os Juízes",
     date: "08/04/2026",
     timestamp: "2026-04-08T09:00:00",

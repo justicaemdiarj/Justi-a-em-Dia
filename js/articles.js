@@ -2,72 +2,72 @@ const posts = [
   
   
 {
-  title: "Dados Pessoais Exigem Programa de Conformidade",
-  description: "A LGPD transformou o compliance corporativo ao exigir governança de dados em todas as organizações brasileiras",
-  description2: "Encarregado de Dados, mapeamento de dados pessoais e integração entre LGPD e programas de integridade",
-  image: "img/dados-pessoais-exigem-programa-de-conformidade.webp",
-  link: "compliance/dados-pessoais-exigem-programa-de-conformidade.html",
-  date: "2026-04-08T07:00:00",
+  title: "Antes do Altar, Escolha o Regime Certo",
+  description: "A escolha do regime de bens no casamento tem consequências patrimoniais de longo alcance para os cônjuges",
+  description2: "Comunhão parcial, separação de bens e pacto antenupcial no direito de família brasileiro",
+  image: "img/antes-do-altar-escolha-o-regime-certo.webp",
+  link: "direito-de-familia/antes-do-altar-escolha-o-regime-certo.html",
+  date: "2026-04-09T07:00:00",
   section: "featured"
 },
   {
-  title: "A Palavra Final que Amarra Todos os Juízes",
-  description: "As súmulas vinculantes do STF são instrumentos de uniformização jurisprudencial com efeito obrigatório para todo o Judiciário",
-  description2: "Funcionamento, críticas doutrinárias e impacto das súmulas vinculantes no sistema jurídico brasileiro",
-  image: "img/palavra-final-que-amarra-todos-os-juizes.webp",
-  link: "jurisprudencia/palavra-final-que-amarra-todos-os-juizes.html",
-  date: "2026-04-08T09:00:00",
+  title: "Ganho Sem Fundamento Deve Ser Devolvido",
+  description: "O enriquecimento sem causa é princípio fundamental do direito civil que proíbe o locupletamento indevido às custas de outrem",
+  description2: "Requisitos legais, pagamento indevido e tendências jurisprudenciais sobre o instituto do enriquecimento sem causa",
+  image: "img/ganho-sem-fundamento-deve-ser-devolvido.webp",
+  link: "direito-civil/ganho-sem-fundamento-deve-ser-devolvido.html",
+  date: "2026-04-09T09:00:00",
   section: "featured-secundario"
 },
 {
-  title: "O Código Civil Precisa Crescer com o Brasil",
-  description: "A atualização do Código Civil brasileiro é urgente diante das transformações digitais e sociais do século XXI",
-  description2: "Herança digital, contratos eletrônicos, IA e novas configurações familiares na proposta de reforma do Código Civil",
-  image: "img/codigo-civil-precisa-crescer-com-o-brasil.webp",
-  link: "legislacao/codigo-civil-precisa-crescer-com-o-brasil.html",
-  date: "2026-04-08T09:00:00",
+  title: "A Farda Não Blinda Contra a Improbidade",
+  description: "Militar pode responder por improbidade administrativa segundo a jurisprudência do STJ e do STF",
+  description2: "Lei de Improbidade, reforma de 2021 e o controle civil sobre as Forças Armadas no Brasil",
+  image: "img/farda-nao-blinda-contra-improbidade.webp",
+  link: "direito-militar/farda-nao-blinda-contra-improbidade.html",
+  date: "2026-04-09T07:00:00",
  section: "featured-terciario"
 },
   {
-  title: "Três Poderes, Uma República em Disputa",
-  image: "img/tres-poderes-uma-republica-em-disputa.webp",
-  link: "politica/tres-poderes-uma-republica-em-disputa.html",
-  date: "2026-04-08T09:00:00",
+  title: "Doze Cidadãos Decidem Sobre a Vida",
+  image: "img/doze-cidadaos-decidem-sobre-a-vida.webp",
+  link: "direito-penal/doze-cidadaos-decidem-sobre-a-vida.html",
+  date: "2026-04-09T09:00:00",
     section: "destaque"
   },
    {
-  title: "O Escritório Mudou de Endereço, a Lei Também?",
-  image: "img/escritorio-mudou-de-endereco-a-lei-tambem.webp",
-  link: "direito-trabalhista/escritorio-mudou-de-endereco-a-lei-tambem.html",
-  date: "2026-04-08T09:00:00",
+  title: "Acidente de Trabalho Não É Fatalidade",
+  image: "img/acidente-de-trabalho-nao-e-fatalidade.webp",
+  link: "direito-trabalhista/acidente-de-trabalho-nao-e-fatalidade.html",
+  date: "2026-04-09T09:00:00",
     section: "destaque"
   },
   {
-  title: "Preso Antes de Condenado, Até Quando?",
-  image: "img/preso-antes-de-condenado-ate-quando.webp",
-  link: "direito-penal/preso-antes-de-condenado-ate-quando.html",
-  date: "2026-04-08T09:00:00",
+  title: "O Estado Deve Contas, Não Favores",
+  image: "img/estado-deve-contas-nao-favores.webp",
+  link: "politica/estado-deve-contas-nao-favores.html",
+  date: "2026-04-09T09:00:00",
     section: "destaque"
   },
   {
-  title: "Dividir o Patrimônio Não Precisa Ser Guerra",
-image: "img/dividir-o-patrimonio-nao-precisa-ser-guerra.webp",
-  link: "direito-de-familia/dividir-o-patrimonio-nao-precisa-ser-guerra.html",
-  date: "2026-04-08T09:00:00",
+  title: "O Trabalho Ganhou Novas Regras Silenciosas",
+  image: "img/trabalho-ganhou-novas-regras-silenciosas.webp",
+  link: "legislacao/trabalho-ganhou-novas-regras-silenciosas.html",
+  date: "2026-04-09T10:00:00",
     section: "veja"
   },
   {
-  title: "Clique Errado Pode Custar Caro",
-  image: "img/clique-errado-pode-custar-caro.webp",
-  link: "direito-civil/clique-errado-pode-custar-caro.html",
-  date: "2026-04-08T10:00:00",
+  title: "O TST que Muda as Regras do Trabalho",
+  image: "img/tst-que-muda-as-regras-do-trabalho.webp",
+  link: "jurisprudencia/tst-que-muda-as-regras-do-trabalho.html",
+  date: "2026-04-09T12:00:00",
     section: "veja"
   },
   {
-  title: "Quando a Farda Vira Instrumento de Opressão",
-  image: "img/quando-a-farda-vira-instrumento-de-opressao.webp",
-  link: "direito-militar/quando-a-farda-vira-instrumento-de-opressao.html",
-  date: "2026-04-08T06:00:00",
+  title: "Risco Ignorado É Passivo Acumulado",
+  image: "img/risco-ignorado-e-passivo-acumulado.webp",
+  link: "compliance/risco-ignorado-e-passivo-acumulado.html",
+  date: "2026-04-09T06:00:00",
     section: "veja"
   }
 ];
@@ -268,34 +268,29 @@ document.addEventListener("DOMContentLoaded", function(){
   const posts = [
   
 {
- title: "O Direito que Nasceu na Era dos Algoritmos",
-  link: "legislacao/direito-nasceu-era-algoritmos.html",
-  date: "2026-04-02T07:00:00"
+ title: "O TST que Muda as Regras do Trabalho",
+  link: "jurisprudencia/tst-que-muda-as-regras-do-trabalho.html",
+  date: "2026-04-09T07:00:00"
 },
 {
-  title: "Quando o Judiciário Governa no Lugar do Parlamento",
-  link: "politica/judiciario-governa-lugar-parlamento.html",
-  date: "2026-04-01T11:00:00"
+  title: "O Trabalho Ganhou Novas Regras Silenciosas",
+  link: "legislacao/trabalho-ganhou-novas-regras-silenciosas.html",
+  date: "2026-04-09T07:00:00"
 },
 {
-  title: "Crimes Digitais e a Lei Fora do Alcance",
-  link: "direito-penal/crimes-digitais-lei-fora-do-alcance-direito-penal.html",
-  date: "2026-04-01T10:00:00"
+  title: "Risco Ignorado É Passivo Acumulado",
+  link: "compliance/risco-ignorado-e-passivo-acumulado.html",
+  date: "2026-04-09T07:00:00"
 },
 {
-  title: "Alienação Parental e a Criança Invisível",
-  link: "direito-de-familia/alienacao-parental-crianca-invisivel-lei-12318.html",
-  date: "2026-04-01T07:00:00"
-},
- {
-  title: "Misoginia no Poder, Uma Ferida Política",
-  link: "politica/misoginia-poder-estrutura-politica-brasileira.html",
-  date: "2026-03-30T06:00:00"
+  title: "Clique Errado Pode Custar Caro",
+  link: "direito-civil/clique-errado-pode-custar-caro.html",
+  date: "2026-04-08T07:00:00"
 },
 {
-  title: "A Tese que Vale por Milhões de Processos",
-  link: "jurisprudencia/tese-vale-milhoes-processos-repetitivos.html",
-  date: "2026-04-02T11:00:00"
+  title: "Demissão Forçada pelo Erro do Patrão",
+  link: "direito-trabalhista/demissao-forcada-pelo-erro-do-patrao.html",
+  date: "2026-04-07T07:00:00"
 },
 
   ];
@@ -344,10 +339,10 @@ document.addEventListener("DOMContentLoaded", function(){
 const principaisNoticias = [
 
 {
-title: "O Silêncio que Adoece",
-    link: "direito-trabalhista/assedio-moral-trabalho-dignidade-laboral.html",
+title: "Três Poderes, Uma República em Disputa",
+    link: "politica/tres-poderes-uma-republica-em-disputa.html",
 source: "",
-date: "2026-03-30T07:00:00"
+date: "2026-04-08T07:00:00"
 },
 
 {
@@ -357,16 +352,16 @@ source: "",
 date: "2026-03-30T07:00:00"
 },
 {
-title: "Quando os Tribunais Mudam de Ideia",
-link: "jurisprudencia/mudanca-entendimento-jurisprudencial-tribunais-brasileiros.html",
+title: "Poder sem Controle Destrói Empresas",
+link: "compliance/poder-sem-controle-destroi-empresas.html",
 source: "",
-date: "2026-03-30T03:00:00"
+date: "2026-04-07T03:00:00"
 },
 {
-title: "Populismo e o Cerco à Democracia Brasileira",
-  link: "politica/populismo-ameaca-institucional-democracia-brasileira.html",
+title: "Dados Pessoais Exigem Programa de Conformidade",
+  link: "compliance/dados-pessoais-exigem-programa-de-conformidade.html",
 source: "",
-date: "2026-03-27T07:00:00"
+date: "2026-04-08T07:00:00"
 },
 {
 title: "Direitos Fundamentais e a Condição Militar",
@@ -375,10 +370,10 @@ source: "",
 date: "2026-03-31T07:00:00"
 },
 {
-title: "Misoginia no Poder, Uma Ferida Política",
-    link: "politica/misoginia-poder-estrutura-politica-brasileira.html",
+title: "Dividir o Patrimônio Não Precisa Ser Guerra",
+    link: "direito-de-familia/dividir-o-patrimonio-nao-precisa-ser-guerra.html",
 source: "",
-date: "2026-03-30T07:00:00"
+date: "2026-04-08T07:00:00"
 },
 {
  title: "Sangue e Silêncio no Coração do Lar",
