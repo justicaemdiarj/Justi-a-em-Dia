@@ -182,6 +182,42 @@ const globalNewsData = [
     title: "Risco Ignorado É Passivo Acumulado",
     link: "compliance/risco-ignorado-e-passivo-acumulado.html",
 },
+{
+    title: "Denunciar Não É Trair, É Proteger a Empresa",
+    link: "compliance/denunciar-nao-e-trair-e-proteger-a-empresa.html",
+},
+{
+    title: "Sem Previsibilidade Não Há Estado de Direito",
+    link: "jurisprudencia/sem-previsibilidade-nao-ha-estado-de-direito.html",
+},
+{
+    title: "O Brasil tem Leis Demais e Efetividade de Menos",
+    link: "legislacao/brasil-tem-leis-demais-e-efetividade-de-menos.html",
+},
+{
+    title: "O Instrumento Que Pode Derrubar um Presidente",
+    link: "politica/instrumento-que-pode-derrubar-um-presidente.html",
+},
+{
+    title: "Trabalhador ou Parceiro? A Lei Define Isso",
+    link: "direito-trabalhista/trabalhador-ou-parceiro-a-lei-define-isso.html",
+},
+{
+    title: "O Crime que Se Disfarça de Negócio Legítimo",
+    link: "direito-penal/crime-que-se-disfarça-de-negocio-legitimo.html",
+},
+{
+    title: "A Casa Não Pode Ser Palco de Crueldade",
+    link: "direito-de-familia/casa-nao-pode-ser-palco-de-crueldade.html",
+},
+{
+    title: "Quem Lucra com o Risco Responde pelo Dano",
+    link: "direito-civil/quem-lucra-com-o-risco-responde-pelo-dano.html",
+},
+{
+    title: "A Disciplina Também Precisa de Processo Justo",
+    link: "direito-militar/disciplina-tambem-precisa-de-processo-justo.html",
+},
 
 
 

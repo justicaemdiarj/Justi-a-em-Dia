@@ -1,6 +1,16 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
     {
+    title: "O Brasil tem Leis Demais e Efetividade de Menos",
+    date: "10/04/2026",
+    timestamp: "2026-04-10T07:00:00",
+    image: "../img/brasil-tem-leis-demais-e-efetividade-de-menos.webp",
+    excerpt: "A efetividade das leis no Brasil é um dos maiores desafios do ordenamento jurídico nacional.",
+    link: "../legislacao/brasil-tem-leis-demais-e-efetividade-de-menos.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "O Trabalho Ganhou Novas Regras Silenciosas",
     date: "09/04/2026",
     timestamp: "2026-04-09T10:00:00",

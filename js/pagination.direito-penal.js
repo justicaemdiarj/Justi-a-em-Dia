@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
     {
+    title: "O Crime que Se Disfarça de Negócio Legítimo",
+    date: "10/04/2026",
+    timestamp: "2026-04-10T08:00:00",
+    image: "../img/crime-que-se-disfarça-de-negocio-legitimo.webp",
+    excerpt: "A lavagem de dinheiro é o oxigênio do crime organizado, ocultando recursos ilícitos na economia formal brasileira.",
+    link: "../direito-penal/crime-que-se-disfarça-de-negocio-legitimo.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Doze Cidadãos Decidem Sobre a Vida",
     date: "09/04/2026",
     timestamp: "2026-04-09T09:00:00",

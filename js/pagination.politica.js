@@ -1,6 +1,16 @@
 // Dados de notícias para Política
 const categoryNewsData = [
     {
+    title: "O Instrumento Que Pode Derrubar um Presidente",
+    date: "10/04/2026",
+    timestamp: "2026-04-10T09:00:00",
+    image: "../img/instrumento-que-pode-derrubar-um-presidente.webp",
+    excerpt: "O impeachment é o instrumento constitucional de responsabilização dos titulares de cargos públicos por crimes de responsabilidade.",
+    link: "../politica/instrumento-que-pode-derrubar-um-presidente.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "O Estado Deve Contas, Não Favores",
     date: "09/04/2026",
     timestamp: "2026-04-09T09:00:00",

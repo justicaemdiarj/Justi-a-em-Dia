@@ -1,6 +1,16 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
     {
+    title: "Denunciar Não É Trair, É Proteger a Empresa",
+    date: "10/04/2026",
+    timestamp: "2026-04-10T07:00:00",
+    image: "../img/denunciar-nao-e-trair-e-proteger-a-empresa.webp",
+    excerpt: "O canal de denúncias é instrumento essencial dos programas de integridade corporativa para proteção das organizações.",
+    link: "../compliance/denunciar-nao-e-trair-e-proteger-a-empresa.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Risco Ignorado É Passivo Acumulado",
     date: "09/04/2026",
     timestamp: "2026-04-09T06:00:00",

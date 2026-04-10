@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
     {
+    title: "A Disciplina Também Precisa de Processo Justo",
+    date: "10/04/2026",
+    timestamp: "2026-04-10T06:00:00",
+    image: "../img/disciplina-tambem-precisa-de-processo-justo.webp",
+    excerpt: "O processo administrativo disciplinar militar exige respeito às garantias constitucionais do contraditório e da ampla defesa.",
+    link: "../direito-militar/disciplina-tambem-precisa-de-processo-justo.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "A Farda Não Blinda Contra a Improbidade",
     date: "09/04/2026",
     timestamp: "2026-04-09T07:00:00",

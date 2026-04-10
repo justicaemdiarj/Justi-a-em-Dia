@@ -1,6 +1,16 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
     {
+    title: "A Casa Não Pode Ser Palco de Crueldade",
+    date: "10/04/2026",
+    timestamp: "2026-04-10T10:00:00",
+    image: "../img/casa-nao-pode-ser-palco-de-crueldade.webp",
+    excerpt: "A violência doméstica e as medidas protetivas da Lei Maria da Penha são instrumentos essenciais de proteção às mulheres no Brasil.",
+    link: "../direito-de-familia/casa-nao-pode-ser-palco-de-crueldade.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Antes do Altar, Escolha o Regime Certo",
     date: "09/04/2026",
     timestamp: "2026-04-09T07:00:00",

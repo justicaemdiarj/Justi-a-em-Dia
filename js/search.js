@@ -1,6 +1,70 @@
 // Base de dados global de artigos para busca
 const allArticles = [
 
+
+{
+    title: 'Denunciar Não É Trair, É Proteger a Empresa',
+    description: 'O canal de denúncias é instrumento essencial do compliance corporativo, com requisitos de efetividade, proteção ao denunciante e relação com a LGPD no Brasil.',
+    category: 'Compliance',
+    url: 'compliance/denunciar-nao-e-trair-e-proteger-a-empresa.html',
+    tags: ['canal de denúncias', 'whistleblower', 'Denunciar Não É Trair, É Proteger a Empresa']
+},
+{
+    title: 'Sem Previsibilidade Não Há Estado de Direito',
+    description: 'A segurança jurídica é pressuposto do Estado de Direito e condição para o investimento, com precedentes obrigatórios, modulação de efeitos e proteção da confiança legítima.',
+    category: 'Jurisprudência',
+    url: 'jurisprudencia/sem-previsibilidade-nao-ha-estado-de-direito.html',
+    tags: ['segurança jurídica', 'Estado de Direito', 'Sem Previsibilidade Não Há Estado de Direito']
+},
+{
+    title: 'O Brasil tem Leis Demais e Efetividade de Menos',
+    description: 'A efetividade das leis no Brasil é um dos maiores desafios do ordenamento jurídico nacional, com excesso normativo, baixa capacidade de fiscalização e insegurança jurídica.',
+    category: 'Legislação',
+    url: 'legislacao/brasil-tem-leis-demais-e-efetividade-de-menos.html',
+    tags: ['efetividade das leis', 'legislação brasileira', 'O Brasil tem Leis Demais e Efetividade de Menos']
+},
+{
+    title: 'O Instrumento Que Pode Derrubar um Presidente',
+    description: 'O impeachment é o instrumento constitucional de responsabilização dos titulares de cargos públicos, com procedimento bifásico, papel do STF e crimes de responsabilidade.',
+    category: 'Política',
+    url: 'politica/instrumento-que-pode-derrubar-um-presidente.html',
+    tags: ['impeachment', 'crimes de responsabilidade', 'O Instrumento Que Pode Derrubar um Presidente']
+},
+{
+    title: 'Trabalhador ou Parceiro? A Lei Define Isso',
+    description: 'O reconhecimento do vínculo empregatício é decisivo para os direitos dos trabalhadores, com pejotização, trabalho por plataformas e o princípio da primazia da realidade.',
+    category: 'Direito Trabalhista',
+    url: 'direito-trabalhista/trabalhador-ou-parceiro-a-lei-define-isso.html',
+    tags: ['vínculo empregatício', 'trabalho por plataformas', 'Trabalhador ou Parceiro? A Lei Define Isso']
+},
+{
+    title: 'O Crime que Se Disfarça de Negócio Legítimo',
+    description: 'A lavagem de dinheiro é o oxigênio do crime organizado, regulada pela Lei nº 9.613, com o COAF, as criptomoedas e os esforços do GAFI no combate à lavagem de capitais.',
+    category: 'Direito Criminal',
+    url: 'direito-penal/crime-que-se-disfarça-de-negocio-legitimo.html',
+    tags: ['lavagem de dinheiro', 'COAF', 'O Crime que Se Disfarça de Negócio Legítimo']
+},
+{
+    title: 'A Casa Não Pode Ser Palco de Crueldade',
+    description: 'A violência doméstica e as medidas protetivas da Lei Maria da Penha protegem as mulheres com feminicídio, violência psicológica e medidas de urgência no direito de família brasileiro.',
+    category: 'Direito de Família',
+    url: 'direito-de-familia/casa-nao-pode-ser-palco-de-crueldade.html',
+    tags: ['violência doméstica', 'medidas protetivas', 'A Casa Não Pode Ser Palco de Crueldade']
+},
+{
+    title: 'Quem Lucra com o Risco Responde pelo Dano',
+    description: 'A teoria do risco no direito civil fundamenta a responsabilidade objetiva, com o artigo 927 do Código Civil, o CDC e aplicações na economia digital brasileira.',
+    category: 'Direito Civil',
+    url: 'direito-civil/quem-lucra-com-o-risco-responde-pelo-dano.html',
+    tags: ['teoria do risco', 'responsabilidade objetiva', 'Quem Lucra com o Risco Responde pelo Dano']
+},
+{
+    title: 'A Disciplina Também Precisa de Processo Justo',
+    description: 'O processo administrativo disciplinar militar exige respeito ao contraditório, ampla defesa e devido processo legal nas Forças Armadas brasileiras.',
+    category: 'Direito Militar',
+    url: 'direito-militar/disciplina-tambem-precisa-de-processo-justo.html',
+    tags: ['processo disciplinar militar', 'PAD militar', 'A Disciplina Também Precisa de Processo Justo']
+},
     {
     title: 'Ganho Sem Fundamento Deve Ser Devolvido',
     description: 'O enriquecimento sem causa é princípio fundamental do direito civil que proíbe o locupletamento indevido, com requisitos legais, pagamento indevido e aplicações jurisprudenciais no Brasil.',

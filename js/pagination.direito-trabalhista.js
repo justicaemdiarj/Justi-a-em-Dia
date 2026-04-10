@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
     {
+    title: "Trabalhador ou Parceiro? A Lei Define Isso",
+    date: "10/04/2026",
+    timestamp: "2026-04-10T09:00:00",
+    image: "../img/trabalhador-ou-parceiro-a-lei-define-isso.webp",
+    excerpt: "O reconhecimento do vínculo empregatício é decisivo para os direitos dos trabalhadores brasileiros.",
+    link: "../direito-trabalhista/trabalhador-ou-parceiro-a-lei-define-isso.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Acidente de Trabalho Não É Fatalidade",
     date: "09/04/2026",
     timestamp: "2026-04-09T07:00:00",

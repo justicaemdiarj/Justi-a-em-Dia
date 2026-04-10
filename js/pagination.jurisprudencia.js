@@ -1,6 +1,16 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
     {
+    title: "Sem Previsibilidade Não Há Estado de Direito",
+    date: "10/04/2026",
+    timestamp: "2026-04-10T09:00:00",
+    image: "../img/sem-previsibilidade-nao-ha-estado-de-direito.webp",
+    excerpt: "A segurança jurídica é pressuposto do Estado de Direito e condição para o investimento produtivo no Brasil.",
+    link: "../jurisprudencia/sem-previsibilidade-nao-ha-estado-de-direito.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "O TST que Muda as Regras do Trabalho",
     date: "09/04/2026",
     timestamp: "2026-04-09T12:00:00",

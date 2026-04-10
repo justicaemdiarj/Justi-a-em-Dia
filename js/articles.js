@@ -2,72 +2,73 @@ const posts = [
   
   
 {
-  title: "Antes do Altar, Escolha o Regime Certo",
-  description: "A escolha do regime de bens no casamento tem consequências patrimoniais de longo alcance para os cônjuges",
-  description2: "Comunhão parcial, separação de bens e pacto antenupcial no direito de família brasileiro",
-  image: "img/antes-do-altar-escolha-o-regime-certo.webp",
-  link: "direito-de-familia/antes-do-altar-escolha-o-regime-certo.html",
-  date: "2026-04-09T07:00:00",
+  title: "O Crime que Se Disfarça de Negócio Legítimo",
+description: "A lavagem de dinheiro é o oxigênio do crime organizado, ocultando recursos ilícitos na economia formal",
+  description2: "Lei nº 9.613, COAF, criptomoedas e esforços internacionais no combate à lavagem de capitais",
+  image: "img/crime-que-se-disfarça-de-negocio-legitimo.webp",
+  link: "direito-penal/crime-que-se-disfarça-de-negocio-legitimo.html",
+  date: "2026-04-10T08:00:00",
   section: "featured"
 },
   {
-  title: "Ganho Sem Fundamento Deve Ser Devolvido",
-  description: "O enriquecimento sem causa é princípio fundamental do direito civil que proíbe o locupletamento indevido às custas de outrem",
-  description2: "Requisitos legais, pagamento indevido e tendências jurisprudenciais sobre o instituto do enriquecimento sem causa",
-  image: "img/ganho-sem-fundamento-deve-ser-devolvido.webp",
-  link: "direito-civil/ganho-sem-fundamento-deve-ser-devolvido.html",
-  date: "2026-04-09T09:00:00",
+  title: "Sem Previsibilidade Não Há Estado de Direito",
+  description: "A segurança jurídica é pressuposto do Estado de Direito e condição para o investimento produtivo no Brasil",
+  description2: "Modulação de efeitos do STF, precedentes obrigatórios e proteção da confiança legítima no ordenamento",
+  image: "img/sem-previsibilidade-nao-ha-estado-de-direito.webp",
+  link: "jurisprudencia/sem-previsibilidade-nao-ha-estado-de-direito.html",
+  date: "2026-04-10T09:00:00",
   section: "featured-secundario"
 },
 {
-  title: "A Farda Não Blinda Contra a Improbidade",
-  description: "Militar pode responder por improbidade administrativa segundo a jurisprudência do STJ e do STF",
-  description2: "Lei de Improbidade, reforma de 2021 e o controle civil sobre as Forças Armadas no Brasil",
-  image: "img/farda-nao-blinda-contra-improbidade.webp",
-  link: "direito-militar/farda-nao-blinda-contra-improbidade.html",
-  date: "2026-04-09T07:00:00",
+  title: "O Brasil tem Leis Demais e Efetividade de Menos",
+  description: "A efetividade das leis no Brasil é um dos maiores desafios do ordenamento jurídico nacional",
+  description2: "Excesso normativo, capacidade de fiscalização e os caminhos para transformar normas em realidade social",
+  image: "img/brasil-tem-leis-demais-e-efetividade-de-menos.webp",
+  link: "legislacao/brasil-tem-leis-demais-e-efetividade-de-menos.html",
+  date: "2026-04-10T07:00:00",
  section: "featured-terciario"
 },
   {
-  title: "Doze Cidadãos Decidem Sobre a Vida",
-  image: "img/doze-cidadaos-decidem-sobre-a-vida.webp",
-  link: "direito-penal/doze-cidadaos-decidem-sobre-a-vida.html",
-  date: "2026-04-09T09:00:00",
+  title: "O Instrumento Que Pode Derrubar um Presidente",
+  image: "img/instrumento-que-pode-derrubar-um-presidente.webp",
+  link: "politica/instrumento-que-pode-derrubar-um-presidente.html",
+  date: "2026-04-10T09:00:00",
     section: "destaque"
   },
    {
-  title: "Acidente de Trabalho Não É Fatalidade",
-  image: "img/acidente-de-trabalho-nao-e-fatalidade.webp",
-  link: "direito-trabalhista/acidente-de-trabalho-nao-e-fatalidade.html",
-  date: "2026-04-09T09:00:00",
+  title: "Trabalhador ou Parceiro? A Lei Define Isso",
+  image: "img/trabalhador-ou-parceiro-a-lei-define-isso.webp",
+  link: "direito-trabalhista/trabalhador-ou-parceiro-a-lei-define-isso.html",
+  date: "2026-04-10T09:00:00",
     section: "destaque"
   },
   {
-  title: "O Estado Deve Contas, Não Favores",
-  image: "img/estado-deve-contas-nao-favores.webp",
-  link: "politica/estado-deve-contas-nao-favores.html",
-  date: "2026-04-09T09:00:00",
+  title: "Denunciar Não É Trair, É Proteger a Empresa",
+  image: "img/denunciar-nao-e-trair-e-proteger-a-empresa.webp",
+  link: "compliance/denunciar-nao-e-trair-e-proteger-a-empresa.html",
+  date: "2026-04-10T07:00:00",
     section: "destaque"
+
   },
   {
-  title: "O Trabalho Ganhou Novas Regras Silenciosas",
-  image: "img/trabalho-ganhou-novas-regras-silenciosas.webp",
-  link: "legislacao/trabalho-ganhou-novas-regras-silenciosas.html",
-  date: "2026-04-09T10:00:00",
+  title: "A Casa Não Pode Ser Palco de Crueldade",
+  image: "img/casa-nao-pode-ser-palco-de-crueldade.webp",
+  link: "direito-de-familia/casa-nao-pode-ser-palco-de-crueldade.html",
+  date: "2026-04-10T10:00:00",
     section: "veja"
   },
   {
-  title: "O TST que Muda as Regras do Trabalho",
-  image: "img/tst-que-muda-as-regras-do-trabalho.webp",
-  link: "jurisprudencia/tst-que-muda-as-regras-do-trabalho.html",
-  date: "2026-04-09T12:00:00",
+  title: "Quem Lucra com o Risco Responde pelo Dano",
+  image: "img/quem-lucra-com-o-risco-responde-pelo-dano.webp",
+  link: "direito-civil/quem-lucra-com-o-risco-responde-pelo-dano.html",
+  date: "2026-04-10T12:00:00",
     section: "veja"
   },
   {
-  title: "Risco Ignorado É Passivo Acumulado",
-  image: "img/risco-ignorado-e-passivo-acumulado.webp",
-  link: "compliance/risco-ignorado-e-passivo-acumulado.html",
-  date: "2026-04-09T06:00:00",
+  title: "A Disciplina Também Precisa de Processo Justo",
+  image: "img/disciplina-tambem-precisa-de-processo-justo.webp",
+  link: "direito-militar/disciplina-tambem-precisa-de-processo-justo.html",
+  date: "2026-04-10T06:00:00",
     section: "veja"
   }
 ];

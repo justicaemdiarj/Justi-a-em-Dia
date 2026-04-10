@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
     {
+    title: "Quem Lucra com o Risco Responde pelo Dano",
+    date: "10/04/2026",
+    timestamp: "2026-04-10T12:00:00",
+    image: "../img/quem-lucra-com-o-risco-responde-pelo-dano.webp",
+    excerpt: "A teoria do risco no direito civil fundamenta a responsabilidade objetiva de quem exerce atividades perigosas.",
+    link: "../direito-civil/quem-lucra-com-o-risco-responde-pelo-dano.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Ganho Sem Fundamento Deve Ser Devolvido",
     date: "09/04/2026",
     timestamp: "2026-04-09T09:00:00",
