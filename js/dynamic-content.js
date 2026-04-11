@@ -15,122 +15,6 @@ const globalNewsData = [
 
 
 {
-  title: "Alimentos sob Revisão, Direitos em Disputa",
-  link: "direito-de-familia/pensao-alimenticia-revisao-direito-familia-brasil.html",
-},
-{
-  title: "Contratos, Confiança e o Dever de Lealdade",
-  link: "direito-civil/boa-fe-objetiva-contratos-direito-civil-brasil.html",
-},
-{
-  title: "Farda, Voz e os Limites Constitucionais",
-  link: "direito-militar/liberdade-expressao-militar-limites-constitucionais-brasil.html",
-},
-{
-  title: "A Última Vontade e Seus Herdeiros",
-  link: "direito-de-familia/testamento-heranca-direito-sucessorio-brasil.html",
-},
-{
-  title: "Ser Humano, Ser Direito, Ser Protegido",
-  link: "direito-civil/direitos-personalidade-dignidade-humana-brasil.html",
-},
-{
-  title: "Duas Fardas, Um Salário, Nenhuma Explicação",
-  link: "direito-militar/acumulacao-cargos-militares-vedacao-constitucional-brasil.html",
-},
-{
-  title: "STJ como Árbitro do Direito Infraconstitucional",
-  link: "jurisprudencia/stj-arbitro-direito-infraconstitucional-brasil.html",
-},
-{
-  title: "ECA em Xeque diante dos Novos Desafios Sociais",
-  link: "legislacao/eca-estatuto-crianca-adolescente-desafios-brasil.html",
-},
-{
-  title: "Soberania Popular entre Promessa e Realidade",
-  link: "politica/soberania-popular-democracia-participacao-brasil.html",
-},
-{
-  title: "Teletrabalho e o Dilema do Registro de Horas",
-  link: "direito-trabalhista/teletrabalho-controle-jornada-home-office-brasil.html",
-},
-{
-  title: "Inocência Presumida sob Pressão no Brasil",
-  link: "direito-penal/presuncao-inocencia-pressao-democratica-brasil.html",
-},
-{
-  title: "Fim da Pensão Alimentícia e Seus Reflexos Jurídicos",
-  link: "direito-de-familia/exoneracao-alimentos-reflexos-juridicos-brasil.html",
-},
-{
-  title: "Contratos Digitais e Sua Validade no Direito",
-  link: "direito-civil/contratos-digitais-validade-juridica-brasil.html",
-},
-{
-  title: "Justiça Militar e os Limites da Competência Castrense",
-  link: "direito-militar/justica-militar-competencia-castrense-brasil.html",
-},
-{
-    title: "Ética Corporativa Além do Papel",
-    link: "compliance/etica-corporativa-alem-do-papel.html",
-},
-{
-    title: "Poder sem Controle Destrói Empresas",
-    link: "compliance/poder-sem-controle-destroi-empresas.html",
-},
-{
-    title: "Quando o Judiciário se Fecha em Si",
-    link: "jurisprudencia/quando-o-judiciario-se-fecha-em-si.html",
-},
-{
-    title: "A Lei que Pôs Empresas no Banco dos Réus",
-    link: "legislacao/lei-que-pos-empresas-no-banco-dos-reus.html",
-},
-{
-    title: "Votar Não Basta, Participar É a Chave",
-    link: "politica/votar-nao-basta-participar-e-a-chave.html",
-},
-{
-    title: "Demissão Forçada pelo Erro do Patrão",
-    link: "direito-trabalhista/demissao-forcada-pelo-erro-do-patrao.html",
-},
-{
-    title: "A Pena que o Brasil Não Sabe Cumprir",
-    link: "direito-penal/pena-que-o-brasil-nao-sabe-cumprir.html",
-},
-{
-    title: "Separar sem Juiz Virou Regra",
-    link: "direito-de-familia/separar-sem-juiz-virou-regra.html",
-},
-{
-    title: "Sua Imagem Tem Dono e É Você",
-    link: "direito-civil/sua-imagem-tem-dono-e-e-voce.html",
-},
-{
-    title: "A Farda Também Tem Direitos a Proteger",
-    link: "direito-militar/farda-tambem-tem-direitos-a-proteger.html",
-},
-{
-    title: "Dados Pessoais Exigem Programa de Conformidade",
-    link: "compliance/dados-pessoais-exigem-programa-de-conformidade.html",
-},
-{
-    title: "A Palavra Final que Amarra Todos os Juízes",
-    link: "jurisprudencia/palavra-final-que-amarra-todos-os-juizes.html",
-},
-{
-    title: "O Código Civil Precisa Crescer com o Brasil",
-    link: "legislacao/codigo-civil-precisa-crescer-com-o-brasil.html",
-},
-{
-    title: "Três Poderes, Uma República em Disputa",
-    link: "politica/tres-poderes-uma-republica-em-disputa.html",
-},
-{
-    title: "O Escritório Mudou de Endereço, a Lei Também?",
-    link: "direito-trabalhista/escritorio-mudou-de-endereco-a-lei-tambem.html",
-},
-{
     title: "Preso Antes de Condenado, Até Quando?",
     link: "direito-penal/preso-antes-de-condenado-ate-quando.html",
 },
@@ -218,7 +102,42 @@ const globalNewsData = [
     title: "A Disciplina Também Precisa de Processo Justo",
     link: "direito-militar/disciplina-tambem-precisa-de-processo-justo.html",
 },
-
+{
+    title: "Corrupção Não Se Combate Só Com Prisão",
+    link: "compliance/corrupcao-nao-se-combate-so-com-prisao.html",
+},
+{
+    title: "Tribunais Reescrevem as Regras da Família",
+    link: "jurisprudencia/tribunais-reescrevem-as-regras-da-familia.html",
+},
+{
+    title: "A Lei que Entrou na Casa das Mulheres",
+    link: "legislacao/lei-que-entrou-na-casa-das-mulheres.html",
+},
+{
+    title: "O Sistema Político que Resiste à Mudança",
+    link: "politica/sistema-politico-que-resiste-a-mudanca.html",
+},
+{
+    title: "Trabalho a Pedido Tem Direito Garantido",
+    link: "direito-trabalhista/trabalho-a-pedido-tem-direito-garantido.html",
+},
+{
+    title: "Palavras Também Ferem e a Lei Pune Isso",
+    link: "direito-penal/palavras-tambem-ferem-e-a-lei-pune-isso.html",
+},
+{
+    title: "Pai no Registro É Direito Que Não Prescreve",
+    link: "direito-de-familia/pai-no-registro-e-direito-que-nao-prescreve.html",
+},
+{
+    title: "Ter a Chave Não É Ser o Dono",
+    link: "direito-civil/ter-a-chave-nao-e-ser-o-dono.html",
+},
+{
+    title: "A Farda Que o Corpo Não Aguenta Mais",
+    link: "direito-militar/farda-que-o-corpo-nao-aguenta-mais.html",
+},
 
 
 ];

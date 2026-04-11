@@ -1,6 +1,16 @@
 // Dados de notícias para Política
 const categoryNewsData = [
     {
+    title: "O Sistema Político que Resiste à Mudança",
+    date: "11/04/2026",
+    timestamp: "2026-04-11T07:00:00",
+    image: "../img/sistema-politico-que-resiste-a-mudanca.webp",
+    excerpt: "A reforma política no Brasil é urgente e permanentemente adiada pelos obstáculos estruturais do sistema eleitoral.",
+    link: "../politica/sistema-politico-que-resiste-a-mudanca.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "O Instrumento Que Pode Derrubar um Presidente",
     date: "10/04/2026",
     timestamp: "2026-04-10T09:00:00",

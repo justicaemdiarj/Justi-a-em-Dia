@@ -1,6 +1,16 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
     {
+    title: "A Lei que Entrou na Casa das Mulheres",
+    date: "11/04/2026",
+    timestamp: "2026-04-11T07:00:00",
+    image: "../img/lei-que-entrou-na-casa-das-mulheres.webp",
+    excerpt: "A Lei Maria da Penha transformou o combate à violência doméstica e criou um sistema integrado de proteção às mulheres no Brasil.",
+    link: "../legislacao/lei-que-entrou-na-casa-das-mulheres.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "O Brasil tem Leis Demais e Efetividade de Menos",
     date: "10/04/2026",
     timestamp: "2026-04-10T07:00:00",

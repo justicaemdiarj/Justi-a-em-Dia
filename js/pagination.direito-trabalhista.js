@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
     {
+    title: "Trabalho a Pedido Tem Direito Garantido",
+    date: "11/04/2026",
+    timestamp: "2026-04-11T09:00:00",
+    image: "../img/trabalho-a-pedido-tem-direito-garantido.webp",
+    excerpt: "O trabalhador intermitente tem direitos específicos garantidos pela CLT, com regime de convocação e proteções da reforma trabalhista.",
+    link: "../direito-trabalhista/trabalho-a-pedido-tem-direito-garantido.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Trabalhador ou Parceiro? A Lei Define Isso",
     date: "10/04/2026",
     timestamp: "2026-04-10T09:00:00",

@@ -1,7 +1,70 @@
 // Base de dados global de artigos para busca
 const allArticles = [
 
+    {
+    title: 'Pai no Registro É Direito Que Não Prescreve',
+    description: 'O reconhecimento de paternidade é direito imprescritível que garante identidade, alimentos e herança, com investigação judicial e paternidade socioafetiva.',
+    category: 'Direito de Família',
+    url: 'direito-de-familia/pai-no-registro-e-direito-que-nao-prescreve.html',
+    tags: ['reconhecimento de paternidade', 'investigação de paternidade', 'Pai no Registro É Direito Que Não Prescreve']
+},
+{
+    title: 'A Farda Que o Corpo Não Aguenta Mais',
+    description: 'A reforma militar por incapacidade é direito assegurado pelo Estatuto dos Militares, com acidente em serviço, junta de saúde e proteção previdenciária.',
+    category: 'Direito Militar',
+    url: 'direito-militar/farda-que-o-corpo-nao-aguenta-mais.html',
+    tags: ['reforma militar por incapacidade', 'Estatuto dos Militares', 'A Farda Que o Corpo Não Aguenta Mais']
+},
+{
+    title: 'Ter a Chave Não É Ser o Dono',
+    description: 'Posse e propriedade são direitos distintos no direito civil, com ações possessórias, usucapião, função social da propriedade e conflitos fundiários.',
+    category: 'Direito Civil',
+    url: 'direito-civil/ter-a-chave-nao-e-ser-o-dono.html',
+    tags: ['posse e propriedade', 'usucapião', 'Ter a Chave Não É Ser o Dono']
+},
 
+{
+    title: 'Corrupção Não Se Combate Só Com Prisão',
+    description: 'A prevenção à corrupção é o caminho mais eficaz, com programas de integridade, Lei Anticorrupção e due diligence de terceiros no compliance brasileiro.',
+    category: 'Compliance',
+    url: 'compliance/corrupcao-nao-se-combate-so-com-prisao.html',
+    tags: ['prevenção à corrupção', 'programa de integridade', 'Corrupção Não Se Combate Só Com Prisão']
+},
+{
+    title: 'Tribunais Reescrevem as Regras da Família',
+    description: 'A jurisprudência em direito de família evolui além do Código Civil, com multiparentalidade, socioafetividade, guarda compartilhada e novos modelos familiares.',
+    category: 'Jurisprudência',
+    url: 'jurisprudencia/tribunais-reescrevem-as-regras-da-familia.html',
+    tags: ['jurisprudência direito de família', 'multiparentalidade', 'Tribunais Reescrevem as Regras da Família']
+},
+{
+    title: 'A Lei que Entrou na Casa das Mulheres',
+    description: 'A Lei Maria da Penha transformou o combate à violência doméstica no Brasil, com medidas protetivas, feminicídio, violência psicológica e atualizações legislativas.',
+    category: 'Legislação',
+    url: 'legislacao/lei-que-entrou-na-casa-das-mulheres.html',
+    tags: ['Lei Maria da Penha', 'violência doméstica', 'A Lei que Entrou na Casa das Mulheres']
+},
+{
+    title: 'O Sistema Político que Resiste à Mudança',
+    description: 'A reforma política no Brasil é urgente e adiada, com fragmentação partidária, financiamento eleitoral e obstáculos estruturais à mudança do sistema.',
+    category: 'Política',
+    url: 'politica/sistema-politico-que-resiste-a-mudanca.html',
+    tags: ['reforma política', 'sistema eleitoral', 'O Sistema Político que Resiste à Mudança']
+},
+{
+    title: 'Trabalho a Pedido Tem Direito Garantido',
+    description: 'O trabalhador intermitente tem direitos específicos garantidos pela CLT, com convocação, seguro-desemprego e proteções da reforma trabalhista de 2017.',
+    category: 'Direito Trabalhista',
+    url: 'direito-trabalhista/trabalho-a-pedido-tem-direito-garantido.html',
+    tags: ['trabalho intermitente', 'contrato intermitente', 'Trabalho a Pedido Tem Direito Garantido']
+},
+{
+    title: 'Palavras Também Ferem e a Lei Pune Isso',
+    description: 'Os crimes contra a honra protegem a reputação e a dignidade, com calúnia, difamação, injúria racial e crimes digitais no direito penal brasileiro.',
+    category: 'Direito Criminal',
+    url: 'direito-penal/palavras-tambem-ferem-e-a-lei-pune-isso.html',
+    tags: ['crimes contra a honra', 'calúnia difamação injúria', 'Palavras Também Ferem e a Lei Pune Isso']
+},
 {
     title: 'Denunciar Não É Trair, É Proteger a Empresa',
     description: 'O canal de denúncias é instrumento essencial do compliance corporativo, com requisitos de efetividade, proteção ao denunciante e relação com a LGPD no Brasil.',

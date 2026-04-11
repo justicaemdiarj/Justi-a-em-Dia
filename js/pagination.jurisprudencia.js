@@ -1,6 +1,16 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
     {
+    title: "Tribunais Reescrevem as Regras da Família",
+    date: "11/04/2026",
+    timestamp: "2026-04-11T11:00:00",
+    image: "../img/tribunais-reescrevem-as-regras-da-familia.webp",
+    excerpt: "A jurisprudência em direito de família evolui além do Código Civil, com multiparentalidade, socioafetividade e guarda compartilhada.",
+    link: "../jurisprudencia/tribunais-reescrevem-as-regras-da-familia.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Sem Previsibilidade Não Há Estado de Direito",
     date: "10/04/2026",
     timestamp: "2026-04-10T09:00:00",

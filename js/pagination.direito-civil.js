@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
     {
+    title: "Ter a Chave Não É Ser o Dono",
+    date: "11/04/2026",
+    timestamp: "2026-04-11T09:00:00",
+    image: "../img/ter-a-chave-nao-e-ser-o-dono.webp",
+    excerpt: "Posse e propriedade são direitos distintos no direito civil com consequências práticas relevantes em ações possessórias e usucapião.",
+    link: "../direito-civil/ter-a-chave-nao-e-ser-o-dono.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Quem Lucra com o Risco Responde pelo Dano",
     date: "10/04/2026",
     timestamp: "2026-04-10T12:00:00",

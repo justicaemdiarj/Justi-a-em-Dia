@@ -1,6 +1,16 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
     {
+    title: "Corrupção Não Se Combate Só Com Prisão",
+    date: "11/04/2026",
+    timestamp: "2026-04-11T08:00:00",
+    image: "../img/corrupcao-nao-se-combate-so-com-prisao.webp",
+    excerpt: "A prevenção à corrupção é o caminho mais eficaz para a integridade corporativa e pública no Brasil.",
+    link: "../compliance/corrupcao-nao-se-combate-so-com-prisao.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Denunciar Não É Trair, É Proteger a Empresa",
     date: "10/04/2026",
     timestamp: "2026-04-10T07:00:00",

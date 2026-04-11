@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
     {
+    title: "A Farda Que o Corpo Não Aguenta Mais",
+    date: "11/04/2026",
+    timestamp: "2026-04-11T08:00:00",
+    image: "../img/farda-que-o-corpo-nao-aguenta-mais.webp",
+    excerpt: "A reforma militar por incapacidade é direito assegurado pelo Estatuto dos Militares, com modalidades e proteções específicas.",
+    link: "../direito-militar/farda-que-o-corpo-nao-aguenta-mais.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "A Disciplina Também Precisa de Processo Justo",
     date: "10/04/2026",
     timestamp: "2026-04-10T06:00:00",

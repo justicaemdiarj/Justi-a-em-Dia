@@ -2,73 +2,73 @@ const posts = [
   
   
 {
-  title: "O Crime que Se Disfarça de Negócio Legítimo",
-description: "A lavagem de dinheiro é o oxigênio do crime organizado, ocultando recursos ilícitos na economia formal",
-  description2: "Lei nº 9.613, COAF, criptomoedas e esforços internacionais no combate à lavagem de capitais",
-  image: "img/crime-que-se-disfarça-de-negocio-legitimo.webp",
-  link: "direito-penal/crime-que-se-disfarça-de-negocio-legitimo.html",
-  date: "2026-04-10T08:00:00",
+  title: "Corrupção Não Se Combate Só Com Prisão",
+  description: "A prevenção à corrupção é o caminho mais eficaz para a integridade corporativa e pública no Brasil",
+  description2: "Programas de integridade, due diligence de terceiros e tendências globais no combate aos desvios",
+  image: "img/corrupcao-nao-se-combate-so-com-prisao.webp",
+  link: "compliance/corrupcao-nao-se-combate-so-com-prisao.html",
+  date: "2026-04-11T08:00:00",
   section: "featured"
 },
   {
-  title: "Sem Previsibilidade Não Há Estado de Direito",
-  description: "A segurança jurídica é pressuposto do Estado de Direito e condição para o investimento produtivo no Brasil",
-  description2: "Modulação de efeitos do STF, precedentes obrigatórios e proteção da confiança legítima no ordenamento",
-  image: "img/sem-previsibilidade-nao-ha-estado-de-direito.webp",
-  link: "jurisprudencia/sem-previsibilidade-nao-ha-estado-de-direito.html",
-  date: "2026-04-10T09:00:00",
+  title: "Tribunais Reescrevem as Regras da Família",
+  description: "A jurisprudência em direito de família evolui além do Código Civil com novos modelos de família reconhecidos",
+  description2: "Multiparentalidade, socioafetividade e guarda compartilhada nas decisões do STJ e do STF",
+  image: "img/tribunais-reescrevem-as-regras-da-familia.webp",
+  link: "jurisprudencia/tribunais-reescrevem-as-regras-da-familia.html",
+  date: "2026-04-11T11:00:00",
   section: "featured-secundario"
 },
 {
-  title: "O Brasil tem Leis Demais e Efetividade de Menos",
-  description: "A efetividade das leis no Brasil é um dos maiores desafios do ordenamento jurídico nacional",
-  description2: "Excesso normativo, capacidade de fiscalização e os caminhos para transformar normas em realidade social",
-  image: "img/brasil-tem-leis-demais-e-efetividade-de-menos.webp",
-  link: "legislacao/brasil-tem-leis-demais-e-efetividade-de-menos.html",
-  date: "2026-04-10T07:00:00",
+  title: "A Lei que Entrou na Casa das Mulheres",
+  description: "A Lei Maria da Penha transformou o combate à violência doméstica e criou um sistema integrado de proteção",
+  description2: "Medidas protetivas, feminicídio e quase duas décadas de avanços normativos na Lei nº 11.340",
+  image: "img/lei-que-entrou-na-casa-das-mulheres.webp",
+  link: "legislacao/lei-que-entrou-na-casa-das-mulheres.html",
+  date: "2026-04-11T07:00:00",
  section: "featured-terciario"
 },
   {
-  title: "O Instrumento Que Pode Derrubar um Presidente",
-  image: "img/instrumento-que-pode-derrubar-um-presidente.webp",
-  link: "politica/instrumento-que-pode-derrubar-um-presidente.html",
-  date: "2026-04-10T09:00:00",
+  title: "O Sistema Político que Resiste à Mudança",
+  image: "img/sistema-politico-que-resiste-a-mudanca.webp",
+  link: "politica/sistema-politico-que-resiste-a-mudanca.html",
+  date: "2026-04-11T07:00:00",
     section: "destaque"
   },
    {
-  title: "Trabalhador ou Parceiro? A Lei Define Isso",
-  image: "img/trabalhador-ou-parceiro-a-lei-define-isso.webp",
-  link: "direito-trabalhista/trabalhador-ou-parceiro-a-lei-define-isso.html",
-  date: "2026-04-10T09:00:00",
+  title: "Trabalho a Pedido Tem Direito Garantido",
+  image: "img/trabalho-a-pedido-tem-direito-garantido.webp",
+  link: "direito-trabalhista/trabalho-a-pedido-tem-direito-garantido.html",
+  date: "2026-04-11T09:00:00",
     section: "destaque"
   },
   {
-  title: "Denunciar Não É Trair, É Proteger a Empresa",
-  image: "img/denunciar-nao-e-trair-e-proteger-a-empresa.webp",
-  link: "compliance/denunciar-nao-e-trair-e-proteger-a-empresa.html",
-  date: "2026-04-10T07:00:00",
+  title: "Palavras Também Ferem e a Lei Pune Isso",
+  image: "img/palavras-tambem-ferem-e-a-lei-pune-isso.webp",
+  link: "direito-penal/palavras-tambem-ferem-e-a-lei-pune-isso.html",
+  date: "2026-04-11T08:00:00",
     section: "destaque"
 
   },
   {
-  title: "A Casa Não Pode Ser Palco de Crueldade",
-  image: "img/casa-nao-pode-ser-palco-de-crueldade.webp",
-  link: "direito-de-familia/casa-nao-pode-ser-palco-de-crueldade.html",
-  date: "2026-04-10T10:00:00",
+  title: "Pai no Registro É Direito Que Não Prescreve",
+  image: "img/pai-no-registro-e-direito-que-nao-prescreve.webp",
+  link: "direito-de-familia/pai-no-registro-e-direito-que-nao-prescreve.html",
+  date: "2026-04-11T12:00:00",
     section: "veja"
   },
   {
-  title: "Quem Lucra com o Risco Responde pelo Dano",
-  image: "img/quem-lucra-com-o-risco-responde-pelo-dano.webp",
-  link: "direito-civil/quem-lucra-com-o-risco-responde-pelo-dano.html",
-  date: "2026-04-10T12:00:00",
+  title: "Ter a Chave Não É Ser o Dono",
+  image: "img/ter-a-chave-nao-e-ser-o-dono.webp",
+  link: "direito-civil/ter-a-chave-nao-e-ser-o-dono.html",
+  date: "2026-04-11T09:00:00",
     section: "veja"
   },
   {
-  title: "A Disciplina Também Precisa de Processo Justo",
-  image: "img/disciplina-tambem-precisa-de-processo-justo.webp",
-  link: "direito-militar/disciplina-tambem-precisa-de-processo-justo.html",
-  date: "2026-04-10T06:00:00",
+  title: "A Farda Que o Corpo Não Aguenta Mais",
+  image: "img/farda-que-o-corpo-nao-aguenta-mais.webp",
+  link: "direito-militar/farda-que-o-corpo-nao-aguenta-mais.html",
+  date: "2026-04-11T08:00:00",
     section: "veja"
   }
 ];

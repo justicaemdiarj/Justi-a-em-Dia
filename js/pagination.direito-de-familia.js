@@ -1,6 +1,16 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
     {
+    title: "Pai no Registro É Direito Que Não Prescreve",
+    date: "11/04/2026",
+    timestamp: "2026-04-11T12:00:00",
+    image: "../img/pai-no-registro-e-direito-que-nao-prescreve.webp",
+    excerpt: "O reconhecimento de paternidade é direito imprescritível que garante identidade, alimentos e herança no direito de família.",
+    link: "../direito-de-familia/pai-no-registro-e-direito-que-nao-prescreve.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "A Casa Não Pode Ser Palco de Crueldade",
     date: "10/04/2026",
     timestamp: "2026-04-10T10:00:00",

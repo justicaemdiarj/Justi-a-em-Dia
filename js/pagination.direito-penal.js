@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
     {
+    title: "Palavras Também Ferem e a Lei Pune Isso",
+    date: "11/04/2026",
+    timestamp: "2026-04-11T08:00:00",
+    image: "../img/palavras-tambem-ferem-e-a-lei-pune-isso.webp",
+    excerpt: "Os crimes contra a honra no Código Penal protegem a reputação e a dignidade das pessoas com calúnia, difamação e injúria.",
+    link: "../direito-penal/palavras-tambem-ferem-e-a-lei-pune-isso.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "O Crime que Se Disfarça de Negócio Legítimo",
     date: "10/04/2026",
     timestamp: "2026-04-10T08:00:00",
