@@ -3630,4 +3630,98 @@
     <news:title>A Farda Que o Corpo Não Aguenta Mais</news:title>
   </news:news>
 </url>
+<url>
+  <loc>https://www.justicaemdia.com.br/compliance/lupa-que-protege-a-empresa-por-dentro.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-04-13T07:00:00-03:00</news:publication_date>
+    <news:title>A Lupa Que Protege a Empresa por Dentro</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/jurisprudencia/o-que-os-outros-sistemas-ensinam-ao-nosso.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-04-10T07:00:00-03:00</news:publication_date>
+    <news:title>O Que os Outros Sistemas Ensinam ao Nosso</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/legislacao/quando-legislar-demais-prejudica-a-lei.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-04-10T07:00:00-03:00</news:publication_date>
+    <news:title>Quando Legislar Demais Prejudica a Lei</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/politica/como-o-brasil-escolhe-seus-representantes.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-04-10T07:00:00-03:00</news:publication_date>
+    <news:title>Como o Brasil Escolhe Seus Representantes</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-trabalhista/mesma-funcao-exige-mesmo-salario.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-04-10T07:00:00-03:00</news:publication_date>
+    <news:title>Mesma Função Exige Mesmo Salário</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-penal/confissao-que-pode-mudar-tudo.html</loc>
+  <lastmod>2026-04-10</lastmod>
+  <changefreq>always</changefreq>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-de-familia/crianca-pode-ter-dois-pais-no-registro.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-04-10T07:00:00-03:00</news:publication_date>
+    <news:title>Uma Criança Pode Ter Dois Pais no Registro</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-civil/tempo-de-posse-pode-virar-titulo-de-dono.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-04-10T07:00:00-03:00</news:publication_date>
+    <news:title>Tempo de Posse Pode Virar Título de Dono</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-militar/hierarquia-que-vira-instrumento-de-tortura.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-04-10T07:00:00-03:00</news:publication_date>
+    <news:title>A Hierarquia Que Vira Instrumento de Tortura</news:title>
+  </news:news>
+</url>
 </urlset>
