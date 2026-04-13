@@ -3724,4 +3724,103 @@
     <news:title>A Hierarquia Que Vira Instrumento de Tortura</news:title>
   </news:news>
 </url>
+ <url>
+   <loc>https://www.justicaemdia.com.br/jurisprudencia/decisoes-penais-moldam-direito-brasil.html</loc>
+   <news:news>
+     <news:publication>
+       <news:name>Justiça em Dia</news:name>
+       <news:language>pt</news:language>
+     </news:publication>
+     <news:publication_date>2026-04-14T07:00:00-03:00</news:publication_date>
+     <news:title>Decisões Penais que Moldam o Direito</news:title>
+   </news:news>
+ </url>
+  <url>
+   <loc>https://www.justicaemdia.com.br/compliance/governanca-empresarial-accountability-juridico-brasil.html</loc>
+   <news:news>
+     <news:publication>
+       <news:name>Justiça em Dia</news:name>
+       <news:language>pt</news:language>
+     </news:publication>
+     <news:publication_date>2026-04-14T07:00:00-03:00</news:publication_date>
+     <news:title>Governança Empresarial e Accountability Jurídico</news:title>
+   </news:news>
+ </url>
+  <url>
+   <loc>https://www.justicaemdia.com.br/politica/desinformacao-eleitoral-peso-lei-democracia.html</loc>
+   <news:news>
+     <news:publication>
+       <news:name>Justiça em Dia</news:name>
+       <news:language>pt</news:language>
+     </news:publication>
+     <news:publication_date>2026-04-14T07:00:00-03:00</news:publication_date>
+     <news:title>Desinformação Eleitoral e o Peso da Lei</news:title>
+   </news:news>
+ </url>
+  <url>
+   <loc>https://www.justicaemdia.com.br/direito-militar/saida-fileiras-militares-escrutinio-juridico.html</loc>
+   <news:news>
+     <news:publication>
+       <news:name>Justiça em Dia</news:name>
+       <news:language>pt</news:language>
+     </news:publication>
+     <news:publication_date>2026-04-14T07:00:00-03:00</news:publication_date>
+     <news:title>Saída das Fileiras Militares sob Escrutínio</news:title>
+   </news:news>
+ </url>
+  <url>
+   <loc>https://www.justicaemdia.com.br/direito-de-familia/adocao-legal-caminhos-familia-brasil.html</loc>
+   <news:news>
+     <news:publication>
+       <news:name>Justiça em Dia</news:name>
+       <news:language>pt</news:language>
+     </news:publication>
+     <news:publication_date>2026-04-14T07:00:00-03:00</news:publication_date>
+     <news:title>Adoção Legal e os Caminhos da Família</news:title>
+   </news:news>
+ </url>
+  <url>
+   <loc>https://www.justicaemdia.com.br/direito-penal/excludentes-ilicitude-direito-penal-brasileiro.html</loc>
+   <news:news>
+     <news:publication>
+       <news:name>Justiça em Dia</news:name>
+       <news:language>pt</news:language>
+     </news:publication>
+     <news:publication_date>2026-04-14T07:00:00-03:00</news:publication_date>
+     <news:title>Quando o Direito Penal Autoriza a Conduta</news:title>
+   </news:news>
+ </url>
+  <url>
+   <loc>https://www.justicaemdia.com.br/direito-trabalhista/banco-horas-olhar-juridico-trabalhista.html</loc>
+   <news:news>
+     <news:publication>
+       <news:name>Justiça em Dia</news:name>
+       <news:language>pt</news:language>
+     </news:publication>
+     <news:publication_date>2026-04-14T07:00:00-03:00</news:publication_date>
+     <news:title>Banco de Horas sob o Olhar Jurídico</news:title>
+   </news:news>
+ </url>
+  <url>
+   <loc>https://www.justicaemdia.com.br/direito-civil/responsabilidade-medica-reparacao-civil-brasil.html</loc>
+   <news:news>
+     <news:publication>
+       <news:name>Justiça em Dia</news:name>
+       <news:language>pt</news:language>
+     </news:publication>
+     <news:publication_date>2026-04-14T07:00:00-03:00</news:publication_date>
+     <news:title>Responsabilidade Médica e Reparação Civil</news:title>
+   </news:news>
+ </url>
+  <url>
+   <loc>https://www.justicaemdia.com.br/legislacao/normas-ambientais-tensao-politica-brasil.html</loc>
+   <news:news>
+     <news:publication>
+       <news:name>Justiça em Dia</news:name>
+       <news:language>pt</news:language>
+     </news:publication>
+     <news:publication_date>2026-04-14T07:00:00-03:00</news:publication_date>
+     <news:title>Normas Ambientais sob Tensão Política</news:title>
+   </news:news>
+ </url>
 </urlset>
