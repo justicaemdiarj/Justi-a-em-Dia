@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
     {
+    title: "A Hierarquia Que Vira Instrumento de Tortura",
+    date: "13/04/2026",
+    timestamp: "2026-04-13T08:00:00",
+    image: "../img/hierarquia-que-vira-instrumento-de-tortura.webp",
+    excerpt: "O assédio moral nas corporações militares compromete a dignidade e a saúde mental dos integrantes das Forças Armadas.",
+    link: "../direito-militar/hierarquia-que-vira-instrumento-de-tortura.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "A Farda Que o Corpo Não Aguenta Mais",
     date: "11/04/2026",
     timestamp: "2026-04-11T08:00:00",

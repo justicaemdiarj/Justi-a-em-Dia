@@ -1,6 +1,16 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
     {
+    title: "Quando Legislar Demais Prejudica a Lei",
+    date: "13/04/2026",
+    timestamp: "2026-04-13T07:00:00",
+    image: "../img/quando-legislar-demais-prejudica-a-lei.webp",
+    excerpt: "O excesso de legislação paralisa o Estado e onera cidadãos e empresas com inflação normativa e custos de conformidade.",
+    link: "../legislacao/quando-legislar-demais-prejudica-a-lei.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "A Lei que Entrou na Casa das Mulheres",
     date: "11/04/2026",
     timestamp: "2026-04-11T07:00:00",

@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
     {
+    title: "Tempo de Posse Pode Virar Título de Dono",
+    date: "13/04/2026",
+    timestamp: "2026-04-13T09:00:00",
+    image: "../img/tempo-de-posse-pode-virar-titulo-de-dono.webp",
+    excerpt: "A usucapião transforma o uso prolongado de bens em propriedade formalizada com diversas modalidades no direito civil.",
+    link: "../direito-civil/tempo-de-posse-pode-virar-titulo-de-dono.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Ter a Chave Não É Ser o Dono",
     date: "11/04/2026",
     timestamp: "2026-04-11T09:00:00",

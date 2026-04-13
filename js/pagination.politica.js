@@ -1,6 +1,16 @@
 // Dados de notícias para Política
 const categoryNewsData = [
     {
+    title: "Como o Brasil Escolhe Seus Representantes",
+    date: "13/04/2026",
+    timestamp: "2026-04-13T10:00:00",
+    image: "../img/como-o-brasil-escolhe-seus-representantes.webp",
+    excerpt: "O sistema eleitoral brasileiro combina majoritário e proporcional para definir os representantes da democracia brasileira.",
+    link: "../politica/como-o-brasil-escolhe-seus-representantes.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "O Sistema Político que Resiste à Mudança",
     date: "11/04/2026",
     timestamp: "2026-04-11T07:00:00",

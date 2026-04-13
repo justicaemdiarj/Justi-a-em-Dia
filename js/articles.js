@@ -2,73 +2,73 @@ const posts = [
   
   
 {
-  title: "Corrupção Não Se Combate Só Com Prisão",
-  description: "A prevenção à corrupção é o caminho mais eficaz para a integridade corporativa e pública no Brasil",
-  description2: "Programas de integridade, due diligence de terceiros e tendências globais no combate aos desvios",
-  image: "img/corrupcao-nao-se-combate-so-com-prisao.webp",
-  link: "compliance/corrupcao-nao-se-combate-so-com-prisao.html",
-  date: "2026-04-11T08:00:00",
+  title: "A Lupa Que Protege a Empresa por Dentro",
+  description: "A auditoria interna é função estratégica de defesa corporativa com plano baseado em riscos e conformidade",
+  description2: "Independência, tecnologia e impacto da auditoria interna na governança e nos mercados de capitais",
+  image: "img/lupa-que-protege-a-empresa-por-dentro.webp",
+  link: "compliance/lupa-que-protege-a-empresa-por-dentro.html",
+  date: "2026-04-13T07:00:00",
   section: "featured"
 },
   {
-  title: "Tribunais Reescrevem as Regras da Família",
-  description: "A jurisprudência em direito de família evolui além do Código Civil com novos modelos de família reconhecidos",
-  description2: "Multiparentalidade, socioafetividade e guarda compartilhada nas decisões do STJ e do STF",
-  image: "img/tribunais-reescrevem-as-regras-da-familia.webp",
-  link: "jurisprudencia/tribunais-reescrevem-as-regras-da-familia.html",
-  date: "2026-04-11T11:00:00",
+  title: "O Que os Outros Sistemas Ensinam ao Nosso",
+  description: "O direito comparado analisa sistemas jurídicos de diferentes países para aprimorar os ordenamentos nacionais",
+  description2: "Famílias jurídicas, influência do direito alemão, common law e transplante jurídico no Brasil",
+  image: "img/o-que-os-outros-sistemas-ensinam-ao-nosso.webp",
+  link: "jurisprudencia/o-que-os-outros-sistemas-ensinam-ao-nosso.html",
+  date: "2026-04-13T07:00:00",
   section: "featured-secundario"
 },
 {
-  title: "A Lei que Entrou na Casa das Mulheres",
-  description: "A Lei Maria da Penha transformou o combate à violência doméstica e criou um sistema integrado de proteção",
-  description2: "Medidas protetivas, feminicídio e quase duas décadas de avanços normativos na Lei nº 11.340",
-  image: "img/lei-que-entrou-na-casa-das-mulheres.webp",
-  link: "legislacao/lei-que-entrou-na-casa-das-mulheres.html",
-  date: "2026-04-11T07:00:00",
+  title: "Quando Legislar Demais Prejudica a Lei",
+  description: "O excesso de legislação paralisa o Estado e onera cidadãos e empresas com inflação normativa no Brasil",
+  description2: "Causas da inflação normativa, desburocratização e experiências internacionais de redução do volume normativo",
+  image: "img/quando-legislar-demais-prejudica-a-lei.webp",
+  link: "legislacao/quando-legislar-demais-prejudica-a-lei.html",
+  date: "2026-04-13T09:00:00",
  section: "featured-terciario"
 },
   {
-  title: "O Sistema Político que Resiste à Mudança",
-  image: "img/sistema-politico-que-resiste-a-mudanca.webp",
-  link: "politica/sistema-politico-que-resiste-a-mudanca.html",
-  date: "2026-04-11T07:00:00",
+  title: "Como o Brasil Escolhe Seus Representantes",
+  image: "img/como-o-brasil-escolhe-seus-representantes.webp",
+  link: "politica/como-o-brasil-escolhe-seus-representantes.html",
+  date: "2026-04-13T10:00:00",
     section: "destaque"
   },
    {
-  title: "Trabalho a Pedido Tem Direito Garantido",
-  image: "img/trabalho-a-pedido-tem-direito-garantido.webp",
-  link: "direito-trabalhista/trabalho-a-pedido-tem-direito-garantido.html",
-  date: "2026-04-11T09:00:00",
+  title: "Mesma Função Exige Mesmo Salário",
+  image: "img/mesma-funcao-exige-mesmo-salario.webp",
+  link: "direito-trabalhista/mesma-funcao-exige-mesmo-salario.html",
+  date: "2026-04-13T09:00:00",
     section: "destaque"
   },
   {
-  title: "Palavras Também Ferem e a Lei Pune Isso",
-  image: "img/palavras-tambem-ferem-e-a-lei-pune-isso.webp",
-  link: "direito-penal/palavras-tambem-ferem-e-a-lei-pune-isso.html",
-  date: "2026-04-11T08:00:00",
+  title: "Uma Criança Pode Ter Dois Pais no Registro",
+  image: "img/crianca-pode-ter-dois-pais-no-registro.webp",
+  link: "direito-de-familia/crianca-pode-ter-dois-pais-no-registro.html",
+  date: "2026-04-13T08:00:00",
     section: "destaque"
 
   },
   {
-  title: "Pai no Registro É Direito Que Não Prescreve",
-  image: "img/pai-no-registro-e-direito-que-nao-prescreve.webp",
-  link: "direito-de-familia/pai-no-registro-e-direito-que-nao-prescreve.html",
-  date: "2026-04-11T12:00:00",
+  title: "A Confissão Que Pode Mudar Tudo",
+  image: "img/confissao-que-pode-mudar-tudo.webp",
+  link: "direito-penal/confissao-que-pode-mudar-tudo.html",
+  date: "2026-04-13T12:00:00",
     section: "veja"
   },
   {
-  title: "Ter a Chave Não É Ser o Dono",
-  image: "img/ter-a-chave-nao-e-ser-o-dono.webp",
-  link: "direito-civil/ter-a-chave-nao-e-ser-o-dono.html",
-  date: "2026-04-11T09:00:00",
+  title: "Tempo de Posse Pode Virar Título de Dono",
+  image: "img/tempo-de-posse-pode-virar-titulo-de-dono.webp",
+  link: "direito-civil/tempo-de-posse-pode-virar-titulo-de-dono.html",
+  date: "2026-04-13T09:00:00",
     section: "veja"
   },
   {
-  title: "A Farda Que o Corpo Não Aguenta Mais",
-  image: "img/farda-que-o-corpo-nao-aguenta-mais.webp",
-  link: "direito-militar/farda-que-o-corpo-nao-aguenta-mais.html",
-  date: "2026-04-11T08:00:00",
+  title: "A Hierarquia Que Vira Instrumento de Tortura",
+  image: "img/hierarquia-que-vira-instrumento-de-tortura.webp",
+  link: "direito-militar/hierarquia-que-vira-instrumento-de-tortura.html",
+  date: "2026-04-13T08:00:00",
     section: "veja"
   }
 ];
@@ -284,14 +284,14 @@ document.addEventListener("DOMContentLoaded", function(){
   date: "2026-04-09T07:00:00"
 },
 {
-  title: "Clique Errado Pode Custar Caro",
-  link: "direito-civil/clique-errado-pode-custar-caro.html",
-  date: "2026-04-08T07:00:00"
+  title: "Mesma Função Exige Mesmo Salário",
+  link: "direito-trabalhista/mesma-funcao-exige-mesmo-salario.html",
+  date: "2026-04-13T07:00:00"
 },
 {
-  title: "Demissão Forçada pelo Erro do Patrão",
-  link: "direito-trabalhista/demissao-forcada-pelo-erro-do-patrao.html",
-  date: "2026-04-07T07:00:00"
+  title: "A Confissão Que Pode Mudar Tudo",
+  link: "direito-penal/confissao-que-pode-mudar-tudo.html",
+  date: "2026-04-13T07:00:00"
 },
 
   ];
@@ -345,30 +345,29 @@ title: "Três Poderes, Uma República em Disputa",
 source: "",
 date: "2026-04-08T07:00:00"
 },
-
 {
-title: "Due Diligence Como Escudo Jurídico Corporativo",
-  link: "compliance/due-diligence-escudo-juridico-corporativo-brasil.html",
+title: "O Sistema Político que Resiste à Mudança",
+  link: "politica/sistema-politico-que-resiste-a-mudanca.html",
 source: "",
-date: "2026-03-30T07:00:00"
+date: "2026-04-11T07:00:00"
 },
 {
-title: "Poder sem Controle Destrói Empresas",
-link: "compliance/poder-sem-controle-destroi-empresas.html",
+title: "Corrupção Não Se Combate Só Com Prisão",
+link: "compliance/corrupcao-nao-se-combate-so-com-prisao.html",
 source: "",
-date: "2026-04-07T03:00:00"
+date: "2026-04-11T03:00:00"
 },
 {
-title: "Dados Pessoais Exigem Programa de Conformidade",
-  link: "compliance/dados-pessoais-exigem-programa-de-conformidade.html",
+title: "A Confissão Que Pode Mudar Tudo",
+  link: "direito-penal/confissao-que-pode-mudar-tudo.html",
 source: "",
-date: "2026-04-08T07:00:00"
+date: "2026-04-13T07:00:00"
 },
 {
-title: "Direitos Fundamentais e a Condição Militar",
-link: "direito-militar/direitos-fundamentais-condicao-militar-brasil.html",
+title: "O Instrumento Que Pode Derrubar um Presidente",
+link: "politica/instrumento-que-pode-derrubar-um-presidente.html",
 source: "",
-date: "2026-03-31T07:00:00"
+date: "2026-04-10T07:00:00"
 },
 {
 title: "Dividir o Patrimônio Não Precisa Ser Guerra",
@@ -377,22 +376,22 @@ source: "",
 date: "2026-04-08T07:00:00"
 },
 {
- title: "Sangue e Silêncio no Coração do Lar",
-  link: "direito-penal/feminicidio-violencia-genero-lei-penal-brasil.html",
+ title: "Risco Ignorado É Passivo Acumulado",
+  link: "compliance/risco-ignorado-e-passivo-acumulado.html",
 source: "",
-date: "2026-04-02T07:00:00"
+date: "2026-04-09T07:00:00"
 },
 {
-    title: "Quando o Judiciário Governa no Lugar do Parlamento",
-  link: "politica/judiciario-governa-lugar-parlamento.html",
+    title: "Tempo de Posse Pode Virar Título de Dono",
+  link: "direito-civil/tempo-de-posse-pode-virar-titulo-de-dono.html",
 source: "",
-date: "2026-04-01T07:00:00",
+date: "2026-04-13T07:00:00",
 },
 {
-   title: "Farda, Voz e os Limites Constitucionais",
-    link: "direito-militar/liberdade-expressao-militar-limites-constitucionais-brasil.html",
+   title: "Ter a Chave Não É Ser o Dono",
+    link: "direito-civil/ter-a-chave-nao-e-ser-o-dono.html",
 source: "",
- date: "2026-04-02T07:00:00"
+ date: "2026-04-11T07:00:00"
 },
 
 ];

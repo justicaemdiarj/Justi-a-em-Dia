@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
     {
+    title: "A Confissão Que Pode Mudar Tudo",
+    date: "13/04/2026",
+    timestamp: "2026-04-13T12:00:00",
+    image: "../img/confissao-que-pode-mudar-tudo.webp",
+    excerpt: "A delação premiada é instrumento central do processo penal para desvendar esquemas criminosos e reduzir penas no Brasil.",
+    link: "../direito-penal/confissao-que-pode-mudar-tudo.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Palavras Também Ferem e a Lei Pune Isso",
     date: "11/04/2026",
     timestamp: "2026-04-11T08:00:00",

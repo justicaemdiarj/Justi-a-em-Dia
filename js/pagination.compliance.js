@@ -1,6 +1,16 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
     {
+    title: "A Lupa Que Protege a Empresa por Dentro",
+    date: "13/04/2026",
+    timestamp: "2026-04-13T07:00:00",
+    image: "../img/lupa-que-protege-a-empresa-por-dentro.webp",
+    excerpt: "A auditoria interna é função estratégica de defesa corporativa com plano baseado em riscos e conformidade.",
+    link: "../compliance/lupa-que-protege-a-empresa-por-dentro.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Corrupção Não Se Combate Só Com Prisão",
     date: "11/04/2026",
     timestamp: "2026-04-11T08:00:00",

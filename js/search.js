@@ -1,6 +1,33 @@
 // Base de dados global de artigos para busca
 const allArticles = [
-
+{
+    title: 'Tempo de Posse Pode Virar Título de Dono',
+    description: 'A usucapião transforma o uso prolongado de bens em propriedade, com modalidades ordinária, extraordinária, especial urbana, rural e por abandono de lar.',
+    category: 'Direito Civil',
+    url: 'direito-civil/tempo-de-posse-pode-virar-titulo-de-dono.html',
+    tags: ['usucapião', 'modalidades de usucapião', 'Tempo de Posse Pode Virar Título de Dono']
+},
+{
+    title: 'A Hierarquia Que Vira Instrumento de Tortura',
+    description: 'O assédio moral nas corporações militares compromete a dignidade e a saúde mental, com marco normativo, denúncia e responsabilização no direito militar.',
+    category: 'Direito Militar',
+    url: 'direito-militar/hierarquia-que-vira-instrumento-de-tortura.html',
+    tags: ['assédio moral militar', 'corporações militares', 'A Hierarquia Que Vira Instrumento de Tortura']
+},
+    {
+    title: 'Uma Criança Pode Ter Dois Pais no Registro',
+    description: 'A multiparentalidade reconhece vínculos de filiação além da biologia, com a tese do STF, socioafetividade e efeitos sobre alimentos e herança.',
+    category: 'Direito de Família',
+    url: 'direito-de-familia/crianca-pode-ter-dois-pais-no-registro.html',
+    tags: ['multiparentalidade', 'socioafetividade', 'Uma Criança Pode Ter Dois Pais no Registro']
+},
+{
+    title: 'A Confissão Que Pode Mudar Tudo',
+    description: 'A delação premiada é instrumento central do processo penal brasileiro, com a Lei nº 12.850, homologação judicial e jurisprudência do STF sobre colaboração premiada.',
+    category: 'Direito Criminal',
+    url: 'direito-penal/confissao-que-pode-mudar-tudo.html',
+    tags: ['delação premiada', 'colaboração premiada', 'A Confissão Que Pode Mudar Tudo']
+},
     {
     title: 'Pai no Registro É Direito Que Não Prescreve',
     description: 'O reconhecimento de paternidade é direito imprescritível que garante identidade, alimentos e herança, com investigação judicial e paternidade socioafetiva.',
@@ -14,6 +41,41 @@ const allArticles = [
     category: 'Direito Militar',
     url: 'direito-militar/farda-que-o-corpo-nao-aguenta-mais.html',
     tags: ['reforma militar por incapacidade', 'Estatuto dos Militares', 'A Farda Que o Corpo Não Aguenta Mais']
+},
+{
+    title: 'A Lupa Que Protege a Empresa por Dentro',
+    description: 'A auditoria interna é função estratégica de defesa corporativa, com independência, plano baseado em riscos, conformidade e tecnologia.',
+    category: 'Compliance',
+    url: 'compliance/lupa-que-protege-a-empresa-por-dentro.html',
+    tags: ['auditoria interna', 'controles internos', 'A Lupa Que Protege a Empresa por Dentro']
+},
+{
+    title: 'O Que os Outros Sistemas Ensinam ao Nosso',
+    description: 'O direito comparado analisa sistemas jurídicos para aprimorar o ordenamento nacional, com famílias jurídicas, civil law, common law e transplante jurídico.',
+    category: 'Jurisprudência',
+    url: 'jurisprudencia/o-que-os-outros-sistemas-ensinam-ao-nosso.html',
+    tags: ['direito comparado', 'civil law common law', 'O Que os Outros Sistemas Ensinam ao Nosso']
+},
+{
+    title: 'Quando Legislar Demais Prejudica a Lei',
+    description: 'O excesso de legislação paralisa o Estado com inflação normativa, custos de conformidade e insegurança jurídica para cidadãos e empresas no Brasil.',
+    category: 'Legislação',
+    url: 'legislacao/quando-legislar-demais-prejudica-a-lei.html',
+    tags: ['excesso de legislação', 'inflação normativa', 'Quando Legislar Demais Prejudica a Lei']
+},
+{
+    title: 'Como o Brasil Escolhe Seus Representantes',
+    description: 'O sistema eleitoral brasileiro combina majoritário e proporcional, com lista aberta, cláusula de barreira e financiamento eleitoral na democracia.',
+    category: 'Política',
+    url: 'politica/como-o-brasil-escolhe-seus-representantes.html',
+    tags: ['sistema eleitoral brasileiro', 'voto proporcional', 'Como o Brasil Escolhe Seus Representantes']
+},
+{
+    title: 'Mesma Função Exige Mesmo Salário',
+    description: 'A equiparação salarial combate a discriminação remuneratória, com requisitos do artigo 461 da CLT, reforma trabalhista e Lei de Igualdade Salarial.',
+    category: 'Direito Trabalhista',
+    url: 'direito-trabalhista/mesma-funcao-exige-mesmo-salario.html',
+    tags: ['equiparação salarial', 'igualdade salarial', 'Mesma Função Exige Mesmo Salário']
 },
 {
     title: 'Ter a Chave Não É Ser o Dono',

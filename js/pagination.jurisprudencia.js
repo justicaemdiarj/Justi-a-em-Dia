@@ -1,6 +1,16 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
     {
+    title: "O Que os Outros Sistemas Ensinam ao Nosso",
+    date: "13/04/2026",
+    timestamp: "2026-04-13T07:00:00",
+    image: "../img/o-que-os-outros-sistemas-ensinam-ao-nosso.webp",
+    excerpt: "O direito comparado analisa sistemas jurídicos de diferentes países para aprimorar os ordenamentos nacionais.",
+    link: "../jurisprudencia/o-que-os-outros-sistemas-ensinam-ao-nosso.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Tribunais Reescrevem as Regras da Família",
     date: "11/04/2026",
     timestamp: "2026-04-11T11:00:00",

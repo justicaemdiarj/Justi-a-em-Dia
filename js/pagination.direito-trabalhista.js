@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
     {
+    title: "Mesma Função Exige Mesmo Salário",
+    date: "13/04/2026",
+    timestamp: "2026-04-13T09:00:00",
+    image: "../img/mesma-funcao-exige-mesmo-salario.webp",
+    excerpt: "A equiparação salarial combate a discriminação remuneratória com os requisitos do artigo 461 da CLT e a Lei de Igualdade Salarial.",
+    link: "../direito-trabalhista/mesma-funcao-exige-mesmo-salario.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Trabalho a Pedido Tem Direito Garantido",
     date: "11/04/2026",
     timestamp: "2026-04-11T09:00:00",

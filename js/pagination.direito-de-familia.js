@@ -1,6 +1,16 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
     {
+    title: "Uma Criança Pode Ter Dois Pais no Registro",
+    date: "13/04/2026",
+    timestamp: "2026-04-13T08:00:00",
+    image: "../img/crianca-pode-ter-dois-pais-no-registro.webp",
+    excerpt: "A multiparentalidade reconhece vínculos de filiação além da biologia com a tese do STF no RE 898.060.",
+    link: "../direito-de-familia/crianca-pode-ter-dois-pais-no-registro.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Pai no Registro É Direito Que Não Prescreve",
     date: "11/04/2026",
     timestamp: "2026-04-11T12:00:00",
