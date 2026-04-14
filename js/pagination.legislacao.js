@@ -1,6 +1,16 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
     {
+       title: "Normas Ambientais sob Tensão Política",
+       date: "14/04/2026",
+       timestamp: "2026-04-14T07:00:00",
+       image: "../img/normas-ambientais-tensao-politica-brasil.webp",
+       excerpt: "A legislação ambiental brasileira enfrenta tensão crescente entre proteção ecológica e pressões políticas e econômicas.",
+       link: "../legislacao/normas-ambientais-tensao-politica-brasil.html",
+       author: "Justiça em Dia",
+       authorLink: "#"
+   },
+    {
     title: "Quando Legislar Demais Prejudica a Lei",
     date: "13/04/2026",
     timestamp: "2026-04-13T07:00:00",

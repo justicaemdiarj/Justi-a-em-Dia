@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
     {
+       title: "Saída das Fileiras Militares sob Escrutínio",
+       date: "14/04/2026",
+       timestamp: "2026-04-14T07:00:00",
+       image: "../img/saida-fileiras-militares-escrutinio-juridico.webp",
+       excerpt: "Desligamento de militares das Forças Armadas gera disputas jurídicas crescentes no Brasil.",
+       link: "../direito-militar/saida-fileiras-militares-escrutinio-juridico.html",
+       author: "Justiça em Dia",
+       authorLink: "#"
+   },
+    {
     title: "A Hierarquia Que Vira Instrumento de Tortura",
     date: "13/04/2026",
     timestamp: "2026-04-13T08:00:00",

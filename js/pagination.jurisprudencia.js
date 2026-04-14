@@ -1,6 +1,16 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
     {
+       title: "Decisões Penais que Moldam o Direito",
+       date: "14/04/2026",
+       timestamp: "2026-04-14T06:00:00",
+       image: "../img/decisoes-penais-moldam-direito-brasil.webp",
+       excerpt: "A jurisprudência criminal brasileira atravessa período de intensa renovação dogmática com precedentes vinculantes.",
+       link: "../jurisprudencia/decisoes-penais-moldam-direito-brasil.html",
+       author: "Justiça em Dia",
+       authorLink: "#"
+   },
+    {
     title: "O Que os Outros Sistemas Ensinam ao Nosso",
     date: "13/04/2026",
     timestamp: "2026-04-13T07:00:00",

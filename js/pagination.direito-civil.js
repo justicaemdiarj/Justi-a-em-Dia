@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
     {
+       title: "Responsabilidade Médica e Reparação Civil",
+       date: "14/04/2026",
+       timestamp: "2026-04-14T12:00:00",
+       image: "../img/responsabilidade-medica-reparacao-civil-brasil.webp",
+       excerpt: "Falhas na prestação de serviços médicos geram batalhas jurídicas crescentes nos tribunais brasileiros.",
+       link: "../direito-civil/responsabilidade-medica-reparacao-civil-brasil.html",
+       author: "Justiça em Dia",
+       authorLink: "#"
+   },
+    {
     title: "Tempo de Posse Pode Virar Título de Dono",
     date: "13/04/2026",
     timestamp: "2026-04-13T09:00:00",

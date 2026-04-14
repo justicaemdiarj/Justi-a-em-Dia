@@ -1,6 +1,16 @@
 // Dados de notícias para Política
 const categoryNewsData = [
     {
+       title: "Desinformação Eleitoral e o Peso da Lei",
+       date: "14/04/2026",
+       timestamp: "2026-04-14T07:00:00",
+       image: "../img/desinformacao-eleitoral-peso-lei-democracia.webp",
+       excerpt: "Falsidade narrativa ameaça integridade do processo democrático brasileiro e desafia o ordenamento eleitoral.",
+       link: "../politica/desinformacao-eleitoral-peso-lei-democracia.html",
+       author: "Justiça em Dia",
+       authorLink: "#"
+   },
+    {
     title: "Como o Brasil Escolhe Seus Representantes",
     date: "13/04/2026",
     timestamp: "2026-04-13T10:00:00",

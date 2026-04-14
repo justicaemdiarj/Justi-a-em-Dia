@@ -1,5 +1,69 @@
 // Base de dados global de artigos para busca
 const allArticles = [
+       {
+       title: 'Governança Empresarial e Accountability Jurídico',
+       description: 'Obrigações corporativas redefinem o risco empresarial jurídico e competitivo no Brasil com Lei Anticorrupção, LGPD e ESG.',
+       category: 'Compliance',
+       url: 'compliance/governanca-empresarial-accountability-juridico-brasil.html',
+       tags: ['responsabilidade corporativa', 'compliance', 'Lei Anticorrupção', 'Governança Empresarial e Accountability Jurídico']
+   },
+      {
+       title: 'Desinformação Eleitoral e o Peso da Lei',
+       description: 'Falsidade narrativa ameaça integridade do processo democrático e desafia o ordenamento eleitoral brasileiro.',
+       category: 'Política',
+       url: 'politica/desinformacao-eleitoral-peso-lei-democracia.html',
+       tags: ['fake news eleições', 'desinformação eleitoral', 'TSE plataformas', 'Desinformação Eleitoral e o Peso da Lei']
+   },
+    {
+       title: 'Saída das Fileiras Militares sob Escrutínio',
+       description: 'Desligamento de militares gera disputas jurídicas crescentes sobre licenciamento, exclusão disciplinar e controle judicial.',
+       category: 'Direito Militar',
+       url: 'direito-militar/saida-fileiras-militares-escrutinio-juridico.html',
+       tags: ['direito militar', 'licenciamento militar', 'exclusão militar', 'Saída das Fileiras Militares sob Escrutínio']
+   },
+     {
+       title: 'Adoção Legal e os Caminhos da Família',
+       description: 'Requisitos jurídicos moldam vínculos afetivos permanentes no sistema de adoção brasileiro regulado pelo ECA.',
+       category: 'Direito de Família',
+       url: 'direito-de-familia/adocao-legal-caminhos-familia-brasil.html',
+       tags: ['adoção', 'ECA', 'direito de família', 'Adoção Legal e os Caminhos da Família']
+   },
+      {
+       title: 'Quando o Direito Penal Autoriza a Conduta',
+       description: 'Causas que afastam a antijuridicidade redefinem os limites da punição no sistema penal brasileiro.',
+       category: 'Direito Criminal',
+       url: 'direito-penal/excludentes-ilicitude-direito-penal-brasileiro.html',
+       tags: ['excludentes de ilicitude', 'legítima defesa', 'estado de necessidade', 'Quando o Direito Penal Autoriza a Conduta']
+   },
+    {
+       title: 'Banco de Horas sob o Olhar Jurídico',
+       description: 'Compensação de jornada divide tribunais trabalhistas e gera passivo expressivo para empresas no Brasil.',
+       category: 'Direito Trabalhista',
+       url: 'direito-trabalhista/banco-horas-olhar-juridico-trabalhista.html',
+       tags: ['banco de horas', 'compensação de jornada', 'horas extras', 'Banco de Horas sob o Olhar Jurídico']
+   },
+     {
+       title: 'Responsabilidade Médica e Reparação Civil',
+       description: 'Falhas na prestação de serviços médicos geram batalhas jurídicas crescentes. Entenda os fundamentos legais da responsabilidade civil médica no Brasil.',
+       category: 'Direito Civil',
+       url: 'direito-civil/responsabilidade-medica-reparacao-civil-brasil.html',
+       tags: ['erro médico', 'responsabilidade civil médica', 'indenização hospitalar', 'Responsabilidade Médica e Reparação Civil']
+   },
+   {
+       title: 'Normas Ambientais sob Tensão Política',
+       description: 'A legislação ambiental brasileira enfrenta tensão crescente entre proteção ecológica e pressões políticas e econômicas.',
+       category: 'Legislação',
+       url: 'legislacao/normas-ambientais-tensao-politica-brasil.html',
+       tags: ['legislação ambiental', 'Código Florestal', 'crimes ambientais', 'Normas Ambientais sob Tensão Política']
+   },
+      {
+       title: 'Decisões Penais que Moldam o Direito',
+       description: 'A jurisprudência criminal brasileira atravessa período de intensa renovação dogmática com precedentes vinculantes nos tribunais superiores.',
+       category: 'Jurisprudência',
+       url: 'jurisprudencia/decisoes-penais-moldam-direito-brasil.html',
+       tags: ['jurisprudência criminal', 'precedentes penais', 'STF STJ', 'Decisões Penais que Moldam o Direito']
+   },
+   
 {
     title: 'Tempo de Posse Pode Virar Título de Dono',
     description: 'A usucapião transforma o uso prolongado de bens em propriedade, com modalidades ordinária, extraordinária, especial urbana, rural e por abandono de lar.',

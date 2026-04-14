@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
     {
+       title: "Quando o Direito Penal Autoriza a Conduta",
+       date: "14/04/2026",
+       timestamp: "2026-04-14T11:00:00",
+       image: "../img/excludentes-ilicitude-direito-penal-brasileiro.webp",
+       excerpt: "Causas que afastam a antijuridicidade redefinem os limites da punição no sistema penal brasileiro.",
+       link: "../direito-penal/excludentes-ilicitude-direito-penal-brasileiro.html",
+       author: "Justiça em Dia",
+       authorLink: "#"
+   },
+    {
     title: "A Confissão Que Pode Mudar Tudo",
     date: "13/04/2026",
     timestamp: "2026-04-13T12:00:00",

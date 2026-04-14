@@ -2,73 +2,73 @@ const posts = [
   
   
 {
-  title: "A Lupa Que Protege a Empresa por Dentro",
-  description: "A auditoria interna é função estratégica de defesa corporativa com plano baseado em riscos e conformidade",
-  description2: "Independência, tecnologia e impacto da auditoria interna na governança e nos mercados de capitais",
-  image: "img/lupa-que-protege-a-empresa-por-dentro.webp",
-  link: "compliance/lupa-que-protege-a-empresa-por-dentro.html",
-  date: "2026-04-13T07:00:00",
+   title: "Normas Ambientais sob Tensão Política",
+   description: "Leis verdes enfrentam resistência institucional e pressão de setores econômicos",
+   description2: "Do Código Florestal ao mercado de carbono, o futuro da proteção ambiental no Brasil",
+   image: "img/normas-ambientais-tensao-politica-brasil.webp",
+   link: "legislacao/normas-ambientais-tensao-politica-brasil.html",
+   date: "2026-04-14T07:00:00",
   section: "featured"
 },
   {
-  title: "O Que os Outros Sistemas Ensinam ao Nosso",
-  description: "O direito comparado analisa sistemas jurídicos de diferentes países para aprimorar os ordenamentos nacionais",
-  description2: "Famílias jurídicas, influência do direito alemão, common law e transplante jurídico no Brasil",
-  image: "img/o-que-os-outros-sistemas-ensinam-ao-nosso.webp",
-  link: "jurisprudencia/o-que-os-outros-sistemas-ensinam-ao-nosso.html",
-  date: "2026-04-13T07:00:00",
+   title: "Responsabilidade Médica e Reparação Civil",
+   description: "Falhas na saúde geram batalhas jurídicas crescentes nos tribunais do Brasil",
+   description2: "Entenda os fundamentos legais da indenização por erro médico",
+   image: "img/responsabilidade-medica-reparacao-civil-brasil.webp",
+   link: "direito-civil/responsabilidade-medica-reparacao-civil-brasil.html",
+   date: "2026-04-14T12:00:00",
   section: "featured-secundario"
 },
 {
-  title: "Quando Legislar Demais Prejudica a Lei",
-  description: "O excesso de legislação paralisa o Estado e onera cidadãos e empresas com inflação normativa no Brasil",
-  description2: "Causas da inflação normativa, desburocratização e experiências internacionais de redução do volume normativo",
-  image: "img/quando-legislar-demais-prejudica-a-lei.webp",
-  link: "legislacao/quando-legislar-demais-prejudica-a-lei.html",
-  date: "2026-04-13T09:00:00",
+   title: "Decisões Penais que Moldam o Direito",
+   description: "Tribunais superiores reescrevem limites da persecução penal no Brasil",
+   description2: "Precedentes vinculantes transformam o processo penal brasileiro",
+   image: "img/decisoes-penais-moldam-direito-brasil.webp",
+   link: "jurisprudencia/decisoes-penais-moldam-direito-brasil.html",
+   date: "2026-04-14T06:00:00",
  section: "featured-terciario"
 },
   {
-  title: "Como o Brasil Escolhe Seus Representantes",
-  image: "img/como-o-brasil-escolhe-seus-representantes.webp",
-  link: "politica/como-o-brasil-escolhe-seus-representantes.html",
-  date: "2026-04-13T10:00:00",
+   title: "Banco de Horas sob o Olhar Jurídico",
+   image: "img/banco-horas-olhar-juridico-trabalhista.webp",
+   link: "direito-trabalhista/banco-horas-olhar-juridico-trabalhista.html",
+   date: "2026-04-14T10:00:00",
     section: "destaque"
   },
    {
-  title: "Mesma Função Exige Mesmo Salário",
-  image: "img/mesma-funcao-exige-mesmo-salario.webp",
-  link: "direito-trabalhista/mesma-funcao-exige-mesmo-salario.html",
-  date: "2026-04-13T09:00:00",
+   title: "Quando o Direito Penal Autoriza a Conduta",
+     image: "img/excludentes-ilicitude-direito-penal-brasileiro.webp",
+   link: "direito-penal/excludentes-ilicitude-direito-penal-brasileiro.html",
+   date: "2026-04-14T11:00:00",
     section: "destaque"
   },
   {
-  title: "Uma Criança Pode Ter Dois Pais no Registro",
-  image: "img/crianca-pode-ter-dois-pais-no-registro.webp",
-  link: "direito-de-familia/crianca-pode-ter-dois-pais-no-registro.html",
-  date: "2026-04-13T08:00:00",
+   title: "Adoção Legal e os Caminhos da Família",
+   image: "img/adocao-legal-caminhos-familia-brasil.webp",
+   link: "direito-de-familia/adocao-legal-caminhos-familia-brasil.html",
+   date: "2026-04-14T07:00:00",
     section: "destaque"
 
   },
   {
-  title: "A Confissão Que Pode Mudar Tudo",
-  image: "img/confissao-que-pode-mudar-tudo.webp",
-  link: "direito-penal/confissao-que-pode-mudar-tudo.html",
-  date: "2026-04-13T12:00:00",
+   title: "Saída das Fileiras Militares sob Escrutínio",
+   image: "img/saida-fileiras-militares-escrutinio-juridico.webp",
+   link: "direito-militar/saida-fileiras-militares-escrutinio-juridico.html",
+   date: "2026-04-14T07:00:00",
     section: "veja"
   },
   {
-  title: "Tempo de Posse Pode Virar Título de Dono",
-  image: "img/tempo-de-posse-pode-virar-titulo-de-dono.webp",
-  link: "direito-civil/tempo-de-posse-pode-virar-titulo-de-dono.html",
-  date: "2026-04-13T09:00:00",
+   title: "Desinformação Eleitoral e o Peso da Lei",
+   image: "img/desinformacao-eleitoral-peso-lei-democracia.webp",
+   link: "politica/desinformacao-eleitoral-peso-lei-democracia.html",
+   date: "2026-04-14T07:00:00",
     section: "veja"
   },
   {
-  title: "A Hierarquia Que Vira Instrumento de Tortura",
-  image: "img/hierarquia-que-vira-instrumento-de-tortura.webp",
-  link: "direito-militar/hierarquia-que-vira-instrumento-de-tortura.html",
-  date: "2026-04-13T08:00:00",
+   title: "Governança Empresarial e Accountability Jurídico",
+   image: "img/governanca-empresarial-accountability-juridico-brasil.webp",
+   link: "compliance/governanca-empresarial-accountability-juridico-brasil.html",
+   date: "2026-04-14T09:00:00",
     section: "veja"
   }
 ];

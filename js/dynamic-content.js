@@ -14,38 +14,7 @@ const tickerConfig = {
 const globalNewsData = [
 
 
-{
-    title: "O Brasil tem Leis Demais e Efetividade de Menos",
-    link: "legislacao/brasil-tem-leis-demais-e-efetividade-de-menos.html",
-},
-{
-    title: "O Instrumento Que Pode Derrubar um Presidente",
-    link: "politica/instrumento-que-pode-derrubar-um-presidente.html",
-},
-{
-    title: "Trabalhador ou Parceiro? A Lei Define Isso",
-    link: "direito-trabalhista/trabalhador-ou-parceiro-a-lei-define-isso.html",
-},
-{
-    title: "O Crime que Se Disfarça de Negócio Legítimo",
-    link: "direito-penal/crime-que-se-disfarça-de-negocio-legitimo.html",
-},
-{
-    title: "A Casa Não Pode Ser Palco de Crueldade",
-    link: "direito-de-familia/casa-nao-pode-ser-palco-de-crueldade.html",
-},
-{
-    title: "Quem Lucra com o Risco Responde pelo Dano",
-    link: "direito-civil/quem-lucra-com-o-risco-responde-pelo-dano.html",
-},
-{
-    title: "A Disciplina Também Precisa de Processo Justo",
-    link: "direito-militar/disciplina-tambem-precisa-de-processo-justo.html",
-},
-{
-    title: "Corrupção Não Se Combate Só Com Prisão",
-    link: "compliance/corrupcao-nao-se-combate-so-com-prisao.html",
-},
+
 {
     title: "Tribunais Reescrevem as Regras da Família",
     link: "jurisprudencia/tribunais-reescrevem-as-regras-da-familia.html",
@@ -113,6 +82,43 @@ const globalNewsData = [
 {
     title: "A Hierarquia Que Vira Instrumento de Tortura",
     link: "direito-militar/hierarquia-que-vira-instrumento-de-tortura.html",
+},
+{
+       title: "Governança Empresarial e Accountability Jurídico",
+       link: "compliance/governanca-empresarial-accountability-juridico-brasil.html",
+},
+{
+       title: "Desinformação Eleitoral e o Peso da Lei",
+       link: "politica/desinformacao-eleitoral-peso-lei-democracia.html",
+},
+{
+       title: "Saída das Fileiras Militares sob Escrutínio",
+       link: "direito-militar/saida-fileiras-militares-escrutinio-juridico.html",
+},
+{
+       title: "Adoção Legal e os Caminhos da Família",
+       link: "direito-de-familia/adocao-legal-caminhos-familia-brasil.html",
+},
+{
+       title: "Quando o Direito Penal Autoriza a Conduta",
+       link: "direito-penal/excludentes-ilicitude-direito-penal-brasileiro.html",
+},
+{
+       title: "Banco de Horas sob o Olhar Jurídico",
+       link: "direito-trabalhista/banco-horas-olhar-juridico-trabalhista.html",
+},
+
+{
+       title: "Responsabilidade Médica e Reparação Civil",
+       link: "direito-civil/responsabilidade-medica-reparacao-civil-brasil.html",
+},
+{
+       title: "Normas Ambientais sob Tensão Política",
+       link: "legislacao/normas-ambientais-tensao-politica-brasil.html",
+},
+{
+       title: "Decisões Penais que Moldam o Direito",
+       link: "jurisprudencia/decisoes-penais-moldam-direito-brasil.html",
 },
 
 

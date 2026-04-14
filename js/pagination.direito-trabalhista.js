@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
     {
+       title: "Banco de Horas sob o Olhar Jurídico",
+       date: "14/04/2026",
+       timestamp: "2026-04-14T10:00:00",
+       image: "../img/banco-horas-olhar-juridico-trabalhista.webp",
+       excerpt: "Compensação de jornada divide tribunais trabalhistas e gera passivo expressivo para empresas.",
+       link: "../direito-trabalhista/banco-horas-olhar-juridico-trabalhista.html",
+       author: "Justiça em Dia",
+       authorLink: "#"
+   },
+    {
     title: "Mesma Função Exige Mesmo Salário",
     date: "13/04/2026",
     timestamp: "2026-04-13T09:00:00",

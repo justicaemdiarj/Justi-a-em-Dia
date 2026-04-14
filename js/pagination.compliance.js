@@ -1,6 +1,16 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
     {
+       title: "Governança Empresarial e Accountability Jurídico",
+       date: "14/04/2026",
+       timestamp: "2026-04-14T09:00:00",
+       image: "../img/governanca-empresarial-accountability-juridico-brasil.webp",
+       excerpt: "Obrigações corporativas redefinem o risco empresarial jurídico e competitivo no Brasil.",
+       link: "../compliance/governanca-empresarial-accountability-juridico-brasil.html",
+       author: "Justiça em Dia",
+       authorLink: "#"
+   },
+    {
     title: "A Lupa Que Protege a Empresa por Dentro",
     date: "13/04/2026",
     timestamp: "2026-04-13T07:00:00",

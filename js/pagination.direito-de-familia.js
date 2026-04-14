@@ -1,6 +1,16 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
     {
+       title: "Adoção Legal e os Caminhos da Família",
+       date: "14/04/2026",
+       timestamp: "2026-04-14T07:00:00",
+       image: "../img/adocao-legal-caminhos-familia-brasil.webp",
+       excerpt: "Requisitos jurídicos moldam vínculos afetivos permanentes no sistema de adoção brasileiro.",
+       link: "../direito-de-familia/adocao-legal-caminhos-familia-brasil.html",
+       author: "Justiça em Dia",
+       authorLink: "#"
+   },
+    {
     title: "Uma Criança Pode Ter Dois Pais no Registro",
     date: "13/04/2026",
     timestamp: "2026-04-13T08:00:00",
