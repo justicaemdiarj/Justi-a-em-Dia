@@ -1,6 +1,16 @@
 // Dados de notícias para Política
 const categoryNewsData = [
     {
+  title: "Supremo Tribunal Federal e Interferência Institucional na Política",
+  date: "15/04/2026",
+  timestamp: "2026-04-15T07:00:00",
+  image: "../img/supremo-tribunal-federal-interferencia-institucional-politica.webp",
+  excerpt: "A atuação do STF no cenário político nacional reacende o debate sobre os limites da separação dos poderes na democracia brasileira.",
+  link: "../politica/supremo-tribunal-federal-interferencia-institucional-politica.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
        title: "Desinformação Eleitoral e o Peso da Lei",
        date: "14/04/2026",
        timestamp: "2026-04-14T07:00:00",

@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
     {
+  title: "Defeitos Contratuais e Invalidade dos Negócios Jurídicos",
+  date: "15/04/2026",
+  timestamp: "2026-04-15T07:00:00",
+  image: "../img/defeitos-contratuais-invalidade-negocios-juridicos.webp",
+  excerpt: "A distinção entre nulidade e anulabilidade dos contratos é tema de elevada relevância prática para a segurança das relações obrigacionais no direito civil brasileiro.",
+  link: "../direito-civil/defeitos-contratuais-invalidade-negocios-juridicos.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
        title: "Responsabilidade Médica e Reparação Civil",
        date: "14/04/2026",
        timestamp: "2026-04-14T12:00:00",

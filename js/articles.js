@@ -2,73 +2,73 @@ const posts = [
   
   
 {
-   title: "Normas Ambientais sob Tensão Política",
-   description: "Leis verdes enfrentam resistência institucional e pressão de setores econômicos",
-   description2: "Do Código Florestal ao mercado de carbono, o futuro da proteção ambiental no Brasil",
-   image: "img/normas-ambientais-tensao-politica-brasil.webp",
-   link: "legislacao/normas-ambientais-tensao-politica-brasil.html",
-   date: "2026-04-14T07:00:00",
+  title: "Ética Corporativa como Fundamento Estratégico Empresarial",
+  description: "O código de ética empresarial tornou-se instrumento central de governança e proteção jurídica das organizações brasileiras.",
+  description2: "A Lei Anticorrupção e o Decreto 8.420/2015 consolidam o compliance como imperativo legal e estratégico nas empresas.",
+  image: "img/etica-corporativa-fundamento-estrategico-empresarial.webp",
+  link: "compliance/etica-corporativa-fundamento-estrategico-empresarial.html",
+  date: "2026-04-15T07:00:00",
   section: "featured"
 },
   {
-   title: "Responsabilidade Médica e Reparação Civil",
-   description: "Falhas na saúde geram batalhas jurídicas crescentes nos tribunais do Brasil",
-   description2: "Entenda os fundamentos legais da indenização por erro médico",
-   image: "img/responsabilidade-medica-reparacao-civil-brasil.webp",
-   link: "direito-civil/responsabilidade-medica-reparacao-civil-brasil.html",
-   date: "2026-04-14T12:00:00",
+  title: "Veredictos Polêmicos e Seus Reflexos Jurídicos no Brasil",
+  description: "As decisões controversas dos tribunais brasileiros expõem as tensões entre ativismo judicial e segurança jurídica.",
+  description2: "O fenômeno da judicialização da política desafia os limites do sistema democrático e da separação de poderes.",
+  image: "img/veredictos-polemicos-reflexos-juridicos-brasil.webp",
+  link: "jurisprudencia/veredictos-polemicos-reflexos-juridicos-brasil.html",
+  date: "2026-04-15T07:00:00",
   section: "featured-secundario"
 },
 {
-   title: "Decisões Penais que Moldam o Direito",
-   description: "Tribunais superiores reescrevem limites da persecução penal no Brasil",
-   description2: "Precedentes vinculantes transformam o processo penal brasileiro",
-   image: "img/decisoes-penais-moldam-direito-brasil.webp",
-   link: "jurisprudencia/decisoes-penais-moldam-direito-brasil.html",
-   date: "2026-04-14T06:00:00",
+  title: "Reforma Penal e Novos Paradigmas Normativos no Brasil",
+  description: "As mudanças no Código Penal geram debate intenso entre garantismo e punitivismo no sistema jurídico nacional.",
+  description2: "Da Lei 13.964/2019 à discussão sobre descriminalização, o direito penal brasileiro busca novos horizontes normativos.",
+  image: "img/reforma-penal-novos-paradigmas-normativos-brasil.webp",
+  link: "legislacao/reforma-penal-novos-paradigmas-normativos-brasil.html",
+  date: "2026-04-15T07:00:00",
  section: "featured-terciario"
 },
   {
-   title: "Banco de Horas sob o Olhar Jurídico",
-   image: "img/banco-horas-olhar-juridico-trabalhista.webp",
-   link: "direito-trabalhista/banco-horas-olhar-juridico-trabalhista.html",
-   date: "2026-04-14T10:00:00",
+  title: "Supremo Tribunal Federal e Interferência Institucional na Política",
+  image: "img/supremo-tribunal-federal-interferencia-institucional-politica.webp",
+  link: "politica/supremo-tribunal-federal-interferencia-institucional-politica.html",
+  date: "2026-04-15T07:00:00",
     section: "destaque"
   },
    {
-   title: "Quando o Direito Penal Autoriza a Conduta",
-     image: "img/excludentes-ilicitude-direito-penal-brasileiro.webp",
-   link: "direito-penal/excludentes-ilicitude-direito-penal-brasileiro.html",
-   date: "2026-04-14T11:00:00",
+    title: "Violência Sexual no Ambiente de Trabalho e Proteção Jurídica",
+  image: "img/violencia-sexual-ambiente-trabalho-protecao-juridica.webp",
+  link: "direito-trabalhista/violencia-sexual-ambiente-trabalho-protecao-juridica.html",
+  date: "2026-04-15T07:00:00",
     section: "destaque"
   },
   {
-   title: "Adoção Legal e os Caminhos da Família",
-   image: "img/adocao-legal-caminhos-familia-brasil.webp",
-   link: "direito-de-familia/adocao-legal-caminhos-familia-brasil.html",
-   date: "2026-04-14T07:00:00",
+  title: "Comércio Ilícito de Entorpecentes e Sanções Penais no Brasil",
+  image: "img/comercio-ilicito-entorpecentes-sancoes-penais-brasil.webp",
+  link: "direito-penal/comercio-ilicito-entorpecentes-sancoes-penais-brasil.html",
+  date: "2026-04-15T07:00:00",
     section: "destaque"
 
   },
   {
-   title: "Saída das Fileiras Militares sob Escrutínio",
-   image: "img/saida-fileiras-militares-escrutinio-juridico.webp",
-   link: "direito-militar/saida-fileiras-militares-escrutinio-juridico.html",
-   date: "2026-04-14T07:00:00",
+  title: "Vínculos Parentais e Tutela Jurisdicional no Direito de Convivência",
+  image: "img/vinculos-parentais-tutela-jurisdicional-convivencia.webp",
+  link: "direito-de-familia/vinculos-parentais-tutela-jurisdicional-convivencia.html",
+  date: "2026-04-15T07:00:00",
     section: "veja"
   },
   {
-   title: "Desinformação Eleitoral e o Peso da Lei",
-   image: "img/desinformacao-eleitoral-peso-lei-democracia.webp",
-   link: "politica/desinformacao-eleitoral-peso-lei-democracia.html",
-   date: "2026-04-14T07:00:00",
+  title: "Defeitos Contratuais e Invalidade dos Negócios Jurídicos",
+  image: "img/defeitos-contratuais-invalidade-negocios-juridicos.webp",
+  link: "direito-civil/defeitos-contratuais-invalidade-negocios-juridicos.html",
+  date: "2026-04-15T07:00:00",
     section: "veja"
   },
   {
-   title: "Governança Empresarial e Accountability Jurídico",
-   image: "img/governanca-empresarial-accountability-juridico-brasil.webp",
-   link: "compliance/governanca-empresarial-accountability-juridico-brasil.html",
-   date: "2026-04-14T09:00:00",
+  title: "Greve nas Forças Armadas e a Vedação Constitucional",
+  image: "img/greve-forcas-armadas-vedacao-constitucional.webp",
+  link: "direito-militar/greve-forcas-armadas-vedacao-constitucional.html",
+  date: "2026-04-15T07:00:00",
     section: "veja"
   }
 ];

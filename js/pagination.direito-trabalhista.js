@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
     {
+  title: "Violência Sexual no Ambiente de Trabalho e Proteção Jurídica",
+  date: "15/04/2026",
+  timestamp: "2026-04-15T07:00:00",
+  image: "../img/violencia-sexual-ambiente-trabalho-protecao-juridica.webp",
+  excerpt: "O assédio sexual nas relações laborais viola direitos fundamentais e impõe responsabilidades jurídicas amplas às organizações empregadoras.",
+  link: "../direito-trabalhista/violencia-sexual-ambiente-trabalho-protecao-juridica.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
        title: "Banco de Horas sob o Olhar Jurídico",
        date: "14/04/2026",
        timestamp: "2026-04-14T10:00:00",

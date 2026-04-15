@@ -1,6 +1,16 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
     {
+  title: "Reforma Penal e Novos Paradigmas Normativos no Brasil",
+  date: "15/04/2026",
+  timestamp: "2026-04-15T07:00:00",
+  image: "../img/reforma-penal-novos-paradigmas-normativos-brasil.webp",
+  excerpt: "As alterações no Código Penal brasileiro geram intenso debate entre juristas e impactam diretamente os direitos fundamentais dos cidadãos.",
+  link: "../legislacao/reforma-penal-novos-paradigmas-normativos-brasil.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
        title: "Normas Ambientais sob Tensão Política",
        date: "14/04/2026",
        timestamp: "2026-04-14T07:00:00",

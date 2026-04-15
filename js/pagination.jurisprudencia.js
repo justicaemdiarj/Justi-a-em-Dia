@@ -1,6 +1,16 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
     {
+  title: "Veredictos Polêmicos e Seus Reflexos Jurídicos no Brasil",
+  date: "15/04/2026",
+  timestamp: "2026-04-15T07:00:00",
+  image: "../img/veredictos-polemicos-reflexos-juridicos-brasil.webp",
+  excerpt: "As decisões judiciais controversas revelam tensões entre segurança jurídica e ativismo interpretativo nos tribunais brasileiros.",
+  link: "../jurisprudencia/veredictos-polemicos-reflexos-juridicos-brasil.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
        title: "Decisões Penais que Moldam o Direito",
        date: "14/04/2026",
        timestamp: "2026-04-14T06:00:00",

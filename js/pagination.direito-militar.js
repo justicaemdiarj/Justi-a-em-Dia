@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
     {
+  title: "Greve nas Forças Armadas e a Vedação Constitucional",
+  date: "15/04/2026",
+  timestamp: "2026-04-15T07:00:00",
+  image: "../img/greve-forcas-armadas-vedacao-constitucional.webp",
+  excerpt: "A Constituição Federal veda expressamente a greve militar, instrumento incompatível com os princípios de hierarquia e disciplina das Forças Armadas.",
+  link: "../direito-militar/greve-forcas-armadas-vedacao-constitucional.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
        title: "Saída das Fileiras Militares sob Escrutínio",
        date: "14/04/2026",
        timestamp: "2026-04-14T07:00:00",

@@ -16,42 +16,6 @@ const globalNewsData = [
 
 
 {
-    title: "Tribunais Reescrevem as Regras da Família",
-    link: "jurisprudencia/tribunais-reescrevem-as-regras-da-familia.html",
-},
-{
-    title: "A Lei que Entrou na Casa das Mulheres",
-    link: "legislacao/lei-que-entrou-na-casa-das-mulheres.html",
-},
-{
-    title: "O Sistema Político que Resiste à Mudança",
-    link: "politica/sistema-politico-que-resiste-a-mudanca.html",
-},
-{
-    title: "Trabalho a Pedido Tem Direito Garantido",
-    link: "direito-trabalhista/trabalho-a-pedido-tem-direito-garantido.html",
-},
-{
-    title: "Palavras Também Ferem e a Lei Pune Isso",
-    link: "direito-penal/palavras-tambem-ferem-e-a-lei-pune-isso.html",
-},
-{
-    title: "Pai no Registro É Direito Que Não Prescreve",
-    link: "direito-de-familia/pai-no-registro-e-direito-que-nao-prescreve.html",
-},
-{
-    title: "Ter a Chave Não É Ser o Dono",
-    link: "direito-civil/ter-a-chave-nao-e-ser-o-dono.html",
-},
-{
-    title: "A Farda Que o Corpo Não Aguenta Mais",
-    link: "direito-militar/farda-que-o-corpo-nao-aguenta-mais.html",
-},
-{
-    title: "A Lupa Que Protege a Empresa por Dentro",
-    link: "compliance/lupa-que-protege-a-empresa-por-dentro.html",
-},
-{
     title: "O Que os Outros Sistemas Ensinam ao Nosso",
     link: "jurisprudencia/o-que-os-outros-sistemas-ensinam-ao-nosso.html",
 },
@@ -119,6 +83,42 @@ const globalNewsData = [
 {
        title: "Decisões Penais que Moldam o Direito",
        link: "jurisprudencia/decisoes-penais-moldam-direito-brasil.html",
+},
+{
+  title: "Ética Corporativa como Fundamento Estratégico Empresarial",
+  link: "compliance/etica-corporativa-fundamento-estrategico-empresarial.html",
+},
+{
+  title: "Veredictos Polêmicos e Seus Reflexos Jurídicos no Brasil",
+  link: "jurisprudencia/veredictos-polemicos-reflexos-juridicos-brasil.html",
+},
+{
+  title: "Reforma Penal e Novos Paradigmas Normativos no Brasil",
+  link: "legislacao/reforma-penal-novos-paradigmas-normativos-brasil.html",
+},
+{
+  title: "Supremo Tribunal Federal e Interferência Institucional na Política",
+  link: "politica/supremo-tribunal-federal-interferencia-institucional-politica.html",
+},
+{
+  title: "Violência Sexual no Ambiente de Trabalho e Proteção Jurídica",
+  link: "direito-trabalhista/violencia-sexual-ambiente-trabalho-protecao-juridica.html",
+},
+{
+  title: "Comércio Ilícito de Entorpecentes e Sanções Penais no Brasil",
+  link: "direito-penal/comercio-ilicito-entorpecentes-sancoes-penais-brasil.html",
+},
+{
+  title: "Vínculos Parentais e Tutela Jurisdicional no Direito de Convivência",
+  link: "direito-de-familia/vinculos-parentais-tutela-jurisdicional-convivencia.html",
+},
+{
+  title: "Defeitos Contratuais e Invalidade dos Negócios Jurídicos",
+  link: "direito-civil/defeitos-contratuais-invalidade-negocios-juridicos.html",
+},
+{
+  title: "Greve nas Forças Armadas e a Vedação Constitucional",
+  link: "direito-militar/greve-forcas-armadas-vedacao-constitucional.html",
 },
 
 

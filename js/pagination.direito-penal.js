@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
     {
+  title: "Comércio Ilícito de Entorpecentes e Sanções Penais no Brasil",
+  date: "15/04/2026",
+  timestamp: "2026-04-15T07:00:00",
+  image: "../img/comercio-ilicito-entorpecentes-sancoes-penais-brasil.webp",
+  excerpt: "A Lei de Drogas e a imprecisão dos critérios de distinção entre usuário e traficante alimentam seletividade penal e debate jurídico persistente.",
+  link: "../direito-penal/comercio-ilicito-entorpecentes-sancoes-penais-brasil.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
        title: "Quando o Direito Penal Autoriza a Conduta",
        date: "14/04/2026",
        timestamp: "2026-04-14T11:00:00",

@@ -1,5 +1,69 @@
 // Base de dados global de artigos para busca
 const allArticles = [
+
+    {
+  title: 'Greve nas Forças Armadas e a Vedação Constitucional',
+  description: 'A questão da paralisação coletiva por integrantes das Forças Armadas é tema que recorta de forma cirúrgica as fronteiras entre direitos trabalhistas e deveres constitucionais militares. A Constituição Federal de 1988 é expressa ao vedar tal prática.',
+  category: 'Direito Militar',
+  url: 'direito-militar/greve-forcas-armadas-vedacao-constitucional.html',
+  tags: ['Direito Militar', 'Greve Militar', 'Greve nas Forças Armadas e a Vedação Constitucional']
+},
+{
+  title: 'Defeitos Contratuais e Invalidade dos Negócios Jurídicos',
+  description: 'A distinção entre nulidade e anulabilidade dos contratos é tema de elevada relevância prática no direito civil brasileiro. Os vícios do negócio jurídico impactam diretamente a segurança das relações obrigacionais e a proteção das partes vulneráveis.',
+  category: 'Direito Civil',
+  url: 'direito-civil/defeitos-contratuais-invalidade-negocios-juridicos.html',
+  tags: ['Nulidade Contratual', 'Anulabilidade', 'Defeitos Contratuais e Invalidade dos Negócios Jurídicos']
+},
+{
+  title: 'Vínculos Parentais e Tutela Jurisdicional no Direito de Convivência',
+  description: 'O direito de convivência familiar ocupa posição central no ordenamento jurídico brasileiro como mecanismo de proteção integral da criança e do adolescente. A regulamentação dos laços parentais envolve tensões entre autonomia dos genitores e o interesse superior do menor.',
+  category: 'Direito de Família',
+  url: 'direito-de-familia/vinculos-parentais-tutela-jurisdicional-convivencia.html',
+  tags: ['Direito de Convivência', 'Direito de Família', 'Vínculos Parentais e Tutela Jurisdicional no Direito de Convivência']
+},
+{
+  title: 'Comércio Ilícito de Entorpecentes e Sanções Penais no Brasil',
+  description: 'O tráfico de drogas permanece como um dos delitos de maior impacto social e jurídico no Brasil. A complexidade das penas previstas na Lei 11.343/2006 e os critérios de distinção entre traficante e usuário continuam sendo objeto de intensa disputa doutrinária e jurisprudencial.',
+  category: 'Direito Criminal',
+  url: 'direito-penal/comercio-ilicito-entorpecentes-sancoes-penais-brasil.html',
+  tags: ['Tráfico de Drogas', 'Lei de Drogas', 'Comércio Ilícito de Entorpecentes e Sanções Penais no Brasil']
+},
+{
+  title: 'Violência Sexual no Ambiente de Trabalho e Proteção Jurídica',
+  description: 'O assédio sexual nas relações laborais constitui grave violação aos direitos fundamentais do trabalhador. A legislação brasileira avança na proteção das vítimas, mas a efetividade das normas ainda encontra barreiras culturais e institucionais.',
+  category: 'Direito Trabalhista',
+  url: 'direito-trabalhista/violencia-sexual-ambiente-trabalho-protecao-juridica.html',
+  tags: ['Assédio Sexual', 'Direito Trabalhista', 'Violência Sexual no Ambiente de Trabalho e Proteção Jurídica']
+},
+{
+  title: 'Supremo Tribunal Federal e Interferência Institucional na Política',
+  description: 'A atuação do Supremo Tribunal Federal no cenário político nacional transcende o papel de guardião constitucional e adentra o terreno da interferência nos demais poderes. O fenômeno do ativismo judicial reacende o debate sobre a separação de poderes.',
+  category: 'Política',
+  url: 'politica/supremo-tribunal-federal-interferencia-institucional-politica.html',
+  tags: ['STF', 'Papel do STF', 'Supremo Tribunal Federal e Interferência Institucional na Política']
+},
+{
+  title: 'Reforma Penal e Novos Paradigmas Normativos no Brasil',
+  description: 'As alterações no Código Penal brasileiro têm gerado intenso debate entre juristas, legisladores e a sociedade civil. As modificações normativas impactam diretamente a aplicação da lei penal e os direitos fundamentais dos cidadãos.',
+  category: 'Legislação',
+  url: 'legislacao/reforma-penal-novos-paradigmas-normativos-brasil.html',
+  tags: ['Código Penal', 'Reforma Penal', 'Reforma Penal e Novos Paradigmas Normativos no Brasil']
+},
+{
+  title: 'Veredictos Polêmicos e Seus Reflexos Jurídicos no Brasil',
+  description: 'As decisões judiciais controversas revelam as tensões entre segurança jurídica e ativismo interpretativo. O debate sobre os limites da discricionariedade dos tribunais coloca em xeque a previsibilidade do ordenamento jurídico brasileiro.',
+  category: 'Jurisprudência',
+  url: 'jurisprudencia/veredictos-polemicos-reflexos-juridicos-brasil.html',
+  tags: ['Decisões Polêmicas', 'Jurisprudência', 'Veredictos Polêmicos e Seus Reflexos Jurídicos no Brasil']
+},
+{
+  title: 'Ética Corporativa como Fundamento Estratégico Empresarial',
+  description: 'O código de ética empresarial deixou de ser mero documento protocolar para se tornar instrumento central de governança corporativa. Empresas que negligenciam suas diretrizes normativas internas expõem-se a riscos reputacionais e sanções regulatórias de elevada gravidade.',
+  category: 'Compliance',
+  url: 'compliance/etica-corporativa-fundamento-estrategico-empresarial.html',
+  tags: ['Código de Ética', 'Governança Corporativa', 'Ética Corporativa como Fundamento Estratégico Empresarial']
+},
        {
        title: 'Governança Empresarial e Accountability Jurídico',
        description: 'Obrigações corporativas redefinem o risco empresarial jurídico e competitivo no Brasil com Lei Anticorrupção, LGPD e ESG.',

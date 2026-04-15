@@ -1,6 +1,16 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
     {
+  title: "Vínculos Parentais e Tutela Jurisdicional no Direito de Convivência",
+  date: "15/04/2026",
+  timestamp: "2026-04-15T07:00:00",
+  image: "../img/vinculos-parentais-tutela-jurisdicional-convivencia.webp",
+  excerpt: "A guarda compartilhada e o combate à alienação parental consolidam o direito de convivência como proteção integral do menor no ordenamento brasileiro.",
+  link: "../direito-de-familia/vinculos-parentais-tutela-jurisdicional-convivencia.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
        title: "Adoção Legal e os Caminhos da Família",
        date: "14/04/2026",
        timestamp: "2026-04-14T07:00:00",

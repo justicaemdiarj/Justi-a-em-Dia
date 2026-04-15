@@ -1,6 +1,16 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
     {
+  title: "Ética Corporativa como Fundamento Estratégico Empresarial",
+  date: "15/04/2026",
+  timestamp: "2026-04-15T07:00:00",
+  image: "../img/etica-corporativa-fundamento-estrategico-empresarial.webp",
+  excerpt: "O código de ética empresarial consolidou-se como instrumento central de governança corporativa e proteção jurídica das organizações.",
+  link: "../compliance/etica-corporativa-fundamento-estrategico-empresarial.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
        title: "Governança Empresarial e Accountability Jurídico",
        date: "14/04/2026",
        timestamp: "2026-04-14T09:00:00",
