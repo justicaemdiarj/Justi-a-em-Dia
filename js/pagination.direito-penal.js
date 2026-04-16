@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
     {
+  title: "Provas Obtidas Ilegalmente e Suas Consequências",
+  date: "16/04/2026",
+  timestamp: "2026-04-16T12:00:00",
+  image: "../img/provas-obtidas-ilegalmente-consequencias.webp",
+  excerpt: "A inadmissibilidade de provas obtidas por meios ilícitos é princípio constitucional. A teoria dos frutos da árvore envenenada contamina toda a cadeia probatória no processo penal.",
+  link: "../direito-penal/provas-obtidas-ilegalmente-consequencias.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
   title: "Comércio Ilícito de Entorpecentes e Sanções Penais no Brasil",
   date: "15/04/2026",
   timestamp: "2026-04-15T07:00:00",

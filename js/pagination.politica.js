@@ -1,6 +1,16 @@
 // Dados de notícias para Política
 const categoryNewsData = [
     {
+  title: "Equilíbrio Fiscal como Imperativo Constitucional",
+  date: "16/04/2026",
+  timestamp: "2026-04-16T09:00:00",
+  image: "../img/equilibrio-fiscal-imperativo-constitucional.webp",
+  excerpt: "A responsabilidade fiscal no Brasil impõe limites ao endividamento público e obriga gestores a planejar receitas e despesas com transparência e prudência.",
+  link: "../politica/equilibrio-fiscal-imperativo-constitucional.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
   title: "Supremo Tribunal Federal e Interferência Institucional na Política",
   date: "15/04/2026",
   timestamp: "2026-04-15T07:00:00",

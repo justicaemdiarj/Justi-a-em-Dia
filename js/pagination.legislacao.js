@@ -1,6 +1,16 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
     {
+  title: "Proteção Legal ao Idoso no Brasil",
+  date: "16/04/2026",
+  timestamp: "2026-04-16T06:00:00",
+  image: "../img/estatuto-idoso-protecao-legal-brasil.webp",
+  excerpt: "O Estatuto do Idoso consolidou o arcabouço normativo de proteção às pessoas com 60 anos ou mais no Brasil, assegurando direitos fundamentais em saúde, assistência social e acesso à justiça.",
+  link: "../legislacao/estatuto-idoso-protecao-legal-brasil.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
   title: "Reforma Penal e Novos Paradigmas Normativos no Brasil",
   date: "15/04/2026",
   timestamp: "2026-04-15T07:00:00",

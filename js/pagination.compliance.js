@@ -1,6 +1,16 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
     {
+  title: "Conformidade Digital como Escudo Corporativo",
+  date: "16/04/2026",
+  timestamp: "2026-04-16T07:00:00",
+  image: "../img/conformidade-digital-escudo-corporativo.webp",
+  excerpt: "O compliance digital emerge como imperativo estratégico para empresas, integrando normas de proteção de dados, segurança cibernética e governança de plataformas segundo a LGPD.",
+  link: "../compliance/conformidade-digital-escudo-corporativo.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
   title: "Ética Corporativa como Fundamento Estratégico Empresarial",
   date: "15/04/2026",
   timestamp: "2026-04-15T07:00:00",

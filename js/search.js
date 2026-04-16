@@ -1,6 +1,71 @@
 // Base de dados global de artigos para busca
 const allArticles = [
 
+
+
+    {
+  title: 'Fuga do Dever Militar e Seus Reflexos Jurídicos',
+  description: 'A deserção no âmbito das Forças Armadas brasileiras configura infração de elevada gravidade no ordenamento jurídico militar, acarretando sanções penais, administrativas e disciplinares severas.',
+  category: 'Direito Militar',
+  url: 'direito-militar/desercao-consequencias-legais-militares.html',
+  tags: ['Deserção Militar', 'Código Penal Militar', 'Fuga do Dever Militar e Seus Reflexos Jurídicos']
+},
+{
+  title: 'Contratos Sufocantes e o Direito à Revisão',
+  description: 'A teoria da imprevisão e a revisão contratual por onerosidade excessiva são instrumentos fundamentais do direito civil brasileiro para reequilibrar obrigações desproporcionais.',
+  category: 'Direito Civil',
+  url: 'direito-civil/revisao-contratual-onerosidade-excessiva.html',
+  tags: ['Onerosidade Excessiva', 'Teoria da Imprevisão', 'Contratos Sufocantes e o Direito à Revisão']
+},
+{
+  title: 'Afeto Negado Pode Gerar Reparação Civil',
+  description: 'O abandono afetivo nas relações familiares tem sido reconhecido pelos tribunais brasileiros como conduta passível de indenização por dano moral e responsabilidade civil parental.',
+  category: 'Direito de Família',
+  url: 'direito-de-familia/abandono-afetivo-indenizacao-dano-moral.html',
+  tags: ['Abandono Afetivo', 'Dano Moral Familiar', 'Afeto Negado Pode Gerar Reparação Civil']
+},
+{
+  title: 'Equilíbrio Fiscal como Imperativo Constitucional',
+  description: 'A responsabilidade fiscal no Brasil impõe limites ao endividamento público e obriga gestores a planejar receitas e despesas com transparência e prudência segundo a Lei Complementar 101/2000.',
+  category: 'Política',
+  url: 'politica/equilibrio-fiscal-imperativo-constitucional.html',
+  tags: ['Responsabilidade Fiscal', 'Lei de Responsabilidade Fiscal', 'Equilíbrio Fiscal como Imperativo Constitucional']
+},
+{
+  title: 'Terceirização Irrestrita e os Riscos Trabalhistas',
+  description: 'A terceirização trabalhista no Brasil abrange qualquer atividade empresarial após a Reforma Trabalhista, mas impõe responsabilidades subsidiárias à empresa tomadora de serviços.',
+  category: 'Direito Trabalhista',
+  url: 'direito-trabalhista/terceirizacao-irrestrita-riscos-trabalhistas.html',
+  tags: ['Terceirização', 'Reforma Trabalhista', 'Terceirização Irrestrita e os Riscos Trabalhistas']
+},
+{
+  title: 'Provas Obtidas Ilegalmente e Suas Consequências',
+  description: 'A inadmissibilidade de provas obtidas por meios ilícitos é princípio constitucional consagrado no artigo 5º, LVI, da CF/88. A teoria dos frutos da árvore envenenada contamina toda a cadeia probatória.',
+  category: 'Direito Criminal',
+  url: 'direito-penal/provas-obtidas-ilegalmente-consequencias.html',
+  tags: ['Provas Ilícitas', 'Frutos da Árvore Envenenada', 'Provas Obtidas Ilegalmente e Suas Consequências']
+},
+{
+  title: 'Conformidade Digital como Escudo Corporativo',
+  description: 'O compliance digital emerge como imperativo estratégico para empresas que operam no ambiente tecnológico, integrando normas da LGPD, segurança cibernética e governança de plataformas.',
+  category: 'Compliance',
+  url: 'compliance/conformidade-digital-escudo-corporativo.html',
+  tags: ['Compliance Digital', 'LGPD', 'Conformidade Digital como Escudo Corporativo']
+},
+{
+  title: 'Repercussão Geral e o Poder do STF',
+  description: 'A repercussão geral permite ao STF selecionar os recursos extraordinários de relevância constitucional, transformando a forma como as decisões se projetam sobre todo o sistema judiciário brasileiro.',
+  category: 'Jurisprudência',
+  url: 'jurisprudencia/repercussao-geral-poder-stf-decisoes.html',
+  tags: ['Repercussão Geral', 'STF', 'Repercussão Geral e o Poder do STF']
+},
+{
+  title: 'Proteção Legal ao Idoso no Brasil',
+  description: 'O Estatuto do Idoso consolidou o arcabouço normativo de proteção às pessoas com 60 anos ou mais no Brasil, assegurando direitos fundamentais em saúde, assistência social e acesso à justiça.',
+  category: 'Legislação',
+  url: 'legislacao/estatuto-idoso-protecao-legal-brasil.html',
+  tags: ['Estatuto do Idoso', 'Direitos dos Idosos', 'Proteção Legal ao Idoso no Brasil']
+},
     {
   title: 'Greve nas Forças Armadas e a Vedação Constitucional',
   description: 'A questão da paralisação coletiva por integrantes das Forças Armadas é tema que recorta de forma cirúrgica as fronteiras entre direitos trabalhistas e deveres constitucionais militares. A Constituição Federal de 1988 é expressa ao vedar tal prática.',

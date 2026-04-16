@@ -1,6 +1,16 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
     {
+  title: "Afeto Negado Pode Gerar Reparação Civil",
+  date: "16/04/2026",
+  timestamp: "2026-04-16T11:00:00",
+  image: "../img/abandono-afetivo-indenizacao-dano-moral.webp",
+  excerpt: "O abandono afetivo nas relações familiares tem sido reconhecido pelos tribunais brasileiros como conduta passível de indenização por dano moral.",
+  link: "../direito-de-familia/abandono-afetivo-indenizacao-dano-moral.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
   title: "Vínculos Parentais e Tutela Jurisdicional no Direito de Convivência",
   date: "15/04/2026",
   timestamp: "2026-04-15T07:00:00",

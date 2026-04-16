@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
     {
+  title: "Contratos Sufocantes e o Direito à Revisão",
+  date: "16/04/2026",
+  timestamp: "2026-04-16T08:00:00",
+  image: "../img/revisao-contratual-onerosidade-excessiva.webp",
+  excerpt: "A teoria da imprevisão e a revisão contratual por onerosidade excessiva são instrumentos fundamentais do direito civil brasileiro para reequilibrar obrigações que se tornaram desproporcionais.",
+  link: "../direito-civil/revisao-contratual-onerosidade-excessiva.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
   title: "Defeitos Contratuais e Invalidade dos Negócios Jurídicos",
   date: "15/04/2026",
   timestamp: "2026-04-15T07:00:00",

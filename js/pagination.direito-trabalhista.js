@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
     {
+  title: "Terceirização Irrestrita e os Riscos Trabalhistas",
+  date: "16/04/2026",
+  timestamp: "2026-04-16T07:00:00",
+  image: "../img/terceirizacao-irrestrita-riscos-trabalhistas.webp",
+  excerpt: "A terceirização trabalhista no Brasil abrange qualquer atividade empresarial, mas impõe responsabilidades subsidiárias à empresa tomadora de serviços.",
+  link: "../direito-trabalhista/terceirizacao-irrestrita-riscos-trabalhistas.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
   title: "Violência Sexual no Ambiente de Trabalho e Proteção Jurídica",
   date: "15/04/2026",
   timestamp: "2026-04-15T07:00:00",

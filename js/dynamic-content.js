@@ -14,55 +14,6 @@ const tickerConfig = {
 const globalNewsData = [
 
 
-
-{
-    title: "O Que os Outros Sistemas Ensinam ao Nosso",
-    link: "jurisprudencia/o-que-os-outros-sistemas-ensinam-ao-nosso.html",
-},
-{
-    title: "Quando Legislar Demais Prejudica a Lei",
-    link: "legislacao/quando-legislar-demais-prejudica-a-lei.html",
-},
-{
-    title: "Como o Brasil Escolhe Seus Representantes",
-    link: "politica/como-o-brasil-escolhe-seus-representantes.html",
-},
-{
-    title: "Mesma Função Exige Mesmo Salário",
-    link: "direito-trabalhista/mesma-funcao-exige-mesmo-salario.html",
-},
-{
-    title: "A Confissão Que Pode Mudar Tudo",
-    link: "direito-penal/confissao-que-pode-mudar-tudo.html",
-},
-{
-    title: "Uma Criança Pode Ter Dois Pais no Registro",
-    link: "direito-de-familia/crianca-pode-ter-dois-pais-no-registro.html",
-},
-{
-    title: "Tempo de Posse Pode Virar Título de Dono",
-    link: "direito-civil/tempo-de-posse-pode-virar-titulo-de-dono.html",
-},
-{
-    title: "A Hierarquia Que Vira Instrumento de Tortura",
-    link: "direito-militar/hierarquia-que-vira-instrumento-de-tortura.html",
-},
-{
-       title: "Governança Empresarial e Accountability Jurídico",
-       link: "compliance/governanca-empresarial-accountability-juridico-brasil.html",
-},
-{
-       title: "Desinformação Eleitoral e o Peso da Lei",
-       link: "politica/desinformacao-eleitoral-peso-lei-democracia.html",
-},
-{
-       title: "Saída das Fileiras Militares sob Escrutínio",
-       link: "direito-militar/saida-fileiras-militares-escrutinio-juridico.html",
-},
-{
-       title: "Adoção Legal e os Caminhos da Família",
-       link: "direito-de-familia/adocao-legal-caminhos-familia-brasil.html",
-},
 {
        title: "Quando o Direito Penal Autoriza a Conduta",
        link: "direito-penal/excludentes-ilicitude-direito-penal-brasileiro.html",
@@ -120,7 +71,42 @@ const globalNewsData = [
   title: "Greve nas Forças Armadas e a Vedação Constitucional",
   link: "direito-militar/greve-forcas-armadas-vedacao-constitucional.html",
 },
-
+{
+  title: "Fuga do Dever Militar e Seus Reflexos Jurídicos",
+  link: "direito-militar/desercao-consequencias-legais-militares.html",
+},
+{
+  title: "Contratos Sufocantes e o Direito à Revisão",
+  link: "direito-civil/revisao-contratual-onerosidade-excessiva.html",
+},
+{
+  title: "Afeto Negado Pode Gerar Reparação Civil",
+  link: "direito-de-familia/abandono-afetivo-indenizacao-dano-moral.html",
+},
+{
+  title: "Terceirização Irrestrita e os Riscos Trabalhistas",
+  link: "direito-trabalhista/terceirizacao-irrestrita-riscos-trabalhistas.html",
+},
+{
+  title: "Equilíbrio Fiscal como Imperativo Constitucional",
+  link: "politica/equilibrio-fiscal-imperativo-constitucional.html",
+},
+{
+  title: "Provas Obtidas Ilegalmente e Suas Consequências",
+  link: "direito-penal/provas-obtidas-ilegalmente-consequencias.html",
+},
+{
+  title: "Conformidade Digital como Escudo Corporativo",
+  link: "compliance/conformidade-digital-escudo-corporativo.html",
+},
+{
+  title: "Repercussão Geral e o Poder do STF",
+  link: "jurisprudencia/repercussao-geral-poder-stf-decisoes.html",
+},
+{
+  title: "Proteção Legal ao Idoso no Brasil",
+  link: "legislacao/estatuto-idoso-protecao-legal-brasil.html",
+}
 
 ];
 

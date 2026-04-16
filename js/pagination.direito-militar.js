@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
     {
+  title: "Fuga do Dever Militar e Seus Reflexos Jurídicos",
+  date: "16/04/2026",
+  timestamp: "2026-04-16T08:00:00",
+  image: "../img/desercao-consequencias-legais-militares.webp",
+  excerpt: "A deserção no âmbito das Forças Armadas brasileiras configura infração de elevada gravidade no ordenamento jurídico militar, acarretando sanções penais, administrativas e disciplinares severas.",
+  link: "../direito-militar/desercao-consequencias-legais-militares.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
   title: "Greve nas Forças Armadas e a Vedação Constitucional",
   date: "15/04/2026",
   timestamp: "2026-04-15T07:00:00",

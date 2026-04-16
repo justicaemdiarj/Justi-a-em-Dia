@@ -1,6 +1,16 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
     {
+  title: "Repercussão Geral e o Poder do STF",
+  date: "16/04/2026",
+  timestamp: "2026-04-16T06:00:00",
+  image: "../img/repercussao-geral-poder-stf-decisoes.webp",
+  excerpt: "A repercussão geral permite ao STF selecionar os recursos extraordinários de relevância constitucional, transformando a forma como as decisões se projetam sobre todo o sistema judiciário brasileiro.",
+  link: "../jurisprudencia/repercussao-geral-poder-stf-decisoes.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
   title: "Veredictos Polêmicos e Seus Reflexos Jurídicos no Brasil",
   date: "15/04/2026",
   timestamp: "2026-04-15T07:00:00",

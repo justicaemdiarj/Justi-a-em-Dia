@@ -2,73 +2,73 @@ const posts = [
   
   
 {
-  title: "Ética Corporativa como Fundamento Estratégico Empresarial",
-  description: "O código de ética empresarial tornou-se instrumento central de governança e proteção jurídica das organizações brasileiras.",
-  description2: "A Lei Anticorrupção e o Decreto 8.420/2015 consolidam o compliance como imperativo legal e estratégico nas empresas.",
-  image: "img/etica-corporativa-fundamento-estrategico-empresarial.webp",
-  link: "compliance/etica-corporativa-fundamento-estrategico-empresarial.html",
-  date: "2026-04-15T07:00:00",
+  title: "Provas Obtidas Ilegalmente e Suas Consequências",
+  description: "Teoria dos frutos da árvore envenenada e a contaminação probatória no processo penal",
+  description2: "Constituição Federal veda provas ilícitas e protege garantias processuais do acusado",
+  image: "img/provas-obtidas-ilegalmente-consequencias.webp",
+  link: "direito-penal/provas-obtidas-ilegalmente-consequencias.html",
+  date: "2026-04-16T12:00:00",
   section: "featured"
 },
   {
-  title: "Veredictos Polêmicos e Seus Reflexos Jurídicos no Brasil",
-  description: "As decisões controversas dos tribunais brasileiros expõem as tensões entre ativismo judicial e segurança jurídica.",
-  description2: "O fenômeno da judicialização da política desafia os limites do sistema democrático e da separação de poderes.",
-  image: "img/veredictos-polemicos-reflexos-juridicos-brasil.webp",
-  link: "jurisprudencia/veredictos-polemicos-reflexos-juridicos-brasil.html",
-  date: "2026-04-15T07:00:00",
+  title: "Conformidade Digital como Escudo Corporativo",
+  description: "LGPD e cibersegurança redefinindo a responsabilidade empresarial no ambiente digital",
+  description2: "Como estruturar um programa de compliance digital eficiente e sustentável",
+  image: "img/conformidade-digital-escudo-corporativo.webp",
+  link: "compliance/conformidade-digital-escudo-corporativo.html",
+  date: "2026-04-16T07:00:00",
   section: "featured-secundario"
 },
 {
-  title: "Reforma Penal e Novos Paradigmas Normativos no Brasil",
-  description: "As mudanças no Código Penal geram debate intenso entre garantismo e punitivismo no sistema jurídico nacional.",
-  description2: "Da Lei 13.964/2019 à discussão sobre descriminalização, o direito penal brasileiro busca novos horizontes normativos.",
-  image: "img/reforma-penal-novos-paradigmas-normativos-brasil.webp",
-  link: "legislacao/reforma-penal-novos-paradigmas-normativos-brasil.html",
-  date: "2026-04-15T07:00:00",
+  title: "Repercussão Geral e o Poder do STF",
+  description: "Como o filtro constitucional do STF molda o sistema judiciário brasileiro",
+  description2: "EC 45/2004 e o instituto processual que concentrou poder interpretativo no Supremo",
+  image: "img/repercussao-geral-poder-stf-decisoes.webp",
+  link: "jurisprudencia/repercussao-geral-poder-stf-decisoes.html",
+  date: "2026-04-16T06:00:00",
  section: "featured-terciario"
 },
   {
-  title: "Supremo Tribunal Federal e Interferência Institucional na Política",
-  image: "img/supremo-tribunal-federal-interferencia-institucional-politica.webp",
-  link: "politica/supremo-tribunal-federal-interferencia-institucional-politica.html",
-  date: "2026-04-15T07:00:00",
+  title: "Proteção Legal ao Idoso no Brasil",
+  image: "img/estatuto-idoso-protecao-legal-brasil.webp",
+  link: "legislacao/estatuto-idoso-protecao-legal-brasil.html",
+  date: "2026-04-16T06:00:00",
     section: "destaque"
   },
    {
-    title: "Violência Sexual no Ambiente de Trabalho e Proteção Jurídica",
-  image: "img/violencia-sexual-ambiente-trabalho-protecao-juridica.webp",
-  link: "direito-trabalhista/violencia-sexual-ambiente-trabalho-protecao-juridica.html",
-  date: "2026-04-15T07:00:00",
+  title: "Equilíbrio Fiscal como Imperativo Constitucional",
+  image: "img/equilibrio-fiscal-imperativo-constitucional.webp",
+  link: "politica/equilibrio-fiscal-imperativo-constitucional.html",
+  date: "2026-04-16T09:00:00",
     section: "destaque"
   },
   {
-  title: "Comércio Ilícito de Entorpecentes e Sanções Penais no Brasil",
-  image: "img/comercio-ilicito-entorpecentes-sancoes-penais-brasil.webp",
-  link: "direito-penal/comercio-ilicito-entorpecentes-sancoes-penais-brasil.html",
-  date: "2026-04-15T07:00:00",
+  title: "Terceirização Irrestrita e os Riscos Trabalhistas",
+  image: "img/terceirizacao-irrestrita-riscos-trabalhistas.webp",
+  link: "direito-trabalhista/terceirizacao-irrestrita-riscos-trabalhistas.html",
+  date: "2026-04-16T07:00:00",
     section: "destaque"
 
   },
   {
-  title: "Vínculos Parentais e Tutela Jurisdicional no Direito de Convivência",
-  image: "img/vinculos-parentais-tutela-jurisdicional-convivencia.webp",
-  link: "direito-de-familia/vinculos-parentais-tutela-jurisdicional-convivencia.html",
-  date: "2026-04-15T07:00:00",
+  title: "Afeto Negado Pode Gerar Reparação Civil",
+  image: "img/abandono-afetivo-indenizacao-dano-moral.webp",
+  link: "direito-de-familia/abandono-afetivo-indenizacao-dano-moral.html",
+  date: "2026-04-16T11:00:00",
     section: "veja"
   },
   {
-  title: "Defeitos Contratuais e Invalidade dos Negócios Jurídicos",
-  image: "img/defeitos-contratuais-invalidade-negocios-juridicos.webp",
-  link: "direito-civil/defeitos-contratuais-invalidade-negocios-juridicos.html",
-  date: "2026-04-15T07:00:00",
+  title: "Contratos Sufocantes e o Direito à Revisão",
+  image: "img/revisao-contratual-onerosidade-excessiva.webp",
+  link: "direito-civil/revisao-contratual-onerosidade-excessiva.html",
+  date: "2026-04-16T08:00:00",
     section: "veja"
   },
   {
-  title: "Greve nas Forças Armadas e a Vedação Constitucional",
-  image: "img/greve-forcas-armadas-vedacao-constitucional.webp",
-  link: "direito-militar/greve-forcas-armadas-vedacao-constitucional.html",
-  date: "2026-04-15T07:00:00",
+   title: "Fuga do Dever Militar e Seus Reflexos Jurídicos",
+  image: "img/desercao-consequencias-legais-militares.webp",
+  link: "direito-militar/desercao-consequencias-legais-militares.html",
+   date: "2026-04-16T08:00:00",
     section: "veja"
   }
 ];
