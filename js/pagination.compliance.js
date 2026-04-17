@@ -1,5 +1,14 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
+    { title: "Compliance nas Pequenas Empresas Brasileiras", 
+      date: "17/04/2026", 
+      timestamp: "2026-04-17T07:00:00", 
+      image: "../img/compliance-pequenas-empresas-brasileiras.webp", 
+      excerpt: "Como as pequenas empresas brasileiras podem implementar compliance de forma acessível e eficaz.", 
+      link: "../compliance/compliance-pequenas-empresas-brasileiras.html", 
+      author: "Justiça em Dia", 
+      authorLink: "#" 
+    },
     {
   title: "Conformidade Digital como Escudo Corporativo",
   date: "16/04/2026",

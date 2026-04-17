@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
     {
+  title: "Disciplina Militar e Suas Fronteiras Jurídicas",
+  date: "17/04/2026",
+  timestamp: "2026-04-17T08:00:00",
+  image: "../img/transgressoes-disciplinares-limites-direito-militar.webp",
+  excerpt: "O poder disciplinar castrense encontra limites nas garantias constitucionais.",
+  link: "../direito-militar/transgressoes-disciplinares-limites-direito-militar.html",
+  category: "direito-militar",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
   title: "Fuga do Dever Militar e Seus Reflexos Jurídicos",
   date: "16/04/2026",
   timestamp: "2026-04-16T08:00:00",

@@ -1,5 +1,13 @@
 // Dados de notícias para Política
 const categoryNewsData = [
+    { title: "Corrupção Sistêmica e a Resposta do Estado Brasileiro", 
+        date: "17/04/2026", 
+        timestamp: "2026-04-17T06:00:00", 
+        image: "../img/corrupcao-sistemica-resposta-estado-brasileiro.webp", 
+        excerpt: "O arcabouço normativo anticorrupção brasileiro diante dos desafios institucionais.", 
+        link: "../politica/corrupcao-sistemica-resposta-estado-brasileiro.html", 
+        author: "Justiça em Dia", 
+        authorLink: "#" },
     {
   title: "Equilíbrio Fiscal como Imperativo Constitucional",
   date: "16/04/2026",

@@ -1,5 +1,14 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
+    { title: "Acidente Laboral e a Responsabilidade Patronal no Brasil", 
+        date: "17/04/2026", 
+        timestamp: "2026-04-17T09:00:00", 
+        image: "../img/acidente-laboral-responsabilidade-patronal-brasil.webp", 
+        excerpt: "Responsabilidade civil, benefícios previdenciários e normas de segurança no acidente laboral.",
+        link: "../direito-trabalhista/acidente-laboral-responsabilidade-patronal-brasil.html", 
+        author: "Justiça em Dia", 
+        authorLink: "#" 
+    },
     {
   title: "Terceirização Irrestrita e os Riscos Trabalhistas",
   date: "16/04/2026",

@@ -1,5 +1,14 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
+    { title: "Sucessão Familiar e Estratégia Patrimonial no Brasil", 
+        date: "17/04/2026", 
+        timestamp: "2026-04-17T09:00:00", 
+        image: "../img/sucessao-familiar-estrategia-patrimonial-brasil.webp", 
+        excerpt: "Testamentos, holdings e doações como instrumentos de organização sucessória familiar.", 
+        link: "../direito-de-familia/sucessao-familiar-estrategia-patrimonial-brasil.html", 
+        author: "Justiça em Dia", 
+        authorLink: "#" 
+    },
     {
   title: "Afeto Negado Pode Gerar Reparação Civil",
   date: "16/04/2026",

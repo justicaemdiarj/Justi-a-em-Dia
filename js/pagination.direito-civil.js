@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
     {
+  title: "Proteção Consumerista no Ordenamento Civil Brasileiro",
+  date: "17/04/2026",
+  timestamp: "2026-04-17T08:00:00",
+  image: "../img/protecao-consumerista-ordenamento-civil-brasileiro.webp",
+  excerpt: "O CDC e o Código Civil formam sistema protetivo robusto ao consumidor vulnerável.",
+  link: "../direito-civil/protecao-consumerista-ordenamento-civil-brasileiro.html",
+  category: "direito-civil",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
   title: "Contratos Sufocantes e o Direito à Revisão",
   date: "16/04/2026",
   timestamp: "2026-04-16T08:00:00",

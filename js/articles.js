@@ -2,72 +2,71 @@ const posts = [
   
   
 {
-  title: "Provas Obtidas Ilegalmente e Suas Consequências",
-  description: "Teoria dos frutos da árvore envenenada e a contaminação probatória no processo penal",
-  description2: "Constituição Federal veda provas ilícitas e protege garantias processuais do acusado",
-  image: "img/provas-obtidas-ilegalmente-consequencias.webp",
-  link: "direito-penal/provas-obtidas-ilegalmente-consequencias.html",
-  date: "2026-04-16T12:00:00",
+  title: "Compliance nas Pequenas Empresas Brasileiras",
+description: "Por que toda pequena empresa precisa de compliance e como implementá-lo com recursos limitados", 
+description2: "Lei Anticorrupção, LGPD e conformidade trabalhista no universo dos pequenos negócios",
+  image: "img/compliance-pequenas-empresas-brasileiras.webp",
+  link: "compliance/compliance-pequenas-empresas-brasileiras.html",
+  date: "2026-04-17T12:00:00",
   section: "featured"
 },
   {
-  title: "Conformidade Digital como Escudo Corporativo",
-  description: "LGPD e cibersegurança redefinindo a responsabilidade empresarial no ambiente digital",
-  description2: "Como estruturar um programa de compliance digital eficiente e sustentável",
-  image: "img/conformidade-digital-escudo-corporativo.webp",
-  link: "compliance/conformidade-digital-escudo-corporativo.html",
-  date: "2026-04-16T07:00:00",
+  title: "O STF Como Árbitro da Transformação Social",
+  description: "Como as decisões do STF moldam direitos, transformam relações sociais e desafiam a democracia", 
+  description2: "Ativismo judicial, controle de constitucionalidade e legitimidade democrática do Supremo", 
+  image: "img/stf-arbitro-transformacao-social-decisoes-impacto.webp", 
+  link: "jurisprudencia/stf-arbitro-transformacao-social-decisoes-impacto.html", 
+  date: "2026-04-17T07:00:00",
   section: "featured-secundario"
 },
 {
-  title: "Repercussão Geral e o Poder do STF",
-  description: "Como o filtro constitucional do STF molda o sistema judiciário brasileiro",
-  description2: "EC 45/2004 e o instituto processual que concentrou poder interpretativo no Supremo",
-  image: "img/repercussao-geral-poder-stf-decisoes.webp",
-  link: "jurisprudencia/repercussao-geral-poder-stf-decisoes.html",
-  date: "2026-04-16T06:00:00",
+ title: "Improbidade Administrativa Sob Novo Regramento Legal", 
+ description: "Como a Lei nº 14.230 de 2021 reformulou a responsabilização de agentes públicos no Brasil", 
+ description2: "Dolo específico, prescrição e novo papel do Ministério Público na ação de improbidade", 
+ image: "img/improbidade-administrativa-novo-regramento-legal.webp", 
+ link: "legislacao/improbidade-administrativa-novo-regramento-legal.html", 
+ date: "2026-04-17T07:00:00",
  section: "featured-terciario"
 },
   {
-  title: "Proteção Legal ao Idoso no Brasil",
-  image: "img/estatuto-idoso-protecao-legal-brasil.webp",
-  link: "legislacao/estatuto-idoso-protecao-legal-brasil.html",
-  date: "2026-04-16T06:00:00",
+title: "Corrupção Sistêmica e a Resposta do Estado Brasileiro",
+image: "img/corrupcao-sistemica-resposta-estado-brasileiro.webp",
+link: "politica/corrupcao-sistemica-resposta-estado-brasileiro.html",
+  date: "2026-04-17T06:00:00",
     section: "destaque"
   },
    {
-  title: "Equilíbrio Fiscal como Imperativo Constitucional",
-  image: "img/equilibrio-fiscal-imperativo-constitucional.webp",
-  link: "politica/equilibrio-fiscal-imperativo-constitucional.html",
-  date: "2026-04-16T09:00:00",
+title: "Acidente Laboral e a Responsabilidade Patronal no Brasil",
+image: "img/acidente-laboral-responsabilidade-patronal-brasil.webp", 
+link: "direito-trabalhista/acidente-laboral-responsabilidade-patronal-brasil.html",
+  date: "2026-04-17T09:00:00",
     section: "destaque"
   },
   {
-  title: "Terceirização Irrestrita e os Riscos Trabalhistas",
-  image: "img/terceirizacao-irrestrita-riscos-trabalhistas.webp",
-  link: "direito-trabalhista/terceirizacao-irrestrita-riscos-trabalhistas.html",
-  date: "2026-04-16T07:00:00",
+title: "Sucessão Familiar e Estratégia Patrimonial no Brasil",
+image: "img/sucessao-familiar-estrategia-patrimonial-brasil.webp", 
+link: "direito-de-familia/sucessao-familiar-estrategia-patrimonial-brasil.html",
+  date: "2026-04-17T09:00:00",
     section: "destaque"
-
   },
   {
-  title: "Afeto Negado Pode Gerar Reparação Civil",
-  image: "img/abandono-afetivo-indenizacao-dano-moral.webp",
-  link: "direito-de-familia/abandono-afetivo-indenizacao-dano-moral.html",
-  date: "2026-04-16T11:00:00",
+  title: "Cadeia de Custódia e a Prova Penal Legítima",
+  image: "img/cadeia-custodia-prova-penal-legitima.webp",
+  link: "direito-penal/cadeia-custodia-prova-penal-legitima.html",
+  date: "2026-04-17T11:00:00",
     section: "veja"
   },
   {
-  title: "Contratos Sufocantes e o Direito à Revisão",
-  image: "img/revisao-contratual-onerosidade-excessiva.webp",
-  link: "direito-civil/revisao-contratual-onerosidade-excessiva.html",
-  date: "2026-04-16T08:00:00",
+  title: "Proteção Consumerista no Ordenamento Civil Brasileiro",
+ image: "img/protecao-consumerista-ordenamento-civil-brasileiro.webp",
+  link: "direito-civil/protecao-consumerista-ordenamento-civil-brasileiro.html",
+  date: "2026-04-17T08:00:00",
     section: "veja"
   },
   {
-   title: "Fuga do Dever Militar e Seus Reflexos Jurídicos",
-  image: "img/desercao-consequencias-legais-militares.webp",
-  link: "direito-militar/desercao-consequencias-legais-militares.html",
+  title: "Disciplina Militar e Suas Fronteiras Jurídicas",
+ image: "img/transgressoes-disciplinares-limites-direito-militar.webp",
+  link: "direito-militar/transgressoes-disciplinares-limites-direito-militar.html",
    date: "2026-04-16T08:00:00",
     section: "veja"
   }

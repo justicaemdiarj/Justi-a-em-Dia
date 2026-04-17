@@ -1,8 +1,63 @@
 // Base de dados global de artigos para busca
 const allArticles = [
 
-
-
+{ title: 'Compliance nas Pequenas Empresas Brasileiras', 
+    description: 'A conformidade regulatória não é exclusividade das grandes corporações. Pequenas empresas precisam adotar práticas de compliance para evitar sanções e ampliar sua competitividade.', 
+    category: 'Compliance',
+    url: 'compliance/compliance-pequenas-empresas-brasileiras.html', 
+    tags: ['Compliance', 'Pequenas Empresas', 'Compliance nas Pequenas Empresas Brasileiras'] 
+},
+{ title: 'O STF Como Árbitro da Transformação Social', 
+    description: 'As decisões do Supremo Tribunal Federal moldam a realidade social, econômica e política do Brasil, com impactos que ultrapassam os casos concretos julgados.', 
+    category: 'Jurisprudência', 
+    url: 'jurisprudencia/stf-arbitro-transformacao-social-decisoes-impacto.html', 
+    tags: ['STF', 'Jurisprudência Constitucional', 'O STF Como Árbitro da Transformação Social'] 
+},
+{ title: 'Improbidade Administrativa Sob Novo Regramento Legal', 
+    description: 'A reforma da Lei de Improbidade Administrativa redefiniu os critérios de responsabilização de agentes públicos com a exigência de dolo específico e novo regime prescricional.', 
+    category: 'Legislação', 
+    url: 'legislacao/improbidade-administrativa-novo-regramento-legal.html', 
+    tags: ['Improbidade Administrativa', 'Lei 14230', 'Improbidade Administrativa Sob Novo Regramento Legal'] 
+},
+{ title: 'Corrupção Sistêmica e a Resposta do Estado Brasileiro', 
+    description: 'A corrupção custa ao Brasil parcela expressiva do PIB. Conheça o arcabouço normativo anticorrupção e os desafios do seu combate.', 
+    category: 'Política', 
+    url: 'politica/corrupcao-sistemica-resposta-estado-brasileiro.html', 
+    tags: ['Corrupção', 'Combate Institucional', 'Corrupção Sistêmica e a Resposta do Estado Brasileiro'] 
+},
+{ title: 'Acidente Laboral e a Responsabilidade Patronal no Brasil', 
+    description: 'O Brasil registra centenas de milhares de acidentes de trabalho por ano. Conheça o arcabouço jurídico de proteção ao trabalhador acidentado.', 
+    category: 'Direito Trabalhista', 
+    url: 'direito-trabalhista/acidente-laboral-responsabilidade-patronal-brasil.html', 
+    tags: ['Acidente de Trabalho', 'Segurança do Trabalho', 'Acidente Laboral e a Responsabilidade Patronal no Brasil'] 
+},
+{ title: 'Sucessão Familiar e Estratégia Patrimonial no Brasil', 
+    description: 'O planejamento sucessório familiar é um instrumento jurídico essencial para proteger o patrimônio, reduzir tributos e evitar litígios entre herdeiros.', 
+    category: 'Direito de Família', 
+    url: 'direito-de-familia/sucessao-familiar-estrategia-patrimonial-brasil.html', 
+    tags: ['Planejamento Sucessório', 'Herança', 'Sucessão Familiar e Estratégia Patrimonial no Brasil'] 
+},
+{
+  title: 'Cadeia de Custódia e a Prova Penal Legítima',
+  description: 'A cadeia de custódia da prova penal garante a integridade dos vestígios criminais desde a coleta até o julgamento. Sua violação pode comprometer toda a persecução penal.',
+  category: 'Direito Criminal',
+  url: 'direito-penal/cadeia-custodia-prova-penal-legitima.html',
+  tags: ['Cadeia de Custódia', 'Prova Penal', 'Cadeia de Custódia e a Prova Penal Legítima']
+},
+{
+  title: 'Proteção Consumerista no Ordenamento Civil Brasileiro',
+  description: 'O Código de Defesa do Consumidor, em diálogo com o Código Civil, forma um sistema protetivo robusto que tutela o consumidor vulnerável nas relações de mercado.',
+  category: 'Direito Civil',
+  url: 'direito-civil/protecao-consumerista-ordenamento-civil-brasileiro.html',
+  tags: ['Direito do Consumidor', 'CDC', 'Proteção Consumerista no Ordenamento Civil Brasileiro']
+},
+{
+  title: 'Disciplina Militar e Suas Fronteiras Jurídicas',
+  description: 'O poder disciplinar nas instituições castrenses brasileiras enfrenta limites constitucionais que exigem observância do contraditório, da ampla defesa e da proporcionalidade.',
+  category: 'Direito Militar',
+  url: 'direito-militar/transgressoes-disciplinares-limites-direito-militar.html',
+  tags: ['Direito Militar', 'Transgressões Disciplinares', 'Disciplina Militar e Suas Fronteiras Jurídicas']
+},
     {
   title: 'Fuga do Dever Militar e Seus Reflexos Jurídicos',
   description: 'A deserção no âmbito das Forças Armadas brasileiras configura infração de elevada gravidade no ordenamento jurídico militar, acarretando sanções penais, administrativas e disciplinares severas.',

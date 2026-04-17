@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
     {
+  title: "Cadeia de Custódia e a Prova Penal Legítima",
+  date: "17/04/2026",
+  timestamp: "2026-04-17T11:00:00",
+  image: "../img/cadeia-custodia-prova-penal-legitima.webp",
+  excerpt: "A integridade dos vestígios criminais como garantia do processo penal justo.",
+  link: "../direito-penal/cadeia-custodia-prova-penal-legitima.html",
+  category: "direito-penal",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
   title: "Provas Obtidas Ilegalmente e Suas Consequências",
   date: "16/04/2026",
   timestamp: "2026-04-16T12:00:00",

@@ -1,5 +1,13 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
+    { title: "O STF Como Árbitro da Transformação Social", 
+        date: "17/04/2026", 
+        timestamp: "2026-04-17T07:00:00", 
+        image: "../img/stf-arbitro-transformacao-social-decisoes-impacto.webp", 
+        excerpt: "Como as decisões do STF transcendem o direito e transformam a realidade social brasileira.", 
+        link: "../jurisprudencia/stf-arbitro-transformacao-social-decisoes-impacto.html", 
+        author: "Justiça em Dia", 
+        authorLink: "#" },
     {
   title: "Repercussão Geral e o Poder do STF",
   date: "16/04/2026",

@@ -14,55 +14,8 @@ const tickerConfig = {
 const globalNewsData = [
 
 
-{
-       title: "Quando o Direito Penal Autoriza a Conduta",
-       link: "direito-penal/excludentes-ilicitude-direito-penal-brasileiro.html",
-},
-{
-       title: "Banco de Horas sob o Olhar Jurídico",
-       link: "direito-trabalhista/banco-horas-olhar-juridico-trabalhista.html",
-},
 
-{
-       title: "Responsabilidade Médica e Reparação Civil",
-       link: "direito-civil/responsabilidade-medica-reparacao-civil-brasil.html",
-},
-{
-       title: "Normas Ambientais sob Tensão Política",
-       link: "legislacao/normas-ambientais-tensao-politica-brasil.html",
-},
-{
-       title: "Decisões Penais que Moldam o Direito",
-       link: "jurisprudencia/decisoes-penais-moldam-direito-brasil.html",
-},
-{
-  title: "Ética Corporativa como Fundamento Estratégico Empresarial",
-  link: "compliance/etica-corporativa-fundamento-estrategico-empresarial.html",
-},
-{
-  title: "Veredictos Polêmicos e Seus Reflexos Jurídicos no Brasil",
-  link: "jurisprudencia/veredictos-polemicos-reflexos-juridicos-brasil.html",
-},
-{
-  title: "Reforma Penal e Novos Paradigmas Normativos no Brasil",
-  link: "legislacao/reforma-penal-novos-paradigmas-normativos-brasil.html",
-},
-{
-  title: "Supremo Tribunal Federal e Interferência Institucional na Política",
-  link: "politica/supremo-tribunal-federal-interferencia-institucional-politica.html",
-},
-{
-  title: "Violência Sexual no Ambiente de Trabalho e Proteção Jurídica",
-  link: "direito-trabalhista/violencia-sexual-ambiente-trabalho-protecao-juridica.html",
-},
-{
-  title: "Comércio Ilícito de Entorpecentes e Sanções Penais no Brasil",
-  link: "direito-penal/comercio-ilicito-entorpecentes-sancoes-penais-brasil.html",
-},
-{
-  title: "Vínculos Parentais e Tutela Jurisdicional no Direito de Convivência",
-  link: "direito-de-familia/vinculos-parentais-tutela-jurisdicional-convivencia.html",
-},
+
 {
   title: "Defeitos Contratuais e Invalidade dos Negócios Jurídicos",
   link: "direito-civil/defeitos-contratuais-invalidade-negocios-juridicos.html",
@@ -106,7 +59,26 @@ const globalNewsData = [
 {
   title: "Proteção Legal ao Idoso no Brasil",
   link: "legislacao/estatuto-idoso-protecao-legal-brasil.html",
-}
+},
+{ title: "Compliance nas Pequenas Empresas Brasileiras", link: "compliance/compliance-pequenas-empresas-brasileiras.html" },
+{ title: "O STF Como Árbitro da Transformação Social", link: "jurisprudencia/stf-arbitro-transformacao-social-decisoes-impacto.html" },
+{ title: "Improbidade Administrativa Sob Novo Regramento Legal", link: "legislacao/improbidade-administrativa-novo-regramento-legal.html" },
+{ title: "Corrupção Sistêmica e a Resposta do Estado Brasileiro", link: "politica/corrupcao-sistemica-resposta-estado-brasileiro.html" },
+{ title: "Acidente Laboral e a Responsabilidade Patronal no Brasil", link: "direito-trabalhista/acidente-laboral-responsabilidade-patronal-brasil.html" },
+{ title: "Sucessão Familiar e Estratégia Patrimonial no Brasil", link: "direito-de-familia/sucessao-familiar-estrategia-patrimonial-brasil.html" },
+{
+  title: "Cadeia de Custódia e a Prova Penal Legítima",
+  link: "direito-penal/cadeia-custodia-prova-penal-legitima.html",
+},
+{
+  title: "Proteção Consumerista no Ordenamento Civil Brasileiro",
+  link: "direito-civil/protecao-consumerista-ordenamento-civil-brasileiro.html",
+},
+{
+  title: "Disciplina Militar e Suas Fronteiras Jurídicas",
+  link: "direito-militar/transgressoes-disciplinares-limites-direito-militar.html",
+},
+
 
 ];
 

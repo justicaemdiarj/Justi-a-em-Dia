@@ -1,5 +1,14 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
+    { title: "Improbidade Administrativa Sob Novo Regramento Legal", 
+        date: "17/04/2026", 
+        timestamp: "2026-04-17T07:00:00", 
+        image: "../img/improbidade-administrativa-novo-regramento-legal.webp", 
+        excerpt: "A reforma da Lei de Improbidade e seus impactos sobre a responsabilização de agentes públicos.", 
+        link: "../legislacao/improbidade-administrativa-novo-regramento-legal.html", 
+        author: "Justiça em Dia", 
+        authorLink: "#" 
+    },
     {
   title: "Proteção Legal ao Idoso no Brasil",
   date: "16/04/2026",
