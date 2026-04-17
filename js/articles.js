@@ -67,7 +67,7 @@ link: "direito-de-familia/sucessao-familiar-estrategia-patrimonial-brasil.html",
   title: "Disciplina Militar e Suas Fronteiras Jurídicas",
  image: "img/transgressoes-disciplinares-limites-direito-militar.webp",
   link: "direito-militar/transgressoes-disciplinares-limites-direito-militar.html",
-   date: "2026-04-16T08:00:00",
+   date: "2026-04-17T08:00:00",
     section: "veja"
   }
 ];
