@@ -1,5 +1,14 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
+    { title: "Indenização pelo Estado e a Teoria do Risco Administrativo", 
+        date: "20/04/2026", 
+        timestamp: "2026-04-20T07:00:00", 
+        image: "../img/indenizacao-estado-teoria-risco-administrativo.webp", 
+        excerpt: "A responsabilidade civil do Estado por danos causados a particulares é um dos pilares do Estado democrático de direito.", 
+        link: "../direito-civil/indenizacao-estado-teoria-risco-administrativo.html", 
+        author: "Justiça em Dia", 
+        authorLink: "#" 
+    },
     {
   title: "Proteção Consumerista no Ordenamento Civil Brasileiro",
   date: "17/04/2026",

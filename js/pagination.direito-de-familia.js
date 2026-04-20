@@ -1,5 +1,14 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
+    { title: "Custódia Exclusiva e Proteção Integral da Criança", 
+        date: "20/04/2026", 
+        timestamp: "2026-04-20T08:00:00", 
+        image: "../img/custodia-exclusiva-protecao-integral-crianca.webp", 
+        excerpt: "A guarda unilateral permanece como modalidade aplicável em situações específicas do direito de família brasileiro.", 
+        link: "../direito-de-familia/custodia-exclusiva-protecao-integral-crianca.html", 
+    author: "Romer Carvalho",
+    authorLink: "../apoiadores/advogado-romer-carvalho.html"
+     },
     { title: "Sucessão Familiar e Estratégia Patrimonial no Brasil", 
         date: "17/04/2026", 
         timestamp: "2026-04-17T09:00:00", 

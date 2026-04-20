@@ -13,41 +13,6 @@ const tickerConfig = {
 
 const globalNewsData = [
 
-
-
-
-{
-  title: "Defeitos Contratuais e Invalidade dos Negócios Jurídicos",
-  link: "direito-civil/defeitos-contratuais-invalidade-negocios-juridicos.html",
-},
-{
-  title: "Greve nas Forças Armadas e a Vedação Constitucional",
-  link: "direito-militar/greve-forcas-armadas-vedacao-constitucional.html",
-},
-{
-  title: "Fuga do Dever Militar e Seus Reflexos Jurídicos",
-  link: "direito-militar/desercao-consequencias-legais-militares.html",
-},
-{
-  title: "Contratos Sufocantes e o Direito à Revisão",
-  link: "direito-civil/revisao-contratual-onerosidade-excessiva.html",
-},
-{
-  title: "Afeto Negado Pode Gerar Reparação Civil",
-  link: "direito-de-familia/abandono-afetivo-indenizacao-dano-moral.html",
-},
-{
-  title: "Terceirização Irrestrita e os Riscos Trabalhistas",
-  link: "direito-trabalhista/terceirizacao-irrestrita-riscos-trabalhistas.html",
-},
-{
-  title: "Equilíbrio Fiscal como Imperativo Constitucional",
-  link: "politica/equilibrio-fiscal-imperativo-constitucional.html",
-},
-{
-  title: "Provas Obtidas Ilegalmente e Suas Consequências",
-  link: "direito-penal/provas-obtidas-ilegalmente-consequencias.html",
-},
 {
   title: "Conformidade Digital como Escudo Corporativo",
   link: "compliance/conformidade-digital-escudo-corporativo.html",
@@ -78,7 +43,36 @@ const globalNewsData = [
   title: "Disciplina Militar e Suas Fronteiras Jurídicas",
   link: "direito-militar/transgressoes-disciplinares-limites-direito-militar.html",
 },
-
+{
+    title: "Garantia Temporária de Emprego e Seus Limites Legais",
+    link: "direito-trabalhista/garantia-temporaria-emprego-limites-legais.html",
+},
+{
+    title: "Influência Corporativa e os Limites da Norma",
+    link: "politica/influencia-corporativa-limites-norma-lobby-regulacao.html",
+},
+{
+    title: "Constituição Digital e Direitos dos Usuários Online",
+    link: "legislacao/constituicao-digital-direitos-usuarios-online.html",
+},
+{ title: "Governança Sustentável e Integridade Corporativa em Foco", 
+    link: "compliance/governanca-sustentavel-integridade-corporativa-esg.html" ,
+},
+{ title: "Justiça Castrense e os Crimes Militares Especificados", 
+    link: "direito-militar/justica-castrense-crimes-militares-especificados.html",
+},
+{ title: "Indenização pelo Estado e a Teoria do Risco Administrativo", 
+    link: "direito-civil/indenizacao-estado-teoria-risco-administrativo.html",
+ },
+{ title: "Excesso de Poder e as Fronteiras da Autoridade Pública", 
+    link: "direito-penal/excesso-poder-fronteiras-autoridade-publica.html",
+ },
+ { title: "Custódia Exclusiva e Proteção Integral da Criança", 
+    link: "direito-de-familia/custodia-exclusiva-protecao-integral-crianca.html",
+},
+{ title: "Judiciário Brasileiro entre Ativismo e Contenção", 
+    link: "jurisprudencia/judiciario-brasileiro-ativismo-contencao-limites.html",
+},
 
 ];
 

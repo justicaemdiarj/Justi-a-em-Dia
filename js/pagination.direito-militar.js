@@ -1,5 +1,14 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
+    { title: "Justiça Castrense e os Crimes Militares Especificados", 
+        ate: "20/04/2026", 
+        timestamp: "2026-04-20T09:00:00", 
+        image: "../img/justica-castrense-crimes-militares-especificados.webp", 
+        excerpt: "O Código Penal Militar rege um sistema especializado que convive em permanente tensão com as garantias constitucionais.", 
+        link: "../direito-militar/justica-castrense-crimes-militares-especificados.html", 
+        author: "Justiça em Dia", 
+        authorLink: "#" 
+    },
     {
   title: "Disciplina Militar e Suas Fronteiras Jurídicas",
   date: "17/04/2026",

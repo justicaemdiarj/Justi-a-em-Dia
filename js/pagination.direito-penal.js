@@ -1,5 +1,14 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
+    { title: "Excesso de Poder e as Fronteiras da Autoridade Pública", 
+        date: "20/04/2026", 
+        timestamp: "2026-04-20T07:00:00", 
+        image: "../img/excesso-poder-fronteiras-autoridade-publica.webp", 
+        excerpt: "A Lei nº 13.869/2019 redefiniu os contornos do crime de abuso de autoridade e ampliou o rol de condutas típicas.", 
+        link: "../direito-penal/excesso-poder-fronteiras-autoridade-publica.html", 
+        author: "Justiça em Dia", 
+        authorLink: "#" 
+    },
     {
   title: "Cadeia de Custódia e a Prova Penal Legítima",
   date: "17/04/2026",

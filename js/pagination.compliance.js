@@ -1,5 +1,14 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
+    { title: "Governança Sustentável e Integridade Corporativa em Foco", 
+        date: "17/04/2026", 
+        timestamp: "2026-04-17T07:00:00", 
+        image: "../img/governanca-sustentavel-integridade-corporativa-esg.webp", 
+        excerpt: "A convergência entre a agenda ESG e as práticas de compliance transformou o modo como as corporações brasileiras são avaliadas.", 
+        link: "../compliance/governanca-sustentavel-integridade-corporativa-esg.html", 
+        author: "Justiça em Dia", 
+        authorLink: "#" 
+    },
     { title: "Compliance nas Pequenas Empresas Brasileiras", 
       date: "17/04/2026", 
       timestamp: "2026-04-17T07:00:00", 

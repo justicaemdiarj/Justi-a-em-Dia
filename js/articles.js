@@ -2,72 +2,72 @@ const posts = [
   
   
 {
-  title: "Compliance nas Pequenas Empresas Brasileiras",
-description: "Por que toda pequena empresa precisa de compliance e como implementá-lo com recursos limitados", 
-description2: "Lei Anticorrupção, LGPD e conformidade trabalhista no universo dos pequenos negócios",
-  image: "img/compliance-pequenas-empresas-brasileiras.webp",
-  link: "compliance/compliance-pequenas-empresas-brasileiras.html",
-  date: "2026-04-17T12:00:00",
+    title: "Garantia Temporária de Emprego e Seus Limites Legais",
+    description: "A proteção provisória ao vínculo empregatício é um dos mecanismos mais sensíveis do direito do trabalho brasileiro",
+    description2: "Conheça as hipóteses legais, prazos e consequências do descumprimento patronal da estabilidade provisória",
+    image: "img/garantia-temporaria-emprego-limites-legais.webp",
+    link: "direito-trabalhista/garantia-temporaria-emprego-limites-legais.html",
+    date: "2026-04-20T09:00:00",
   section: "featured"
 },
   {
-  title: "O STF Como Árbitro da Transformação Social",
-  description: "Como as decisões do STF moldam direitos, transformam relações sociais e desafiam a democracia", 
-  description2: "Ativismo judicial, controle de constitucionalidade e legitimidade democrática do Supremo", 
-  image: "img/stf-arbitro-transformacao-social-decisoes-impacto.webp", 
-  link: "jurisprudencia/stf-arbitro-transformacao-social-decisoes-impacto.html", 
-  date: "2026-04-17T07:00:00",
+    title: "Influência Corporativa e os Limites da Norma",
+    description: "A prática da pressão organizada de grupos de interesse sobre o processo legislativo permanece no centro do debate democrático",
+    description2: "Sem regulamentação, o Brasil convive com zona cinzenta entre participação política e captura institucional",
+    image: "img/influencia-corporativa-limites-norma-lobby-regulacao.webp",
+    link: "politica/influencia-corporativa-limites-norma-lobby-regulacao.html",
+    date: "2026-04-20T08:00:00",
   section: "featured-secundario"
 },
 {
- title: "Improbidade Administrativa Sob Novo Regramento Legal", 
- description: "Como a Lei nº 14.230 de 2021 reformulou a responsabilização de agentes públicos no Brasil", 
- description2: "Dolo específico, prescrição e novo papel do Ministério Público na ação de improbidade", 
- image: "img/improbidade-administrativa-novo-regramento-legal.webp", 
- link: "legislacao/improbidade-administrativa-novo-regramento-legal.html", 
- date: "2026-04-17T07:00:00",
+    title: "Constituição Digital e Direitos dos Usuários Online",
+    description: "A Lei nº 12.965/2014 representou um avanço civilizatório na relação entre cidadãos e plataformas digitais no Brasil",
+    description2: "Mais de uma década após sua promulgação, o Marco Civil é posto à prova pelos desafios da era digital",
+    image: "img/constituicao-digital-direitos-usuarios-online.webp",
+    link: "legislacao/constituicao-digital-direitos-usuarios-online.html",
+    date: "2026-04-20T07:00:00",
  section: "featured-terciario"
 },
   {
-title: "Corrupção Sistêmica e a Resposta do Estado Brasileiro",
-image: "img/corrupcao-sistemica-resposta-estado-brasileiro.webp",
-link: "politica/corrupcao-sistemica-resposta-estado-brasileiro.html",
-  date: "2026-04-17T06:00:00",
+title: "Governança Sustentável e Integridade Corporativa em Foco",
+image: "img/governanca-sustentavel-integridade-corporativa-esg.webp", 
+link: "compliance/governanca-sustentavel-integridade-corporativa-esg.html", 
+date: "2026-04-20T11:00:00",
     section: "destaque"
   },
    {
-title: "Acidente Laboral e a Responsabilidade Patronal no Brasil",
-image: "img/acidente-laboral-responsabilidade-patronal-brasil.webp", 
-link: "direito-trabalhista/acidente-laboral-responsabilidade-patronal-brasil.html",
-  date: "2026-04-17T09:00:00",
+title: "Justiça Castrense e os Crimes Militares Especificados",
+image: "img/justica-castrense-crimes-militares-especificados.webp", 
+link: "direito-militar/justica-castrense-crimes-militares-especificados.html",
+  date: "2026-04-20T09:00:00",
     section: "destaque"
   },
   {
-title: "Sucessão Familiar e Estratégia Patrimonial no Brasil",
-image: "img/sucessao-familiar-estrategia-patrimonial-brasil.webp", 
-link: "direito-de-familia/sucessao-familiar-estrategia-patrimonial-brasil.html",
-  date: "2026-04-17T09:00:00",
+title: "Indenização pelo Estado e a Teoria do Risco Administrativo",
+image: "img/indenizacao-estado-teoria-risco-administrativo.webp", 
+link: "direito-civil/indenizacao-estado-teoria-risco-administrativo.html",
+  date: "2026-04-20T09:00:00",
     section: "destaque"
   },
   {
-  title: "Cadeia de Custódia e a Prova Penal Legítima",
-  image: "img/cadeia-custodia-prova-penal-legitima.webp",
-  link: "direito-penal/cadeia-custodia-prova-penal-legitima.html",
-  date: "2026-04-17T11:00:00",
+title: "Excesso de Poder e as Fronteiras da Autoridade Pública",
+image: "img/excesso-poder-fronteiras-autoridade-publica.webp", 
+link: "direito-penal/excesso-poder-fronteiras-autoridade-publica.html",
+  date: "2026-04-20T11:00:00",
     section: "veja"
   },
   {
-  title: "Proteção Consumerista no Ordenamento Civil Brasileiro",
- image: "img/protecao-consumerista-ordenamento-civil-brasileiro.webp",
-  link: "direito-civil/protecao-consumerista-ordenamento-civil-brasileiro.html",
-  date: "2026-04-17T08:00:00",
+title: "Custódia Exclusiva e Proteção Integral da Criança",
+image: "img/custodia-exclusiva-protecao-integral-crianca.webp", 
+link: "direito-de-familia/custodia-exclusiva-protecao-integral-crianca.html",
+  date: "2026-04-20T08:00:00",
     section: "veja"
   },
   {
-  title: "Disciplina Militar e Suas Fronteiras Jurídicas",
- image: "img/transgressoes-disciplinares-limites-direito-militar.webp",
-  link: "direito-militar/transgressoes-disciplinares-limites-direito-militar.html",
-   date: "2026-04-17T08:00:00",
+title: "Judiciário Brasileiro entre Ativismo e Contenção",
+image: "img/judiciario-brasileiro-ativismo-contencao-limites.webp", 
+link: "jurisprudencia/judiciario-brasileiro-ativismo-contencao-limites.html",
+   date: "2026-04-20T08:00:00",
     section: "veja"
   }
 ];

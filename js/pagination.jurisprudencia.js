@@ -1,5 +1,14 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
+    { title: "Judiciário Brasileiro entre Ativismo e Contenção", 
+        date: "20/04/2026", 
+        timestamp: "2026-04-20T08:00:00", 
+        image: "../img/judiciario-brasileiro-ativismo-contencao-limites.webp", 
+        excerpt: "Entre o protagonismo na efetivação de direitos fundamentais e o imperativo de respeito à separação de poderes.", 
+        link: "../jurisprudencia/judiciario-brasileiro-ativismo-contencao-limites.html", 
+        author: "Justiça em Dia", 
+        authorLink: "#" 
+    },
     { title: "O STF Como Árbitro da Transformação Social", 
         date: "17/04/2026", 
         timestamp: "2026-04-17T07:00:00", 

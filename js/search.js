@@ -1,6 +1,64 @@
 // Base de dados global de artigos para busca
 const allArticles = [
 
+
+{
+    title: 'Garantia Temporária de Emprego e Seus Limites Legais',
+    description: 'A proteção provisória ao vínculo empregatício é um dos mecanismos mais sensíveis do direito do trabalho brasileiro.',
+    category: 'Direito Trabalhista',
+    url: 'direito-trabalhista/garantia-temporaria-emprego-limites-legais.html',
+    tags: ['estabilidade provisória', 'direito trabalhista', 'Garantia Temporária de Emprego e Seus Limites Legais']
+},
+{
+    title: 'Influência Corporativa e os Limites da Norma',
+    description: 'A prática da pressão organizada de grupos de interesse sobre o processo legislativo e regulatório brasileiro permanece no centro do debate democrático.',
+    category: 'Política',
+    url: 'politica/influencia-corporativa-limites-norma-lobby-regulacao.html',
+    tags: ['lobby', 'regulação', 'Influência Corporativa e os Limites da Norma']
+},
+{
+    title: 'Constituição Digital e Direitos dos Usuários Online',
+    description: 'A Lei nº 12.965/2014 representou um avanço civilizatório na relação entre cidadãos, Estado e plataformas digitais no Brasil.',
+    category: 'Legislação',
+    url: 'legislacao/constituicao-digital-direitos-usuarios-online.html',
+    tags: ['Marco Civil da Internet', 'direitos digitais', 'Constituição Digital e Direitos dos Usuários Online']
+},
+{ title: 'Governança Sustentável e Integridade Corporativa em Foco', 
+    description: 'A convergência entre a agenda ESG e as práticas de compliance transformou o modo como as corporações brasileiras são avaliadas por investidores, reguladores e consumidores.', 
+    category: 'Compliance', 
+    url: 'compliance/governanca-sustentavel-integridade-corporativa-esg.html', 
+tags: ['ESG', 'compliance', 'Governança Sustentável e Integridade Corporativa em Foco'] 
+},
+{ title: 'Justiça Castrense e os Crimes Militares Especificados', 
+    description: 'O Código Penal Militar rege um sistema de direito penal especializado que convive em permanente tensão com os princípios do direito penal comum e com as garantias constitucionais.', 
+    category: 'Direito Militar', 
+    url: 'direito-militar/justica-castrense-crimes-militares-especificados.html', 
+    tags: ['Código Penal Militar', 'direito militar', 'Justiça Castrense e os Crimes Militares Especificados'] 
+},
+{ title: 'Indenização pelo Estado e a Teoria do Risco Administrativo', 
+    description: 'A responsabilidade civil do Estado por danos causados a particulares é um dos pilares do Estado democrático de direito.', 
+    category: 'Direito Civil', 
+    url: 'direito-civil/indenizacao-estado-teoria-risco-administrativo.html', 
+    tags: ['responsabilidade civil do Estado', 'risco administrativo', 'Indenização pelo Estado e a Teoria do Risco Administrativo'] 
+},
+{ title: 'Excesso de Poder e as Fronteiras da Autoridade Pública', 
+    description: 'A Lei nº 13.869/2019 redefiniu os contornos do crime de abuso de autoridade no Brasil, ampliando o rol de condutas típicas.', 
+    category: 'Direito Criminal', 
+    url: 'direito-penal/excesso-poder-fronteiras-autoridade-publica.html', 
+    tags: ['abuso de autoridade', 'Lei 13869', 'Excesso de Poder e as Fronteiras da Autoridade Pública'] 
+},
+{ title: 'Custódia Exclusiva e Proteção Integral da Criança', 
+    description: 'A guarda unilateral permanece como modalidade aplicável em situações específicas, mesmo após a consolidação da guarda compartilhada como regra preferencial.', 
+    category: 'Direito de Família', 
+    url: 'direito-de-familia/custodia-exclusiva-protecao-integral-crianca.html', 
+    tags: ['guarda unilateral', 'Romer carvalho', 'direito de família', 'Custódia Exclusiva e Proteção Integral da Criança'] 
+},
+{ title: 'Judiciário Brasileiro entre Ativismo e Contenção', 
+    description: 'O Poder Judiciário brasileiro atravessa um período de intensa reflexão sobre seus próprios limites e atribuições.', 
+    category: 'Jurisprudência', 
+    url: 'jurisprudencia/judiciario-brasileiro-ativismo-contencao-limites.html', 
+    tags: ['papel do Judiciário', 'ativismo judicial', 'Judiciário Brasileiro entre Ativismo e Contenção'] 
+},
 { title: 'Compliance nas Pequenas Empresas Brasileiras', 
     description: 'A conformidade regulatória não é exclusividade das grandes corporações. Pequenas empresas precisam adotar práticas de compliance para evitar sanções e ampliar sua competitividade.', 
     category: 'Compliance',
