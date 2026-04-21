@@ -1,5 +1,14 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
+    { title: "Vínculo Afetivo e Obrigação Alimentar na Filiação", 
+         date: "21/04/2026", 
+        timestamp: "2026-04-21T06:00:00", 
+        image: "../img/vinculo-afetivo-obrigacao-alimentar-filiacao.webp", 
+        excerpt: "A pensão decorrente da filiação socioafetiva é um dos temas mais instigantes do direito de família brasileiro.", 
+        link: "../direito-de-familia/vinculo-afetivo-obrigacao-alimentar-filiacao.html", 
+        author: "Justiça em Dia", 
+        authorLink: "#" 
+    },
     { title: "Custódia Exclusiva e Proteção Integral da Criança", 
         date: "20/04/2026", 
         timestamp: "2026-04-20T08:00:00", 

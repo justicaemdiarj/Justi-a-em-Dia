@@ -2,72 +2,72 @@ const posts = [
   
   
 {
-    title: "Garantia Temporária de Emprego e Seus Limites Legais",
-    description: "A proteção provisória ao vínculo empregatício é um dos mecanismos mais sensíveis do direito do trabalho brasileiro",
-    description2: "Conheça as hipóteses legais, prazos e consequências do descumprimento patronal da estabilidade provisória",
-    image: "img/garantia-temporaria-emprego-limites-legais.webp",
-    link: "direito-trabalhista/garantia-temporaria-emprego-limites-legais.html",
-    date: "2026-04-20T09:00:00",
+ title: "Vínculo Afetivo e Obrigação Alimentar na Filiação", 
+ description: "Com a filiação socioafetiva reconhecida judicialmente surgem efeitos jurídicos relevantes no campo dos alimentos", 
+ description2: "Multiparentalidade e obrigação alimentar desafiam operadores do direito a encontrar soluções humanamente responsáveis", 
+ image: "img/vinculo-afetivo-obrigacao-alimentar-filiacao.webp", 
+ link: "direito-de-familia/vinculo-afetivo-obrigacao-alimentar-filiacao.html", 
+    date: "2026-04-21T06:00:00",
   section: "featured"
 },
   {
-    title: "Influência Corporativa e os Limites da Norma",
-    description: "A prática da pressão organizada de grupos de interesse sobre o processo legislativo permanece no centro do debate democrático",
-    description2: "Sem regulamentação, o Brasil convive com zona cinzenta entre participação política e captura institucional",
-    image: "img/influencia-corporativa-limites-norma-lobby-regulacao.webp",
-    link: "politica/influencia-corporativa-limites-norma-lobby-regulacao.html",
-    date: "2026-04-20T08:00:00",
+title: "Capacitação Interna como Pilar da Conformidade Empresarial", 
+description: "O treinamento corporativo tornou-se componente estrutural dos programas de compliance nas organizações brasileiras", 
+description2: "Exigido por reguladores e reconhecido pela Lei Anticorrupção como fator atenuante de sanções", 
+image: "img/capacitacao-interna-pilar-conformidade-empresarial.webp", 
+link: "compliance/capacitacao-interna-pilar-conformidade-empresarial.html",
+    date: "2026-04-21T07:00:00",
   section: "featured-secundario"
 },
 {
-    title: "Constituição Digital e Direitos dos Usuários Online",
-    description: "A Lei nº 12.965/2014 representou um avanço civilizatório na relação entre cidadãos e plataformas digitais no Brasil",
-    description2: "Mais de uma década após sua promulgação, o Marco Civil é posto à prova pelos desafios da era digital",
-    image: "img/constituicao-digital-direitos-usuarios-online.webp",
-    link: "legislacao/constituicao-digital-direitos-usuarios-online.html",
-    date: "2026-04-20T07:00:00",
+title: "Força Letal e os Limites da Atuação Estatal Armada", 
+description: "Entre necessidade operacional e imperativo constitucional, o uso da força pelo Estado exige critérios claros", 
+description2: "Proporcionalidade, responsabilidade e formação são os pilares do debate jurídico sobre força estatal no Brasil", 
+image: "img/forca-letal-limites-atuacao-estatal-armada.webp", 
+link: "direito-militar/forca-letal-limites-atuacao-estatal-armada.html",
+    date: "2026-04-21T09:00:00",
  section: "featured-terciario"
 },
   {
-title: "Governança Sustentável e Integridade Corporativa em Foco",
-image: "img/governanca-sustentavel-integridade-corporativa-esg.webp", 
-link: "compliance/governanca-sustentavel-integridade-corporativa-esg.html", 
-date: "2026-04-20T11:00:00",
+title: "Lesões Transindividuais e a Tutela Coletiva no Brasil",
+image: "img/lesoes-transindividuais-tutela-coletiva-brasil.webp", 
+link: "direito-civil/lesoes-transindividuais-tutela-coletiva-brasil.html",
+date: "2026-04-21T11:00:00",
     section: "destaque"
   },
    {
-title: "Justiça Castrense e os Crimes Militares Especificados",
-image: "img/justica-castrense-crimes-militares-especificados.webp", 
-link: "direito-militar/justica-castrense-crimes-militares-especificados.html",
-  date: "2026-04-20T09:00:00",
+ title: "Contratos Públicos sob Nova Arquitetura Normativa",
+ image: "img/contratos-publicos-nova-arquitetura-normativa.webp", 
+ link: "legislacao/contratos-publicos-nova-arquitetura-normativa.html",
+    date: "2026-04-21T09:00:00",
     section: "destaque"
   },
   {
-title: "Indenização pelo Estado e a Teoria do Risco Administrativo",
-image: "img/indenizacao-estado-teoria-risco-administrativo.webp", 
-link: "direito-civil/indenizacao-estado-teoria-risco-administrativo.html",
-  date: "2026-04-20T09:00:00",
+title: "Tribunais Além da Lei e seus Reflexos Políticos", 
+image: "img/tribunais-alem-lei-reflexos-politicos-ativismo.webp", 
+link: "jurisprudencia/tribunais-alem-lei-reflexos-politicos-ativismo.html",
+    date: "2026-04-21T10:00:00",
     section: "destaque"
   },
   {
-title: "Excesso de Poder e as Fronteiras da Autoridade Pública",
-image: "img/excesso-poder-fronteiras-autoridade-publica.webp", 
-link: "direito-penal/excesso-poder-fronteiras-autoridade-publica.html",
-  date: "2026-04-20T11:00:00",
+title: "Economia Invisível e os Direitos Negados ao Trabalhador",
+image: "img/economia-invisivel-direitos-negados-trabalhador.webp", 
+link: "direito-trabalhista/economia-invisivel-direitos-negados-trabalhador.html",
+    date: "2026-04-21T09:00:00",
     section: "veja"
   },
   {
-title: "Custódia Exclusiva e Proteção Integral da Criança",
-image: "img/custodia-exclusiva-protecao-integral-crianca.webp", 
-link: "direito-de-familia/custodia-exclusiva-protecao-integral-crianca.html",
-  date: "2026-04-20T08:00:00",
+title: "Fronteiras da Palavra e os Limites Democráticos",
+image: "img/fronteiras-palavra-limites-democraticos-liberdade-expressao.webp", 
+link: "politica/fronteiras-palavra-limites-democraticos-liberdade-expressao.html",
+    date: "2026-04-21T08:00:00",
     section: "veja"
   },
   {
-title: "Judiciário Brasileiro entre Ativismo e Contenção",
-image: "img/judiciario-brasileiro-ativismo-contencao-limites.webp", 
-link: "jurisprudencia/judiciario-brasileiro-ativismo-contencao-limites.html",
-   date: "2026-04-20T08:00:00",
+title: "Delitos Digitais e a Resposta Penal do Estado",
+image: "img/delitos-digitais-resposta-penal-estado.webp", 
+link: "direito-penal/delitos-digitais-resposta-penal-estado.html",
+    date: "2026-04-21T09:00:00",
     section: "veja"
   }
 ];

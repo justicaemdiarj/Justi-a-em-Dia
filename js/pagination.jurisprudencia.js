@@ -1,5 +1,14 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
+    { title: "Tribunais Além da Lei e seus Reflexos Políticos", 
+        date: "21/04/2026", 
+        timestamp: "2026-04-21T10:00:00", 
+        image: "../img/tribunais-alem-lei-reflexos-politicos-ativismo.webp", 
+        excerpt: "O ativismo judicial é um dos fenômenos mais debatidos do constitucionalismo contemporâneo brasileiro.", 
+        link: "../jurisprudencia/tribunais-alem-lei-reflexos-politicos-ativismo.html", 
+        author: "Justiça em Dia", 
+        authorLink: "#" 
+    },
     { title: "Judiciário Brasileiro entre Ativismo e Contenção", 
         date: "20/04/2026", 
         timestamp: "2026-04-20T08:00:00", 

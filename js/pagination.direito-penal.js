@@ -1,5 +1,12 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
+    { title: "Delitos Digitais e a Resposta Penal do Estado", 
+        date: "21/04/2026", 
+        timestamp: "2026-04-21T09:00:00", 
+        image: "../img/delitos-digitais-resposta-penal-estado.webp", excerpt: "A escalada dos crimes cibernéticos no Brasil expõe a fragilidade do arcabouço jurídico-penal diante de condutas que ultrapassam fronteiras geográficas.", 
+        link: "../direito-penal/delitos-digitais-resposta-penal-estado.html", 
+        author: "Justiça em Dia", authorLink: "#" 
+    },
     { title: "Excesso de Poder e as Fronteiras da Autoridade Pública", 
         date: "20/04/2026", 
         timestamp: "2026-04-20T07:00:00", 

@@ -1,5 +1,14 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
+    { title: "Força Letal e os Limites da Atuação Estatal Armada", 
+        date: "21/04/2026", 
+        timestamp: "2026-04-21T09:00:00", 
+        image: "../img/forca-letal-limites-atuacao-estatal-armada.webp", 
+        excerpt: "O uso da força por agentes do Estado é um dos temas mais sensíveis e juridicamente complexos do direito público brasileiro.", 
+        link: "../direito-militar/forca-letal-limites-atuacao-estatal-armada.html", 
+        author: "Justiça em Dia", 
+        authorLink: "#" 
+    },
     { title: "Justiça Castrense e os Crimes Militares Especificados", 
         ate: "20/04/2026", 
         timestamp: "2026-04-20T09:00:00", 

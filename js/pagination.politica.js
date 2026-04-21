@@ -1,5 +1,23 @@
 // Dados de notícias para Política
 const categoryNewsData = [
+    { title: "Fronteiras da Palavra e os Limites Democráticos", 
+        date: "21/04/2026", 
+        timestamp: "2026-04-21T08:00:00", 
+        image: "../img/fronteiras-palavra-limites-democraticos-liberdade-expressao.webp", 
+        excerpt: "A liberdade de expressão é um dos direitos fundamentais mais debatidos e tensionados na democracia brasileira contemporânea.", 
+        link: "../politica/fronteiras-palavra-limites-democraticos-liberdade-expressao.html", 
+        author: "Justiça em Dia",
+         authorLink: "#" },
+    {
+    title: "Influência Corporativa e os Limites da Norma",
+    date: "21/04/2026",
+    timestamp: "2026-04-21T07:00:00",
+    image: "../img/influencia-corporativa-limites-norma-lobby-regulacao.webp",
+    excerpt: "A prática da pressão organizada de grupos de interesse sobre o processo legislativo e regulatório brasileiro permanece no centro do debate democrático.",
+    link: "../politica/influencia-corporativa-limites-norma-lobby-regulacao.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
     {
     title: "Influência Corporativa e os Limites da Norma",
     date: "20/04/2026",

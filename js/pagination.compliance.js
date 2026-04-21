@@ -1,8 +1,24 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
+    { title: "Capacitação Interna como Pilar da Conformidade Empresarial", 
+        date: "21/04/2026", 
+        timestamp: "2026-04-21T07:00:00", 
+        image: "../img/capacitacao-interna-pilar-conformidade-empresarial.webp", 
+        excerpt: "O treinamento corporativo voltado à cultura de integridade tornou-se componente estrutural dos programas de compliance.", 
+        link: "../compliance/capacitacao-interna-pilar-conformidade-empresarial.html", 
+        author: "Justiça em Dia", 
+        authorLink: "#" 
+    },
     { title: "Governança Sustentável e Integridade Corporativa em Foco", 
-        date: "17/04/2026", 
-        timestamp: "2026-04-17T07:00:00", 
+        date: "21/04/2026", 
+        timestamp: "2026-04-21T07:00:00", image: "../img/governanca-sustentavel-integridade-corporativa-esg.webp", 
+        excerpt: "A convergência entre a agenda ESG e as práticas de compliance transformou o modo como as corporações brasileiras são avaliadas.", 
+        link: "../compliance/governanca-sustentavel-integridade-corporativa-esg.html", 
+        author: "Justiça em Dia", authorLink: "#" 
+    },
+    { title: "Governança Sustentável e Integridade Corporativa em Foco", 
+        date: "20/04/2026", 
+        timestamp: "2026-04-20T07:00:00", 
         image: "../img/governanca-sustentavel-integridade-corporativa-esg.webp", 
         excerpt: "A convergência entre a agenda ESG e as práticas de compliance transformou o modo como as corporações brasileiras são avaliadas.", 
         link: "../compliance/governanca-sustentavel-integridade-corporativa-esg.html", 

@@ -1,5 +1,14 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
+    { title: "Lesões Transindividuais e a Tutela Coletiva no Brasil", 
+        date: "21/04/2026", 
+        timestamp: "2026-04-21T11:00:00", 
+        image: "../img/lesoes-transindividuais-tutela-coletiva-brasil.webp", 
+        excerpt: "Os danos coletivos e difusos representam uma das mais complexas categorias do direito civil contemporâneo brasileiro.", 
+        link: "../direito-civil/lesoes-transindividuais-tutela-coletiva-brasil.html", 
+        author: "Justiça em Dia", 
+        authorLink: "#" 
+    },
     { title: "Indenização pelo Estado e a Teoria do Risco Administrativo", 
         date: "20/04/2026", 
         timestamp: "2026-04-20T07:00:00", 

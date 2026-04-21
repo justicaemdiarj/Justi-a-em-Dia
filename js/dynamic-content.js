@@ -73,6 +73,15 @@ const globalNewsData = [
 { title: "Judiciário Brasileiro entre Ativismo e Contenção", 
     link: "jurisprudencia/judiciario-brasileiro-ativismo-contencao-limites.html",
 },
+{ title: "Delitos Digitais e a Resposta Penal do Estado", link: "direito-penal/delitos-digitais-resposta-penal-estado.html" },
+{ title: "Fronteiras da Palavra e os Limites Democráticos", link: "politica/fronteiras-palavra-limites-democraticos-liberdade-expressao.html" },
+{ title: "Economia Invisível e os Direitos Negados ao Trabalhador", link: "direito-trabalhista/economia-invisivel-direitos-negados-trabalhador.html" },
+{ title: "Contratos Públicos sob Nova Arquitetura Normativa", link: "legislacao/contratos-publicos-nova-arquitetura-normativa.html" },
+{ title: "Tribunais Além da Lei e seus Reflexos Políticos", link: "jurisprudencia/tribunais-alem-lei-reflexos-politicos-ativismo.html" },
+{ title: "Vínculo Afetivo e Obrigação Alimentar na Filiação", link: "direito-de-familia/vinculo-afetivo-obrigacao-alimentar-filiacao.html" },
+{ title: "Capacitação Interna como Pilar da Conformidade Empresarial", link: "compliance/capacitacao-interna-pilar-conformidade-empresarial.html" },
+{ title: "Força Letal e os Limites da Atuação Estatal Armada", link: "direito-militar/forca-letal-limites-atuacao-estatal-armada.html" },
+{ title: "Lesões Transindividuais e a Tutela Coletiva no Brasil", link: "direito-civil/lesoes-transindividuais-tutela-coletiva-brasil.html" },
 
 ];
 
