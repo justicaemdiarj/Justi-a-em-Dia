@@ -10,16 +10,6 @@ const categoryNewsData = [
          authorLink: "#" },
     {
     title: "Influência Corporativa e os Limites da Norma",
-    date: "21/04/2026",
-    timestamp: "2026-04-21T07:00:00",
-    image: "../img/influencia-corporativa-limites-norma-lobby-regulacao.webp",
-    excerpt: "A prática da pressão organizada de grupos de interesse sobre o processo legislativo e regulatório brasileiro permanece no centro do debate democrático.",
-    link: "../politica/influencia-corporativa-limites-norma-lobby-regulacao.html",
-    author: "Justiça em Dia",
-    authorLink: "#"
-},
-    {
-    title: "Influência Corporativa e os Limites da Norma",
     date: "20/04/2026",
     timestamp: "2026-04-20T08:00:00",
     image: "../img/influencia-corporativa-limites-norma-lobby-regulacao.webp",

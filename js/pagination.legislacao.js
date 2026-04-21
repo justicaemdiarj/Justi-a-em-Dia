@@ -11,16 +11,6 @@ const categoryNewsData = [
     },
     {
     title: "Constituição Digital e Direitos dos Usuários Online",
-    date: "21/04/2026",
-    timestamp: "2026-04-21T07:00:00",
-    image: "../img/constituicao-digital-direitos-usuarios-online.webp",
-    excerpt: "A Lei nº 12.965/2014, o Marco Civil da Internet, é posto à prova por novos desafios tecnológicos e pelo debate sobre moderação de conteúdo.",
-    link: "../legislacao/constituicao-digital-direitos-usuarios-online.html",
-    author: "Justiça em Dia",
-    authorLink: "#"
-},
-    {
-    title: "Constituição Digital e Direitos dos Usuários Online",
     date: "20/04/2026",
     timestamp: "2026-04-17T07:00:00",
     image: "../img/constituicao-digital-direitos-usuarios-online.webp",

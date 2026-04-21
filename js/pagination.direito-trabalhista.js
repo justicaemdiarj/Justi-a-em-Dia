@@ -10,16 +10,6 @@ const categoryNewsData = [
     authorLink: "#" },
     {
     title: "Garantia Temporária de Emprego e Seus Limites Legais",
-    date: "21/04/2026",
-    timestamp: "2026-04-21T07:00:00",
-    image: "../img/garantia-temporaria-emprego-limites-legais.webp",
-    excerpt: "A proteção provisória ao vínculo empregatício é um dos mecanismos mais sensíveis do direito do trabalho brasileiro.",
-    link: "../direito-trabalhista/garantia-temporaria-emprego-limites-legais.html",
-    author: "Justiça em Dia",
-    authorLink: "#"
-},
-    {
-    title: "Garantia Temporária de Emprego e Seus Limites Legais",
     date: "20/04/2026",
     timestamp: "2026-04-20T09:00:00",
     image: "../img/garantia-temporaria-emprego-limites-legais.webp",
