@@ -1,6 +1,6 @@
 // Dados de notícias para Política
 const categoryNewsData = [
-    { title: "Vigilância Cidadã sobre o Poder Institucional Brasileiro", date: "12304/2026", timestamp: "2026-04-23T07:00:00", image: "../img/vigilancia-cidada-poder-institucional-brasileiro.webp", excerpt: "O controle social é um dos pilares mais vulneráveis e mais indispensáveis da democracia brasileira.", link: "../politica/vigilancia-cidada-poder-institucional-brasileiro.html", author: "Justiça em Dia", authorLink: "#" },
+    { title: "Vigilância Cidadã sobre o Poder Institucional Brasileiro", date: "24/04/2026", timestamp: "2026-04-24T07:00:00", image: "../img/vigilancia-cidada-poder-institucional-brasileiro.webp", excerpt: "O controle social é um dos pilares mais vulneráveis e mais indispensáveis da democracia brasileira.", link: "../politica/vigilancia-cidada-poder-institucional-brasileiro.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "Fronteiras da Palavra e os Limites Democráticos", 
         date: "24/04/2026", 
         timestamp: "2026-04-24T08:00:00", 
