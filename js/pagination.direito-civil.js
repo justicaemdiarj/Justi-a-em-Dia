@@ -1,5 +1,7 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
+{ title: "Imposições Contratuais Ilegítimas e a Defesa do Consumidor", date: "24/04/2026", 
+        timestamp: "2026-04-24T07:00:00", image: "../img/imposicoes-contratuais-ilegitimas-defesa-consumidor.webp", excerpt: "As cláusulas abusivas inseridas em contratos de adesão representam uma das formas mais disseminadas de violação dos direitos dos consumidores.", link: "../direito-civil/imposicoes-contratuais-ilegitimas-defesa-consumidor.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "Lesões Transindividuais e a Tutela Coletiva no Brasil", 
         date: "21/04/2026", 
         timestamp: "2026-04-21T11:00:00", 

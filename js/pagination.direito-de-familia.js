@@ -1,5 +1,7 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
+{ title: "Término da Convivência e Efeitos Patrimoniais Legais", date: "24/04/2026", 
+        timestamp: "2026-04-24T11:00:00", image: "../img/termino-convivencia-efeitos-patrimoniais-legais.webp", excerpt: "A dissolução da união estável exige compreensão dos efeitos jurídicos no plano patrimonial, sucessório e alimentar.", link: "../direito-de-familia/termino-convivencia-efeitos-patrimoniais-legais.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "Vínculo Afetivo e Obrigação Alimentar na Filiação", 
          date: "21/04/2026", 
         timestamp: "2026-04-21T06:00:00", 

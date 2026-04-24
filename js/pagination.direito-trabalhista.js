@@ -1,5 +1,8 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
+    { title: "Fundo de Garantia e a Proteção do Vínculo Laboral", 
+        date: "24/04/2026", 
+        timestamp: "2026-04-24T07:00:00", image: "../img/fundo-garantia-protecao-vinculo-laboral.webp", excerpt: "O FGTS é um dos mais importantes instrumentos de proteção patrimonial do trabalhador brasileiro.", link: "../direito-trabalhista/fundo-garantia-protecao-vinculo-laboral.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "Economia Invisível e os Direitos Negados ao Trabalhador", 
     date: "21/04/2026", 
     timestamp: "2026-04-21T09:00:00", 

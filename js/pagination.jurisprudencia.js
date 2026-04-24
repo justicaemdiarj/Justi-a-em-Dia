@@ -1,5 +1,8 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
+
+{ title: "Precedentes nas Decisões Administrativas e seu Alcance", date: "24/04/2026", 
+        timestamp: "2026-04-24T07:00:00", image: "../img/precedentes-decisoes-administrativas-alcance.webp", excerpt: "A jurisprudência administrativa ocupa espaço crescente no sistema normativo brasileiro.", link: "../jurisprudencia/precedentes-decisoes-administrativas-alcance.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "Tribunais Além da Lei e seus Reflexos Políticos", 
         date: "21/04/2026", 
         timestamp: "2026-04-21T10:00:00", 

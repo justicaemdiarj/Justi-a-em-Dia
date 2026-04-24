@@ -1,5 +1,9 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
+
+    { title: "Estatuto do Consumidor e seus Trinta Anos de Proteção", 
+        date: "24/04/2026", 
+        timestamp: "2026-04-24T12:00:00", image: "../img/estatuto-consumidor-trinta-anos-protecao.webp", excerpt: "O Código de Defesa do Consumidor completou mais de três décadas como um dos mais avançados diplomas consumeristas do mundo.", link: "../legislacao/estatuto-consumidor-trinta-anos-protecao.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "Contratos Públicos sob Nova Arquitetura Normativa", 
         date: "21/04/2026", 
         timestamp: "2026-04-21T09:00:00", 

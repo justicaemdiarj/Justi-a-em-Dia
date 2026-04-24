@@ -82,6 +82,15 @@ const globalNewsData = [
 { title: "Capacitação Interna como Pilar da Conformidade Empresarial", link: "compliance/capacitacao-interna-pilar-conformidade-empresarial.html" },
 { title: "Força Letal e os Limites da Atuação Estatal Armada", link: "direito-militar/forca-letal-limites-atuacao-estatal-armada.html" },
 { title: "Lesões Transindividuais e a Tutela Coletiva no Brasil", link: "direito-civil/lesoes-transindividuais-tutela-coletiva-brasil.html" },
+{ title: "Término da Convivência e Efeitos Patrimoniais Legais", link: "direito-de-familia/termino-convivencia-efeitos-patrimoniais-legais.html" },
+{ title: "Ilícitos Castrenses na Normalidade Institucional Brasileira", link: "direito-militar/ilicitos-castrenses-normalidade-institucional-brasileira.html" },
+{ title: "Imposições Contratuais Ilegítimas e a Defesa do Consumidor", link: "direito-civil/imposicoes-contratuais-ilegitimas-defesa-consumidor.html" },
+{ title: "Avanço no Cumprimento da Pena e Critérios Legais", link: "direito-penal/avanco-cumprimento-pena-criterios-legais.html" },
+{ title: "Estatuto do Consumidor e seus Trinta Anos de Proteção", link: "legislacao/estatuto-consumidor-trinta-anos-protecao.html" },
+{ title: "Vigilância Cidadã sobre o Poder Institucional Brasileiro", link: "politica/vigilancia-cidada-poder-institucional-brasileiro.html" },
+{ title: "Fundo de Garantia e a Proteção do Vínculo Laboral", link: "direito-trabalhista/fundo-garantia-protecao-vinculo-laboral.html" },
+{ title: "Apuração Interna de Irregularidades e Seus Desafios", link: "compliance/apuracao-interna-irregularidades-desafios.html" },
+{ title: "Precedentes nas Decisões Administrativas e seu Alcance", link: "jurisprudencia/precedentes-decisoes-administrativas-alcance.html" },
 
 ];
 

@@ -1,73 +1,72 @@
 const posts = [
   
   
-{
- title: "Vínculo Afetivo e Obrigação Alimentar na Filiação", 
- description: "Com a filiação socioafetiva reconhecida judicialmente surgem efeitos jurídicos relevantes no campo dos alimentos", 
- description2: "Multiparentalidade e obrigação alimentar desafiam operadores do direito a encontrar soluções humanamente responsáveis", 
- image: "img/vinculo-afetivo-obrigacao-alimentar-filiacao.webp", 
- link: "direito-de-familia/vinculo-afetivo-obrigacao-alimentar-filiacao.html", 
-    date: "2026-04-21T06:00:00",
+
+{ title: "Precedentes nas Decisões Administrativas e seu Alcance", 
+  description: "A jurisprudência administrativa de TCU, agências reguladoras e CARF tem impacto econômico e jurídico crescente no Brasil", 
+  description2: "Uniformização, vinculação e publicidade dos precedentes administrativos são demandas urgentes do Estado de direito", 
+  image: "img/precedentes-decisoes-administrativas-alcance.webp", 
+  link: "jurisprudencia/precedentes-decisoes-administrativas-alcance.html", 
+  date: "2026-04-24T07:00:00",
   section: "featured"
 },
   {
-title: "Capacitação Interna como Pilar da Conformidade Empresarial", 
-description: "O treinamento corporativo tornou-se componente estrutural dos programas de compliance nas organizações brasileiras", 
-description2: "Exigido por reguladores e reconhecido pela Lei Anticorrupção como fator atenuante de sanções", 
-image: "img/capacitacao-interna-pilar-conformidade-empresarial.webp", 
-link: "compliance/capacitacao-interna-pilar-conformidade-empresarial.html",
-    date: "2026-04-21T07:00:00",
+title: "Término da Convivência e Efeitos Patrimoniais Legais", 
+description: "A dissolução da união estável gera efeitos jurídicos complexos no plano patrimonial, sucessório e alimentar dos companheiros", 
+description2: "Partilha de bens, alimentos e direitos sucessórios são os principais desafios do término da convivência", image: "img/termino-convivencia-efeitos-patrimoniais-legais.webp", 
+link: "direito-de-familia/termino-convivencia-efeitos-patrimoniais-legais.html", 
+  date: "2026-04-24T11:00:00",
   section: "featured-secundario"
 },
 {
-title: "Força Letal e os Limites da Atuação Estatal Armada", 
-description: "Entre necessidade operacional e imperativo constitucional, o uso da força pelo Estado exige critérios claros", 
-description2: "Proporcionalidade, responsabilidade e formação são os pilares do debate jurídico sobre força estatal no Brasil", 
-image: "img/forca-letal-limites-atuacao-estatal-armada.webp", 
-link: "direito-militar/forca-letal-limites-atuacao-estatal-armada.html",
-    date: "2026-04-21T09:00:00",
+title: "Ilícitos Castrenses na Normalidade Institucional Brasileira", 
+description: "Crimes militares em tempo de paz envolvem condutas que atentam contra hierarquia e bens juridicamente protegidos", 
+description2: "Da deserção ao peculato militar, os ilícitos castrenses exigem equilíbrio entre lógica militar e garantias constitucionais", 
+image: "img/ilicitos-castrenses-normalidade-institucional-brasileira.webp", 
+link: "direito-militar/ilicitos-castrenses-normalidade-institucional-brasileira.html",
+  date: "2026-04-24T09:00:00",
  section: "featured-terciario"
 },
   {
-title: "Lesões Transindividuais e a Tutela Coletiva no Brasil",
-image: "img/lesoes-transindividuais-tutela-coletiva-brasil.webp", 
-link: "direito-civil/lesoes-transindividuais-tutela-coletiva-brasil.html",
-date: "2026-04-21T11:00:00",
+title: "Imposições Contratuais Ilegítimas e a Defesa do Consumidor",
+image: "img/imposicoes-contratuais-ilegitimas-defesa-consumidor.webp", 
+link: "direito-civil/imposicoes-contratuais-ilegitimas-defesa-consumidor.html",
+  date: "2026-04-24T07:00:00",
     section: "destaque"
   },
    {
- title: "Contratos Públicos sob Nova Arquitetura Normativa",
- image: "img/contratos-publicos-nova-arquitetura-normativa.webp", 
- link: "legislacao/contratos-publicos-nova-arquitetura-normativa.html",
-    date: "2026-04-21T09:00:00",
+title: "Avanço no Cumprimento da Pena e Critérios Legais",
+image: "img/avanco-cumprimento-pena-criterios-legais.webp", 
+link: "direito-penal/avanco-cumprimento-pena-criterios-legais.html",
+  date: "2026-04-24T07:00:00",
     section: "destaque"
   },
   {
-title: "Tribunais Além da Lei e seus Reflexos Políticos", 
-image: "img/tribunais-alem-lei-reflexos-politicos-ativismo.webp", 
-link: "jurisprudencia/tribunais-alem-lei-reflexos-politicos-ativismo.html",
-    date: "2026-04-21T10:00:00",
+title: "Estatuto do Consumidor e seus Trinta Anos de Proteção",
+image: "img/estatuto-consumidor-trinta-anos-protecao.webp", 
+link: "legislacao/estatuto-consumidor-trinta-anos-protecao.html",
+  date: "2026-04-24T12:00:00",
     section: "destaque"
   },
   {
-title: "Economia Invisível e os Direitos Negados ao Trabalhador",
-image: "img/economia-invisivel-direitos-negados-trabalhador.webp", 
-link: "direito-trabalhista/economia-invisivel-direitos-negados-trabalhador.html",
-    date: "2026-04-21T09:00:00",
+title: "Vigilância Cidadã sobre o Poder Institucional Brasileiro",
+image: "img/vigilancia-cidada-poder-institucional-brasileiro.webp", 
+link: "politica/vigilancia-cidada-poder-institucional-brasileiro.html", 
+  date: "2026-04-24T07:00:00",
     section: "veja"
   },
   {
-title: "Fronteiras da Palavra e os Limites Democráticos",
-image: "img/fronteiras-palavra-limites-democraticos-liberdade-expressao.webp", 
-link: "politica/fronteiras-palavra-limites-democraticos-liberdade-expressao.html",
-    date: "2026-04-21T08:00:00",
+title: "Fundo de Garantia e a Proteção do Vínculo Laboral",
+ image: "img/fundo-garantia-protecao-vinculo-laboral.webp", 
+ link: "direito-trabalhista/fundo-garantia-protecao-vinculo-laboral.html",
+  date: "2026-04-24T07:00:00",
     section: "veja"
   },
   {
-title: "Delitos Digitais e a Resposta Penal do Estado",
-image: "img/delitos-digitais-resposta-penal-estado.webp", 
-link: "direito-penal/delitos-digitais-resposta-penal-estado.html",
-    date: "2026-04-21T09:00:00",
+title: "Apuração Interna de Irregularidades e Seus Desafios",
+image: "img/apuracao-interna-irregularidades-desafios.webp", 
+link: "compliance/apuracao-interna-irregularidades-desafios.html",
+  date: "2026-04-24T06:00:00",
     section: "veja"
   }
 ];
@@ -268,19 +267,19 @@ document.addEventListener("DOMContentLoaded", function(){
   const posts = [
   
 {
- title: "O TST que Muda as Regras do Trabalho",
-  link: "jurisprudencia/tst-que-muda-as-regras-do-trabalho.html",
+ title: "Custódia Exclusiva e Proteção Integral da Criança",
+  link: "direito-de-familia/custodia-exclusiva-protecao-integral-crianca.html",
+  date: "2026-04-20T07:00:00"
+},
+{
+  title: "Governança Sustentável e Integridade Corporativa em Foco",
+  link: "compliance/governanca-sustentavel-integridade-corporativa-esg.html",
   date: "2026-04-09T07:00:00"
 },
 {
-  title: "O Trabalho Ganhou Novas Regras Silenciosas",
-  link: "legislacao/trabalho-ganhou-novas-regras-silenciosas.html",
-  date: "2026-04-09T07:00:00"
-},
-{
-  title: "Risco Ignorado É Passivo Acumulado",
-  link: "compliance/risco-ignorado-e-passivo-acumulado.html",
-  date: "2026-04-09T07:00:00"
+  title: "Conformidade Digital como Escudo Corporativo",
+  link: "compliance/conformidade-digital-escudo-corporativo.html",
+  date: "2026-04-16T07:00:00"
 },
 {
   title: "Mesma Função Exige Mesmo Salário",
@@ -339,58 +338,58 @@ document.addEventListener("DOMContentLoaded", function(){
 const principaisNoticias = [
 
 {
-title: "Três Poderes, Uma República em Disputa",
-    link: "politica/tres-poderes-uma-republica-em-disputa.html",
+title: "Excesso de Poder e as Fronteiras da Autoridade Pública",
+    link: "direito-penal/excesso-poder-fronteiras-autoridade-publica.html",
 source: "",
-date: "2026-04-08T07:00:00"
+date: "2026-04-20T07:00:00"
 },
 {
-title: "O Sistema Político que Resiste à Mudança",
-  link: "politica/sistema-politico-que-resiste-a-mudanca.html",
+title: "Provas Obtidas Ilegalmente e Suas Consequências",
+  link: "direito-penal/provas-obtidas-ilegalmente-consequencias.html",
 source: "",
-date: "2026-04-11T07:00:00"
+date: "2026-04-16T07:00:00"
 },
 {
-title: "Corrupção Não Se Combate Só Com Prisão",
-link: "compliance/corrupcao-nao-se-combate-so-com-prisao.html",
+title: "Comércio Ilícito de Entorpecentes e Sanções Penais no Brasil",
+link: "direito-penal/comercio-ilicito-entorpecentes-sancoes-penais-brasil.html",
 source: "",
-date: "2026-04-11T03:00:00"
+date: "2026-04-15T03:00:00"
 },
 {
-title: "A Confissão Que Pode Mudar Tudo",
-  link: "direito-penal/confissao-que-pode-mudar-tudo.html",
+title: "Contratos Públicos sob Nova Arquitetura Normativa",
+  link: "legislacao/contratos-publicos-nova-arquitetura-normativa.html",
 source: "",
-date: "2026-04-13T07:00:00"
+date: "2026-04-21T07:00:00"
 },
 {
-title: "O Instrumento Que Pode Derrubar um Presidente",
-link: "politica/instrumento-que-pode-derrubar-um-presidente.html",
+title: "Constituição Digital e Direitos dos Usuários Online",
+link: "legislacao/constituicao-digital-direitos-usuarios-online.html",
 source: "",
-date: "2026-04-10T07:00:00"
+date: "2026-04-20T07:00:00"
 },
 {
-title: "Dividir o Patrimônio Não Precisa Ser Guerra",
-    link: "direito-de-familia/dividir-o-patrimonio-nao-precisa-ser-guerra.html",
+title: "Economia Invisível e os Direitos Negados ao Trabalhador",
+    link: "direito-trabalhista/economia-invisivel-direitos-negados-trabalhador.html",
 source: "",
-date: "2026-04-08T07:00:00"
+date: "2026-04-21T07:00:00"
 },
 {
- title: "Risco Ignorado É Passivo Acumulado",
-  link: "compliance/risco-ignorado-e-passivo-acumulado.html",
+ title: "Fundo de Garantia e a Proteção do Vínculo Laboral",
+  link: "direito-trabalhista/fundo-garantia-protecao-vinculo-laboral.html",
 source: "",
-date: "2026-04-09T07:00:00"
+date: "2026-04-23T07:00:00"
 },
 {
-    title: "Tempo de Posse Pode Virar Título de Dono",
-  link: "direito-civil/tempo-de-posse-pode-virar-titulo-de-dono.html",
+    title: "Fronteiras da Palavra e os Limites Democráticos",
+  link: "politica/fronteiras-palavra-limites-democraticos-liberdade-expressao.html",
 source: "",
-date: "2026-04-13T07:00:00",
+date: "2026-04-21T07:00:00",
 },
 {
-   title: "Ter a Chave Não É Ser o Dono",
-    link: "direito-civil/ter-a-chave-nao-e-ser-o-dono.html",
+   title: "Vigilância Cidadã sobre o Poder Institucional Brasileiro",
+    link: "politica/vigilancia-cidada-poder-institucional-brasileiro.html",
 source: "",
- date: "2026-04-11T07:00:00"
+ date: "2026-04-23T07:00:00"
 },
 
 ];

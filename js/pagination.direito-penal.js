@@ -1,5 +1,8 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
+
+
+    { title: "Avanço no Cumprimento da Pena e Critérios Legais", date: "23/04/2026", timestamp: "2026-04-23T07:00:00", image: "../img/avanco-cumprimento-pena-criterios-legais.webp", excerpt: "A progressão de regime equilibra a função punitiva da pena com o objetivo constitucional de ressocialização.", link: "../direito-penal/avanco-cumprimento-pena-criterios-legais.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "Delitos Digitais e a Resposta Penal do Estado", 
         date: "21/04/2026", 
         timestamp: "2026-04-21T09:00:00", 

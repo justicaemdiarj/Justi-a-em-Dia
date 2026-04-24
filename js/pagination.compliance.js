@@ -1,5 +1,9 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
+
+
+    { title: "Apuração Interna de Irregularidades e Seus Desafios", date: "24/04/2026", 
+        timestamp: "2026-04-24T06:00:00", image: "../img/apuracao-interna-irregularidades-desafios.webp", excerpt: "As investigações internas corporativas tornaram-se componente estratégico dos programas de compliance.", link: "../compliance/apuracao-interna-irregularidades-desafios.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "Capacitação Interna como Pilar da Conformidade Empresarial", 
         date: "21/04/2026", 
         timestamp: "2026-04-21T07:00:00", 

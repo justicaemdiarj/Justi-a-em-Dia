@@ -1,5 +1,8 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
+
+    { title: "Ilícitos Castrenses na Normalidade Institucional Brasileira", date: "24/04/2026", 
+        timestamp: "2026-04-24T09:00:00", image: "../img/ilicitos-castrenses-normalidade-institucional-brasileira.webp", excerpt: "Os crimes militares praticados em tempo de paz constituem uma das categorias mais relevantes do ordenamento jurídico-penal.", link: "../direito-militar/ilicitos-castrenses-normalidade-institucional-brasileira.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "Força Letal e os Limites da Atuação Estatal Armada", 
         date: "21/04/2026", 
         timestamp: "2026-04-21T09:00:00", 
