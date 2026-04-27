@@ -4247,6 +4247,28 @@
     <news:title>Imperfeição Mercantil e Tutela do Consumidor</news:title>
   </news:news>
 </url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-penal/lei-drogas-politica-criminal-brasil.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-04-25T07:00:00-03:00</news:publication_date>
+    <news:title>Política Antidrogas Entre Punição e Saúde Pública</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/legislacao/lei-abuso-autoridade-limites-poder-publico-brasil.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-04-25T07:00:00-03:00</news:publication_date>
+    <news:title>Excesso de Poder e os Limites do Agente Público</news:title>
+  </news:news>
+</url>
 
 
 </urlset>
