@@ -4214,6 +4214,39 @@
 <url><loc>https://www.justicaemdia.com.br/direito-trabalhista/fundo-garantia-protecao-vinculo-laboral.html</loc><news:news><news:publication><news:name>Justiça em Dia</news:name><news:language>pt</news:language></news:publication><news:publication_date>2026-04-17T07:00:00-03:00</news:publication_date><news:title>Fundo de Garantia e a Proteção do Vínculo Laboral</news:title></news:news></url>
 <url><loc>https://www.justicaemdia.com.br/compliance/apuracao-interna-irregularidades-desafios.html</loc><news:news><news:publication><news:name>Justiça em Dia</news:name><news:language>pt</news:language></news:publication><news:publication_date>2026-04-17T07:00:00-03:00</news:publication_date><news:title>Apuração Interna de Irregularidades e Seus Desafios</news:title></news:news></url>
 <url><loc>https://www.justicaemdia.com.br/jurisprudencia/precedentes-decisoes-administrativas-alcance.html</loc><news:news><news:publication><news:name>Justiça em Dia</news:name><news:language>pt</news:language></news:publication><news:publication_date>2026-04-17T07:00:00-03:00</news:publication_date><news:title>Precedentes nas Decisões Administrativas e seu Alcance</news:title></news:news></url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-de-familia/direito-avos-convivencia-familiar-brasil.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-04-25T07:00:00-03:00</news:publication_date>
+    <news:title>Vínculos Geracionais e o Amparo Jurídico Familiar</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-militar/prisao-disciplinar-militar-constitucionalidade-brasil.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-04-25T07:00:00-03:00</news:publication_date>
+    <news:title>Detenção Castrense sob o Crivo Constitucional</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-civil/responsabilidade-vicio-produto-direito-consumidor-brasil.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-04-25T07:00:00-03:00</news:publication_date>
+    <news:title>Imperfeição Mercantil e Tutela do Consumidor</news:title>
+  </news:news>
+</url>
 
 
 </urlset>

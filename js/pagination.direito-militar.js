@@ -1,6 +1,15 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
-
+{
+  title: "Detenção Castrense sob o Crivo Constitucional",
+  date: "27/04/2026",
+  timestamp: "2026-04-27T07:00:00",
+  image: "../img/prisao-disciplinar-militar-constitucionalidade-brasil.webp",
+  excerpt: "A restrição de liberdade aplicada no âmbito das forças armadas como mecanismo disciplinar é tema que divide constitucionalistas e militaristas.",
+  link: "../direito-militar/prisao-disciplinar-militar-constitucionalidade-brasil.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
     { title: "Ilícitos Castrenses na Normalidade Institucional Brasileira", date: "24/04/2026", 
         timestamp: "2026-04-24T09:00:00", image: "../img/ilicitos-castrenses-normalidade-institucional-brasileira.webp", excerpt: "Os crimes militares praticados em tempo de paz constituem uma das categorias mais relevantes do ordenamento jurídico-penal.", link: "../direito-militar/ilicitos-castrenses-normalidade-institucional-brasileira.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "Força Letal e os Limites da Atuação Estatal Armada", 

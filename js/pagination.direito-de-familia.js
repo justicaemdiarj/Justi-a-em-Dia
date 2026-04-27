@@ -1,5 +1,15 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
+    {
+  title: "Vínculos Geracionais e o Amparo Jurídico Familiar",
+  date: "27/04/2026",
+  timestamp: "2026-04-27T07:00:00",
+  image: "../img/direito-avos-convivencia-familiar-brasil.webp",
+  excerpt: "A prerrogativa dos avós ao contato regular com seus netos é matéria consolidada no ordenamento jurídico brasileiro, mas ainda sujeita a disputas judiciais complexas.",
+  link: "../direito-de-familia/direito-avos-convivencia-familiar-brasil.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
 { title: "Término da Convivência e Efeitos Patrimoniais Legais", date: "24/04/2026", 
         timestamp: "2026-04-24T11:00:00", image: "../img/termino-convivencia-efeitos-patrimoniais-legais.webp", excerpt: "A dissolução da união estável exige compreensão dos efeitos jurídicos no plano patrimonial, sucessório e alimentar.", link: "../direito-de-familia/termino-convivencia-efeitos-patrimoniais-legais.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "Vínculo Afetivo e Obrigação Alimentar na Filiação", 

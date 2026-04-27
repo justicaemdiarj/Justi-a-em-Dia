@@ -91,7 +91,15 @@ const globalNewsData = [
 { title: "Fundo de Garantia e a Proteção do Vínculo Laboral", link: "direito-trabalhista/fundo-garantia-protecao-vinculo-laboral.html" },
 { title: "Apuração Interna de Irregularidades e Seus Desafios", link: "compliance/apuracao-interna-irregularidades-desafios.html" },
 { title: "Precedentes nas Decisões Administrativas e seu Alcance", link: "jurisprudencia/precedentes-decisoes-administrativas-alcance.html" },
-
+{
+  title: "Vínculos Geracionais e o Amparo Jurídico Familiar",
+  link: "direito-de-familia/direito-avos-convivencia-familiar-brasil.html",
+},
+{
+  title: "Detenção Castrense sob o Crivo Constitucional",
+  link: "direito-militar/prisao-disciplinar-militar-constitucionalidade-brasil.html",
+},
+{ title: "Imperfeição Mercantil e Tutela do Consumidor", link: "direito-civil/responsabilidade-vicio-produto-direito-consumidor-brasil.html" },
 ];
 
 // Array para armazenar todas as notícias coletadas dos arquivos de paginação

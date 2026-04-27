@@ -2,29 +2,30 @@ const posts = [
   
   
 
-{ title: "Precedentes nas Decisões Administrativas e seu Alcance", 
-  description: "A jurisprudência administrativa de TCU, agências reguladoras e CARF tem impacto econômico e jurídico crescente no Brasil", 
-  description2: "Uniformização, vinculação e publicidade dos precedentes administrativos são demandas urgentes do Estado de direito", 
-  image: "img/precedentes-decisoes-administrativas-alcance.webp", 
-  link: "jurisprudencia/precedentes-decisoes-administrativas-alcance.html", 
-  date: "2026-04-24T07:00:00",
+{   title: "Vínculos Geracionais e o Amparo Jurídico Familiar",
+  description: "A lei brasileira assegura aos avós o direito ao contato regular com seus netos",
+  description2: "Entenda como o ordenamento jurídico protege os laços intergeracionais",
+  image: "img/direito-avos-convivencia-familiar-brasil.webp",
+  link: "direito-de-familia/direito-avos-convivencia-familiar-brasil.html",
+  date: "2026-04-27T07:00:00",
   section: "featured"
 },
   {
-title: "Término da Convivência e Efeitos Patrimoniais Legais", 
-description: "A dissolução da união estável gera efeitos jurídicos complexos no plano patrimonial, sucessório e alimentar dos companheiros", 
-description2: "Partilha de bens, alimentos e direitos sucessórios são os principais desafios do término da convivência", image: "img/termino-convivencia-efeitos-patrimoniais-legais.webp", 
-link: "direito-de-familia/termino-convivencia-efeitos-patrimoniais-legais.html", 
-  date: "2026-04-24T11:00:00",
+  title: "Detenção Castrense sob o Crivo Constitucional",
+  description: "A prisão disciplinar militar é exceção constitucional que não afasta as garantias fundamentais do cidadão fardado",
+  description2: "Entenda os limites do poder punitivo castrense frente à Constituição de 1988",
+  image: "img/prisao-disciplinar-militar-constitucionalidade-brasil.webp",
+  link: "direito-militar/prisao-disciplinar-militar-constitucionalidade-brasil.html",
+  date: "2026-04-27T07:00:00",
   section: "featured-secundario"
 },
 {
-title: "Ilícitos Castrenses na Normalidade Institucional Brasileira", 
-description: "Crimes militares em tempo de paz envolvem condutas que atentam contra hierarquia e bens juridicamente protegidos", 
-description2: "Da deserção ao peculato militar, os ilícitos castrenses exigem equilíbrio entre lógica militar e garantias constitucionais", 
-image: "img/ilicitos-castrenses-normalidade-institucional-brasileira.webp", 
-link: "direito-militar/ilicitos-castrenses-normalidade-institucional-brasileira.html",
-  date: "2026-04-24T09:00:00",
+title: "Imperfeição Mercantil e Tutela do Consumidor", 
+description: "O CDC responsabiliza objetivamente fornecedores pelos vícios que acometem os produtos colocados no mercado", 
+description2: "Conheça os prazos, direitos e mecanismos de proteção ao consumidor diante de produtos defeituosos", 
+image: "img/responsabilidade-vicio-produto-direito-consumidor-brasil.webp", 
+link: "direito-civil/responsabilidade-vicio-produto-direito-consumidor-brasil.html", 
+  date: "2026-04-27T07:00:00",
  section: "featured-terciario"
 },
   {

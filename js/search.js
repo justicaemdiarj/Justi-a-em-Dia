@@ -1,5 +1,20 @@
 // Base de dados global de artigos para busca
 const allArticles = [
+    {
+  title: 'Vínculos Geracionais e o Amparo Jurídico Familiar',
+  description: 'A prerrogativa dos avós ao contato regular com seus netos é matéria consolidada no ordenamento jurídico brasileiro, mas ainda sujeita a disputas judiciais complexas.',
+  category: 'Direito de Família',
+  url: 'direito-de-familia/direito-avos-convivencia-familiar-brasil.html',
+  tags: ['Direito dos Avós', 'Convivência Familiar', 'Vínculos Geracionais e o Amparo Jurídico Familiar']
+},
+{ title: 'Imperfeição Mercantil e Tutela do Consumidor', description: 'O vício do produto é um dos institutos centrais do direito do consumidor brasileiro, regulado pelo CDC com rigor técnico e viés protetivo.', category: 'Direito Civil', url: 'direito-civil/responsabilidade-vicio-produto-direito-consumidor-brasil.html', tags: ['Vício do Produto', 'Responsabilidade Civil', 'Imperfeição Mercantil e Tutela do Consumidor'] },
+{
+  title: 'Detenção Castrense sob o Crivo Constitucional',
+  description: 'A restrição de liberdade aplicada no âmbito das forças armadas como mecanismo disciplinar é tema que divide constitucionalistas e militaristas.',
+  category: 'Direito Militar',
+  url: 'direito-militar/prisao-disciplinar-militar-constitucionalidade-brasil.html',
+  tags: ['Prisão Disciplinar Militar', 'Constitucionalidade', 'Detenção Castrense sob o Crivo Constitucional']
+},
 { title: 'Precedentes nas Decisões Administrativas e seu Alcance', description: 'A jurisprudência administrativa, produzida por tribunais de contas, agências reguladoras e órgãos recursais, ocupa espaço crescente no sistema normativo brasileiro.', category: 'Jurisprudência', url: 'jurisprudencia/precedentes-decisoes-administrativas-alcance.html', tags: ['jurisprudência administrativa', 'Tribunal de Contas', 'Precedentes nas Decisões Administrativas e seu Alcance'] },
 { title: 'Apuração Interna de Irregularidades e Seus Desafios', description: 'As investigações internas corporativas tornaram-se componente estratégico dos programas de compliance nas organizações brasileiras.', category: 'Compliance', url: 'compliance/apuracao-interna-irregularidades-desafios.html', tags: ['investigações internas', 'compliance', 'Apuração Interna de Irregularidades e Seus Desafios'] },
 { title: 'Fundo de Garantia e a Proteção do Vínculo Laboral', description: 'O FGTS é um dos mais importantes instrumentos de proteção patrimonial do trabalhador brasileiro, com função que vai muito além da compensação pela dispensa.', category: 'Direito Trabalhista', url: 'direito-trabalhista/fundo-garantia-protecao-vinculo-laboral.html', tags: ['FGTS', 'Fundo de Garantia', 'Fundo de Garantia e a Proteção do Vínculo Laboral'] },
