@@ -268,29 +268,29 @@ document.addEventListener("DOMContentLoaded", function(){
   const posts = [
   
 {
- title: "Custódia Exclusiva e Proteção Integral da Criança",
-  link: "direito-de-familia/custodia-exclusiva-protecao-integral-crianca.html",
-  date: "2026-04-20T07:00:00"
+ title: "Imperfeição Mercantil e Tutela do Consumidor",
+  link: "direito-civil/responsabilidade-vicio-produto-direito-consumidor-brasil.html",
+  date: "2026-04-27T07:00:00"
 },
 {
-  title: "Governança Sustentável e Integridade Corporativa em Foco",
-  link: "compliance/governanca-sustentavel-integridade-corporativa-esg.html",
-  date: "2026-04-09T07:00:00"
+  title: "Vínculos Geracionais e o Amparo Jurídico Familiar",
+  link: "direito-de-familia/direito-avos-convivencia-familiar-brasil.html",
+  date: "2026-04-27T07:00:00"
 },
 {
-  title: "Conformidade Digital como Escudo Corporativo",
-  link: "compliance/conformidade-digital-escudo-corporativo.html",
-  date: "2026-04-16T07:00:00"
+  title: "Fundo de Garantia e a Proteção do Vínculo Laboral",
+  link: "direito-trabalhista/fundo-garantia-protecao-vinculo-laboral.html",
+  date: "2026-04-24T07:00:00"
 },
 {
-  title: "Mesma Função Exige Mesmo Salário",
-  link: "direito-trabalhista/mesma-funcao-exige-mesmo-salario.html",
-  date: "2026-04-13T07:00:00"
+  title: "Fronteiras da Palavra e os Limites Democráticos",
+  link: "politica/fronteiras-palavra-limites-democraticos-liberdade-expressao.html",
+  date: "2026-04-21T07:00:00"
 },
 {
-  title: "A Confissão Que Pode Mudar Tudo",
-  link: "direito-penal/confissao-que-pode-mudar-tudo.html",
-  date: "2026-04-13T07:00:00"
+  title: "Vigilância Cidadã sobre o Poder Institucional Brasileiro",
+  link: "politica/vigilancia-cidada-poder-institucional-brasileiro.html",
+  date: "2026-04-24T07:00:00"
 },
 
   ];
@@ -339,22 +339,22 @@ document.addEventListener("DOMContentLoaded", function(){
 const principaisNoticias = [
 
 {
-title: "Excesso de Poder e as Fronteiras da Autoridade Pública",
-    link: "direito-penal/excesso-poder-fronteiras-autoridade-publica.html",
+title: "Precedentes nas Decisões Administrativas e seu Alcance",
+    link: "jurisprudencia/precedentes-decisoes-administrativas-alcance.html",
 source: "",
-date: "2026-04-20T07:00:00"
+date: "2026-04-24T07:00:00"
 },
 {
-title: "Provas Obtidas Ilegalmente e Suas Consequências",
-  link: "direito-penal/provas-obtidas-ilegalmente-consequencias.html",
+title: "Vigilância Cidadã sobre o Poder Institucional Brasileiro",
+  link: "politica/vigilancia-cidada-poder-institucional-brasileiro.html",
 source: "",
-date: "2026-04-16T07:00:00"
+date: "2026-04-24T07:00:00"
 },
 {
-title: "Comércio Ilícito de Entorpecentes e Sanções Penais no Brasil",
-link: "direito-penal/comercio-ilicito-entorpecentes-sancoes-penais-brasil.html",
+title: "Apuração Interna de Irregularidades e Seus Desafios",
+link: "compliance/apuracao-interna-irregularidades-desafios.html",
 source: "",
-date: "2026-04-15T03:00:00"
+date: "2026-04-24T03:00:00"
 },
 {
 title: "Contratos Públicos sob Nova Arquitetura Normativa",
@@ -363,10 +363,10 @@ source: "",
 date: "2026-04-21T07:00:00"
 },
 {
-title: "Constituição Digital e Direitos dos Usuários Online",
-link: "legislacao/constituicao-digital-direitos-usuarios-online.html",
+title: "Estatuto do Consumidor e seus Trinta Anos de Proteção",
+link: "legislacao/estatuto-consumidor-trinta-anos-protecao.html",
 source: "",
-date: "2026-04-20T07:00:00"
+date: "2026-04-24T07:00:00"
 },
 {
 title: "Economia Invisível e os Direitos Negados ao Trabalhador",
@@ -387,10 +387,10 @@ source: "",
 date: "2026-04-21T07:00:00",
 },
 {
-   title: "Vigilância Cidadã sobre o Poder Institucional Brasileiro",
-    link: "politica/vigilancia-cidada-poder-institucional-brasileiro.html",
+   title: "Imperfeição Mercantil e Tutela do Consumidor",
+    link: "direito-civil/responsabilidade-vicio-produto-direito-consumidor-brasil.html",
 source: "",
- date: "2026-04-23T07:00:00"
+ date: "2026-04-27T07:00:00"
 },
 
 ];

@@ -2,8 +2,8 @@
 const categoryNewsData = [
     { title: "Vigilância Cidadã sobre o Poder Institucional Brasileiro", date: "24/04/2026", timestamp: "2026-04-24T07:00:00", image: "../img/vigilancia-cidada-poder-institucional-brasileiro.webp", excerpt: "O controle social é um dos pilares mais vulneráveis e mais indispensáveis da democracia brasileira.", link: "../politica/vigilancia-cidada-poder-institucional-brasileiro.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "Fronteiras da Palavra e os Limites Democráticos", 
-        date: "24/04/2026", 
-        timestamp: "2026-04-24T08:00:00", 
+        date: "21/04/2026", 
+        timestamp: "2026-04-21T08:00:00", 
         image: "../img/fronteiras-palavra-limites-democraticos-liberdade-expressao.webp", 
         excerpt: "A liberdade de expressão é um dos direitos fundamentais mais debatidos e tensionados na democracia brasileira contemporânea.", 
         link: "../politica/fronteiras-palavra-limites-democraticos-liberdade-expressao.html", 

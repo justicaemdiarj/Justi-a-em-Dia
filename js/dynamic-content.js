@@ -12,6 +12,15 @@ const tickerConfig = {
 };
 
 const globalNewsData = [
+{
+  title: "Vínculos Geracionais e o Amparo Jurídico Familiar",
+  link: "direito-de-familia/direito-avos-convivencia-familiar-brasil.html",
+},
+{
+  title: "Detenção Castrense sob o Crivo Constitucional",
+  link: "direito-militar/prisao-disciplinar-militar-constitucionalidade-brasil.html",
+},
+{ title: "Imperfeição Mercantil e Tutela do Consumidor", link: "direito-civil/responsabilidade-vicio-produto-direito-consumidor-brasil.html" },
 
 {
   title: "Conformidade Digital como Escudo Corporativo",
@@ -75,31 +84,8 @@ const globalNewsData = [
 },
 { title: "Delitos Digitais e a Resposta Penal do Estado", link: "direito-penal/delitos-digitais-resposta-penal-estado.html" },
 { title: "Fronteiras da Palavra e os Limites Democráticos", link: "politica/fronteiras-palavra-limites-democraticos-liberdade-expressao.html" },
-{ title: "Economia Invisível e os Direitos Negados ao Trabalhador", link: "direito-trabalhista/economia-invisivel-direitos-negados-trabalhador.html" },
-{ title: "Contratos Públicos sob Nova Arquitetura Normativa", link: "legislacao/contratos-publicos-nova-arquitetura-normativa.html" },
-{ title: "Tribunais Além da Lei e seus Reflexos Políticos", link: "jurisprudencia/tribunais-alem-lei-reflexos-politicos-ativismo.html" },
-{ title: "Vínculo Afetivo e Obrigação Alimentar na Filiação", link: "direito-de-familia/vinculo-afetivo-obrigacao-alimentar-filiacao.html" },
-{ title: "Capacitação Interna como Pilar da Conformidade Empresarial", link: "compliance/capacitacao-interna-pilar-conformidade-empresarial.html" },
-{ title: "Força Letal e os Limites da Atuação Estatal Armada", link: "direito-militar/forca-letal-limites-atuacao-estatal-armada.html" },
-{ title: "Lesões Transindividuais e a Tutela Coletiva no Brasil", link: "direito-civil/lesoes-transindividuais-tutela-coletiva-brasil.html" },
-{ title: "Término da Convivência e Efeitos Patrimoniais Legais", link: "direito-de-familia/termino-convivencia-efeitos-patrimoniais-legais.html" },
-{ title: "Ilícitos Castrenses na Normalidade Institucional Brasileira", link: "direito-militar/ilicitos-castrenses-normalidade-institucional-brasileira.html" },
-{ title: "Imposições Contratuais Ilegítimas e a Defesa do Consumidor", link: "direito-civil/imposicoes-contratuais-ilegitimas-defesa-consumidor.html" },
-{ title: "Avanço no Cumprimento da Pena e Critérios Legais", link: "direito-penal/avanco-cumprimento-pena-criterios-legais.html" },
-{ title: "Estatuto do Consumidor e seus Trinta Anos de Proteção", link: "legislacao/estatuto-consumidor-trinta-anos-protecao.html" },
-{ title: "Vigilância Cidadã sobre o Poder Institucional Brasileiro", link: "politica/vigilancia-cidada-poder-institucional-brasileiro.html" },
-{ title: "Fundo de Garantia e a Proteção do Vínculo Laboral", link: "direito-trabalhista/fundo-garantia-protecao-vinculo-laboral.html" },
-{ title: "Apuração Interna de Irregularidades e Seus Desafios", link: "compliance/apuracao-interna-irregularidades-desafios.html" },
-{ title: "Precedentes nas Decisões Administrativas e seu Alcance", link: "jurisprudencia/precedentes-decisoes-administrativas-alcance.html" },
-{
-  title: "Vínculos Geracionais e o Amparo Jurídico Familiar",
-  link: "direito-de-familia/direito-avos-convivencia-familiar-brasil.html",
-},
-{
-  title: "Detenção Castrense sob o Crivo Constitucional",
-  link: "direito-militar/prisao-disciplinar-militar-constitucionalidade-brasil.html",
-},
-{ title: "Imperfeição Mercantil e Tutela do Consumidor", link: "direito-civil/responsabilidade-vicio-produto-direito-consumidor-brasil.html" },
+
+
 ];
 
 // Array para armazenar todas as notícias coletadas dos arquivos de paginação
