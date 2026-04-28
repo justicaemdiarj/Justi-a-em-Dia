@@ -12,6 +12,11 @@ const tickerConfig = {
 };
 
 const globalNewsData = [
+
+    { title: "Política Antidrogas Entre Punição e Saúde Pública", link: "direito-penal/lei-drogas-politica-criminal-brasil.html" },
+{ title: "Excesso de Poder e os Limites do Agente Público", link: "legislacao/lei-abuso-autoridade-limites-poder-publico-brasil.html" },
+{ title: "Gestão Estatal sob o Prisma da Transparência", link: "politica/governanca-publica-transparencia-estado-brasil.html" },
+
 {
   title: "Vínculos Geracionais e o Amparo Jurídico Familiar",
   link: "direito-de-familia/direito-avos-convivencia-familiar-brasil.html",

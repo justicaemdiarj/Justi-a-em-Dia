@@ -1,6 +1,7 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
 
+{ title: "Política Antidrogas Entre Punição e Saúde Pública", date: "28/04/2026", timestamp: "2026-04-28T07:00:00", image: "../img/lei-drogas-politica-criminal-brasil.webp", excerpt: "A legislação brasileira sobre entorpecentes é marcada por tensões entre o modelo repressivo e a abordagem sanitária.", link: "../direito-penal/lei-drogas-politica-criminal-brasil.html", author: "Justiça em Dia", authorLink: "#" },
 
     { title: "Avanço no Cumprimento da Pena e Critérios Legais", date: "24/04/2026", timestamp: "2026-04-24T07:00:00", image: "../img/avanco-cumprimento-pena-criterios-legais.webp", excerpt: "A progressão de regime equilibra a função punitiva da pena com o objetivo constitucional de ressocialização.", link: "../direito-penal/avanco-cumprimento-pena-criterios-legais.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "Delitos Digitais e a Resposta Penal do Estado", 

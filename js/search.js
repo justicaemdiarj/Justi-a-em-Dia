@@ -8,6 +8,10 @@ const allArticles = [
   tags: ['Direito dos Avós', 'Convivência Familiar', 'Vínculos Geracionais e o Amparo Jurídico Familiar']
 },
 { title: 'Imperfeição Mercantil e Tutela do Consumidor', description: 'O vício do produto é um dos institutos centrais do direito do consumidor brasileiro, regulado pelo CDC com rigor técnico e viés protetivo.', category: 'Direito Civil', url: 'direito-civil/responsabilidade-vicio-produto-direito-consumidor-brasil.html', tags: ['Vício do Produto', 'Responsabilidade Civil', 'Imperfeição Mercantil e Tutela do Consumidor'] },
+{ title: 'Política Antidrogas Entre Punição e Saúde Pública', description: 'A legislação brasileira sobre entorpecentes é marcada por tensões entre o modelo repressivo e a abordagem sanitária.', category: 'Direito Criminal', url: 'direito-penal/lei-drogas-politica-criminal-brasil.html', tags: ['Lei de Drogas', 'Tráfico de Entorpecentes', 'Política Antidrogas Entre Punição e Saúde Pública'] },
+{ title: 'Excesso de Poder e os Limites do Agente Público', description: 'A Lei nº 13.869 de 2019 estabelece limites claros ao exercício do poder por agentes públicos e prevê sanções penais, civis e administrativas.', category: 'Legislação', url: 'legislacao/lei-abuso-autoridade-limites-poder-publico-brasil.html', tags: ['Abuso de Autoridade', 'Lei 13869', 'Excesso de Poder e os Limites do Agente Público'] },
+{ title: 'Gestão Estatal sob o Prisma da Transparência', description: 'A governança pública no Brasil enfrenta o desafio de consolidar mecanismos de controle, transparência e eficiência na gestão dos recursos estatais.', category: 'Política', url: 'politica/governanca-publica-transparencia-estado-brasil.html', tags: ['Governança Pública', 'Transparência', 'Gestão Estatal sob o Prisma da Transparência'] },
+
 {
   title: 'Detenção Castrense sob o Crivo Constitucional',
   description: 'A restrição de liberdade aplicada no âmbito das forças armadas como mecanismo disciplinar é tema que divide constitucionalistas e militaristas.',

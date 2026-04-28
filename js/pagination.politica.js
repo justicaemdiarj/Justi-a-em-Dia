@@ -1,5 +1,7 @@
 // Dados de notícias para Política
 const categoryNewsData = [
+    { title: "Gestão Estatal sob o Prisma da Transparência", date: "28/04/2026", timestamp: "2026-04-28T07:00:00", image: "../img/governanca-publica-transparencia-estado-brasil.webp", excerpt: "A governança pública no Brasil enfrenta o desafio de consolidar mecanismos de controle, transparência e eficiência na gestão dos recursos estatais.", link: "../politica/governanca-publica-transparencia-estado-brasil.html", author: "Justiça em Dia", authorLink: "#" },
+
     { title: "Vigilância Cidadã sobre o Poder Institucional Brasileiro", date: "24/04/2026", timestamp: "2026-04-24T07:00:00", image: "../img/vigilancia-cidada-poder-institucional-brasileiro.webp", excerpt: "O controle social é um dos pilares mais vulneráveis e mais indispensáveis da democracia brasileira.", link: "../politica/vigilancia-cidada-poder-institucional-brasileiro.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "Fronteiras da Palavra e os Limites Democráticos", 
         date: "21/04/2026", 

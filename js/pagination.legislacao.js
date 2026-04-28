@@ -1,5 +1,6 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
+    { title: "Excesso de Poder e os Limites do Agente Público", date: "28/04/2026", timestamp: "2026-04-28T07:00:00", image: "../img/lei-abuso-autoridade-limites-poder-publico-brasil.webp", excerpt: "A Lei nº 13.869 de 2019 estabelece limites claros ao exercício do poder por agentes públicos e prevê sanções penais, civis e administrativas.", link: "../legislacao/lei-abuso-autoridade-limites-poder-publico-brasil.html", author: "Justiça em Dia", authorLink: "#" },
 
     { title: "Estatuto do Consumidor e seus Trinta Anos de Proteção", 
         date: "24/04/2026", 

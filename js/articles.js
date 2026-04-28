@@ -2,51 +2,51 @@ const posts = [
   
   
 
-{   title: "Vínculos Geracionais e o Amparo Jurídico Familiar",
-  description: "A lei brasileira assegura aos avós o direito ao contato regular com seus netos",
-  description2: "Entenda como o ordenamento jurídico protege os laços intergeracionais",
-  image: "img/direito-avos-convivencia-familiar-brasil.webp",
-  link: "direito-de-familia/direito-avos-convivencia-familiar-brasil.html",
-  date: "2026-04-27T07:00:00",
+{   title: "Política Antidrogas Entre Punição e Saúde Pública", 
+  description: "A lei nº 11.343 de 2006 diferencia usuário de traficante, mas a ausência de critérios objetivos gera desigualdade na aplicação", 
+  description2: "Entenda como a política criminal antidrogas impacta o encarceramento no Brasil", 
+  image: "img/lei-drogas-politica-criminal-brasil.webp", 
+  link: "direito-penal/lei-drogas-politica-criminal-brasil.html", 
+  date: "2026-04-28T07:00:00",
   section: "featured"
 },
   {
-  title: "Detenção Castrense sob o Crivo Constitucional",
-  description: "A prisão disciplinar militar é exceção constitucional que não afasta as garantias fundamentais do cidadão fardado",
-  description2: "Entenda os limites do poder punitivo castrense frente à Constituição de 1988",
-  image: "img/prisao-disciplinar-militar-constitucionalidade-brasil.webp",
-  link: "direito-militar/prisao-disciplinar-militar-constitucionalidade-brasil.html",
-  date: "2026-04-27T07:00:00",
+title: "Excesso de Poder e os Limites do Agente Público", 
+description: "A Lei nº 13.869 de 2019 tipifica condutas abusivas de agentes públicos em três esferas de responsabilização", 
+description2: "Entenda como o ordenamento jurídico protege o cidadão contra o arbítrio do Estado", 
+image: "img/lei-abuso-autoridade-limites-poder-publico-brasil.webp", 
+link: "legislacao/lei-abuso-autoridade-limites-poder-publico-brasil.html", 
+  date: "2026-04-28T07:00:00",
   section: "featured-secundario"
 },
 {
-title: "Imperfeição Mercantil e Tutela do Consumidor", 
-description: "O CDC responsabiliza objetivamente fornecedores pelos vícios que acometem os produtos colocados no mercado", 
-description2: "Conheça os prazos, direitos e mecanismos de proteção ao consumidor diante de produtos defeituosos", 
-image: "img/responsabilidade-vicio-produto-direito-consumidor-brasil.webp", 
-link: "direito-civil/responsabilidade-vicio-produto-direito-consumidor-brasil.html", 
-  date: "2026-04-27T07:00:00",
+title: "Gestão Estatal sob o Prisma da Transparência", 
+description: "A governança pública eficaz exige controle, transparência e prestação de contas como condições do Estado democrático", 
+description2: "Como a legislação brasileira estrutura a fiscalização e a integridade da administração pública", 
+image: "img/governanca-publica-transparencia-estado-brasil.webp", 
+link: "politica/governanca-publica-transparencia-estado-brasil.html", 
+  date: "2026-04-28T07:00:00",
  section: "featured-terciario"
 },
   {
-title: "Imposições Contratuais Ilegítimas e a Defesa do Consumidor",
-image: "img/imposicoes-contratuais-ilegitimas-defesa-consumidor.webp", 
-link: "direito-civil/imposicoes-contratuais-ilegitimas-defesa-consumidor.html",
-  date: "2026-04-24T07:00:00",
+title: "Vínculos Geracionais e o Amparo Jurídico Familiar",
+image: "img/direito-avos-convivencia-familiar-brasil.webp", 
+link: "direito-de-familia/direito-avos-convivencia-familiar-brasil.html",
+  date: "2026-04-27T07:00:00",
     section: "destaque"
   },
    {
-title: "Avanço no Cumprimento da Pena e Critérios Legais",
-image: "img/avanco-cumprimento-pena-criterios-legais.webp", 
-link: "direito-penal/avanco-cumprimento-pena-criterios-legais.html",
-  date: "2026-04-24T07:00:00",
+title: "Detenção Castrense sob o Crivo Constitucional",
+image: "img/prisao-disciplinar-militar-constitucionalidade-brasil.webp", 
+link: "direito-militar/prisao-disciplinar-militar-constitucionalidade-brasil.html",
+  date: "2026-04-27T07:00:00",
     section: "destaque"
   },
   {
-title: "Estatuto do Consumidor e seus Trinta Anos de Proteção",
-image: "img/estatuto-consumidor-trinta-anos-protecao.webp", 
-link: "legislacao/estatuto-consumidor-trinta-anos-protecao.html",
-  date: "2026-04-24T12:00:00",
+title: "Imperfeição Mercantil e Tutela do Consumidor",
+image: "img/responsabilidade-vicio-produto-direito-consumidor-brasil.webp", 
+link: "direito-civil/responsabilidade-vicio-produto-direito-consumidor-brasil.html",
+  date: "2026-04-27T07:00:00",
     section: "destaque"
   },
   {
