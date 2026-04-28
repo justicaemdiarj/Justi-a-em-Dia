@@ -16,6 +16,9 @@ const globalNewsData = [
     { title: "Política Antidrogas Entre Punição e Saúde Pública", link: "direito-penal/lei-drogas-politica-criminal-brasil.html" },
 { title: "Excesso de Poder e os Limites do Agente Público", link: "legislacao/lei-abuso-autoridade-limites-poder-publico-brasil.html" },
 { title: "Gestão Estatal sob o Prisma da Transparência", link: "politica/governanca-publica-transparencia-estado-brasil.html" },
+{ title: "A CLT Reformada e o Mundo do Trabalho", link: "direito-trabalhista/reforma-trabalhista-impactos-relacoes-trabalho-brasil.html" },
+{ title: "Integridade Institucional no Poder do Estado", link: "compliance/compliance-setor-publico-integridade-gestao-estado.html" },
+{ title: "Quando os Tribunais Reescrevem a Realidade Social", link: "jurisprudencia/influencia-jurisprudencia-sociedade-brasileira.html" },
 
 {
   title: "Vínculos Geracionais e o Amparo Jurídico Familiar",

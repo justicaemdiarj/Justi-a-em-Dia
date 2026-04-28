@@ -1,6 +1,7 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
 
+{ title: "Integridade Institucional no Poder do Estado", date: "29/04/2026", timestamp: "2026-04-29T07:00:00", image: "../img/compliance-setor-publico-integridade-gestao-estado.webp", excerpt: "A implementação de programas de compliance no setor público representa avanço fundamental na construção de uma administração íntegra e eficiente.", link: "../compliance/compliance-setor-publico-integridade-gestao-estado.html", author: "Justiça em Dia", authorLink: "#" },
 
     { title: "Apuração Interna de Irregularidades e Seus Desafios", date: "24/04/2026", 
         timestamp: "2026-04-24T06:00:00", image: "../img/apuracao-interna-irregularidades-desafios.webp", excerpt: "As investigações internas corporativas tornaram-se componente estratégico dos programas de compliance.", link: "../compliance/apuracao-interna-irregularidades-desafios.html", author: "Justiça em Dia", authorLink: "#" },

@@ -4269,6 +4269,38 @@
     <news:title>Excesso de Poder e os Limites do Agente Público</news:title>
   </news:news>
 </url>
-
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-trabalhista/reforma-trabalhista-impactos-relacoes-trabalho-brasil.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-04-25T07:00:00-03:00</news:publication_date>
+    <news:title>A CLT Reformada e o Mundo do Trabalho</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/compliance/compliance-setor-publico-integridade-gestao-estado.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-04-25T07:00:00-03:00</news:publication_date>
+    <news:title>Integridade Institucional no Poder do Estado</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/jurisprudencia/influencia-jurisprudencia-sociedade-brasileira.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-04-25T07:00:00-03:00</news:publication_date>
+    <news:title>Quando os Tribunais Reescrevem a Realidade Social</news:title>
+  </news:news>
+</url>
 
 </urlset>

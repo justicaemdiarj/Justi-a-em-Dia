@@ -1,5 +1,7 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
+    { title: "A CLT Reformada e o Mundo do Trabalho", date: "29/04/2026", timestamp: "2026-04-29T07:00:00", image: "../img/reforma-trabalhista-impactos-relacoes-trabalho-brasil.webp", excerpt: "A Lei nº 13.467 de 2017 alterou profundamente a CLT, flexibilizando vínculos empregatícios e ampliando o espaço da negociação coletiva.", link: "../direito-trabalhista/reforma-trabalhista-impactos-relacoes-trabalho-brasil.html", author: "Justiça em Dia", authorLink: "#" },
+
     { title: "Fundo de Garantia e a Proteção do Vínculo Laboral", 
         date: "24/04/2026", 
         timestamp: "2026-04-24T07:00:00", image: "../img/fundo-garantia-protecao-vinculo-laboral.webp", excerpt: "O FGTS é um dos mais importantes instrumentos de proteção patrimonial do trabalhador brasileiro.", link: "../direito-trabalhista/fundo-garantia-protecao-vinculo-laboral.html", author: "Justiça em Dia", authorLink: "#" },

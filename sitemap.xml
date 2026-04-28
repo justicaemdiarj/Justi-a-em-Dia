@@ -2461,5 +2461,22 @@
   <changefreq>always</changefreq>
   <priority>1.0</priority>
 </url>
-
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-trabalhista/reforma-trabalhista-impactos-relacoes-trabalho-brasil.html</loc>
+  <lastmod>2026-04-25</lastmod>
+  <changefreq>always</changefreq>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/compliance/compliance-setor-publico-integridade-gestao-estado.html</loc>
+  <lastmod>2026-04-25</lastmod>
+  <changefreq>always</changefreq>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/jurisprudencia/influencia-jurisprudencia-sociedade-brasileira.html</loc>
+  <lastmod>2026-04-25</lastmod>
+  <changefreq>always</changefreq>
+  <priority>1.0</priority>
+</url>
 </urlset>

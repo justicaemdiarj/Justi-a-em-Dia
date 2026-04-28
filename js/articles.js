@@ -2,30 +2,30 @@ const posts = [
   
   
 
-{   title: "Política Antidrogas Entre Punição e Saúde Pública", 
-  description: "A lei nº 11.343 de 2006 diferencia usuário de traficante, mas a ausência de critérios objetivos gera desigualdade na aplicação", 
-  description2: "Entenda como a política criminal antidrogas impacta o encarceramento no Brasil", 
-  image: "img/lei-drogas-politica-criminal-brasil.webp", 
-  link: "direito-penal/lei-drogas-politica-criminal-brasil.html", 
-  date: "2026-04-28T07:00:00",
+{    title: "A CLT Reformada e o Mundo do Trabalho", 
+  description: "A reforma trabalhista de 2017 flexibilizou a CLT e inaugurou modalidades contratuais inéditas no ordenamento brasileiro", 
+  description2: "Avalie os impactos da Lei nº 13.467 sobre proteção dos trabalhadores e o mercado de emprego", 
+  image: "img/reforma-trabalhista-impactos-relacoes-trabalho-brasil.webp", 
+  link: "direito-trabalhista/reforma-trabalhista-impactos-relacoes-trabalho-brasil.html", 
+  date: "2026-04-29T07:00:00",
   section: "featured"
 },
   {
-title: "Excesso de Poder e os Limites do Agente Público", 
-description: "A Lei nº 13.869 de 2019 tipifica condutas abusivas de agentes públicos em três esferas de responsabilização", 
-description2: "Entenda como o ordenamento jurídico protege o cidadão contra o arbítrio do Estado", 
-image: "img/lei-abuso-autoridade-limites-poder-publico-brasil.webp", 
-link: "legislacao/lei-abuso-autoridade-limites-poder-publico-brasil.html", 
-  date: "2026-04-28T07:00:00",
+title: "Integridade Institucional no Poder do Estado", 
+description: "Programas de compliance no setor público são imperativos constitucionais derivados dos princípios da legalidade e moralidade administrativa", 
+description2: "Como a gestão de riscos e os canais de denúncia transformam a integridade do Estado brasileiro", 
+image: "img/compliance-setor-publico-integridade-gestao-estado.webp", 
+link: "compliance/compliance-setor-publico-integridade-gestao-estado.html", 
+  date: "2026-04-29T07:00:00",
   section: "featured-secundario"
 },
 {
-title: "Gestão Estatal sob o Prisma da Transparência", 
-description: "A governança pública eficaz exige controle, transparência e prestação de contas como condições do Estado democrático", 
-description2: "Como a legislação brasileira estrutura a fiscalização e a integridade da administração pública", 
-image: "img/governanca-publica-transparencia-estado-brasil.webp", 
-link: "politica/governanca-publica-transparencia-estado-brasil.html", 
-  date: "2026-04-28T07:00:00",
+title: "Quando os Tribunais Reescrevem a Realidade Social", 
+description: "As decisões dos tribunais superiores têm força normativa equiparável à lei e moldam comportamentos em toda a sociedade", 
+description2: "Entenda como a jurisprudência brasileira influencia a política, a economia e os direitos dos cidadãos", 
+image: "img/influencia-jurisprudencia-sociedade-brasileira.webp", 
+link: "jurisprudencia/influencia-jurisprudencia-sociedade-brasileira.html",
+  date: "2026-04-29T07:00:00",
  section: "featured-terciario"
 },
   {
@@ -33,42 +33,41 @@ title: "Vínculos Geracionais e o Amparo Jurídico Familiar",
 image: "img/direito-avos-convivencia-familiar-brasil.webp", 
 link: "direito-de-familia/direito-avos-convivencia-familiar-brasil.html",
   date: "2026-04-27T07:00:00",
-    section: "destaque"
+    section: "veja"
   },
    {
 title: "Detenção Castrense sob o Crivo Constitucional",
 image: "img/prisao-disciplinar-militar-constitucionalidade-brasil.webp", 
 link: "direito-militar/prisao-disciplinar-militar-constitucionalidade-brasil.html",
   date: "2026-04-27T07:00:00",
-    section: "destaque"
+    section: "veja"
   },
   {
 title: "Imperfeição Mercantil e Tutela do Consumidor",
 image: "img/responsabilidade-vicio-produto-direito-consumidor-brasil.webp", 
 link: "direito-civil/responsabilidade-vicio-produto-direito-consumidor-brasil.html",
   date: "2026-04-27T07:00:00",
+    section: "veja"
+  },
+  {
+title: "Gestão Estatal sob o Prisma da Transparência", 
+image: "img/governanca-publica-transparencia-estado-brasil.webp", 
+link: "politica/governanca-publica-transparencia-estado-brasil.html", 
+  date: "2026-04-28T07:00:00",
     section: "destaque"
   },
   {
-title: "Vigilância Cidadã sobre o Poder Institucional Brasileiro",
-image: "img/vigilancia-cidada-poder-institucional-brasileiro.webp", 
-link: "politica/vigilancia-cidada-poder-institucional-brasileiro.html", 
-  date: "2026-04-24T07:00:00",
-    section: "veja"
+title: "Excesso de Poder e os Limites do Agente Público", 
+image: "img/lei-abuso-autoridade-limites-poder-publico-brasil.webp", 
+link: "legislacao/lei-abuso-autoridade-limites-poder-publico-brasil.html", 
+  date: "2026-04-28T07:00:00",
+    section: "destaque"
   },
-  {
-title: "Fundo de Garantia e a Proteção do Vínculo Laboral",
- image: "img/fundo-garantia-protecao-vinculo-laboral.webp", 
- link: "direito-trabalhista/fundo-garantia-protecao-vinculo-laboral.html",
-  date: "2026-04-24T07:00:00",
-    section: "veja"
-  },
-  {
-title: "Apuração Interna de Irregularidades e Seus Desafios",
-image: "img/apuracao-interna-irregularidades-desafios.webp", 
-link: "compliance/apuracao-interna-irregularidades-desafios.html",
-  date: "2026-04-24T06:00:00",
-    section: "veja"
+{   title: "Política Antidrogas Entre Punição e Saúde Pública", 
+  image: "img/lei-drogas-politica-criminal-brasil.webp", 
+  link: "direito-penal/lei-drogas-politica-criminal-brasil.html", 
+  date: "2026-04-28T07:00:00",
+    section: "destaque"
   }
 ];
 
