@@ -1,5 +1,15 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
+    {
+    title: "Patrimônio Além da Morte no Direito Civil",
+    date: "30/04/2026",
+    timestamp: "2026-04-30T07:00:00",
+    image: "../img/patrimonio-alem-morte-direito-civil.webp",
+    excerpt: "O direito sucessório brasileiro enfrenta desafios diante das transformações familiares, do patrimônio digital e da crescente judicialização das heranças.",
+    link: "../direito-civil/patrimonio-alem-morte-direito-civil.html",
+    category: "direito-civil",
+    author: "Justiça em Dia",
+    },
     { title: "Imperfeição Mercantil e Tutela do Consumidor", date: "27/04/2026", timestamp: "2026-04-27T07:00:00", image: "../img/responsabilidade-vicio-produto-direito-consumidor-brasil.webp", excerpt: "O vício do produto é um dos institutos centrais do direito do consumidor brasileiro, regulado pelo CDC com rigor técnico e viés protetivo.", link: "../direito-civil/responsabilidade-vicio-produto-direito-consumidor-brasil.html", author: "Justiça em Dia", authorLink: "#" },
 { title: "Imposições Contratuais Ilegítimas e a Defesa do Consumidor", date: "24/04/2026", 
         timestamp: "2026-04-24T07:00:00", image: "../img/imposicoes-contratuais-ilegitimas-defesa-consumidor.webp", excerpt: "As cláusulas abusivas inseridas em contratos de adesão representam uma das formas mais disseminadas de violação dos direitos dos consumidores.", link: "../direito-civil/imposicoes-contratuais-ilegitimas-defesa-consumidor.html", author: "Justiça em Dia", authorLink: "#" },

@@ -1,6 +1,17 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
     {
+    title: "Proteção Jurídica da Vida antes do Nascimento",
+    date: "30/04/2026",
+    timestamp: "2026-04-30T07:00:00",
+    image: "../img/protecao-juridica-vida-antes-nascimento.webp",
+    excerpt: "Os alimentos gravídicos e a proteção legal da gestante e do nascituro pela Lei nº 11.804/2008.",
+    link: "../direito-de-familia/protecao-juridica-vida-antes-nascimento.html",
+    category: "direito-de-familia",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
   title: "Vínculos Geracionais e o Amparo Jurídico Familiar",
   date: "27/04/2026",
   timestamp: "2026-04-27T07:00:00",

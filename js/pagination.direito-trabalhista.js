@@ -1,5 +1,15 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
+    {
+    title: "Acordos Sindicais e o Poder de Negociar Direitos",
+    date: "30/04/2026",
+    timestamp: "2026-04-30T07:00:00",
+    image: "../img/acordos-sindicais-poder-negociar-direitos.webp",
+    excerpt: "As convenções coletivas no centro do debate trabalhista após a Reforma de 2017 e os limites da primazia do negociado.",
+    link: "../direito-trabalhista/acordos-sindicais-poder-negociar-direitos.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
     { title: "A CLT Reformada e o Mundo do Trabalho", date: "29/04/2026", timestamp: "2026-04-29T07:00:00", image: "../img/reforma-trabalhista-impactos-relacoes-trabalho-brasil.webp", excerpt: "A Lei nº 13.467 de 2017 alterou profundamente a CLT, flexibilizando vínculos empregatícios e ampliando o espaço da negociação coletiva.", link: "../direito-trabalhista/reforma-trabalhista-impactos-relacoes-trabalho-brasil.html", author: "Justiça em Dia", authorLink: "#" },
 
     { title: "Fundo de Garantia e a Proteção do Vínculo Laboral", 

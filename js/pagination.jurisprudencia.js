@@ -1,5 +1,6 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
+    { title: "Coerência Decisória nos Tribunais Superiores Brasileiros", date: "30/04/2026", timestamp: "2026-04-30T07:00:00", image: "../img/coerencia-decisoria-tribunais-superiores-brasileiros.webp", excerpt: "A uniformização da jurisprudência e o sistema de precedentes vinculantes como instrumentos de segurança jurídica.", link: "../jurisprudencia/coerencia-decisoria-tribunais-superiores-brasileiros.html", category: "jurisprudencia", author: "Justiça em Dia", authorLink: "#" },
 { title: "Quando os Tribunais Reescrevem a Realidade Social", date: "29/04/2026", timestamp: "2026-04-29T07:00:00", image: "../img/influencia-jurisprudencia-sociedade-brasileira.webp", excerpt: "A jurisprudência dos tribunais superiores brasileiros transcende os processos individuais e molda comportamentos, políticas e relações sociais em escala nacional.", link: "../jurisprudencia/influencia-jurisprudencia-sociedade-brasileira.html", author: "Justiça em Dia", authorLink: "#" },
 
 { title: "Precedentes nas Decisões Administrativas e seu Alcance", date: "24/04/2026", 

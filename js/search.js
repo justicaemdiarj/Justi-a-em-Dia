@@ -1,6 +1,45 @@
 // Base de dados global de artigos para busca
 const allArticles = [
     {
+    title: 'Ordem e Punição nas Fileiras Castrenses',
+    description: 'A reestruturação do regime disciplinar das corporações militares brasileiras coloca em pauta a tensão entre hierarquia institucional e garantias fundamentais.',
+    category: 'Direito Militar',
+    url: 'direito-militar/ordem-punicao-fileiras-castrenses.html',
+    tags: ['Direito Militar', 'Disciplina Militar', 'Ordem e Punição nas Fileiras Castrenses']
+},
+{
+    title: 'Patrimônio Além da Morte no Direito Civil',
+    description: 'O direito sucessório brasileiro enfrenta desafios estruturais diante das transformações das entidades familiares, do crescimento patrimonial digital e das disputas de herança.',
+    category: 'Direito Civil',
+    url: 'direito-civil/patrimonio-alem-morte-direito-civil.html',
+    tags: ['Direito Sucessório', 'Herança', 'Patrimônio Além da Morte no Direito Civil']
+},
+{
+    title: 'Proteção Jurídica da Vida antes do Nascimento',
+    description: 'Os alimentos gravídicos representam um dos instrumentos mais relevantes do direito de família para a proteção da gestante e do nascituro pela Lei nº 11.804/2008.',
+    category: 'Direito de Família',
+    url: 'direito-de-familia/protecao-juridica-vida-antes-nascimento.html',
+    tags: ['Alimentos Gravídicos', 'Direito de Família', 'Proteção Jurídica da Vida antes do Nascimento']
+},
+{
+    title: 'Liberdade Gradual no Sistema Penitenciário Brasileiro',
+    description: 'A progressão de regime penitenciário é um dos institutos mais sensíveis do direito penal brasileiro, revelando tensões entre reinserção social e punição.',
+    category: 'Direito Criminal',
+    url: 'direito-penal/liberdade-gradual-sistema-penitenciario-brasileiro.html',
+    tags: ['Progressão de Regime', 'Execução Penal', 'Liberdade Gradual no Sistema Penitenciário Brasileiro']
+},
+{
+    title: 'Acordos Sindicais e o Poder de Negociar Direitos',
+    description: 'As convenções coletivas de trabalho são instrumentos centrais na regulação das relações laborais brasileiras, com a Reforma Trabalhista de 2017 ampliando o espaço da negociação coletiva.',
+    category: 'Direito Trabalhista',
+    url: 'direito-trabalhista/acordos-sindicais-poder-negociar-direitos.html',
+    tags: ['Convenções Coletivas', 'Direito Trabalhista', 'Acordos Sindicais e o Poder de Negociar Direitos']
+},
+{ title: 'Punição Corporativa e a Era do Compliance Obrigatório', description: 'As sanções previstas na legislação de compliance são o principal instrumento de coerção para práticas de governança corporativa adequadas.', category: 'Compliance', url: 'compliance/punicao-corporativa-era-compliance-obrigatorio.html', tags: ['Sanções Compliance', 'Penalidades Corporativas', 'Punição Corporativa e a Era do Compliance Obrigatório'] },
+{ title: 'Coerência Decisória nos Tribunais Superiores Brasileiros', description: 'A uniformização da jurisprudência é imperativo de segurança jurídica e de isonomia no tratamento dos jurisdicionados brasileiros.', category: 'Jurisprudência', url: 'jurisprudencia/coerencia-decisoria-tribunais-superiores-brasileiros.html', tags: ['Uniformização de Jurisprudência', 'Precedentes Vinculantes', 'Coerência Decisória nos Tribunais Superiores Brasileiros'] },{ title: 'Inovação com Segurança Jurídica no Brasil', description: 'O Marco Legal das Startups busca criar condições normativas favoráveis ao desenvolvimento de empresas inovadoras.', category: 'Legislação', url: 'legislacao/inovacao-seguranca-juridica-brasil.html', tags: ['Marco Legal das Startups', 'Inovação', 'Inovação com Segurança Jurídica no Brasil'] },
+{ title: 'Inovação com Segurança Jurídica no Brasil', description: 'O Marco Legal das Startups busca criar condições normativas favoráveis ao desenvolvimento de empresas inovadoras.', category: 'Legislação', url: 'legislacao/inovacao-seguranca-juridica-brasil.html', tags: ['Marco Legal das Startups', 'Inovação', 'Inovação com Segurança Jurídica no Brasil'] },
+{ title: 'Tensões Federativas e Competências em Disputa', description: 'O federalismo brasileiro e a repartição de competências revelam as tensões do pacto republicano.', category: 'Política', url: 'politica/tensoes-federativas-competencias-disputa.html', tags: ['Federalismo', 'Repartição de Competências', 'Tensões Federativas e Competências em Disputa'] },
+    {
   title: 'Vínculos Geracionais e o Amparo Jurídico Familiar',
   description: 'A prerrogativa dos avós ao contato regular com seus netos é matéria consolidada no ordenamento jurídico brasileiro, mas ainda sujeita a disputas judiciais complexas.',
   category: 'Direito de Família',

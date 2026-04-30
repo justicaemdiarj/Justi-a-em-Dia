@@ -1,5 +1,15 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
+    {
+    title: "Ordem e Punição nas Fileiras Castrenses",
+    date: "30/04/2026",
+    timestamp: "2026-04-30T07:00:00",
+    image: "../img/ordem-punicao-fileiras-castrenses.webp",
+    excerpt: "A reestruturação do regime disciplinar das corporações militares brasileiras e a tensão entre hierarquia e garantias constitucionais.",
+    link: "../direito-militar/ordem-punicao-fileiras-castrenses.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 {
   title: "Detenção Castrense sob o Crivo Constitucional",
   date: "27/04/2026",

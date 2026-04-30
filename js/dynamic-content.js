@@ -12,7 +12,30 @@ const tickerConfig = {
 };
 
 const globalNewsData = [
-
+{
+    title: "Ordem e Punição nas Fileiras Castrenses",
+    link: "direito-militar/ordem-punicao-fileiras-castrenses.html",
+},
+{
+    title: "Patrimônio Além da Morte no Direito Civil",
+    link: "direito-civil/patrimonio-alem-morte-direito-civil.html",
+},
+{
+    title: "Proteção Jurídica da Vida antes do Nascimento",
+    link: "direito-de-familia/protecao-juridica-vida-antes-nascimento.html",
+},
+{
+    title: "Liberdade Gradual no Sistema Penitenciário Brasileiro",
+    link: "direito-penal/liberdade-gradual-sistema-penitenciario-brasileiro.html",
+},
+{
+    title: "Acordos Sindicais e o Poder de Negociar Direitos",
+    link: "direito-trabalhista/acordos-sindicais-poder-negociar-direitos.html",
+},
+{ title: "Punição Corporativa e a Era do Compliance Obrigatório", link: "compliance/punicao-corporativa-era-compliance-obrigatorio.html" },
+{ title: "Coerência Decisória nos Tribunais Superiores Brasileiros", link: "jurisprudencia/coerencia-decisoria-tribunais-superiores-brasileiros.html" },
+{ title: "Inovação com Segurança Jurídica no Brasil", link: "legislacao/inovacao-seguranca-juridica-brasil.html" },
+{ title: "Tensões Federativas e Competências em Disputa", link: "politica/tensoes-federativas-competencias-disputa.html" },
     { title: "Política Antidrogas Entre Punição e Saúde Pública", link: "direito-penal/lei-drogas-politica-criminal-brasil.html" },
 { title: "Excesso de Poder e os Limites do Agente Público", link: "legislacao/lei-abuso-autoridade-limites-poder-publico-brasil.html" },
 { title: "Gestão Estatal sob o Prisma da Transparência", link: "politica/governanca-publica-transparencia-estado-brasil.html" },

@@ -2,71 +2,64 @@ const posts = [
   
   
 
-{    title: "A CLT Reformada e o Mundo do Trabalho", 
-  description: "A reforma trabalhista de 2017 flexibilizou a CLT e inaugurou modalidades contratuais inéditas no ordenamento brasileiro", 
-  description2: "Avalie os impactos da Lei nº 13.467 sobre proteção dos trabalhadores e o mercado de emprego", 
-  image: "img/reforma-trabalhista-impactos-relacoes-trabalho-brasil.webp", 
-  link: "direito-trabalhista/reforma-trabalhista-impactos-relacoes-trabalho-brasil.html", 
-  date: "2026-04-29T07:00:00",
+{  
+      title: "Ordem e Punição nas Fileiras Castrenses",
+    description: "A reestruturação do regime disciplinar das corporações militares e a tensão com as garantias constitucionais",
+    description2: "Hierarquia castrense sob o crivo do Estado Democrático de Direito",
+    image: "img/ordem-punicao-fileiras-castrenses.webp",
+    link: "direito-militar/ordem-punicao-fileiras-castrenses.html",
+    date: "2026-04-30T07:00:00",
   section: "featured"
 },
   {
-title: "Integridade Institucional no Poder do Estado", 
-description: "Programas de compliance no setor público são imperativos constitucionais derivados dos princípios da legalidade e moralidade administrativa", 
-description2: "Como a gestão de riscos e os canais de denúncia transformam a integridade do Estado brasileiro", 
-image: "img/compliance-setor-publico-integridade-gestao-estado.webp", 
-link: "compliance/compliance-setor-publico-integridade-gestao-estado.html", 
-  date: "2026-04-29T07:00:00",
+    title: "Patrimônio Além da Morte no Direito Civil",
+    description: "O direito sucessório e as disputas de herança diante das transformações familiares e patrimoniais",
+    description2: "Lacunas legais e desafios do inventário no Brasil contemporâneo",
+    image: "img/patrimonio-alem-morte-direito-civil.webp",
+    link: "direito-civil/patrimonio-alem-morte-direito-civil.html",
+    date: "2026-04-30T07:00:00",
   section: "featured-secundario"
 },
 {
-title: "Quando os Tribunais Reescrevem a Realidade Social", 
-description: "As decisões dos tribunais superiores têm força normativa equiparável à lei e moldam comportamentos em toda a sociedade", 
-description2: "Entenda como a jurisprudência brasileira influencia a política, a economia e os direitos dos cidadãos", 
-image: "img/influencia-jurisprudencia-sociedade-brasileira.webp", 
-link: "jurisprudencia/influencia-jurisprudencia-sociedade-brasileira.html",
-  date: "2026-04-29T07:00:00",
+    title: "Proteção Jurídica da Vida antes do Nascimento",
+    description: "Alimentos gravídicos como instrumento de proteção da gestante e do nascituro no direito de família",
+    description2: "A Lei nº 11.804/2008 e os desafios da obrigação alimentar pré-natal",
+    image: "img/protecao-juridica-vida-antes-nascimento.webp",
+    link: "direito-de-familia/protecao-juridica-vida-antes-nascimento.html",
+    date: "2026-04-30T07:00:00",
  section: "featured-terciario"
 },
   {
-title: "Vínculos Geracionais e o Amparo Jurídico Familiar",
-image: "img/direito-avos-convivencia-familiar-brasil.webp", 
-link: "direito-de-familia/direito-avos-convivencia-familiar-brasil.html",
-  date: "2026-04-27T07:00:00",
+  title: "Liberdade Gradual no Sistema Penitenciário Brasileiro",
+    image: "img/liberdade-gradual-sistema-penitenciario-brasileiro.webp",
+    link: "direito-penal/liberdade-gradual-sistema-penitenciario-brasileiro.html",
+    date: "2026-04-30T07:00:00",
     section: "veja"
   },
    {
-title: "Detenção Castrense sob o Crivo Constitucional",
-image: "img/prisao-disciplinar-militar-constitucionalidade-brasil.webp", 
-link: "direito-militar/prisao-disciplinar-militar-constitucionalidade-brasil.html",
-  date: "2026-04-27T07:00:00",
+    title: "Acordos Sindicais e o Poder de Negociar Direitos",
+    image: "img/acordos-sindicais-poder-negociar-direitos.webp",
+    link: "direito-trabalhista/acordos-sindicais-poder-negociar-direitos.html",
+    date: "2026-04-30T07:00:00",
     section: "veja"
   },
   {
-title: "Imperfeição Mercantil e Tutela do Consumidor",
-image: "img/responsabilidade-vicio-produto-direito-consumidor-brasil.webp", 
-link: "direito-civil/responsabilidade-vicio-produto-direito-consumidor-brasil.html",
-  date: "2026-04-27T07:00:00",
+title: "Punição Corporativa e a Era do Compliance Obrigatório",
+image: "img/punicao-corporativa-era-compliance-obrigatorio.webp", link: "compliance/punicao-corporativa-era-compliance-obrigatorio.html", date: "2026-04-30T07:00:00",
     section: "veja"
   },
   {
-title: "Gestão Estatal sob o Prisma da Transparência", 
-image: "img/governanca-publica-transparencia-estado-brasil.webp", 
-link: "politica/governanca-publica-transparencia-estado-brasil.html", 
-  date: "2026-04-28T07:00:00",
+title: "Coerência Decisória nos Tribunais Superiores Brasileiros",
+image: "img/coerencia-decisoria-tribunais-superiores-brasileiros.webp", link: "jurisprudencia/coerencia-decisoria-tribunais-superiores-brasileiros.html", date: "2026-04-30T07:00:00",
     section: "destaque"
   },
   {
-title: "Excesso de Poder e os Limites do Agente Público", 
-image: "img/lei-abuso-autoridade-limites-poder-publico-brasil.webp", 
-link: "legislacao/lei-abuso-autoridade-limites-poder-publico-brasil.html", 
-  date: "2026-04-28T07:00:00",
+title: "Inovação com Segurança Jurídica no Brasil",
+image: "img/inovacao-seguranca-juridica-brasil.webp", link: "legislacao/inovacao-seguranca-juridica-brasil.html", date: "2026-04-30T07:00:00",
     section: "destaque"
   },
-{   title: "Política Antidrogas Entre Punição e Saúde Pública", 
-  image: "img/lei-drogas-politica-criminal-brasil.webp", 
-  link: "direito-penal/lei-drogas-politica-criminal-brasil.html", 
-  date: "2026-04-28T07:00:00",
+{   title: "Tensões Federativas e Competências em Disputa",
+image: "img/tensoes-federativas-competencias-disputa.webp", link: "politica/tensoes-federativas-competencias-disputa.html", date: "2026-04-30T07:00:00",
     section: "destaque"
   }
 ];

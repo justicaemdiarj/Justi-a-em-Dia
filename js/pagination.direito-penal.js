@@ -1,5 +1,15 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
+    {
+    title: "Liberdade Gradual no Sistema Penitenciário Brasileiro",
+    date: "30/04/2026",
+    timestamp: "2026-04-30T07:00:00",
+    image: "../img/liberdade-gradual-sistema-penitenciario-brasileiro.webp",
+    excerpt: "A progressão de regime entre o ideal ressocializador e as demandas punitivas no sistema penal brasileiro.",
+    link: "../direito-penal/liberdade-gradual-sistema-penitenciario-brasileiro.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 
 { title: "Política Antidrogas Entre Punição e Saúde Pública", date: "28/04/2026", timestamp: "2026-04-28T07:00:00", image: "../img/lei-drogas-politica-criminal-brasil.webp", excerpt: "A legislação brasileira sobre entorpecentes é marcada por tensões entre o modelo repressivo e a abordagem sanitária.", link: "../direito-penal/lei-drogas-politica-criminal-brasil.html", author: "Justiça em Dia", authorLink: "#" },
 

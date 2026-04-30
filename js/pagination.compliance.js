@@ -1,6 +1,6 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
-
+    { title: "Punição Corporativa e a Era do Compliance Obrigatório", date: "30/04/2026", timestamp: "2026-04-30T07:00:00", image: "../img/punicao-corporativa-era-compliance-obrigatorio.webp", excerpt: "As sanções e penalidades na legislação de compliance e o impacto sobre a governança corporativa brasileira.", link: "../compliance/punicao-corporativa-era-compliance-obrigatorio.html", category: "compliance", author: "Justiça em Dia", authorLink: "#" },
 { title: "Integridade Institucional no Poder do Estado", date: "29/04/2026", timestamp: "2026-04-29T07:00:00", image: "../img/compliance-setor-publico-integridade-gestao-estado.webp", excerpt: "A implementação de programas de compliance no setor público representa avanço fundamental na construção de uma administração íntegra e eficiente.", link: "../compliance/compliance-setor-publico-integridade-gestao-estado.html", author: "Justiça em Dia", authorLink: "#" },
 
     { title: "Apuração Interna de Irregularidades e Seus Desafios", date: "24/04/2026", 
