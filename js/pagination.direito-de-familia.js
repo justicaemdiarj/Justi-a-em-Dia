@@ -1,5 +1,6 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
+    { title: "Obrigação Alimentar Além da Maioridade Civil", date: "04/05/2026", timestamp: "2026-05-04T07:00:00", image: "../img/obrigacao-alimentar-filhos-maiores-exoneracao.webp", excerpt: "Pensão alimentícia para filhos maiores e os critérios para manutenção ou exoneração no direito de família.", link: "../direito-de-familia/obrigacao-alimentar-filhos-maiores-exoneracao.html", category: "direito-de-familia", author: "Justiça em Dia", authorLink: "#" },
     {
     title: "Proteção Jurídica da Vida antes do Nascimento",
     date: "30/04/2026",

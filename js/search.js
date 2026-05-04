@@ -21,6 +21,8 @@ const allArticles = [
     url: 'direito-de-familia/protecao-juridica-vida-antes-nascimento.html',
     tags: ['Alimentos Gravídicos', 'Direito de Família', 'Proteção Jurídica da Vida antes do Nascimento']
 },
+{ title: 'Integridade nos Contratos Públicos e Anticorrupção', description: 'O compliance anticorrupção em contratos públicos tornou-se exigência estrutural após a Lei nº 12.846/2013.', category: 'Compliance', url: 'compliance/integridade-contratos-publicos-lei-anticorrupcao.html', tags: ['Compliance Anticorrupção', 'Contratos Públicos', 'Integridade nos Contratos Públicos e Anticorrupção'] },
+{ title: 'Vinculação Decisória no CPC e Seus Reflexos', description: 'O sistema de precedentes obrigatórios do CPC de 2015 transformou a estrutura decisória do Judiciário brasileiro.', category: 'Jurisprudência', url: 'jurisprudencia/vinculacao-decisoria-cpc-sistema-precedentes.html', tags: ['Precedentes Obrigatórios', 'CPC 2015', 'Vinculação Decisória no CPC e Seus Reflexos'] },
 {
     title: 'Liberdade Gradual no Sistema Penitenciário Brasileiro',
     description: 'A progressão de regime penitenciário é um dos institutos mais sensíveis do direito penal brasileiro, revelando tensões entre reinserção social e punição.',
@@ -28,6 +30,8 @@ const allArticles = [
     url: 'direito-penal/liberdade-gradual-sistema-penitenciario-brasileiro.html',
     tags: ['Progressão de Regime', 'Execução Penal', 'Liberdade Gradual no Sistema Penitenciário Brasileiro']
 },
+{ title: 'Superendividamento e Nova Proteção ao Consumidor', description: 'A Lei nº 14.181/2021 institui o regime de tratamento do superendividamento com mecanismos de renegociação coletiva e preservação do mínimo existencial.', category: 'Legislação', url: 'legislacao/superendividamento-protecao-consumidor-nova-lei.html', tags: ['Superendividamento', 'Lei 14181', 'Superendividamento e Nova Proteção ao Consumidor'] },
+{ title: 'Obrigação Alimentar Além da Maioridade Civil', description: 'A pensão para filhos maiores e os critérios jurisprudenciais para manutenção ou exoneração da obrigação alimentar.', category: 'Direito de Família', url: 'direito-de-familia/obrigacao-alimentar-filhos-maiores-exoneracao.html', tags: ['Pensão Alimentícia', 'Filhos Maiores', 'Obrigação Alimentar Além da Maioridade Civil'] },
 {
     title: 'Acordos Sindicais e o Poder de Negociar Direitos',
     description: 'As convenções coletivas de trabalho são instrumentos centrais na regulação das relações laborais brasileiras, com a Reforma Trabalhista de 2017 ampliando o espaço da negociação coletiva.',

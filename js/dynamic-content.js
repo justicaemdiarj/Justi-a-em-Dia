@@ -12,6 +12,7 @@ const tickerConfig = {
 };
 
 const globalNewsData = [
+    
 {
     title: "Ordem e Punição nas Fileiras Castrenses",
     link: "direito-militar/ordem-punicao-fileiras-castrenses.html",
@@ -115,8 +116,10 @@ const globalNewsData = [
 },
 { title: "Delitos Digitais e a Resposta Penal do Estado", link: "direito-penal/delitos-digitais-resposta-penal-estado.html" },
 { title: "Fronteiras da Palavra e os Limites Democráticos", link: "politica/fronteiras-palavra-limites-democraticos-liberdade-expressao.html" },
-
-
+{ title: "Integridade nos Contratos Públicos e Anticorrupção", link: "compliance/integridade-contratos-publicos-lei-anticorrupcao.html" },
+{ title: "Vinculação Decisória no CPC e Seus Reflexos", link: "jurisprudencia/vinculacao-decisoria-cpc-sistema-precedentes.html" },
+{ title: "Superendividamento e Nova Proteção ao Consumidor", link: "legislacao/superendividamento-protecao-consumidor-nova-lei.html" },
+{ title: "Obrigação Alimentar Além da Maioridade Civil", link: "direito-de-familia/obrigacao-alimentar-filhos-maiores-exoneracao.html" },
 ];
 
 // Array para armazenar todas as notícias coletadas dos arquivos de paginação

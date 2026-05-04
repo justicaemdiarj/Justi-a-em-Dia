@@ -3,64 +3,64 @@ const posts = [
   
 
 {  
-      title: "Ordem e Punição nas Fileiras Castrenses",
-    description: "A reestruturação do regime disciplinar das corporações militares e a tensão com as garantias constitucionais",
-    description2: "Hierarquia castrense sob o crivo do Estado Democrático de Direito",
-    image: "img/ordem-punicao-fileiras-castrenses.webp",
-    link: "direito-militar/ordem-punicao-fileiras-castrenses.html",
-    date: "2026-04-30T07:00:00",
+title: "Integridade nos Contratos Públicos e Anticorrupção", 
+description: "Compliance anticorrupção como requisito nas contratações governamentais brasileiras", 
+description2: "Lei Anticorrupção e Nova Lei de Licitações redefinem a conformidade nas contratações públicas", 
+image: "img/integridade-contratos-publicos-lei-anticorrupcao.webp", 
+link: "compliance/integridade-contratos-publicos-lei-anticorrupcao.html", 
+date: "2026-05-04T07:00:00",
   section: "featured"
 },
   {
-    title: "Patrimônio Além da Morte no Direito Civil",
-    description: "O direito sucessório e as disputas de herança diante das transformações familiares e patrimoniais",
-    description2: "Lacunas legais e desafios do inventário no Brasil contemporâneo",
-    image: "img/patrimonio-alem-morte-direito-civil.webp",
-    link: "direito-civil/patrimonio-alem-morte-direito-civil.html",
-    date: "2026-04-30T07:00:00",
+title: "Vinculação Decisória no CPC e Seus Reflexos", 
+description: "Precedentes obrigatórios do CPC e a transformação da estrutura decisória do Judiciário brasileiro", 
+description2: "Artigo 927 do CPC e os mecanismos de vinculação judicial em análise crítica", 
+image: "img/vinculacao-decisoria-cpc-sistema-precedentes.webp", 
+link: "jurisprudencia/vinculacao-decisoria-cpc-sistema-precedentes.html", 
+date: "2026-05-04T07:00:00",
   section: "featured-secundario"
 },
 {
-    title: "Proteção Jurídica da Vida antes do Nascimento",
-    description: "Alimentos gravídicos como instrumento de proteção da gestante e do nascituro no direito de família",
-    description2: "A Lei nº 11.804/2008 e os desafios da obrigação alimentar pré-natal",
-    image: "img/protecao-juridica-vida-antes-nascimento.webp",
-    link: "direito-de-familia/protecao-juridica-vida-antes-nascimento.html",
-    date: "2026-04-30T07:00:00",
+title: "Superendividamento e Nova Proteção ao Consumidor", 
+description: "A Lei nº 14.181/2021 e a proteção ao consumidor superendividado no Brasil", 
+description2: "Renegociação coletiva de dívidas e preservação do mínimo existencial como direito", 
+image: "img/superendividamento-protecao-consumidor-nova-lei.webp", 
+link: "legislacao/superendividamento-protecao-consumidor-nova-lei.html", 
+date: "2026-05-04T07:00:00",
  section: "featured-terciario"
 },
   {
-  title: "Liberdade Gradual no Sistema Penitenciário Brasileiro",
-    image: "img/liberdade-gradual-sistema-penitenciario-brasileiro.webp",
-    link: "direito-penal/liberdade-gradual-sistema-penitenciario-brasileiro.html",
-    date: "2026-04-30T07:00:00",
-    section: "veja"
+ title: "Obrigação Alimentar Além da Maioridade Civil",
+image: "img/obrigacao-alimentar-filhos-maiores-exoneracao.webp", 
+link: "direito-de-familia/obrigacao-alimentar-filhos-maiores-exoneracao.html",
+date: "2026-05-04T07:00:00",
+    section: "destaque"
   },
    {
     title: "Acordos Sindicais e o Poder de Negociar Direitos",
     image: "img/acordos-sindicais-poder-negociar-direitos.webp",
     link: "direito-trabalhista/acordos-sindicais-poder-negociar-direitos.html",
     date: "2026-04-30T07:00:00",
-    section: "veja"
+    section: "destaque"
   },
   {
 title: "Punição Corporativa e a Era do Compliance Obrigatório",
 image: "img/punicao-corporativa-era-compliance-obrigatorio.webp", link: "compliance/punicao-corporativa-era-compliance-obrigatorio.html", date: "2026-04-30T07:00:00",
-    section: "veja"
+   section: "destaque"
   },
   {
 title: "Coerência Decisória nos Tribunais Superiores Brasileiros",
 image: "img/coerencia-decisoria-tribunais-superiores-brasileiros.webp", link: "jurisprudencia/coerencia-decisoria-tribunais-superiores-brasileiros.html", date: "2026-04-30T07:00:00",
-    section: "destaque"
+    section: "veja"
   },
   {
 title: "Inovação com Segurança Jurídica no Brasil",
 image: "img/inovacao-seguranca-juridica-brasil.webp", link: "legislacao/inovacao-seguranca-juridica-brasil.html", date: "2026-04-30T07:00:00",
-    section: "destaque"
+ section: "veja"
   },
 {   title: "Tensões Federativas e Competências em Disputa",
 image: "img/tensoes-federativas-competencias-disputa.webp", link: "politica/tensoes-federativas-competencias-disputa.html", date: "2026-04-30T07:00:00",
-    section: "destaque"
+    section: "veja"
   }
 ];
 
