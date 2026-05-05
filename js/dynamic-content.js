@@ -12,7 +12,11 @@ const tickerConfig = {
 };
 
 const globalNewsData = [
-    
+    { title: "FGTS como Patrimônio Protetivo do Trabalhador", link: "direito-trabalhista/fgts-fundo-garantia-direitos-trabalhistas.html" },
+    { title: "Dinheiro Público e o Custeio das Campanhas Eleitorais", link: "politica/financiamento-eleitoral-fundo-partidario-debate.html" },
+    { title: "Flagrante Delito entre Legalidade e Garantismo Penal", link: "direito-penal/prisao-flagrante-legalidade-garantias-constitucionais.html" },
+    { title: "Cláusulas Abusivas e Defesa do Hipossuficiente", link: "direito-civil/contratos-adesao-clausulas-abusivas-vulneravel.html" },
+    { title: "Julgamento Castrense pelo Conselho Disciplinar Militar", link: "direito-militar/conselho-disciplina-justificacao-processo-militar.html" },
 {
     title: "Ordem e Punição nas Fileiras Castrenses",
     link: "direito-militar/ordem-punicao-fileiras-castrenses.html",
@@ -33,7 +37,6 @@ const globalNewsData = [
     title: "Acordos Sindicais e o Poder de Negociar Direitos",
     link: "direito-trabalhista/acordos-sindicais-poder-negociar-direitos.html",
 },
-
 { title: "Delitos Digitais e a Resposta Penal do Estado", link: "direito-penal/delitos-digitais-resposta-penal-estado.html" },
 { title: "Fronteiras da Palavra e os Limites Democráticos", link: "politica/fronteiras-palavra-limites-democraticos-liberdade-expressao.html" },
 { title: "Integridade nos Contratos Públicos e Anticorrupção", link: "compliance/integridade-contratos-publicos-lei-anticorrupcao.html" },

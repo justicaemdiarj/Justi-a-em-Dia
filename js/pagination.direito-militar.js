@@ -1,5 +1,6 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
+    { title: "Julgamento Castrense pelo Conselho Disciplinar Militar", date: "05/05/2026", timestamp: "2026-05-05T07:00:00", image: "../img/conselho-disciplina-justificacao-processo-militar.webp", excerpt: "Conselho de Disciplina e Conselho de Justificação no processo disciplinar das Forças Armadas.", link: "../direito-militar/conselho-disciplina-justificacao-processo-militar.html", category: "direito-militar", author: "Justiça em Dia", authorLink: "#" },
     {
     title: "Ordem e Punição nas Fileiras Castrenses",
     date: "30/04/2026",

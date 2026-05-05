@@ -1,5 +1,7 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
+
+    { title: "Cláusulas Abusivas e Defesa do Hipossuficiente", date: "05/05/2026", timestamp: "2026-05-055T07:00:00", image: "../img/contratos-adesao-clausulas-abusivas-vulneravel.webp", excerpt: "Contratos de adesão e a proteção ao aderente vulnerável no direito civil e consumerista brasileiro.", link: "../direito-civil/contratos-adesao-clausulas-abusivas-vulneravel.html", category: "direito-civil", author: "Justiça em Dia", authorLink: "#" },
     {
     title: "Patrimônio Além da Morte no Direito Civil",
     date: "30/04/2026",

@@ -1,5 +1,6 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
+    { title: "FGTS como Patrimônio Protetivo do Trabalhador", date: "05/05/2026", timestamp: "2026-05-05T07:00:00", image: "../img/fgts-fundo-garantia-direitos-trabalhistas.webp", excerpt: "O FGTS como pilar da proteção trabalhista e as disputas sobre saques, correção e modernização do fundo.", link: "../direito-trabalhista/fgts-fundo-garantia-direitos-trabalhistas.html", category: "direito-trabalhista", author: "Justiça em Dia", authorLink: "#" },
     {
     title: "Acordos Sindicais e o Poder de Negociar Direitos",
     date: "30/04/2026",

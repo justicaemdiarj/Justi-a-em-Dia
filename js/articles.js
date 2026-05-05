@@ -3,63 +3,71 @@ const posts = [
   
 
 {  
-title: "Integridade nos Contratos Públicos e Anticorrupção", 
-description: "Compliance anticorrupção como requisito nas contratações governamentais brasileiras", 
-description2: "Lei Anticorrupção e Nova Lei de Licitações redefinem a conformidade nas contratações públicas", 
-image: "img/integridade-contratos-publicos-lei-anticorrupcao.webp", 
-link: "compliance/integridade-contratos-publicos-lei-anticorrupcao.html", 
-date: "2026-05-04T07:00:00",
+title: "FGTS como Patrimônio Protetivo do Trabalhador", 
+description: "O FGTS e os direitos do trabalhador brasileiro em análise jurídica e crítica", 
+description2: "Correção monetária, saques e a modernização do Fundo de Garantia do Tempo de Serviço", 
+image: "img/fgts-fundo-garantia-direitos-trabalhistas.webp", 
+link: "direito-trabalhista/fgts-fundo-garantia-direitos-trabalhistas.html",
+date: "2026-05-05T07:00:00",
   section: "featured"
 },
   {
-title: "Vinculação Decisória no CPC e Seus Reflexos", 
-description: "Precedentes obrigatórios do CPC e a transformação da estrutura decisória do Judiciário brasileiro", 
-description2: "Artigo 927 do CPC e os mecanismos de vinculação judicial em análise crítica", 
-image: "img/vinculacao-decisoria-cpc-sistema-precedentes.webp", 
-link: "jurisprudencia/vinculacao-decisoria-cpc-sistema-precedentes.html", 
-date: "2026-05-04T07:00:00",
+title: "Dinheiro Público e o Custeio das Campanhas Eleitorais", 
+description: "O financiamento eleitoral no Brasil e o debate sobre o FEFC e o Fundo Partidário", 
+description2: "Transparência, representatividade e os limites do financiamento público das campanhas", 
+image: "img/financiamento-eleitoral-fundo-partidario-debate.webp", 
+link: "politica/financiamento-eleitoral-fundo-partidario-debate.html",
+date: "2026-05-05T07:00:00",
   section: "featured-secundario"
 },
 {
-title: "Superendividamento e Nova Proteção ao Consumidor", 
-description: "A Lei nº 14.181/2021 e a proteção ao consumidor superendividado no Brasil", 
-description2: "Renegociação coletiva de dívidas e preservação do mínimo existencial como direito", 
-image: "img/superendividamento-protecao-consumidor-nova-lei.webp", 
-link: "legislacao/superendividamento-protecao-consumidor-nova-lei.html", 
-date: "2026-05-04T07:00:00",
+title: "Flagrante Delito entre Legalidade e Garantismo Penal", 
+description: "Prisão em flagrante e o rigoroso controle de legalidade no direito processual penal brasileiro", 
+description2: "Audiência de custódia e as garantias constitucionais do preso flagranteado", 
+image: "img/prisao-flagrante-legalidade-garantias-constitucionais.webp", 
+link: "direito-penal/prisao-flagrante-legalidade-garantias-constitucionais.html",
+date: "2026-05-05T07:00:00",
  section: "featured-terciario"
 },
+  {
+title: "Cláusulas Abusivas e Defesa do Hipossuficiente", 
+image: "img/contratos-adesao-clausulas-abusivas-vulneravel.webp", 
+link: "direito-civil/contratos-adesao-clausulas-abusivas-vulneravel.html",
+date: "2026-05-05T07:00:00",
+    section: "destaque"
+  },
+   {
+title: "Julgamento Castrense pelo Conselho Disciplinar Militar", 
+image: "img/conselho-disciplina-justificacao-processo-militar.webp", 
+link: "direito-militar/conselho-disciplina-justificacao-processo-militar.html",
+date: "2026-05-05T07:00:00",
+    section: "destaque"
+  },
   {
  title: "Obrigação Alimentar Além da Maioridade Civil",
 image: "img/obrigacao-alimentar-filhos-maiores-exoneracao.webp", 
 link: "direito-de-familia/obrigacao-alimentar-filhos-maiores-exoneracao.html",
 date: "2026-05-04T07:00:00",
-    section: "destaque"
-  },
-   {
-    title: "Acordos Sindicais e o Poder de Negociar Direitos",
-    image: "img/acordos-sindicais-poder-negociar-direitos.webp",
-    link: "direito-trabalhista/acordos-sindicais-poder-negociar-direitos.html",
-    date: "2026-04-30T07:00:00",
-    section: "destaque"
-  },
-  {
-title: "Punição Corporativa e a Era do Compliance Obrigatório",
-image: "img/punicao-corporativa-era-compliance-obrigatorio.webp", link: "compliance/punicao-corporativa-era-compliance-obrigatorio.html", date: "2026-04-30T07:00:00",
    section: "destaque"
   },
   {
-title: "Coerência Decisória nos Tribunais Superiores Brasileiros",
-image: "img/coerencia-decisoria-tribunais-superiores-brasileiros.webp", link: "jurisprudencia/coerencia-decisoria-tribunais-superiores-brasileiros.html", date: "2026-04-30T07:00:00",
+title: "Superendividamento e Nova Proteção ao Consumidor", 
+image: "img/superendividamento-protecao-consumidor-nova-lei.webp", 
+link: "legislacao/superendividamento-protecao-consumidor-nova-lei.html", 
+date: "2026-05-04T07:00:00",
     section: "veja"
   },
   {
-title: "Inovação com Segurança Jurídica no Brasil",
-image: "img/inovacao-seguranca-juridica-brasil.webp", link: "legislacao/inovacao-seguranca-juridica-brasil.html", date: "2026-04-30T07:00:00",
+title: "Vinculação Decisória no CPC e Seus Reflexos", 
+image: "img/vinculacao-decisoria-cpc-sistema-precedentes.webp", 
+link: "jurisprudencia/vinculacao-decisoria-cpc-sistema-precedentes.html", 
+date: "2026-05-04T07:00:00",
  section: "veja"
   },
-{   title: "Tensões Federativas e Competências em Disputa",
-image: "img/tensoes-federativas-competencias-disputa.webp", link: "politica/tensoes-federativas-competencias-disputa.html", date: "2026-04-30T07:00:00",
+{  title: "Integridade nos Contratos Públicos e Anticorrupção", 
+image: "img/integridade-contratos-publicos-lei-anticorrupcao.webp", 
+link: "compliance/integridade-contratos-publicos-lei-anticorrupcao.html", 
+date: "2026-05-04T07:00:00",
     section: "veja"
   }
 ];

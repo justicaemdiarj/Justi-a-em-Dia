@@ -1,5 +1,6 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
+    { title: "Flagrante Delito entre Legalidade e Garantismo Penal", date: "05/05/2026", timestamp: "2026-05-05T07:00:00", image: "../img/prisao-flagrante-legalidade-garantias-constitucionais.webp", excerpt: "Prisão em flagrante, controle de legalidade e audiência de custódia no direito processual penal.", link: "../direito-penal/prisao-flagrante-legalidade-garantias-constitucionais.html", category: "direito-penal", author: "Justiça em Dia", authorLink: "#" },
     {
     title: "Liberdade Gradual no Sistema Penitenciário Brasileiro",
     date: "30/04/2026",
