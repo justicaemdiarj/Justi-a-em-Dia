@@ -34,42 +34,42 @@ date: "2026-05-06T07:00:00",
 image: "img/restricoes-processuais-alternativas-encarceramento-provisorio.webp", 
 link: "direito-penal/restricoes-processuais-alternativas-encarceramento-provisorio.html",
 date: "2026-05-06T15:00:00",
-   section: "veja"
+    section: "destaque"
   },
    {
 title: "Constitucionalismo e os Limites do Poder Político",
 image: "img/constitucionalismo-limites-poder-politico.webp", 
 link: "politica/constitucionalismo-limites-poder-politico.html", 
 date: "2026-05-06T15:00:00",
-    section: "veja"
+   section: "destaque"
   },
   {
 title: "Atribuições Além do Contrato e o Direito à Diferença Salarial",
 image: "img/atribuicoes-alem-contrato-direito-diferenca-salarial.webp", 
 link: "direito-trabalhista/atribuicoes-alem-contrato-direito-diferenca-salarial.html",
 date: "2026-05-06T15:00:00",
-   section: "veja"
+   section: "destaque"
   },
   {
 title: "Defeitos Ocultos nos Contratos e a Responsabilidade Civil",
 image: "img/defeitos-ocultos-contratos-responsabilidade-civil.webp", 
 link: "direito-civil/defeitos-ocultos-contratos-responsabilidade-civil.html", 
 date: "2026-05-06T07:00:00",
-    section: "destaque"
+ section: "veja"
   },
    {
 title: "Ruptura Conjugal Conflituosa e suas Consequências Jurídicas",
 image: "img/ruptura-conjugal-conflituosa-consequencias-juridicas.webp", 
 link: "direito-de-familia/ruptura-conjugal-conflituosa-consequencias-juridicas.html",
 date: "2026-05-06T07:00:00",
-    section: "destaque"
+   section: "veja"
   },
   {
 title: "Movimentação Compulsória de Militar e Proteção de Direitos",
 image: "img/movimentacao-compulsoria-militar-protecao-direitos.webp", 
 link: "direito-militar/movimentacao-compulsoria-militar-protecao-direitos.html",
 date: "2026-05-06T07:00:00",
-   section: "destaque"
+  section: "veja"
   },
 ];
 
