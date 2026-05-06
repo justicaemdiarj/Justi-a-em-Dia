@@ -13,7 +13,9 @@ const tickerConfig = {
 
 const globalNewsData = [
 
-
+{ title: "Restrições Processuais Alternativas ao Encarceramento Provisório", link: "direito-penal/restricoes-processuais-alternativas-encarceramento-provisorio.html" },
+{ title: "Constitucionalismo e os Limites do Poder Político", link: "politica/constitucionalismo-limites-poder-politico.html" },
+{ title: "Atribuições Além do Contrato e o Direito à Diferença Salarial", link: "direito-trabalhista/atribuicoes-alem-contrato-direito-diferenca-salarial.html" },
     { title: "Combate à Reciclagem Financeira e Obrigações Institucionais", link: "compliance/combate-reciclagem-financeira-obrigacoes-institucionais.html" },
     { title: "Decisões Administrativas como Fonte Normativa Vinculante", link: "jurisprudencia/decisoes-administrativas-fonte-normativa-vinculante.html" },
     { title: "Autonomia Privada e os Novos Limites da Intervenção Estatal", link: "legislacao/autonomia-privada-novos-limites-intervencao-estatal.html" },

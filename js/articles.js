@@ -30,24 +30,24 @@ date: "2026-05-06T07:00:00",
  section: "featured-terciario"
 },
   {
-title: "Cláusulas Abusivas e Defesa do Hipossuficiente", 
-image: "img/contratos-adesao-clausulas-abusivas-vulneravel.webp", 
-link: "direito-civil/contratos-adesao-clausulas-abusivas-vulneravel.html",
-date: "2026-05-05T07:00:00",
+ title: "Restrições Processuais Alternativas ao Encarceramento Provisório", 
+image: "img/restricoes-processuais-alternativas-encarceramento-provisorio.webp", 
+link: "direito-penal/restricoes-processuais-alternativas-encarceramento-provisorio.html",
+date: "2026-05-06T15:00:00",
    section: "veja"
   },
    {
-title: "Julgamento Castrense pelo Conselho Disciplinar Militar", 
-image: "img/conselho-disciplina-justificacao-processo-militar.webp", 
-link: "direito-militar/conselho-disciplina-justificacao-processo-militar.html",
-date: "2026-05-05T07:00:00",
+title: "Constitucionalismo e os Limites do Poder Político",
+image: "img/constitucionalismo-limites-poder-politico.webp", 
+link: "politica/constitucionalismo-limites-poder-politico.html", 
+date: "2026-05-06T15:00:00",
     section: "veja"
   },
   {
- title: "Obrigação Alimentar Além da Maioridade Civil",
-image: "img/obrigacao-alimentar-filhos-maiores-exoneracao.webp", 
-link: "direito-de-familia/obrigacao-alimentar-filhos-maiores-exoneracao.html",
-date: "2026-05-04T07:00:00",
+title: "Atribuições Além do Contrato e o Direito à Diferença Salarial",
+image: "img/atribuicoes-alem-contrato-direito-diferenca-salarial.webp", 
+link: "direito-trabalhista/atribuicoes-alem-contrato-direito-diferenca-salarial.html",
+date: "2026-05-06T15:00:00",
    section: "veja"
   },
   {
