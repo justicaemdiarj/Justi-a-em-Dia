@@ -1,5 +1,6 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
+    { title: "Ruptura Conjugal Conflituosa e suas Consequências Jurídicas", date: "06/05/2026", timestamp: "2026-05-06T07:00:00", image: "../img/ruptura-conjugal-conflituosa-consequencias-juridicas.webp", excerpt: "O divórcio litigioso é uma das vias mais desgastantes e juridicamente complexas do direito de família brasileiro.", link: "../direito-de-familia/ruptura-conjugal-conflituosa-consequencias-juridicas.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "Obrigação Alimentar Além da Maioridade Civil", date: "04/05/2026", timestamp: "2026-05-04T07:00:00", image: "../img/obrigacao-alimentar-filhos-maiores-exoneracao.webp", excerpt: "Pensão alimentícia para filhos maiores e os critérios para manutenção ou exoneração no direito de família.", link: "../direito-de-familia/obrigacao-alimentar-filhos-maiores-exoneracao.html", category: "direito-de-familia", author: "Justiça em Dia", authorLink: "#" },
     {
     title: "Proteção Jurídica da Vida antes do Nascimento",

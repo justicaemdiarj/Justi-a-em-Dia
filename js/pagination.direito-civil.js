@@ -1,6 +1,7 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
 
+    { title: "Defeitos Ocultos nos Contratos e a Responsabilidade Civil", date: "06/05/2026", timestamp: "2026-05-06T07:00:00", image: "../img/defeitos-ocultos-contratos-responsabilidade-civil.webp", excerpt: "Os vícios redibitórios são defeitos ocultos que tornam a coisa imprópria ao uso ou lhe diminuem o valor, conferindo direitos específicos ao adquirente.", link: "../direito-civil/defeitos-ocultos-contratos-responsabilidade-civil.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "Cláusulas Abusivas e Defesa do Hipossuficiente", date: "05/05/2026", timestamp: "2026-05-055T07:00:00", image: "../img/contratos-adesao-clausulas-abusivas-vulneravel.webp", excerpt: "Contratos de adesão e a proteção ao aderente vulnerável no direito civil e consumerista brasileiro.", link: "../direito-civil/contratos-adesao-clausulas-abusivas-vulneravel.html", category: "direito-civil", author: "Justiça em Dia", authorLink: "#" },
     {
     title: "Patrimônio Além da Morte no Direito Civil",

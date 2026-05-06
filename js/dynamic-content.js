@@ -12,6 +12,13 @@ const tickerConfig = {
 };
 
 const globalNewsData = [
+
+
+    { title: "Combate à Reciclagem Financeira e Obrigações Institucionais", link: "compliance/combate-reciclagem-financeira-obrigacoes-institucionais.html" },
+    { title: "Decisões Administrativas como Fonte Normativa Vinculante", link: "jurisprudencia/decisoes-administrativas-fonte-normativa-vinculante.html" },
+    { title: "Autonomia Privada e os Novos Limites da Intervenção Estatal", link: "legislacao/autonomia-privada-novos-limites-intervencao-estatal.html" },
+    { title: "Defeitos Ocultos nos Contratos e a Responsabilidade Civil", link: "direito-civil/defeitos-ocultos-contratos-responsabilidade-civil.html" },
+    { title: "Movimentação Compulsória de Militar e Proteção de Direitos", link: "direito-militar/movimentacao-compulsoria-militar-protecao-direitos.html" },
     { title: "FGTS como Patrimônio Protetivo do Trabalhador", link: "direito-trabalhista/fgts-fundo-garantia-direitos-trabalhistas.html" },
     { title: "Dinheiro Público e o Custeio das Campanhas Eleitorais", link: "politica/financiamento-eleitoral-fundo-partidario-debate.html" },
     { title: "Flagrante Delito entre Legalidade e Garantismo Penal", link: "direito-penal/prisao-flagrante-legalidade-garantias-constitucionais.html" },

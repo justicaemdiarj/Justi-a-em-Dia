@@ -3,30 +3,30 @@ const posts = [
   
 
 {  
-title: "FGTS como Patrimônio Protetivo do Trabalhador", 
-description: "O FGTS e os direitos do trabalhador brasileiro em análise jurídica e crítica", 
-description2: "Correção monetária, saques e a modernização do Fundo de Garantia do Tempo de Serviço", 
-image: "img/fgts-fundo-garantia-direitos-trabalhistas.webp", 
-link: "direito-trabalhista/fgts-fundo-garantia-direitos-trabalhistas.html",
-date: "2026-05-05T07:00:00",
+title: "Combate à Reciclagem Financeira e Obrigações Institucionais", 
+description: "A PLD impõe obrigações de identificação, monitoramento e comunicação que exigem controles robustos das instituições", 
+description2: "Do KYC às criptomoedas, os desafios do compliance antilavagem no cenário regulatório brasileiro atual", 
+image: "img/combate-reciclagem-financeira-obrigacoes-institucionais.webp", 
+link: "compliance/combate-reciclagem-financeira-obrigacoes-institucionais.html",
+date: "2026-05-06T07:00:00",
   section: "featured"
 },
   {
-title: "Dinheiro Público e o Custeio das Campanhas Eleitorais", 
-description: "O financiamento eleitoral no Brasil e o debate sobre o FEFC e o Fundo Partidário", 
-description2: "Transparência, representatividade e os limites do financiamento público das campanhas", 
-image: "img/financiamento-eleitoral-fundo-partidario-debate.webp", 
-link: "politica/financiamento-eleitoral-fundo-partidario-debate.html",
-date: "2026-05-05T07:00:00",
+title: "Decisões Administrativas como Fonte Normativa Vinculante", 
+description: "TCU, CARF e agências reguladoras constroem jurisprudência que orienta condutas públicas e privadas no Brasil", 
+description2: "Inconsistência e imprevisibilidade das decisões administrativas elevam custos e corroem a confiança nas instituições", 
+image: "img/decisoes-administrativas-fonte-normativa-vinculante.webp", 
+link: "jurisprudencia/decisoes-administrativas-fonte-normativa-vinculante.html",
+date: "2026-05-06T07:00:00",
   section: "featured-secundario"
 },
 {
-title: "Flagrante Delito entre Legalidade e Garantismo Penal", 
-description: "Prisão em flagrante e o rigoroso controle de legalidade no direito processual penal brasileiro", 
-description2: "Audiência de custódia e as garantias constitucionais do preso flagranteado", 
-image: "img/prisao-flagrante-legalidade-garantias-constitucionais.webp", 
-link: "direito-penal/prisao-flagrante-legalidade-garantias-constitucionais.html",
-date: "2026-05-05T07:00:00",
+title: "Autonomia Privada e os Novos Limites da Intervenção Estatal", 
+description: "A Lei de Liberdade Econômica redefiniu os termos da relação entre o Estado e os agentes econômicos privados no Brasil", 
+description2: "Simplificação de empresas, autonomia contratual e proteção do contribuinte são os eixos centrais do diploma", 
+image: "img/autonomia-privada-novos-limites-intervencao-estatal.webp", 
+link: "legislacao/autonomia-privada-novos-limites-intervencao-estatal.html",
+date: "2026-05-06T07:00:00",
  section: "featured-terciario"
 },
   {
@@ -34,42 +34,43 @@ title: "Cláusulas Abusivas e Defesa do Hipossuficiente",
 image: "img/contratos-adesao-clausulas-abusivas-vulneravel.webp", 
 link: "direito-civil/contratos-adesao-clausulas-abusivas-vulneravel.html",
 date: "2026-05-05T07:00:00",
-    section: "destaque"
+   section: "veja"
   },
    {
 title: "Julgamento Castrense pelo Conselho Disciplinar Militar", 
 image: "img/conselho-disciplina-justificacao-processo-militar.webp", 
 link: "direito-militar/conselho-disciplina-justificacao-processo-militar.html",
 date: "2026-05-05T07:00:00",
-    section: "destaque"
+    section: "veja"
   },
   {
  title: "Obrigação Alimentar Além da Maioridade Civil",
 image: "img/obrigacao-alimentar-filhos-maiores-exoneracao.webp", 
 link: "direito-de-familia/obrigacao-alimentar-filhos-maiores-exoneracao.html",
 date: "2026-05-04T07:00:00",
+   section: "veja"
+  },
+  {
+title: "Defeitos Ocultos nos Contratos e a Responsabilidade Civil",
+image: "img/defeitos-ocultos-contratos-responsabilidade-civil.webp", 
+link: "direito-civil/defeitos-ocultos-contratos-responsabilidade-civil.html", 
+date: "2026-05-06T07:00:00",
+    section: "destaque"
+  },
+   {
+title: "Ruptura Conjugal Conflituosa e suas Consequências Jurídicas",
+image: "img/ruptura-conjugal-conflituosa-consequencias-juridicas.webp", 
+link: "direito-de-familia/ruptura-conjugal-conflituosa-consequencias-juridicas.html",
+date: "2026-05-06T07:00:00",
+    section: "destaque"
+  },
+  {
+title: "Movimentação Compulsória de Militar e Proteção de Direitos",
+image: "img/movimentacao-compulsoria-militar-protecao-direitos.webp", 
+link: "direito-militar/movimentacao-compulsoria-militar-protecao-direitos.html",
+date: "2026-05-06T07:00:00",
    section: "destaque"
   },
-  {
-title: "Superendividamento e Nova Proteção ao Consumidor", 
-image: "img/superendividamento-protecao-consumidor-nova-lei.webp", 
-link: "legislacao/superendividamento-protecao-consumidor-nova-lei.html", 
-date: "2026-05-04T07:00:00",
-    section: "veja"
-  },
-  {
-title: "Vinculação Decisória no CPC e Seus Reflexos", 
-image: "img/vinculacao-decisoria-cpc-sistema-precedentes.webp", 
-link: "jurisprudencia/vinculacao-decisoria-cpc-sistema-precedentes.html", 
-date: "2026-05-04T07:00:00",
- section: "veja"
-  },
-{  title: "Integridade nos Contratos Públicos e Anticorrupção", 
-image: "img/integridade-contratos-publicos-lei-anticorrupcao.webp", 
-link: "compliance/integridade-contratos-publicos-lei-anticorrupcao.html", 
-date: "2026-05-04T07:00:00",
-    section: "veja"
-  }
 ];
 
 /* ===== FUNÇÃO TEMPO RELATIVO ===== */
