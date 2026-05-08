@@ -1,5 +1,16 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
+    {
+    title: "Estatuto do Desarmamento sob Pressão Legislativa",
+    date: "08/05/2026",
+    timestamp: "2026-05-08T12:00:00",
+    image: "../img/estatuto-desarmamento-pressao-legislativa-seguranca-publica.webp",
+    excerpt: "O Estatuto do Desarmamento enfrenta pressão crescente por revisão, enquanto especialistas alertam para os riscos do retrocesso normativo.",
+    link: "../legislacao/estatuto-desarmamento-pressao-legislativa-seguranca-publica.html",
+    category: "legislacao",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
     { title: "Autonomia Privada e os Novos Limites da Intervenção Estatal", date: "06/05/2026", timestamp: "2026-05-06T07:00:00", image: "../img/autonomia-privada-novos-limites-intervencao-estatal.webp", excerpt: "A Lei nº 13.874/2019 reformou o ambiente regulatório para a atividade empresarial com princípios de intervenção mínima do Estado.", link: "../legislacao/autonomia-privada-novos-limites-intervencao-estatal.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "Superendividamento e Nova Proteção ao Consumidor", date: "04/05/2026", timestamp: "2026-05-04T07:00:00", image: "../img/superendividamento-protecao-consumidor-nova-lei.webp", excerpt: "A Lei nº 14.181/2021 e o novo regime de tratamento do superendividamento do consumidor brasileiro.", link: "../legislacao/superendividamento-protecao-consumidor-nova-lei.html", category: "legislacao", author: "Justiça em Dia", authorLink: "#" },
     { title: "Inovação com Segurança Jurídica no Brasil", date: "30/04/2026", timestamp: "2026-04-30T07:00:00", image: "../img/inovacao-seguranca-juridica-brasil.webp", excerpt: "O Marco Legal das Startups e a criação de um ambiente normativo favorável ao empreendedorismo inovador.", link: "../legislacao/inovacao-seguranca-juridica-brasil.html", category: "legislacao", author: "Justiça em Dia", authorLink: "#" },

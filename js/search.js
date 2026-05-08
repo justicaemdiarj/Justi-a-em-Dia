@@ -33,6 +33,55 @@ const allArticles = [
 { title: 'Julgamento Castrense pelo Conselho Disciplinar Militar', description: 'Conselho de Disciplina e Conselho de Justificação são instrumentos do processo disciplinar que determinam a permanência do militar nas Forças Armadas.', category: 'Direito Militar', url: 'direito-militar/conselho-disciplina-justificacao-processo-militar.html', tags: ['Conselho de Disciplina', 'Conselho de Justificação', 'Julgamento Castrense pelo Conselho Disciplinar Militar'] },
 { title: 'Movimentação Compulsória de Militar e Proteção de Direitos', description: 'A transferência ex officio é um dos institutos mais característicos do estatuto jurídico dos militares, com limites legais e proteção de direitos que demandam análise aprofundada.', category: 'Direito Militar', url: 'direito-militar/movimentacao-compulsoria-militar-protecao-direitos.html', tags: ['transferência ex officio', 'direito militar', 'Movimentação Compulsória de Militar e Proteção de Direitos'] },
 {
+    title: 'Riscos Corporativos e a Urgência do Mapeamento',
+    description: 'O mapeamento de riscos corporativos tornou-se imperativo jurídico e estratégico para organizações de todos os portes no Brasil.',
+    category: 'Compliance',
+    url: 'compliance/mapeamento-riscos-corporativos-governanca-empresarial.html',
+    tags: ['Mapeamento de Riscos', 'Romer carvalho', 'Compliance Corporativo', 'Riscos Corporativos e a Urgência do Mapeamento']
+},
+{
+    title: 'Modulação de Efeitos nas Decisões do Supremo',
+    description: 'A modulação de efeitos nas decisões do STF representa uma das ferramentas mais complexas do constitucionalismo brasileiro.',
+    category: 'Jurisprudência',
+    url: 'jurisprudencia/modulacao-efeitos-decisoes-stf-constitucionalidade.html',
+    tags: ['Modulação de Efeitos', 'STF Constitucionalidade', 'Modulação de Efeitos nas Decisões do Supremo']
+},
+{
+    title: 'Estatuto do Desarmamento sob Pressão Legislativa',
+    description: 'O Estatuto do Desarmamento enfrenta pressão crescente por revisão, enquanto especialistas alertam para os riscos do retrocesso normativo.',
+    category: 'Legislação',
+    url: 'legislacao/estatuto-desarmamento-pressao-legislativa-seguranca-publica.html',
+    tags: ['Estatuto do Desarmamento', 'Segurança Pública', 'Estatuto do Desarmamento sob Pressão Legislativa']
+},
+{
+    title: 'Dívidas no Casamento e o Direito à Partilha',
+    description: 'A partilha de dívidas no casamento é um dos temas mais sensíveis do direito de família brasileiro e exige atenção ao regime de bens adotado.',
+    category: 'Direito de Família',
+    url: 'direito-de-familia/partilha-dividas-casamento-regime-bens-divorcio.html',
+    tags: ['Partilha de Dívidas', 'Regime de Bens', 'Dívidas no Casamento e o Direito à Partilha']
+},
+{
+    title: 'Hierarquia Militar e os Limites da Autoridade',
+    description: 'O poder hierárquico nas instituições militares encontra limites expressos no ordenamento jurídico e nos direitos fundamentais dos subordinados.',
+    category: 'Direito Militar',
+    url: 'direito-militar/hierarquia-militar-limites-poder-autoridade-superior.html',
+    tags: ['Hierarquia Militar', 'Poder Hierárquico', 'Hierarquia Militar e os Limites da Autoridade']
+},
+{
+    title: 'Abandono Digital e a Responsabilização Civil Online',
+    description: 'A inatividade de sistemas e dados sem medidas de proteção configura abandono digital com responsabilidade civil para controladores e operadores.',
+    category: 'Direito Civil',
+    url: 'direito-civil/responsabilidade-civil-abandono-digital-protecao-dados.html',
+    tags: ['Abandono Digital', 'LGPD Responsabilidade', 'Abandono Digital e a Responsabilização Civil Online']
+},
+{
+    title: 'Reincidência Criminal e o Ciclo da Punição',
+    description: 'A reincidência criminal revela as contradições do sistema punitivo brasileiro e a ineficácia do encarceramento como instrumento de ressocialização.',
+    category: 'Direito Criminal',
+    url: 'direito-penal/reincidencia-criminal-sistema-punitivo-ressocializacao.html',
+    tags: ['Reincidência Criminal', 'Sistema Punitivo', 'Reincidência Criminal e o Ciclo da Punição']
+},
+{
     title: 'Liberdade Gradual no Sistema Penitenciário Brasileiro',
     description: 'A progressão de regime penitenciário é um dos institutos mais sensíveis do direito penal brasileiro, revelando tensões entre reinserção social e punição.',
     category: 'Direito Criminal',

@@ -1,5 +1,16 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
+    {
+    title: "Dívidas no Casamento e o Direito à Partilha",
+    date: "08/05/2026",
+    timestamp: "2026-05-08T11:00:00",
+    image: "../img/partilha-dividas-casamento-regime-bens-divorcio.webp",
+    excerpt: "A partilha de dívidas no casamento é um dos temas mais sensíveis do direito de família brasileiro e exige atenção ao regime de bens adotado.",
+    link: "../direito-de-familia/partilha-dividas-casamento-regime-bens-divorcio.html",
+    category: "direito-de-familia",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
     { title: "Ruptura Conjugal Conflituosa e suas Consequências Jurídicas", date: "06/05/2026", timestamp: "2026-05-06T07:00:00", image: "../img/ruptura-conjugal-conflituosa-consequencias-juridicas.webp", excerpt: "O divórcio litigioso é uma das vias mais desgastantes e juridicamente complexas do direito de família brasileiro.", link: "../direito-de-familia/ruptura-conjugal-conflituosa-consequencias-juridicas.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "Obrigação Alimentar Além da Maioridade Civil", date: "04/05/2026", timestamp: "2026-05-04T07:00:00", image: "../img/obrigacao-alimentar-filhos-maiores-exoneracao.webp", excerpt: "Pensão alimentícia para filhos maiores e os critérios para manutenção ou exoneração no direito de família.", link: "../direito-de-familia/obrigacao-alimentar-filhos-maiores-exoneracao.html", category: "direito-de-familia", author: "Justiça em Dia", authorLink: "#" },
     {

@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
 
+    {
+    title: "Reincidência Criminal e o Ciclo da Punição",
+    date: "08/05/2026",
+    timestamp: "2026-05-08T11:00:00",
+    image: "../img/reincidencia-criminal-sistema-punitivo-ressocializacao.webp",
+    excerpt: "A reincidência criminal revela as contradições do sistema punitivo brasileiro e a ineficácia do encarceramento como instrumento de ressocialização.",
+    link: "../direito-penal/reincidencia-criminal-sistema-punitivo-ressocializacao.html",
+    category: "direito-penal",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
     { title: "Restrições Processuais Alternativas ao Encarceramento Provisório", date: "06/05/2026", timestamp: "2026-05-06T15:00:00", image: "../img/restricoes-processuais-alternativas-encarceramento-provisorio.webp", excerpt: "As medidas cautelares diversas da prisão criaram sistema graduado de intervenção que reduz o encarceramento provisório.", link: "../direito-penal/restricoes-processuais-alternativas-encarceramento-provisorio.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "Flagrante Delito entre Legalidade e Garantismo Penal", date: "05/05/2026", timestamp: "2026-05-05T07:00:00", image: "../img/prisao-flagrante-legalidade-garantias-constitucionais.webp", excerpt: "Prisão em flagrante, controle de legalidade e audiência de custódia no direito processual penal.", link: "../direito-penal/prisao-flagrante-legalidade-garantias-constitucionais.html", category: "direito-penal", author: "Justiça em Dia", authorLink: "#" },
     {

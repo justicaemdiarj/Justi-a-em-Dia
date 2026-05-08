@@ -1,5 +1,16 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
+    {
+    title: "Hierarquia Militar e os Limites da Autoridade",
+    date: "08/05/2026",
+    timestamp: "2026-05-08T11:00:00",
+    image: "../img/hierarquia-militar-limites-poder-autoridade-superior.webp",
+    excerpt: "O poder hierárquico nas instituições militares encontra limites expressos no ordenamento jurídico e nos direitos fundamentais dos subordinados.",
+    link: "../direito-militar/hierarquia-militar-limites-poder-autoridade-superior.html",
+    category: "direito-militar",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
     { title: "Movimentação Compulsória de Militar e Proteção de Direitos", date: "06/05/2026", timestamp: "2026-05-06T07:00:00", image: "../img/movimentacao-compulsoria-militar-protecao-direitos.webp", excerpt: "A transferência ex officio é um dos institutos mais característicos do estatuto jurídico dos militares brasileiros.", link: "../direito-militar/movimentacao-compulsoria-militar-protecao-direitos.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "Julgamento Castrense pelo Conselho Disciplinar Militar", date: "05/05/2026", timestamp: "2026-05-05T07:00:00", image: "../img/conselho-disciplina-justificacao-processo-militar.webp", excerpt: "Conselho de Disciplina e Conselho de Justificação no processo disciplinar das Forças Armadas.", link: "../direito-militar/conselho-disciplina-justificacao-processo-militar.html", category: "direito-militar", author: "Justiça em Dia", authorLink: "#" },
     {

@@ -3,58 +3,58 @@ const posts = [
   
 
 {  
-title: "Combate à Reciclagem Financeira e Obrigações Institucionais", 
-description: "A PLD impõe obrigações de identificação, monitoramento e comunicação que exigem controles robustos das instituições", 
-description2: "Do KYC às criptomoedas, os desafios do compliance antilavagem no cenário regulatório brasileiro atual", 
-image: "img/combate-reciclagem-financeira-obrigacoes-institucionais.webp", 
-link: "compliance/combate-reciclagem-financeira-obrigacoes-institucionais.html",
-date: "2026-05-06T07:00:00",
+  title: "Riscos Corporativos e a Urgência do Mapeamento",
+  description: "O mapeamento de vulnerabilidades institucionais tornou-se exigência implícita do ordenamento jurídico brasileiro",
+  description2: "Governança preventiva como escudo contra sanções regulatórias e passivos judiciais",
+  image: "img/mapeamento-riscos-corporativos-governanca-empresarial.webp",
+  link: "compliance/mapeamento-riscos-corporativos-governanca-empresarial.html",
+  date: "2026-05-08T12:00:00",
   section: "featured"
 },
   {
-title: "Decisões Administrativas como Fonte Normativa Vinculante", 
-description: "TCU, CARF e agências reguladoras constroem jurisprudência que orienta condutas públicas e privadas no Brasil", 
-description2: "Inconsistência e imprevisibilidade das decisões administrativas elevam custos e corroem a confiança nas instituições", 
-image: "img/decisoes-administrativas-fonte-normativa-vinculante.webp", 
-link: "jurisprudencia/decisoes-administrativas-fonte-normativa-vinculante.html",
-date: "2026-05-06T07:00:00",
+  title: "Modulação de Efeitos nas Decisões do Supremo",
+  description: "A segurança jurídica tensiona com a supremacia constitucional nas decisões do STF sobre modulação de efeitos",
+  description2: "Entenda como a restrição temporal das declarações de inconstitucionalidade impacta direitos e finanças públicas",
+  image: "img/modulacao-efeitos-decisoes-stf-constitucionalidade.webp",
+  link: "jurisprudencia/modulacao-efeitos-decisoes-stf-constitucionalidade.html",
+  date: "2026-05-08T12:00:00",
   section: "featured-secundario"
 },
 {
-title: "Autonomia Privada e os Novos Limites da Intervenção Estatal", 
-description: "A Lei de Liberdade Econômica redefiniu os termos da relação entre o Estado e os agentes econômicos privados no Brasil", 
-description2: "Simplificação de empresas, autonomia contratual e proteção do contribuinte são os eixos centrais do diploma", 
-image: "img/autonomia-privada-novos-limites-intervencao-estatal.webp", 
-link: "legislacao/autonomia-privada-novos-limites-intervencao-estatal.html",
-date: "2026-05-06T07:00:00",
+  title: "Estatuto do Desarmamento sob Pressão Legislativa",
+  description: "Norma de controle de armas enfrenta ofensiva política inédita no Congresso Nacional",
+  description2: "Especialistas alertam para os riscos de retrocesso normativo e aumento da violência armada",
+  image: "img/estatuto-desarmamento-pressao-legislativa-seguranca-publica.webp",
+  link: "legislacao/estatuto-desarmamento-pressao-legislativa-seguranca-publica.html",
+  date: "2026-05-08T12:00:00",
  section: "featured-terciario"
 },
   {
- title: "Restrições Processuais Alternativas ao Encarceramento Provisório", 
-image: "img/restricoes-processuais-alternativas-encarceramento-provisorio.webp", 
-link: "direito-penal/restricoes-processuais-alternativas-encarceramento-provisorio.html",
-date: "2026-05-06T15:00:00",
+  title: "Dívidas no Casamento e o Direito à Partilha",
+  image: "img/partilha-dividas-casamento-regime-bens-divorcio.webp",
+  link: "direito-de-familia/partilha-dividas-casamento-regime-bens-divorcio.html",
+  date: "2026-05-08T11:00:00",
     section: "destaque"
   },
    {
-title: "Constitucionalismo e os Limites do Poder Político",
-image: "img/constitucionalismo-limites-poder-politico.webp", 
-link: "politica/constitucionalismo-limites-poder-politico.html", 
-date: "2026-05-06T15:00:00",
+  title: "Hierarquia Militar e os Limites da Autoridade",
+  image: "img/hierarquia-militar-limites-poder-autoridade-superior.webp",
+  link: "direito-militar/hierarquia-militar-limites-poder-autoridade-superior.html",
+  date: "2026-05-08T11:00:00",
    section: "destaque"
   },
   {
-title: "Atribuições Além do Contrato e o Direito à Diferença Salarial",
-image: "img/atribuicoes-alem-contrato-direito-diferenca-salarial.webp", 
-link: "direito-trabalhista/atribuicoes-alem-contrato-direito-diferenca-salarial.html",
-date: "2026-05-06T15:00:00",
+  title: "Abandono Digital e a Responsabilização Civil Online",
+  image: "img/responsabilidade-civil-abandono-digital-protecao-dados.webp",
+  link: "direito-civil/responsabilidade-civil-abandono-digital-protecao-dados.html",
+  date: "2026-05-08T11:00:00",
    section: "destaque"
   },
   {
-title: "Defeitos Ocultos nos Contratos e a Responsabilidade Civil",
-image: "img/defeitos-ocultos-contratos-responsabilidade-civil.webp", 
-link: "direito-civil/defeitos-ocultos-contratos-responsabilidade-civil.html", 
-date: "2026-05-06T07:00:00",
+  title: "Reincidência Criminal e o Ciclo da Punição",
+  image: "img/reincidencia-criminal-sistema-punitivo-ressocializacao.webp",
+  link: "direito-penal/reincidencia-criminal-sistema-punitivo-ressocializacao.html",
+  date: "2026-05-08T11:00:00",
  section: "veja"
   },
    {

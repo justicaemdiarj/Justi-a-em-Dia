@@ -1,5 +1,16 @@
 // Dados de notícias para Compliance
 const categoryNewsData = [
+    
+    {
+    title: "Riscos Corporativos e a Urgência do Mapeamento",
+    date: "08/05/2026",
+    timestamp: "2026-05-08T12:00:00",
+    image: "../img/mapeamento-riscos-corporativos-governanca-empresarial.webp",
+    excerpt: "O mapeamento de riscos corporativos tornou-se imperativo jurídico e estratégico para organizações de todos os portes no Brasil.",
+    link: "../compliance/mapeamento-riscos-corporativos-governanca-empresarial.html",
+    author: "Romer Carvalho",
+    authorLink: "../apoiadores/advogado-romer-carvalho.html"
+},
     { title: "Combate à Reciclagem Financeira e Obrigações Institucionais", date: "06/05/2026", timestamp: "2026-05-06T07:00:00", image: "../img/combate-reciclagem-financeira-obrigacoes-institucionais.webp", excerpt: "A prevenção à lavagem de dinheiro é um dos pilares mais exigentes do compliance financeiro e corporativo no Brasil.", link: "../compliance/combate-reciclagem-financeira-obrigacoes-institucionais.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "Integridade nos Contratos Públicos e Anticorrupção", date: "04/05/2026", timestamp: "2026-05-04T07:00:00", image: "../img/integridade-contratos-publicos-lei-anticorrupcao.webp", excerpt: "O compliance anticorrupção em contratos públicos como exigência estrutural do ordenamento jurídico brasileiro.", link: "../compliance/integridade-contratos-publicos-lei-anticorrupcao.html", category: "compliance", author: "Justiça em Dia", authorLink: "#" },
     { title: "Punição Corporativa e a Era do Compliance Obrigatório", date: "30/04/2026", timestamp: "2026-04-30T07:00:00", image: "../img/punicao-corporativa-era-compliance-obrigatorio.webp", excerpt: "As sanções e penalidades na legislação de compliance e o impacto sobre a governança corporativa brasileira.", link: "../compliance/punicao-corporativa-era-compliance-obrigatorio.html", category: "compliance", author: "Justiça em Dia", authorLink: "#" },

@@ -13,6 +13,35 @@ const tickerConfig = {
 
 const globalNewsData = [
 
+
+    {
+    title: "Riscos Corporativos e a Urgência do Mapeamento",
+    link: "compliance/mapeamento-riscos-corporativos-governanca-empresarial.html",
+},
+{
+    title: "Modulação de Efeitos nas Decisões do Supremo",
+    link: "jurisprudencia/modulacao-efeitos-decisoes-stf-constitucionalidade.html",
+},
+{
+    title: "Estatuto do Desarmamento sob Pressão Legislativa",
+    link: "legislacao/estatuto-desarmamento-pressao-legislativa-seguranca-publica.html",
+},
+{
+    title: "Dívidas no Casamento e o Direito à Partilha",
+    link: "direito-de-familia/partilha-dividas-casamento-regime-bens-divorcio.html",
+},
+{
+    title: "Hierarquia Militar e os Limites da Autoridade",
+    link: "direito-militar/hierarquia-militar-limites-poder-autoridade-superior.html",
+},
+{
+    title: "Abandono Digital e a Responsabilização Civil Online",
+    link: "direito-civil/responsabilidade-civil-abandono-digital-protecao-dados.html",
+},
+{
+    title: "Reincidência Criminal e o Ciclo da Punição",
+    link: "direito-penal/reincidencia-criminal-sistema-punitivo-ressocializacao.html",
+},
 { title: "Restrições Processuais Alternativas ao Encarceramento Provisório", link: "direito-penal/restricoes-processuais-alternativas-encarceramento-provisorio.html" },
 { title: "Constitucionalismo e os Limites do Poder Político", link: "politica/constitucionalismo-limites-poder-politico.html" },
 { title: "Atribuições Além do Contrato e o Direito à Diferença Salarial", link: "direito-trabalhista/atribuicoes-alem-contrato-direito-diferenca-salarial.html" },

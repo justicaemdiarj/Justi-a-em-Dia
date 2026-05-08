@@ -1,7 +1,17 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
 
-
+{
+    title: "Modulação de Efeitos nas Decisões do Supremo",
+    date: "08/05/2026",
+    timestamp: "2026-05-08T12:00:00",
+    image: "../img/modulacao-efeitos-decisoes-stf-constitucionalidade.webp",
+    excerpt: "A modulação de efeitos nas decisões do STF representa uma das ferramentas mais complexas do constitucionalismo brasileiro.",
+    link: "../jurisprudencia/modulacao-efeitos-decisoes-stf-constitucionalidade.html",
+    category: "jurisprudencia",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
     { title: "Decisões Administrativas como Fonte Normativa Vinculante", date: "06/05/2026", timestamp: "2026-05-06T07:00:00", image: "../img/decisoes-administrativas-fonte-normativa-vinculante.webp", excerpt: "A construção de entendimentos estáveis pelos órgãos administrativos brasileiros ocupa papel crescente na orientação de condutas.", link: "../jurisprudencia/decisoes-administrativas-fonte-normativa-vinculante.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "Vinculação Decisória no CPC e Seus Reflexos", date: "04/05/2026", timestamp: "2026-05-04T07:00:00", image: "../img/vinculacao-decisoria-cpc-sistema-precedentes.webp", excerpt: "O sistema de precedentes obrigatórios do CPC de 2015 e os desafios da coerência decisória no Judiciário brasileiro.", link: "../jurisprudencia/vinculacao-decisoria-cpc-sistema-precedentes.html", category: "jurisprudencia", author: "Justiça em Dia", authorLink: "#" },
     { title: "Coerência Decisória nos Tribunais Superiores Brasileiros", date: "30/04/2026", timestamp: "2026-04-30T07:00:00", image: "../img/coerencia-decisoria-tribunais-superiores-brasileiros.webp", excerpt: "A uniformização da jurisprudência e o sistema de precedentes vinculantes como instrumentos de segurança jurídica.", link: "../jurisprudencia/coerencia-decisoria-tribunais-superiores-brasileiros.html", category: "jurisprudencia", author: "Justiça em Dia", authorLink: "#" },
