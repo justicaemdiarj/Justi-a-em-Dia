@@ -12,6 +12,35 @@ const tickerConfig = {
 };
 
 const globalNewsData = [
+
+    {
+    title: "Riscos Corporativos e a Urgência do Mapeamento",
+    link: "compliance/mapeamento-riscos-corporativos-governanca-empresarial.html",
+},
+{
+    title: "Modulação de Efeitos nas Decisões do Supremo",
+    link: "jurisprudencia/modulacao-efeitos-decisoes-stf-constitucionalidade.html",
+},
+{
+    title: "Estatuto do Desarmamento sob Pressão Legislativa",
+    link: "legislacao/estatuto-desarmamento-pressao-legislativa-seguranca-publica.html",
+},
+{
+    title: "Dívidas no Casamento e o Direito à Partilha",
+    link: "direito-de-familia/partilha-dividas-casamento-regime-bens-divorcio.html",
+},
+{
+    title: "Hierarquia Militar e os Limites da Autoridade",
+    link: "direito-militar/hierarquia-militar-limites-poder-autoridade-superior.html",
+},
+{
+    title: "Abandono Digital e a Responsabilização Civil Online",
+    link: "direito-civil/responsabilidade-civil-abandono-digital-protecao-dados.html",
+},
+{
+    title: "Reincidência Criminal e o Ciclo da Punição",
+    link: "direito-penal/reincidencia-criminal-sistema-punitivo-ressocializacao.html",
+},
 {
   title: "Reiteração de Decisões e a Ordem Jurídica",
   link: "jurisprudencia/reiteracao-decisoes-seguranca-juridica-brasil.html",
@@ -43,34 +72,6 @@ const globalNewsData = [
 {
     title: "Controles Internos e a Matriz de Riscos Corporativa",
     link: "compliance/matriz-riscos-controles-internos-governanca-corporativa.html",
-},
-    {
-    title: "Riscos Corporativos e a Urgência do Mapeamento",
-    link: "compliance/mapeamento-riscos-corporativos-governanca-empresarial.html",
-},
-{
-    title: "Modulação de Efeitos nas Decisões do Supremo",
-    link: "jurisprudencia/modulacao-efeitos-decisoes-stf-constitucionalidade.html",
-},
-{
-    title: "Estatuto do Desarmamento sob Pressão Legislativa",
-    link: "legislacao/estatuto-desarmamento-pressao-legislativa-seguranca-publica.html",
-},
-{
-    title: "Dívidas no Casamento e o Direito à Partilha",
-    link: "direito-de-familia/partilha-dividas-casamento-regime-bens-divorcio.html",
-},
-{
-    title: "Hierarquia Militar e os Limites da Autoridade",
-    link: "direito-militar/hierarquia-militar-limites-poder-autoridade-superior.html",
-},
-{
-    title: "Abandono Digital e a Responsabilização Civil Online",
-    link: "direito-civil/responsabilidade-civil-abandono-digital-protecao-dados.html",
-},
-{
-    title: "Reincidência Criminal e o Ciclo da Punição",
-    link: "direito-penal/reincidencia-criminal-sistema-punitivo-ressocializacao.html",
 },
 ];
 
