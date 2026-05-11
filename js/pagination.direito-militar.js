@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
     {
+  title: "Sindicância Castrense e o Devido Processo Legal",
+  date: "11/05/2026",
+  timestamp: "2026-05-11T14:00:00",
+  image: "../img/sindicancia-militar-garantias-defesa-devido-processo.webp",
+  excerpt: "A sindicância militar é o instrumento investigativo interno das Forças Armadas, mas sua condução frequentemente levanta questões sobre as garantias de defesa.",
+  link: "../direito-militar/sindicancia-militar-garantias-defesa-devido-processo.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
     title: "Hierarquia Militar e os Limites da Autoridade",
     date: "08/05/2026",
     timestamp: "2026-05-08T11:00:00",

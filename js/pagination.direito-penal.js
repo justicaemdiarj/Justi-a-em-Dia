@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
 
+{
+  title: "Audiência de Custódia e a Proteção do Preso",
+  date: "11/05/2026",
+  timestamp: "2026-05-11T14:00:00",
+  image: "../img/audiencia-custodia-garantias-preso-flagrante.webp",
+  excerpt: "A audiência de custódia representa avanço fundamental na proteção dos direitos do preso em flagrante no sistema penal brasileiro.",
+  link: "../direito-penal/audiencia-custodia-garantias-preso-flagrante.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
     {
     title: "Reincidência Criminal e o Ciclo da Punição",
     date: "08/05/2026",

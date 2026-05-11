@@ -1,6 +1,16 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
     {
+  title: "Crimes Ambientais e Responsabilização Penal Efetiva",
+  date: "11/05/2026",
+  timestamp: "2026-05-11T13:00:00",
+  image: "../img/lei-crimes-ambientais-responsabilidade-penal-brasil.webp",
+  excerpt: "A Lei de Crimes Ambientais brasileira completa décadas de vigência ainda enfrentando desafios de aplicação efetiva no território nacional.",
+  link: "../legislacao/lei-crimes-ambientais-responsabilidade-penal-brasil.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
     title: "Estatuto do Desarmamento sob Pressão Legislativa",
     date: "08/05/2026",
     timestamp: "2026-05-08T12:00:00",

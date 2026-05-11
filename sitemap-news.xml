@@ -4467,4 +4467,71 @@
     <news:title>Controles Internos e a Matriz de Riscos Corporativa</news:title>
   </news:news>
 </url>
+<url>
+  <loc>https://www.justicaemdia.com.br/jurisprudencia/reiteracao-decisoes-seguranca-juridica-brasil.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-12T07:00:00-03:00</news:publication_date>
+    <news:title>Reiteração de Decisões e a Ordem Jurídica</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-de-familia/guarda-filhos-transferencia-domicilio-conflito-parental.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-12T07:00:00-03:00</news:publication_date>
+    <news:title>Guarda Compartilhada e o Conflito do Novo Domicílio</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-militar/sindicancia-militar-garantias-defesa-devido-processo.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-12T07:00:00-03:00</news:publication_date>
+    <news:title>Sindicância Castrense e o Devido Processo Legal</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-civil/direito-ao-esquecimento-limites-liberdade-informacao.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-12T07:00:00-03:00</news:publication_date>
+    <news:title>Direito ao Esquecimento Frente à Memória Pública</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-penal/audiencia-custodia-garantias-preso-flagrante.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-12T07:00:00-03:00</news:publication_date>
+    <news:title>Audiência de Custódia e a Proteção do Preso</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/politica/crise-institucional-poderes-equilibrio-republica.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-12T07:00:00-03:00</news:publication_date>
+    <news:title>Crise Institucional e o Equilíbrio Republicano</news:title>
+  </news:news>
+</url>
+
 </urlset>

@@ -2,6 +2,16 @@
 const categoryNewsData = [
 
     {
+  title: "Direito ao Esquecimento Frente à Memória Pública",
+  date: "11/05/2026",
+  timestamp: "2026-05-11T15:00:00",
+  image: "../img/direito-ao-esquecimento-limites-liberdade-informacao.webp",
+  excerpt: "O direito ao esquecimento coloca em confronto privacidade individual e liberdade de informação no ordenamento jurídico brasileiro.",
+  link: "../direito-civil/direito-ao-esquecimento-limites-liberdade-informacao.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
     title: "Abandono Digital e a Responsabilização Civil Online",
     date: "08/05/2026",
     timestamp: "2026-05-08T11:00:00",

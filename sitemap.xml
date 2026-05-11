@@ -2579,5 +2579,40 @@
   <changefreq>always</changefreq>
   <priority>1.0</priority>
 </url>
-
+<url>
+  <loc>https://www.justicaemdia.com.br/jurisprudencia/reiteracao-decisoes-seguranca-juridica-brasil.html</loc>
+  <lastmod>2026-05-12</lastmod>
+  <changefreq>always</changefreq>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-de-familia/guarda-filhos-transferencia-domicilio-conflito-parental.html</loc>
+  <lastmod>2026-05-12</lastmod>
+  <changefreq>always</changefreq>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-militar/sindicancia-militar-garantias-defesa-devido-processo.html</loc>
+  <lastmod>2026-05-12</lastmod>
+  <changefreq>always</changefreq>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-civil/direito-ao-esquecimento-limites-liberdade-informacao.html</loc>
+  <lastmod>2026-05-12</lastmod>
+  <changefreq>always</changefreq>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-penal/audiencia-custodia-garantias-preso-flagrante.html</loc>
+  <lastmod>2026-05-12</lastmod>
+  <changefreq>always</changefreq>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/politica/crise-institucional-poderes-equilibrio-republica.html</loc>
+  <lastmod>2026-05-12</lastmod>
+  <changefreq>always</changefreq>
+  <priority>1.0</priority>
+</url>
 </urlset>

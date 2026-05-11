@@ -12,42 +12,42 @@ const posts = [
   section: "featured"
 },
   {
-  title: "Modulação de Efeitos nas Decisões do Supremo",
-  description: "A segurança jurídica tensiona com a supremacia constitucional nas decisões do STF sobre modulação de efeitos",
-  description2: "Entenda como a restrição temporal das declarações de inconstitucionalidade impacta direitos e finanças públicas",
-  image: "img/modulacao-efeitos-decisoes-stf-constitucionalidade.webp",
-  link: "jurisprudencia/modulacao-efeitos-decisoes-stf-constitucionalidade.html",
-  date: "2026-05-08T12:00:00",
+  title: "Guarda Compartilhada e o Conflito do Novo Domicílio",
+  description: "A mudança de cidade pelo genitor guardião confronta direitos fundamentais da criança e do genitor não guardião",
+  description2: "Alienação parental, melhor interesse do menor e os limites judiciais da transferência de domicílio",
+  image: "img/guarda-filhos-transferencia-domicilio-conflito-parental.webp",
+  link: "direito-de-familia/guarda-filhos-transferencia-domicilio-conflito-parental.html",
+  date: "2026-05-11T13:00:00",
   section: "featured-secundario"
 },
 {
-  title: "Estatuto do Desarmamento sob Pressão Legislativa",
-  description: "Norma de controle de armas enfrenta ofensiva política inédita no Congresso Nacional",
-  description2: "Especialistas alertam para os riscos de retrocesso normativo e aumento da violência armada",
-  image: "img/estatuto-desarmamento-pressao-legislativa-seguranca-publica.webp",
-  link: "legislacao/estatuto-desarmamento-pressao-legislativa-seguranca-publica.html",
-  date: "2026-05-08T12:00:00",
+  title: "Sindicância Castrense e o Devido Processo Legal",
+  description: "O processo administrativo militar enfrenta tensões permanentes entre hierarquia e garantias constitucionais de defesa",
+  description2: "Contraditório, ampla defesa e o direito ao advogado na sindicância das Forças Armadas",
+  image: "img/sindicancia-militar-garantias-defesa-devido-processo.webp",
+  link: "direito-militar/sindicancia-militar-garantias-defesa-devido-processo.html",
+  date: "2026-05-11T14:00:00",
  section: "featured-terciario"
 },
   {
-  title: "Dívidas no Casamento e o Direito à Partilha",
-  image: "img/partilha-dividas-casamento-regime-bens-divorcio.webp",
-  link: "direito-de-familia/partilha-dividas-casamento-regime-bens-divorcio.html",
-  date: "2026-05-08T11:00:00",
+  title: "Direito ao Esquecimento Frente à Memória Pública",
+  image: "img/direito-ao-esquecimento-limites-liberdade-informacao.webp",
+  link: "direito-civil/direito-ao-esquecimento-limites-liberdade-informacao.html",
+  date: "2026-05-11T15:00:00",
     section: "destaque"
   },
    {
-  title: "Hierarquia Militar e os Limites da Autoridade",
-  image: "img/hierarquia-militar-limites-poder-autoridade-superior.webp",
-  link: "direito-militar/hierarquia-militar-limites-poder-autoridade-superior.html",
-  date: "2026-05-08T11:00:00",
+ title: "Audiência de Custódia e a Proteção do Preso",
+  image: "img/audiencia-custodia-garantias-preso-flagrante.webp",
+  link: "direito-penal/audiencia-custodia-garantias-preso-flagrante.html",
+  date: "2026-05-11T14:00:00",
    section: "destaque"
   },
   {
-  title: "Abandono Digital e a Responsabilização Civil Online",
-  image: "img/responsabilidade-civil-abandono-digital-protecao-dados.webp",
-  link: "direito-civil/responsabilidade-civil-abandono-digital-protecao-dados.html",
-  date: "2026-05-08T11:00:00",
+  title: "Crise Institucional e o Equilíbrio Republicano",
+  image: "img/crise-institucional-poderes-equilibrio-republica.webp",
+  link: "politica/crise-institucional-poderes-equilibrio-republica.html",
+  date: "2026-05-11T13:00:00",
    section: "destaque"
   },
   {
@@ -58,17 +58,17 @@ const posts = [
  section: "veja"
   },
    {
-title: "Ruptura Conjugal Conflituosa e suas Consequências Jurídicas",
-image: "img/ruptura-conjugal-conflituosa-consequencias-juridicas.webp", 
-link: "direito-de-familia/ruptura-conjugal-conflituosa-consequencias-juridicas.html",
-date: "2026-05-06T07:00:00",
+  title: "Crimes Ambientais e Responsabilização Penal Efetiva",
+  image: "img/lei-crimes-ambientais-responsabilidade-penal-brasil.webp",
+  link: "legislacao/lei-crimes-ambientais-responsabilidade-penal-brasil.html",
+date: "2026-05-11T13:00:00",
    section: "veja"
   },
   {
-title: "Movimentação Compulsória de Militar e Proteção de Direitos",
-image: "img/movimentacao-compulsoria-militar-protecao-direitos.webp", 
-link: "direito-militar/movimentacao-compulsoria-militar-protecao-direitos.html",
-date: "2026-05-06T07:00:00",
+  title: "Reiteração de Decisões e a Ordem Jurídica",
+  image: "img/reiteracao-decisoes-seguranca-juridica-brasil.webp",
+  link: "jurisprudencia/reiteracao-decisoes-seguranca-juridica-brasil.html",
+date: "2026-05-11T12:00:00",
   section: "veja"
   },
 ];

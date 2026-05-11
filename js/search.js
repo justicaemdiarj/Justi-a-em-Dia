@@ -21,6 +21,55 @@ const allArticles = [
     url: 'direito-de-familia/protecao-juridica-vida-antes-nascimento.html',
     tags: ['Alimentos Gravídicos', 'Direito de Família', 'Proteção Jurídica da Vida antes do Nascimento']
 },
+{
+  title: 'Reiteração de Decisões e a Ordem Jurídica',
+  description: 'A reiteração de entendimentos pelos tribunais superiores brasileiros consolida o instituto da segurança jurídica e confere previsibilidade ao sistema.',
+  category: 'Jurisprudência',
+  url: 'jurisprudencia/reiteracao-decisoes-seguranca-juridica-brasil.html',
+  tags: ['Segurança Jurídica', 'Precedentes Obrigatórios', 'Reiteração de Decisões e a Ordem Jurídica']
+},
+{
+  title: 'Crimes Ambientais e Responsabilização Penal Efetiva',
+  description: 'A Lei de Crimes Ambientais brasileira completa décadas de vigência ainda enfrentando desafios de aplicação efetiva no território nacional.',
+  category: 'Legislação',
+  url: 'legislacao/lei-crimes-ambientais-responsabilidade-penal-brasil.html',
+  tags: ['Lei de Crimes Ambientais', 'Responsabilidade Penal Ambiental', 'Crimes Ambientais e Responsabilização Penal Efetiva']
+},
+{
+  title: 'Guarda Compartilhada e o Conflito do Novo Domicílio',
+  description: 'A transferência de domicílio por parte do genitor guardião é uma das questões mais delicadas do direito de família brasileiro.',
+  category: 'Direito de Família',
+  url: 'direito-de-familia/guarda-filhos-transferencia-domicilio-conflito-parental.html',
+  tags: ['Guarda de Filhos', 'Mudança de Cidade', 'Guarda Compartilhada e o Conflito do Novo Domicílio']
+},
+{
+  title: 'Sindicância Castrense e o Devido Processo Legal',
+  description: 'A sindicância militar é o instrumento investigativo interno das Forças Armadas, mas sua condução frequentemente levanta questões sobre as garantias de defesa.',
+  category: 'Direito Militar',
+  url: 'direito-militar/sindicancia-militar-garantias-defesa-devido-processo.html',
+  tags: ['Sindicância Militar', 'Garantias de Defesa', 'Sindicância Castrense e o Devido Processo Legal']
+},
+{
+  title: 'Direito ao Esquecimento Frente à Memória Pública',
+  description: 'O direito ao esquecimento coloca em confronto privacidade individual e liberdade de informação no ordenamento jurídico brasileiro.',
+  category: 'Direito Civil',
+  url: 'direito-civil/direito-ao-esquecimento-limites-liberdade-informacao.html',
+  tags: ['Direito ao Esquecimento', 'Liberdade de Informação', 'Direito ao Esquecimento Frente à Memória Pública']
+},
+{
+  title: 'Audiência de Custódia e a Proteção do Preso',
+  description: 'A audiência de custódia representa avanço fundamental na proteção dos direitos do preso em flagrante no sistema penal brasileiro.',
+  category: 'Direito Criminal',
+  url: 'direito-penal/audiencia-custodia-garantias-preso-flagrante.html',
+  tags: ['Audiência de Custódia', 'Prisão em Flagrante', 'Audiência de Custódia e a Proteção do Preso']
+},
+{
+  title: 'Crise Institucional e o Equilíbrio Republicano',
+  description: 'As crises entre os poderes da República testam a robustez do sistema de freios e contrapesos desenhado pela Constituição de 1988.',
+  category: 'Política',
+  url: 'politica/crise-institucional-poderes-equilibrio-republica.html',
+  tags: ['Crise Institucional', 'Separação de Poderes', 'Crise Institucional e o Equilíbrio Republicano']
+},
 { title: 'Constitucionalismo e os Limites do Poder Político', description: 'O controle constitucional sobre as decisões políticas é um dos mecanismos mais relevantes e tensionados do Estado democrático de direito brasileiro.', category: 'Política', url: 'politica/constitucionalismo-limites-poder-politico.html', tags: ['controle constitucional', 'constitucionalismo', 'Constitucionalismo e os Limites do Poder Político'] },
 { title: 'Atribuições Além do Contrato e o Direito à Diferença Salarial', description: 'O desvio e o acúmulo de função são fenômenos cotidianos nas relações de trabalho brasileiras, pelos quais o empregado desempenha tarefas além do contrato sem compensação.', category: 'Direito Trabalhista', url: 'direito-trabalhista/atribuicoes-alem-contrato-direito-diferenca-salarial.html', tags: ['desvio de função', 'acúmulo de função', 'Atribuições Além do Contrato e o Direito à Diferença Salarial'] },
 { title: 'FGTS como Patrimônio Protetivo do Trabalhador', description: 'O FGTS é um dos pilares da proteção trabalhista brasileira, com disputas sobre saques, correção monetária e modernização do fundo.', category: 'Direito Trabalhista', url: 'direito-trabalhista/fgts-fundo-garantia-direitos-trabalhistas.html', tags: ['FGTS', 'Fundo de Garantia', 'FGTS como Patrimônio Protetivo do Trabalhador'] },

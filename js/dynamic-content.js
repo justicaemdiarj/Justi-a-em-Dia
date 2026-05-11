@@ -12,7 +12,34 @@ const tickerConfig = {
 };
 
 const globalNewsData = [
-
+{
+  title: "Reiteração de Decisões e a Ordem Jurídica",
+  link: "jurisprudencia/reiteracao-decisoes-seguranca-juridica-brasil.html",
+},
+{
+  title: "Crimes Ambientais e Responsabilização Penal Efetiva",
+  link: "legislacao/lei-crimes-ambientais-responsabilidade-penal-brasil.html",
+},
+{
+  title: "Guarda Compartilhada e o Conflito do Novo Domicílio",
+  link: "direito-de-familia/guarda-filhos-transferencia-domicilio-conflito-parental.html",
+},
+{
+  title: "Sindicância Castrense e o Devido Processo Legal",
+  link: "direito-militar/sindicancia-militar-garantias-defesa-devido-processo.html",
+},
+{
+  title: "Direito ao Esquecimento Frente à Memória Pública",
+  link: "direito-civil/direito-ao-esquecimento-limites-liberdade-informacao.html",
+},
+{
+  title: "Audiência de Custódia e a Proteção do Preso",
+  link: "direito-penal/audiencia-custodia-garantias-preso-flagrante.html",
+},
+{
+  title: "Crise Institucional e o Equilíbrio Republicano",
+  link: "politica/crise-institucional-poderes-equilibrio-republica.html",
+},
 {
     title: "Controles Internos e a Matriz de Riscos Corporativa",
     link: "compliance/matriz-riscos-controles-internos-governanca-corporativa.html",

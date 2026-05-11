@@ -1,6 +1,16 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
     {
+  title: "Guarda Compartilhada e o Conflito do Novo Domicílio",
+  date: "11/05/2026",
+  timestamp: "2026-05-11T13:00:00",
+  image: "../img/guarda-filhos-transferencia-domicilio-conflito-parental.webp",
+  excerpt: "A transferência de domicílio por parte do genitor guardião é uma das questões mais delicadas do direito de família brasileiro.",
+  link: "../direito-de-familia/guarda-filhos-transferencia-domicilio-conflito-parental.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
     title: "Dívidas no Casamento e o Direito à Partilha",
     date: "08/05/2026",
     timestamp: "2026-05-08T11:00:00",

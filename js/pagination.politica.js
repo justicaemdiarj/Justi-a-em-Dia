@@ -1,6 +1,16 @@
 // Dados de notícias para Política
 const categoryNewsData = [
 
+    {
+  title: "Crise Institucional e o Equilíbrio Republicano",
+  date: "11/05/2026",
+  timestamp: "2026-05-11T13:00:00",
+  image: "../img/crise-institucional-poderes-equilibrio-republica.webp",
+  excerpt: "As crises entre os poderes da República testam a robustez do sistema de freios e contrapesos desenhado pela Constituição de 1988.",
+  link: "../politica/crise-institucional-poderes-equilibrio-republica.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
     { title: "Constitucionalismo e os Limites do Poder Político", date: "06/05/2026", timestamp: "2026-05-06T15:00:00", image: "../img/constitucionalismo-limites-poder-politico.webp", excerpt: "O controle constitucional sobre as decisões políticas é um dos mecanismos mais relevantes do Estado democrático de direito brasileiro.", link: "../politica/constitucionalismo-limites-poder-politico.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "Dinheiro Público e o Custeio das Campanhas Eleitorais", date: "05/05/2026", timestamp: "2026-05-05T07:00:00", image: "../img/financiamento-eleitoral-fundo-partidario-debate.webp", excerpt: "O fundo eleitoral e o debate sobre o financiamento público das campanhas eleitorais no Brasil.", link: "../politica/financiamento-eleitoral-fundo-partidario-debate.html", category: "politica", author: "Justiça em Dia", authorLink: "#" },
     { title: "Tensões Federativas e Competências em Disputa", date: "30/04/2026", timestamp: "2026-04-30T07:00:00", image: "../img/tensoes-federativas-competencias-disputa.webp", excerpt: "O federalismo brasileiro e os conflitos de competência entre União, estados e municípios.", link: "../politica/tensoes-federativas-competencias-disputa.html", category: "politica", author: "Justiça em Dia", authorLink: "#" },

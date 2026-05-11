@@ -1,6 +1,16 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
 
+    {
+  title: "Reiteração de Decisões e a Ordem Jurídica",
+  date: "11/05/2026",
+  timestamp: "2026-05-11T12:00:00",
+  image: "../img/reiteracao-decisoes-seguranca-juridica-brasil.webp",
+  excerpt: "A reiteração de entendimentos pelos tribunais superiores brasileiros consolida o instituto da segurança jurídica e confere previsibilidade ao sistema.",
+  link: "../jurisprudencia/reiteracao-decisoes-seguranca-juridica-brasil.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
 {
     title: "Modulação de Efeitos nas Decisões do Supremo",
     date: "08/05/2026",
