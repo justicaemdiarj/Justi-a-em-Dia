@@ -40,6 +40,13 @@ const allArticles = [
     tags: ['Mapeamento de Riscos', 'Romer carvalho', 'Compliance Corporativo', 'Riscos Corporativos e a Urgência do Mapeamento']
 },
 {
+    title: 'Controles Internos e a Matriz de Riscos Corporativa',
+    description: 'A matriz de riscos e controles internos é a espinha dorsal de qualquer programa de integridade robusto e exigência implícita do arcabouço regulatório brasileiro.',
+    category: 'Compliance',
+    url: 'compliance/matriz-riscos-controles-internos-governanca-corporativa.html',
+    tags: ['Matriz de Riscos', 'Controles Internos', 'Controles Internos e a Matriz de Riscos Corporativa']
+},
+{
     title: 'Modulação de Efeitos nas Decisões do Supremo',
     description: 'A modulação de efeitos nas decisões do STF representa uma das ferramentas mais complexas do constitucionalismo brasileiro.',
     category: 'Jurisprudência',

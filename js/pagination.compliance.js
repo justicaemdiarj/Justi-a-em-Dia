@@ -2,6 +2,17 @@
 const categoryNewsData = [
     
     {
+    title: "Controles Internos e a Matriz de Riscos Corporativa",
+    date: "11/05/2026",
+    timestamp: "2026-05-11T11:00:00",
+    image: "../img/matriz-riscos-controles-internos-governanca-corporativa.webp",
+    excerpt: "A matriz de riscos e controles internos é a espinha dorsal de qualquer programa de integridade robusto e exigência implícita do arcabouço regulatório brasileiro.",
+    link: "../compliance/matriz-riscos-controles-internos-governanca-corporativa.html",
+    category: "compliance",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Riscos Corporativos e a Urgência do Mapeamento",
     date: "08/05/2026",
     timestamp: "2026-05-08T12:00:00",

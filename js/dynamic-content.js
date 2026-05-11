@@ -13,7 +13,10 @@ const tickerConfig = {
 
 const globalNewsData = [
 
-
+{
+    title: "Controles Internos e a Matriz de Riscos Corporativa",
+    link: "compliance/matriz-riscos-controles-internos-governanca-corporativa.html",
+},
     {
     title: "Riscos Corporativos e a Urgência do Mapeamento",
     link: "compliance/mapeamento-riscos-corporativos-governanca-empresarial.html",
@@ -42,45 +45,6 @@ const globalNewsData = [
     title: "Reincidência Criminal e o Ciclo da Punição",
     link: "direito-penal/reincidencia-criminal-sistema-punitivo-ressocializacao.html",
 },
-{ title: "Restrições Processuais Alternativas ao Encarceramento Provisório", link: "direito-penal/restricoes-processuais-alternativas-encarceramento-provisorio.html" },
-{ title: "Constitucionalismo e os Limites do Poder Político", link: "politica/constitucionalismo-limites-poder-politico.html" },
-{ title: "Atribuições Além do Contrato e o Direito à Diferença Salarial", link: "direito-trabalhista/atribuicoes-alem-contrato-direito-diferenca-salarial.html" },
-    { title: "Combate à Reciclagem Financeira e Obrigações Institucionais", link: "compliance/combate-reciclagem-financeira-obrigacoes-institucionais.html" },
-    { title: "Decisões Administrativas como Fonte Normativa Vinculante", link: "jurisprudencia/decisoes-administrativas-fonte-normativa-vinculante.html" },
-    { title: "Autonomia Privada e os Novos Limites da Intervenção Estatal", link: "legislacao/autonomia-privada-novos-limites-intervencao-estatal.html" },
-    { title: "Defeitos Ocultos nos Contratos e a Responsabilidade Civil", link: "direito-civil/defeitos-ocultos-contratos-responsabilidade-civil.html" },
-    { title: "Movimentação Compulsória de Militar e Proteção de Direitos", link: "direito-militar/movimentacao-compulsoria-militar-protecao-direitos.html" },
-    { title: "FGTS como Patrimônio Protetivo do Trabalhador", link: "direito-trabalhista/fgts-fundo-garantia-direitos-trabalhistas.html" },
-    { title: "Dinheiro Público e o Custeio das Campanhas Eleitorais", link: "politica/financiamento-eleitoral-fundo-partidario-debate.html" },
-    { title: "Flagrante Delito entre Legalidade e Garantismo Penal", link: "direito-penal/prisao-flagrante-legalidade-garantias-constitucionais.html" },
-    { title: "Cláusulas Abusivas e Defesa do Hipossuficiente", link: "direito-civil/contratos-adesao-clausulas-abusivas-vulneravel.html" },
-    { title: "Julgamento Castrense pelo Conselho Disciplinar Militar", link: "direito-militar/conselho-disciplina-justificacao-processo-militar.html" },
-{
-    title: "Ordem e Punição nas Fileiras Castrenses",
-    link: "direito-militar/ordem-punicao-fileiras-castrenses.html",
-},
-{
-    title: "Patrimônio Além da Morte no Direito Civil",
-    link: "direito-civil/patrimonio-alem-morte-direito-civil.html",
-},
-{
-    title: "Proteção Jurídica da Vida antes do Nascimento",
-    link: "direito-de-familia/protecao-juridica-vida-antes-nascimento.html",
-},
-{
-    title: "Liberdade Gradual no Sistema Penitenciário Brasileiro",
-    link: "direito-penal/liberdade-gradual-sistema-penitenciario-brasileiro.html",
-},
-{
-    title: "Acordos Sindicais e o Poder de Negociar Direitos",
-    link: "direito-trabalhista/acordos-sindicais-poder-negociar-direitos.html",
-},
-{ title: "Delitos Digitais e a Resposta Penal do Estado", link: "direito-penal/delitos-digitais-resposta-penal-estado.html" },
-{ title: "Fronteiras da Palavra e os Limites Democráticos", link: "politica/fronteiras-palavra-limites-democraticos-liberdade-expressao.html" },
-{ title: "Integridade nos Contratos Públicos e Anticorrupção", link: "compliance/integridade-contratos-publicos-lei-anticorrupcao.html" },
-{ title: "Vinculação Decisória no CPC e Seus Reflexos", link: "jurisprudencia/vinculacao-decisoria-cpc-sistema-precedentes.html" },
-{ title: "Superendividamento e Nova Proteção ao Consumidor", link: "legislacao/superendividamento-protecao-consumidor-nova-lei.html" },
-{ title: "Obrigação Alimentar Além da Maioridade Civil", link: "direito-de-familia/obrigacao-alimentar-filhos-maiores-exoneracao.html" },
 ];
 
 // Array para armazenar todas as notícias coletadas dos arquivos de paginação

@@ -3,12 +3,12 @@ const posts = [
   
 
 {  
-  title: "Riscos Corporativos e a Urgência do Mapeamento",
-  description: "O mapeamento de vulnerabilidades institucionais tornou-se exigência implícita do ordenamento jurídico brasileiro",
-  description2: "Governança preventiva como escudo contra sanções regulatórias e passivos judiciais",
-  image: "img/mapeamento-riscos-corporativos-governanca-empresarial.webp",
-  link: "compliance/mapeamento-riscos-corporativos-governanca-empresarial.html",
-  date: "2026-05-08T12:00:00",
+  title: "Controles Internos e a Matriz de Riscos Corporativa",
+  description: "Governança efetiva exige instrumentos precisos de contenção e documentação de vulnerabilidades organizacionais",
+  description2: "Matriz de riscos é peça central em programas de integridade exigidos pela Lei Anticorrupção e reguladores",
+  image: "img/matriz-riscos-controles-internos-governanca-corporativa.webp",
+  link: "compliance/matriz-riscos-controles-internos-governanca-corporativa.html",
+  date: "2026-05-11T11:00:00",
   section: "featured"
 },
   {
