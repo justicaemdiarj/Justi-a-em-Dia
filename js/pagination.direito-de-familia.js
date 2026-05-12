@@ -1,6 +1,16 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
     {
+  title: "Quando a Convivência Familiar Precisa ser Repensada",
+  date: "12/05/2026",
+  timestamp: "2026-05-12T11:00:00",
+  image: "../img/revisao-regime-visitas-interesse-menor.webp",
+  excerpt: "A revisão do regime de visitas é um dos temas mais sensíveis do direito de família brasileiro, envolvendo proteção integral da criança.",
+  link: "../direito-de-familia/revisao-regime-visitas-interesse-menor.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
   title: "Guarda Compartilhada e o Conflito do Novo Domicílio",
   date: "11/05/2026",
   timestamp: "2026-05-11T13:00:00",

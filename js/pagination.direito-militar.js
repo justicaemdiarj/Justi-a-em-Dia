@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
     {
+  title: "Hierarquia e Mérito na Carreira das Forças Armadas",
+  date: "12/05/2026",
+  timestamp: "2026-05-12T11:00:00",
+  image: "../img/promocao-antiguidade-merecimento-forcas-armadas.webp",
+  excerpt: "Os critérios de promoção por antiguidade e merecimento nas Forças Armadas envolvem tensões entre previsibilidade institucional e discricionariedade administrativa.",
+  link: "../direito-militar/promocao-antiguidade-merecimento-forcas-armadas.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
   title: "Sindicância Castrense e o Devido Processo Legal",
   date: "11/05/2026",
   timestamp: "2026-05-11T14:00:00",

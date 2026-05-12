@@ -2,6 +2,16 @@
 const categoryNewsData = [
 
     {
+  title: "Quando Vender um Bem Gera Obrigação de Indenizar",
+  date: "12/05/2026",
+  timestamp: "2026-05-12T17:00:00",
+  image: "../img/evicao-responsabilidade-alienante-direito-civil.webp",
+  excerpt: "A evicção impõe ao alienante a responsabilidade de indenizar o adquirente que perde o bem transferido por causa anterior ao negócio, sendo fundamental para a segurança nas transações.",
+  link: "../direito-civil/evicao-responsabilidade-alienante-direito-civil.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
   title: "Direito ao Esquecimento Frente à Memória Pública",
   date: "11/05/2026",
   timestamp: "2026-05-11T15:00:00",

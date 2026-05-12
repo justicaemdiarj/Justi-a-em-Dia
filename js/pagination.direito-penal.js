@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
 
+    {
+  title: "Quando o Crime Não Pode Existir de Fato",
+  date: "12/05/2026",
+  timestamp: "2026-05-12T13:00:00",
+  image: "../img/crime-impossivel-limites-punicao-direito-penal.webp",
+  excerpt: "O crime impossível é instituto que afasta a punibilidade quando a consumação delitiva é inviável desde o princípio, limitando o poder punitivo do Estado.",
+  link: "../direito-penal/crime-impossivel-limites-punicao-direito-penal.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
 {
   title: "Audiência de Custódia e a Proteção do Preso",
   date: "11/05/2026",

@@ -1,6 +1,16 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
     {
+  title: "Lei que Transformou a Vida das Pessoas com Deficiência",
+  date: "12/05/2026",
+  timestamp: "2026-05-12T15:00:00",
+  image: "../img/estatuto-pessoa-deficiencia-direitos-inclusao-social.webp",
+  excerpt: "O Estatuto da Pessoa com Deficiência representa marco legislativo de profunda transformação no tratamento jurídico das pessoas com deficiência no Brasil.",
+  link: "../legislacao/estatuto-pessoa-deficiencia-direitos-inclusao-social.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
   title: "Crimes Ambientais e Responsabilização Penal Efetiva",
   date: "11/05/2026",
   timestamp: "2026-05-11T13:00:00",

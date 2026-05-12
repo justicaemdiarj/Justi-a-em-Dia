@@ -1,6 +1,15 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
-
+{
+  title: "Tratados Internacionais Desafiam o Direito Interno Brasileiro",
+  date: "12/05/2026",
+  timestamp: "2026-05-12T14:00:00",
+  image: "../img/controle-convencionalidade-jurisprudencia-direito-interno.webp",
+  excerpt: "O controle de convencionalidade consolida-se na jurisprudência brasileira como mecanismo de compatibilização entre o ordenamento interno e os tratados internacionais de direitos humanos.",
+  link: "../jurisprudencia/controle-convencionalidade-jurisprudencia-direito-interno.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
     {
   title: "Reiteração de Decisões e a Ordem Jurídica",
   date: "11/05/2026",

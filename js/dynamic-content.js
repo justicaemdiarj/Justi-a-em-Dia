@@ -73,6 +73,47 @@ const globalNewsData = [
     title: "Controles Internos e a Matriz de Riscos Corporativa",
     link: "compliance/matriz-riscos-controles-internos-governanca-corporativa.html",
 },
+{
+  title: "Democracia sob Pressão da Fragmentação Política Nacional",
+  link: "politica/polarizacao-politica-instituicoes-democracia-brasileira.html",
+},
+{
+  title: "Vínculo Empregatício nas Plataformas Digitais em Debate",
+  link: "direito-trabalhista/vinculo-empregaticio-plataformas-digitais-aplicativos.html",
+},
+{
+  title: "Quando a Convivência Familiar Precisa ser Repensada",
+  link: "direito-de-familia/revisao-regime-visitas-interesse-menor.html",
+},
+{
+  title: "Quando o Crime Não Pode Existir de Fato",
+  link: "direito-penal/crime-impossivel-limites-punicao-direito-penal.html",
+},
+{
+  title: "Auditoria Interna Independente como Escudo Corporativo",
+  link: "compliance/investigacoes-corporativas-independentes-governanca-empresarial.html",
+},
+{
+  title: "Tratados Internacionais Desafiam o Direito Interno Brasileiro",
+  link: "jurisprudencia/controle-convencionalidade-jurisprudencia-direito-interno.html",
+},
+{
+  title: "Lei que Transformou a Vida das Pessoas com Deficiência",
+  link: "legislacao/estatuto-pessoa-deficiencia-direitos-inclusao-social.html",
+},
+{
+  title: "Hierarquia e Mérito na Carreira das Forças Armadas",
+  link: "direito-militar/promocao-antiguidade-merecimento-forcas-armadas.html",
+},
+{
+  title: "Quando Vender um Bem Gera Obrigação de Indenizar",
+  link: "direito-civil/evicao-responsabilidade-alienante-direito-civil.html",
+},
+{
+  title: "Democracia sob Pressão da Fragmentação Política Nacional",
+  link: "politica/polarizacao-politica-instituicoes-democracia-brasileira.html",
+},
+
 ];
 
 // Array para armazenar todas as notícias coletadas dos arquivos de paginação

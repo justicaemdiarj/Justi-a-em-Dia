@@ -1,5 +1,15 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
+    {
+  title: "Vínculo Empregatício nas Plataformas Digitais em Debate",
+  date: "12/05/2026",
+  timestamp: "2026-05-12T12:00:00",
+  image: "../img/vinculo-empregaticio-plataformas-digitais-aplicativos.webp",
+  excerpt: "O reconhecimento de vínculo empregatício para trabalhadores de aplicativos avança nos tribunais trabalhistas brasileiros.",
+  link: "../direito-trabalhista/vinculo-empregaticio-plataformas-digitais-aplicativos.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
     { title: "Atribuições Além do Contrato e o Direito à Diferença Salarial", date: "06/05/2026", timestamp: "2026-05-06T15:00:00", image: "../img/atribuicoes-alem-contrato-direito-diferenca-salarial.webp", excerpt: "O desvio e o acúmulo de função são fenômenos cotidianos pelos quais o empregado desempenha tarefas além do contrato sem compensação.", link: "../direito-trabalhista/atribuicoes-alem-contrato-direito-diferenca-salarial.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "FGTS como Patrimônio Protetivo do Trabalhador", date: "05/05/2026", timestamp: "2026-05-05T07:00:00", image: "../img/fgts-fundo-garantia-direitos-trabalhistas.webp", excerpt: "O FGTS como pilar da proteção trabalhista e as disputas sobre saques, correção e modernização do fundo.", link: "../direito-trabalhista/fgts-fundo-garantia-direitos-trabalhistas.html", category: "direito-trabalhista", author: "Justiça em Dia", authorLink: "#" },
     {

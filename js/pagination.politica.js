@@ -2,6 +2,16 @@
 const categoryNewsData = [
 
     {
+  title: "Democracia sob Pressão da Fragmentação Política Nacional",
+  date: "12/05/2026",
+  timestamp: "2026-05-12T15:00:00",
+  image: "../img/polarizacao-politica-instituicoes-democracia-brasileira.webp",
+  excerpt: "A polarização política aprofundada no Brasil coloca as instituições democráticas sob pressão crescente, testando a resiliência do Estado de Direito.",
+  link: "../politica/polarizacao-politica-instituicoes-democracia-brasileira.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
   title: "Crise Institucional e o Equilíbrio Republicano",
   date: "11/05/2026",
   timestamp: "2026-05-11T13:00:00",

@@ -2,6 +2,16 @@
 const categoryNewsData = [
     
     {
+  title: "Auditoria Interna Independente como Escudo Corporativo",
+  date: "12/05/2026",
+  timestamp: "2026-05-12T13:00:00",
+  image: "../img/investigacoes-corporativas-independentes-governanca-empresarial.webp",
+  excerpt: "As investigações corporativas independentes emergem como instrumento indispensável de governança no ambiente empresarial brasileiro.",
+  link: "../compliance/investigacoes-corporativas-independentes-governanca-empresarial.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
     title: "Controles Internos e a Matriz de Riscos Corporativa",
     date: "11/05/2026",
     timestamp: "2026-05-11T11:00:00",

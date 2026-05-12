@@ -4533,5 +4533,103 @@
     <news:title>Crise Institucional e o Equilíbrio Republicano</news:title>
   </news:news>
 </url>
-
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-trabalhista/vinculo-empregaticio-plataformas-digitais-aplicativos.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-12T07:00:00-03:00</news:publication_date>
+    <news:title>Vínculo Empregatício nas Plataformas Digitais em Debate</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-de-familia/revisao-regime-visitas-interesse-menor.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-12T07:00:00-03:00</news:publication_date>
+    <news:title>Quando a Convivência Familiar Precisa ser Repensada</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-penal/crime-impossivel-limites-punicao-direito-penal.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-12T07:00:00-03:00</news:publication_date>
+    <news:title>Quando o Crime Não Pode Existir de Fato</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/compliance/investigacoes-corporativas-independentes-governanca-empresarial.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-12T07:00:00-03:00</news:publication_date>
+    <news:title>Auditoria Interna Independente como Escudo Corporativo</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/jurisprudencia/controle-convencionalidade-jurisprudencia-direito-interno.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-12T07:00:00-03:00</news:publication_date>
+    <news:title>Tratados Internacionais Desafiam o Direito Interno Brasileiro</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/legislacao/estatuto-pessoa-deficiencia-direitos-inclusao-social.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-12T07:00:00-03:00</news:publication_date>
+    <news:title>Lei que Transformou a Vida das Pessoas com Deficiência</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-militar/promocao-antiguidade-merecimento-forcas-armadas.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-12T07:00:00-03:00</news:publication_date>
+    <news:title>Hierarquia e Mérito na Carreira das Forças Armadas</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-civil/evicao-responsabilidade-alienante-direito-civil.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-12T07:00:00-03:00</news:publication_date>
+    <news:title>Quando Vender um Bem Gera Obrigação de Indenizar</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/politica/polarizacao-politica-instituicoes-democracia-brasileira.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-12T07:00:00-03:00</news:publication_date>
+    <news:title>Democracia sob Pressão da Fragmentação Política Nacional</news:title>
+  </news:news>
+</url>
 </urlset>

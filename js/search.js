@@ -64,6 +64,69 @@ const allArticles = [
   tags: ['Audiência de Custódia', 'Prisão em Flagrante', 'Audiência de Custódia e a Proteção do Preso']
 },
 {
+  title: 'Quando a Convivência Familiar Precisa ser Repensada',
+  description: 'A revisão do regime de visitas é um dos temas mais sensíveis do direito de família, envolvendo o equilíbrio entre vínculos afetivos, proteção integral da criança e decisões judiciais que moldam o cotidiano das famílias.',
+  category: 'direito de família',
+  url: 'direito-de-familia/revisao-regime-visitas-interesse-menor.html',
+  tags: ['Revisão de Visitas', 'Direito de Família', 'Guarda Compartilhada', 'Interesse do Menor', 'Convivência Familiar']
+},
+{
+  title: 'Quando o Crime Não Pode Existir de Fato',
+  description: 'O crime impossível é instituto do direito penal brasileiro que afasta a punibilidade quando a consumação delitiva é inviável desde o princípio, pela impropriedade absoluta do objeto ou pela ineficácia total do meio empregado.',
+  category: 'direito criminal',
+  url: 'direito-penal/crime-impossivel-limites-punicao-direito-penal.html',
+  tags: ['Crime Impossível', 'Direito Penal', 'Tentativa', 'Punibilidade', 'Flagrante Preparado']
+},
+{
+  title: 'Auditoria Interna Independente como Escudo Corporativo',
+  description: 'As investigações corporativas independentes emergem como instrumento indispensável de governança no Brasil, tornando-se diferencial competitivo e salvaguarda jurídica para organizações diante da crescente responsabilização de pessoas jurídicas.',
+  category: 'compliance',
+  url: 'compliance/investigacoes-corporativas-independentes-governanca-empresarial.html',
+  tags: ['Investigações Corporativas', 'Compliance', 'Governança Empresarial', 'Lei Anticorrupção', 'Acordo de Leniência']
+},
+{
+  title: 'Tratados Internacionais Desafiam o Direito Interno Brasileiro',
+  description: 'O controle de convencionalidade consolida-se na jurisprudência brasileira como mecanismo de compatibilização entre o ordenamento jurídico interno e os tratados internacionais de direitos humanos, impondo novos desafios interpretativos.',
+  category: 'jurisprudencia',
+  url: 'jurisprudencia/controle-convencionalidade-jurisprudencia-direito-interno.html',
+  tags: ['Controle de Convencionalidade', 'Jurisprudência', 'Direitos Humanos', 'Tratados Internacionais', 'Corte Interamericana']
+},
+{
+  title: 'Lei que Transformou a Vida das Pessoas com Deficiência',
+  description: 'O Estatuto da Pessoa com Deficiência, Lei 13.146 de 2015, representa marco legislativo que alterou paradigmas civilistas, trabalhistas e previdenciários em favor de maior autonomia, inclusão e proteção integral das pessoas com deficiência.',
+  category: 'legislacao',
+  url: 'legislacao/estatuto-pessoa-deficiencia-direitos-inclusao-social.html',
+  tags: ['Estatuto da Pessoa com Deficiência', 'Inclusão Social', 'Lei 13.146', 'Acessibilidade', 'Tomada de Decisão Apoiada']
+},
+{
+  title: 'Hierarquia e Mérito na Carreira das Forças Armadas',
+  description: 'Os critérios de promoção por antiguidade e merecimento nas Forças Armadas brasileiras constituem tema de crescente interesse jurídico e político, envolvendo tensões entre previsibilidade institucional, meritocracia e discricionariedade administrativa.',
+  category: 'direito militar',
+  url: 'direito-militar/promocao-antiguidade-merecimento-forcas-armadas.html',
+  tags: ['Promoção Militar', 'Antiguidade', 'Merecimento', 'Forças Armadas', 'Estatuto dos Militares']
+},
+{
+  title: 'Quando Vender um Bem Gera Obrigação de Indenizar',
+  description: 'A evicção é instituto do direito civil brasileiro que impõe ao alienante a responsabilidade de indenizar o adquirente que perde o bem transferido por decisão judicial ou ato administrativo fundado em causa anterior ao negócio.',
+  category: 'direito civil',
+  url: 'direito-civil/evicao-responsabilidade-alienante-direito-civil.html',
+  tags: ['Evicção', 'Responsabilidade do Alienante', 'Direito Civil', 'Contratos', 'Segurança Jurídica']
+},
+{
+  title: 'Democracia sob Pressão da Fragmentação Política Nacional',
+  description: 'A polarização política aprofundada no Brasil contemporâneo coloca as instituições democráticas sob pressão crescente, desafiando os mecanismos de freios e contrapesos e testando a resiliência do Estado de Direito.',
+  category: 'politica',
+  url: 'politica/polarizacao-politica-instituicoes-democracia-brasileira.html',
+  tags: ['Polarização Política', 'Democracia Brasileira', 'Instituições', 'Estado de Direito', 'Constituição Federal']
+},
+{
+  title: 'Vínculo Empregatício nas Plataformas Digitais em Debate',
+  description: 'O reconhecimento de vínculo empregatício para trabalhadores de aplicativos avança nos tribunais trabalhistas brasileiros, colocando em xeque o modelo de autonomia propagado pelas plataformas digitais.',
+  category: 'direito trabalhista',
+  url: 'direito-trabalhista/vinculo-empregaticio-plataformas-digitais-aplicativos.html',
+  tags: ['Vínculo Empregatício', 'Plataformas Digitais', 'Aplicativos', 'Direito Trabalhista', 'Subordinação Algorítmica']
+},
+{
   title: 'Crise Institucional e o Equilíbrio Republicano',
   description: 'As crises entre os poderes da República testam a robustez do sistema de freios e contrapesos desenhado pela Constituição de 1988.',
   category: 'Política',
