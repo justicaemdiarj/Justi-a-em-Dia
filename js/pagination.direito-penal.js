@@ -1,6 +1,15 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
-
+{
+  title: "O Limite Penal entre Ação e Resultado",
+  date: "13/05/2026",
+  timestamp: "2026-05-13T10:00:00",
+  image: "../img/tentativa-consumacao-limites-punicao-direito-penal.webp",
+  excerpt: "A distinção entre tentativa e consumação é um dos pilares da dogmática penal brasileira, com reflexos diretos sobre a tipificação e a dosimetria das penas.",
+  link: "../direito-penal/tentativa-consumacao-limites-punicao-direito-penal.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
     {
   title: "Quando o Crime Não Pode Existir de Fato",
   date: "12/05/2026",

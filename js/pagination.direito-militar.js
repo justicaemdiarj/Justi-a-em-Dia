@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
     {
+  title: "Serviço Temporário e Incertezas na Carreira Castrense",
+  date: "13/05/2026",
+  timestamp: "2026-05-13T07:00:00",
+  image: "../img/militar-temporario-estabilidade-juridica-forcas-armadas.webp",
+  excerpt: "O militar temporário cumpre funções essenciais nas Forças Armadas sem a estabilidade jurídica do militar de carreira, gerando debate sobre equidade e segurança jurídica.",
+  link: "../direito-militar/militar-temporario-estabilidade-juridica-forcas-armadas.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
   title: "Hierarquia e Mérito na Carreira das Forças Armadas",
   date: "12/05/2026",
   timestamp: "2026-05-12T11:00:00",

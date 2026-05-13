@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
 
+{
+  title: "O Contrato além das Partes Tem Obrigação Social",
+  date: "13/05/2026",
+  timestamp: "2026-05-13T07:00:00",
+  image: "../img/funcao-social-contratos-codigo-civil-boa-fe.webp",
+  excerpt: "A função social dos contratos redefiniu os limites da autonomia privada no direito civil brasileiro, impondo que os negócios jurídicos observem também os interesses da coletividade.",
+  link: "../direito-civil/funcao-social-contratos-codigo-civil-boa-fe.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
     {
   title: "Quando Vender um Bem Gera Obrigação de Indenizar",
   date: "12/05/2026",

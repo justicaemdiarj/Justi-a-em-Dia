@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
     {
+  title: "Trabalho em Ambiente Hostil e o Direito à Compensação",
+  date: "13/05/2026",
+  timestamp: "2026-05-13T07:00:00",
+  image: "../img/adicional-insalubridade-direitos-trabalhadores-expostos.webp",
+  excerpt: "O adicional de insalubridade assegura compensação ao empregado exposto a agentes nocivos, sendo tema central no contencioso trabalhista com reflexos sobre saúde e remuneração.",
+  link: "../direito-trabalhista/adicional-insalubridade-direitos-trabalhadores-expostos.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
   title: "Vínculo Empregatício nas Plataformas Digitais em Debate",
   date: "12/05/2026",
   timestamp: "2026-05-12T12:00:00",

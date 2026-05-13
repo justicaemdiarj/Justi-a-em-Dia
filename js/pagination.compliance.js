@@ -2,6 +2,16 @@
 const categoryNewsData = [
     
     {
+  title: "Concorrência Leal e Ética nos Negócios Empresariais",
+  date: "13/05/2026",
+  timestamp: "2026-05-13T07:00:00",
+  image: "../img/antitruste-integridade-empresarial-concorrencia-leal.webp",
+  excerpt: "A convergência entre direito antitruste e programas de integridade empresarial redefine a governança corporativa e a concorrência no mercado brasileiro.",
+  link: "../compliance/antitruste-integridade-empresarial-concorrencia-leal.html",
+    author: "Romer Carvalho",
+    authorLink: "../apoiadores/advogado-romer-carvalho.html"
+},
+    {
   title: "Auditoria Interna Independente como Escudo Corporativo",
   date: "12/05/2026",
   timestamp: "2026-05-12T13:00:00",

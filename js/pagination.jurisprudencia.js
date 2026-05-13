@@ -1,5 +1,15 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
+    {
+  title: "Quando os Tribunais Mudam de Posição Definitivamente",
+  date: "13/05/2026",
+  timestamp: "2026-05-13T07:00:00",
+  image: "../img/overruling-superacao-precedentes-jurisprudencia-brasileira.webp",
+  excerpt: "O overruling é o mecanismo pelo qual tribunais superiores revogam entendimentos consolidados, exigindo fundamentação robusta e atenção à segurança jurídica no sistema brasileiro.",
+  link: "../jurisprudencia/overruling-superacao-precedentes-jurisprudencia-brasileira.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
 {
   title: "Tratados Internacionais Desafiam o Direito Interno Brasileiro",
   date: "12/05/2026",

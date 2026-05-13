@@ -71,6 +71,69 @@ const allArticles = [
   tags: ['Revisão de Visitas', 'Direito de Família', 'Guarda Compartilhada', 'Interesse do Menor', 'Convivência Familiar']
 },
 {
+  title: 'O Limite Penal entre Ação e Resultado',
+  description: 'A distinção entre tentativa e consumação é um dos pilares da dogmática penal brasileira, com reflexos diretos sobre a tipificação das condutas e a dosimetria das penas aplicadas pelo sistema de justiça criminal.',
+  category: 'direito criminal',
+  url: 'direito-penal/tentativa-consumacao-limites-punicao-direito-penal.html',
+  tags: ['Tentativa', 'Consumação', 'Direito Penal', 'Iter Criminis', 'Dosimetria da Pena']
+},
+{
+  title: 'Namoro Sério ou União Estável? O Direito Decide',
+  description: 'A distinção entre namoro qualificado e união estável é um dos temas mais controvertidos do direito de família, podendo determinar partilha de bens, direitos sucessórios e responsabilidades patrimoniais entre os envolvidos.',
+  category: 'direito de ffamilia',
+  url: 'direito-de-familia/namoro-qualificado-uniao-estavel-direitos-patrimoniais.html',
+  tags: ['Namoro Qualificado', 'União Estável', 'Direito de Família', 'Partilha de Bens', 'Direitos Patrimoniais']
+},
+{
+  title: 'Concorrência Leal e Ética nos Negócios Empresariais',
+  description: 'A convergência entre o direito antitruste e os programas de integridade empresarial redefine a forma como as organizações brasileiras competem, com fiscalização crescente do CADE sobre condutas anticoncorrenciais.',
+  category: 'compliance',
+  url: 'compliance/antitruste-integridade-empresarial-concorrencia-leal.html',
+  tags: ['Antitruste', 'Integridade Empresarial', 'CADE', 'Romer carvalho','Cartel', 'Compliance Concorrencial']
+},
+{
+  title: 'Quando os Tribunais Mudam de Posição Definitivamente',
+  description: 'O overruling é o mecanismo pelo qual tribunais superiores revogam entendimentos consolidados para adotar novas interpretações jurídicas, exigindo fundamentação robusta e atenção à segurança jurídica no sistema de precedentes vinculantes.',
+  category: 'jurisprudencia',
+  url: 'jurisprudencia/overruling-superacao-precedentes-jurisprudencia-brasileira.html',
+  tags: ['Overruling', 'Superação de Precedentes', 'Jurisprudência', 'CPC 2015', 'Segurança Jurídica']
+},
+{
+  title: 'A Lei que Rege o Cumprimento das Penas no Brasil',
+  description: 'A Lei de Execução Penal estabelece os direitos e deveres dos condenados, disciplinando o regime de cumprimento de penas e revelando tensões profundas entre os ideais ressocializadores e a realidade do sistema prisional brasileiro.',
+  category: 'legislacao',
+  url: 'legislacao/lei-execucao-penal-cumprimento-penas-sistema-prisional.html',
+  tags: ['Lei de Execução Penal', 'LEP', 'Sistema Prisional', 'Progressão de Regime', 'Ressocialização']
+},
+{
+  title: 'Serviço Temporário e Incertezas na Carreira Castrense',
+  description: 'O militar temporário ocupa posição singular nas Forças Armadas brasileiras, cumprindo funções essenciais sem a estabilidade jurídica que ampara o militar de carreira, revelando debate sobre equidade e garantias constitucionais.',
+  category: 'direito militar',
+  url: 'direito-militar/militar-temporario-estabilidade-juridica-forcas-armadas.html',
+  tags: ['Militar Temporário', 'Estabilidade Jurídica', 'Forças Armadas', 'Licenciamento', 'Direito Militar']
+},
+{
+  title: 'O Contrato além das Partes Tem Obrigação Social',
+  description: 'A função social dos contratos, consagrada no artigo 421 do Código Civil, estabelece que os negócios jurídicos não se esgotam nos interesses das partes, devendo observar os valores sociais e os direitos de terceiros.',
+  category: 'direito civil',
+  url: 'direito-civil/funcao-social-contratos-codigo-civil-boa-fe.html',
+  tags: ['Função Social dos Contratos', 'Código Civil', 'Boa-Fé Objetiva', 'Autonomia Privada', 'Revisão Contratual']
+},
+{
+  title: 'Dinheiro Público nos Partidos Sob Vigilância Democrática',
+  description: 'O fundo partidário e o FEFC movimentam bilhões de reais anuais sob escrutínio crescente. A discussão sobre critérios de distribuição, prestação de contas e efetividade democrática revela tensões estruturais da política brasileira.',
+  category: 'politica',
+  url: 'politica/fundo-partidario-controle-publico-financiamento-politico.html',
+  tags: ['Fundo Partidário', 'FEFC', 'Financiamento Político', 'Partidos Políticos', 'Controle Público']
+},
+{
+  title: 'Trabalho em Ambiente Hostil e o Direito à Compensação',
+  description: 'O adicional de insalubridade é garantia trabalhista que assegura compensação financeira ao empregado exposto a agentes nocivos à saúde acima dos limites de tolerância, sendo tema central no contencioso trabalhista brasileiro.',
+  category: 'direito trabalhista',
+  url: 'direito-trabalhista/adicional-insalubridade-direitos-trabalhadores-expostos.html',
+  tags: ['Adicional de Insalubridade', 'Direito Trabalhista', 'CLT', 'NR-15', 'Saúde do Trabalhador']
+},
+{
   title: 'Quando o Crime Não Pode Existir de Fato',
   description: 'O crime impossível é instituto do direito penal brasileiro que afasta a punibilidade quando a consumação delitiva é inviável desde o princípio, pela impropriedade absoluta do objeto ou pela ineficácia total do meio empregado.',
   category: 'direito criminal',

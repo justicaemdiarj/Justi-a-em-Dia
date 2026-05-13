@@ -113,7 +113,42 @@ const globalNewsData = [
   title: "Democracia sob Pressão da Fragmentação Política Nacional",
   link: "politica/polarizacao-politica-instituicoes-democracia-brasileira.html",
 },
-
+{
+  title: "O Limite Penal entre Ação e Resultado",
+  link: "direito-penal/tentativa-consumacao-limites-punicao-direito-penal.html",
+},
+{
+  title: "Namoro Sério ou União Estável? O Direito Decide",
+  link: "direito-de-familia/namoro-qualificado-uniao-estavel-direitos-patrimoniais.html",
+},
+{
+  title: "Concorrência Leal e Ética nos Negócios Empresariais",
+  link: "compliance/antitruste-integridade-empresarial-concorrencia-leal.html",
+},
+{
+  title: "Quando os Tribunais Mudam de Posição Definitivamente",
+  link: "jurisprudencia/overruling-superacao-precedentes-jurisprudencia-brasileira.html",
+},
+{
+  title: "A Lei que Rege o Cumprimento das Penas no Brasil",
+  link: "legislacao/lei-execucao-penal-cumprimento-penas-sistema-prisional.html",
+},
+{
+  title: "Serviço Temporário e Incertezas na Carreira Castrense",
+  link: "direito-militar/militar-temporario-estabilidade-juridica-forcas-armadas.html",
+},
+{
+  title: "O Contrato além das Partes Tem Obrigação Social",
+  link: "direito-civil/funcao-social-contratos-codigo-civil-boa-fe.html",
+},
+{
+  title: "Dinheiro Público nos Partidos Sob Vigilância Democrática",
+  link: "politica/fundo-partidario-controle-publico-financiamento-politico.html",
+},
+{
+  title: "Trabalho em Ambiente Hostil e o Direito à Compensação",
+  link: "direito-trabalhista/adicional-insalubridade-direitos-trabalhadores-expostos.html",
+},
 ];
 
 // Array para armazenar todas as notícias coletadas dos arquivos de paginação

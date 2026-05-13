@@ -1,6 +1,16 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
     {
+  title: "Namoro Sério ou União Estável? O Direito Decide",
+  date: "13/05/2026",
+  timestamp: "2026-05-13T09:00:00",
+  image: "../img/namoro-qualificado-uniao-estavel-direitos-patrimoniais.webp",
+  excerpt: "A distinção entre namoro qualificado e união estável pode determinar partilha de bens, direitos sucessórios e responsabilidades patrimoniais entre os envolvidos.",
+  link: "../direito-de-familia/namoro-qualificado-uniao-estavel-direitos-patrimoniais.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
   title: "Quando a Convivência Familiar Precisa ser Repensada",
   date: "12/05/2026",
   timestamp: "2026-05-12T11:00:00",

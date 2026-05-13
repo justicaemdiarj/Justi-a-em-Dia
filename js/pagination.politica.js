@@ -2,6 +2,16 @@
 const categoryNewsData = [
 
     {
+  title: "Dinheiro Público nos Partidos Sob Vigilância Democrática",
+  date: "13/05/2026",
+  timestamp: "2026-05-13T07:00:00",
+  image: "../img/fundo-partidario-controle-publico-financiamento-politico.webp",
+  excerpt: "O fundo partidário e o FEFC movimentam bilhões anuais sob escrutínio crescente, revelando tensões sobre transparência e efetividade democrática do financiamento político no Brasil.",
+  link: "../politica/fundo-partidario-controle-publico-financiamento-politico.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
+    {
   title: "Democracia sob Pressão da Fragmentação Política Nacional",
   date: "12/05/2026",
   timestamp: "2026-05-12T15:00:00",

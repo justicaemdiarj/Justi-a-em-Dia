@@ -1,5 +1,16 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
+
+    {
+  title: "A Lei que Rege o Cumprimento das Penas no Brasil",
+  date: "13/05/2026",
+  timestamp: "2026-05-13T07:00:00",
+  image: "../img/lei-execucao-penal-cumprimento-penas-sistema-prisional.webp",
+  excerpt: "A Lei de Execução Penal disciplina o cumprimento de penas no Brasil, revelando tensões entre os ideais ressocializadores e a realidade degradante do sistema prisional.",
+  link: "../legislacao/lei-execucao-penal-cumprimento-penas-sistema-prisional.html",
+  author: "Justiça em Dia",
+  authorLink: "#"
+},
     {
   title: "Lei que Transformou a Vida das Pessoas com Deficiência",
   date: "12/05/2026",
