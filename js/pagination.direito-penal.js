@@ -1,5 +1,16 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
+    {
+    title: "Cumplicidade Criminal e Limites da Responsabilidade Penal",
+    date: "14/05/2026",
+    timestamp: "2026-05-14T16:00:00",
+    image: "../img/cumplicidade-criminal-limites-responsabilidade-penal.webp",
+    excerpt: "O concurso de pessoas no crime impõe desafios hermenêuticos que vão da identificação do executor material ao alcance da responsabilização do partícipe no direito penal brasileiro.",
+    link: "../direito-penal/cumplicidade-criminal-limites-responsabilidade-penal.html",
+    category: "direito-penal",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 {
   title: "O Limite Penal entre Ação e Resultado",
   date: "13/05/2026",

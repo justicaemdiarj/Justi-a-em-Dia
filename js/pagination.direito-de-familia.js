@@ -1,6 +1,17 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
     {
+    title: "Família Contemporânea e os Novos Vínculos Jurídicos",
+    date: "14/05/2026",
+    timestamp: "2026-05-14T18:00:00",
+    image: "../img/familia-contemporanea-novos-vinculos-juridicos.webp",
+    excerpt: "O direito das famílias atravessa transformação profunda com novas configurações afetivas, multiparentalidade e avanços biotecnológicos que desafiam o Código Civil.",
+    link: "../direito-de-familia/familia-contemporanea-novos-vinculos-juridicos.html",
+    category: "direito-de-familia",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
   title: "Namoro Sério ou União Estável? O Direito Decide",
   date: "13/05/2026",
   timestamp: "2026-05-13T09:00:00",

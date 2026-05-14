@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
     {
+    title: "Exclusão Ilegal de Militar e Direito ao Retorno",
+    date: "14/05/2026",
+    timestamp: "2026-05-14T13:00:00",
+    image: "../img/exclusao-ilegal-militar-direito-retorno.webp",
+    excerpt: "A reintegração de militar excluído ilegalmente exige a anulação do ato administrativo viciado e o restabelecimento integral dos direitos do afastado.",
+    link: "../direito-militar/exclusao-ilegal-militar-direito-retorno.html",
+    category: "direito-militar",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
   title: "Serviço Temporário e Incertezas na Carreira Castrense",
   date: "13/05/2026",
   timestamp: "2026-05-13T07:00:00",

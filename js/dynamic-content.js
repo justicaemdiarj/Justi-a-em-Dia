@@ -13,46 +13,7 @@ const tickerConfig = {
 
 const globalNewsData = [
 
-    {
-    title: "Riscos Corporativos e a Urgência do Mapeamento",
-    link: "compliance/mapeamento-riscos-corporativos-governanca-empresarial.html",
-},
-{
-    title: "Modulação de Efeitos nas Decisões do Supremo",
-    link: "jurisprudencia/modulacao-efeitos-decisoes-stf-constitucionalidade.html",
-},
-{
-    title: "Estatuto do Desarmamento sob Pressão Legislativa",
-    link: "legislacao/estatuto-desarmamento-pressao-legislativa-seguranca-publica.html",
-},
-{
-    title: "Dívidas no Casamento e o Direito à Partilha",
-    link: "direito-de-familia/partilha-dividas-casamento-regime-bens-divorcio.html",
-},
-{
-    title: "Hierarquia Militar e os Limites da Autoridade",
-    link: "direito-militar/hierarquia-militar-limites-poder-autoridade-superior.html",
-},
-{
-    title: "Abandono Digital e a Responsabilização Civil Online",
-    link: "direito-civil/responsabilidade-civil-abandono-digital-protecao-dados.html",
-},
-{
-    title: "Reincidência Criminal e o Ciclo da Punição",
-    link: "direito-penal/reincidencia-criminal-sistema-punitivo-ressocializacao.html",
-},
-{
-  title: "Reiteração de Decisões e a Ordem Jurídica",
-  link: "jurisprudencia/reiteracao-decisoes-seguranca-juridica-brasil.html",
-},
-{
-  title: "Crimes Ambientais e Responsabilização Penal Efetiva",
-  link: "legislacao/lei-crimes-ambientais-responsabilidade-penal-brasil.html",
-},
-{
-  title: "Guarda Compartilhada e o Conflito do Novo Domicílio",
-  link: "direito-de-familia/guarda-filhos-transferencia-domicilio-conflito-parental.html",
-},
+   
 {
   title: "Sindicância Castrense e o Devido Processo Legal",
   link: "direito-militar/sindicancia-militar-garantias-defesa-devido-processo.html",
@@ -149,6 +110,39 @@ const globalNewsData = [
   title: "Trabalho em Ambiente Hostil e o Direito à Compensação",
   link: "direito-trabalhista/adicional-insalubridade-direitos-trabalhadores-expostos.html",
 },
+{
+    title: "Propriedade Além do Direito Individual no Brasil",
+    link: "direito-civil/propriedade-alem-direito-individual-brasil.html",
+},
+{
+    title: "Cumplicidade Criminal e Limites da Responsabilidade Penal",
+    link: "direito-penal/cumplicidade-criminal-limites-responsabilidade-penal.html",
+},
+{
+    title: "Família Contemporânea e os Novos Vínculos Jurídicos",
+    link: "direito-de-familia/familia-contemporanea-novos-vinculos-juridicos.html",
+},
+{
+    title: "Verificação de Fornecedores e Risco Corporativo no Brasil",
+    link: "compliance/verificacao-fornecedores-risco-corporativo-brasil.html",
+},
+{
+    title: "Distinguishing e a Arte de Superar Precedentes",
+    link: "jurisprudencia/distinguishing-arte-superar-precedentes.html",
+},
+{
+    title: "Igualdade Racial no Brasil Além do Papel",
+    link: "legislacao/igualdade-racial-brasil-alem-do-papel.html",
+},
+{
+    title: "Fake News, Plataformas Digitais e o Dilema Regulatório",
+    link: "politica/fake-news-plataformas-digitais-dilema-regulatorio.html",
+},
+{
+    title: "Exclusão Ilegal de Militar e Direito ao Retorno",
+    link: "direito-militar/exclusao-ilegal-militar-direito-retorno.html",
+},
+
 ];
 
 // Array para armazenar todas as notícias coletadas dos arquivos de paginação

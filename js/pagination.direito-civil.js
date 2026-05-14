@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
 
+    {
+    title: "Propriedade Além do Direito Individual no Brasil",
+    date: "14/05/2026",
+    timestamp: "2026-05-14T20:00:00",
+    image: "../img/propriedade-alem-direito-individual-brasil.webp",
+    excerpt: "A função social da propriedade impõe ao titular do domínio obrigações que transcendem o exercício individual do direito real, subordinando o uso do bem ao interesse coletivo.",
+    link: "../direito-civil/propriedade-alem-direito-individual-brasil.html",
+    category: "direito-civil",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 {
   title: "O Contrato além das Partes Tem Obrigação Social",
   date: "13/05/2026",

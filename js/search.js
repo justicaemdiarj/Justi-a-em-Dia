@@ -85,6 +85,62 @@ const allArticles = [
   tags: ['Namoro Qualificado', 'União Estável', 'Direito de Família', 'Partilha de Bens', 'Direitos Patrimoniais']
 },
 {
+    title: 'Propriedade Além do Direito Individual no Brasil',
+    description: 'A função social da propriedade impõe ao titular do domínio obrigações que transcendem o exercício individual do direito real, subordinando o uso do bem ao interesse coletivo.',
+    category: 'Direito Civil',
+    url: 'direito-civil/propriedade-alem-direito-individual-brasil.html',
+    tags: ['Função Social da Propriedade', 'Direito Civil', 'Propriedade Além do Direito Individual no Brasil']
+},
+{
+    title: 'Cumplicidade Criminal e Limites da Responsabilidade Penal',
+    description: 'O concurso de pessoas no crime impõe desafios hermenêuticos que vão da identificação do executor material ao alcance da responsabilização do partícipe no direito penal brasileiro.',
+    category: 'Direito Criminal',
+    url: 'direito-penal/cumplicidade-criminal-limites-responsabilidade-penal.html',
+    tags: ['Concurso de Pessoas', 'Direito Penal', 'Cumplicidade Criminal e Limites da Responsabilidade Penal']
+},
+{
+    title: 'Família Contemporânea e os Novos Vínculos Jurídicos',
+    description: 'O direito das famílias atravessa transformação profunda com novas configurações afetivas, multiparentalidade e avanços biotecnológicos que desafiam o Código Civil.',
+    category: 'Direito de Família',
+    url: 'direito-de-familia/familia-contemporanea-novos-vinculos-juridicos.html',
+    tags: ['Direito das Famílias', 'Multiparentalidade', 'Família Contemporânea e os Novos Vínculos Jurídicos']
+},
+{
+    title: 'Verificação de Fornecedores e Risco Corporativo no Brasil',
+    description: 'A due diligence em fornecedores tornou-se obrigação estratégica para empresas sob os ditames da Lei Anticorrupção e das normas internacionais de compliance.',
+    category: 'Compliance',
+    url: 'compliance/verificacao-fornecedores-risco-corporativo-brasil.html',
+    tags: ['Due Diligence', 'Fornecedores', 'Verificação de Fornecedores e Risco Corporativo no Brasil']
+},
+{
+    title: 'Distinguishing e a Arte de Superar Precedentes',
+    description: 'A técnica do distinguishing permite ao julgador demonstrar diferenças fáticas ou jurídicas entre o caso presente e o precedente invocado, preservando a coerência sem sacrificar a justiça.',
+    category: 'Jurisprudência',
+    url: 'jurisprudencia/distinguishing-arte-superar-precedentes.html',
+    tags: ['Distinguishing', 'Precedentes', 'Distinguishing e a Arte de Superar Precedentes']
+},
+{
+    title: 'Igualdade Racial no Brasil Além do Papel',
+    description: 'O Estatuto da Igualdade Racial completa mais de uma década com avanços normativos e lacunas de efetividade que o debate público não pode ignorar.',
+    category: 'Legislação',
+    url: 'legislacao/igualdade-racial-brasil-alem-do-papel.html',
+    tags: ['Estatuto da Igualdade Racial', 'Legislação', 'Igualdade Racial no Brasil Além do Papel']
+},
+{
+    title: 'Exclusão Ilegal de Militar e Direito ao Retorno',
+    description: 'A reintegração de militar excluído ilegalmente exige a anulação do ato administrativo viciado e o restabelecimento integral dos direitos do afastado.',
+    category: 'Direito Militar',
+    url: 'direito-militar/exclusao-ilegal-militar-direito-retorno.html',
+    tags: ['Reintegração Militar', 'Direito Militar', 'Exclusão Ilegal de Militar e Direito ao Retorno']
+},
+{
+    title: 'Fake News, Plataformas Digitais e o Dilema Regulatório',
+    description: 'A desinformação em plataformas digitais ameaça a democracia e exige regulação que equilibre liberdade de expressão e responsabilização das grandes tecnológicas.',
+    category: 'Política',
+    url: 'politica/fake-news-plataformas-digitais-dilema-regulatorio.html',
+    tags: ['Desinformação', 'Regulação de Plataformas', 'Fake News, Plataformas Digitais e o Dilema Regulatório']
+},
+{
   title: 'Concorrência Leal e Ética nos Negócios Empresariais',
   description: 'A convergência entre o direito antitruste e os programas de integridade empresarial redefine a forma como as organizações brasileiras competem, com fiscalização crescente do CADE sobre condutas anticoncorrenciais.',
   category: 'compliance',

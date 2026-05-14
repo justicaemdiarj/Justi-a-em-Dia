@@ -2,6 +2,17 @@
 const categoryNewsData = [
     
     {
+    title: "Verificação de Fornecedores e Risco Corporativo no Brasil",
+    date: "14/05/2026",
+    timestamp: "2026-05-14T16:00:00",
+    image: "../img/verificacao-fornecedores-risco-corporativo-brasil.webp",
+    excerpt: "A due diligence em fornecedores tornou-se obrigação estratégica para empresas sob os ditames da Lei Anticorrupção e das normas internacionais de compliance.",
+    link: "../compliance/verificacao-fornecedores-risco-corporativo-brasil.html",
+    category: "compliance",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
   title: "Concorrência Leal e Ética nos Negócios Empresariais",
   date: "13/05/2026",
   timestamp: "2026-05-13T07:00:00",

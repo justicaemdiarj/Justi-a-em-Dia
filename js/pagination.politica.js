@@ -1,6 +1,16 @@
 // Dados de notícias para Política
 const categoryNewsData = [
-
+{
+    title: "Fake News, Plataformas Digitais e o Dilema Regulatório",
+    date: "14/05/2026",
+    timestamp: "2026-05-14T12:00:00",
+    image: "../img/fake-news-plataformas-digitais-dilema-regulatorio.webp",
+    excerpt: "A desinformação em plataformas digitais ameaça a democracia e exige regulação que equilibre liberdade de expressão e responsabilização das grandes tecnológicas.",
+    link: "../politica/fake-news-plataformas-digitais-dilema-regulatorio.html",
+    category: "politica",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
     {
   title: "Dinheiro Público nos Partidos Sob Vigilância Democrática",
   date: "13/05/2026",

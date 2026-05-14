@@ -3,65 +3,65 @@ const posts = [
   
 
 {  
-  title: "O Limite Penal entre Ação e Resultado",
-  description: "A fronteira entre tentativa e consumação define a intensidade punitiva e revela a maturidade da dogmática penal",
-  description2: "Do iter criminis à dosimetria, como tribunais traçam a linha entre o crime tentado e o consumado",
-  image: "img/tentativa-consumacao-limites-punicao-direito-penal.webp",
-  link: "direito-penal/tentativa-consumacao-limites-punicao-direito-penal.html",
-  date: "2026-05-13T10:00:00",
+  title: "Fake News, Plataformas Digitais e o Dilema Regulatório",
+  description: "A desinformação digital ameaça a democracia e exige regulação que equilibre liberdade de expressão e responsabilização",
+  description2: "Quando a mentira viral ameaça a democracia real no Brasil",
+  image: "img/fake-news-plataformas-digitais-dilema-regulatorio.webp",
+  link: "politica/fake-news-plataformas-digitais-dilema-regulatorio.html",
+  date: "2026-05-14T12:00:00",
   section: "featured"
 },
   {
-  title: "Namoro Sério ou União Estável? O Direito Decide",
-  description: "A linha tênue entre namoro qualificado e união estável define fortunas, heranças e direitos patrimoniais",
-  description2: "Do contrato de namoro ao reconhecimento judicial, como o direito interpreta a intimidade dos casais",
-  image: "img/namoro-qualificado-uniao-estavel-direitos-patrimoniais.webp",
-  link: "direito-de-familia/namoro-qualificado-uniao-estavel-direitos-patrimoniais.html",
-  date: "2026-05-13T09:00:00",
+  title: "Exclusão Ilegal de Militar e Direito ao Retorno",
+  description: "A reintegração de militar excluído ilegalmente exige anulação do ato administrativo viciado e restabelecimento de direitos",
+  description2: "Quando a farda é tirada sem o devido processo legal garantido pela Constituição",
+  image: "img/exclusao-ilegal-militar-direito-retorno.webp",
+  link: "direito-militar/exclusao-ilegal-militar-direito-retorno.html",
+  date: "2026-05-14T13:00:00",
   section: "featured-secundario"
 },
 {
-  title: "Concorrência Leal e Ética nos Negócios Empresariais",
-  description: "O compliance concorrencial torna-se pilar central da governança corporativa diante da atuação rigorosa do CADE",
-  description2: "De cartéis a operações de M&A, como o antitruste redefine os limites da competição empresarial no Brasil",
-  image: "img/antitruste-integridade-empresarial-concorrencia-leal.webp",
-  link: "compliance/antitruste-integridade-empresarial-concorrencia-leal.html",
-  date: "2026-05-13T07:00:00",
+  title: "Igualdade Racial no Brasil Além do Papel",
+  description: "O Estatuto da Igualdade Racial e suas lacunas de efetividade que o debate público não pode ignorar",
+  description2: "Uma lei que espera pelo Estado para funcionar plenamente no Brasil",
+  image: "img/igualdade-racial-brasil-alem-do-papel.webp",
+  link: "legislacao/igualdade-racial-brasil-alem-do-papel.html",
+  date: "2026-05-14T15:00:00",
  section: "featured-terciario"
 },
   {
-  title: "Quando os Tribunais Mudam de Posição Definitivamente",
-  image: "img/overruling-superacao-precedentes-jurisprudencia-brasileira.webp",
-  link: "jurisprudencia/overruling-superacao-precedentes-jurisprudencia-brasileira.html",
-  date: "2026-05-13T07:00:00",
+  title: "Distinguishing e a Arte de Superar Precedentes",
+  image: "img/distinguishing-arte-superar-precedentes.webp",
+  link: "jurisprudencia/distinguishing-arte-superar-precedentes.html",
+  date: "2026-05-14T19:00:00",
     section: "destaque"
   },
    {
-  title: "A Lei que Rege o Cumprimento das Penas no Brasil",
-  image: "img/lei-execucao-penal-cumprimento-penas-sistema-prisional.webp",
-  link: "legislacao/lei-execucao-penal-cumprimento-penas-sistema-prisional.html",
-  date: "2026-05-13T07:00:00",
+  title: "Verificação de Fornecedores e Risco Corporativo no Brasil",
+  image: "img/verificacao-fornecedores-risco-corporativo-brasil.webp",
+  link: "compliance/verificacao-fornecedores-risco-corporativo-brasil.html",
+  date: "2026-05-14T16:00:00",
    section: "destaque"
   },
   {
-  title: "Serviço Temporário e Incertezas na Carreira Castrense",
-  image: "img/militar-temporario-estabilidade-juridica-forcas-armadas.webp",
-  link: "direito-militar/militar-temporario-estabilidade-juridica-forcas-armadas.html",
-  date: "2026-05-13T07:00:00",
+  title: "Família Contemporânea e os Novos Vínculos Jurídicos",
+   image: "img/familia-contemporanea-novos-vinculos-juridicos.webp",
+  link: "direito-de-familia/familia-contemporanea-novos-vinculos-juridicos.html",
+  date: "2026-05-14T18:00:00",
    section: "destaque"
   },
   {
-  title: "O Contrato além das Partes Tem Obrigação Social",
-  image: "img/funcao-social-contratos-codigo-civil-boa-fe.webp",
-  link: "direito-civil/funcao-social-contratos-codigo-civil-boa-fe.html",
-  date: "2026-05-13T07:00:00",
+  title: "Cumplicidade Criminal e Limites da Responsabilidade Penal",
+  image: "img/cumplicidade-criminal-limites-responsabilidade-penal.webp",
+  link: "direito-penal/cumplicidade-criminal-limites-responsabilidade-penal.html",
+  date: "2026-05-14T16:00:00",
  section: "veja"
   },
    {
-  title: "Dinheiro Público nos Partidos Sob Vigilância Democrática",
-  image: "img/fundo-partidario-controle-publico-financiamento-politico.webp",
-  link: "politica/fundo-partidario-controle-publico-financiamento-politico.html",
-  date: "2026-05-13T07:00:00",
+  title: "Propriedade Além do Direito Individual no Brasil",
+  image: "img/propriedade-alem-direito-individual-brasil.webp",
+  link: "direito-civil/propriedade-alem-direito-individual-brasil.html",
+  date: "2026-05-14T20:00:00",
    section: "veja"
   },
   {
@@ -269,29 +269,29 @@ document.addEventListener("DOMContentLoaded", function(){
   const posts = [
   
 {
- title: "Imperfeição Mercantil e Tutela do Consumidor",
-  link: "direito-civil/responsabilidade-vicio-produto-direito-consumidor-brasil.html",
-  date: "2026-04-27T07:00:00"
+  title: "Exclusão Ilegal de Militar e Direito ao Retorno",
+  link: "direito-militar/exclusao-ilegal-militar-direito-retorno.html",
+  date: "2026-05-14T07:00:00"
 },
 {
-  title: "Vínculos Geracionais e o Amparo Jurídico Familiar",
-  link: "direito-de-familia/direito-avos-convivencia-familiar-brasil.html",
-  date: "2026-04-27T07:00:00"
+  title: "Fake News, Plataformas Digitais e o Dilema Regulatório",
+  link: "politica/fake-news-plataformas-digitais-dilema-regulatorio.html",
+  date: "2026-05-14T07:00:00"
 },
 {
-  title: "Fundo de Garantia e a Proteção do Vínculo Laboral",
-  link: "direito-trabalhista/fundo-garantia-protecao-vinculo-laboral.html",
-  date: "2026-04-24T07:00:00"
+  title: "Igualdade Racial no Brasil Além do Papel",
+  link: "legislacao/igualdade-racial-brasil-alem-do-papel.html",
+  date: "2026-05-14T07:00:00"
 },
 {
-  title: "Fronteiras da Palavra e os Limites Democráticos",
-  link: "politica/fronteiras-palavra-limites-democraticos-liberdade-expressao.html",
-  date: "2026-04-21T07:00:00"
+  title: "Distinguishing e a Arte de Superar Precedentes",
+  link: "jurisprudencia/distinguishing-arte-superar-precedentes.html",
+  date: "2026-05-14T07:00:00"
 },
 {
-  title: "Vigilância Cidadã sobre o Poder Institucional Brasileiro",
-  link: "politica/vigilancia-cidada-poder-institucional-brasileiro.html",
-  date: "2026-04-24T07:00:00"
+  title: "Verificação de Fornecedores e Risco Corporativo no Brasil",
+  link: "compliance/verificacao-fornecedores-risco-corporativo-brasil.html",
+  date: "2026-05-14T07:00:00"
 },
 
   ];
@@ -340,58 +340,58 @@ document.addEventListener("DOMContentLoaded", function(){
 const principaisNoticias = [
 
 {
-title: "Precedentes nas Decisões Administrativas e seu Alcance",
-    link: "jurisprudencia/precedentes-decisoes-administrativas-alcance.html",
+title: "Democracia sob Pressão da Fragmentação Política Nacional",
+    link: "politica/polarizacao-politica-instituicoes-democracia-brasileira.html",
 source: "",
-date: "2026-04-24T07:00:00"
+date: "2026-05-12T07:00:00"
 },
 {
-title: "Vigilância Cidadã sobre o Poder Institucional Brasileiro",
-  link: "politica/vigilancia-cidada-poder-institucional-brasileiro.html",
+title: "Crise Institucional e o Equilíbrio Republicano",
+  link: "politica/crise-institucional-poderes-equilibrio-republica.html",
 source: "",
-date: "2026-04-24T07:00:00"
+date: "2026-05-11T07:00:00"
 },
 {
-title: "Apuração Interna de Irregularidades e Seus Desafios",
-link: "compliance/apuracao-interna-irregularidades-desafios.html",
+title: "Constitucionalismo e os Limites do Poder Político",
+link: "politica/constitucionalismo-limites-poder-politico.html",
 source: "",
-date: "2026-04-24T03:00:00"
+date: "2026-05-06T03:00:00"
 },
 {
-title: "Contratos Públicos sob Nova Arquitetura Normativa",
-  link: "legislacao/contratos-publicos-nova-arquitetura-normativa.html",
+title: "Auditoria Interna Independente como Escudo Corporativo",
+  link: "compliance/investigacoes-corporativas-independentes-governanca-empresarial.html",
 source: "",
-date: "2026-04-21T07:00:00"
+date: "2026-05-12T07:00:00"
 },
 {
-title: "Estatuto do Consumidor e seus Trinta Anos de Proteção",
-link: "legislacao/estatuto-consumidor-trinta-anos-protecao.html",
+title: "Controles Internos e a Matriz de Riscos Corporativa",
+link: "compliance/matriz-riscos-controles-internos-governanca-corporativa.html",
 source: "",
-date: "2026-04-24T07:00:00"
+date: "2026-05-11T07:00:00"
 },
 {
-title: "Economia Invisível e os Direitos Negados ao Trabalhador",
-    link: "direito-trabalhista/economia-invisivel-direitos-negados-trabalhador.html",
+title: "Riscos Corporativos e a Urgência do Mapeamento",
+    link: "compliance/mapeamento-riscos-corporativos-governanca-empresarial.html",
 source: "",
-date: "2026-04-21T07:00:00"
+date: "2026-05-08T07:00:00"
 },
 {
- title: "Fundo de Garantia e a Proteção do Vínculo Laboral",
-  link: "direito-trabalhista/fundo-garantia-protecao-vinculo-laboral.html",
+ title: "Quando o Crime Não Pode Existir de Fato",
+  link: "direito-penal/crime-impossivel-limites-punicao-direito-penal.html",
 source: "",
-date: "2026-04-23T07:00:00"
+date: "2026-05-12T07:00:00"
 },
 {
-    title: "Fronteiras da Palavra e os Limites Democráticos",
-  link: "politica/fronteiras-palavra-limites-democraticos-liberdade-expressao.html",
+    title: "Namoro Sério ou União Estável? O Direito Decide",
+  link: "direito-de-familia/namoro-qualificado-uniao-estavel-direitos-patrimoniais.html",
 source: "",
-date: "2026-04-21T07:00:00",
+date: "2026-05-13T07:00:00",
 },
 {
-   title: "Imperfeição Mercantil e Tutela do Consumidor",
-    link: "direito-civil/responsabilidade-vicio-produto-direito-consumidor-brasil.html",
+   title: "Audiência de Custódia e a Proteção do Preso",
+    link: "direito-penal/audiencia-custodia-garantias-preso-flagrante.html",
 source: "",
- date: "2026-04-27T07:00:00"
+date: "2026-05-11T07:00:00"
 },
 
 ];

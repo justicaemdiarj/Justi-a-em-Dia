@@ -1,6 +1,16 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
-
+{
+    title: "Igualdade Racial no Brasil Além do Papel",
+    date: "14/05/2026",
+    timestamp: "2026-05-14T15:00:00",
+    image: "../img/igualdade-racial-brasil-alem-do-papel.webp",
+    excerpt: "O Estatuto da Igualdade Racial completa mais de uma década com avanços normativos e lacunas de efetividade que o debate público não pode ignorar.",
+    link: "../legislacao/igualdade-racial-brasil-alem-do-papel.html",
+    category: "legislacao",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
     {
   title: "A Lei que Rege o Cumprimento das Penas no Brasil",
   date: "13/05/2026",

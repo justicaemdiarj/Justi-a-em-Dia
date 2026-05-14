@@ -1,6 +1,17 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
     {
+    title: "Distinguishing e a Arte de Superar Precedentes",
+    date: "14/05/2026",
+    timestamp: "2026-05-14T19:00:00",
+    image: "../img/distinguishing-arte-superar-precedentes.webp",
+    excerpt: "A técnica do distinguishing permite ao julgador demonstrar diferenças fáticas ou jurídicas entre o caso presente e o precedente invocado, preservando a coerência sem sacrificar a justiça.",
+    link: "../jurisprudencia/distinguishing-arte-superar-precedentes.html",
+    category: "jurisprudencia",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
   title: "Quando os Tribunais Mudam de Posição Definitivamente",
   date: "13/05/2026",
   timestamp: "2026-05-13T07:00:00",
