@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Trabalhista
 const categoryNewsData = [
     {
+    title: "Risco no Trabalho e Remuneração Especial",
+    date: "15/05/2026",
+    timestamp: "2026-05-15T17:00:00",
+    image: "../img/adicional-periculosidade-direito-remuneracao-risco.webp",
+    excerpt: "O adicional de periculosidade é um direito fundamental do trabalhador brasileiro que atua em condições de risco elevado.",
+    link: "../direito-trabalhista/adicional-periculosidade-direito-remuneracao-risco.html",
+    category: "direito-trabalhista",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
   title: "Trabalho em Ambiente Hostil e o Direito à Compensação",
   date: "13/05/2026",
   timestamp: "2026-05-13T07:00:00",

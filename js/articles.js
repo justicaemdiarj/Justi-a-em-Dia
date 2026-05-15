@@ -3,12 +3,12 @@ const posts = [
   
 
 {  
-  title: "Fake News, Plataformas Digitais e o Dilema Regulatório",
-  description: "A desinformação digital ameaça a democracia e exige regulação que equilibre liberdade de expressão e responsabilização",
-  description2: "Quando a mentira viral ameaça a democracia real no Brasil",
-  image: "img/fake-news-plataformas-digitais-dilema-regulatorio.webp",
-  link: "politica/fake-news-plataformas-digitais-dilema-regulatorio.html",
-  date: "2026-05-14T12:00:00",
+  title: "Risco no Trabalho e Remuneração Especial",
+  description: "O adicional de periculosidade compensa financeiramente o trabalhador exposto a riscos graves no exercício de suas funções",
+  description2: "Laudo técnico, cumulação de adicionais e negociação coletiva são pontos centrais do debate",
+  image: "img/adicional-periculosidade-direito-remuneracao-risco.webp",
+  link: "direito-trabalhista/adicional-periculosidade-direito-remuneracao-risco.html",
+  date: "2026-05-15T17:00:00",
   section: "featured"
 },
   {
@@ -65,10 +65,10 @@ const posts = [
    section: "veja"
   },
   {
-  title: "Trabalho em Ambiente Hostil e o Direito à Compensação",
-  image: "img/adicional-insalubridade-direitos-trabalhadores-expostos.webp",
-  link: "direito-trabalhista/adicional-insalubridade-direitos-trabalhadores-expostos.html",
-  date: "2026-05-13T07:00:00",
+  title: "Fake News, Plataformas Digitais e o Dilema Regulatório",
+  image: "img/fake-news-plataformas-digitais-dilema-regulatorio.webp",
+  link: "politica/fake-news-plataformas-digitais-dilema-regulatorio.html",
+  date: "2026-05-14T12:00:00",
   section: "veja"
   },
 ];

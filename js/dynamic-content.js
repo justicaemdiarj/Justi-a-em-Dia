@@ -142,6 +142,10 @@ const globalNewsData = [
     title: "Exclusão Ilegal de Militar e Direito ao Retorno",
     link: "direito-militar/exclusao-ilegal-militar-direito-retorno.html",
 },
+{
+    title: "Risco no Trabalho e Remuneração Especial",
+    link: "direito-trabalhista/adicional-periculosidade-direito-remuneracao-risco.html",
+},
 
 ];
 

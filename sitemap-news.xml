@@ -4819,4 +4819,15 @@
     <news:title>Fake News, Plataformas Digitais e o Dilema Regulatório</news:title>
   </news:news>
 </url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-trabalhista/adicional-periculosidade-direito-remuneracao-risco.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-15T07:00:00-03:00</news:publication_date>
+    <news:title>Risco no Trabalho e Remuneração Especial</news:title>
+  </news:news>
+</url>
 </urlset>

@@ -99,6 +99,13 @@ const allArticles = [
     tags: ['Concurso de Pessoas', 'Direito Penal', 'Cumplicidade Criminal e Limites da Responsabilidade Penal']
 },
 {
+    title: 'Risco no Trabalho e Remuneração Especial',
+    description: 'O adicional de periculosidade é um direito fundamental do trabalhador brasileiro que atua em condições de risco elevado.',
+    category: 'Direito Trabalhista',
+    url: 'direito-trabalhista/adicional-periculosidade-direito-remuneracao-risco.html',
+    tags: ['Adicional de Periculosidade', 'CLT', 'Direito Trabalhista', 'NR-16', 'Risco no Trabalho e Remuneração Especial']
+},
+{
     title: 'Família Contemporânea e os Novos Vínculos Jurídicos',
     description: 'O direito das famílias atravessa transformação profunda com novas configurações afetivas, multiparentalidade e avanços biotecnológicos que desafiam o Código Civil.',
     category: 'Direito de Família',
