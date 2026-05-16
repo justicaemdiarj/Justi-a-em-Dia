@@ -1,6 +1,17 @@
 // Dados de notícias para Jurisprudência
 const categoryNewsData = [
     {
+    title: "Reparação do Sofrimento e Critérios Judiciais",
+    date: "18/05/2026",
+    timestamp: "2026-05-18T07:00:00",
+    image: "../img/jurisprudencia-danos-morais-criterios-indenizacao-judicial.webp",
+    excerpt: "A jurisprudência sobre danos morais enfrenta o desafio de quantificar o sofrimento com critérios de proporcionalidade e razoabilidade.",
+    link: "../jurisprudencia/jurisprudencia-danos-morais-criterios-indenizacao-judicial.html",
+    category: "jurisprudencia",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Distinguishing e a Arte de Superar Precedentes",
     date: "14/05/2026",
     timestamp: "2026-05-14T19:00:00",

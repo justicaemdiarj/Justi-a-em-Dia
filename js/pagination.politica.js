@@ -1,5 +1,16 @@
 // Dados de notícias para Política
 const categoryNewsData = [
+    {
+    title: "Burocracia em Xeque e o Novo Estado",
+    date: "18/05/2026",
+    timestamp: "2026-05-18T07:00:00",
+    image: "../img/reforma-administrativa-estado-burocracia-eficiencia-publica.webp",
+    excerpt: "A reforma administrativa coloca em debate o modelo de Estado, a estabilidade do servidor público e a eficiência da máquina governamental.",
+    link: "../politica/reforma-administrativa-estado-burocracia-eficiencia-publica.html",
+    category: "politica",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 {
     title: "Fake News, Plataformas Digitais e o Dilema Regulatório",
     date: "14/05/2026",

@@ -1,6 +1,17 @@
 // Dados de notícias para Direito de Família
 const categoryNewsData = [
     {
+    title: "Curatela Familiar e Dignidade da Vulnerabilidade",
+    date: "18/05/2026",
+    timestamp: "2026-05-18T07:00:00",
+    image: "../img/curatela-protecao-familiar-dignidade-vulnerabilidade.webp",
+    excerpt: "A curatela passou por profunda transformação com o Estatuto da Pessoa com Deficiência, exigindo novo olhar jurídico sobre autonomia e proteção.",
+    link: "../direito-de-familia/curatela-protecao-familiar-dignidade-vulnerabilidade.html",
+    category: "direito-de-familia",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Família Contemporânea e os Novos Vínculos Jurídicos",
     date: "14/05/2026",
     timestamp: "2026-05-14T18:00:00",

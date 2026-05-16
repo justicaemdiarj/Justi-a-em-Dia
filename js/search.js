@@ -106,6 +106,62 @@ const allArticles = [
     tags: ['Adicional de Periculosidade', 'CLT', 'Direito Trabalhista', 'NR-16', 'Risco no Trabalho e Remuneração Especial']
 },
 {
+    title: 'Burocracia em Xeque e o Novo Estado',
+    description: 'A reforma administrativa coloca em debate o modelo de Estado, a estabilidade do servidor público e a eficiência da máquina governamental.',
+    category: 'Política',
+    url: 'politica/reforma-administrativa-estado-burocracia-eficiencia-publica.html',
+    tags: ['Reforma Administrativa', 'PEC 32', 'Servidor Público', 'Estado Brasileiro', 'Burocracia em Xeque e o Novo Estado']
+},
+{
+    title: 'Militar Armado Fora da Caserna e a Lei',
+    description: 'O porte de arma pelo militar fora do serviço envolve prerrogativas institucionais, limites jurídicos e responsabilidade civil do Estado.',
+    category: 'Direito Militar',
+    url: 'direito-militar/porte-arma-militar-fora-servico-prerrogativa-responsabilidade.html',
+    tags: ['Porte de Arma Militar', 'Fora do Serviço', 'Direito Militar', 'Estatuto do Desarmamento', 'Militar Armado Fora da Caserna e a Lei']
+},
+{
+    title: 'Improbidade Reformada e o Combate à Corrupção',
+    description: 'A Lei de Improbidade reformada em 2021 gerou amplo debate sobre seus impactos no combate à corrupção e na gestão pública brasileira.',
+    category: 'Legislação',
+    url: 'legislacao/lei-improbidade-reforma-combate-corrupcao-gestao-publica.html',
+    tags: ['Lei de Improbidade', 'Lei 14.230/2021', 'Improbidade Administrativa', 'Combate à Corrupção', 'Improbidade Reformada e o Combate à Corrupção']
+},
+{
+    title: 'Reparação do Sofrimento e Critérios Judiciais',
+    description: 'A jurisprudência sobre danos morais enfrenta o desafio de quantificar o sofrimento com critérios de proporcionalidade e razoabilidade.',
+    category: 'Jurisprudência',
+    url: 'jurisprudencia/jurisprudencia-danos-morais-criterios-indenizacao-judicial.html',
+    tags: ['Danos Morais', 'Jurisprudência', 'Indenização', 'STJ', 'Reparação do Sofrimento e Critérios Judiciais']
+},
+{
+    title: 'Antitruste e Governança Competitiva nas Empresas',
+    description: 'O compliance concorrencial tornou-se exigência estratégica para empresas diante do fortalecimento do CADE e das investigações antitruste.',
+    category: 'Compliance',
+    url: 'compliance/compliance-concorrencial-antitruste-governanca-competitiva.html',
+    tags: ['Compliance Concorrencial', 'Antitruste', 'CADE', 'Cartel', 'Antitruste e Governança Competitiva nas Empresas']
+},
+{
+    title: 'Curatela Familiar e Dignidade da Vulnerabilidade',
+    description: 'A curatela passou por profunda transformação com o Estatuto da Pessoa com Deficiência, exigindo novo olhar jurídico sobre autonomia e proteção.',
+    category: 'Direito de Família',
+    url: 'direito-de-familia/curatela-protecao-familiar-dignidade-vulnerabilidade.html',
+    tags: ['Curatela', 'Proteção Familiar', 'Direito de Família', 'Estatuto da Pessoa com Deficiência', 'Curatela Familiar e Dignidade da Vulnerabilidade']
+},
+{
+    title: 'Ignorância da Lei e Exclusão da Culpabilidade',
+    description: 'O erro de tipo e o erro de proibição são institutos fundamentais do direito penal brasileiro que interferem diretamente na configuração do dolo e da culpabilidade.',
+    category: 'Direito Criminal',
+    url: 'direito-penal/erro-tipo-proibicao-culpabilidade-dolo-exclusao.html',
+    tags: ['Erro de Tipo', 'Erro de Proibição', 'Direito Penal', 'Culpabilidade', 'Ignorância da Lei e Exclusão da Culpabilidade']
+},
+{
+    title: 'Convivência Forçada e Conflito Entre Vizinhos',
+    description: 'O direito de vizinhança e a perturbação do sossego constituem um dos campos mais vivos do direito civil brasileiro.',
+    category: 'Direito Civil',
+    url: 'direito-civil/direito-vizinhanca-perturbacao-sossego-conflito-propriedade.html',
+    tags: ['Direito de Vizinhança', 'Perturbação do Sossego', 'Direito Civil', 'Ruído Urbano', 'Convivência Forçada e Conflito Entre Vizinhos']
+},
+{
     title: 'Família Contemporânea e os Novos Vínculos Jurídicos',
     description: 'O direito das famílias atravessa transformação profunda com novas configurações afetivas, multiparentalidade e avanços biotecnológicos que desafiam o Código Civil.',
     category: 'Direito de Família',

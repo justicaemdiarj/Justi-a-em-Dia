@@ -1,5 +1,16 @@
 // Dados de notícias para Legislação
 const categoryNewsData = [
+    {
+    title: "Improbidade Reformada e o Combate à Corrupção",
+    date: "18/05/2026",
+    timestamp: "2026-05-18T07:00:00",
+    image: "../img/lei-improbidade-reforma-combate-corrupcao-gestao-publica.webp",
+    excerpt: "A Lei de Improbidade reformada em 2021 gerou amplo debate sobre seus impactos no combate à corrupção e na gestão pública brasileira.",
+    link: "../legislacao/lei-improbidade-reforma-combate-corrupcao-gestao-publica.html",
+    category: "legislacao",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 {
     title: "Igualdade Racial no Brasil Além do Papel",
     date: "14/05/2026",

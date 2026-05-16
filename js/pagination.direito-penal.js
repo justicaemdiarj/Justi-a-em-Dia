@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Penal
 const categoryNewsData = [
     {
+    title: "Ignorância da Lei e Exclusão da Culpabilidade",
+    date: "18/05/2026",
+    timestamp: "2026-05-18T07:00:00",
+    image: "../img/erro-tipo-proibicao-culpabilidade-dolo-exclusao.webp",
+    excerpt: "O erro de tipo e o erro de proibição são institutos fundamentais do direito penal brasileiro que interferem diretamente na configuração do dolo e da culpabilidade.",
+    link: "../direito-penal/erro-tipo-proibicao-culpabilidade-dolo-exclusao.html",
+    category: "direito-penal",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Cumplicidade Criminal e Limites da Responsabilidade Penal",
     date: "14/05/2026",
     timestamp: "2026-05-14T16:00:00",

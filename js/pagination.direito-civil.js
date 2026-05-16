@@ -1,6 +1,16 @@
 // Dados de notícias para Direito Civil
 const categoryNewsData = [
-
+{
+    title: "Convivência Forçada e Conflito Entre Vizinhos",
+    date: "18/05/2026",
+    timestamp: "2026-05-18T07:00:00",
+    image: "../img/direito-vizinhanca-perturbacao-sossego-conflito-propriedade.webp",
+    excerpt: "O direito de vizinhança e a perturbação do sossego constituem um dos campos mais vivos do direito civil brasileiro.",
+    link: "../direito-civil/direito-vizinhanca-perturbacao-sossego-conflito-propriedade.html",
+    category: "direito-civil",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
     {
     title: "Propriedade Além do Direito Individual no Brasil",
     date: "14/05/2026",

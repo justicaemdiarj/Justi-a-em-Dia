@@ -2,6 +2,17 @@
 const categoryNewsData = [
     
     {
+    title: "Antitruste e Governança Competitiva nas Empresas",
+    date: "18/05/2026",
+    timestamp: "2026-05-18T07:00:00",
+    image: "../img/compliance-concorrencial-antitruste-governanca-competitiva.webp",
+    excerpt: "O compliance concorrencial tornou-se exigência estratégica para empresas diante do fortalecimento do CADE e das investigações antitruste.",
+    link: "../compliance/compliance-concorrencial-antitruste-governanca-competitiva.html",
+    category: "compliance",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Verificação de Fornecedores e Risco Corporativo no Brasil",
     date: "14/05/2026",
     timestamp: "2026-05-14T16:00:00",

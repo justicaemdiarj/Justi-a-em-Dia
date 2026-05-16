@@ -14,26 +14,7 @@ const tickerConfig = {
 const globalNewsData = [
 
    
-{
-  title: "Sindicância Castrense e o Devido Processo Legal",
-  link: "direito-militar/sindicancia-militar-garantias-defesa-devido-processo.html",
-},
-{
-  title: "Direito ao Esquecimento Frente à Memória Pública",
-  link: "direito-civil/direito-ao-esquecimento-limites-liberdade-informacao.html",
-},
-{
-  title: "Audiência de Custódia e a Proteção do Preso",
-  link: "direito-penal/audiencia-custodia-garantias-preso-flagrante.html",
-},
-{
-  title: "Crise Institucional e o Equilíbrio Republicano",
-  link: "politica/crise-institucional-poderes-equilibrio-republica.html",
-},
-{
-    title: "Controles Internos e a Matriz de Riscos Corporativa",
-    link: "compliance/matriz-riscos-controles-internos-governanca-corporativa.html",
-},
+
 {
   title: "Democracia sob Pressão da Fragmentação Política Nacional",
   link: "politica/polarizacao-politica-instituicoes-democracia-brasileira.html",
@@ -146,7 +127,38 @@ const globalNewsData = [
     title: "Risco no Trabalho e Remuneração Especial",
     link: "direito-trabalhista/adicional-periculosidade-direito-remuneracao-risco.html",
 },
-
+{
+    title: "Burocracia em Xeque e o Novo Estado",
+    link: "politica/reforma-administrativa-estado-burocracia-eficiencia-publica.html",
+},
+{
+    title: "Militar Armado Fora da Caserna e a Lei",
+    link: "direito-militar/porte-arma-militar-fora-servico-prerrogativa-responsabilidade.html",
+},
+{
+    title: "Improbidade Reformada e o Combate à Corrupção",
+    link: "legislacao/lei-improbidade-reforma-combate-corrupcao-gestao-publica.html",
+},
+{
+    title: "Reparação do Sofrimento e Critérios Judiciais",
+    link: "jurisprudencia/jurisprudencia-danos-morais-criterios-indenizacao-judicial.html",
+},
+{
+    title: "Antitruste e Governança Competitiva nas Empresas",
+    link: "compliance/compliance-concorrencial-antitruste-governanca-competitiva.html",
+},
+{
+    title: "Curatela Familiar e Dignidade da Vulnerabilidade",
+    link: "direito-de-familia/curatela-protecao-familiar-dignidade-vulnerabilidade.html",
+},
+{
+    title: "Ignorância da Lei e Exclusão da Culpabilidade",
+    link: "direito-penal/erro-tipo-proibicao-culpabilidade-dolo-exclusao.html",
+},
+{
+    title: "Convivência Forçada e Conflito Entre Vizinhos",
+    link: "direito-civil/direito-vizinhanca-perturbacao-sossego-conflito-propriedade.html",
+},
 ];
 
 // Array para armazenar todas as notícias coletadas dos arquivos de paginação

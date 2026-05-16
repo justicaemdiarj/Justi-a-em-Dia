@@ -1,6 +1,17 @@
 // Dados de notícias para Direito Militar
 const categoryNewsData = [
     {
+    title: "Militar Armado Fora da Caserna e a Lei",
+    date: "18/05/2026",
+    timestamp: "2026-05-18T07:00:00",
+    image: "../img/porte-arma-militar-fora-servico-prerrogativa-responsabilidade.webp",
+    excerpt: "O porte de arma pelo militar fora do serviço envolve prerrogativas institucionais, limites jurídicos e responsabilidade civil do Estado.",
+    link: "../direito-militar/porte-arma-militar-fora-servico-prerrogativa-responsabilidade.html",
+    category: "direito-militar",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Exclusão Ilegal de Militar e Direito ao Retorno",
     date: "14/05/2026",
     timestamp: "2026-05-14T13:00:00",
