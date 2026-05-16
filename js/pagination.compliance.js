@@ -8,9 +8,8 @@ const categoryNewsData = [
     image: "../img/compliance-concorrencial-antitruste-governanca-competitiva.webp",
     excerpt: "O compliance concorrencial tornou-se exigência estratégica para empresas diante do fortalecimento do CADE e das investigações antitruste.",
     link: "../compliance/compliance-concorrencial-antitruste-governanca-competitiva.html",
-    category: "compliance",
-    author: "Justiça em Dia",
-    authorLink: "#"
+    author: "Romer Carvalho",
+    authorLink: "../apoiadores/advogado-romer-carvalho.html"
 },
     {
     title: "Verificação de Fornecedores e Risco Corporativo no Brasil",
@@ -19,7 +18,6 @@ const categoryNewsData = [
     image: "../img/verificacao-fornecedores-risco-corporativo-brasil.webp",
     excerpt: "A due diligence em fornecedores tornou-se obrigação estratégica para empresas sob os ditames da Lei Anticorrupção e das normas internacionais de compliance.",
     link: "../compliance/verificacao-fornecedores-risco-corporativo-brasil.html",
-    category: "compliance",
     author: "Justiça em Dia",
     authorLink: "#"
 },

@@ -138,7 +138,7 @@ const allArticles = [
     description: 'O compliance concorrencial tornou-se exigência estratégica para empresas diante do fortalecimento do CADE e das investigações antitruste.',
     category: 'Compliance',
     url: 'compliance/compliance-concorrencial-antitruste-governanca-competitiva.html',
-    tags: ['Compliance Concorrencial', 'Antitruste', 'CADE', 'Cartel', 'Antitruste e Governança Competitiva nas Empresas']
+    tags: ['Compliance Concorrencial', 'Romer carvalho', 'Antitruste', 'CADE', 'Cartel', 'Antitruste e Governança Competitiva nas Empresas']
 },
 {
     title: 'Curatela Familiar e Dignidade da Vulnerabilidade',
