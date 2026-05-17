@@ -216,6 +216,19 @@
             gap: 30px;
         }
 
+        .spec-grid {
+    width: 100%;
+}
+
+.spec-card {
+    width: 100%;
+    overflow: hidden;
+}
+
+.spec-card img {
+    display: block;
+}
+
         .spec-card {
             padding: 40px;
             background: var(--soft-white);
@@ -684,7 +697,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
             const script = document.createElement("script");
 
-            script.src = `../js/${fileName}?v=${Date.now()}`;
+         script.src = `../js/${fileName}`;
 
             script.onload = () => {
 
@@ -769,28 +782,28 @@ return (
 
         postsContainer.innerHTML = "";
 
-      allPosts.slice(0, 3).forEach(post => {
+   (allPosts || []).slice(0, 3).forEach(post => {
 
             const card = document.createElement("div");
 
             card.className = "spec-card";
 
-            const link = post.link.startsWith("../")
-                ? post.link
-                : `../${post.link}`;
+const safeLink = post.link || "#";
 
-            const image = post.image
-                ? (
-                    post.image.startsWith("../")
-                        ? post.image
-                        : `../${post.image}`
-                )
-                : "../img/default.webp";
+const link = safeLink.startsWith("../")
+    ? safeLink
+    : `../${safeLink}`;
+
+const safeImage = post.image || "../img/default.webp";
+
+const image = safeImage.startsWith("../")
+    ? safeImage
+    : `../${safeImage}`;
 
             card.innerHTML = `
                 <a href="${link}" style="text-decoration:none;color:inherit;">
 
-                    <img
+                    <img loading="lazy"
                         src="${image}"
                         alt="${post.title}"
                         style="
