@@ -1,5 +1,7 @@
 // Dados de notícias para Direito Trabalhista
-const categoryNewsData = [
+window.categoryNewsData = window.categoryNewsData || [];
+
+window.categoryNewsData.push(
     {
     title: "Risco no Trabalho e Remuneração Especial",
     date: "15/05/2026",
@@ -504,7 +506,7 @@ const categoryNewsData = [
         author: "Justiça em Dia",
         authorLink: "#"
     },
-];
+);
 
 const ITEMS_PER_PAGE = 15;
 let currentPage = 1;

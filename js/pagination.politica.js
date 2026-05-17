@@ -1,5 +1,7 @@
 // Dados de notícias para Política
-const categoryNewsData = [
+window.categoryNewsData = window.categoryNewsData || [];
+
+window.categoryNewsData.push(
     {
     title: "Burocracia em Xeque e o Novo Estado",
     date: "18/05/2026",
@@ -526,7 +528,7 @@ const categoryNewsData = [
         author: "Justiça em Dia",
         authorLink: "#"
     },
-];
+);
 
 const ITEMS_PER_PAGE = 15;
 let currentPage = 1;

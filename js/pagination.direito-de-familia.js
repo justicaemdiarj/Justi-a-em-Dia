@@ -1,5 +1,7 @@
 // Dados de notícias para Direito de Família
-const categoryNewsData = [
+window.categoryNewsData = window.categoryNewsData || [];
+
+window.categoryNewsData.push(
     {
     title: "Curatela Familiar e Dignidade da Vulnerabilidade",
     date: "18/05/2026",
@@ -522,7 +524,7 @@ const categoryNewsData = [
         author: "Justiça em Dia",
         authorLink: "#"
     },
-];
+);
 
 const ITEMS_PER_PAGE = 15;
 let currentPage = 1;

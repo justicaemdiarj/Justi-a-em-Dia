@@ -1,5 +1,7 @@
 // Dados de notícias para Direito Militar
-const categoryNewsData = [
+window.categoryNewsData = window.categoryNewsData || [];
+
+window.categoryNewsData.push(
     {
     title: "Militar Armado Fora da Caserna e a Lei",
     date: "18/05/2026",
@@ -497,7 +499,7 @@ const categoryNewsData = [
         author: "Justiça em Dia",
         authorLink: "#"
     },
-];
+);
 
 const ITEMS_PER_PAGE = 15;
 let currentPage = 1;

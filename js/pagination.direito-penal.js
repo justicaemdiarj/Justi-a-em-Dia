@@ -1,5 +1,7 @@
 // Dados de notícias para Direito Penal
-const categoryNewsData = [
+window.categoryNewsData = window.categoryNewsData || [];
+
+window.categoryNewsData.push(
     {
     title: "Ignorância da Lei e Exclusão da Culpabilidade",
     date: "18/05/2026",
@@ -487,7 +489,7 @@ const categoryNewsData = [
         author: "Justiça em Dia",
         authorLink: "#"
     },
-];
+);
 
 const ITEMS_PER_PAGE = 15;
 let currentPage = 1;

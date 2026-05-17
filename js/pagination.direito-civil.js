@@ -1,5 +1,7 @@
 // Dados de notícias para Direito Civil
-const categoryNewsData = [
+window.categoryNewsData = window.categoryNewsData || [];
+
+window.categoryNewsData.push(
 {
     title: "Convivência Forçada e Conflito Entre Vizinhos",
     date: "18/05/2026",
@@ -571,7 +573,7 @@ const categoryNewsData = [
         author: "Justiça em Dia",
         authorLink: "#"
     },
-];
+);
 
 const ITEMS_PER_PAGE = 15;
 let currentPage = 1;

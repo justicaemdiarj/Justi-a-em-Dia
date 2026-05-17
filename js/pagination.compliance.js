@@ -1,5 +1,7 @@
 // Dados de notícias para Compliance
-const categoryNewsData = [
+window.categoryNewsData = window.categoryNewsData || [];
+
+window.categoryNewsData.push(
     
     {
     title: "Antitruste e Governança Competitiva nas Empresas",
@@ -558,7 +560,7 @@ const categoryNewsData = [
         author: "Justiça em Dia",
         authorLink: "#"
     },
-];
+);
 
 const ITEMS_PER_PAGE = 15;
 let currentPage = 1;

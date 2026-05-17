@@ -387,7 +387,7 @@
                                 <button class="search-btn" title="Buscar"><i class="fas fa-search"></i></button>
                             </div>
                         </div>
-		                <ul class="nav-list desktop-nav-list">
+			                <ul class="nav-list desktop-nav-list">
                     <!-- Menu carregado via js/config.js -->
                 </ul>
             </div>
@@ -461,7 +461,19 @@
             </div>
         </section>
 
-
+        <section class="adv-specialties">
+            <div class="container">
+                <div class="section-header">
+                    <h3>Postagens Recentes</h3>
+                </div>
+               <div class="spec-grid" id="romer-carvalho-posts">
+                    <!-- As postagens serão carregadas dinamicamente aqui pelo script abaixo -->
+                    <div style="text-align:center; padding: 20px; grid-column: 1/-1;">
+                        <i class="fas fa-spinner fa-spin"></i> Carregando postagens...
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
         <section class="adv-cta">
@@ -517,7 +529,9 @@
     <script src="../js/dynamic-content.js"></script>
     <script src="../js/search.js"></script>
 <script src="../js/newsletter-injector.js"></script>
-<script src="../js/b3-widget.js"></script>
+    <script src="../js/b3-widget.js"></script>
+
+
 
   <script>
     document.addEventListener('DOMContentLoaded', () => {
@@ -631,5 +645,179 @@ weatherLocation.textContent = "São Paulo";
 detectarLocalizacao();
     });
 </script>
+
+    <!-- SCRIPT DE AUTOMAÇÃO DE POSTAGENS POR AUTOR -->
+<script>
+document.addEventListener("DOMContentLoaded", async function () {
+
+    const supporterName = "Romer Carvalho";
+
+    const postsContainer = document.getElementById("romer-carvalho-posts");
+
+    if (!postsContainer) return;
+
+    const paginationFiles = [
+           'pagination.direito-de-familia.js',
+        'pagination.compliance.js',
+        'pagination.direito-civil.js',
+        'pagination.direito-militar.js',
+        'pagination.direito-penal.js',
+        'pagination.direito-trabalhista.js',
+        'pagination.jurisprudencia.js',
+        'pagination.legislacao.js',
+        'pagination.politica.js'
+    ];
+
+    let allPosts = [];
+
+    function normalizeText(text) {
+        return text
+            .toLowerCase()
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .trim();
+    }
+
+    async function loadPaginationFile(fileName) {
+
+        return new Promise((resolve) => {
+
+            const script = document.createElement("script");
+
+            script.src = `../js/${fileName}?v=${Date.now()}`;
+
+            script.onload = () => {
+
+                if (
+                    window.categoryNewsData &&
+                    Array.isArray(window.categoryNewsData)
+                ) {
+
+                    const filteredPosts = window.categoryNewsData.filter(post => {
+
+                        if (!post.author) return false;
+
+                       const author = normalizeText(post.author);
+
+return (
+    author.includes("romer") &&
+    author.includes("carvalho")
+);
+
+                    });
+
+                    filteredPosts.forEach(post => {
+
+                        const alreadyExists = allPosts.some(
+                            p => p.link === post.link
+                        );
+
+                        if (!alreadyExists) {
+                            allPosts.push(post);
+                        }
+
+                    });
+
+                }
+
+                resolve();
+            };
+
+            script.onerror = () => {
+                console.warn(`Erro ao carregar: ${fileName}`);
+                resolve();
+            };
+
+            document.body.appendChild(script);
+
+        });
+
+    }
+
+    for (const file of paginationFiles) {
+        await loadPaginationFile(file);
+    }
+
+    renderPosts();
+
+    function renderPosts() {
+
+        allPosts.sort((a, b) => {
+
+            const dateA = a.timestamp
+                ? new Date(a.timestamp)
+                : new Date(0);
+
+            const dateB = b.timestamp
+                ? new Date(b.timestamp)
+                : new Date(0);
+
+            return dateB - dateA;
+
+        });
+
+        if (allPosts.length === 0) {
+
+            postsContainer.innerHTML = `
+                <div style="grid-column:1/-1;text-align:center;padding:30px;">
+                    Nenhuma postagem encontrada.
+                </div>
+            `;
+
+            return;
+        }
+
+        postsContainer.innerHTML = "";
+
+      allPosts.slice(0, 3).forEach(post => {
+
+            const card = document.createElement("div");
+
+            card.className = "spec-card";
+
+            const link = post.link.startsWith("../")
+                ? post.link
+                : `../${post.link}`;
+
+            const image = post.image
+                ? (
+                    post.image.startsWith("../")
+                        ? post.image
+                        : `../${post.image}`
+                )
+                : "../img/default.webp";
+
+            card.innerHTML = `
+                <a href="${link}" style="text-decoration:none;color:inherit;">
+
+                    <img
+                        src="${image}"
+                        alt="${post.title}"
+                        style="
+                            width:100%;
+                            height:200px;
+                            object-fit:cover;
+                            border-radius:8px;
+                            margin-bottom:15px;
+                        "
+                    >
+
+                    <h4>${post.title}</h4>
+
+                    <p>${post.excerpt || ''}</p>
+
+                </a>
+            `;
+
+            postsContainer.appendChild(card);
+
+        });
+
+    }
+
+});
+</script>
+
+
 </body>
 </html>
