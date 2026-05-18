@@ -4986,4 +4986,15 @@
     <news:title>Jornada 12x36 Entre a Flexibilidade e o Esgotamento</news:title>
   </news:news>
 </url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-civil/direito-laje-regularizacao-propriedade-habitacao-urbana.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-17T07:00:00-03:00</news:publication_date>
+    <news:title>Laje Urbana e Acesso à Propriedade Formal</news:title>
+  </news:news>
+</url>
 </urlset>
