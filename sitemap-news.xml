@@ -4918,4 +4918,72 @@
     <news:title>Burocracia em Xeque e o Novo Estado</news:title>
   </news:news>
 </url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-penal/dosimetria-pena-fixacao-individualizacao-sentenca-criminal.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-17T07:00:00-03:00</news:publication_date>
+    <news:title>Fixação da Pena e Arbítrio Judicial Controlado</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-de-familia/patrimonio-digital-sucessao-heranca-bens-virtuais.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-17T07:00:00-03:00</news:publication_date>
+    <news:title>Herança Digital e os Bens do Século XXI</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/compliance/conflito-interesse-gestao-integridade-governanca-corporativa.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-17T07:00:00-03:00</news:publication_date>
+    <news:title>Conflitos de Interesse e Integridade Corporativa</news:title>
+  </news:news>
+</url>
+<url><loc>https://www.justicaemdia.com.br/jurisprudencia/liberdade-expressao-limites-judiciais-stf-discurso-odio.html</loc><news:news><news:publication><news:name>Justiça em Dia</news:name><news:language>pt</news:language></news:publication><news:publication_date>2026-05-17T07:00:00-03:00</news:publication_date><news:title>Liberdade de Expressão e Seus Limites Judiciais</news:title></news:news></url>
+<url><loc>https://www.justicaemdia.com.br/direito-militar/prisao-disciplinar-militar-constitucionalidade-limites-direitos.html</loc><news:news><news:publication><news:name>Justiça em Dia</news:name><news:language>pt</news:language></news:publication><news:publication_date>2026-05-17T07:00:00-03:00</news:publication_date><news:title>Prisão Disciplinar Militar e a Constituição</news:title></news:news></url>
+<url>
+  <loc>https://www.justicaemdia.com.br/politica/papel-midia-imprensa-democracia-poder-comunicacao.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-19T07:00:00-03:00</news:publication_date>
+    <news:title>Imprensa, Poder e Democracia em Crise</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/legislacao/lei-inquilinato-locacao-urbana-direitos-inquilino-locador.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-19T07:00:00-03:00</news:publication_date>
+    <news:title>Locação Urbana e os Direitos do Inquilino</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-trabalhista/jornada-12x36-flexibilidade-saude-trabalhador-clt.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-19T07:00:00-03:00</news:publication_date>
+    <news:title>Jornada 12x36 Entre a Flexibilidade e o Esgotamento</news:title>
+  </news:news>
+</url>
 </urlset>

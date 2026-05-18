@@ -2825,5 +2825,42 @@
   <changefreq>always</changefreq>
   <priority>1.0</priority>
 </url>
-
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-penal/dosimetria-pena-fixacao-individualizacao-sentenca-criminal.html</loc>
+  <lastmod>2026-05-17</lastmod>
+  <changefreq>always</changefreq>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-de-familia/patrimonio-digital-sucessao-heranca-bens-virtuais.html</loc>
+  <lastmod>2026-05-17</lastmod>
+  <changefreq>always</changefreq>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/compliance/conflito-interesse-gestao-integridade-governanca-corporativa.html</loc>
+  <lastmod>2026-05-17</lastmod>
+  <changefreq>always</changefreq>
+  <priority>1.0</priority>
+</url>
+<url><loc>https://www.justicaemdia.com.br/jurisprudencia/liberdade-expressao-limites-judiciais-stf-discurso-odio.html</loc><lastmod>2026-05-17</lastmod><changefreq>always</changefreq><priority>1.0</priority></url>
+<url><loc>https://www.justicaemdia.com.br/direito-militar/prisao-disciplinar-militar-constitucionalidade-limites-direitos.html</loc><lastmod>2026-05-17</lastmod><changefreq>always</changefreq><priority>1.0</priority></url>
+<url>
+  <loc>https://www.justicaemdia.com.br/politica/papel-midia-imprensa-democracia-poder-comunicacao.html</loc>
+  <lastmod>2026-05-19</lastmod>
+  <changefreq>always</changefreq>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/legislacao/lei-inquilinato-locacao-urbana-direitos-inquilino-locador.html</loc>
+  <lastmod>2026-05-19</lastmod>
+  <changefreq>always</changefreq>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-trabalhista/jornada-12x36-flexibilidade-saude-trabalhador-clt.html</loc>
+  <lastmod>2026-05-19</lastmod>
+  <changefreq>always</changefreq>
+  <priority>1.0</priority>
+</url>
 </urlset>
