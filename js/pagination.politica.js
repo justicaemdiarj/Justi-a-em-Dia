@@ -3,13 +3,22 @@ window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
     {
+    title: "Imprensa, Poder e Democracia em Crise",
+    date: "19/05/2026",
+    timestamp: "2026-05-19T07:00:00",
+    image: "../img/papel-midia-imprensa-democracia-poder-comunicacao.webp",
+    excerpt: "Entre o quarto poder fiscalizador e a crise de credibilidade, a mídia brasileira redefine sua relação com a democracia e com o Estado.",
+    link: "../politica/papel-midia-imprensa-democracia-poder-comunicacao.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Burocracia em Xeque e o Novo Estado",
     date: "18/05/2026",
     timestamp: "2026-05-18T07:00:00",
     image: "../img/reforma-administrativa-estado-burocracia-eficiencia-publica.webp",
     excerpt: "A reforma administrativa coloca em debate o modelo de Estado, a estabilidade do servidor público e a eficiência da máquina governamental.",
     link: "../politica/reforma-administrativa-estado-burocracia-eficiencia-publica.html",
-    category: "politica",
     author: "Justiça em Dia",
     authorLink: "#"
 },
@@ -20,7 +29,6 @@ window.categoryNewsData.push(
     image: "../img/fake-news-plataformas-digitais-dilema-regulatorio.webp",
     excerpt: "A desinformação em plataformas digitais ameaça a democracia e exige regulação que equilibre liberdade de expressão e responsabilização das grandes tecnológicas.",
     link: "../politica/fake-news-plataformas-digitais-dilema-regulatorio.html",
-    category: "politica",
     author: "Justiça em Dia",
     authorLink: "#"
 },

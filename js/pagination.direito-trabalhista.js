@@ -3,13 +3,22 @@ window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
     {
+    title: "Jornada 12x36 Entre a Flexibilidade e o Esgotamento",
+    date: "19/05/2026",
+    timestamp: "2026-05-19T07:00:00",
+    image: "../img/jornada-12x36-flexibilidade-saude-trabalhador-clt.webp",
+    excerpt: "A jornada 12x36, legalizada pela reforma trabalhista de 2017, concentra debates sobre saúde, horas extras e negociação coletiva nos setores essenciais.",
+    link: "../direito-trabalhista/jornada-12x36-flexibilidade-saude-trabalhador-clt.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Risco no Trabalho e Remuneração Especial",
     date: "15/05/2026",
     timestamp: "2026-05-15T17:00:00",
     image: "../img/adicional-periculosidade-direito-remuneracao-risco.webp",
     excerpt: "O adicional de periculosidade é um direito fundamental do trabalhador brasileiro que atua em condições de risco elevado.",
     link: "../direito-trabalhista/adicional-periculosidade-direito-remuneracao-risco.html",
-    category: "direito-trabalhista",
     author: "Justiça em Dia",
     authorLink: "#"
 },

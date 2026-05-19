@@ -3,13 +3,22 @@ window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
     {
+    title: "Locação Urbana e os Direitos do Inquilino",
+    date: "19/05/2026",
+    timestamp: "2026-05-19T07:00:00",
+    image: "../img/lei-inquilinato-locacao-urbana-direitos-inquilino-locador.webp",
+    excerpt: "A Lei do Inquilinato disciplina as relações de locação urbana no Brasil, estabelecendo garantias, limites de reajuste e procedimentos de despejo.",
+    link: "../legislacao/lei-inquilinato-locacao-urbana-direitos-inquilino-locador.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Improbidade Reformada e o Combate à Corrupção",
     date: "18/05/2026",
     timestamp: "2026-05-18T07:00:00",
     image: "../img/lei-improbidade-reforma-combate-corrupcao-gestao-publica.webp",
     excerpt: "A Lei de Improbidade reformada em 2021 gerou amplo debate sobre seus impactos no combate à corrupção e na gestão pública brasileira.",
     link: "../legislacao/lei-improbidade-reforma-combate-corrupcao-gestao-publica.html",
-    category: "legislacao",
     author: "Justiça em Dia",
     authorLink: "#"
 },
@@ -20,7 +29,6 @@ window.categoryNewsData.push(
     image: "../img/igualdade-racial-brasil-alem-do-papel.webp",
     excerpt: "O Estatuto da Igualdade Racial completa mais de uma década com avanços normativos e lacunas de efetividade que o debate público não pode ignorar.",
     link: "../legislacao/igualdade-racial-brasil-alem-do-papel.html",
-    category: "legislacao",
     author: "Justiça em Dia",
     authorLink: "#"
 },

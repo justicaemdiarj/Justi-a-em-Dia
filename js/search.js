@@ -126,6 +126,43 @@ const allArticles = [
     url: 'legislacao/lei-improbidade-reforma-combate-corrupcao-gestao-publica.html',
     tags: ['Lei de Improbidade', 'Lei 14.230/2021', 'Improbidade Administrativa', 'Combate à Corrupção', 'Improbidade Reformada e o Combate à Corrupção']
 },
+{ title: 'Liberdade de Expressão e Seus Limites Judiciais', description: 'A jurisprudência do STF define os contornos da liberdade de expressão frente ao discurso de ódio, à desinformação e aos direitos da personalidade.', category: 'Jurisprudência', url: 'jurisprudencia/liberdade-expressao-limites-judiciais-stf-discurso-odio.html', tags: ['Liberdade de Expressão', 'STF', 'Discurso de Ódio', 'Desinformação', 'Liberdade de Expressão e Seus Limites Judiciais'] },
+{
+    title: 'Conflitos de Interesse e Integridade Corporativa',
+    description: 'Identificar, declarar e mitigar conflitos de interesse é condição essencial para a integridade dos programas de compliance e governança corporativa.',
+    category: 'Compliance',
+    url: 'compliance/conflito-interesse-gestao-integridade-governanca-corporativa.html',
+    tags: ['Conflito de Interesse', 'Compliance', 'Governança Corporativa', 'Lei Anticorrupção', 'Conflitos de Interesse e Integridade Corporativa']
+},
+{ title: 'Prisão Disciplinar Militar e a Constituição', description: 'A prisão disciplinar militar é exceção constitucional à reserva jurisdicional, gerando debate sobre seus limites e direitos fundamentais.', category: 'Direito Militar', url: 'direito-militar/prisao-disciplinar-militar-constitucionalidade-limites-direitos.html', tags: ['Prisão Disciplinar', 'Direito Militar', 'Constitucionalidade', 'Forças Armadas', 'Prisão Disciplinar Militar e a Constituição'] },
+{
+    title: 'Imprensa, Poder e Democracia em Crise',
+    description: 'Entre o quarto poder fiscalizador e a crise de credibilidade, a mídia brasileira redefine sua relação com a democracia e com o Estado.',
+    category: 'Política',
+    url: 'politica/papel-midia-imprensa-democracia-poder-comunicacao.html',
+    tags: ['Papel da Mídia', 'Imprensa', 'Democracia', 'Liberdade de Imprensa', 'Imprensa, Poder e Democracia em Crise']
+},
+{
+    title: 'Laje Urbana e Acesso à Propriedade Formal',
+    description: 'O direito de laje reconhece juridicamente construções sobrepostas e garante segurança jurídica a moradores de comunidades urbanas.',
+    category: 'Direito Civil',
+    url: 'direito-civil/direito-laje-regularizacao-propriedade-habitacao-urbana.html',
+    tags: ['Direito de Laje', 'Regularização Fundiária', 'Lei 13.465/2017', 'REURB', 'Laje Urbana e Acesso à Propriedade Formal']
+},
+{
+    title: 'Locação Urbana e os Direitos do Inquilino',
+    description: 'A Lei do Inquilinato disciplina as relações de locação urbana no Brasil, estabelecendo garantias, limites de reajuste e procedimentos de despejo.',
+    category: 'Legislação',
+    url: 'legislacao/lei-inquilinato-locacao-urbana-direitos-inquilino-locador.html',
+    tags: ['Lei do Inquilinato', 'Lei 8.245/1991', 'Locação Urbana', 'Despejo', 'Locação Urbana e os Direitos do Inquilino']
+},
+{
+    title: 'Jornada 12x36 Entre a Flexibilidade e o Esgotamento',
+    description: 'A jornada 12x36, legalizada pela reforma trabalhista de 2017, concentra debates sobre saúde, horas extras e negociação coletiva nos setores essenciais.',
+    category: 'Direito Trabalhista',
+    url: 'direito-trabalhista/jornada-12x36-flexibilidade-saude-trabalhador-clt.html',
+    tags: ['Jornada 12x36', 'CLT', 'Reforma Trabalhista', 'Saúde do Trabalhador', 'Jornada 12x36 Entre a Flexibilidade e o Esgotamento']
+},
 {
     title: 'Reparação do Sofrimento e Critérios Judiciais',
     description: 'A jurisprudência sobre danos morais enfrenta o desafio de quantificar o sofrimento com critérios de proporcionalidade e razoabilidade.',
@@ -133,6 +170,21 @@ const allArticles = [
     url: 'jurisprudencia/jurisprudencia-danos-morais-criterios-indenizacao-judicial.html',
     tags: ['Danos Morais', 'Jurisprudência', 'Indenização', 'STJ', 'Reparação do Sofrimento e Critérios Judiciais']
 },
+{
+    title: 'Fixação da Pena e Arbítrio Judicial Controlado',
+    description: 'A dosimetria da pena percorre três fases legais que individualizam a sanção penal, mas sua aplicação desigual expõe fragilidades do sistema punitivo.',
+    category: 'Direito Criminal',
+    url: 'direito-penal/dosimetria-pena-fixacao-individualizacao-sentenca-criminal.html',
+    tags: ['Dosimetria da Pena', 'Fixação da Pena', 'Código Penal', 'Sentença Criminal', 'Fixação da Pena e Arbítrio Judicial Controlado']
+},
+{
+    title: 'Herança Digital e os Bens do Século XXI',
+    description: 'Criptomoedas, contas digitais e direitos autorais online desafiam o ordenamento jurídico brasileiro a regulamentar a herança digital.',
+    category: 'Direito de Família',
+    url: 'direito-de-familia/patrimonio-digital-sucessao-heranca-bens-virtuais.html',
+    tags: ['Patrimônio Digital', 'Herança Digital', 'Sucessão Digital', 'Criptomoedas', 'Herança Digital e os Bens do Século XXI']
+},
+
 {
     title: 'Antitruste e Governança Competitiva nas Empresas',
     description: 'O compliance concorrencial tornou-se exigência estratégica para empresas diante do fortalecimento do CADE e das investigações antitruste.',

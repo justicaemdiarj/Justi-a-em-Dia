@@ -2,6 +2,7 @@
 window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
+    { title: "Liberdade de Expressão e Seus Limites Judiciais", date: "19/05/2026", timestamp: "2026-05-19T07:00:00", image: "../img/liberdade-expressao-limites-judiciais-stf-discurso-odio.webp", excerpt: "A jurisprudência do STF define os contornos da liberdade de expressão frente ao discurso de ódio, à desinformação e aos direitos da personalidade.", link: "../jurisprudencia/liberdade-expressao-limites-judiciais-stf-discurso-odio.html", category: "jurisprudencia", author: "Justiça em Dia", authorLink: "#" },
     {
     title: "Reparação do Sofrimento e Critérios Judiciais",
     date: "18/05/2026",
@@ -9,7 +10,6 @@ window.categoryNewsData.push(
     image: "../img/jurisprudencia-danos-morais-criterios-indenizacao-judicial.webp",
     excerpt: "A jurisprudência sobre danos morais enfrenta o desafio de quantificar o sofrimento com critérios de proporcionalidade e razoabilidade.",
     link: "../jurisprudencia/jurisprudencia-danos-morais-criterios-indenizacao-judicial.html",
-    category: "jurisprudencia",
     author: "Justiça em Dia",
     authorLink: "#"
 },
@@ -20,7 +20,6 @@ window.categoryNewsData.push(
     image: "../img/distinguishing-arte-superar-precedentes.webp",
     excerpt: "A técnica do distinguishing permite ao julgador demonstrar diferenças fáticas ou jurídicas entre o caso presente e o precedente invocado, preservando a coerência sem sacrificar a justiça.",
     link: "../jurisprudencia/distinguishing-arte-superar-precedentes.html",
-    category: "jurisprudencia",
     author: "Justiça em Dia",
     authorLink: "#"
 },

@@ -3,13 +3,22 @@ window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
     {
+    title: "Herança Digital e os Bens do Século XXI",
+    date: "19/05/2026",
+    timestamp: "2026-05-19T07:00:00",
+    image: "../img/patrimonio-digital-sucessao-heranca-bens-virtuais.webp",
+    excerpt: "Criptomoedas, contas digitais e direitos autorais online desafiam o ordenamento jurídico brasileiro a regulamentar a herança digital.",
+    link: "../direito-de-familia/patrimonio-digital-sucessao-heranca-bens-virtuais.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Curatela Familiar e Dignidade da Vulnerabilidade",
     date: "18/05/2026",
     timestamp: "2026-05-18T07:00:00",
     image: "../img/curatela-protecao-familiar-dignidade-vulnerabilidade.webp",
     excerpt: "A curatela passou por profunda transformação com o Estatuto da Pessoa com Deficiência, exigindo novo olhar jurídico sobre autonomia e proteção.",
     link: "../direito-de-familia/curatela-protecao-familiar-dignidade-vulnerabilidade.html",
-    category: "direito-de-familia",
     author: "Justiça em Dia",
     authorLink: "#"
 },
@@ -20,7 +29,6 @@ window.categoryNewsData.push(
     image: "../img/familia-contemporanea-novos-vinculos-juridicos.webp",
     excerpt: "O direito das famílias atravessa transformação profunda com novas configurações afetivas, multiparentalidade e avanços biotecnológicos que desafiam o Código Civil.",
     link: "../direito-de-familia/familia-contemporanea-novos-vinculos-juridicos.html",
-    category: "direito-de-familia",
     author: "Justiça em Dia",
     authorLink: "#"
 },

@@ -3,6 +3,16 @@ window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
     {
+    title: "Fixação da Pena e Arbítrio Judicial Controlado",
+    date: "19/05/2026",
+    timestamp: "2026-05-19T07:00:00",
+    image: "../img/dosimetria-pena-fixacao-individualizacao-sentenca-criminal.webp",
+    excerpt: "A dosimetria da pena percorre três fases legais que individualizam a sanção penal, mas sua aplicação desigual expõe fragilidades do sistema punitivo.",
+    link: "../direito-penal/dosimetria-pena-fixacao-individualizacao-sentenca-criminal.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Ignorância da Lei e Exclusão da Culpabilidade",
     date: "18/05/2026",
     timestamp: "2026-05-18T07:00:00",

@@ -2,6 +2,17 @@
 window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
+    {
+    title: "Laje Urbana e Acesso à Propriedade Formal",
+    date: "19/05/2026",
+    timestamp: "2026-05-19T07:00:00",
+    image: "../img/direito-laje-regularizacao-propriedade-habitacao-urbana.webp",
+    excerpt: "O direito de laje reconhece juridicamente construções sobrepostas e garante segurança jurídica a moradores de comunidades urbanas.",
+    link: "../direito-civil/direito-laje-regularizacao-propriedade-habitacao-urbana.html",
+    category: "direito-civil",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 {
     title: "Convivência Forçada e Conflito Entre Vizinhos",
     date: "18/05/2026",
@@ -9,7 +20,6 @@ window.categoryNewsData.push(
     image: "../img/direito-vizinhanca-perturbacao-sossego-conflito-propriedade.webp",
     excerpt: "O direito de vizinhança e a perturbação do sossego constituem um dos campos mais vivos do direito civil brasileiro.",
     link: "../direito-civil/direito-vizinhanca-perturbacao-sossego-conflito-propriedade.html",
-    category: "direito-civil",
     author: "Justiça em Dia",
     authorLink: "#"
 },

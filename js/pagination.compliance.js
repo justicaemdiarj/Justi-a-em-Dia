@@ -2,7 +2,16 @@
 window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
-    
+    {
+    title: "Conflitos de Interesse e Integridade Corporativa",
+    date: "19/05/2026",
+    timestamp: "2026-05-19T07:00:00",
+    image: "../img/conflito-interesse-gestao-integridade-governanca-corporativa.webp",
+    excerpt: "Identificar, declarar e mitigar conflitos de interesse é condição essencial para a integridade dos programas de compliance e governança corporativa.",
+    link: "../compliance/conflito-interesse-gestao-integridade-governanca-corporativa.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
     {
     title: "Antitruste e Governança Competitiva nas Empresas",
     date: "18/05/2026",

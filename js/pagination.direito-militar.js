@@ -2,6 +2,8 @@
 window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
+    { title: "Prisão Disciplinar Militar e a Constituição", date: "19/05/2026", timestamp: "2026-05-19T07:00:00", image: "../img/prisao-disciplinar-militar-constitucionalidade-limites-direitos.webp", excerpt: "A prisão disciplinar militar é exceção constitucional à reserva jurisdicional, gerando debate sobre seus limites e compatibilidade com direitos fundamentais.", link: "../direito-militar/prisao-disciplinar-militar-constitucionalidade-limites-direitos.html", author: "Justiça em Dia", authorLink: "#" },
+
     {
     title: "Militar Armado Fora da Caserna e a Lei",
     date: "18/05/2026",
@@ -9,7 +11,6 @@ window.categoryNewsData.push(
     image: "../img/porte-arma-militar-fora-servico-prerrogativa-responsabilidade.webp",
     excerpt: "O porte de arma pelo militar fora do serviço envolve prerrogativas institucionais, limites jurídicos e responsabilidade civil do Estado.",
     link: "../direito-militar/porte-arma-militar-fora-servico-prerrogativa-responsabilidade.html",
-    category: "direito-militar",
     author: "Justiça em Dia",
     authorLink: "#"
 },
@@ -20,7 +21,6 @@ window.categoryNewsData.push(
     image: "../img/exclusao-ilegal-militar-direito-retorno.webp",
     excerpt: "A reintegração de militar excluído ilegalmente exige a anulação do ato administrativo viciado e o restabelecimento integral dos direitos do afastado.",
     link: "../direito-militar/exclusao-ilegal-militar-direito-retorno.html",
-    category: "direito-militar",
     author: "Justiça em Dia",
     authorLink: "#"
 },

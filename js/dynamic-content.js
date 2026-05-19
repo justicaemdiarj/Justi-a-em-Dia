@@ -13,48 +13,6 @@ const tickerConfig = {
 
 const globalNewsData = [
 
-   
-
-{
-  title: "Democracia sob Pressão da Fragmentação Política Nacional",
-  link: "politica/polarizacao-politica-instituicoes-democracia-brasileira.html",
-},
-{
-  title: "Vínculo Empregatício nas Plataformas Digitais em Debate",
-  link: "direito-trabalhista/vinculo-empregaticio-plataformas-digitais-aplicativos.html",
-},
-{
-  title: "Quando a Convivência Familiar Precisa ser Repensada",
-  link: "direito-de-familia/revisao-regime-visitas-interesse-menor.html",
-},
-{
-  title: "Quando o Crime Não Pode Existir de Fato",
-  link: "direito-penal/crime-impossivel-limites-punicao-direito-penal.html",
-},
-{
-  title: "Auditoria Interna Independente como Escudo Corporativo",
-  link: "compliance/investigacoes-corporativas-independentes-governanca-empresarial.html",
-},
-{
-  title: "Tratados Internacionais Desafiam o Direito Interno Brasileiro",
-  link: "jurisprudencia/controle-convencionalidade-jurisprudencia-direito-interno.html",
-},
-{
-  title: "Lei que Transformou a Vida das Pessoas com Deficiência",
-  link: "legislacao/estatuto-pessoa-deficiencia-direitos-inclusao-social.html",
-},
-{
-  title: "Hierarquia e Mérito na Carreira das Forças Armadas",
-  link: "direito-militar/promocao-antiguidade-merecimento-forcas-armadas.html",
-},
-{
-  title: "Quando Vender um Bem Gera Obrigação de Indenizar",
-  link: "direito-civil/evicao-responsabilidade-alienante-direito-civil.html",
-},
-{
-  title: "Democracia sob Pressão da Fragmentação Política Nacional",
-  link: "politica/polarizacao-politica-instituicoes-democracia-brasileira.html",
-},
 {
   title: "O Limite Penal entre Ação e Resultado",
   link: "direito-penal/tentativa-consumacao-limites-punicao-direito-penal.html",
@@ -158,6 +116,36 @@ const globalNewsData = [
 {
     title: "Convivência Forçada e Conflito Entre Vizinhos",
     link: "direito-civil/direito-vizinhanca-perturbacao-sossego-conflito-propriedade.html",
+},
+{
+    title: "Fixação da Pena e Arbítrio Judicial Controlado",
+    link: "direito-penal/dosimetria-pena-fixacao-individualizacao-sentenca-criminal.html",
+},
+{
+    title: "Herança Digital e os Bens do Século XXI",
+    link: "direito-de-familia/patrimonio-digital-sucessao-heranca-bens-virtuais.html",
+},
+{
+    title: "Conflitos de Interesse e Integridade Corporativa",
+    link: "compliance/conflito-interesse-gestao-integridade-governanca-corporativa.html",
+},
+{ title: "Liberdade de Expressão e Seus Limites Judiciais", link: "jurisprudencia/liberdade-expressao-limites-judiciais-stf-discurso-odio.html" },
+{ title: "Prisão Disciplinar Militar e a Constituição", link: "direito-militar/prisao-disciplinar-militar-constitucionalidade-limites-direitos.html" },
+{
+    title: "Imprensa, Poder e Democracia em Crise",
+    link: "politica/papel-midia-imprensa-democracia-poder-comunicacao.html",
+},
+{
+    title: "Locação Urbana e os Direitos do Inquilino",
+    link: "legislacao/lei-inquilinato-locacao-urbana-direitos-inquilino-locador.html",
+},
+{
+    title: "Jornada 12x36 Entre a Flexibilidade e o Esgotamento",
+    link: "direito-trabalhista/jornada-12x36-flexibilidade-saude-trabalhador-clt.html",
+},
+{
+    title: "Laje Urbana e Acesso à Propriedade Formal",
+    link: "direito-civil/direito-laje-regularizacao-propriedade-habitacao-urbana.html",
 },
 ];
 
