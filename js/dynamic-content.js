@@ -147,6 +147,7 @@ const globalNewsData = [
     title: "Laje Urbana e Acesso à Propriedade Formal",
     link: "direito-civil/direito-laje-regularizacao-propriedade-habitacao-urbana.html",
 },
+{ title: "Vida em Condomínio e Litígios de Convivência", link: "direito-civil/condominios-conflitos-vizinhos-sindico-convencao-direito-civil.html" },
 ];
 
 // Array para armazenar todas as notícias coletadas dos arquivos de paginação

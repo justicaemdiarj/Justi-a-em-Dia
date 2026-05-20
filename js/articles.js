@@ -3,12 +3,12 @@ const posts = [
   
 
 {  
-  title: "Fixação da Pena e Arbítrio Judicial Controlado",
-  description: "A dosimetria trifásica do Código Penal busca individualizar a sanção, mas sua aplicação desigual revela os limites do sistema de justiça criminal",
-  description2: "Dupla valoração, reincidência e vieses sociais são os principais vícios que a defesa deve identificar na sentença condenatória",
-  image: "img/dosimetria-pena-fixacao-individualizacao-sentenca-criminal.webp",
-  link: "direito-penal/dosimetria-pena-fixacao-individualizacao-sentenca-criminal.html",
-  date: "2026-05-19T07:00:00",
+title: "Vida em Condomínio e Litígios de Convivência", 
+description: "Ruído, inadimplência e animais de estimação lideram os conflitos condominiais que chegam ao Judiciário brasileiro todos os anos", 
+description2: "Síndico, convenção condominial e mediação são os pilares da resolução de disputas entre condôminos", 
+image: "img/condominios-conflitos-vizinhos-sindico-convencao-direito-civil.webp", 
+link: "direito-civil/condominios-conflitos-vizinhos-sindico-convencao-direito-civil.html", 
+date: "2026-05-20T20:00:00",
   section: "featured"
 },
   {

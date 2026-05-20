@@ -2,6 +2,15 @@
 window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
+    { title: "Vida em Condomínio e Litígios de Convivência", 
+        date: "20/05/2026", 
+        timestamp: "2026-05-20T20:00:00", 
+        image: "../img/condominios-conflitos-vizinhos-sindico-convencao-direito-civil.webp", 
+        excerpt: "Os condomínios urbanos são palcos de conflitos sobre ruído, áreas comuns, inadimplência e uso de animais que desafiam síndicos e o Judiciário.", 
+        link: "../direito-civil/condominios-conflitos-vizinhos-sindico-convencao-direito-civil.html", 
+        category: "direito-civil", 
+        author: "Justiça em Dia", 
+        authorLink: "#" },
     {
     title: "Laje Urbana e Acesso à Propriedade Formal",
     date: "19/05/2026",

@@ -133,7 +133,7 @@ const allArticles = [
     category: 'Compliance',
     url: 'compliance/conflito-interesse-gestao-integridade-governanca-corporativa.html',
     tags: ['Conflito de Interesse', 'Compliance', 'Governança Corporativa', 'Lei Anticorrupção', 'Conflitos de Interesse e Integridade Corporativa']
-},
+},{ title: 'Vida em Condomínio e Litígios de Convivência', description: 'Os condomínios urbanos são palcos de conflitos sobre ruído, áreas comuns, inadimplência e uso de animais que desafiam síndicos e o Judiciário.', category: 'Direito Civil', url: 'direito-civil/condominios-conflitos-vizinhos-sindico-convencao-direito-civil.html', tags: ['Condomínio', 'Conflito entre Vizinhos', 'Síndico', 'Convenção Condominial', 'Vida em Condomínio e Litígios de Convivência'] },
 { title: 'Prisão Disciplinar Militar e a Constituição', description: 'A prisão disciplinar militar é exceção constitucional à reserva jurisdicional, gerando debate sobre seus limites e direitos fundamentais.', category: 'Direito Militar', url: 'direito-militar/prisao-disciplinar-militar-constitucionalidade-limites-direitos.html', tags: ['Prisão Disciplinar', 'Direito Militar', 'Constitucionalidade', 'Forças Armadas', 'Prisão Disciplinar Militar e a Constituição'] },
 {
     title: 'Imprensa, Poder e Democracia em Crise',
