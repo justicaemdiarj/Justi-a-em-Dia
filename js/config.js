@@ -122,10 +122,10 @@ menu: [
         uol: [
             { 
                  name: "Objetiva Labs", 
-                  img: window.innerWidth <= 200 ? "img/banner-apoiadores/objetiva-labs-banner-topo-desktop.gif" : "img/banner-apoiadores/objetiva-labs-banner-topo-desktop.gif", 
+                  img: window.innerWidth <= 200 ? "img/banner-apoiadores/objetiva-labs-banner-desktop-1.png" : "img/banner-apoiadores/objetiva-labs-banner-desktop-1.png", 
                  link: "https://www.objetivalabs.com.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", 
                  endDate: null, 
-                 pages: ["conato.html"]
+                 pages: ["conato.html"] // "full"
             },
             // BANNER ESPECIFICO POR PÁGINA OU MESCLA
             
@@ -169,6 +169,13 @@ siteConfig.sidebarBanners = [
         endDate: null, // Data de expiração no formato "YYYY-MM-DD" ou null para permanente
         pages: "full" // "full" para todas as páginas, ou array de URLs específicas (ex: ["index.html", "contato.html"])
     },
+        {
+        name: "Apoiador Objetiva Labs",
+        img: "img/banner-apoiadores/objetiva-labs-banner-desktop-1.png", // Caminho da imagem do banner
+        link: "https://www.objetivalabs.com.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", // Link de destino do banner
+        endDate: "2050-12-31", // Data de expiração no formato "YYYY-MM-DD" ou null para permanente
+        pages: "full" // "full" para todas as páginas, ou array de URLs específicas (ex: ["direito-civil/index.html", "compliance/a-holding-do-crime.html"])
+    },    
 ];
 
 siteConfig.postContentBanners = [
@@ -197,6 +204,7 @@ siteConfig.sidebarTopBanner = {
     link: "https://api.whatsapp.com/send/?phone=5521990670186&text=Ol%C3%A1%21+Gostaria+de+informa%C3%A7%C3%B5es+sobre+como+ser+membro+do+site+Justi%C3%A7a+em+Dia.+Poderia+ajudar%3F&type=phone_number&app_absent=0",     // Link de destino
     pages: "full" // "full" para todas as páginas
 };
+
 
 
 function bannerAtivo(banner){
@@ -231,7 +239,7 @@ siteConfig.postNewsletterBanners = [
         name: "Newsletter",
         img: "img/newsletter-assinatura.gif", // Caminho da imagem do banner
         link: "https://www.justicaemdia.com.br/newsletter", // Link de destino do banner
-        endDate: "2026-12-31", // Data de expiração no formato "YYYY-MM-DD" ou null para permanente
+        endDate: "2050-12-31", // Data de expiração no formato "YYYY-MM-DD" ou null para permanente
         pages: "full" // "full" para todas as páginas, ou array de URLs específicas (ex: ["direito-civil/index.html", "compliance/a-holding-do-crime.html"])
     },
     /*{
