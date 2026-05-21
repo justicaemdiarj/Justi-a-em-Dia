@@ -2,6 +2,7 @@
 window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
+    { title: "Lei Maria da Penha e os Precedentes Judiciais", date: "22/05/2026", timestamp: "2026-05-22T15:00:00", image: "../img/jurisprudencia-violencia-domestica-lei-maria-penha-stf-stj.webp", excerpt: "A jurisprudência do STF e do STJ consolidou precedentes que ampliam o alcance da Lei Maria da Penha e reforçam a proteção à mulher em situação de violência.", link: "../jurisprudencia/jurisprudencia-violencia-domestica-lei-maria-penha-stf-stj.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "Liberdade de Expressão e Seus Limites Judiciais", date: "19/05/2026", timestamp: "2026-05-19T07:00:00", image: "../img/liberdade-expressao-limites-judiciais-stf-discurso-odio.webp", excerpt: "A jurisprudência do STF define os contornos da liberdade de expressão frente ao discurso de ódio, à desinformação e aos direitos da personalidade.", link: "../jurisprudencia/liberdade-expressao-limites-judiciais-stf-discurso-odio.html", category: "jurisprudencia", author: "Justiça em Dia", authorLink: "#" },
     {
     title: "Reparação do Sofrimento e Critérios Judiciais",

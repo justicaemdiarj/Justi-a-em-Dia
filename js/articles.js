@@ -3,67 +3,72 @@ const posts = [
   
 
 {  
-title: "Pluralidade de Crimes e Unidade de Pena", description: "A distinção entre concurso material e crime continuado pode significar décadas de diferença na pena do condenado", description2: "Dosimetria, execução penal e criminalidade digital tornam o tema mais relevante do que nunca no direito penal contemporâneo", image: "img/concurso-material-crime-continuado-pluralidade-pena-dosimetria.webp", link: "direito-penal/concurso-material-crime-continuado-pluralidade-pena-dosimetria.html", date: "2026-05-21T07:00:00",
+title: "Animal de Estimação na Dissolução do Casamento", 
+description: "O STJ e os tribunais estaduais constroem critérios que tratam pets como seres com interesses próprios nas disputas de guarda pós-separação", 
+description2: "Bem-estar animal, vínculo afetivo e acordos extrajudiciais são os pilares da solução jurídica mais equilibrada para o tema", 
+image: "img/guarda-pets-separacao-animais-estimacao-dissolucao-conjugal.webp", 
+link: "direito-de-familia/guarda-pets-separacao-animais-estimacao-dissolucao-conjugal.html", 
+date: "2026-05-22T12:00:00",
   section: "featured"
 },
   {
+title: "Pluralidade de Crimes e Unidade de Pena", 
+description: "A distinção entre concurso material e crime continuado pode significar décadas de diferença na pena do condenado", 
+description2: "Dosimetria, execução penal e criminalidade digital tornam o tema mais relevante do que nunca no direito penal contemporâneo", 
+image: "img/concurso-material-crime-continuado-pluralidade-pena-dosimetria.webp", 
+link: "direito-penal/concurso-material-crime-continuado-pluralidade-pena-dosimetria.html", 
+date: "2026-05-21T07:00:00",
+  section: "featured-secundario"
+},
+{
 title: "Vida em Condomínio e Litígios de Convivência", 
 description: "Ruído, inadimplência e animais de estimação lideram os conflitos condominiais que chegam ao Judiciário brasileiro todos os anos", 
 description2: "Síndico, convenção condominial e mediação são os pilares da resolução de disputas entre condôminos", 
 image: "img/condominios-conflitos-vizinhos-sindico-convencao-direito-civil.webp", 
 link: "direito-civil/condominios-conflitos-vizinhos-sindico-convencao-direito-civil.html", 
 date: "2026-05-20T20:00:00",
-  section: "featured-secundario"
-},
-{
-  title: "Conflitos de Interesse e Integridade Corporativa",
-  description: "A gestão de conflitos de interesse é pilar do compliance e protege a organização de riscos reputacionais e sanções regulatórias",
-  description2: "Declaração proativa, canais de denúncia e política interna robusta são os instrumentos essenciais de prevenção",
-  image: "img/conflito-interesse-gestao-integridade-governanca-corporativa.webp",
-  link: "compliance/conflito-interesse-gestao-integridade-governanca-corporativa.html",
-  date: "2026-05-19T07:00:00",
  section: "featured-terciario"
 },
   {
- title: "Liberdade de Expressão e Seus Limites Judiciais",
- image: "img/liberdade-expressao-limites-judiciais-stf-discurso-odio.webp", 
- link: "jurisprudencia/liberdade-expressao-limites-judiciais-stf-discurso-odio.html",
-  date: "2026-05-19T07:00:00",
+title: "KYC e a Diligência Devida Sobre Parceiros",
+ image: "img/kyc-verificacao-terceiros-due-diligence-compliance-lavagem.webp", 
+ link: "compliance/kyc-verificacao-terceiros-due-diligence-compliance-lavagem.html",
+date: "2026-05-22T09:00:00",
     section: "destaque"
   },
    {
-title: "Prisão Disciplinar Militar e a Constituição",
-image: "img/prisao-disciplinar-militar-constitucionalidade-limites-direitos.webp", 
-link: "direito-militar/prisao-disciplinar-militar-constitucionalidade-limites-direitos.html", 
-  date: "2026-05-19T07:00:00",
+title: 'Lei Maria da Penha e os Precedentes Judiciais',
+image: "img/jurisprudencia-violencia-domestica-lei-maria-penha-stf-stj.webp", 
+link: "jurisprudencia/jurisprudencia-violencia-domestica-lei-maria-penha-stf-stj.html",
+date: "2026-05-22T15:00:00",
    section: "destaque"
   },
   {
-  title: "Imprensa, Poder e Democracia em Crise",
-  image: "img/papel-midia-imprensa-democracia-poder-comunicacao.webp",
-  link: "politica/papel-midia-imprensa-democracia-poder-comunicacao.html",
-  date: "2026-05-19T07:00:00",
+ title: "Omissão Militar e o Dever de Agir em Serviço",
+ image: "img/omissao-servico-responsabilidade-penal-militar-dever-agir.webp", 
+ link: "direito-militar/omissao-servico-responsabilidade-penal-militar-dever-agir.html",
+date: "2026-05-22T13:00:00",
    section: "destaque"
   },
   {
-  title: "Locação Urbana e os Direitos do Inquilino",
-  image: "img/lei-inquilinato-locacao-urbana-direitos-inquilino-locador.webp",
-  link: "legislacao/lei-inquilinato-locacao-urbana-direitos-inquilino-locador.html",
-  date: "2026-05-19T07:00:00",
+title: "Segurança Pública Entre o Estado e a Violência", 
+image: "img/seguranca-publica-politica-violencia-estado-crime-organizado.webp", 
+link: "politica/seguranca-publica-politica-violencia-estado-crime-organizado.html",
+date: "2026-05-22T08:00:00",
  section: "veja"
   },
    {
-  title: "Jornada 12x36 Entre a Flexibilidade e o Esgotamento",
- image: "img/jornada-12x36-flexibilidade-saude-trabalhador-clt.webp",
-  link: "direito-trabalhista/jornada-12x36-flexibilidade-saude-trabalhador-clt.html",
-  date: "2026-05-19T07:00:00",
+title: 'Saneamento Básico e a Lei que Mudou Tudo',
+image: "img/marco-legal-saneamento-lei-14026-concessao-agua-esgoto.webp", 
+link: "legislacao/marco-legal-saneamento-lei-14026-concessao-agua-esgoto.html", 
+date: "2026-05-22T11:00:00",
    section: "veja"
   },
   {
- title: "Laje Urbana e Acesso à Propriedade Formal",
- image: "img/direito-laje-regularizacao-propriedade-habitacao-urbana.webp",
-  link: "direito-civil/direito-laje-regularizacao-propriedade-habitacao-urbana.html",
-  date: "2026-05-19T07:00:00",
+title: "Pausa no Trabalho e Seus Efeitos na Jornada",
+image: "img/intervalo-intrajornada-efeitos-clt-reforma-trabalhista-jornada.webp", 
+link: "direito-trabalhista/intervalo-intrajornada-efeitos-clt-reforma-trabalhista-jornada.html",
+date: "2026-05-22T07:00:00",
   section: "veja"
   },
 ];
@@ -263,10 +268,9 @@ document.addEventListener("DOMContentLoaded", function(){
   /* ===== MAIS LIDOS ===== */
   const posts = [
   
-{
-  title: "Exclusão Ilegal de Militar e Direito ao Retorno",
-  link: "direito-militar/exclusao-ilegal-militar-direito-retorno.html",
-  date: "2026-05-14T07:00:00"
+{ title: "Animal de Estimação na Dissolução do Casamento", 
+  link: "direito-de-familia/guarda-pets-separacao-animais-estimacao-dissolucao-conjugal.html", 
+  date: "2026-05-22T12:00:00" 
 },
 {
   title: "Fake News, Plataformas Digitais e o Dilema Regulatório",
@@ -274,19 +278,19 @@ document.addEventListener("DOMContentLoaded", function(){
   date: "2026-05-14T07:00:00"
 },
 {
-  title: "Igualdade Racial no Brasil Além do Papel",
-  link: "legislacao/igualdade-racial-brasil-alem-do-papel.html",
-  date: "2026-05-14T07:00:00"
+  title: "Imprensa, Poder e Democracia em Crise",
+  link: "politica/papel-midia-imprensa-democracia-poder-comunicacao.html",
+  date: "2026-05-19T07:00:00"
 },
 {
-  title: "Distinguishing e a Arte de Superar Precedentes",
-  link: "jurisprudencia/distinguishing-arte-superar-precedentes.html",
-  date: "2026-05-14T07:00:00"
+  title: "Fixação da Pena e Arbítrio Judicial Controlado",
+  link: "direito-penal/dosimetria-pena-fixacao-individualizacao-sentenca-criminal.html",
+  date: "2026-05-19T07:00:00"
 },
 {
-  title: "Verificação de Fornecedores e Risco Corporativo no Brasil",
-  link: "compliance/verificacao-fornecedores-risco-corporativo-brasil.html",
-  date: "2026-05-14T07:00:00"
+  title: "Herança Digital e os Bens do Século XXI",
+  link: "direito-de-familia/patrimonio-digital-sucessao-heranca-bens-virtuais.html",
+  date: "2026-05-19T07:00:00"
 },
 
   ];
@@ -341,16 +345,16 @@ source: "",
 date: "2026-05-12T07:00:00"
 },
 {
-title: "Crise Institucional e o Equilíbrio Republicano",
-  link: "politica/crise-institucional-poderes-equilibrio-republica.html",
+title: "Igualdade Racial no Brasil Além do Papel",
+  link: "legislacao/igualdade-racial-brasil-alem-do-papel.html",
 source: "",
-date: "2026-05-11T07:00:00"
+date: "2026-05-14T07:00:00"
 },
 {
-title: "Constitucionalismo e os Limites do Poder Político",
-link: "politica/constitucionalismo-limites-poder-politico.html",
+title: "Conflitos de Interesse e Integridade Corporativa",
+link: "compliance/conflito-interesse-gestao-integridade-governanca-corporativa.html",
 source: "",
-date: "2026-05-06T03:00:00"
+date: "2026-05-19T03:00:00"
 },
 {
 title: "Auditoria Interna Independente como Escudo Corporativo",
@@ -359,16 +363,16 @@ source: "",
 date: "2026-05-12T07:00:00"
 },
 {
-title: "Controles Internos e a Matriz de Riscos Corporativa",
-link: "compliance/matriz-riscos-controles-internos-governanca-corporativa.html",
+title: "Jornada 12x36 Entre a Flexibilidade e o Esgotamento",
+link: "direito-trabalhista/jornada-12x36-flexibilidade-saude-trabalhador-clt.html",
 source: "",
-date: "2026-05-11T07:00:00"
+date: "2026-05-19T07:00:00"
 },
 {
-title: "Riscos Corporativos e a Urgência do Mapeamento",
-    link: "compliance/mapeamento-riscos-corporativos-governanca-empresarial.html",
+title: "Antitruste e Governança Competitiva nas Empresas",
+    link: "compliance-concorrencial-antitruste-governanca-competitiva.html",
 source: "",
-date: "2026-05-08T07:00:00"
+date: "2026-05-18T07:00:00"
 },
 {
  title: "Quando o Crime Não Pode Existir de Fato",
@@ -383,10 +387,10 @@ source: "",
 date: "2026-05-13T07:00:00",
 },
 {
-   title: "Audiência de Custódia e a Proteção do Preso",
-    link: "direito-penal/audiencia-custodia-garantias-preso-flagrante.html",
+   title: "Laje Urbana e Acesso à Propriedade Formal",
+    link: "direito-civil/direito-laje-regularizacao-propriedade-habitacao-urbana.html",
 source: "",
-date: "2026-05-11T07:00:00"
+date: "2026-05-19T07:00:00"
 },
 
 ];

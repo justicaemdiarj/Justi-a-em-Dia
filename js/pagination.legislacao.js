@@ -2,10 +2,11 @@
 window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
+    { title: "Saneamento Básico e a Lei que Mudou Tudo", date: "22/05/2026", timestamp: "2026-05-22T07:00:00", image: "../img/marco-legal-saneamento-lei-14026-concessao-agua-esgoto.webp", excerpt: "O Marco Legal do Saneamento de 2020 impôs metas universais de acesso à água e ao esgoto e abriu o setor às concessões privadas com regulação reforçada.", link: "../legislacao/marco-legal-saneamento-lei-14026-concessao-agua-esgoto.html", author: "Justiça em Dia", authorLink: "#" },
     {
     title: "Locação Urbana e os Direitos do Inquilino",
     date: "19/05/2026",
-    timestamp: "2026-05-19T07:00:00",
+    timestamp: "2026-05-19T11:00:00",
     image: "../img/lei-inquilinato-locacao-urbana-direitos-inquilino-locador.webp",
     excerpt: "A Lei do Inquilinato disciplina as relações de locação urbana no Brasil, estabelecendo garantias, limites de reajuste e procedimentos de despejo.",
     link: "../legislacao/lei-inquilinato-locacao-urbana-direitos-inquilino-locador.html",

@@ -2,6 +2,7 @@
 window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
+    { title: "Pausa no Trabalho e Seus Efeitos na Jornada", date: "22/05/2026", timestamp: "2026-05-22T07:00:00", image: "../img/intervalo-intrajornada-efeitos-clt-reforma-trabalhista-jornada.webp", excerpt: "O intervalo intrajornada teve suas regras alteradas pela reforma trabalhista de 2017, gerando debate sobre saúde do trabalhador, negociação coletiva e natureza indenizatória.", link: "../direito-trabalhista/intervalo-intrajornada-efeitos-clt-reforma-trabalhista-jornada.html", author: "Justiça em Dia", authorLink: "#" },
     {
     title: "Jornada 12x36 Entre a Flexibilidade e o Esgotamento",
     date: "19/05/2026",

@@ -2,6 +2,15 @@
 window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
+    { title: "KYC e a Diligência Devida Sobre Parceiros", 
+        date: "22/05/2026", 
+        timestamp: "2026-05-22T09:00:00", 
+        image: "../img/kyc-verificacao-terceiros-due-diligence-compliance-lavagem.webp", 
+        excerpt: "O KYC e a verificação de terceiros são obrigações legais de compliance e prevenção à lavagem de dinheiro reguladas pelo BACEN, CVM e COAF.", 
+        link: "../compliance/kyc-verificacao-terceiros-due-diligence-compliance-lavagem.html",  
+    author: "Romer Carvalho",
+    authorLink: "../apoiadores/advogado-romer-carvalho.html"
+    },
     {
     title: "Conflitos de Interesse e Integridade Corporativa",
     date: "19/05/2026",

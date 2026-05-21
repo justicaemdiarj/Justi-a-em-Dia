@@ -2,6 +2,7 @@
 window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
+    { title: "Omissão Militar e o Dever de Agir em Serviço", date: "22/05/2026", timestamp: "2026-05-22T13:00:00", image: "../img/omissao-servico-responsabilidade-penal-militar-dever-agir.webp", excerpt: "A responsabilidade penal por omissão em serviço militar impõe ao fardado um dever legal de agir cujo descumprimento atrai sanções penais e disciplinares graves.", link: "../direito-militar/omissao-servico-responsabilidade-penal-militar-dever-agir.html",  author: "Justiça em Dia", authorLink: "#" },
     { title: "Prisão Disciplinar Militar e a Constituição", date: "19/05/2026", timestamp: "2026-05-19T07:00:00", image: "../img/prisao-disciplinar-militar-constitucionalidade-limites-direitos.webp", excerpt: "A prisão disciplinar militar é exceção constitucional à reserva jurisdicional, gerando debate sobre seus limites e compatibilidade com direitos fundamentais.", link: "../direito-militar/prisao-disciplinar-militar-constitucionalidade-limites-direitos.html", author: "Justiça em Dia", authorLink: "#" },
 
     {

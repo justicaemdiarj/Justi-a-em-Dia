@@ -122,6 +122,13 @@ const globalNewsData = [
 },
 { title: "Vida em Condomínio e Litígios de Convivência", link: "direito-civil/condominios-conflitos-vizinhos-sindico-convencao-direito-civil.html" },
 { title: "Pluralidade de Crimes e Unidade de Pena", link: "direito-penal/concurso-material-crime-continuado-pluralidade-pena-dosimetria.html" },
+{ title: "Animal de Estimação na Dissolução do Casamento", link: "direito-de-familia/guarda-pets-separacao-animais-estimacao-dissolucao-conjugal.html" },
+{ title: "Pausa no Trabalho e Seus Efeitos na Jornada", link: "direito-trabalhista/intervalo-intrajornada-efeitos-clt-reforma-trabalhista-jornada.html" },
+{ title: "Saneamento Básico e a Lei que Mudou Tudo", link: "legislacao/marco-legal-saneamento-lei-14026-concessao-agua-esgoto.html" },
+{ title: "Segurança Pública Entre o Estado e a Violência", link: "politica/seguranca-publica-politica-violencia-estado-crime-organizado.html" },
+{ title: "Omissão Militar e o Dever de Agir em Serviço", link: "direito-militar/omissao-servico-responsabilidade-penal-militar-dever-agir.html" },
+{ title: "Lei Maria da Penha e os Precedentes Judiciais", link: "jurisprudencia/jurisprudencia-violencia-domestica-lei-maria-penha-stf-stj.html" },
+{ title: "KYC e a Diligência Devida Sobre Parceiros", link: "compliance/kyc-verificacao-terceiros-due-diligence-compliance-lavagem.html" }
 ];
 
 // Array para armazenar todas as notícias coletadas dos arquivos de paginação

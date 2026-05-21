@@ -2,6 +2,15 @@
 window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
+    { title: "Animal de Estimação na Dissolução do Casamento", 
+        date: "22/05/2026", 
+        timestamp: "2026-05-22T12:00:00", 
+        image: "../img/guarda-pets-separacao-animais-estimacao-dissolucao-conjugal.webp", 
+        excerpt: "A guarda de pets após separação tornou-se tema sensível do direito de família, com tribunais desenvolvendo critérios que vão além da partilha patrimonial.", 
+        link: "../direito-de-familia/guarda-pets-separacao-animais-estimacao-dissolucao-conjugal.html",  
+    author: "Romer Carvalho",
+    authorLink: "../apoiadores/advogado-romer-carvalho.html"
+    },
     {
     title: "Herança Digital e os Bens do Século XXI",
     date: "19/05/2026",
