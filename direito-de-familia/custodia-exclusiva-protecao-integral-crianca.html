@@ -618,5 +618,245 @@ weatherLocation.textContent = "São Paulo";
 detectarLocalizacao();
     });
 </script>
+
+
+    <a href="https://wa.me/5521979842002?text=Olá%2C%20gostaria%20de%20falar%20com%20o%20Advogado%20Romer%20Carvalho..." target="_blank" id="onlineAlert" class="online-alert-container" style="text-decoration: none; display: none;">
+        <div class="online-alert-box" id="alertBox">
+            <div class="online-status-indicator" id="statusIndicator"></div>
+            <div class="online-alert-content" id="alertText">
+                <!-- O texto será inserido pelo JavaScript abaixo -->
+            </div>
+            <button id="closeAlert" class="close-alert-btn" onclick="event.preventDefault(); event.stopPropagation();">&times;</button>
+        </div>
+    </a>
+
+
+    <script>
+        function playNotification() {
+            const sound = document.getElementById('notificationSound');
+            if (sound) {
+                sound.volume = 1.0; // Garante volume máximo
+                sound.play().catch(e => console.log("Aguardando interação para tocar som..."));
+            }
+        }
+
+        function initializeOnlineAlert() {
+            const alertContainer = document.getElementById('onlineAlert');
+            const closeBtn = document.getElementById('closeAlert');
+
+            // 1. Mostra o alerta após 2 segundos
+            setTimeout(() => {
+                alertContainer.style.display = 'block';
+                
+                // 2. Tenta tocar o som imediatamente
+                playNotification();
+
+                // 3. ESTRATÉGIA INFALÍVEL: 
+                // Se o navegador bloqueou o som acima, ele tocará no primeiro clique do usuário.
+                const triggerSound = () => {
+                    playNotification();
+                    document.removeEventListener('click', triggerSound);
+                    document.removeEventListener('touchstart', triggerSound);
+                };
+                document.addEventListener('click', triggerSound);
+                document.addEventListener('touchstart', triggerSound); // Para celulares
+            }, 2000);
+
+            closeBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                alertContainer.style.animation = 'slideOutRight 0.5s ease-out forwards';
+                setTimeout(() => { alertContainer.style.display = 'none'; }, 500);
+            });
+        }
+
+        window.onload = initializeOnlineAlert;
+    </script>
+
+    <style>
+        /* Estilos do Alerta */
+        .online-alert-container {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            z-index: 9999;
+            animation: slideInRight 0.5s ease-out forwards;
+        }
+
+        @keyframes slideInRight {
+            from { transform: translateX(400px); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+
+        @keyframes pulse {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(76, 175, 80, 0.7); }
+            50% { box-shadow: 0 0 0 10px rgba(76, 175, 80, 0); }
+        }
+
+        .online-alert-box {
+            background: white;
+            border-radius: 12px;
+            padding: 16px 20px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            min-width: 280px;
+            border-left: 4px solid #4CAF50;
+            position: relative;
+            transition: transform 0.3s ease;
+        }
+
+        .online-alert-box:hover {
+            transform: translateY(-5px);
+        }
+
+        .online-status-indicator {
+            width: 12px;
+            height: 12px;
+            background: #4CAF50;
+            border-radius: 50%;
+            flex-shrink: 0;
+            animation: pulse 2s infinite;
+        }
+
+        .online-alert-content h4 {
+            margin: 0 0 4px 0;
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: #1a1a1a;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .online-alert-content p {
+            margin: 0;
+            font-size: 0.8rem;
+            color: #666;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .close-alert-btn {
+            background: none;
+            border: none;
+            font-size: 24px;
+            color: #999;
+            cursor: pointer;
+            padding: 0;
+            width: 24px;
+            height: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: color 0.3s ease;
+        }
+
+        .close-alert-btn:hover { color: #c6a355; }
+
+        @media (max-width: 768px) {
+            .online-alert-container { right: 10px; bottom: 10px; }
+            .online-alert-box { min-width: 260px; }
+        }
+    </style>
+
+       <script>
+        function updateStatusByTime() {
+            const now = new Date();
+            const hour = now.getHours();
+            const alertText = document.getElementById('alertText');
+            const statusIndicator = document.getElementById('statusIndicator');
+            const alertBox = document.getElementById('alertBox');
+
+            // Define se está ONLINE (entre 07h e 19h59) ou AUSENTE (20h às 06h59)
+            const isOnline = (hour >= 7 && hour < 21);
+
+            if (isOnline) {
+                // Configuração ONLINE
+                alertText.innerHTML = '<h4>Advogado Online</h4><p>Romer Carvalho está disponível agora!</p>';
+                statusIndicator.style.background = '#4CAF50'; // Verde
+                alertBox.style.borderLeft = '4px solid #4CAF50';
+            } else {
+                // Configuração AUSENTE
+                alertText.innerHTML = '<h4>Advogado Offline</h4><p>Deixe sua mensagem aqui!</p>';
+                statusIndicator.style.background = '#FF9800'; // Laranja/Amarelo
+                alertBox.style.borderLeft = '4px solid #FF9800';
+            }
+        }
+
+        function playNotification() {
+            const sound = document.getElementById('notificationSound');
+            if (sound) {
+                sound.volume = 1.0;
+                sound.play().catch(() => {});
+            }
+        }
+
+        function initializeOnlineAlert() {
+            const alertContainer = document.getElementById('onlineAlert');
+            const closeBtn = document.getElementById('closeAlert');
+
+            // 1. Atualiza o texto conforme o horário antes de mostrar
+            updateStatusByTime();
+
+            // 2. Mostra o alerta após 2 segundos
+            setTimeout(() => {
+                alertContainer.style.display = 'block';
+                playNotification();
+
+                const triggerSound = () => {
+                    playNotification();
+                    document.removeEventListener('click', triggerSound);
+                };
+                document.addEventListener('click', triggerSound);
+            }, 2000);
+
+            closeBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                alertContainer.style.animation = 'slideOutRight 0.5s ease-out forwards';
+                setTimeout(() => { alertContainer.style.display = 'none'; }, 500);
+            });
+        }
+
+        window.onload = initializeOnlineAlert;
+    </script>
+    <script>
+        function initializeOnlineAlert() {
+            const alertContainer = document.getElementById('onlineAlert');
+            const closeBtn = document.getElementById('closeAlert');
+            const notificationSound = document.getElementById('notificationSound');
+
+            // 1. Mostrar o alerta após 2 segundos
+            setTimeout(() => {
+                alertContainer.style.display = 'block';
+                
+                // 2. Lógica do Som (Contornando bloqueio do navegador)
+                // Tentativa 1: Tocar imediatamente
+                notificationSound.play().catch(() => {
+                    // Tentativa 2: Se falhar, tocar no primeiro clique do usuário na página
+                    console.log("Som aguardando interação do usuário...");
+                    const playOnInteraction = () => {
+                        notificationSound.play();
+                        document.removeEventListener('click', playOnInteraction);
+                    };
+                    document.addEventListener('click', playOnInteraction);
+                });
+            }, 2000);
+
+            // Lógica para fechar o alerta
+            closeBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                alertContainer.style.animation = 'slideOutRight 0.5s ease-out forwards';
+                setTimeout(() => { alertContainer.style.display = 'none'; }, 500);
+            });
+        }
+
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initializeOnlineAlert);
+        } else {
+            initializeOnlineAlert();
+        }
+    </script>
 </body>
 </html>
+
