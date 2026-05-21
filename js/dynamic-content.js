@@ -14,62 +14,9 @@ const tickerConfig = {
 const globalNewsData = [
 
 
-{
-  title: "Dinheiro Público nos Partidos Sob Vigilância Democrática",
-  link: "politica/fundo-partidario-controle-publico-financiamento-politico.html",
-},
-{
-  title: "Trabalho em Ambiente Hostil e o Direito à Compensação",
-  link: "direito-trabalhista/adicional-insalubridade-direitos-trabalhadores-expostos.html",
-},
-{
-    title: "Propriedade Além do Direito Individual no Brasil",
-    link: "direito-civil/propriedade-alem-direito-individual-brasil.html",
-},
-{
-    title: "Cumplicidade Criminal e Limites da Responsabilidade Penal",
-    link: "direito-penal/cumplicidade-criminal-limites-responsabilidade-penal.html",
-},
-{
-    title: "Família Contemporânea e os Novos Vínculos Jurídicos",
-    link: "direito-de-familia/familia-contemporanea-novos-vinculos-juridicos.html",
-},
-{
-    title: "Verificação de Fornecedores e Risco Corporativo no Brasil",
-    link: "compliance/verificacao-fornecedores-risco-corporativo-brasil.html",
-},
-{
-    title: "Distinguishing e a Arte de Superar Precedentes",
-    link: "jurisprudencia/distinguishing-arte-superar-precedentes.html",
-},
-{
-    title: "Igualdade Racial no Brasil Além do Papel",
-    link: "legislacao/igualdade-racial-brasil-alem-do-papel.html",
-},
-{
-    title: "Fake News, Plataformas Digitais e o Dilema Regulatório",
-    link: "politica/fake-news-plataformas-digitais-dilema-regulatorio.html",
-},
-{
-    title: "Exclusão Ilegal de Militar e Direito ao Retorno",
-    link: "direito-militar/exclusao-ilegal-militar-direito-retorno.html",
-},
-{
-    title: "Risco no Trabalho e Remuneração Especial",
-    link: "direito-trabalhista/adicional-periculosidade-direito-remuneracao-risco.html",
-},
-{
-    title: "Burocracia em Xeque e o Novo Estado",
-    link: "politica/reforma-administrativa-estado-burocracia-eficiencia-publica.html",
-},
-{
-    title: "Militar Armado Fora da Caserna e a Lei",
-    link: "direito-militar/porte-arma-militar-fora-servico-prerrogativa-responsabilidade.html",
-},
-{
-    title: "Improbidade Reformada e o Combate à Corrupção",
-    link: "legislacao/lei-improbidade-reforma-combate-corrupcao-gestao-publica.html",
-},
+
+
+
 {
     title: "Reparação do Sofrimento e Critérios Judiciais",
     link: "jurisprudencia/jurisprudencia-danos-morais-criterios-indenizacao-judicial.html",
