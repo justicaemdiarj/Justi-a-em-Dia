@@ -3,21 +3,16 @@ const posts = [
   
 
 {  
+title: "Pluralidade de Crimes e Unidade de Pena", description: "A distinção entre concurso material e crime continuado pode significar décadas de diferença na pena do condenado", description2: "Dosimetria, execução penal e criminalidade digital tornam o tema mais relevante do que nunca no direito penal contemporâneo", image: "img/concurso-material-crime-continuado-pluralidade-pena-dosimetria.webp", link: "direito-penal/concurso-material-crime-continuado-pluralidade-pena-dosimetria.html", date: "2026-05-21T07:00:00",
+  section: "featured"
+},
+  {
 title: "Vida em Condomínio e Litígios de Convivência", 
 description: "Ruído, inadimplência e animais de estimação lideram os conflitos condominiais que chegam ao Judiciário brasileiro todos os anos", 
 description2: "Síndico, convenção condominial e mediação são os pilares da resolução de disputas entre condôminos", 
 image: "img/condominios-conflitos-vizinhos-sindico-convencao-direito-civil.webp", 
 link: "direito-civil/condominios-conflitos-vizinhos-sindico-convencao-direito-civil.html", 
 date: "2026-05-20T20:00:00",
-  section: "featured"
-},
-  {
-  title: "Herança Digital e os Bens do Século XXI",
-  description: "O patrimônio digital na sucessão inclui criptomoedas, contas em plataformas e direitos autorais que o Código Civil ainda não sabe como transmitir",
-  description2: "A ausência de legislação específica deixa herdeiros reféns das políticas das big techs e das senhas que morreram com o titular",
-  image: "img/patrimonio-digital-sucessao-heranca-bens-virtuais.webp",
-  link: "direito-de-familia/patrimonio-digital-sucessao-heranca-bens-virtuais.html",
-  date: "2026-05-19T07:00:00",
   section: "featured-secundario"
 },
 {

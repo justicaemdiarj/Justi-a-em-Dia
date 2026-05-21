@@ -148,6 +148,7 @@ const globalNewsData = [
     link: "direito-civil/direito-laje-regularizacao-propriedade-habitacao-urbana.html",
 },
 { title: "Vida em Condomínio e Litígios de Convivência", link: "direito-civil/condominios-conflitos-vizinhos-sindico-convencao-direito-civil.html" },
+{ title: "Pluralidade de Crimes e Unidade de Pena", link: "direito-penal/concurso-material-crime-continuado-pluralidade-pena-dosimetria.html" },
 ];
 
 // Array para armazenar todas as notícias coletadas dos arquivos de paginação

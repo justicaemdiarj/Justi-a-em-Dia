@@ -220,6 +220,7 @@ const allArticles = [
     url: 'direito-de-familia/familia-contemporanea-novos-vinculos-juridicos.html',
     tags: ['Direito das Famílias', 'Multiparentalidade', 'Família Contemporânea e os Novos Vínculos Jurídicos']
 },
+{ title: 'Pluralidade de Crimes e Unidade de Pena', description: 'O concurso material e o crime continuado definem como o juiz pune quem pratica mais de um crime, com impacto direto sobre a pena final.', category: 'Direito Criminal', url: 'direito-penal/concurso-material-crime-continuado-pluralidade-pena-dosimetria.html', tags: ['Concurso Material', 'Crime Continuado', 'Código Penal', 'Dosimetria', 'Pluralidade de Crimes e Unidade de Pena'] },
 {
     title: 'Verificação de Fornecedores e Risco Corporativo no Brasil',
     description: 'A due diligence em fornecedores tornou-se obrigação estratégica para empresas sob os ditames da Lei Anticorrupção e das normas internacionais de compliance.',
