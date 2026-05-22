@@ -1,5 +1,7 @@
 // Base de dados global de artigos para busca
 const allArticles = [
+    { title: 'KYC e a Diligência Devida Sobre Parceiros', description: 'O KYC e a verificação de terceiros são obrigações legais de compliance e prevenção à lavagem de dinheiro reguladas pelo BACEN, CVM e COAF.', category: 'Compliance', url: 'compliance/kyc-verificacao-terceiros-due-diligence-compliance-lavagem.html', tags: ['KYC', 'Know Your Customer', 'Verificação de Terceiros', 'Romer Carvalho', 'Due Diligence', 'KYC e a Diligência Devida Sobre Parceiros'] },
+    { title: 'Animal de Estimação na Dissolução do Casamento', description: 'A guarda de pets após separação tornou-se tema sensível do direito de família, com tribunais desenvolvendo critérios que vão além da partilha patrimonial.', category: 'Direito de Família', url: 'direito-de-familia/guarda-pets-separacao-animais-estimacao-dissolucao-conjugal.html', tags: ['Guarda de Pets', 'Separação', 'Animais de Estimação', 'Romer Carvalho', 'Direito de Família', 'Animal de Estimação na Dissolução do Casamento'] },
     {
     title: 'Ordem e Punição nas Fileiras Castrenses',
     description: 'A reestruturação do regime disciplinar das corporações militares brasileiras coloca em pauta a tensão entre hierarquia institucional e garantias fundamentais.',
@@ -240,7 +242,7 @@ const allArticles = [
 { title: 'Segurança Pública Entre o Estado e a Violência', description: 'A política de segurança pública no Brasil debate modelos de policiamento, crime organizado e sistema prisional diante de taxas de violência persistentemente elevadas.', category: 'Política', url: 'politica/seguranca-publica-politica-violencia-estado-crime-organizado.html', tags: ['Segurança Pública', 'Crime Organizado', 'Sistema Prisional', 'Policiamento', 'Segurança Pública Entre o Estado e a Violência'] },
 { title: 'Omissão Militar e o Dever de Agir em Serviço', description: 'A responsabilidade penal por omissão em serviço militar impõe ao fardado um dever legal de agir cujo descumprimento atrai sanções penais e disciplinares graves.', category: 'Direito Militar', url: 'direito-militar/omissao-servico-responsabilidade-penal-militar-dever-agir.html', tags: ['Omissão em Serviço', 'Direito Militar', 'Responsabilidade Penal', 'Código Penal Militar', 'Omissão Militar e o Dever de Agir em Serviço'] },
 { title: 'Lei Maria da Penha e os Precedentes Judiciais', description: 'A jurisprudência do STF e do STJ consolidou precedentes que ampliam o alcance da Lei Maria da Penha e reforçam a proteção à mulher.', category: 'Jurisprudência', url: 'jurisprudencia/jurisprudencia-violencia-domestica-lei-maria-penha-stf-stj.html', tags: ['Violência Doméstica', 'Lei Maria da Penha', 'STF', 'STJ', 'Lei Maria da Penha e os Precedentes Judiciais'] },
-{ title: 'KYC e a Diligência Devida Sobre Parceiros', description: 'O KYC e a verificação de terceiros são obrigações legais de compliance e prevenção à lavagem de dinheiro reguladas pelo BACEN, CVM e COAF.', category: 'Compliance', url: 'compliance/kyc-verificacao-terceiros-due-diligence-compliance-lavagem.html', tags: ['KYC', 'Know Your Customer', 'Verificação de Terceiros', 'Romer Carvalho', 'Due Diligence', 'KYC e a Diligência Devida Sobre Parceiros'] },
+
 {
     title: 'Igualdade Racial no Brasil Além do Papel',
     description: 'O Estatuto da Igualdade Racial completa mais de uma década com avanços normativos e lacunas de efetividade que o debate público não pode ignorar.',
@@ -248,7 +250,6 @@ const allArticles = [
     url: 'legislacao/igualdade-racial-brasil-alem-do-papel.html',
     tags: ['Estatuto da Igualdade Racial', 'Legislação', 'Igualdade Racial no Brasil Além do Papel']
 },
-{ title: 'Animal de Estimação na Dissolução do Casamento', description: 'A guarda de pets após separação tornou-se tema sensível do direito de família, com tribunais desenvolvendo critérios que vão além da partilha patrimonial.', category: 'Direito de Família', url: 'direito-de-familia/guarda-pets-separacao-animais-estimacao-dissolucao-conjugal.html', tags: ['Guarda de Pets', 'Separação', 'Animais de Estimação', 'Romer Carvalho', 'Direito de Família', 'Animal de Estimação na Dissolução do Casamento'] },
 {
     title: 'Exclusão Ilegal de Militar e Direito ao Retorno',
     description: 'A reintegração de militar excluído ilegalmente exige a anulação do ato administrativo viciado e o restabelecimento integral dos direitos do afastado.',

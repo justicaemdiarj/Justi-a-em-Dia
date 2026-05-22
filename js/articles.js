@@ -273,13 +273,13 @@ document.addEventListener("DOMContentLoaded", function(){
   date: "2026-05-22T12:00:00" 
 },
 {
-  title: "Fake News, Plataformas Digitais e o Dilema Regulatório",
-  link: "politica/fake-news-plataformas-digitais-dilema-regulatorio.html",
-  date: "2026-05-14T07:00:00"
+  title: "Segurança Pública Entre o Estado e a Violência",
+  link: "politica/seguranca-publica-politica-violencia-estado-crime-organizado.html",
+  date: "2026-05-22T07:00:00"
 },
 {
-  title: "Imprensa, Poder e Democracia em Crise",
-  link: "politica/papel-midia-imprensa-democracia-poder-comunicacao.html",
+  title: "Jornada 12x36 Entre a Flexibilidade e o Esgotamento",
+  link: "direito-trabalhista/jornada-12x36-flexibilidade-saude-trabalhador-clt.html",
   date: "2026-05-19T07:00:00"
 },
 {
@@ -288,9 +288,9 @@ document.addEventListener("DOMContentLoaded", function(){
   date: "2026-05-19T07:00:00"
 },
 {
-  title: "Herança Digital e os Bens do Século XXI",
-  link: "direito-de-familia/patrimonio-digital-sucessao-heranca-bens-virtuais.html",
-  date: "2026-05-19T07:00:00"
+  title: "KYC e a Diligência Devida Sobre Parceiros",
+  link: "compliance/kyc-verificacao-terceiros-due-diligence-compliance-lavagem.html",
+  date: "2026-05-22T07:00:00"
 },
 
   ];
@@ -370,7 +370,7 @@ date: "2026-05-19T07:00:00"
 },
 {
 title: "Antitruste e Governança Competitiva nas Empresas",
-    link: "compliance-concorrencial-antitruste-governanca-competitiva.html",
+    link: "compliance/compliance-concorrencial-antitruste-governanca-competitiva.html",
 source: "",
 date: "2026-05-18T07:00:00"
 },
