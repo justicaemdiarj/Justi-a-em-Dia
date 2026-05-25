@@ -2,6 +2,7 @@
 window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
+    { title: "A Lei Que Nomeia o Ódio Letal Contra Mulheres", date: "25/05/2026", timestamp: "2026-05-25T12:00:00", image: "../img/lei-que-nomeia-odio-letal-contra-mulheres.webp", excerpt: "A tipificação do feminicídio marcou avanço legislativo, mas o balanço de uma década revela a distância entre a lei e a proteção efetiva das mulheres.", link: "../legislacao/lei-que-nomeia-odio-letal-contra-mulheres.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "Saneamento Básico e a Lei que Mudou Tudo", date: "22/05/2026", timestamp: "2026-05-22T07:00:00", image: "../img/marco-legal-saneamento-lei-14026-concessao-agua-esgoto.webp", excerpt: "O Marco Legal do Saneamento de 2020 impôs metas universais de acesso à água e ao esgoto e abriu o setor às concessões privadas com regulação reforçada.", link: "../legislacao/marco-legal-saneamento-lei-14026-concessao-agua-esgoto.html", author: "Justiça em Dia", authorLink: "#" },
     {
     title: "Locação Urbana e os Direitos do Inquilino",

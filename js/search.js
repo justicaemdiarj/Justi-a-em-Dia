@@ -3,6 +3,17 @@ const allArticles = [
     { title: 'KYC e a Diligência Devida Sobre Parceiros', description: 'O KYC e a verificação de terceiros são obrigações legais de compliance e prevenção à lavagem de dinheiro reguladas pelo BACEN, CVM e COAF.', category: 'Compliance', url: 'compliance/kyc-verificacao-terceiros-due-diligence-compliance-lavagem.html', tags: ['KYC', 'Know Your Customer', 'Verificação de Terceiros', 'Romer Carvalho', 'Due Diligence', 'KYC e a Diligência Devida Sobre Parceiros'] },
     { title: 'Animal de Estimação na Dissolução do Casamento', description: 'A guarda de pets após separação tornou-se tema sensível do direito de família, com tribunais desenvolvendo critérios que vão além da partilha patrimonial.', category: 'Direito de Família', url: 'direito-de-familia/guarda-pets-separacao-animais-estimacao-dissolucao-conjugal.html', tags: ['Guarda de Pets', 'Separação', 'Animais de Estimação', 'Romer Carvalho', 'Direito de Família', 'Animal de Estimação na Dissolução do Casamento'] },
     {
+    title: 'Vigilância Permanente Como Escudo Jurídico Corporativo',
+    description: 'O monitoramento contínuo de compliance tornou-se exigência normativa consolidada no ordenamento jurídico brasileiro, protegendo organizações de responsabilizações administrativas e penais.',
+    category: 'Compliance',
+    url: 'compliance/vigilancia-permanente-escudo-juridico-corporativo.html',
+    tags: ['Monitoramento de Compliance', 'Programa de Integridade', 'Vigilância Permanente Como Escudo Jurídico Corporativo']
+},
+{ title: 'Prisão Antes da Sentença e Seus Limites', description: 'A jurisprudência sobre prisão preventiva revela a tensão entre a excepcionalidade exigida pelo CPP e a cultura do encarceramento antecipado no Brasil.', category: 'Jurisprudência', url: 'jurisprudencia/prisao-antes-sentenca-seus-limites.html', tags: ['Prisão Preventiva', 'Jurisprudência Penal', 'Prisão Antes da Sentença e Seus Limites'] },
+{ title: 'A Lei Que Nomeia o Ódio Letal Contra Mulheres', description: 'A Lei nº 13.104/2015 tipificou o feminicídio como qualificadora do homicídio doloso. Uma década depois, o balanço revela os limites do direito penal diante da violência de gênero.', category: 'Legislação', url: 'legislacao/lei-que-nomeia-odio-letal-contra-mulheres.html', tags: ['Feminicídio', 'Lei Maria da Penha', 'A Lei Que Nomeia o Ódio Letal Contra Mulheres'] },
+{ title: 'O Orçamento Como Radiografia do Poder', description: 'O orçamento público brasileiro revela as prioridades políticas reais de cada governo, das emendas parlamentares às vinculações constitucionais para saúde e educação.', category: 'Política', url: 'politica/orcamento-radiografia-do-poder.html', tags: ['Orçamento Público', 'Prioridades Políticas', 'O Orçamento Como Radiografia do Poder'] },
+{ title: 'Descanso Negado e Direito Ignorado', description: 'O trabalho em domingos e feriados envolve obrigações patronais claras previstas na CLT, na Lei nº 605/1949 e na Constituição Federal, frequentemente ignoradas na prática.', category: 'Direito Trabalhista', url: 'direito-trabalhista/descanso-negado-direito-ignorado.html', tags: ['Trabalho em Feriados', 'Repouso Semanal', 'Descanso Negado e Direito Ignorado'] },
+    {
     title: 'Ordem e Punição nas Fileiras Castrenses',
     description: 'A reestruturação do regime disciplinar das corporações militares brasileiras coloca em pauta a tensão entre hierarquia institucional e garantias fundamentais.',
     category: 'Direito Militar',

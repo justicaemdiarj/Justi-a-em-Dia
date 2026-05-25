@@ -15,20 +15,6 @@ const globalNewsData = [
 
 
 
-
-
-{
-    title: "Reparação do Sofrimento e Critérios Judiciais",
-    link: "jurisprudencia/jurisprudencia-danos-morais-criterios-indenizacao-judicial.html",
-},
-{
-    title: "Antitruste e Governança Competitiva nas Empresas",
-    link: "compliance/compliance-concorrencial-antitruste-governanca-competitiva.html",
-},
-{
-    title: "Curatela Familiar e Dignidade da Vulnerabilidade",
-    link: "direito-de-familia/curatela-protecao-familiar-dignidade-vulnerabilidade.html",
-},
 {
     title: "Ignorância da Lei e Exclusão da Culpabilidade",
     link: "direito-penal/erro-tipo-proibicao-culpabilidade-dolo-exclusao.html",
@@ -75,7 +61,15 @@ const globalNewsData = [
 { title: "Segurança Pública Entre o Estado e a Violência", link: "politica/seguranca-publica-politica-violencia-estado-crime-organizado.html" },
 { title: "Omissão Militar e o Dever de Agir em Serviço", link: "direito-militar/omissao-servico-responsabilidade-penal-militar-dever-agir.html" },
 { title: "Lei Maria da Penha e os Precedentes Judiciais", link: "jurisprudencia/jurisprudencia-violencia-domestica-lei-maria-penha-stf-stj.html" },
-{ title: "KYC e a Diligência Devida Sobre Parceiros", link: "compliance/kyc-verificacao-terceiros-due-diligence-compliance-lavagem.html" }
+{ title: "KYC e a Diligência Devida Sobre Parceiros", link: "compliance/kyc-verificacao-terceiros-due-diligence-compliance-lavagem.html" },
+{
+    title: "Vigilância Permanente Como Escudo Jurídico Corporativo",
+    link: "compliance/vigilancia-permanente-escudo-juridico-corporativo.html",
+},
+{ title: "Prisão Antes da Sentença e Seus Limites", link: "jurisprudencia/prisao-antes-sentenca-seus-limites.html" },
+{ title: "A Lei Que Nomeia o Ódio Letal Contra Mulheres", link: "legislacao/lei-que-nomeia-odio-letal-contra-mulheres.html" },
+{ title: "O Orçamento Como Radiografia do Poder", link: "politica/orcamento-radiografia-do-poder.html" },
+{ title: "Descanso Negado e Direito Ignorado", link: "direito-trabalhista/descanso-negado-direito-ignorado.html" },
 ];
 
 // Array para armazenar todas as notícias coletadas dos arquivos de paginação

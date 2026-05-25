@@ -2,6 +2,17 @@
 window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
+    {
+    title: "Vigilância Permanente Como Escudo Jurídico Corporativo",
+    date: "25/05/2026",
+    timestamp: "2026-05-25T11:00:00",
+    image: "../img/vigilancia-permanente-escudo-juridico-corporativo.webp",
+    excerpt: "O monitoramento contínuo de compliance tornou-se exigência normativa no ordenamento jurídico brasileiro.",
+    link: "../compliance/vigilancia-permanente-escudo-juridico-corporativo.html",
+    category: "compliance",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
     { title: "KYC e a Diligência Devida Sobre Parceiros", 
         date: "22/05/2026", 
         timestamp: "2026-05-22T09:00:00", 

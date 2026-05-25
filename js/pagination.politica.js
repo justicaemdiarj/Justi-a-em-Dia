@@ -2,6 +2,7 @@
 window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
+    { title: "O Orçamento Como Radiografia do Poder", date: "25/05/2026", timestamp: "2026-05-25T14:00:00", image: "../img/orcamento-radiografia-do-poder.webp", excerpt: "O orçamento público revela as prioridades políticas reais de cada governo, expondo a quem o Estado efetivamente serve.", link: "../politica/orcamento-radiografia-do-poder.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "Segurança Pública Entre o Estado e a Violência", date: "22/05/2026", timestamp: "2026-05-22T08:00:00", image: "../img/seguranca-publica-politica-violencia-estado-crime-organizado.webp", excerpt: "A política de segurança pública no Brasil debate modelos de policiamento, crime organizado e sistema prisional diante de taxas de violência persistentemente elevadas.", link: "../politica/seguranca-publica-politica-violencia-estado-crime-organizado.html",  author: "Justiça em Dia", authorLink: "#" },
     {
     title: "Imprensa, Poder e Democracia em Crise",

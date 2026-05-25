@@ -3,21 +3,21 @@ const posts = [
   
 
 {  
-title: "Animal de Estimação na Dissolução do Casamento", 
-description: "O STJ e os tribunais estaduais constroem critérios que tratam pets como seres com interesses próprios nas disputas de guarda pós-separação", 
-description2: "Bem-estar animal, vínculo afetivo e acordos extrajudiciais são os pilares da solução jurídica mais equilibrada para o tema", 
-image: "img/guarda-pets-separacao-animais-estimacao-dissolucao-conjugal.webp", 
-link: "direito-de-familia/guarda-pets-separacao-animais-estimacao-dissolucao-conjugal.html", 
-date: "2026-05-22T12:00:00",
+  title: "Vigilância Permanente Como Escudo Jurídico Corporativo",
+  description: "O monitoramento contínuo de compliance tornou-se exigência normativa consolidada no ordenamento jurídico brasileiro",
+  description2: "Entenda como a vigilância permanente protege organizações de responsabilizações e fortalece a cultura de integridade",
+  image: "img/vigilancia-permanente-escudo-juridico-corporativo.webp",
+  link: "compliance/vigilancia-permanente-escudo-juridico-corporativo.html",
+  date: "2026-05-25T11:00:00",
   section: "featured"
 },
   {
-title: "Pluralidade de Crimes e Unidade de Pena", 
-description: "A distinção entre concurso material e crime continuado pode significar décadas de diferença na pena do condenado", 
-description2: "Dosimetria, execução penal e criminalidade digital tornam o tema mais relevante do que nunca no direito penal contemporâneo", 
-image: "img/concurso-material-crime-continuado-pluralidade-pena-dosimetria.webp", 
-link: "direito-penal/concurso-material-crime-continuado-pluralidade-pena-dosimetria.html", 
-date: "2026-05-21T07:00:00",
+title: "Prisão Antes da Sentença e Seus Limites", 
+description: "A jurisprudência brasileira sobre prisão preventiva revela tensão entre excepcionalidade legal e cultura do encarceramento", 
+description2: "STF e STJ fixam balizas constitucionais para a custódia cautelar no processo penal", 
+image: "img/prisao-antes-sentenca-seus-limites.webp", 
+link: "jurisprudencia/prisao-antes-sentenca-seus-limites.html", 
+date: "2026-05-25T10:00:00",
   section: "featured-secundario"
 },
 {
@@ -30,24 +30,24 @@ date: "2026-05-20T20:00:00",
  section: "featured-terciario"
 },
   {
-title: "KYC e a Diligência Devida Sobre Parceiros",
- image: "img/kyc-verificacao-terceiros-due-diligence-compliance-lavagem.webp", 
- link: "compliance/kyc-verificacao-terceiros-due-diligence-compliance-lavagem.html",
-date: "2026-05-22T09:00:00",
+ title: "A Lei Que Nomeia o Ódio Letal Contra Mulheres",
+image: "img/lei-que-nomeia-odio-letal-contra-mulheres.webp", 
+link: "legislacao/lei-que-nomeia-odio-letal-contra-mulheres.html",
+date: "2026-05-25T13:00:00",
     section: "destaque"
   },
    {
-title: 'Lei Maria da Penha e os Precedentes Judiciais',
-image: "img/jurisprudencia-violencia-domestica-lei-maria-penha-stf-stj.webp", 
-link: "jurisprudencia/jurisprudencia-violencia-domestica-lei-maria-penha-stf-stj.html",
-date: "2026-05-22T15:00:00",
+title: "O Orçamento Como Radiografia do Poder",
+image: "img/orcamento-radiografia-do-poder.webp", 
+link: "politica/orcamento-radiografia-do-poder.html", 
+date: "2026-05-25T14:00:00",
    section: "destaque"
   },
   {
- title: "Omissão Militar e o Dever de Agir em Serviço",
- image: "img/omissao-servico-responsabilidade-penal-militar-dever-agir.webp", 
- link: "direito-militar/omissao-servico-responsabilidade-penal-militar-dever-agir.html",
-date: "2026-05-22T13:00:00",
+title: "Descanso Negado e Direito Ignorado",
+image: "img/descanso-negado-direito-ignorado.webp", 
+link: "direito-trabalhista/descanso-negado-direito-ignorado.html", 
+date: "2026-05-25T17:00:00",
    section: "destaque"
   },
   {
@@ -268,24 +268,21 @@ document.addEventListener("DOMContentLoaded", function(){
   /* ===== MAIS LIDOS ===== */
   const posts = [
   
-{ title: "Animal de Estimação na Dissolução do Casamento", 
-  link: "direito-de-familia/guarda-pets-separacao-animais-estimacao-dissolucao-conjugal.html", 
-  date: "2026-05-22T12:00:00" 
-},
+{ title: "Descanso Negado e Direito Ignorado", 
+  link: "direito-trabalhista/descanso-negado-direito-ignorado.html", 
+  date: "2026-05-26T07:00:00" },
 {
   title: "Segurança Pública Entre o Estado e a Violência",
   link: "politica/seguranca-publica-politica-violencia-estado-crime-organizado.html",
   date: "2026-05-22T07:00:00"
 },
+{ title: "Prisão Antes da Sentença e Seus Limites", 
+  link: "jurisprudencia/prisao-antes-sentenca-seus-limites.html", 
+  date: "2026-05-26T10:00:00" },
 {
-  title: "Jornada 12x36 Entre a Flexibilidade e o Esgotamento",
-  link: "direito-trabalhista/jornada-12x36-flexibilidade-saude-trabalhador-clt.html",
-  date: "2026-05-19T07:00:00"
-},
-{
-  title: "Fixação da Pena e Arbítrio Judicial Controlado",
-  link: "direito-penal/dosimetria-pena-fixacao-individualizacao-sentenca-criminal.html",
-  date: "2026-05-19T07:00:00"
+  title: "Vigilância Permanente Como Escudo Jurídico Corporativo",
+  link: "compliance/vigilancia-permanente-escudo-juridico-corporativo.html",
+  date: "2026-05-26T11:00:00"
 },
 {
   title: "KYC e a Diligência Devida Sobre Parceiros",
@@ -369,10 +366,10 @@ source: "",
 date: "2026-05-19T07:00:00"
 },
 {
-title: "Antitruste e Governança Competitiva nas Empresas",
-    link: "compliance/compliance-concorrencial-antitruste-governanca-competitiva.html",
+title: "A Lei Que Nomeia o Ódio Letal Contra Mulheres",
+ link: "legislacao/lei-que-nomeia-odio-letal-contra-mulheres.html",
 source: "",
-date: "2026-05-18T07:00:00"
+date: "2026-05-26T12:00:00"
 },
 {
  title: "Quando o Crime Não Pode Existir de Fato",
