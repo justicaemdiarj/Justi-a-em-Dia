@@ -337,10 +337,10 @@ document.addEventListener("DOMContentLoaded", function(){
 const principaisNoticias = [
 
 {
-title: "Democracia sob Pressão da Fragmentação Política Nacional",
-    link: "politica/polarizacao-politica-instituicoes-democracia-brasileira.html",
+title: "Pluralidade de Crimes e Unidade de Pena",
+    link: "direito-penal/concurso-material-crime-continuado-pluralidade-pena-dosimetria.html",
 source: "",
-date: "2026-05-12T07:00:00"
+date: "2026-05-21T07:00:00"
 },
 {
 title: "Igualdade Racial no Brasil Além do Papel",
@@ -355,10 +355,10 @@ source: "",
 date: "2026-05-19T03:00:00"
 },
 {
-title: "Auditoria Interna Independente como Escudo Corporativo",
-  link: "compliance/investigacoes-corporativas-independentes-governanca-empresarial.html",
+title: "Saneamento Básico e a Lei que Mudou Tudo",
+  link: "legislacao/marco-legal-saneamento-lei-14026-concessao-agua-esgoto.html",
 source: "",
-date: "2026-05-12T07:00:00"
+date: "2026-05-22T07:00:00"
 },
 {
 title: "Jornada 12x36 Entre a Flexibilidade e o Esgotamento",
@@ -370,19 +370,19 @@ date: "2026-05-19T07:00:00"
 title: "A Lei Que Nomeia o Ódio Letal Contra Mulheres",
  link: "legislacao/lei-que-nomeia-odio-letal-contra-mulheres.html",
 source: "",
-date: "2026-05-26T12:00:00"
+date: "2026-05-25T12:00:00"
 },
 {
- title: "Quando o Crime Não Pode Existir de Fato",
-  link: "direito-penal/crime-impossivel-limites-punicao-direito-penal.html",
+ title: "Animal de Estimação na Dissolução do Casamento",
+  link: "direito-de-familia/guarda-pets-separacao-animais-estimacao-dissolucao-conjugal.html",
 source: "",
-date: "2026-05-12T07:00:00"
+date: "2026-05-22T07:00:00"
 },
 {
-    title: "Namoro Sério ou União Estável? O Direito Decide",
-  link: "direito-de-familia/namoro-qualificado-uniao-estavel-direitos-patrimoniais.html",
+    title: "Descanso Negado e Direito Ignorado",
+  link: "direito-trabalhista/descanso-negado-direito-ignorado.html",
 source: "",
-date: "2026-05-13T07:00:00",
+date: "2026-05-25T07:00:00",
 },
 {
    title: "Laje Urbana e Acesso à Propriedade Formal",
