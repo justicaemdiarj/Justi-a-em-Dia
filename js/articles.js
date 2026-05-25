@@ -68,7 +68,7 @@ date: "2026-05-25T19:00:00",
 title: "Quando as Forças Armadas Assumem as Ruas",
 image: "img/quando-forcas-armadas-assumem-ruas.webp", 
 link: "direito-militar/quando-forcas-armadas-assumem-ruas.html", 
-date: "2026-05-22T18:00:00",
+date: "2026-05-25T18:00:00",
   section: "veja"
   },
 ];
