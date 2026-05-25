@@ -1,5 +1,8 @@
 // Base de dados global de artigos para busca
 const allArticles = [
+
+    { title: 'Nome Sujo Sem Dever Equivale a Dano Certo', description: 'A negativação indevida em cadastros de inadimplentes constitui ato ilícito que gera dano moral presumido, conforme consolidado pelo STJ com base no CDC e no Código Civil.', category: 'Direito Civil', url: 'direito-civil/nome-sujo-sem-dever-equivale-a-dano-certo.html', tags: ['Negativação Indevida', 'Dano Moral', 'Nome Sujo Sem Dever Equivale a Dano Certo'] },
+    { title: 'Quem Protege a Criança Quando a Família Falha', description: 'A tutela de menores é mecanismo jurídico previsto no Código Civil e no ECA para proteger crianças sem poder familiar, com atribuições claras ao tutor e supervisão judicial permanente.', category: 'Direito de Família', url: 'direito-de-familia/quem-protege-crianca-quando-familia-falha.html', tags: ['Tutela de Menores', 'Romer Carvalho', 'ECA', 'Quem Protege a Criança Quando a Família Falha'] },
     { title: 'KYC e a Diligência Devida Sobre Parceiros', description: 'O KYC e a verificação de terceiros são obrigações legais de compliance e prevenção à lavagem de dinheiro reguladas pelo BACEN, CVM e COAF.', category: 'Compliance', url: 'compliance/kyc-verificacao-terceiros-due-diligence-compliance-lavagem.html', tags: ['KYC', 'Know Your Customer', 'Verificação de Terceiros', 'Romer Carvalho', 'Due Diligence', 'KYC e a Diligência Devida Sobre Parceiros'] },
     { title: 'Animal de Estimação na Dissolução do Casamento', description: 'A guarda de pets após separação tornou-se tema sensível do direito de família, com tribunais desenvolvendo critérios que vão além da partilha patrimonial.', category: 'Direito de Família', url: 'direito-de-familia/guarda-pets-separacao-animais-estimacao-dissolucao-conjugal.html', tags: ['Guarda de Pets', 'Separação', 'Animais de Estimação', 'Romer Carvalho', 'Direito de Família', 'Animal de Estimação na Dissolução do Casamento'] },
     {
@@ -13,6 +16,7 @@ const allArticles = [
 { title: 'A Lei Que Nomeia o Ódio Letal Contra Mulheres', description: 'A Lei nº 13.104/2015 tipificou o feminicídio como qualificadora do homicídio doloso. Uma década depois, o balanço revela os limites do direito penal diante da violência de gênero.', category: 'Legislação', url: 'legislacao/lei-que-nomeia-odio-letal-contra-mulheres.html', tags: ['Feminicídio', 'Lei Maria da Penha', 'A Lei Que Nomeia o Ódio Letal Contra Mulheres'] },
 { title: 'O Orçamento Como Radiografia do Poder', description: 'O orçamento público brasileiro revela as prioridades políticas reais de cada governo, das emendas parlamentares às vinculações constitucionais para saúde e educação.', category: 'Política', url: 'politica/orcamento-radiografia-do-poder.html', tags: ['Orçamento Público', 'Prioridades Políticas', 'O Orçamento Como Radiografia do Poder'] },
 { title: 'Descanso Negado e Direito Ignorado', description: 'O trabalho em domingos e feriados envolve obrigações patronais claras previstas na CLT, na Lei nº 605/1949 e na Constituição Federal, frequentemente ignoradas na prática.', category: 'Direito Trabalhista', url: 'direito-trabalhista/descanso-negado-direito-ignorado.html', tags: ['Trabalho em Feriados', 'Repouso Semanal', 'Descanso Negado e Direito Ignorado'] },
+{ title: 'O Acordo Que Evita o Banco dos Réus', description: 'O Acordo de Não Persecução Penal, instituído pelo artigo 28-A do CPP, transformou a lógica da persecução criminal com seus requisitos, limites e controvérsias jurisprudenciais.', category: 'Direito Criminal', url: 'direito-penal/acordo-que-evita-banco-dos-reus.html', tags: ['ANPP', 'Acordo de Não Persecução Penal', 'O Acordo Que Evita o Banco dos Réus'] },
     {
     title: 'Ordem e Punição nas Fileiras Castrenses',
     description: 'A reestruturação do regime disciplinar das corporações militares brasileiras coloca em pauta a tensão entre hierarquia institucional e garantias fundamentais.',
@@ -27,9 +31,11 @@ const allArticles = [
     url: 'direito-civil/patrimonio-alem-morte-direito-civil.html',
     tags: ['Direito Sucessório', 'Herança', 'Patrimônio Além da Morte no Direito Civil']
 },
+{ title: 'Quando as Forças Armadas Assumem as Ruas', description: 'As missões de garantia da lei e da ordem são instrumentos constitucionais previstos no artigo 142 da CF/88 com limites rígidos e necessidade urgente de regulamentação permanente.', category: 'Direito Militar', url: 'direito-militar/quando-forcas-armadas-assumem-ruas.html', tags: ['GLO', 'Forças Armadas', 'Quando as Forças Armadas Assumem as Ruas'] },
 {
     title: 'Proteção Jurídica da Vida antes do Nascimento',
     description: 'Os alimentos gravídicos representam um dos instrumentos mais relevantes do direito de família para a proteção da gestante e do nascituro pela Lei nº 11.804/2008.',
+    
     category: 'Direito de Família',
     url: 'direito-de-familia/protecao-juridica-vida-antes-nascimento.html',
     tags: ['Alimentos Gravídicos', 'Direito de Família', 'Proteção Jurídica da Vida antes do Nascimento']

@@ -2,6 +2,7 @@
 window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
+    { title: "Nome Sujo Sem Dever Equivale a Dano Certo", date: "25/05/2026", timestamp: "2026-05-25T19:00:00", image: "../img/nome-sujo-sem-dever-equivale-a-dano-certo.webp", excerpt: "A negativação indevida em cadastros de inadimplentes gera dano moral presumido e responsabilidade civil do fornecedor.", link: "../direito-civil/nome-sujo-sem-dever-equivale-a-dano-certo.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "Vida em Condomínio e Litígios de Convivência", 
         date: "20/05/2026", 
         timestamp: "2026-05-20T20:00:00", 

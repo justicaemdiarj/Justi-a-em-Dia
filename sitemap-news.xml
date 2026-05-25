@@ -5061,4 +5061,48 @@
     <news:title>Descanso Negado e Direito Ignorado</news:title>
   </news:news>
 </url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-penal/acordo-que-evita-banco-dos-reus.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-26T07:00:00-03:00</news:publication_date>
+    <news:title>O Acordo Que Evita o Banco dos Réus</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-de-familia/quem-protege-crianca-quando-familia-falha.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-26T07:00:00-03:00</news:publication_date>
+    <news:title>Quem Protege a Criança Quando a Família Falha</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-civil/nome-sujo-sem-dever-equivale-a-dano-certo.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-26T07:00:00-03:00</news:publication_date>
+    <news:title>Nome Sujo Sem Dever Equivale a Dano Certo</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-militar/quando-forcas-armadas-assumem-ruas.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-26T07:00:00-03:00</news:publication_date>
+    <news:title>Quando as Forças Armadas Assumem as Ruas</news:title>
+  </news:news>
+</url>
 </urlset>

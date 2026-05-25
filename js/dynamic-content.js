@@ -70,6 +70,10 @@ const globalNewsData = [
 { title: "A Lei Que Nomeia o Ódio Letal Contra Mulheres", link: "legislacao/lei-que-nomeia-odio-letal-contra-mulheres.html" },
 { title: "O Orçamento Como Radiografia do Poder", link: "politica/orcamento-radiografia-do-poder.html" },
 { title: "Descanso Negado e Direito Ignorado", link: "direito-trabalhista/descanso-negado-direito-ignorado.html" },
+{ title: "O Acordo Que Evita o Banco dos Réus", link: "direito-penal/acordo-que-evita-banco-dos-reus.html" },
+{ title: "Quem Protege a Criança Quando a Família Falha", link: "direito-de-familia/quem-protege-crianca-quando-familia-falha.html" },
+{ title: "Nome Sujo Sem Dever Equivale a Dano Certo", link: "direito-civil/nome-sujo-sem-dever-equivale-a-dano-certo.html" },
+{ title: "Quando as Forças Armadas Assumem as Ruas", link: "direito-militar/quando-forcas-armadas-assumem-ruas.html" },
 ];
 
 // Array para armazenar todas as notícias coletadas dos arquivos de paginação

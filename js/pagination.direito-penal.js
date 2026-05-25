@@ -2,6 +2,7 @@
 window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
+    { title: "O Acordo Que Evita o Banco dos Réus", date: "25/05/2026", timestamp: "2026-05-25T18:00:00", image: "../img/acordo-que-evita-banco-dos-reus.webp", excerpt: "O Acordo de Não Persecução Penal transformou a lógica da persecução criminal no Brasil, permitindo encerrar casos antes da denúncia.", link: "../direito-penal/acordo-que-evita-banco-dos-reus.html", author: "Justiça em Dia", authorLink: "#" },
      { title: "Pluralidade de Crimes e Unidade de Pena", date: "21/05/2026", timestamp: "2026-05-21T07:00:00", image: "../img/concurso-material-crime-continuado-pluralidade-pena-dosimetria.webp", excerpt: "O concurso material e o crime continuado definem como o juiz pune quem pratica mais de um crime, com impacto direto sobre a pena final.", link: "../direito-penal/concurso-material-crime-continuado-pluralidade-pena-dosimetria.html", category: "direito-penal", author: "Justiça em Dia", authorLink: "#" },
     {
     title: "Fixação da Pena e Arbítrio Judicial Controlado",

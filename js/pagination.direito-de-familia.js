@@ -2,6 +2,10 @@
 window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
+    { title: "Quem Protege a Criança Quando a Família Falha", date: "25/05/2026", timestamp: "2026-05-25T17:00:00", image: "../img/quem-protege-crianca-quando-familia-falha.webp", excerpt: "A tutela de menores é mecanismo jurídico para proteger crianças sem poder familiar, previsto no Código Civil e no ECA.", link: "../direito-de-familia/quem-protege-crianca-quando-familia-falha.html", 
+      author: "Romer Carvalho",
+    authorLink: "../apoiadores/advogado-romer-carvalho.html"
+    },
     { title: "Animal de Estimação na Dissolução do Casamento", 
         date: "22/05/2026", 
         timestamp: "2026-05-22T12:00:00", 

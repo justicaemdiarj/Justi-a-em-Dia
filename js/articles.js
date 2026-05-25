@@ -21,12 +21,12 @@ date: "2026-05-25T10:00:00",
   section: "featured-secundario"
 },
 {
-title: "Vida em Condomínio e Litígios de Convivência", 
-description: "Ruído, inadimplência e animais de estimação lideram os conflitos condominiais que chegam ao Judiciário brasileiro todos os anos", 
-description2: "Síndico, convenção condominial e mediação são os pilares da resolução de disputas entre condôminos", 
-image: "img/condominios-conflitos-vizinhos-sindico-convencao-direito-civil.webp", 
-link: "direito-civil/condominios-conflitos-vizinhos-sindico-convencao-direito-civil.html", 
-date: "2026-05-20T20:00:00",
+title: "O Acordo Que Evita o Banco dos Réus", 
+description: "O Acordo de Não Persecução Penal transformou a lógica da persecução criminal com requisitos e limites definidos pelo CPP", 
+description2: "Entenda as controvérsias jurisprudenciais e os riscos de aplicação distorcida do instituto no processo penal brasileiro", 
+image: "img/acordo-que-evita-banco-dos-reus.webp", 
+link: "direito-penal/acordo-que-evita-banco-dos-reus.html", 
+date: "2026-05-25T18:00:00",
  section: "featured-terciario"
 },
   {
@@ -51,24 +51,24 @@ date: "2026-05-25T17:00:00",
    section: "destaque"
   },
   {
-title: "Segurança Pública Entre o Estado e a Violência", 
-image: "img/seguranca-publica-politica-violencia-estado-crime-organizado.webp", 
-link: "politica/seguranca-publica-politica-violencia-estado-crime-organizado.html",
-date: "2026-05-22T08:00:00",
+title: "Quem Protege a Criança Quando a Família Falha",
+ image: "img/quem-protege-crianca-quando-familia-falha.webp", 
+ link: "direito-de-familia/quem-protege-crianca-quando-familia-falha.html", 
+ date: "2026-05-25T17:00:00",
  section: "veja"
   },
    {
-title: 'Saneamento Básico e a Lei que Mudou Tudo',
-image: "img/marco-legal-saneamento-lei-14026-concessao-agua-esgoto.webp", 
-link: "legislacao/marco-legal-saneamento-lei-14026-concessao-agua-esgoto.html", 
-date: "2026-05-22T11:00:00",
+ title: "Nome Sujo Sem Dever Equivale a Dano Certo",
+image: "img/nome-sujo-sem-dever-equivale-a-dano-certo.webp", 
+link: "direito-civil/nome-sujo-sem-dever-equivale-a-dano-certo.html",
+date: "2026-05-25T19:00:00",
    section: "veja"
   },
   {
-title: "Pausa no Trabalho e Seus Efeitos na Jornada",
-image: "img/intervalo-intrajornada-efeitos-clt-reforma-trabalhista-jornada.webp", 
-link: "direito-trabalhista/intervalo-intrajornada-efeitos-clt-reforma-trabalhista-jornada.html",
-date: "2026-05-22T07:00:00",
+title: "Quando as Forças Armadas Assumem as Ruas",
+image: "img/quando-forcas-armadas-assumem-ruas.webp", 
+link: "direito-militar/quando-forcas-armadas-assumem-ruas.html", 
+date: "2026-05-22T18:00:00",
   section: "veja"
   },
 ];
@@ -270,19 +270,20 @@ document.addEventListener("DOMContentLoaded", function(){
   
 { title: "Descanso Negado e Direito Ignorado", 
   link: "direito-trabalhista/descanso-negado-direito-ignorado.html", 
-  date: "2026-05-26T07:00:00" },
-{
-  title: "Segurança Pública Entre o Estado e a Violência",
-  link: "politica/seguranca-publica-politica-violencia-estado-crime-organizado.html",
-  date: "2026-05-22T07:00:00"
+  date: "2026-05-25T07:00:00" 
+},
+{ title: "O Acordo Que Evita o Banco dos Réus", 
+  link: "direito-penal/acordo-que-evita-banco-dos-reus.html", 
+  date: "2026-05-25T07:00:00" 
 },
 { title: "Prisão Antes da Sentença e Seus Limites", 
   link: "jurisprudencia/prisao-antes-sentenca-seus-limites.html", 
-  date: "2026-05-26T10:00:00" },
+  date: "2026-05-25T10:00:00" 
+},
 {
   title: "Vigilância Permanente Como Escudo Jurídico Corporativo",
   link: "compliance/vigilancia-permanente-escudo-juridico-corporativo.html",
-  date: "2026-05-26T11:00:00"
+  date: "2026-05-25T11:00:00"
 },
 {
   title: "KYC e a Diligência Devida Sobre Parceiros",
