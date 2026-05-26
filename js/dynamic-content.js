@@ -74,6 +74,10 @@ const globalNewsData = [
 { title: "Quem Protege a Criança Quando a Família Falha", link: "direito-de-familia/quem-protege-crianca-quando-familia-falha.html" },
 { title: "Nome Sujo Sem Dever Equivale a Dano Certo", link: "direito-civil/nome-sujo-sem-dever-equivale-a-dano-certo.html" },
 { title: "Quando as Forças Armadas Assumem as Ruas", link: "direito-militar/quando-forcas-armadas-assumem-ruas.html" },
+{
+    title: "Licitação Íntegra É Dinheiro Público Protegido",
+    link: "compliance/licitacao-integra-dinheiro-publico-protegido.html",
+},
 ];
 
 // Array para armazenar todas as notícias coletadas dos arquivos de paginação

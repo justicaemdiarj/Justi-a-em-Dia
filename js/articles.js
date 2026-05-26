@@ -3,12 +3,12 @@ const posts = [
   
 
 {  
-  title: "Vigilância Permanente Como Escudo Jurídico Corporativo",
-  description: "O monitoramento contínuo de compliance tornou-se exigência normativa consolidada no ordenamento jurídico brasileiro",
-  description2: "Entenda como a vigilância permanente protege organizações de responsabilizações e fortalece a cultura de integridade",
-  image: "img/vigilancia-permanente-escudo-juridico-corporativo.webp",
-  link: "compliance/vigilancia-permanente-escudo-juridico-corporativo.html",
-  date: "2026-05-25T11:00:00",
+  title: "Licitação Íntegra É Dinheiro Público Protegido",
+  description: "A integridade nas licitações públicas é imperativo normativo reforçado pela Lei nº 14.133/2021 e pela Lei Anticorrupção",
+  description2: "Entenda os mecanismos de prevenção, os esquemas de fraude identificados pelo TCU e o papel do compliance nas contratações",
+  image: "img/licitacao-integra-dinheiro-publico-protegido.webp",
+  link: "compliance/licitacao-integra-dinheiro-publico-protegido.html",
+  date: "2026-05-26T11:00:00",
   section: "featured"
 },
   {

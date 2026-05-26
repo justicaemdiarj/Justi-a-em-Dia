@@ -3,13 +3,22 @@ window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
     {
+    title: "Licitação Íntegra É Dinheiro Público Protegido",
+    date: "26/05/2026",
+    timestamp: "2026-05-26T11:00:00",
+    image: "../img/licitacao-integra-dinheiro-publico-protegido.webp",
+    excerpt: "A integridade nas licitações públicas é imperativo normativo reforçado pela Lei nº 14.133/2021 e pela Lei Anticorrupção.",
+    link: "../compliance/licitacao-integra-dinheiro-publico-protegido.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Vigilância Permanente Como Escudo Jurídico Corporativo",
     date: "25/05/2026",
     timestamp: "2026-05-25T11:00:00",
     image: "../img/vigilancia-permanente-escudo-juridico-corporativo.webp",
     excerpt: "O monitoramento contínuo de compliance tornou-se exigência normativa no ordenamento jurídico brasileiro.",
     link: "../compliance/vigilancia-permanente-escudo-juridico-corporativo.html",
-    category: "compliance",
     author: "Justiça em Dia",
     authorLink: "#"
 },

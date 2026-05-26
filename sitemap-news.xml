@@ -5105,4 +5105,15 @@
     <news:title>Quando as Forças Armadas Assumem as Ruas</news:title>
   </news:news>
 </url>
+<url>
+  <loc>https://www.justicaemdia.com.br/compliance/licitacao-integra-dinheiro-publico-protegido.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-26T11:00:00-03:00</news:publication_date>
+    <news:title>Licitação Íntegra É Dinheiro Público Protegido</news:title>
+  </news:news>
+</url>
 </urlset>

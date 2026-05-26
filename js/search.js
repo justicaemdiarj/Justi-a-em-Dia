@@ -1,6 +1,14 @@
 // Base de dados global de artigos para busca
 const allArticles = [
 
+
+    {
+    title: 'Licitação Íntegra É Dinheiro Público Protegido',
+    description: 'A integridade nas licitações públicas é imperativo normativo reforçado pela Lei nº 14.133/2021 e pela Lei Anticorrupção, com mecanismos de prevenção e programas de compliance nas contratações.',
+    category: 'Compliance',
+    url: 'compliance/licitacao-integra-dinheiro-publico-protegido.html',
+    tags: ['Licitações Públicas', 'Integridade nas Contratações', 'Licitação Íntegra É Dinheiro Público Protegido']
+},
     { title: 'Nome Sujo Sem Dever Equivale a Dano Certo', description: 'A negativação indevida em cadastros de inadimplentes constitui ato ilícito que gera dano moral presumido, conforme consolidado pelo STJ com base no CDC e no Código Civil.', category: 'Direito Civil', url: 'direito-civil/nome-sujo-sem-dever-equivale-a-dano-certo.html', tags: ['Negativação Indevida', 'Dano Moral', 'Nome Sujo Sem Dever Equivale a Dano Certo'] },
     { title: 'Quem Protege a Criança Quando a Família Falha', description: 'A tutela de menores é mecanismo jurídico previsto no Código Civil e no ECA para proteger crianças sem poder familiar, com atribuições claras ao tutor e supervisão judicial permanente.', category: 'Direito de Família', url: 'direito-de-familia/quem-protege-crianca-quando-familia-falha.html', tags: ['Tutela de Menores', 'Romer Carvalho', 'ECA', 'Quem Protege a Criança Quando a Família Falha'] },
     { title: 'KYC e a Diligência Devida Sobre Parceiros', description: 'O KYC e a verificação de terceiros são obrigações legais de compliance e prevenção à lavagem de dinheiro reguladas pelo BACEN, CVM e COAF.', category: 'Compliance', url: 'compliance/kyc-verificacao-terceiros-due-diligence-compliance-lavagem.html', tags: ['KYC', 'Know Your Customer', 'Verificação de Terceiros', 'Romer Carvalho', 'Due Diligence', 'KYC e a Diligência Devida Sobre Parceiros'] },
