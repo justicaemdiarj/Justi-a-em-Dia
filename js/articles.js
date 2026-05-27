@@ -2,22 +2,20 @@ const posts = [
   
   
 
-{  
+{ title: "Guarda Compartilhada Além do Acordo dos Pais", 
+  description: "A guarda compartilhada é o modelo jurídico preferencial no Brasil com entendimentos consolidados pelo STJ", 
+  description2: "Entenda a relação com a alienação parental, os alimentos e os impactos no desenvolvimento infantil", 
+  image: "img/guarda-compartilhada-alem-acordo-dos-pais.webp", 
+  link: "jurisprudencia/guarda-compartilhada-alem-acordo-dos-pais.html", 
+  date: "2026-05-27T07:00:00", 
+  section: "featured" },
+  {
   title: "Licitação Íntegra É Dinheiro Público Protegido",
   description: "A integridade nas licitações públicas é imperativo normativo reforçado pela Lei nº 14.133/2021 e pela Lei Anticorrupção",
   description2: "Entenda os mecanismos de prevenção, os esquemas de fraude identificados pelo TCU e o papel do compliance nas contratações",
   image: "img/licitacao-integra-dinheiro-publico-protegido.webp",
   link: "compliance/licitacao-integra-dinheiro-publico-protegido.html",
   date: "2026-05-26T11:00:00",
-  section: "featured"
-},
-  {
-title: "Prisão Antes da Sentença e Seus Limites", 
-description: "A jurisprudência brasileira sobre prisão preventiva revela tensão entre excepcionalidade legal e cultura do encarceramento", 
-description2: "STF e STJ fixam balizas constitucionais para a custódia cautelar no processo penal", 
-image: "img/prisao-antes-sentenca-seus-limites.webp", 
-link: "jurisprudencia/prisao-antes-sentenca-seus-limites.html", 
-date: "2026-05-25T10:00:00",
   section: "featured-secundario"
 },
 {

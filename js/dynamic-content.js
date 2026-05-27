@@ -14,33 +14,6 @@ const tickerConfig = {
 const globalNewsData = [
 
 
-
-{
-    title: "Ignorância da Lei e Exclusão da Culpabilidade",
-    link: "direito-penal/erro-tipo-proibicao-culpabilidade-dolo-exclusao.html",
-},
-{
-    title: "Convivência Forçada e Conflito Entre Vizinhos",
-    link: "direito-civil/direito-vizinhanca-perturbacao-sossego-conflito-propriedade.html",
-},
-{
-    title: "Fixação da Pena e Arbítrio Judicial Controlado",
-    link: "direito-penal/dosimetria-pena-fixacao-individualizacao-sentenca-criminal.html",
-},
-{
-    title: "Herança Digital e os Bens do Século XXI",
-    link: "direito-de-familia/patrimonio-digital-sucessao-heranca-bens-virtuais.html",
-},
-{
-    title: "Conflitos de Interesse e Integridade Corporativa",
-    link: "compliance/conflito-interesse-gestao-integridade-governanca-corporativa.html",
-},
-{ title: "Liberdade de Expressão e Seus Limites Judiciais", link: "jurisprudencia/liberdade-expressao-limites-judiciais-stf-discurso-odio.html" },
-{ title: "Prisão Disciplinar Militar e a Constituição", link: "direito-militar/prisao-disciplinar-militar-constitucionalidade-limites-direitos.html" },
-{
-    title: "Imprensa, Poder e Democracia em Crise",
-    link: "politica/papel-midia-imprensa-democracia-poder-comunicacao.html",
-},
 {
     title: "Locação Urbana e os Direitos do Inquilino",
     link: "legislacao/lei-inquilinato-locacao-urbana-direitos-inquilino-locador.html",
@@ -78,6 +51,7 @@ const globalNewsData = [
     title: "Licitação Íntegra É Dinheiro Público Protegido",
     link: "compliance/licitacao-integra-dinheiro-publico-protegido.html",
 },
+{ title: "Guarda Compartilhada Além do Acordo dos Pais", link: "jurisprudencia/guarda-compartilhada-alem-acordo-dos-pais.html" },
 ];
 
 // Array para armazenar todas as notícias coletadas dos arquivos de paginação
