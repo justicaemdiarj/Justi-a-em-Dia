@@ -5127,4 +5127,70 @@
     <news:title>Guarda Compartilhada Além do Acordo dos Pais</news:title>
   </news:news>
 </url>
+<url>
+  <loc>https://www.justicaemdia.com.br/politica/dinheiro-publico-que-nao-presta-contas.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-26T07:00:00-03:00</news:publication_date>
+    <news:title>O Dinheiro Público Que Não Presta Contas</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/legislacao/perseguicao-obsessiva-virou-crime-brasil.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-26T07:00:00-03:00</news:publication_date>
+    <news:title>Perseguição Obsessiva Virou Crime no Brasil</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-trabalhista/rescisao-consensual-muda-fim-contrato.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-26T07:00:00-03:00</news:publication_date>
+    <news:title>Rescisão Consensual Muda o Fim do Contrato</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-militar/militar-iniciativa-privada-limites-rigidos.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-26T07:00:00-03:00</news:publication_date>
+    <news:title>Militar na Iniciativa Privada Tem Limites Rígidos</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-penal/justica-sem-condenacao-crimes-menor-potencial.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-26T07:00:00-03:00</news:publication_date>
+    <news:title>Justiça Sem Condenação Para Crimes de Menor Potencial</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-civil/produto-defeituoso-gera-obrigacao-indenizar.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-26T07:00:00-03:00</news:publication_date>
+    <news:title>Produto Defeituoso Gera Obrigação de Indenizar</news:title>
+  </news:news>
+</url>
 </urlset>
