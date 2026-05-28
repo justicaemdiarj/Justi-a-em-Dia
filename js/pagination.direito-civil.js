@@ -2,6 +2,7 @@
 window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
+    { title: "Produto Defeituoso Gera Obrigação de Indenizar", date: "28/05/2026", timestamp: "2026-05-28T10:00:00", image: "../img/produto-defeituoso-gera-obrigacao-indenizar.webp", excerpt: "A responsabilidade civil por acidentes de consumo é objetiva nos termos do CDC, sem necessidade de prova de culpa do fornecedor.", link: "../direito-civil/produto-defeituoso-gera-obrigacao-indenizar.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "Nome Sujo Sem Dever Equivale a Dano Certo", date: "25/05/2026", timestamp: "2026-05-25T19:00:00", image: "../img/nome-sujo-sem-dever-equivale-a-dano-certo.webp", excerpt: "A negativação indevida em cadastros de inadimplentes gera dano moral presumido e responsabilidade civil do fornecedor.", link: "../direito-civil/nome-sujo-sem-dever-equivale-a-dano-certo.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "Vida em Condomínio e Litígios de Convivência", 
         date: "20/05/2026", 

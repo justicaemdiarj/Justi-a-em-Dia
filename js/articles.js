@@ -2,71 +2,72 @@ const posts = [
   
   
 
-{ title: "Guarda Compartilhada Além do Acordo dos Pais", 
+{ 
+title: "O Dinheiro Público Que Não Presta Contas", 
+description: "As emendas parlamentares movimentam bilhões com rastreabilidade insuficiente gerando conflito entre STF e Congresso", 
+description2: "Entenda o impacto sobre o federalismo e por que a transparência é condição inegociável da democracia fiscal", 
+image: "img/dinheiro-publico-que-nao-presta-contas.webp", 
+link: "politica/dinheiro-publico-que-nao-presta-contas.html",
+  date: "2026-05-28T07:00:00", 
+  section: "featured" },
+  {
+title: "Guarda Compartilhada Além do Acordo dos Pais", 
   description: "A guarda compartilhada é o modelo jurídico preferencial no Brasil com entendimentos consolidados pelo STJ", 
   description2: "Entenda a relação com a alienação parental, os alimentos e os impactos no desenvolvimento infantil", 
   image: "img/guarda-compartilhada-alem-acordo-dos-pais.webp", 
   link: "jurisprudencia/guarda-compartilhada-alem-acordo-dos-pais.html", 
   date: "2026-05-27T07:00:00", 
-  section: "featured" },
-  {
+  section: "featured-secundario"
+},
+{
   title: "Licitação Íntegra É Dinheiro Público Protegido",
   description: "A integridade nas licitações públicas é imperativo normativo reforçado pela Lei nº 14.133/2021 e pela Lei Anticorrupção",
   description2: "Entenda os mecanismos de prevenção, os esquemas de fraude identificados pelo TCU e o papel do compliance nas contratações",
   image: "img/licitacao-integra-dinheiro-publico-protegido.webp",
   link: "compliance/licitacao-integra-dinheiro-publico-protegido.html",
   date: "2026-05-26T11:00:00",
-  section: "featured-secundario"
-},
-{
-title: "O Acordo Que Evita o Banco dos Réus", 
-description: "O Acordo de Não Persecução Penal transformou a lógica da persecução criminal com requisitos e limites definidos pelo CPP", 
-description2: "Entenda as controvérsias jurisprudenciais e os riscos de aplicação distorcida do instituto no processo penal brasileiro", 
-image: "img/acordo-que-evita-banco-dos-reus.webp", 
-link: "direito-penal/acordo-que-evita-banco-dos-reus.html", 
-date: "2026-05-25T18:00:00",
  section: "featured-terciario"
 },
   {
- title: "A Lei Que Nomeia o Ódio Letal Contra Mulheres",
-image: "img/lei-que-nomeia-odio-letal-contra-mulheres.webp", 
-link: "legislacao/lei-que-nomeia-odio-letal-contra-mulheres.html",
-date: "2026-05-25T13:00:00",
+title: "Perseguição Obsessiva Virou Crime no Brasil",
+image: "img/perseguicao-obsessiva-virou-crime-brasil.webp", 
+link: "legislacao/perseguicao-obsessiva-virou-crime-brasil.html", 
+date: "2026-05-28T11:00:00",
     section: "destaque"
   },
    {
-title: "O Orçamento Como Radiografia do Poder",
-image: "img/orcamento-radiografia-do-poder.webp", 
-link: "politica/orcamento-radiografia-do-poder.html", 
-date: "2026-05-25T14:00:00",
+title: "Rescisão Consensual Muda o Fim do Contrato", 
+image: "img/rescisao-consensual-muda-fim-contrato.webp", 
+link: "direito-trabalhista/rescisao-consensual-muda-fim-contrato.html",
+date: "2026-05-28T12:00:00",
    section: "destaque"
   },
   {
-title: "Descanso Negado e Direito Ignorado",
-image: "img/descanso-negado-direito-ignorado.webp", 
-link: "direito-trabalhista/descanso-negado-direito-ignorado.html", 
-date: "2026-05-25T17:00:00",
+title: "Militar na Iniciativa Privada Tem Limites Rígidos",
+image: "img/militar-iniciativa-privada-limites-rigidos.webp", 
+link: "direito-militar/militar-iniciativa-privada-limites-rigidos.html",
+date: "2026-05-28T17:00:00",
    section: "destaque"
   },
   {
-title: "Quem Protege a Criança Quando a Família Falha",
- image: "img/quem-protege-crianca-quando-familia-falha.webp", 
- link: "direito-de-familia/quem-protege-crianca-quando-familia-falha.html", 
- date: "2026-05-25T17:00:00",
+title: "Pai É Quem Cria, Diz o Direito Brasileiro",
+image: "img/pai-e-quem-cria-diz-direito-brasileiro.webp", 
+link: "direito-de-familia/pai-e-quem-cria-diz-direito-brasileiro.html",
+ date: "2026-05-28T09:00:00",
  section: "veja"
   },
    {
- title: "Nome Sujo Sem Dever Equivale a Dano Certo",
-image: "img/nome-sujo-sem-dever-equivale-a-dano-certo.webp", 
-link: "direito-civil/nome-sujo-sem-dever-equivale-a-dano-certo.html",
-date: "2026-05-25T19:00:00",
+title: "Justiça Sem Condenação Para Crimes de Menor Potencial",
+image: "img/justica-sem-condenacao-crimes-menor-potencial.webp", 
+link: "direito-penal/justica-sem-condenacao-crimes-menor-potencial.html",
+date: "2026-05-28T11:00:00",
    section: "veja"
   },
   {
-title: "Quando as Forças Armadas Assumem as Ruas",
-image: "img/quando-forcas-armadas-assumem-ruas.webp", 
-link: "direito-militar/quando-forcas-armadas-assumem-ruas.html", 
-date: "2026-05-25T18:00:00",
+title: "Produto Defeituoso Gera Obrigação de Indenizar", 
+image: "img/produto-defeituoso-gera-obrigacao-indenizar.webp", 
+link: "direito-civil/produto-defeituoso-gera-obrigacao-indenizar.html",
+date: "2026-05-28T10:00:00",
   section: "veja"
   },
 ];
@@ -283,10 +284,9 @@ document.addEventListener("DOMContentLoaded", function(){
   link: "compliance/vigilancia-permanente-escudo-juridico-corporativo.html",
   date: "2026-05-25T11:00:00"
 },
-{
-  title: "KYC e a Diligência Devida Sobre Parceiros",
-  link: "compliance/kyc-verificacao-terceiros-due-diligence-compliance-lavagem.html",
-  date: "2026-05-22T07:00:00"
+{ title: "Justiça Sem Condenação Para Crimes de Menor Potencial", 
+  link: "direito-penal/justica-sem-condenacao-crimes-menor-potencial.html", 
+  date: "2026-05-28T11:00:00" 
 },
 
   ];
@@ -341,10 +341,10 @@ source: "",
 date: "2026-05-21T07:00:00"
 },
 {
-title: "Igualdade Racial no Brasil Além do Papel",
-  link: "legislacao/igualdade-racial-brasil-alem-do-papel.html",
+title: "O Dinheiro Público Que Não Presta Contas",
+link: "politica/dinheiro-publico-que-nao-presta-contas.html",
 source: "",
-date: "2026-05-14T07:00:00"
+date: "2026-05-28T07:00:00"
 },
 {
 title: "Conflitos de Interesse e Integridade Corporativa",

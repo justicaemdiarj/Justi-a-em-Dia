@@ -2,6 +2,15 @@
 window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
+    { title: "Pai É Quem Cria, Diz o Direito Brasileiro", 
+        date: "28/05/2026",
+        timestamp: "2026-05-28T09:00:00", 
+        image: "../img/pai-e-quem-cria-diz-direito-brasileiro.webp", 
+        excerpt: "A paternidade socioafetiva foi reconhecida pelo STF como fonte autônoma de filiação, possibilitando a multiparentalidade no direito brasileiro.", 
+        link: "../direito-de-familia/pai-e-quem-cria-diz-direito-brasileiro.html", 
+    author: "Romer Carvalho",
+    authorLink: "../apoiadores/advogado-romer-carvalho.html"
+    },
     { title: "Quem Protege a Criança Quando a Família Falha", date: "25/05/2026", timestamp: "2026-05-25T17:00:00", image: "../img/quem-protege-crianca-quando-familia-falha.webp", excerpt: "A tutela de menores é mecanismo jurídico para proteger crianças sem poder familiar, previsto no Código Civil e no ECA.", link: "../direito-de-familia/quem-protege-crianca-quando-familia-falha.html", 
       author: "Romer Carvalho",
     authorLink: "../apoiadores/advogado-romer-carvalho.html"

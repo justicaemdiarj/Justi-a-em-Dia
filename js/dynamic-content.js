@@ -14,23 +14,7 @@ const tickerConfig = {
 const globalNewsData = [
 
 
-{
-    title: "Locação Urbana e os Direitos do Inquilino",
-    link: "legislacao/lei-inquilinato-locacao-urbana-direitos-inquilino-locador.html",
-},
-{
-    title: "Jornada 12x36 Entre a Flexibilidade e o Esgotamento",
-    link: "direito-trabalhista/jornada-12x36-flexibilidade-saude-trabalhador-clt.html",
-},
-{
-    title: "Laje Urbana e Acesso à Propriedade Formal",
-    link: "direito-civil/direito-laje-regularizacao-propriedade-habitacao-urbana.html",
-},
-{ title: "Vida em Condomínio e Litígios de Convivência", link: "direito-civil/condominios-conflitos-vizinhos-sindico-convencao-direito-civil.html" },
-{ title: "Pluralidade de Crimes e Unidade de Pena", link: "direito-penal/concurso-material-crime-continuado-pluralidade-pena-dosimetria.html" },
-{ title: "Animal de Estimação na Dissolução do Casamento", link: "direito-de-familia/guarda-pets-separacao-animais-estimacao-dissolucao-conjugal.html" },
-{ title: "Pausa no Trabalho e Seus Efeitos na Jornada", link: "direito-trabalhista/intervalo-intrajornada-efeitos-clt-reforma-trabalhista-jornada.html" },
-{ title: "Saneamento Básico e a Lei que Mudou Tudo", link: "legislacao/marco-legal-saneamento-lei-14026-concessao-agua-esgoto.html" },
+
 { title: "Segurança Pública Entre o Estado e a Violência", link: "politica/seguranca-publica-politica-violencia-estado-crime-organizado.html" },
 { title: "Omissão Militar e o Dever de Agir em Serviço", link: "direito-militar/omissao-servico-responsabilidade-penal-militar-dever-agir.html" },
 { title: "Lei Maria da Penha e os Precedentes Judiciais", link: "jurisprudencia/jurisprudencia-violencia-domestica-lei-maria-penha-stf-stj.html" },
@@ -52,6 +36,13 @@ const globalNewsData = [
     link: "compliance/licitacao-integra-dinheiro-publico-protegido.html",
 },
 { title: "Guarda Compartilhada Além do Acordo dos Pais", link: "jurisprudencia/guarda-compartilhada-alem-acordo-dos-pais.html" },
+{ title: "O Dinheiro Público Que Não Presta Contas", link: "politica/dinheiro-publico-que-nao-presta-contas.html" },
+{ title: "Perseguição Obsessiva Virou Crime no Brasil", link: "legislacao/perseguicao-obsessiva-virou-crime-brasil.html" },
+{ title: "Rescisão Consensual Muda o Fim do Contrato", link: "direito-trabalhista/rescisao-consensual-muda-fim-contrato.html" },
+{ title: "Militar na Iniciativa Privada Tem Limites Rígidos", link: "direito-militar/militar-iniciativa-privada-limites-rigidos.html" },
+{ title: "Pai É Quem Cria, Diz o Direito Brasileiro", link: "direito-de-familia/pai-e-quem-cria-diz-direito-brasileiro.html" },
+{ title: "Justiça Sem Condenação Para Crimes de Menor Potencial", link: "direito-penal/justica-sem-condenacao-crimes-menor-potencial.html" },
+{ title: "Produto Defeituoso Gera Obrigação de Indenizar", link: "direito-civil/produto-defeituoso-gera-obrigacao-indenizar.html" },
 ];
 
 // Array para armazenar todas as notícias coletadas dos arquivos de paginação
