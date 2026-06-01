@@ -15,10 +15,7 @@ const globalNewsData = [
 
 
 
-{ title: "Segurança Pública Entre o Estado e a Violência", link: "politica/seguranca-publica-politica-violencia-estado-crime-organizado.html" },
-{ title: "Omissão Militar e o Dever de Agir em Serviço", link: "direito-militar/omissao-servico-responsabilidade-penal-militar-dever-agir.html" },
-{ title: "Lei Maria da Penha e os Precedentes Judiciais", link: "jurisprudencia/jurisprudencia-violencia-domestica-lei-maria-penha-stf-stj.html" },
-{ title: "KYC e a Diligência Devida Sobre Parceiros", link: "compliance/kyc-verificacao-terceiros-due-diligence-compliance-lavagem.html" },
+
 {
     title: "Vigilância Permanente Como Escudo Jurídico Corporativo",
     link: "compliance/vigilancia-permanente-escudo-juridico-corporativo.html",
@@ -43,6 +40,7 @@ const globalNewsData = [
 { title: "Pai É Quem Cria, Diz o Direito Brasileiro", link: "direito-de-familia/pai-e-quem-cria-diz-direito-brasileiro.html" },
 { title: "Justiça Sem Condenação Para Crimes de Menor Potencial", link: "direito-penal/justica-sem-condenacao-crimes-menor-potencial.html" },
 { title: "Produto Defeituoso Gera Obrigação de Indenizar", link: "direito-civil/produto-defeituoso-gera-obrigacao-indenizar.html" },
+{ title: "A Oportunidade Perdida Que Gera Direito à Indenização", link: "direito-civil/oportunidade-perdida-gera-direito-indenizacao.html" },
 ];
 
 // Array para armazenar todas as notícias coletadas dos arquivos de paginação

@@ -3,12 +3,12 @@ const posts = [
   
 
 { 
-title: "O Dinheiro Público Que Não Presta Contas", 
-description: "As emendas parlamentares movimentam bilhões com rastreabilidade insuficiente gerando conflito entre STF e Congresso", 
-description2: "Entenda o impacto sobre o federalismo e por que a transparência é condição inegociável da democracia fiscal", 
-image: "img/dinheiro-publico-que-nao-presta-contas.webp", 
-link: "politica/dinheiro-publico-que-nao-presta-contas.html",
-  date: "2026-05-28T07:00:00", 
+title: "A Oportunidade Perdida Que Gera Direito à Indenização", 
+description: "A teoria da perda de uma chance reconhece a indenizabilidade da supressão de oportunidades reais por conduta ilícita", 
+description2: "Entenda os fundamentos jurídicos, o STJ e a aplicação em erros médicos e responsabilidade do advogado", 
+image: "img/oportunidade-perdida-gera-direito-indenizacao.webp", 
+link: "direito-civil/oportunidade-perdida-gera-direito-indenizacao.html", 
+date: "2026-06-01T07:00:00",
   section: "featured" },
   {
 title: "Guarda Compartilhada Além do Acordo dos Pais", 
@@ -271,9 +271,9 @@ document.addEventListener("DOMContentLoaded", function(){
   link: "direito-trabalhista/descanso-negado-direito-ignorado.html", 
   date: "2026-05-25T07:00:00" 
 },
-{ title: "O Acordo Que Evita o Banco dos Réus", 
-  link: "direito-penal/acordo-que-evita-banco-dos-reus.html", 
-  date: "2026-05-25T07:00:00" 
+{ title: "A Oportunidade Perdida Que Gera Direito à Indenização", 
+  link: "direito-civil/oportunidade-perdida-gera-direito-indenizacao.html",
+  date: "2026-06-01T07:00:00" 
 },
 { title: "Prisão Antes da Sentença e Seus Limites", 
   link: "jurisprudencia/prisao-antes-sentenca-seus-limites.html", 
