@@ -14,15 +14,6 @@ const tickerConfig = {
 const globalNewsData = [
 
 
-
-
-{
-    title: "Vigilância Permanente Como Escudo Jurídico Corporativo",
-    link: "compliance/vigilancia-permanente-escudo-juridico-corporativo.html",
-},
-{ title: "Prisão Antes da Sentença e Seus Limites", link: "jurisprudencia/prisao-antes-sentenca-seus-limites.html" },
-{ title: "A Lei Que Nomeia o Ódio Letal Contra Mulheres", link: "legislacao/lei-que-nomeia-odio-letal-contra-mulheres.html" },
-{ title: "O Orçamento Como Radiografia do Poder", link: "politica/orcamento-radiografia-do-poder.html" },
 { title: "Descanso Negado e Direito Ignorado", link: "direito-trabalhista/descanso-negado-direito-ignorado.html" },
 { title: "O Acordo Que Evita o Banco dos Réus", link: "direito-penal/acordo-que-evita-banco-dos-reus.html" },
 { title: "Quem Protege a Criança Quando a Família Falha", link: "direito-de-familia/quem-protege-crianca-quando-familia-falha.html" },
@@ -41,6 +32,15 @@ const globalNewsData = [
 { title: "Justiça Sem Condenação Para Crimes de Menor Potencial", link: "direito-penal/justica-sem-condenacao-crimes-menor-potencial.html" },
 { title: "Produto Defeituoso Gera Obrigação de Indenizar", link: "direito-civil/produto-defeituoso-gera-obrigacao-indenizar.html" },
 { title: "A Oportunidade Perdida Que Gera Direito à Indenização", link: "direito-civil/oportunidade-perdida-gera-direito-indenizacao.html" },
+{ title: "Quando Os Avós Devem Pagar Pensão Alimentícia", link: "direito-de-familia/avos-devem-pagar-pensao-alimenticia.html" },
+{ title: "O Medo Constante Também É Crime No Brasil", link: "direito-penal/medo-constante-tambem-e-crime-brasil.html" },
+{ title: "Demissão Irregular Obriga o Empregador a Reintegrar", link: "direito-trabalhista/demissao-irregular-obriga-empregador-reintegrar.html" },
+{ title: "A Maioria Não Pode Tudo Numa Democracia Real", link: "politica/maioria-nao-pode-tudo-democracia-real.html" },
+{ title: "A Lei Que Mudou As Regras Do Crime No Brasil", link: "legislacao/lei-que-mudou-regras-crime-brasil.html" },
+{ title: "Os Tribunais Constroem a Lei de Dados Na Prática", link: "jurisprudencia/tribunais-constroem-lei-dados-pratica.html" },
+{ title: "O Inimigo Que Usa Crachá e Conhece a Senha", link: "compliance/inimigo-que-usa-cracha-conhece-senha.html" },
+{ title: "O Militar Que É Transferido Sem Pedir Para Ir", link: "direito-militar/militar-transferido-sem-pedir-para-ir.html" },
+
 ];
 
 // Array para armazenar todas as notícias coletadas dos arquivos de paginação

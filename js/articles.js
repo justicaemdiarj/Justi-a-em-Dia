@@ -3,71 +3,71 @@ const posts = [
   
 
 { 
+title: "Quando Os Avós Devem Pagar Pensão Alimentícia", 
+description: "Os alimentos avoengos são devidos pelos avós quando os genitores não podem suprir as necessidades dos netos", 
+description2: "Entenda os requisitos legais, o posicionamento do STJ e os limites impostos pelo mínimo existencial dos avós demandados", 
+image: "img/avos-devem-pagar-pensao-alimenticia.webp", 
+link: "direito-de-familia/avos-devem-pagar-pensao-alimenticia.html",
+date: "2026-06-02T07:00:00",
+  section: "featured" },
+  {
+title: "O Medo Constante Também É Crime No Brasil", 
+description: "O stalking foi tipificado no artigo 147-A do Código Penal criminalizando a perseguição reiterada por qualquer meio", 
+description2: "Entenda as qualificadoras, o stalking digital e os instrumentos de proteção imediata às vítimas de perseguição", 
+image: "img/medo-constante-tambem-e-crime-brasil.webp", 
+link: "direito-penal/medo-constante-tambem-e-crime-brasil.html",
+date: "2026-06-02T07:00:00",
+  section: "featured-secundario"
+},
+{
 title: "A Oportunidade Perdida Que Gera Direito à Indenização", 
 description: "A teoria da perda de uma chance reconhece a indenizabilidade da supressão de oportunidades reais por conduta ilícita", 
 description2: "Entenda os fundamentos jurídicos, o STJ e a aplicação em erros médicos e responsabilidade do advogado", 
 image: "img/oportunidade-perdida-gera-direito-indenizacao.webp", 
 link: "direito-civil/oportunidade-perdida-gera-direito-indenizacao.html", 
 date: "2026-06-01T07:00:00",
-  section: "featured" },
-  {
-title: "Guarda Compartilhada Além do Acordo dos Pais", 
-  description: "A guarda compartilhada é o modelo jurídico preferencial no Brasil com entendimentos consolidados pelo STJ", 
-  description2: "Entenda a relação com a alienação parental, os alimentos e os impactos no desenvolvimento infantil", 
-  image: "img/guarda-compartilhada-alem-acordo-dos-pais.webp", 
-  link: "jurisprudencia/guarda-compartilhada-alem-acordo-dos-pais.html", 
-  date: "2026-05-27T07:00:00", 
-  section: "featured-secundario"
-},
-{
-  title: "Licitação Íntegra É Dinheiro Público Protegido",
-  description: "A integridade nas licitações públicas é imperativo normativo reforçado pela Lei nº 14.133/2021 e pela Lei Anticorrupção",
-  description2: "Entenda os mecanismos de prevenção, os esquemas de fraude identificados pelo TCU e o papel do compliance nas contratações",
-  image: "img/licitacao-integra-dinheiro-publico-protegido.webp",
-  link: "compliance/licitacao-integra-dinheiro-publico-protegido.html",
-  date: "2026-05-26T11:00:00",
  section: "featured-terciario"
 },
   {
-title: "Perseguição Obsessiva Virou Crime no Brasil",
-image: "img/perseguicao-obsessiva-virou-crime-brasil.webp", 
-link: "legislacao/perseguicao-obsessiva-virou-crime-brasil.html", 
-date: "2026-05-28T11:00:00",
+title: "Demissão Irregular Obriga o Empregador a Reintegrar",
+image: "img/demissao-irregular-obriga-empregador-reintegrar.webp",
+link: "direito-trabalhista/demissao-irregular-obriga-empregador-reintegrar.html",
+date: "2026-06-02T07:00:00",
     section: "destaque"
   },
    {
-title: "Rescisão Consensual Muda o Fim do Contrato", 
-image: "img/rescisao-consensual-muda-fim-contrato.webp", 
-link: "direito-trabalhista/rescisao-consensual-muda-fim-contrato.html",
-date: "2026-05-28T12:00:00",
+title: "A Maioria Não Pode Tudo Numa Democracia Real",
+image: "img/maioria-nao-pode-tudo-democracia-real.webp", 
+link: "politica/maioria-nao-pode-tudo-democracia-real.html",
+date: "2026-06-02T07:00:00",
    section: "destaque"
   },
   {
-title: "Militar na Iniciativa Privada Tem Limites Rígidos",
-image: "img/militar-iniciativa-privada-limites-rigidos.webp", 
-link: "direito-militar/militar-iniciativa-privada-limites-rigidos.html",
-date: "2026-05-28T17:00:00",
+title: "A Lei Que Mudou As Regras Do Crime No Brasil",
+image: "img/lei-que-mudou-regras-crime-brasil.webp", 
+link: "legislacao/lei-que-mudou-regras-crime-brasil.html", 
+date: "2026-06-02T07:00:00",
    section: "destaque"
   },
   {
-title: "Pai É Quem Cria, Diz o Direito Brasileiro",
-image: "img/pai-e-quem-cria-diz-direito-brasileiro.webp", 
-link: "direito-de-familia/pai-e-quem-cria-diz-direito-brasileiro.html",
- date: "2026-05-28T09:00:00",
+title: 'Os Tribunais Constroem a Lei de Dados Na Prática',
+image: "img/tribunais-constroem-lei-dados-pratica.webp", 
+link: "jurisprudencia/tribunais-constroem-lei-dados-pratica.html",
+date: "2026-06-02T07:00:00",
  section: "veja"
   },
    {
-title: "Justiça Sem Condenação Para Crimes de Menor Potencial",
-image: "img/justica-sem-condenacao-crimes-menor-potencial.webp", 
-link: "direito-penal/justica-sem-condenacao-crimes-menor-potencial.html",
-date: "2026-05-28T11:00:00",
+title: "O Inimigo Que Usa Crachá e Conhece a Senha",
+image: "img/inimigo-que-usa-cracha-conhece-senha.webp", 
+link: "compliance/inimigo-que-usa-cracha-conhece-senha.html",
+date: "2026-06-02T07:00:00",
    section: "veja"
   },
   {
-title: "Produto Defeituoso Gera Obrigação de Indenizar", 
-image: "img/produto-defeituoso-gera-obrigacao-indenizar.webp", 
-link: "direito-civil/produto-defeituoso-gera-obrigacao-indenizar.html",
-date: "2026-05-28T10:00:00",
+title: 'O Militar Que É Transferido Sem Pedir Para Ir',
+image: "img/militar-transferido-sem-pedir-para-ir.webp", 
+link: "direito-militar/militar-transferido-sem-pedir-para-ir.html",
+date: "2026-06-02T07:00:00",
   section: "veja"
   },
 ];

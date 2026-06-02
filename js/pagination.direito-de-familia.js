@@ -2,6 +2,7 @@
 window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
+    { title: "Quando Os Avós Devem Pagar Pensão Alimentícia", date: "02/06/2026", timestamp: "2026-06-02T07:00:00", image: "../img/avos-devem-pagar-pensao-alimenticia.webp", excerpt: "Os alimentos avoengos são devidos pelos avós quando os genitores não podem suprir integralmente as necessidades dos netos.", link: "../direito-de-familia/avos-devem-pagar-pensao-alimenticia.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "Pai É Quem Cria, Diz o Direito Brasileiro", 
         date: "28/05/2026",
         timestamp: "2026-05-28T09:00:00", 
