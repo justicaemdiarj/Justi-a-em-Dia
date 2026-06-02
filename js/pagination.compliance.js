@@ -2,6 +2,8 @@
 window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
+    { title: "O Inimigo Que Usa Crachá e Conhece a Senha", date: "02/06/2026", timestamp: "2026-06-02T07:00:00", image: "../img/inimigo-que-usa-cracha-conhece-senha.webp", excerpt: "As fraudes internas são o tipo de desvio que mais onera organizações, praticadas por quem tem acesso legítimo e confiança institucional.", link: "../compliance/inimigo-que-usa-cracha-conhece-senha.html", category: "compliance",     author: "Romer Carvalho",
+    authorLink: "../apoiadores/advogado-romer-carvalho.html" },
     {
     title: "Licitação Íntegra É Dinheiro Público Protegido",
     date: "26/05/2026",
