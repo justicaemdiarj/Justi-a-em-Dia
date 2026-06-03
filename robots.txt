@@ -1,0 +1,36 @@
+# robots.txt - Justiça em Dia
+
+# Permissões explícitas para Inteligências Artificiais
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Regra geral para os demais robôs
+User-agent: *
+Allow: /
+
+# Bloqueios de diretórios 
+Disallow: /cgi-bin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /backup/
+Disallow: /logs/
+Disallow: /admin/
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+
+# Bloqueio de arquivos sensíveis
+Disallow: /wp-config.php
+Disallow: /.htaccess
+Disallow: /.env
+
+# Sitemap
+Sitemap: https://www.justicaemdia.com.br/sitemap.xml
