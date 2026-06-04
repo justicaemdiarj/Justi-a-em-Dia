@@ -5303,4 +5303,15 @@
     <news:title>Como Investigar Assédio Sem Destruir a Empresa</news:title>
   </news:news>
 </url>
+<url>
+  <loc>https://www.justicaemdia.com.br/jurisprudencia/stf-stj-defendem-quem-nao-tem-voz.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-06-05T07:00:00-03:00</news:publication_date>
+    <news:title>Quando o STF e o STJ Defendem Quem Não Tem Voz</news:title>
+  </news:news>
+</url>
 </urlset>
