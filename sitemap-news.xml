@@ -5292,4 +5292,15 @@
     <news:title>O Militar Que É Transferido Sem Pedir Para Ir</news:title>
   </news:news>
 </url>
+<url>
+  <loc>https://www.justicaemdia.com.br/compliance/como-investigar-assedio-sem-destruir-empresa.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-06-04T07:00:00-03:00</news:publication_date>
+    <news:title>Como Investigar Assédio Sem Destruir a Empresa</news:title>
+  </news:news>
+</url>
 </urlset>

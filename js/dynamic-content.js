@@ -14,15 +14,7 @@ const tickerConfig = {
 const globalNewsData = [
 
 
-{ title: "Descanso Negado e Direito Ignorado", link: "direito-trabalhista/descanso-negado-direito-ignorado.html" },
-{ title: "O Acordo Que Evita o Banco dos Réus", link: "direito-penal/acordo-que-evita-banco-dos-reus.html" },
-{ title: "Quem Protege a Criança Quando a Família Falha", link: "direito-de-familia/quem-protege-crianca-quando-familia-falha.html" },
-{ title: "Nome Sujo Sem Dever Equivale a Dano Certo", link: "direito-civil/nome-sujo-sem-dever-equivale-a-dano-certo.html" },
-{ title: "Quando as Forças Armadas Assumem as Ruas", link: "direito-militar/quando-forcas-armadas-assumem-ruas.html" },
-{
-    title: "Licitação Íntegra É Dinheiro Público Protegido",
-    link: "compliance/licitacao-integra-dinheiro-publico-protegido.html",
-},
+
 { title: "Guarda Compartilhada Além do Acordo dos Pais", link: "jurisprudencia/guarda-compartilhada-alem-acordo-dos-pais.html" },
 { title: "O Dinheiro Público Que Não Presta Contas", link: "politica/dinheiro-publico-que-nao-presta-contas.html" },
 { title: "Perseguição Obsessiva Virou Crime no Brasil", link: "legislacao/perseguicao-obsessiva-virou-crime-brasil.html" },
@@ -40,7 +32,16 @@ const globalNewsData = [
 { title: "Os Tribunais Constroem a Lei de Dados Na Prática", link: "jurisprudencia/tribunais-constroem-lei-dados-pratica.html" },
 { title: "O Inimigo Que Usa Crachá e Conhece a Senha", link: "compliance/inimigo-que-usa-cracha-conhece-senha.html" },
 { title: "O Militar Que É Transferido Sem Pedir Para Ir", link: "direito-militar/militar-transferido-sem-pedir-para-ir.html" },
-
+{ title: "Descanso Negado e Direito Ignorado", link: "direito-trabalhista/descanso-negado-direito-ignorado.html" },
+{ title: "O Acordo Que Evita o Banco dos Réus", link: "direito-penal/acordo-que-evita-banco-dos-reus.html" },
+{ title: "Quem Protege a Criança Quando a Família Falha", link: "direito-de-familia/quem-protege-crianca-quando-familia-falha.html" },
+{ title: "Nome Sujo Sem Dever Equivale a Dano Certo", link: "direito-civil/nome-sujo-sem-dever-equivale-a-dano-certo.html" },
+{ title: "Quando as Forças Armadas Assumem as Ruas", link: "direito-militar/quando-forcas-armadas-assumem-ruas.html" },
+{
+    title: "Licitação Íntegra É Dinheiro Público Protegido",
+    link: "compliance/licitacao-integra-dinheiro-publico-protegido.html",
+},
+{ title: "Como Investigar Assédio Sem Destruir a Empresa", link: "compliance/como-investigar-assedio-sem-destruir-empresa.html" },
 ];
 
 // Array para armazenar todas as notícias coletadas dos arquivos de paginação

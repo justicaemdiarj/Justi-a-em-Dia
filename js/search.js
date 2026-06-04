@@ -1,7 +1,7 @@
 // Base de dados global de artigos para busca
 const allArticles = [
 
-
+{ title: 'Como Investigar Assédio Sem Destruir a Empresa', description: 'As investigações internas de assédio corporativo exigem método, independência e cautela jurídica, com obrigações da Lei nº 14.457/2022 e princípios de uma investigação válida no direito do trabalho.', category: 'Compliance', url: 'compliance/como-investigar-assedio-sem-destruir-empresa.html', tags: ['Investigação de Assédio', 'Compliance Corporativo', 'Como Investigar Assédio Sem Destruir a Empresa'] },
     {
     title: 'Licitação Íntegra É Dinheiro Público Protegido',
     description: 'A integridade nas licitações públicas é imperativo normativo reforçado pela Lei nº 14.133/2021 e pela Lei Anticorrupção, com mecanismos de prevenção e programas de compliance nas contratações.',

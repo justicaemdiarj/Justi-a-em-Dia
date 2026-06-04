@@ -3,12 +3,12 @@ const posts = [
   
 
 { 
-title: "Quando Os Avós Devem Pagar Pensão Alimentícia", 
-description: "Os alimentos avoengos são devidos pelos avós quando os genitores não podem suprir as necessidades dos netos", 
-description2: "Entenda os requisitos legais, o posicionamento do STJ e os limites impostos pelo mínimo existencial dos avós demandados", 
-image: "img/avos-devem-pagar-pensao-alimenticia.webp", 
-link: "direito-de-familia/avos-devem-pagar-pensao-alimenticia.html",
-date: "2026-06-02T07:00:00",
+title: "Como Investigar Assédio Sem Destruir a Empresa", 
+description: "As investigações internas de assédio corporativo exigem método independência e cautela jurídica para proteger vítimas", 
+description2: "Entenda os princípios fundamentais, a coleta de prova e os impactos econômicos de investigações mal conduzidas", 
+image: "img/como-investigar-assedio-sem-destruir-empresa.webp", 
+link: "compliance/como-investigar-assedio-sem-destruir-empresa.html", 
+date: "2026-06-04T07:00:00",
   section: "featured" },
   {
 title: "O Medo Constante Também É Crime No Brasil", 
@@ -275,9 +275,9 @@ document.addEventListener("DOMContentLoaded", function(){
   link: "direito-civil/oportunidade-perdida-gera-direito-indenizacao.html",
   date: "2026-06-01T07:00:00" 
 },
-{ title: "Prisão Antes da Sentença e Seus Limites", 
-  link: "jurisprudencia/prisao-antes-sentenca-seus-limites.html", 
-  date: "2026-05-25T10:00:00" 
+{ title: "Como Investigar Assédio Sem Destruir a Empresa", 
+  link: "compliance/como-investigar-assedio-sem-destruir-empresa.html", 
+  date: "2026-06-04T07:00:00" 
 },
 {
   title: "Vigilância Permanente Como Escudo Jurídico Corporativo",
