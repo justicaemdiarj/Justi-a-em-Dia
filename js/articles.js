@@ -3,20 +3,20 @@ const posts = [
   
 
 { 
+title: "Quando o STF e o STJ Defendem Quem Não Tem Voz", 
+description: "Os tribunais superiores constroem a efetividade dos direitos fundamentais caso a caso no Brasil", 
+description2: "Entenda a jurisprudência sobre direitos sociais, liberdade de expressão, privacidade e igualdade nos tribunais superiores", 
+image: "img/stf-stj-defendem-quem-nao-tem-voz.webp", 
+link: "jurisprudencia/stf-stj-defendem-quem-nao-tem-voz.html", 
+date: "2026-06-05T07:00:00",
+  section: "featured" },
+  {
 title: "Como Investigar Assédio Sem Destruir a Empresa", 
 description: "As investigações internas de assédio corporativo exigem método independência e cautela jurídica para proteger vítimas", 
 description2: "Entenda os princípios fundamentais, a coleta de prova e os impactos econômicos de investigações mal conduzidas", 
 image: "img/como-investigar-assedio-sem-destruir-empresa.webp", 
 link: "compliance/como-investigar-assedio-sem-destruir-empresa.html", 
 date: "2026-06-04T07:00:00",
-  section: "featured" },
-  {
-title: "O Medo Constante Também É Crime No Brasil", 
-description: "O stalking foi tipificado no artigo 147-A do Código Penal criminalizando a perseguição reiterada por qualquer meio", 
-description2: "Entenda as qualificadoras, o stalking digital e os instrumentos de proteção imediata às vítimas de perseguição", 
-image: "img/medo-constante-tambem-e-crime-brasil.webp", 
-link: "direito-penal/medo-constante-tambem-e-crime-brasil.html",
-date: "2026-06-02T07:00:00",
   section: "featured-secundario"
 },
 {
@@ -279,10 +279,9 @@ document.addEventListener("DOMContentLoaded", function(){
   link: "compliance/como-investigar-assedio-sem-destruir-empresa.html", 
   date: "2026-06-04T07:00:00" 
 },
-{
-  title: "Vigilância Permanente Como Escudo Jurídico Corporativo",
-  link: "compliance/vigilancia-permanente-escudo-juridico-corporativo.html",
-  date: "2026-05-25T11:00:00"
+{ title: "Quando o STF e o STJ Defendem Quem Não Tem Voz", 
+  link: "jurisprudencia/stf-stj-defendem-quem-nao-tem-voz.html", 
+  date: "2026-06-05T07:00:00" 
 },
 { title: "Justiça Sem Condenação Para Crimes de Menor Potencial", 
   link: "direito-penal/justica-sem-condenacao-crimes-menor-potencial.html", 
@@ -335,10 +334,10 @@ document.addEventListener("DOMContentLoaded", function(){
 const principaisNoticias = [
 
 {
-title: "Pluralidade de Crimes e Unidade de Pena",
-    link: "direito-penal/concurso-material-crime-continuado-pluralidade-pena-dosimetria.html",
+title: "O Inimigo Que Usa Crachá e Conhece a Senha",
+    link: "compliance/inimigo-que-usa-cracha-conhece-senha.html",
 source: "",
-date: "2026-05-21T07:00:00"
+date: "2026-06-02T07:00:00"
 },
 {
 title: "O Dinheiro Público Que Não Presta Contas",
@@ -347,16 +346,16 @@ source: "",
 date: "2026-05-28T07:00:00"
 },
 {
-title: "Conflitos de Interesse e Integridade Corporativa",
-link: "compliance/conflito-interesse-gestao-integridade-governanca-corporativa.html",
+title: "O Dinheiro Público Que Não Presta Contas",
+link: "politica/dinheiro-publico-que-nao-presta-contas.html",
 source: "",
-date: "2026-05-19T03:00:00"
+date: "2026-05-28T03:00:00"
 },
 {
-title: "Saneamento Básico e a Lei que Mudou Tudo",
-  link: "legislacao/marco-legal-saneamento-lei-14026-concessao-agua-esgoto.html",
+title: "A Oportunidade Perdida Que Gera Direito à Indenização",
+  link: "direito-civil/oportunidade-perdida-gera-direito-indenizacao.html",
 source: "",
-date: "2026-05-22T07:00:00"
+date: "2026-06-01T07:00:00"
 },
 {
 title: "Jornada 12x36 Entre a Flexibilidade e o Esgotamento",

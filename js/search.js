@@ -1,6 +1,7 @@
 // Base de dados global de artigos para busca
 const allArticles = [
 
+    { title: 'Quando o STF e o STJ Defendem Quem Não Tem Voz', description: 'Os tribunais superiores constroem a efetividade dos direitos fundamentais caso a caso com jurisprudência sobre direitos sociais, liberdade de expressão e proteção da privacidade.', category: 'Jurisprudência', url: 'jurisprudencia/stf-stj-defendem-quem-nao-tem-voz.html', tags: ['Direitos Fundamentais', 'STF', 'Quando o STF e o STJ Defendem Quem Não Tem Voz'] },
 { title: 'Como Investigar Assédio Sem Destruir a Empresa', description: 'As investigações internas de assédio corporativo exigem método, independência e cautela jurídica, com obrigações da Lei nº 14.457/2022 e princípios de uma investigação válida no direito do trabalho.', category: 'Compliance', url: 'compliance/como-investigar-assedio-sem-destruir-empresa.html', tags: ['Investigação de Assédio', 'Compliance Corporativo', 'Como Investigar Assédio Sem Destruir a Empresa'] },
     {
     title: 'Licitação Íntegra É Dinheiro Público Protegido',

@@ -13,12 +13,6 @@ const tickerConfig = {
 
 const globalNewsData = [
 
-
-
-{ title: "Guarda Compartilhada Além do Acordo dos Pais", link: "jurisprudencia/guarda-compartilhada-alem-acordo-dos-pais.html" },
-{ title: "O Dinheiro Público Que Não Presta Contas", link: "politica/dinheiro-publico-que-nao-presta-contas.html" },
-{ title: "Perseguição Obsessiva Virou Crime no Brasil", link: "legislacao/perseguicao-obsessiva-virou-crime-brasil.html" },
-{ title: "Rescisão Consensual Muda o Fim do Contrato", link: "direito-trabalhista/rescisao-consensual-muda-fim-contrato.html" },
 { title: "Militar na Iniciativa Privada Tem Limites Rígidos", link: "direito-militar/militar-iniciativa-privada-limites-rigidos.html" },
 { title: "Pai É Quem Cria, Diz o Direito Brasileiro", link: "direito-de-familia/pai-e-quem-cria-diz-direito-brasileiro.html" },
 { title: "Justiça Sem Condenação Para Crimes de Menor Potencial", link: "direito-penal/justica-sem-condenacao-crimes-menor-potencial.html" },
@@ -42,6 +36,7 @@ const globalNewsData = [
     link: "compliance/licitacao-integra-dinheiro-publico-protegido.html",
 },
 { title: "Como Investigar Assédio Sem Destruir a Empresa", link: "compliance/como-investigar-assedio-sem-destruir-empresa.html" },
+{ title: "Quando o STF e o STJ Defendem Quem Não Tem Voz", link: "jurisprudencia/stf-stj-defendem-quem-nao-tem-voz.html" },
 ];
 
 // Array para armazenar todas as notícias coletadas dos arquivos de paginação
