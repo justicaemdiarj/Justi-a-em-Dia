@@ -5314,4 +5314,81 @@
     <news:title>Quando o STF e o STJ Defendem Quem Não Tem Voz</news:title>
   </news:news>
 </url>
+<url>
+  <loc>https://www.justicaemdia.com.br/politica/governar-brasil-custa-caro-exige-concessoes.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-26T07:00:00-03:00</news:publication_date>
+    <news:title>Governar No Brasil Custa Caro e Exige Concessões</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/legislacao/resolver-conflitos-sem-ir-julgamento.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-26T07:00:00-03:00</news:publication_date>
+    <news:title>Resolver Conflitos Sem Ir a Julgamento É Possível</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-civil/plataforma-digital-que-falha-tem-conta-pagar.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-26T07:00:00-03:00</news:publication_date>
+    <news:title>Plataforma Digital Que Falha Tem Conta a Pagar</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-penal/lei-protege-rigor-quem-nao-pode-defender.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-26T07:00:00-03:00</news:publication_date>
+    <news:title>A Lei Protege Com Mais Rigor Quem Não Pode Se Defender</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-de-familia/regime-bens-define-futuro-patrimonio-conjugal.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-26T07:00:00-03:00</news:publication_date>
+    <news:title>Regime De Bens Define o Futuro do Patrimônio Conjugal</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-militar/militar-doente-tem-direitos-farda-nao-apaga.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-26T07:00:00-03:00</news:publication_date>
+    <news:title>O Militar Doente Tem Direitos Que a Farda Não Apaga</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-trabalhista/gravidez-trabalho-direito-empresa-nao-pode-ignorar.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-05-26T07:00:00-03:00</news:publication_date>
+    <news:title>Gravidez No Trabalho É Direito Que a Empresa Não Pode Ignorar</news:title>
+  </news:news>
+</url>
 </urlset>
