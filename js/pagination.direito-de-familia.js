@@ -2,6 +2,7 @@
 window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
+    { title: "Regime De Bens Define o Futuro do Patrimônio Conjugal", date: "08/06/2026", timestamp: "2026-06-08T07:00:00", image: "../img/regime-bens-define-futuro-patrimonio-conjugal.webp", excerpt: "O planejamento patrimonial no casamento envolve a escolha consciente do regime de bens e instrumentos como o pacto antenupcial.", link: "../direito-de-familia/regime-bens-define-futuro-patrimonio-conjugal.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "Quando Os Avós Devem Pagar Pensão Alimentícia", 
         date: "02/06/2026", timestamp: "2026-06-02T07:00:00", 
         image: "../img/avos-devem-pagar-pensao-alimenticia.webp", 

@@ -13,14 +13,6 @@ const tickerConfig = {
 
 const globalNewsData = [
 
-{ title: "Militar na Iniciativa Privada Tem Limites Rígidos", link: "direito-militar/militar-iniciativa-privada-limites-rigidos.html" },
-{ title: "Pai É Quem Cria, Diz o Direito Brasileiro", link: "direito-de-familia/pai-e-quem-cria-diz-direito-brasileiro.html" },
-{ title: "Justiça Sem Condenação Para Crimes de Menor Potencial", link: "direito-penal/justica-sem-condenacao-crimes-menor-potencial.html" },
-{ title: "Produto Defeituoso Gera Obrigação de Indenizar", link: "direito-civil/produto-defeituoso-gera-obrigacao-indenizar.html" },
-{ title: "A Oportunidade Perdida Que Gera Direito à Indenização", link: "direito-civil/oportunidade-perdida-gera-direito-indenizacao.html" },
-{ title: "Quando Os Avós Devem Pagar Pensão Alimentícia", link: "direito-de-familia/avos-devem-pagar-pensao-alimenticia.html" },
-{ title: "O Medo Constante Também É Crime No Brasil", link: "direito-penal/medo-constante-tambem-e-crime-brasil.html" },
-{ title: "Demissão Irregular Obriga o Empregador a Reintegrar", link: "direito-trabalhista/demissao-irregular-obriga-empregador-reintegrar.html" },
 { title: "A Maioria Não Pode Tudo Numa Democracia Real", link: "politica/maioria-nao-pode-tudo-democracia-real.html" },
 { title: "A Lei Que Mudou As Regras Do Crime No Brasil", link: "legislacao/lei-que-mudou-regras-crime-brasil.html" },
 { title: "Os Tribunais Constroem a Lei de Dados Na Prática", link: "jurisprudencia/tribunais-constroem-lei-dados-pratica.html" },
@@ -37,6 +29,13 @@ const globalNewsData = [
 },
 { title: "Como Investigar Assédio Sem Destruir a Empresa", link: "compliance/como-investigar-assedio-sem-destruir-empresa.html" },
 { title: "Quando o STF e o STJ Defendem Quem Não Tem Voz", link: "jurisprudencia/stf-stj-defendem-quem-nao-tem-voz.html" },
+{ title: "Governar No Brasil Custa Caro e Exige Concessões", link: "politica/governar-brasil-custa-caro-exige-concessoes.html" },
+{ title: "Resolver Conflitos Sem Ir a Julgamento É Possível", link: "legislacao/resolver-conflitos-sem-ir-julgamento.html" },
+{ title: "Plataforma Digital Que Falha Tem Conta a Pagar", link: "direito-civil/plataforma-digital-que-falha-tem-conta-pagar.html" },
+{ title: "A Lei Protege Com Mais Rigor Quem Não Pode Se Defender", link: "direito-penal/lei-protege-rigor-quem-nao-pode-defender.html" },
+{ title: "Regime De Bens Define o Futuro do Patrimônio Conjugal", link: "direito-de-familia/regime-bens-define-futuro-patrimonio-conjugal.html" },
+{ title: "O Militar Doente Tem Direitos Que a Farda Não Apaga", link: "direito-militar/militar-doente-tem-direitos-farda-nao-apaga.html" },
+{ title: "Gravidez No Trabalho É Direito Que a Empresa Não Pode Ignorar", link: "direito-trabalhista/gravidez-trabalho-direito-empresa-nao-pode-ignorar.html" },
 ];
 
 // Array para armazenar todas as notícias coletadas dos arquivos de paginação
