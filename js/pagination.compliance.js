@@ -2,8 +2,11 @@
 window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
+    { title: "Sem Controle Interno a Fraude Encontra Caminho Livre", date: "09/06/2026", timestamp: "2026-06-09T07:00:00",  image: "../img/controles-internos-prevencao-desvios-corporativos.webp", excerpt: "Os controles internos para prevenção de desvios são exigência normativa e estratégica com base no modelo COSO e na Lei Anticorrupção.", link: "../compliance/controles-internos-prevencao-desvios-corporativos.html",         author: "Romer Carvalho",
+    authorLink: "../apoiadores/advogado-romer-carvalho.html"},
     { title: "Como Investigar Assédio Sem Destruir a Empresa", date: "04/06/2026", timestamp: "2026-06-04T07:00:00", image: "../img/como-investigar-assedio-sem-destruir-empresa.webp", excerpt: "As investigações internas de assédio corporativo exigem método, independência e cautela jurídica para proteger vítimas e a empresa.", link: "../compliance/como-investigar-assedio-sem-destruir-empresa.html", author: "Justiça em Dia", authorLink: "#" },
-    { title: "O Inimigo Que Usa Crachá e Conhece a Senha", date: "02/06/2026", timestamp: "2026-06-02T07:00:00", image: "../img/inimigo-que-usa-cracha-conhece-senha.webp", excerpt: "As fraudes internas são o tipo de desvio que mais onera organizações, praticadas por quem tem acesso legítimo e confiança institucional.", link: "../compliance/inimigo-que-usa-cracha-conhece-senha.html", category: "compliance",     author: "Romer Carvalho",
+    { title: "O Inimigo Que Usa Crachá e Conhece a Senha", date: "02/06/2026", timestamp: "2026-06-02T07:00:00", image: "../img/inimigo-que-usa-cracha-conhece-senha.webp", excerpt: "As fraudes internas são o tipo de desvio que mais onera organizações, praticadas por quem tem acesso legítimo e confiança institucional.", link: "../compliance/inimigo-que-usa-cracha-conhece-senha.html", category: "compliance", 
+        author: "Romer Carvalho",
     authorLink: "../apoiadores/advogado-romer-carvalho.html" },
     {
     title: "Licitação Íntegra É Dinheiro Público Protegido",

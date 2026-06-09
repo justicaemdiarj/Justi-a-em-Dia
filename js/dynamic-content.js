@@ -13,16 +13,6 @@ const tickerConfig = {
 
 const globalNewsData = [
 
-{ title: "A Maioria Não Pode Tudo Numa Democracia Real", link: "politica/maioria-nao-pode-tudo-democracia-real.html" },
-{ title: "A Lei Que Mudou As Regras Do Crime No Brasil", link: "legislacao/lei-que-mudou-regras-crime-brasil.html" },
-{ title: "Os Tribunais Constroem a Lei de Dados Na Prática", link: "jurisprudencia/tribunais-constroem-lei-dados-pratica.html" },
-{ title: "O Inimigo Que Usa Crachá e Conhece a Senha", link: "compliance/inimigo-que-usa-cracha-conhece-senha.html" },
-{ title: "O Militar Que É Transferido Sem Pedir Para Ir", link: "direito-militar/militar-transferido-sem-pedir-para-ir.html" },
-{ title: "Descanso Negado e Direito Ignorado", link: "direito-trabalhista/descanso-negado-direito-ignorado.html" },
-{ title: "O Acordo Que Evita o Banco dos Réus", link: "direito-penal/acordo-que-evita-banco-dos-reus.html" },
-{ title: "Quem Protege a Criança Quando a Família Falha", link: "direito-de-familia/quem-protege-crianca-quando-familia-falha.html" },
-{ title: "Nome Sujo Sem Dever Equivale a Dano Certo", link: "direito-civil/nome-sujo-sem-dever-equivale-a-dano-certo.html" },
-{ title: "Quando as Forças Armadas Assumem as Ruas", link: "direito-militar/quando-forcas-armadas-assumem-ruas.html" },
 {
     title: "Licitação Íntegra É Dinheiro Público Protegido",
     link: "compliance/licitacao-integra-dinheiro-publico-protegido.html",
@@ -36,6 +26,16 @@ const globalNewsData = [
 { title: "Regime De Bens Define o Futuro do Patrimônio Conjugal", link: "direito-de-familia/regime-bens-define-futuro-patrimonio-conjugal.html" },
 { title: "O Militar Doente Tem Direitos Que a Farda Não Apaga", link: "direito-militar/militar-doente-tem-direitos-farda-nao-apaga.html" },
 { title: "Gravidez No Trabalho É Direito Que a Empresa Não Pode Ignorar", link: "direito-trabalhista/gravidez-trabalho-direito-empresa-nao-pode-ignorar.html" },
+{ title: "Sem Controle Interno a Fraude Encontra Caminho Livre", link: "compliance/controles-internos-prevencao-desvios-corporativos.html" },
+{ title: "Quando o Juiz Decide o Que o Estado Deve Fazer", link: "jurisprudencia/juiz-decide-o-que-estado-deve-fazer.html" },
+{ title: "Assinar Digitalmente Tem Força de Lei No Brasil", link: "direito-civil/assinar-digitalmente-tem-forca-lei-brasil.html" },
+{ title: "Como o Direito Penal Enfrenta Estruturas do Crime", link: "direito-penal/como-direito-penal-enfrenta-estruturas-crime.html" },
+{ title: "A Lei Protege Quem Ainda Não Nasceu", link: "direito-de-familia/lei-protege-quem-ainda-nao-nasceu.html" },
+{ title: "A Farda Não Suprime o Direito de se Defender", link: "direito-militar/farda-nao-suprime-direito-defender.html" },
+{ title: "Deficiência No Trabalho É Direito Que a Lei Assegura", link: "direito-trabalhista/deficiencia-trabalho-direito-lei-assegura.html" },
+{ title: "Prestação de Contas É Dever de Todo Servidor Público", link: "politica/prestacao-contas-dever-servidor-publico.html" },
+{ title: "Resolver Disputas Sem Julgamento Público No Brasil", link: "legislacao/resolver-disputas-sem-julgamento-publico-brasil.html" },
+
 ];
 
 // Array para armazenar todas as notícias coletadas dos arquivos de paginação

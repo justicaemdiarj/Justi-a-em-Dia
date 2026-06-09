@@ -3,71 +3,64 @@ const posts = [
   
 
 { 
-title: "Gravidez No Trabalho É Direito Que a Empresa Não Pode Ignorar", 
-description: "A estabilidade gestacional protege a empregada desde a confirmação da gravidez até cinco meses após o parto", 
-description2: "Entenda a Súmula 244 do TST, a aplicação ao contrato de experiência e as tendências da proteção à maternidade no trabalho", 
-image: "img/gravidez-trabalho-direito-empresa-nao-pode-ignorar.webp", 
-link: "direito-trabalhista/gravidez-trabalho-direito-empresa-nao-pode-ignorar.html", 
-date: "2026-06-08T07:00:00",
+title: "Sem Controle Interno a Fraude Encontra Caminho Livre", 
+description: "Os controles internos para prevenção de desvios são exigência normativa e estratégica com base no modelo COSO", 
+description2: "Entenda o mapeamento de riscos, a cultura de integridade, a auditoria interna e o valor probatório dos programas de compliance", 
+image: "img/controles-internos-prevencao-desvios-corporativos.webp", 
+link: "compliance/controles-internos-prevencao-desvios-corporativos.html",
+date: "2026-06-09T07:00:00",
   section: "featured" },
   {
-title: "O Militar Doente Tem Direitos Que a Farda Não Apaga", 
-description: "Os direitos do militar em tratamento de saúde são regulados pelo Estatuto dos Militares com proteções específicas", 
-description2: "Entenda a licença de saúde, a reforma por incapacidade em serviço e os desafios da saúde mental nas corporações militares", 
-image: "img/militar-doente-tem-direitos-farda-nao-apaga.webp", 
-link: "direito-militar/militar-doente-tem-direitos-farda-nao-apaga.html", 
-date: "2026-06-08T07:00:00",
+title: "Quando o Juiz Decide o Que o Estado Deve Fazer", description: "O controle judicial de políticas públicas expande o Judiciário sobre decisões do Executivo e Legislativo no Brasil", 
+description2: "Entenda a reserva do possível, o mínimo existencial, a judicialização da saúde e as decisões estruturais nos tribunais superiores", 
+image: "img/juiz-decide-o-que-estado-deve-fazer.webp", 
+link: "jurisprudencia/juiz-decide-o-que-estado-deve-fazer.html",
+date: "2026-06-09T07:00:00",
   section: "featured-secundario"
 },
 {
-title: "Regime De Bens Define o Futuro do Patrimônio Conjugal", 
-description: "O planejamento patrimonial no casamento envolve a escolha consciente do regime de bens e instrumentos como o pacto antenupcial", 
-description2: "Entenda os quatro regimes do Código Civil, a separação obrigatória para idosos e as holdings familiares no planejamento sucessório", 
-image: "img/regime-bens-define-futuro-patrimonio-conjugal.webp", 
-link: "direito-de-familia/regime-bens-define-futuro-patrimonio-conjugal.html", 
-date: "2026-06-08T07:00:00",
+title: "Assinar Digitalmente Tem Força de Lei No Brasil", 
+description: "Os contratos eletrônicos e a assinatura digital têm plena validade jurídica no ordenamento brasileiro", 
+description2: "Entenda o marco normativo, a prova dos contratos eletrônicos, os smart contracts e o futuro da contratação digital no Brasil", 
+image: "img/assinar-digitalmente-tem-forca-lei-brasil.webp", 
+link: "direito-civil/assinar-digitalmente-tem-forca-lei-brasil.html",
+date: "2026-06-09T07:00:00",
  section: "featured-terciario"
 },
   {
-title: "A Lei Protege Com Mais Rigor Quem Não Pode Se Defender",
-image: "img/lei-protege-rigor-quem-nao-pode-defender.webp", 
-link: "direito-penal/lei-protege-rigor-quem-nao-pode-defender.html",
-date: "2026-06-08T07:00:00",
+ title: "Como o Direito Penal Enfrenta Estruturas do Crime",
+image: "img/como-direito-penal-enfrenta-estruturas-crime.webp", link: "direito-penal/como-direito-penal-enfrenta-estruturas-crime.html",
+date: "2026-06-09T07:00:00",
     section: "destaque"
   },
    {
-title: "Plataforma Digital Que Falha Tem Conta a Pagar", 
- image: "img/plataforma-digital-que-falha-tem-conta-pagar.webp", 
- link: "direito-civil/plataforma-digital-que-falha-tem-conta-pagar.html",
-date: "2026-06-08T07:00:00",
+title: "A Lei Protege Quem Ainda Não Nasceu",
+image: "img/lei-protege-quem-ainda-nao-nasceu.webp", link: "direito-de-familia/lei-protege-quem-ainda-nao-nasceu.html",
+date: "2026-06-09T07:00:00",
    section: "destaque"
   },
   {
- title: "Resolver Conflitos Sem Ir a Julgamento É Possível",
-image: "img/resolver-conflitos-sem-ir-julgamento.webp", 
-link: "legislacao/resolver-conflitos-sem-ir-julgamento.html",
-date: "2026-06-08T07:00:00",
+title: "A Farda Não Suprime o Direito de se Defender",
+image: "img/farda-nao-suprime-direito-defender.webp", link: "direito-militar/farda-nao-suprime-direito-defender.html",
+date: "2026-06-09T07:00:00",
    section: "destaque"
   },
   {
-title: "Governar No Brasil Custa Caro e Exige Concessões",
- image: "img/governar-brasil-custa-caro-exige-concessoes.webp", 
- link: "politica/governar-brasil-custa-caro-exige-concessoes.html",
-date: "2026-06-08T07:00:00",
+title: "Deficiência No Trabalho É Direito Que a Lei Assegura",
+image: "img/deficiencia-trabalho-direito-lei-assegura.webp", link: "direito-trabalhista/deficiencia-trabalho-direito-lei-assegura.html",
+date: "2026-06-09T07:00:00",
  section: "veja"
   },
    {
-title: 'Quando o STF e o STJ Defendem Quem Não Tem Voz',
- image: "img/stf-stj-defendem-quem-nao-tem-voz.webp", 
- link: "jurisprudencia/stf-stj-defendem-quem-nao-tem-voz.html",
-date: "2026-06-05T07:00:00",
+title: "Prestação de Contas É Dever de Todo Servidor Público",
+ image: "img/prestacao-contas-dever-servidor-publico.webp", link: "politica/prestacao-contas-dever-servidor-publico.html",
+date: "2026-06-09T07:00:00",
    section: "veja"
   },
   {
-title: "Como Investigar Assédio Sem Destruir a Empresa",
-image: "img/como-investigar-assedio-sem-destruir-empresa.webp", 
-link: "compliance/como-investigar-assedio-sem-destruir-empresa.html",
-date: "2026-06-04T07:00:00",
+ title: "Resolver Disputas Sem Julgamento Público No Brasil",
+image: "img/resolver-disputas-sem-julgamento-publico-brasil.webp", link: "legislacao/resolver-disputas-sem-julgamento-publico-brasil.html",
+date: "2026-06-09T07:00:00",
   section: "veja"
   },
 ];
@@ -267,14 +260,13 @@ document.addEventListener("DOMContentLoaded", function(){
   /* ===== MAIS LIDOS ===== */
   const posts = [
   
-{ title: "Descanso Negado e Direito Ignorado", 
-  link: "direito-trabalhista/descanso-negado-direito-ignorado.html", 
-  date: "2026-05-25T07:00:00" 
+{ title: "O Inimigo Que Usa Crachá e Conhece a Senha", 
+  link: "compliance/inimigo-que-usa-cracha-conhece-senha.html", 
+  date: "2026-06-02T07:00:00" 
 },
-{ title: "A Oportunidade Perdida Que Gera Direito à Indenização", 
-  link: "direito-civil/oportunidade-perdida-gera-direito-indenizacao.html",
-  date: "2026-06-01T07:00:00" 
-},
+{ title: "Sem Controle Interno a Fraude Encontra Caminho Livre", 
+  link: "compliance/controles-internos-prevencao-desvios-corporativos.html", 
+  date: "2026-05-26T07:00:00" },
 { title: "Como Investigar Assédio Sem Destruir a Empresa", 
   link: "compliance/como-investigar-assedio-sem-destruir-empresa.html", 
   date: "2026-06-04T07:00:00" 
@@ -283,9 +275,9 @@ document.addEventListener("DOMContentLoaded", function(){
   link: "jurisprudencia/stf-stj-defendem-quem-nao-tem-voz.html", 
   date: "2026-06-05T07:00:00" 
 },
-{ title: "Justiça Sem Condenação Para Crimes de Menor Potencial", 
-  link: "direito-penal/justica-sem-condenacao-crimes-menor-potencial.html", 
-  date: "2026-05-28T11:00:00" 
+{ title: "A Maioria Não Pode Tudo Numa Democracia Real", 
+  link: "politica/maioria-nao-pode-tudo-democracia-real.html", 
+   date: "2026-06-02T07:00:00" 
 },
 
   ];
@@ -346,10 +338,10 @@ source: "",
 date: "2026-05-28T07:00:00"
 },
 {
-title: "O Dinheiro Público Que Não Presta Contas",
-link: "politica/dinheiro-publico-que-nao-presta-contas.html",
+title: "Quando o STF e o STJ Defendem Quem Não Tem Voz",
+link: "jurisprudencia/stf-stj-defendem-quem-nao-tem-voz.html",
 source: "",
-date: "2026-05-28T03:00:00"
+date: "2026-06-05T03:00:00"
 },
 {
 title: "A Oportunidade Perdida Que Gera Direito à Indenização",
@@ -358,34 +350,34 @@ source: "",
 date: "2026-06-01T07:00:00"
 },
 {
-title: "Jornada 12x36 Entre a Flexibilidade e o Esgotamento",
-link: "direito-trabalhista/jornada-12x36-flexibilidade-saude-trabalhador-clt.html",
+title: "Gravidez No Trabalho É Direito Que a Empresa Não Pode Ignorar",
+link: "direito-trabalhista/gravidez-trabalho-direito-empresa-nao-pode-ignorar.html",
 source: "",
-date: "2026-05-19T07:00:00"
+date: "2026-06-08T07:00:00"
 },
 {
-title: "A Lei Que Nomeia o Ódio Letal Contra Mulheres",
- link: "legislacao/lei-que-nomeia-odio-letal-contra-mulheres.html",
+title: "Governar No Brasil Custa Caro e Exige Concessões",
+ link: "politica/governar-brasil-custa-caro-exige-concessoes.html",
 source: "",
-date: "2026-05-25T12:00:00"
+date: "2026-06-08T07:00:00"
 },
 {
- title: "Animal de Estimação na Dissolução do Casamento",
-  link: "direito-de-familia/guarda-pets-separacao-animais-estimacao-dissolucao-conjugal.html",
+ title: "Regime De Bens Define o Futuro do Patrimônio Conjugal",
+  link: "direito-de-familia/regime-bens-define-futuro-patrimonio-conjugal.html",
 source: "",
-date: "2026-05-22T07:00:00"
+date: "2026-06-08T07:00:00"
 },
 {
-    title: "Descanso Negado e Direito Ignorado",
-  link: "direito-trabalhista/descanso-negado-direito-ignorado.html",
+    title: "A Lei Protege Com Mais Rigor Quem Não Pode Se Defender",
+  link: "direito-penal/lei-protege-rigor-quem-nao-pode-defender.html",
 source: "",
-date: "2026-05-25T07:00:00",
+date: "2026-06-08T07:00:00"
 },
 {
-   title: "Laje Urbana e Acesso à Propriedade Formal",
-    link: "direito-civil/direito-laje-regularizacao-propriedade-habitacao-urbana.html",
+   title: "A Maioria Não Pode Tudo Numa Democracia Real",
+    link: "politica/maioria-nao-pode-tudo-democracia-real.html",
 source: "",
-date: "2026-05-19T07:00:00"
+date: "2026-06-02T07:00:00"
 },
 
 ];
