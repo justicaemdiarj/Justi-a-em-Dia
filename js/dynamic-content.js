@@ -35,7 +35,10 @@ const globalNewsData = [
 { title: "Deficiência No Trabalho É Direito Que a Lei Assegura", link: "direito-trabalhista/deficiencia-trabalho-direito-lei-assegura.html" },
 { title: "Prestação de Contas É Dever de Todo Servidor Público", link: "politica/prestacao-contas-dever-servidor-publico.html" },
 { title: "Resolver Disputas Sem Julgamento Público No Brasil", link: "legislacao/resolver-disputas-sem-julgamento-publico-brasil.html" },
-
+{
+    title: "Quando o Poder Vira Arma Corporativa",
+    link: "direito-trabalhista/assedio-organizacional-poder-arma-corporativa.html",
+},
 ];
 
 // Array para armazenar todas as notícias coletadas dos arquivos de paginação

@@ -2,6 +2,16 @@
 window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
+    {
+    title: "Quando o Poder Vira Arma Corporativa",
+    date: "11/06/2026",
+    timestamp: "2026-06-11T07:00:00",
+    image: "../img/assedio-organizacional-poder-arma-corporativa.webp",
+    excerpt: "O assédio organizacional representa uma das formas mais silenciosas e devastadoras de violação de direitos no ambiente de trabalho.",
+    link: "../direito-trabalhista/assedio-organizacional-poder-arma-corporativa.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
     { title: "Deficiência No Trabalho É Direito Que a Lei Assegura", date: "09/06/2026", timestamp: "2026-06-09T07:00:00", image: "../img/deficiencia-trabalho-direito-lei-assegura.webp", excerpt: "Os direitos do trabalhador com deficiência são assegurados pela Lei nº 8.213/1991 e pela LBI com cotas, adaptação razoável e proteção contra discriminação.", link: "../direito-trabalhista/deficiencia-trabalho-direito-lei-assegura.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "Gravidez No Trabalho É Direito Que a Empresa Não Pode Ignorar", date: "08/06/2026", timestamp: "2026-06-08T07:00:00", image: "../img/gravidez-trabalho-direito-empresa-nao-pode-ignorar.webp", excerpt: "A estabilidade gestacional protege a empregada desde a confirmação da gravidez até cinco meses após o parto conforme o ADCT.", link: "../direito-trabalhista/gravidez-trabalho-direito-empresa-nao-pode-ignorar.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "Demissão Irregular Obriga o Empregador a Reintegrar", date: "02/06/2026", timestamp: "2026-06-02T07:00:00", image: "../img/demissao-irregular-obriga-empregador-reintegrar.webp", excerpt: "A reintegração ao emprego restaura o vínculo empregatício rompido ilegalmente, com todas as consequências financeiras para o empregador.", link: "../direito-trabalhista/demissao-irregular-obriga-empregador-reintegrar.html", author: "Justiça em Dia", authorLink: "#" },

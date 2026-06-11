@@ -1,6 +1,11 @@
 // Base de dados global de artigos para busca
 const allArticles = [
-
+{
+    title: 'Quando o Poder Vira Arma Corporativa',
+    description: 'O assédio organizacional representa uma das formas mais silenciosas e devastadoras de violação de direitos no ambiente de trabalho. Estruturas hierárquicas abusivas, metas inatingíveis e humilhações sistemáticas configuram condutas ilícitas que impõem ao trabalhador danos físicos, psíquicos e patrimoniais.',
+    url: 'direito-trabalhista/assedio-organizacional-poder-arma-corporativa.html',
+    tags: ['Assédio Organizacional', 'Direito Trabalhista', 'Assédio Moral no Trabalho', 'Dano Existencial', 'Saúde do Trabalhador']
+},
  { title: 'Sem Controle Interno a Fraude Encontra Caminho Livre', description: 'Os controles internos para prevenção de desvios são exigência normativa com base no COSO, mapeamento de riscos, cultura de integridade e valor probatório reconhecido pela Lei Anticorrupção.', category: 'Compliance', url: 'compliance/controles-internos-prevencao-desvios-corporativos.html', tags: ['Controles Internos', 'Romer Carvalho', 'Prevenção de Desvios', 'Sem Controle Interno a Fraude Encontra Caminho Livre'] },
  { title: 'Quando o Juiz Decide o Que o Estado Deve Fazer', description: 'O controle judicial de políticas públicas expande o Judiciário sobre o Executivo com debates sobre reserva do possível, mínimo existencial, judicialização da saúde e decisões estruturais.', category: 'Jurisprudência', url: 'jurisprudencia/juiz-decide-o-que-estado-deve-fazer.html', tags: ['Controle Judicial', 'Políticas Públicas', 'Quando o Juiz Decide o Que o Estado Deve Fazer'] },
  { title: 'Assinar Digitalmente Tem Força de Lei No Brasil', description: 'Os contratos eletrônicos e a assinatura digital têm validade jurídica plena pela MP nº 2.200-2/2001 e Lei nº 14.063/2020, com marco normativo, prova eletrônica e smart contracts.', category: 'Direito Civil', url: 'direito-civil/assinar-digitalmente-tem-forca-lei-brasil.html', tags: ['Contratos Eletrônicos', 'Assinatura Digital', 'Assinar Digitalmente Tem Força de Lei No Brasil'] },

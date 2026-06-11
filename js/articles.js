@@ -3,12 +3,12 @@ const posts = [
   
 
 { 
-title: "Sem Controle Interno a Fraude Encontra Caminho Livre", 
-description: "Os controles internos para prevenção de desvios são exigência normativa e estratégica com base no modelo COSO", 
-description2: "Entenda o mapeamento de riscos, a cultura de integridade, a auditoria interna e o valor probatório dos programas de compliance", 
-image: "img/controles-internos-prevencao-desvios-corporativos.webp", 
-link: "compliance/controles-internos-prevencao-desvios-corporativos.html",
-date: "2026-06-09T07:00:00",
+  title: "Quando o Poder Vira Arma Corporativa",
+  description: "Estruturas hierárquicas abusivas e metas coercitivas transformam o ambiente corporativo em território de violação de direitos fundamentais",
+  description2: "O assédio organizacional e o adoecimento silencioso do trabalhador brasileiro",
+  image: "img/assedio-organizacional-poder-arma-corporativa.webp",
+  link: "direito-trabalhista/assedio-organizacional-poder-arma-corporativa.html",
+  date: "2026-06-11T07:00:00",
   section: "featured" },
   {
 title: "Quando o Juiz Decide o Que o Estado Deve Fazer", description: "O controle judicial de políticas públicas expande o Judiciário sobre decisões do Executivo e Legislativo no Brasil", 
@@ -264,9 +264,11 @@ document.addEventListener("DOMContentLoaded", function(){
   link: "compliance/inimigo-que-usa-cracha-conhece-senha.html", 
   date: "2026-06-02T07:00:00" 
 },
-{ title: "Sem Controle Interno a Fraude Encontra Caminho Livre", 
-  link: "compliance/controles-internos-prevencao-desvios-corporativos.html", 
-  date: "2026-05-26T07:00:00" },
+{
+  title: "Quando o Poder Vira Arma Corporativa",
+  link: "direito-trabalhista/assedio-organizacional-poder-arma-corporativa.html",
+  date: "2026-06-11T07:00:00"
+},
 { title: "Como Investigar Assédio Sem Destruir a Empresa", 
   link: "compliance/como-investigar-assedio-sem-destruir-empresa.html", 
   date: "2026-06-04T07:00:00" 
