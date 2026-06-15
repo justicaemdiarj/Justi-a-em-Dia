@@ -11,11 +11,12 @@ const posts = [
   date: "2026-06-15T10:00:00",
   section: "featured"},
   {
-title: "Quando o Juiz Decide o Que o Estado Deve Fazer", description: "O controle judicial de políticas públicas expande o Judiciário sobre decisões do Executivo e Legislativo no Brasil", 
-description2: "Entenda a reserva do possível, o mínimo existencial, a judicialização da saúde e as decisões estruturais nos tribunais superiores", 
-image: "img/juiz-decide-o-que-estado-deve-fazer.webp", 
-link: "jurisprudencia/juiz-decide-o-que-estado-deve-fazer.html",
-date: "2026-06-09T07:00:00",
+  title: "Quando o Poder Vira Arma Corporativa",
+  description: "Estruturas hierárquicas abusivas e metas coercitivas transformam o ambiente corporativo em território de violação de direitos fundamentais",
+  description2: "O assédio organizacional e o adoecimento silencioso do trabalhador brasileiro",
+  image: "img/assedio-organizacional-poder-arma-corporativa.webp",
+  link: "direito-trabalhista/assedio-organizacional-poder-arma-corporativa.html",
+  date: "2026-06-11T07:00:00",
   section: "featured-secundario"
 },
 {
