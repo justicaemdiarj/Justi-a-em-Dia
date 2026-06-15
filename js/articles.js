@@ -3,13 +3,13 @@ const posts = [
   
 
 { 
-  title: "Quando o Poder Vira Arma Corporativa",
-  description: "Estruturas hierárquicas abusivas e metas coercitivas transformam o ambiente corporativo em território de violação de direitos fundamentais",
-  description2: "O assédio organizacional e o adoecimento silencioso do trabalhador brasileiro",
-  image: "img/assedio-organizacional-poder-arma-corporativa.webp",
-  link: "direito-trabalhista/assedio-organizacional-poder-arma-corporativa.html",
-  date: "2026-06-11T07:00:00",
-  section: "featured" },
+  title: "Negócios Fictícios na Mira da Lei",
+  description: "Simulação contratual encobre fraudes e esvazia patrimônios diante de credores",
+  description2: "Justiça avança no combate a negócios jurídicos fictícios",
+  image: "img/negocios-ficticios-mira-da-lei.webp",
+  link: "direito-civil/negocios-ficticios-mira-da-lei.html",
+  date: "2026-06-15T10:00:00",
+  section: "featured"},
   {
 title: "Quando o Juiz Decide o Que o Estado Deve Fazer", description: "O controle judicial de políticas públicas expande o Judiciário sobre decisões do Executivo e Legislativo no Brasil", 
 description2: "Entenda a reserva do possível, o mínimo existencial, a judicialização da saúde e as decisões estruturais nos tribunais superiores", 
@@ -277,9 +277,10 @@ document.addEventListener("DOMContentLoaded", function(){
   link: "jurisprudencia/stf-stj-defendem-quem-nao-tem-voz.html", 
   date: "2026-06-05T07:00:00" 
 },
-{ title: "A Maioria Não Pode Tudo Numa Democracia Real", 
-  link: "politica/maioria-nao-pode-tudo-democracia-real.html", 
-   date: "2026-06-02T07:00:00" 
+{
+  title: "Negócios Fictícios na Mira da Lei",
+  link: "direito-civil/negocios-ficticios-mira-da-lei.html",
+  date: "2026-06-15T07:00:00"
 },
 
   ];

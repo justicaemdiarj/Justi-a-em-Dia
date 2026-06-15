@@ -1,5 +1,12 @@
 // Base de dados global de artigos para busca
 const allArticles = [
+    {
+    title: 'Negócios Fictícios na Mira da Lei',
+    description: 'A simulação contratual figura entre os mecanismos mais utilizados para encobrir fraudes patrimoniais, ocultar bens e burlar credores. O direito civil brasileiro trata o tema com rigor, prevendo a nulidade do negócio jurídico simulado.',
+    category: 'direito-civil',
+    url: 'direito-civil/negocios-ficticios-mira-da-lei.html',
+    tags: ['Simulação Contratual', 'Fraude Contra Credores', 'Direito Civil', 'Nulidade do Negócio Jurídico', 'Fraude à Execução']
+},
 {
     title: 'Quando o Poder Vira Arma Corporativa',
     description: 'O assédio organizacional representa uma das formas mais silenciosas e devastadoras de violação de direitos no ambiente de trabalho. Estruturas hierárquicas abusivas, metas inatingíveis e humilhações sistemáticas configuram condutas ilícitas que impõem ao trabalhador danos físicos, psíquicos e patrimoniais.',

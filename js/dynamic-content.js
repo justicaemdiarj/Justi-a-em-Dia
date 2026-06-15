@@ -13,12 +13,7 @@ const tickerConfig = {
 
 const globalNewsData = [
 
-{
-    title: "Licitação Íntegra É Dinheiro Público Protegido",
-    link: "compliance/licitacao-integra-dinheiro-publico-protegido.html",
-},
-{ title: "Como Investigar Assédio Sem Destruir a Empresa", link: "compliance/como-investigar-assedio-sem-destruir-empresa.html" },
-{ title: "Quando o STF e o STJ Defendem Quem Não Tem Voz", link: "jurisprudencia/stf-stj-defendem-quem-nao-tem-voz.html" },
+
 { title: "Governar No Brasil Custa Caro e Exige Concessões", link: "politica/governar-brasil-custa-caro-exige-concessoes.html" },
 { title: "Resolver Conflitos Sem Ir a Julgamento É Possível", link: "legislacao/resolver-conflitos-sem-ir-julgamento.html" },
 { title: "Plataforma Digital Que Falha Tem Conta a Pagar", link: "direito-civil/plataforma-digital-que-falha-tem-conta-pagar.html" },
@@ -38,6 +33,10 @@ const globalNewsData = [
 {
     title: "Quando o Poder Vira Arma Corporativa",
     link: "direito-trabalhista/assedio-organizacional-poder-arma-corporativa.html",
+},
+{
+    title: "Negócios Fictícios na Mira da Lei",
+    link: "direito-civil/negocios-ficticios-mira-da-lei.html",
 },
 ];
 
