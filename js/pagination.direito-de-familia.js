@@ -2,6 +2,16 @@
 window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
+    {
+    title: "O Contrato Que Antecede o Casamento",
+    date: "16/06/2026",
+    timestamp: "2026-06-16T21:00:00",
+    image: "../img/contrato-que-antecede-casamento.webp",
+    excerpt: "O pacto antenupcial deixou de ser instrumento restrito às elites econômicas e se tornou ferramenta cada vez mais utilizada por casais brasileiros para definir regime de bens e proteger patrimônio.",
+    link: "../direito-de-familia/contrato-que-antecede-casamento.html",
+        author: "Romer Carvalho",
+    authorLink: "../apoiadores/advogado-romer-carvalho.html"
+},
     { title: "A Lei Protege Quem Ainda Não Nasceu", date: "09/06/2026", timestamp: "2026-06-09T07:00:00", image: "../img/lei-protege-quem-ainda-nao-nasceu.webp", excerpt: "O nascituro tem proteção jurídica ampla no ordenamento brasileiro desde a concepção com alimentos gravídicos e curatela.", link: "../direito-de-familia/lei-protege-quem-ainda-nao-nasceu.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "Regime De Bens Define o Futuro do Patrimônio Conjugal", date: "08/06/2026", timestamp: "2026-06-08T07:00:00", image: "../img/regime-bens-define-futuro-patrimonio-conjugal.webp", excerpt: "O planejamento patrimonial no casamento envolve a escolha consciente do regime de bens e instrumentos como o pacto antenupcial.", link: "../direito-de-familia/regime-bens-define-futuro-patrimonio-conjugal.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "Quando Os Avós Devem Pagar Pensão Alimentícia", 

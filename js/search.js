@@ -1,9 +1,14 @@
 // Base de dados global de artigos para busca
 const allArticles = [
     {
+    title: 'O Contrato Que Antecede o Casamento',
+    description: 'O pacto antenupcial deixou de ser instrumento restrito às elites econômicas e se tornou ferramenta cada vez mais utilizada por casais brasileiros para definir regime de bens, proteger patrimônio e prevenir litígios futuros.',
+    url: 'direito-de-familia/contrato-que-antecede-casamento.html',
+    tags: ['Pacto Antenupcial', 'Romer Carvalho','Regime de Bens', 'Direito de Família', 'Separação Total de Bens', 'Planejamento Patrimonial']
+},
+    {
     title: 'Negócios Fictícios na Mira da Lei',
     description: 'A simulação contratual figura entre os mecanismos mais utilizados para encobrir fraudes patrimoniais, ocultar bens e burlar credores. O direito civil brasileiro trata o tema com rigor, prevendo a nulidade do negócio jurídico simulado.',
-    category: 'direito-civil',
     url: 'direito-civil/negocios-ficticios-mira-da-lei.html',
     tags: ['Simulação Contratual', 'Fraude Contra Credores', 'Direito Civil', 'Nulidade do Negócio Jurídico', 'Fraude à Execução']
 },

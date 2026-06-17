@@ -3,29 +3,29 @@ const posts = [
   
 
 { 
+  title: "O Contrato Que Antecede o Casamento",
+  description: "Pacto antenupcial ganha espaço como ferramenta de planejamento patrimonial",
+  description2: "Regras claras antes do casamento reduzem litígios em divórcios",
+  image: "img/contrato-que-antecede-casamento.webp",
+  link: "direito-de-familia/contrato-que-antecede-casamento.html",
+  date: "2026-06-16T21:00:00",
+  section: "featured"},
+  {
   title: "Negócios Fictícios na Mira da Lei",
   description: "Simulação contratual encobre fraudes e esvazia patrimônios diante de credores",
   description2: "Justiça avança no combate a negócios jurídicos fictícios",
   image: "img/negocios-ficticios-mira-da-lei.webp",
   link: "direito-civil/negocios-ficticios-mira-da-lei.html",
   date: "2026-06-15T10:00:00",
-  section: "featured"},
-  {
+  section: "featured-secundario"
+},
+{
   title: "Quando o Poder Vira Arma Corporativa",
   description: "Estruturas hierárquicas abusivas e metas coercitivas transformam o ambiente corporativo em território de violação de direitos fundamentais",
   description2: "O assédio organizacional e o adoecimento silencioso do trabalhador brasileiro",
   image: "img/assedio-organizacional-poder-arma-corporativa.webp",
   link: "direito-trabalhista/assedio-organizacional-poder-arma-corporativa.html",
   date: "2026-06-11T07:00:00",
-  section: "featured-secundario"
-},
-{
-title: "Assinar Digitalmente Tem Força de Lei No Brasil", 
-description: "Os contratos eletrônicos e a assinatura digital têm plena validade jurídica no ordenamento brasileiro", 
-description2: "Entenda o marco normativo, a prova dos contratos eletrônicos, os smart contracts e o futuro da contratação digital no Brasil", 
-image: "img/assinar-digitalmente-tem-forca-lei-brasil.webp", 
-link: "direito-civil/assinar-digitalmente-tem-forca-lei-brasil.html",
-date: "2026-06-09T07:00:00",
  section: "featured-terciario"
 },
   {
@@ -261,9 +261,9 @@ document.addEventListener("DOMContentLoaded", function(){
   /* ===== MAIS LIDOS ===== */
   const posts = [
   
-{ title: "O Inimigo Que Usa Crachá e Conhece a Senha", 
-  link: "compliance/inimigo-que-usa-cracha-conhece-senha.html", 
-  date: "2026-06-02T07:00:00" 
+{   title: "O Contrato Que Antecede o Casamento",
+  link: "direito-de-familia/contrato-que-antecede-casamento.html",
+  date: "2026-06-16T21:00:00"
 },
 {
   title: "Quando o Poder Vira Arma Corporativa",

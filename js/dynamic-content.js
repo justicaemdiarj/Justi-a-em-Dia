@@ -14,10 +14,6 @@ const tickerConfig = {
 const globalNewsData = [
 
 
-{ title: "Governar No Brasil Custa Caro e Exige Concessões", link: "politica/governar-brasil-custa-caro-exige-concessoes.html" },
-{ title: "Resolver Conflitos Sem Ir a Julgamento É Possível", link: "legislacao/resolver-conflitos-sem-ir-julgamento.html" },
-{ title: "Plataforma Digital Que Falha Tem Conta a Pagar", link: "direito-civil/plataforma-digital-que-falha-tem-conta-pagar.html" },
-{ title: "A Lei Protege Com Mais Rigor Quem Não Pode Se Defender", link: "direito-penal/lei-protege-rigor-quem-nao-pode-defender.html" },
 { title: "Regime De Bens Define o Futuro do Patrimônio Conjugal", link: "direito-de-familia/regime-bens-define-futuro-patrimonio-conjugal.html" },
 { title: "O Militar Doente Tem Direitos Que a Farda Não Apaga", link: "direito-militar/militar-doente-tem-direitos-farda-nao-apaga.html" },
 { title: "Gravidez No Trabalho É Direito Que a Empresa Não Pode Ignorar", link: "direito-trabalhista/gravidez-trabalho-direito-empresa-nao-pode-ignorar.html" },
@@ -37,6 +33,10 @@ const globalNewsData = [
 {
     title: "Negócios Fictícios na Mira da Lei",
     link: "direito-civil/negocios-ficticios-mira-da-lei.html",
+},
+{
+    title: "O Contrato Que Antecede o Casamento",
+    link: "direito-de-familia/contrato-que-antecede-casamento.html",
 },
 ];
 

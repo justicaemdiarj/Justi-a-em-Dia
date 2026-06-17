@@ -5512,4 +5512,15 @@
     <news:title>Negócios Fictícios na Mira da Lei</news:title>
   </news:news>
 </url>
+<url>
+  <loc>https://www.justicaemdia.com.br/direito-de-familia/contrato-que-antecede-casamento.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-06-16T07:00:00-03:00</news:publication_date>
+    <news:title>O Contrato Que Antecede o Casamento</news:title>
+  </news:news>
+</url>
 </urlset>
