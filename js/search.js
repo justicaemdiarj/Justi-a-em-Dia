@@ -3,18 +3,21 @@ const allArticles = [
     {
     title: 'O Contrato Que Antecede o Casamento',
     description: 'O pacto antenupcial deixou de ser instrumento restrito às elites econômicas e se tornou ferramenta cada vez mais utilizada por casais brasileiros para definir regime de bens, proteger patrimônio e prevenir litígios futuros.',
+    category: 'Direito de Família',
     url: 'direito-de-familia/contrato-que-antecede-casamento.html',
     tags: ['Pacto Antenupcial', 'Romer Carvalho','Regime de Bens', 'Direito de Família', 'Separação Total de Bens', 'Planejamento Patrimonial']
 },
     {
     title: 'Negócios Fictícios na Mira da Lei',
     description: 'A simulação contratual figura entre os mecanismos mais utilizados para encobrir fraudes patrimoniais, ocultar bens e burlar credores. O direito civil brasileiro trata o tema com rigor, prevendo a nulidade do negócio jurídico simulado.',
+    category: 'Direito Civil',
     url: 'direito-civil/negocios-ficticios-mira-da-lei.html',
     tags: ['Simulação Contratual', 'Fraude Contra Credores', 'Direito Civil', 'Nulidade do Negócio Jurídico', 'Fraude à Execução']
 },
 {
     title: 'Quando o Poder Vira Arma Corporativa',
     description: 'O assédio organizacional representa uma das formas mais silenciosas e devastadoras de violação de direitos no ambiente de trabalho. Estruturas hierárquicas abusivas, metas inatingíveis e humilhações sistemáticas configuram condutas ilícitas que impõem ao trabalhador danos físicos, psíquicos e patrimoniais.',
+    category: 'Direito Trabalhista',
     url: 'direito-trabalhista/assedio-organizacional-poder-arma-corporativa.html',
     tags: ['Assédio Organizacional', 'Direito Trabalhista', 'Assédio Moral no Trabalho', 'Dano Existencial', 'Saúde do Trabalhador']
 },
@@ -34,7 +37,6 @@ const allArticles = [
     { title: 'Plataforma Digital Que Falha Tem Conta a Pagar', description: 'As falhas de plataformas digitais geram responsabilidade civil objetiva pelo CDC, com jurisprudência sobre dano moral, sistemas de pagamento e tendências da regulação digital no Brasil.', category: 'Direito Civil', url: 'direito-civil/plataforma-digital-que-falha-tem-conta-pagar.html', tags: ['Responsabilidade Plataformas Digitais', 'CDC', 'Plataforma Digital Que Falha Tem Conta a Pagar'] },
     { title: 'Resolver Conflitos Sem Ir a Julgamento É Possível', description: 'A Lei de Mediação, Lei nº 13.140/2015, estabeleceu marco normativo para a resolução consensual de conflitos com princípios, aplicação familiar e empresarial e mediação com o Poder Público.', category: 'Legislação', url: 'legislacao/resolver-conflitos-sem-ir-julgamento.html', tags: ['Lei de Mediação', 'Solução de Conflitos', 'Resolver Conflitos Sem Ir a Julgamento É Possível'] },
     { title: 'Governar No Brasil Custa Caro e Exige Concessões', description: 'O presidencialismo de coalizão brasileiro obriga o Executivo a negociar com dezenas de partidos, com custos econômicos e políticos expressivos sobre a qualidade das políticas públicas.', category: 'Política', url: 'politica/governar-brasil-custa-caro-exige-concessoes.html', tags: ['Presidencialismo de Coalizão', 'Governabilidade', 'Governar No Brasil Custa Caro e Exige Concessões'] },
-
     { title: 'Quando o STF e o STJ Defendem Quem Não Tem Voz', description: 'Os tribunais superiores constroem a efetividade dos direitos fundamentais caso a caso com jurisprudência sobre direitos sociais, liberdade de expressão e proteção da privacidade.', category: 'Jurisprudência', url: 'jurisprudencia/stf-stj-defendem-quem-nao-tem-voz.html', tags: ['Direitos Fundamentais', 'STF', 'Quando o STF e o STJ Defendem Quem Não Tem Voz'] },
 { title: 'Como Investigar Assédio Sem Destruir a Empresa', description: 'As investigações internas de assédio corporativo exigem método, independência e cautela jurídica, com obrigações da Lei nº 14.457/2022 e princípios de uma investigação válida no direito do trabalho.', category: 'Compliance', url: 'compliance/como-investigar-assedio-sem-destruir-empresa.html', tags: ['Investigação de Assédio', 'Compliance Corporativo', 'Como Investigar Assédio Sem Destruir a Empresa'] },
     {
