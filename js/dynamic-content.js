@@ -38,6 +38,10 @@ const globalNewsData = [
     title: "O Contrato Que Antecede o Casamento",
     link: "direito-de-familia/contrato-que-antecede-casamento.html",
 },
+{
+    title: "Promessas do Estado Que Não Chegam",
+    link: "politica/promessas-estado-que-nao-chegam.html",
+},
 ];
 
 // Array para armazenar todas as notícias coletadas dos arquivos de paginação

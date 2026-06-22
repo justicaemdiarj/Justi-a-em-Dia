@@ -2,6 +2,16 @@
 window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
+    {
+    title: "Promessas do Estado Que Não Chegam",
+    date: "22/06/2026",
+    timestamp: "2026-06-22T07:00:00",
+    image: "../img/promessas-estado-que-nao-chegam.webp",
+    excerpt: "A efetividade das políticas públicas brasileiras permanece como um dos maiores desafios do Estado democrático de direito, entre a norma e a entrega real à população.",
+    link: "../politica/promessas-estado-que-nao-chegam.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
     { title: "Prestação de Contas É Dever de Todo Servidor Público", date: "09/06/2026", timestamp: "2026-06-09T07:00:00", image: "../img/prestacao-contas-dever-servidor-publico.webp", excerpt: "A accountability no setor público é exigência constitucional que se concretiza na LAI, na Lei de Responsabilidade Fiscal e na improbidade administrativa.", link: "../politica/prestacao-contas-dever-servidor-publico.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "Governar No Brasil Custa Caro e Exige Concessões", date: "08/06/2026", timestamp: "2026-06-08T07:00:00", image: "../img/governar-brasil-custa-caro-exige-concessoes.webp", excerpt: "O presidencialismo de coalizão obriga o Executivo brasileiro a negociar permanentemente com dezenas de partidos para governar.", link: "../politica/governar-brasil-custa-caro-exige-concessoes.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "A Maioria Não Pode Tudo Numa Democracia Real", date: "02/06/2026", timestamp: "2026-06-02T07:00:00", image: "../img/maioria-nao-pode-tudo-democracia-real.webp", excerpt: "Os direitos das minorias são o termômetro da qualidade democrática, protegidos pela Constituição Federal contra a vontade das maiorias.", link: "../politica/maioria-nao-pode-tudo-democracia-real.html", author: "Justiça em Dia", authorLink: "#" },

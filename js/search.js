@@ -1,6 +1,13 @@
 // Base de dados global de artigos para busca
 const allArticles = [
     {
+    title: 'Promessas do Estado Que Não Chegam',
+    description: 'A efetividade das políticas públicas brasileiras permanece como um dos maiores desafios do Estado democrático de direito. Entre a elaboração legislativa, a execução orçamentária e a entrega real de serviços à população, abre-se um abismo que compromete direitos fundamentais.',
+    category: 'politica',
+    url: 'politica/promessas-estado-que-nao-chegam.html',
+    tags: ['Políticas Públicas', 'Efetividade', 'Gestão Pública', 'Direitos Fundamentais', 'Controle Social']
+},
+    {
     title: 'O Contrato Que Antecede o Casamento',
     description: 'O pacto antenupcial deixou de ser instrumento restrito às elites econômicas e se tornou ferramenta cada vez mais utilizada por casais brasileiros para definir regime de bens, proteger patrimônio e prevenir litígios futuros.',
     category: 'Direito de Família',

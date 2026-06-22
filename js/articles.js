@@ -3,29 +3,29 @@ const posts = [
   
 
 { 
+  title: "Promessas do Estado Que Não Chegam",
+  description: "Políticas públicas falham na entrega de direitos à população mais vulnerável",
+  description2: "O abismo entre a norma constitucional e a realidade do serviço público",
+  image: "img/promessas-estado-que-nao-chegam.webp",
+  link: "politica/promessas-estado-que-nao-chegam.html",
+  date: "2026-06-22T15:00:00",
+  section: "featured"},
+  {
   title: "O Contrato Que Antecede o Casamento",
   description: "Pacto antenupcial ganha espaço como ferramenta de planejamento patrimonial",
   description2: "Regras claras antes do casamento reduzem litígios em divórcios",
   image: "img/contrato-que-antecede-casamento.webp",
   link: "direito-de-familia/contrato-que-antecede-casamento.html",
   date: "2026-06-16T21:00:00",
-  section: "featured"},
-  {
+  section: "featured-secundario"
+},
+{
   title: "Negócios Fictícios na Mira da Lei",
   description: "Simulação contratual encobre fraudes e esvazia patrimônios diante de credores",
   description2: "Justiça avança no combate a negócios jurídicos fictícios",
   image: "img/negocios-ficticios-mira-da-lei.webp",
   link: "direito-civil/negocios-ficticios-mira-da-lei.html",
   date: "2026-06-15T10:00:00",
-  section: "featured-secundario"
-},
-{
-  title: "Quando o Poder Vira Arma Corporativa",
-  description: "Estruturas hierárquicas abusivas e metas coercitivas transformam o ambiente corporativo em território de violação de direitos fundamentais",
-  description2: "O assédio organizacional e o adoecimento silencioso do trabalhador brasileiro",
-  image: "img/assedio-organizacional-poder-arma-corporativa.webp",
-  link: "direito-trabalhista/assedio-organizacional-poder-arma-corporativa.html",
-  date: "2026-06-11T07:00:00",
  section: "featured-terciario"
 },
   {
@@ -274,9 +274,9 @@ document.addEventListener("DOMContentLoaded", function(){
   link: "compliance/como-investigar-assedio-sem-destruir-empresa.html", 
   date: "2026-06-04T07:00:00" 
 },
-{ title: "Quando o STF e o STJ Defendem Quem Não Tem Voz", 
-  link: "jurisprudencia/stf-stj-defendem-quem-nao-tem-voz.html", 
-  date: "2026-06-05T07:00:00" 
+{   title: "Promessas do Estado Que Não Chegam",
+  link: "politica/promessas-estado-que-nao-chegam.html",
+  date: "2026-06-22T07:00:00" 
 },
 {
   title: "Negócios Fictícios na Mira da Lei",
