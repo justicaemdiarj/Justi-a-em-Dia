@@ -2,6 +2,8 @@
 window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
+
+    { title: "A Estrutura Oculta do Crime Organizado", date: "23/06/2026", timestamp: "2026-06-23T18:00:00", image: "../img/estrutura-oculta-crime-organizado.webp", excerpt: "A associação criminosa figura entre os tipos penais mais relevantes para o enfrentamento da criminalidade organizada, com elementos constitutivos e distinções jurídicas que o operador do direito precisa dominar.", link: "../direito-penal/estrutura-oculta-crime-organizado.html", author: "Justiça em Dia", authorLink: "#" },
     {
     title: "Promessas do Estado Que Não Chegam",
     date: "22/06/2026",
