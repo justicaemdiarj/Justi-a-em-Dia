@@ -13,13 +13,6 @@ const tickerConfig = {
 
 const globalNewsData = [
 
-
-{ title: "Regime De Bens Define o Futuro do Patrimônio Conjugal", link: "direito-de-familia/regime-bens-define-futuro-patrimonio-conjugal.html" },
-{ title: "O Militar Doente Tem Direitos Que a Farda Não Apaga", link: "direito-militar/militar-doente-tem-direitos-farda-nao-apaga.html" },
-{ title: "Gravidez No Trabalho É Direito Que a Empresa Não Pode Ignorar", link: "direito-trabalhista/gravidez-trabalho-direito-empresa-nao-pode-ignorar.html" },
-{ title: "Sem Controle Interno a Fraude Encontra Caminho Livre", link: "compliance/controles-internos-prevencao-desvios-corporativos.html" },
-{ title: "Quando o Juiz Decide o Que o Estado Deve Fazer", link: "jurisprudencia/juiz-decide-o-que-estado-deve-fazer.html" },
-{ title: "Assinar Digitalmente Tem Força de Lei No Brasil", link: "direito-civil/assinar-digitalmente-tem-forca-lei-brasil.html" },
 { title: "Como o Direito Penal Enfrenta Estruturas do Crime", link: "direito-penal/como-direito-penal-enfrenta-estruturas-crime.html" },
 { title: "A Lei Protege Quem Ainda Não Nasceu", link: "direito-de-familia/lei-protege-quem-ainda-nao-nasceu.html" },
 { title: "A Farda Não Suprime o Direito de se Defender", link: "direito-militar/farda-nao-suprime-direito-defender.html" },
