@@ -3,29 +3,29 @@ const posts = [
   
 
 { 
+title: "Quem Denuncia Paga o Preço", 
+description: "Ausência de proteção ao whistleblower perpetua cultura do silêncio nas organizações", 
+description2: "O Brasil ainda não construiu um sistema efetivo de amparo ao denunciante de boa-fé", 
+image: "img/quem-denuncia-paga-o-preco.webp", 
+link: "compliance/quem-denuncia-paga-o-preco.html", 
+date: "2026-06-23T22:00:00",
+  section: "featured"},
+  {
   title: "Promessas do Estado Que Não Chegam",
   description: "Políticas públicas falham na entrega de direitos à população mais vulnerável",
   description2: "O abismo entre a norma constitucional e a realidade do serviço público",
   image: "img/promessas-estado-que-nao-chegam.webp",
   link: "politica/promessas-estado-que-nao-chegam.html",
   date: "2026-06-22T15:00:00",
-  section: "featured"},
-  {
+  section: "featured-secundario"
+},
+{
   title: "O Contrato Que Antecede o Casamento",
   description: "Pacto antenupcial ganha espaço como ferramenta de planejamento patrimonial",
   description2: "Regras claras antes do casamento reduzem litígios em divórcios",
   image: "img/contrato-que-antecede-casamento.webp",
   link: "direito-de-familia/contrato-que-antecede-casamento.html",
   date: "2026-06-16T21:00:00",
-  section: "featured-secundario"
-},
-{
-  title: "Negócios Fictícios na Mira da Lei",
-  description: "Simulação contratual encobre fraudes e esvazia patrimônios diante de credores",
-  description2: "Justiça avança no combate a negócios jurídicos fictícios",
-  image: "img/negocios-ficticios-mira-da-lei.webp",
-  link: "direito-civil/negocios-ficticios-mira-da-lei.html",
-  date: "2026-06-15T10:00:00",
  section: "featured-terciario"
 },
   {
@@ -270,9 +270,9 @@ document.addEventListener("DOMContentLoaded", function(){
   link: "direito-trabalhista/assedio-organizacional-poder-arma-corporativa.html",
   date: "2026-06-11T07:00:00"
 },
-{ title: "Como Investigar Assédio Sem Destruir a Empresa", 
-  link: "compliance/como-investigar-assedio-sem-destruir-empresa.html", 
-  date: "2026-06-04T07:00:00" 
+{ title: "Quem Denuncia Paga o Preço", 
+  link: "compliance/quem-denuncia-paga-o-preco.html",
+  date: "2026-06-23T07:00:00" 
 },
 {   title: "Promessas do Estado Que Não Chegam",
   link: "politica/promessas-estado-que-nao-chegam.html",
@@ -330,58 +330,58 @@ document.addEventListener("DOMContentLoaded", function(){
 const principaisNoticias = [
 
 {
-title: "O Inimigo Que Usa Crachá e Conhece a Senha",
-    link: "compliance/inimigo-que-usa-cracha-conhece-senha.html",
-source: "",
-date: "2026-06-02T07:00:00"
-},
-{
-title: "O Dinheiro Público Que Não Presta Contas",
-link: "politica/dinheiro-publico-que-nao-presta-contas.html",
-source: "",
-date: "2026-05-28T07:00:00"
-},
-{
-title: "Quando o STF e o STJ Defendem Quem Não Tem Voz",
-link: "jurisprudencia/stf-stj-defendem-quem-nao-tem-voz.html",
-source: "",
-date: "2026-06-05T03:00:00"
-},
-{
-title: "A Oportunidade Perdida Que Gera Direito à Indenização",
-  link: "direito-civil/oportunidade-perdida-gera-direito-indenizacao.html",
-source: "",
-date: "2026-06-01T07:00:00"
-},
-{
-title: "Gravidez No Trabalho É Direito Que a Empresa Não Pode Ignorar",
-link: "direito-trabalhista/gravidez-trabalho-direito-empresa-nao-pode-ignorar.html",
+title: "Regime De Bens Define o Futuro do Patrimônio Conjugal",
+    link: "direito-de-familia/regime-bens-define-futuro-patrimonio-conjugal.html",
 source: "",
 date: "2026-06-08T07:00:00"
 },
 {
-title: "Governar No Brasil Custa Caro e Exige Concessões",
- link: "politica/governar-brasil-custa-caro-exige-concessoes.html",
+title: "Sem Controle Interno a Fraude Encontra Caminho Livre",
+link: "compliance/controles-internos-prevencao-desvios-corporativos.html",
 source: "",
-date: "2026-06-08T07:00:00"
+date: "2026-06-09T07:00:00"
 },
 {
- title: "Regime De Bens Define o Futuro do Patrimônio Conjugal",
-  link: "direito-de-familia/regime-bens-define-futuro-patrimonio-conjugal.html",
+title: "Como Investigar Assédio Sem Destruir a Empresa",
+link: "compliance/como-investigar-assedio-sem-destruir-empresa.html",
 source: "",
-date: "2026-06-08T07:00:00"
+date: "2026-06-04T03:00:00"
 },
 {
-    title: "A Lei Protege Com Mais Rigor Quem Não Pode Se Defender",
-  link: "direito-penal/lei-protege-rigor-quem-nao-pode-defender.html",
+title: "Como o Direito Penal Enfrenta Estruturas do Crime",
+  link: "direito-penal/como-direito-penal-enfrenta-estruturas-crime.html",
 source: "",
-date: "2026-06-08T07:00:00"
+date: "2026-06-09T07:00:00"
 },
 {
-   title: "A Maioria Não Pode Tudo Numa Democracia Real",
-    link: "politica/maioria-nao-pode-tudo-democracia-real.html",
+title: "O Contrato Que Antecede o Casamento",
+link: "direito-de-familia/contrato-que-antecede-casamento.html",
 source: "",
-date: "2026-06-02T07:00:00"
+date: "2026-06-16T07:00:00"
+},
+{
+title: "A Lei Protege Quem Ainda Não Nasceu",
+ link: "direito-de-familia/lei-protege-quem-ainda-nao-nasceu.html",
+source: "",
+date: "2026-06-09T07:00:00"
+},
+{
+ title: "Promessas do Estado Que Não Chegam",
+  link: "politica/promessas-estado-que-nao-chegam.html",
+source: "",
+date: "2026-06-22T07:00:00"
+},
+{
+    title: "Negócios Fictícios na Mira da Lei",
+  link: "direito-civil/negocios-ficticios-mira-da-lei.html",
+source: "",
+date: "2026-06-15T07:00:00"
+},
+{
+   title: "Prestação de Contas É Dever de Todo Servidor Público",
+    link: "politica/prestacao-contas-dever-servidor-publico.html",
+source: "",
+date: "2026-06-09T07:00:00"
 },
 
 ];

@@ -1,5 +1,6 @@
 // Base de dados global de artigos para busca
 const allArticles = [
+    { title: 'Quem Denuncia Paga o Preço', description: 'A proteção ao whistleblower representa um dos pilares mais frágeis do sistema de integridade brasileiro. Entre a legislação existente e a realidade de quem expõe irregularidades, existe um abismo de insegurança jurídica.', url: 'compliance/quem-denuncia-paga-o-preco.html', tags: ['Whistleblower', 'Proteção ao Denunciante', 'Compliance', 'Canal de Denúncias', 'Lei Anticorrupção'] },
     {
     title: 'Promessas do Estado Que Não Chegam',
     description: 'A efetividade das políticas públicas brasileiras permanece como um dos maiores desafios do Estado democrático de direito. Entre a elaboração legislativa, a execução orçamentária e a entrega real de serviços à população, abre-se um abismo que compromete direitos fundamentais.',

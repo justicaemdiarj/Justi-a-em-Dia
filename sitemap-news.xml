@@ -5534,4 +5534,15 @@
     <news:title>Promessas do Estado Que Não Chegam</news:title>
   </news:news>
 </url>
+<url>
+  <loc>https://www.justicaemdia.com.br/compliance/quem-denuncia-paga-o-preco.html</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Justiça em Dia</news:name>
+      <news:language>pt</news:language>
+    </news:publication>
+    <news:publication_date>2026-06-23T07:00:00-03:00</news:publication_date>
+    <news:title>Quem Denuncia Paga o Preço</news:title>
+  </news:news>
+</url>
 </urlset>

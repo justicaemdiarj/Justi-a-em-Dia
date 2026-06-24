@@ -2,6 +2,8 @@
 window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
+
+    { title: "Quem Denuncia Paga o Preço", date: "23/06/2026", timestamp: "2026-06-23T22:00:00", image: "../img/quem-denuncia-paga-o-preco.webp", excerpt: "A proteção ao denunciante representa um dos pilares mais frágeis do sistema de integridade brasileiro.", link: "../compliance/quem-denuncia-paga-o-preco.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "Sem Controle Interno a Fraude Encontra Caminho Livre", date: "09/06/2026", timestamp: "2026-06-09T07:00:00",  image: "../img/controles-internos-prevencao-desvios-corporativos.webp", excerpt: "Os controles internos para prevenção de desvios são exigência normativa e estratégica com base no modelo COSO e na Lei Anticorrupção.", link: "../compliance/controles-internos-prevencao-desvios-corporativos.html",         author: "Romer Carvalho",
     authorLink: "../apoiadores/advogado-romer-carvalho.html"},
     { title: "Como Investigar Assédio Sem Destruir a Empresa", date: "04/06/2026", timestamp: "2026-06-04T07:00:00", image: "../img/como-investigar-assedio-sem-destruir-empresa.webp", excerpt: "As investigações internas de assédio corporativo exigem método, independência e cautela jurídica para proteger vítimas e a empresa.", link: "../compliance/como-investigar-assedio-sem-destruir-empresa.html", author: "Justiça em Dia", authorLink: "#" },

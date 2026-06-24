@@ -42,6 +42,7 @@ const globalNewsData = [
     title: "Promessas do Estado Que Não Chegam",
     link: "politica/promessas-estado-que-nao-chegam.html",
 },
+{ title: "Quem Denuncia Paga o Preço", link: "compliance/quem-denuncia-paga-o-preco.html" },
 ];
 
 // Array para armazenar todas as notícias coletadas dos arquivos de paginação
