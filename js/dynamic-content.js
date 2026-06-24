@@ -43,6 +43,11 @@ const globalNewsData = [
     link: "politica/promessas-estado-que-nao-chegam.html",
 },
 { title: "Quem Denuncia Paga o Preço", link: "compliance/quem-denuncia-paga-o-preco.html" },
+{ title: "Concurso Público Sob o Crivo Judicial", link: "jurisprudencia/concurso-publico-crivo-judicial.html" },
+{ title: "O CPC e a Força dos Precedentes", link: "legislacao/cpc-forca-precedentes-obrigatorios.html" },
+{ title: "Ética Institucional Que Ninguém Cobra", link: "politica/etica-institucional-que-ninguem-cobra.html" },
+{ title: "Esgotamento Profissional Chega ao Tribunal", link: "direito-trabalhista/esgotamento-profissional-chega-ao-tribunal.html" },
+{ title: "A Estrutura Oculta do Crime Organizado", link: "direito-penal/estrutura-oculta-crime-organizado.html" },
 ];
 
 // Array para armazenar todas as notícias coletadas dos arquivos de paginação

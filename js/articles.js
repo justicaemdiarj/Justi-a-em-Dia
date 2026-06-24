@@ -11,39 +11,39 @@ link: "compliance/quem-denuncia-paga-o-preco.html",
 date: "2026-06-23T22:00:00",
   section: "featured"},
   {
-  title: "Promessas do Estado Que Não Chegam",
-  description: "Políticas públicas falham na entrega de direitos à população mais vulnerável",
-  description2: "O abismo entre a norma constitucional e a realidade do serviço público",
-  image: "img/promessas-estado-que-nao-chegam.webp",
-  link: "politica/promessas-estado-que-nao-chegam.html",
-  date: "2026-06-22T15:00:00",
+title: "A Estrutura Oculta do Crime Organizado", 
+description: "Associação criminosa e organização criminosa têm elementos distintos com impactos penais relevantes", 
+description2: "Colaboração premiada e técnicas investigativas especiais no combate ao crime organizado", 
+image: "img/estrutura-oculta-crime-organizado.webp", 
+link: "direito-penal/estrutura-oculta-crime-organizado.html", 
+date: "2026-06-23T19:00:00",
   section: "featured-secundario"
 },
 {
-  title: "O Contrato Que Antecede o Casamento",
-  description: "Pacto antenupcial ganha espaço como ferramenta de planejamento patrimonial",
-  description2: "Regras claras antes do casamento reduzem litígios em divórcios",
-  image: "img/contrato-que-antecede-casamento.webp",
-  link: "direito-de-familia/contrato-que-antecede-casamento.html",
-  date: "2026-06-16T21:00:00",
+title: "Esgotamento Profissional Chega ao Tribunal", 
+description: "Burnout classificado pela OMS impõe responsabilidade civil crescente ao empregador brasileiro", 
+description2: "Jurisprudência do TST avança no reconhecimento do nexo entre gestão abusiva e adoecimento", 
+image: "img/esgotamento-profissional-chega-ao-tribunal.webp", 
+link: "direito-trabalhista/esgotamento-profissional-chega-ao-tribunal.html", 
+date: "2026-06-23T11:00:00",
  section: "featured-terciario"
 },
   {
- title: "Como o Direito Penal Enfrenta Estruturas do Crime",
-image: "img/como-direito-penal-enfrenta-estruturas-crime.webp", link: "direito-penal/como-direito-penal-enfrenta-estruturas-crime.html",
-date: "2026-06-09T07:00:00",
+title: "Ética Institucional Que Ninguém Cobra",
+image: "img/etica-institucional-que-ninguem-cobra.webp", link: "politica/etica-institucional-que-ninguem-cobra.html",
+date: "2026-06-23T18:00:00",
     section: "destaque"
   },
    {
-title: "A Lei Protege Quem Ainda Não Nasceu",
-image: "img/lei-protege-quem-ainda-nao-nasceu.webp", link: "direito-de-familia/lei-protege-quem-ainda-nao-nasceu.html",
-date: "2026-06-09T07:00:00",
+title: "O CPC e a Força dos Precedentes",
+image: "img/cpc-forca-precedentes-obrigatorios.webp", link: "legislacao/cpc-forca-precedentes-obrigatorios.html",
+date: "2026-06-23T18:00:00",
    section: "destaque"
   },
   {
-title: "A Farda Não Suprime o Direito de se Defender",
-image: "img/farda-nao-suprime-direito-defender.webp", link: "direito-militar/farda-nao-suprime-direito-defender.html",
-date: "2026-06-09T07:00:00",
+title: "Concurso Público Sob o Crivo Judicial",
+image: "img/concurso-publico-crivo-judicial.webp", link: "jurisprudencia/concurso-publico-crivo-judicial.html",
+date: "2026-06-23T18:00:00",
    section: "destaque"
   },
   {
@@ -265,10 +265,9 @@ document.addEventListener("DOMContentLoaded", function(){
   link: "direito-de-familia/contrato-que-antecede-casamento.html",
   date: "2026-06-16T21:00:00"
 },
-{
-  title: "Quando o Poder Vira Arma Corporativa",
-  link: "direito-trabalhista/assedio-organizacional-poder-arma-corporativa.html",
-  date: "2026-06-11T07:00:00"
+{ title: "Concurso Público Sob o Crivo Judicial", 
+  link: "jurisprudencia/concurso-publico-crivo-judicial.html", 
+  date: "2026-06-23T07:00:00" 
 },
 { title: "Quem Denuncia Paga o Preço", 
   link: "compliance/quem-denuncia-paga-o-preco.html",
@@ -278,11 +277,9 @@ document.addEventListener("DOMContentLoaded", function(){
   link: "politica/promessas-estado-que-nao-chegam.html",
   date: "2026-06-22T07:00:00" 
 },
-{
-  title: "Negócios Fictícios na Mira da Lei",
-  link: "direito-civil/negocios-ficticios-mira-da-lei.html",
-  date: "2026-06-15T07:00:00"
-},
+{ title: "O CPC e a Força dos Precedentes", 
+  link: "legislacao/cpc-forca-precedentes-obrigatorios.html", 
+  date: "2026-06-23T07:00:00" }
 
   ];
 
