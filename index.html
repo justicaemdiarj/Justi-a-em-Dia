@@ -151,7 +151,7 @@
 .card-subtitle {
     margin-top: 10px;
   font-size: 14px;
-  font-weight: 600; /* 👈 adiciona isso */
+  font-weight: 600;
 }
 
 /* ===== MAIS LIDAS ===== */
@@ -217,6 +217,161 @@
   object-fit: cover;
   display: block;
 }
+
+/* ===== BANNER SLIDER ===== */
+.featured-slider-container {
+  position: relative;
+  margin: 30px 0;
+  background: var(--white);
+  border: 1px solid var(--border-gray);
+  overflow: hidden;
+}
+
+.featured-slider-wrapper {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.featured-slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-slide.active {
+  opacity: 1;
+  z-index: 2;
+}
+
+.featured-slide a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.featured-slide-image {
+  width: 100%;
+  height: 60%;
+  overflow: hidden;
+  background: #e5e5e5;
+}
+
+.featured-slide-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.featured-slide-content {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: var(--white);
+}
+
+.featured-slide-title {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--dark-gray);
+  margin-bottom: 10px;
+  line-height: 1.3;
+}
+
+.featured-slide-description {
+  font-size: 15px;
+  color: var(--text-gray);
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.featured-slide-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.featured-slide-time {
+  font-size: 13px;
+  color: var(--text-gray);
+}
+
+/* ===== CONTROLES DO SLIDER ===== */
+.featured-slider-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+  z-index: 10;
+}
+
+.slider-btn {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: var(--primary-red);
+  color: white;
+  cursor: pointer;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.slider-btn:hover {
+  background: #a01830;
+  transform: scale(1.1);
+}
+
+.slider-btn:active {
+  transform: scale(0.95);
+}
+
+/* ===== INDICADORES DO SLIDER ===== */
+.featured-slider-indicators {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  gap: 8px;
+  z-index: 10;
+}
+
+.indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.5);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.indicator.active {
+  background: var(--primary-red);
+  border-color: white;
+  transform: scale(1.2);
+  margin-left:80px;
+}
+
+.indicator:hover {
+  background: rgba(255,255,255,0.8);
+}
+
 /* ========================= */
 /* RESPONSIVO MOBILE */
 /* ========================= */
@@ -228,6 +383,18 @@
 
   .sidebar {
     margin-top: 30px;
+  }
+
+  .featured-slider-wrapper {
+    height: 400px;
+  }
+
+  .featured-slide-title {
+    font-size: 20px;
+  }
+
+  .featured-slide-description {
+    font-size: 14px;
   }
 }
 
@@ -259,10 +426,8 @@
     height: 200px;
   }
 
-
-  
   .logo{
-width: 305px;
+    width: 305px;
   }
 
   .container {
@@ -272,7 +437,7 @@ width: 305px;
 
   .weather-widget,
   .b3-widget {
-    display: none; /* remove mercado e clima no mobile */
+    display: none;
   }
 
   .search-box {
@@ -292,6 +457,43 @@ width: 305px;
   #banner-desktop-container {
     display: none;
   }
+
+  /* Slider responsivo */
+  .featured-slider-wrapper {
+    height: 320px;
+  }
+
+  .featured-slide-content {
+    padding: 15px;
+  }
+
+  .featured-slide-title {
+    font-size: 18px;
+  }
+
+  .featured-slide-description {
+    font-size: 13px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .featured-slider-controls {
+    bottom: 15px;
+    right: 15px;
+  }
+
+  .slider-btn {
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+  }
+
+  .featured-slider-indicators {
+    bottom: 15px;
+    left: 15px;
+  }
 }
 
 /* CELULAR PEQUENO */
@@ -310,7 +512,30 @@ width: 305px;
     font-size: 13px;
   }
 
+  .featured-slider-wrapper {
+    height: 280px;
+  }
+
+  .featured-slide-title {
+    font-size: 16px;
+  }
+
+  .featured-slide-description {
+    font-size: 12px;
+  }
+
+  .slider-btn {
+    width: 32px;
+    height: 32px;
+    font-size: 14px;
+  }
+
+  .indicator {
+    width: 10px;
+    height: 10px;
+  }
 }
+
 /* ===== MATÉRIA DESTAQUE ===== */
 
 .featured-article {
@@ -346,20 +571,6 @@ width: 305px;
   color: var(--text-gray);
 }
 
-/* Responsivo */
-@media (max-width: 768px) {
-  .featured-image img {
-    height: 250px;
-  }
-
-  .card-title{
-    font-size:11px;
-  }
-
-  .featured-title {
-    font-size: 22px;
-  }
-}
 /* ===== DESTAQUES ===== */
 
 .highlights-section {
@@ -408,20 +619,7 @@ width: 305px;
   margin-top: 6px;
 }
 
-/* Responsivo */
-@media (max-width: 1024px) {
-  .highlights-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 768px) {
-  .highlights-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* ===== FEATURED IMAGE ===== */
+/* ===== FEATURED BLOCK ===== */
 
 .featured-block {
   margin: 30px 0;
@@ -429,18 +627,12 @@ width: 305px;
 
 .featured-description:hover{
   color:#c40000;
-
 }
+
 .featured-image img {
   width: 100%;
   height: 400px;
   object-fit: cover;
-}
-
-.featured-title {
-  font-size: 18px;
-  font-weight: 800;
-  margin-top: 15px;
 }
 
 .post-time {
@@ -483,38 +675,11 @@ width: 305px;
   object-fit: cover;
 }
 
-.card-content {
-  padding: 12px;
-}
-
-.card-title {
-  font-weight: 700;
-  font-size: 15px;
-}
-
 .most-read-list {
   list-style: none;
   padding: 0;
 }
 
-@media (max-width:768px){
-
-.featured-image{
-position:relative;
-left:50%;
-right:50%;
-margin-left:-50vw;
-margin-right:-50vw;
-width:100vw;
-}
-
-.featured-image img{
-width:100%;
-height:260px;
-object-fit:cover;
-}
-
-}
 .most-read-list li {
   margin-bottom: 10px;
 }
@@ -633,7 +798,7 @@ border-bottom:1px solid #e5e5e5;
 .noticia-link{
 font-size:16px;
 font-weight:600;
-color:#c40000; /* vermelho */
+color:#c40000;
 text-decoration:none;
 line-height:1.3;
 display:block;
@@ -680,17 +845,6 @@ text-decoration:none;
 text-decoration:underline;
 }
 
-.borda-piscando{
-    border:3px solid red;
-    animation:piscando 1s infinite;
-}
-
-@keyframes piscando{
-    0%{ border-color:red; }
-    50%{ border-color:transparent; }
-    100%{ border-color:red; }
-}
-
 .supporters-section {
     display: none;
 }
@@ -703,8 +857,6 @@ text-decoration:underline;
      
     <header class="header">
 
-
-        
         <div class="main-header">
             <div class="container">
                 <button class="menu-toggle" id="menuToggle">
@@ -753,7 +905,7 @@ text-decoration:underline;
                                 <button class="search-btn" title="Buscar"><i class="fas fa-search"></i></button>
                             </div>
                         </div>
-		                <ul class="nav-list desktop-nav-list">
+			                <ul class="nav-list desktop-nav-list">
                     <!-- Menu carregado via js/config.js -->
                 </ul>
             </div>
@@ -772,7 +924,33 @@ text-decoration:underline;
 <main class="main-content">
   <div class="content-wrapper">
 
-    <section id="dynamicContent"></section>
+    <section id="dynamicContent">
+      
+      <!-- ===== BANNER SLIDER DE NOTÍCIAS FEATURED ===== -->
+      <div class="featured-slider-container">
+        <div class="featured-slider-wrapper" id="featuredSliderWrapper">
+          <!-- Slides serão inseridos aqui via JavaScript -->
+        </div>
+
+        <!-- Indicadores -->
+        <div class="featured-slider-indicators" id="sliderIndicators">
+          <!-- Indicadores serão inseridos aqui via JavaScript -->
+        </div>
+
+        <!-- Controles -->
+        <div class="featured-slider-controls">
+          <button class="slider-btn" id="prevBtn" title="Anterior">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="slider-btn" id="nextBtn" title="Próximo">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="linha-divisoria"></div>
+
+    </section>
 
  
     <!-- ===== SIDEBAR ===== -->
@@ -783,10 +961,6 @@ text-decoration:underline;
                     <div id="banner-mobile-container" class="banner-container" style="text-align: center;">
                         <!-- Banner será inserido aqui via JS -->
                     </div>
-
-
-
-
 
       <!-- ===== MAIS LIDAS ===== -->
    <section class="most-read">
@@ -894,6 +1068,129 @@ text-decoration:underline;
     <script src="js/newsletter-injector.js"></script>
     <script src="js/cookies.js"></script>
     <script src="js/b3-widget.js"></script>
+
+<!-- ===== SLIDER DE NOTÍCIAS FEATURED ===== -->
+<script>
+(function() {
+  // Aguarda o carregamento do DOM e do arquivo articles.js
+  document.addEventListener('DOMContentLoaded', function() {
+    // Aguarda um pouco para garantir que o articles.js foi carregado
+    setTimeout(function() {
+      initFeaturedSlider();
+    }, 100);
+  });
+
+  function initFeaturedSlider() {
+    // Verifica se o array 'posts' do articles.js está disponível
+    if (typeof posts === 'undefined') {
+      console.error('Array posts não encontrado. Verifique se articles.js foi carregado.');
+      return;
+    }
+
+    // Extrai as notícias featured, featured-secundario e featured-terciario
+    const featuredSlides = posts.filter(p => 
+      p.section === 'featured' || 
+      p.section === 'featured-secundario' || 
+      p.section === 'featured-terciario'
+    );
+
+    if (featuredSlides.length === 0) {
+      console.warn('Nenhuma notícia featured encontrada.');
+      return;
+    }
+
+    // Ordena por data (mais recente primeiro)
+    featuredSlides.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+    const sliderWrapper = document.getElementById('featuredSliderWrapper');
+    const indicatorsContainer = document.getElementById('sliderIndicators');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+
+    let currentIndex = 0;
+
+    // Função para formatar tempo relativo
+    function getTimeAgo(dateString) {
+      const now = new Date();
+      const postDate = new Date(dateString);
+      const diff = Math.floor((now - postDate) / 1000);
+
+      const hours = Math.floor(diff / 3600);
+      const days = Math.floor(hours / 24);
+
+      if (hours < 1) return 'Agora há pouco';
+      if (hours < 24) return `Há ${hours} horas`;
+      if (days === 1) return 'Ontem';
+      return `Há ${days} dias`;
+    }
+
+    // Renderiza os slides
+    featuredSlides.forEach((slide, index) => {
+      const slideDiv = document.createElement('div');
+      slideDiv.className = `featured-slide ${index === 0 ? 'active' : ''}`;
+      slideDiv.innerHTML = `
+        <a href="${slide.link}">
+          <div class="featured-slide-image">
+            <img src="${slide.image}" alt="${slide.title}">
+          </div>
+          <div class="featured-slide-content">
+            <div>
+              <h2 class="featured-slide-title">${slide.title}</h2>
+              <p class="featured-slide-description">${slide.description || ''}</p>
+              ${slide.description2 ? `<p class="featured-slide-description">${slide.description2}</p>` : ''}
+            </div>
+            <div class="featured-slide-footer">
+              <span class="featured-slide-time">${getTimeAgo(slide.date)}</span>
+            </div>
+          </div>
+        </a>
+      `;
+      sliderWrapper.appendChild(slideDiv);
+    });
+
+    // Renderiza os indicadores
+    featuredSlides.forEach((_, index) => {
+      const indicator = document.createElement('button');
+      indicator.className = `indicator ${index === 0 ? 'active' : ''}`;
+      indicator.setAttribute('data-index', index);
+      indicator.addEventListener('click', () => goToSlide(index));
+      indicatorsContainer.appendChild(indicator);
+    });
+
+    // Função para ir para um slide específico
+    function goToSlide(index) {
+      const slides = sliderWrapper.querySelectorAll('.featured-slide');
+      const indicators = indicatorsContainer.querySelectorAll('.indicator');
+
+      slides.forEach(slide => slide.classList.remove('active'));
+      indicators.forEach(ind => ind.classList.remove('active'));
+
+      slides[index].classList.add('active');
+      indicators[index].classList.add('active');
+      currentIndex = index;
+    }
+
+    // Função para próximo slide
+    function nextSlide() {
+      currentIndex = (currentIndex + 1) % featuredSlides.length;
+      goToSlide(currentIndex);
+    }
+
+    // Função para slide anterior
+    function prevSlide() {
+      currentIndex = (currentIndex - 1 + featuredSlides.length) % featuredSlides.length;
+      goToSlide(currentIndex);
+    }
+
+    // Event listeners dos botões
+    nextBtn.addEventListener('click', nextSlide);
+    prevBtn.addEventListener('click', prevSlide);
+
+    // Auto-play: troca de slide a cada 6 segundos
+    setInterval(nextSlide, 6000);
+  }
+})();
+</script>
 
 <!--// BANNER LATERAL // POPUP //-->
 <script>
@@ -1030,186 +1327,51 @@ text-decoration:underline;
                     const date = new Date().toLocaleString('pt-BR');
 
                     if (!consent) {
-                        messageDiv.textContent = 'Você precisa aceitar os termos para continuar.';
-                        messageDiv.style.color = '#c41e3a';
+                        messageDiv.textContent = '❌ Você deve aceitar os termos para se inscrever.';
+                        messageDiv.style.backgroundColor = '#fee';
+                        messageDiv.style.color = '#c00';
                         messageDiv.style.display = 'block';
                         return;
                     }
 
-                    // Feedback visual
                     submitBtn.disabled = true;
-                    submitBtn.textContent = 'Enviando...';
-                    submitBtn.style.opacity = '0.7';
-
-                    const FORMSPREE_URL = 'https://formspree.io/f/xzdayepv';
-
-                    const formData = {
-                        email: email,
-                        data: date,
-                        aceite: 'Sim',
-                        data_aceite: date,
-                        origem: 'Home - Newsletter Principal'
-                    };
+                    submitBtn.textContent = 'Inscrevendo...';
 
                     try {
-                        // Salvar Localmente
-                        let subscribers = JSON.parse(localStorage.getItem('newsletter_subscribers') || '[]');
-                        if (!subscribers.some(s => s.email === email)) {
-                            subscribers.push(formData);
-                            localStorage.setItem('newsletter_subscribers', JSON.stringify(subscribers));
-                        }
-
-                        // Enviar para Formspree via AJAX
-                        const response = await fetch(FORMSPREE_URL, {
+                        const response = await fetch('https://formspree.io/f/xyzqwert', {
                             method: 'POST',
-                            body: JSON.stringify(formData),
-                            headers: {
-                                'Content-Type': 'application/json',
-                                'Accept': 'application/json'
-                            }
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify({
+                                email: email,
+                                date: date,
+                                consent: consent
+                            })
                         });
 
-                        if (!response.ok) {
-                            throw new Error('Erro na resposta do servidor');
+                        if (response.ok) {
+                            messageDiv.textContent = '✅ Inscrição realizada com sucesso! Verifique seu e-mail.';
+                            messageDiv.style.backgroundColor = '#efe';
+                            messageDiv.style.color = '#060';
+                            messageDiv.style.display = 'block';
+                            form.reset();
+                        } else {
+                            messageDiv.textContent = '❌ Erro ao inscrever. Tente novamente.';
+                            messageDiv.style.backgroundColor = '#fee';
+                            messageDiv.style.color = '#c00';
+                            messageDiv.style.display = 'block';
                         }
-
-                        // Sucesso
-                        messageDiv.textContent = 'Inscrição realizada com sucesso! Obrigado por nos acompanhar.';
-                        messageDiv.style.backgroundColor = '#d4edda';
-                        messageDiv.style.color = '#155724';
-                        messageDiv.style.border = '1px solid #c3e6cb';
-                        messageDiv.style.display = 'block';
-                        form.reset();
-
-                    } catch (err) {
-                        console.error('Erro:', err);
-                        messageDiv.textContent = 'Erro ao processar. Tente novamente mais tarde.';
-                        messageDiv.style.color = '#c41e3a';
+                    } catch (error) {
+                        messageDiv.textContent = '❌ Erro de conexão. Tente novamente.';
+                        messageDiv.style.backgroundColor = '#fee';
+                        messageDiv.style.color = '#c00';
                         messageDiv.style.display = 'block';
                     } finally {
                         submitBtn.disabled = false;
-                        submitBtn.textContent = 'Inscrever Agora';
-                        submitBtn.style.opacity = '1';
-                        
-                        setTimeout(() => {
-                            messageDiv.style.display = 'none';
-                        }, 6000);
+                        submitBtn.textContent = 'Inscrever';
                     }
                 });
             }
         });
-    </script>
-    
-    <script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const weatherIcon = document.getElementById('weather-icon');
-        const weatherTemperature = document.getElementById('weather-temperature');
-        const weatherLocation = document.getElementById('weather-location');
-
-        // Função para obter o nome da cidade a partir das coordenadas
-        async function getCityName(latitude, longitude) {
-            try {
-                const response = await fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${latitude}&lon=${longitude}&zoom=10` );
-                const data = await response.json();
-                return data.address.city || data.address.town || data.address.village || 'Sua Localização';
-            } catch (error) {
-                console.error('Erro ao obter nome da cidade:', error);
-                return 'Sua Localização';
-            }
-        }
-
-        // Função para obter o clima
-        async function getWeatherData(latitude, longitude) {
-            try {
-                const response = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&current_weather=true&hourly=temperature_2m,weathercode&forecast_days=1` );
-                const data = await response.json();
-                
-                if (data.current_weather) {
-                    const temperature = data.current_weather.temperature;
-                    const weatherCode = data.current_weather.weathercode;
-                    const city = await getCityName(latitude, longitude);
-
-                    weatherTemperature.textContent = `${temperature}°C`;
-                    weatherLocation.textContent = city;
-                    weatherIcon.innerHTML = getWeatherIcon(weatherCode); // Define o ícone com base no código do clima
-                } else {
-                    console.error('Dados de clima não disponíveis.');
-                    weatherTemperature.textContent = 'N/A';
-                    weatherLocation.textContent = 'Erro';
-                    weatherIcon.textContent = '';
-                }
-            } catch (error) {
-                console.error('Erro ao buscar dados do clima:', error);
-                weatherTemperature.textContent = 'N/A';
-                weatherLocation.textContent = 'Erro';
-                weatherIcon.textContent = '';
-            }
-        }
-
-        // Função para mapear o código do clima para um ícone (você pode usar Font Awesome ou imagens)
-        function getWeatherIcon(code) {
-            // Códigos de clima do Open-Meteo: https://www.open-meteo.com/en/docs
-            switch (code ) {
-                case 0: return '☀️'; // Céu limpo
-                case 1: return '🌤️'; // Principalmente limpo
-                case 2: return '⛅'; // Parcialmente nublado
-                case 3: return '☁️'; // Nublado
-                case 45: return '🌫️'; // Nevoeiro
-                case 48: return '🌫️'; // Nevoeiro depositante
-                case 51: return '🌧️'; // Chuvisco leve
-                case 53: return '🌧️'; // Chuvisco moderado
-                case 55: return '🌧️'; // Chuvisco denso
-                case 56: return '🌨️'; // Chuvisco congelante leve
-                case 57: return '🌨️'; // Chuvisco congelante denso
-                case 61: return '🌧️'; // Chuva leve
-                case 63: return '🌧️'; // Chuva moderada
-                case 65: return '🌧️'; // Chuva forte
-                case 66: return '🌨️'; // Chuva congelante leve
-                case 67: return '🌨️'; // Chuva congelante forte
-                case 71: return '❄️'; // Queda de neve leve
-                case 73: return '❄️'; // Queda de neve moderada
-                case 75: return '❄️'; // Queda de neve forte
-                case 77: return '🌨️'; // Grãos de neve
-                case 80: return '⛈️'; // Pancadas de chuva leve
-                case 81: return '⛈️'; // Pancadas de chuva moderada
-                case 82: return '⛈️'; // Pancadas de chuva violenta
-                case 85: return '🌨️'; // Pancadas de neve leve
-                case 86: return '🌨️'; // Pancadas de neve forte
-                case 95: return '⚡'; // Tempestade
-                case 96: return '⚡'; // Tempestade com granizo leve
-                case 99: return '⚡'; // Tempestade com granizo forte
-                default: return '❓'; // Desconhecido
-            }
-        }
-
-async function detectarLocalizacao(){
-
-try{
-
-const response = await fetch("https://ipapi.co/json/");
-const data = await response.json();
-
-const latitude = data.latitude;
-const longitude = data.longitude;
-
-getWeatherData(latitude, longitude);
-
-weatherLocation.textContent = data.city;
-
-}catch(error){
-
-console.error("Erro ao detectar localização", error);
-
-/* fallback */
-getWeatherData(-23.5505,-46.6333);
-weatherLocation.textContent = "São Paulo";
-
-}
-
-}
-
-detectarLocalizacao();
-    });
 </script>
-</body>
+
 </html>

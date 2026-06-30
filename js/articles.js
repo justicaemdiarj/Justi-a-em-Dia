@@ -1,6 +1,4 @@
 const posts = [
-  
-  
 
 { 
 title: "Quem Denuncia Paga o Preço", 
@@ -64,6 +62,7 @@ image: "img/resolver-disputas-sem-julgamento-publico-brasil.webp", link: "legisl
 date: "2026-06-09T07:00:00",
   section: "veja"
   },
+  
 ];
 
 /* ===== FUNÇÃO TEMPO RELATIVO ===== */
@@ -83,183 +82,65 @@ function getTimeAgo(dateString){
 
 
 /* ===== RENDERIZAÇÃO ===== */
-function renderContent(){
-
+function renderContent() {
   const container = document.getElementById("dynamicContent");
+  if (!container) return;
 
-const featuredTop = posts.find(p => p.section === "featured");
+  /* ===== DESTAQUES ===== */
+  const destaquePosts = posts
+    .filter(p => p.section === "destaque")
+    .sort((a,b) => new Date(b.date) - new Date(a.date));
 
-container.innerHTML += `
-  <div class="featured-block">
-
-    <a href="${featuredTop.link}">
-      <div class="featured-image">
-        <img src="${featuredTop.image}">
+  container.innerHTML += `
+    <div class="section-block">
+      <div class="grid-3">
+        ${destaquePosts.map(p => `
+          <div class="card">
+            <a href="${p.link}">
+              <img src="${p.image}">
+              <div class="card-content">
+                <div class="card-title">${p.title}</div>
+                <div class="post-time">${getTimeAgo(p.date)}</div>
+              </div>
+            </a>
+          </div>
+        `).join("")}
       </div>
-    </a>
-
-    <h1 class="featured-title">
-      <a href="${featuredTop.link}">
-        ${featuredTop.title}
-      </a>
-    </h1>
-
-<p class="featured-description">
-  <a href="${featuredTop.link}">
-  ${featuredTop.description || ""}
-  </a>
-</p>
-
-<p class="featured-description">
-  <a href="${featuredTop.link}">
-    ${featuredTop.description2 || ""}
-  </a>
-</p>
-
-    <div class="post-time">${getTimeAgo(featuredTop.date)}</div>
-
-  </div>
-      <div class="linha-divisoria"></div>
-`;
-
-
-/* ===== DESTAQUES ===== */
-
-const destaquePosts = posts
-  .filter(p => p.section === "destaque")
-  .sort((a,b) => new Date(b.date) - new Date(a.date));
-
-container.innerHTML += `
-  <div class="section-block">
-  
-    <div class="grid-3">
-      ${destaquePosts.map(p => `
-        <div class="card">
-          <a href="${p.link}">
-            <img src="${p.image}">
-            <div class="card-content">
-              <div class="card-title">${p.title}</div>
-              <div class="post-time">${getTimeAgo(p.date)}</div>
-            </div>
-          </a>
-        </div>
-      `).join("")}
     </div>
-  </div>
-`;
+  `;
 
+  /* ===== VEJA TAMBÉM ===== */
+  const vejaPosts = posts
+    .filter(p => p.section === "veja")
+    .sort((a,b) => new Date(b.date) - new Date(a.date));
 
-
-/* ===== FEATURED SECUNDÁRIO ===== */
-const featuredSecondary = posts.find(p => p.section === "featured-secundario");
-
-if(featuredSecondary){
   container.innerHTML += `
-    <div class="featured-block">
-
-      <a href="${featuredSecondary.link}">
-        <div class="featured-image">
-          <img src="${featuredSecondary.image}">
-        </div>
-      </a>
-
-      <h2 class="featured-title">
-        <a href="${featuredSecondary.link}">
-          ${featuredSecondary.title}
-        </a>
-      </h2>
-
-<p class="featured-description">
-  <a href="${featuredSecondary.link}">
-  ${featuredSecondary.description || ""}
-</p>
-</a>
-
-<p class="featured-description">
-  <a href="${featuredSecondary.link}">
-    ${featuredSecondary.description2 || ""}
-  </a>
-</p>
-
-      <div class="post-time">${getTimeAgo(featuredSecondary.date)}</div>
-
+    <div class="section-block">
+    <h2>Veja também</h2>
+      <div class="grid-3">
+        ${vejaPosts.map(p => `
+          <div class="card">
+            <a href="${p.link}">
+              <img src="${p.image}">
+              <div class="card-content">
+                <div class="card-title">${p.title}</div>
+                <div class="post-time">${getTimeAgo(p.date)}</div>
+              </div>
+            </a>
+          </div>
+        `).join("")}
+      </div>
     </div>
-    <div class="linha-divisoria"></div>
   `;
 }
-
-/* ===== FEATURED TERCIÁRIO ===== */
-
-const featuredThird = posts.find(p => p.section === "featured-terciario");
-
-if(featuredThird){
-  container.innerHTML += `
-    <div class="featured-block">
-
-      <a href="${featuredThird.link}">
-        <div class="featured-image">
-          <img src="${featuredThird.image}">
-        </div>
-      </a>
-
-      <h2 class="featured-title">
-        <a href="${featuredThird.link}">
-          ${featuredThird.title}
-        </a>
-      </h2>
-
-      <p class="featured-description">
-        <a href="${featuredThird.link}">
-          ${featuredThird.description || ""}
-        </a>
-      </p>
-
-      <p class="featured-description">
-        <a href="${featuredThird.link}">
-          ${featuredThird.description2 || ""}
-        </a>
-      </p>
-
-      <div class="post-time">${getTimeAgo(featuredThird.date)}</div>
-
-    </div>
-    <div class="linha-divisoria"></div>
-  `;
-}
-/* ===== VEJA TAMBÉM ===== */
-const vejaPosts = posts
-  .filter(p => p.section === "veja")
-  .sort((a,b) => new Date(b.date) - new Date(a.date));
-
-container.innerHTML += `
-  <div class="section-block">
-  <h2>Veja também</h2>
-    <div class="grid-3">
-      ${vejaPosts.map(p => `
-        <div class="card">
-          <a href="${p.link}">
-            <img src="${p.image}">
-            <div class="card-content">
-              <div class="card-title">${p.title}</div>
-              <div class="post-time">${getTimeAgo(p.date)}</div>
-            </div>
-          </a>
-        </div>
-      `).join("")}
-    </div>
-  </div>
-`;
-
-}
-
 
 document.addEventListener("DOMContentLoaded", renderContent);
 
 
 document.addEventListener("DOMContentLoaded", function(){
 
-  /* ===== MAIS LIDOS ===== */
-  const posts = [
+  /* ===== MAIS LIDOS (SIDEBAR) ===== */
+  const sidebarPosts = [
   
 {   title: "O Contrato Que Antecede o Casamento",
   link: "direito-de-familia/contrato-que-antecede-casamento.html",
@@ -283,9 +164,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
   ];
 
-
-  /* ===== FUNÇÃO TEMPO RELATIVO ===== */
-  function getTimeAgo(dateString){
+  function getSidebarTimeAgo(dateString){
     const now = new Date();
     const postDate = new Date(dateString);
     const diff = Math.floor((now - postDate) / 1000);
@@ -299,171 +178,19 @@ document.addEventListener("DOMContentLoaded", function(){
     return `Há ${days} dias`;
   }
 
+  sidebarPosts.sort((a,b) => new Date(b.date) - new Date(a.date));
 
-  /* ===== ORDENAR POR DATA (mais recente primeiro) ===== */
-  posts.sort((a,b) => new Date(b.date) - new Date(a.date));
-
-
-  /* ===== INSERIR NA SIDEBAR ===== */
   const list = document.getElementById("mostReadList");
-
-  posts.slice(0,10).forEach((post, index) => {
-    const li = document.createElement("li");
-
-  li.innerHTML = `
-  <div>
-    <a href="${post.link}">${post.title}</a>
-    <div class="post-time">${getTimeAgo(post.date)}</div>
-  </div>
-`;
-
-    list.appendChild(li);
-  });
-
+  if (list) {
+    sidebarPosts.slice(0,10).forEach((post) => {
+      const li = document.createElement("li");
+      li.innerHTML = `
+        <div>
+          <a href="${post.link}">${post.title}</a>
+          <div class="post-time">${getSidebarTimeAgo(post.date)}</div>
+        </div>
+      `;
+      list.appendChild(li);
+    });
+  }
 });
-
-////////// Noticias campo acima newsletter ////////////
-
-const principaisNoticias = [
-
-{
-title: "Regime De Bens Define o Futuro do Patrimônio Conjugal",
-    link: "direito-de-familia/regime-bens-define-futuro-patrimonio-conjugal.html",
-source: "",
-date: "2026-06-08T07:00:00"
-},
-{
-title: "Sem Controle Interno a Fraude Encontra Caminho Livre",
-link: "compliance/controles-internos-prevencao-desvios-corporativos.html",
-source: "",
-date: "2026-06-09T07:00:00"
-},
-{
-title: "Como Investigar Assédio Sem Destruir a Empresa",
-link: "compliance/como-investigar-assedio-sem-destruir-empresa.html",
-source: "",
-date: "2026-06-04T03:00:00"
-},
-{
-title: "Como o Direito Penal Enfrenta Estruturas do Crime",
-  link: "direito-penal/como-direito-penal-enfrenta-estruturas-crime.html",
-source: "",
-date: "2026-06-09T07:00:00"
-},
-{
-title: "O Contrato Que Antecede o Casamento",
-link: "direito-de-familia/contrato-que-antecede-casamento.html",
-source: "",
-date: "2026-06-16T07:00:00"
-},
-{
-title: "A Lei Protege Quem Ainda Não Nasceu",
- link: "direito-de-familia/lei-protege-quem-ainda-nao-nasceu.html",
-source: "",
-date: "2026-06-09T07:00:00"
-},
-{
- title: "Promessas do Estado Que Não Chegam",
-  link: "politica/promessas-estado-que-nao-chegam.html",
-source: "",
-date: "2026-06-22T07:00:00"
-},
-{
-    title: "Negócios Fictícios na Mira da Lei",
-  link: "direito-civil/negocios-ficticios-mira-da-lei.html",
-source: "",
-date: "2026-06-15T07:00:00"
-},
-{
-   title: "Prestação de Contas É Dever de Todo Servidor Público",
-    link: "politica/prestacao-contas-dever-servidor-publico.html",
-source: "",
-date: "2026-06-09T07:00:00"
-},
-
-];
-
-function renderPrincipaisNoticias(){
-
-const container = document.getElementById("principaisNoticias");
-
-container.innerHTML = `
-
-<ul class="lista-principais">
-
-${principaisNoticias.map(n => `
-
-<li class="noticia-item">
-
-<a href="${n.link}" class="noticia-link">
-${n.title}
-</a>
-
-<div class="noticia-info">
-<span class="fonte">${n.source}</span>
-<span class="tempo">${tempoRelativo(n.date)}</span>
-</div>
-
-</li>
-
-`).join("")}
-
-</ul>
-`;
-
-}
-
-document.addEventListener("DOMContentLoaded", renderPrincipaisNoticias);
-
-function tempoRelativo(date){
-
-const now = new Date();
-const post = new Date(date);
-const diff = Math.floor((now - post)/1000);
-
-const hours = Math.floor(diff/3600);
-const minutes = Math.floor(diff/60);
-
-if(minutes < 60) return `há ${minutes} minutos`;
-if(hours < 24) return `há ${hours} horas`;
-
-const days = Math.floor(hours/24);
-return `há ${days} dias`;
-
-}
-
-function renderPrincipaisNoticias(){
-
-const container = document.getElementById("principaisNoticias");
-
-/* ORDENAR POR DATA (mais recente primeiro) */
-principaisNoticias.sort((a,b) => new Date(b.date) - new Date(a.date));
-
-container.innerHTML = `
-
-<ul class="lista-principais">
-
-${principaisNoticias.map(n => `
-
-<li class="noticia-item">
-
-<a href="${n.link}" class="noticia-link">
-${n.title}
-</a>
-
-<div class="noticia-info">
-<span class="fonte">${n.source}</span>
-<span class="tempo">${tempoRelativo(n.date)}</span>
-</div>
-
-</li>
-
-`).join("")}
-
-</ul>
-`;
-
-}
-
-document.addEventListener("DOMContentLoaded", renderPrincipaisNoticias);
-

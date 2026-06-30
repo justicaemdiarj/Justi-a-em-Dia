@@ -146,14 +146,16 @@ menu: [
             
         ],
         desktop: [
-        { name: "Apoiador Romer Carvalho", img: "img/banner-apoiadores/apoiador-romer-carvalho-desktop-1.png", link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2028-12-31", pages: "full" },
-        { name: "Apoiador Romer Carvalho", img: "img/banner-apoiadores/apoiador-romer-carvalho-desktop-2.png", link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2028-12-31", pages: "full" },
-        { name: "Apoiador Objetiva Labs", img: "img/banner-apoiadores/objetiva-labs-banner-desktop-1.png", link: "https://www.objetivalabs.com.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2028-12-31", pages: "full" },
-        ],
+        { name: "Apoiador Romer Carvalho", img: "img/banner-apoiadores/apoiador-romer-carvalho-desktop-1.png", link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2050-12-31", pages: "full" },
+        { name: "Apoiador Romer Carvalho", img: "img/banner-apoiadores/apoiador-romer-carvalho-desktop-2.png", link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2050-12-31", pages: "full" },
+        { name: "Apoiador Objetiva Labs", img: "img/banner-apoiadores/objetiva-labs-banner-desktop-1.png", link: "https://www.objetivalabs.com.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2050-12-31", pages: "full" },
+        { name: "Profissional de Beleza Juliana Hussin", img: "img/banner-apoiadores/juliana-hussin-profissional-de-beleza-desktop.png", link: "https://www.objetivalabs.com.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2050-12-31", pages: "full" },
+     ],
         mobile: [
-       { name: "Apoiador Romer Carvalho", img: "img/banner-apoiadores/apoiador-romer-carvalho-mobile-1.png", link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2028-12-31", pages: "full" },
-       { name: "Apoiador Romer Carvalho", img: "img/banner-apoiadores/apoiador-romer-carvalho-mobile-2.png", link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2028-12-31", pages: "full"},
-       { name: "Apoiador Objetiva Labs", img: "img/banner-apoiadores/objetiva-labs-banner-mobile.png", link: "https://www.objetivalabs.com.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2028-12-31", pages: "full"},
+       { name: "Apoiador Romer Carvalho", img: "img/banner-apoiadores/apoiador-romer-carvalho-mobile-1.png", link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2050-12-31", pages: "full" },
+       { name: "Apoiador Romer Carvalho", img: "img/banner-apoiadores/apoiador-romer-carvalho-mobile-2.png", link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2050-12-31", pages: "full" },
+       { name: "Apoiador Objetiva Labs", img: "img/banner-apoiadores/objetiva-labs-banner-mobile.png", link: "https://www.objetivalabs.com.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2050-12-31", pages: "full" },
+       { name: "Profissional de Beleza Juliana Hussin", img: "img/banner-apoiadores/juliana-hussin-profissional-beleza-mobile.png", link: "https://www.objetivalabs.com.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2050-12-31", pages: "full" },
         ]
     },
 };
