@@ -1613,6 +1613,7 @@ img {
     .footer-content {
         grid-template-columns: 1fr;
         gap: 30px;
+        margin-left: 10px;
     }
 }
 
@@ -1623,6 +1624,7 @@ img {
     
     .main-header .container {
         gap: 10px;
+        margin-left: 13px;
     }
     
     .header-actions {
