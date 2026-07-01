@@ -37,31 +37,15 @@ const siteConfig = {
     // Configuração do Menu (Gerenciamento em Massa)
 
 menu: [
-        { title: "Início", link: ".." },
-        {
-            title: "Áreas do Direito",
-            link: "#", 
-            isClickable: false,
-            subcategories: [
-            { title: "Direito Civil", link: "direito-civil" },
+         { title: "Direito Civil", link: "direito-civil" },
             { title: "Direito de Família", link: "direito-de-familia" },
             { title: "Direito Criminal", link: "direito-penal" },
             { title: "Direito Trabalhista", link: "direito-trabalhista" },
-            { title: "Direito Militar", link: "direito-militar" },
-
-            ]
-        },
-        {
-            title: "Recursos Jurídicos",
-            link: "#",
-            isClickable: false,
-            subcategories: [
-                { title: "Jurisprudência", link: "jurisprudencia" },
-                { title: "Legislação", link: "legislacao" },
-            ]
-        },
-        { title: "Compliance", link: "compliance" },
-        { title: "Política", link: "politica" },
+     //     { title: "Direito Militar", link: "direito-militar" },
+            { title: "Compliance", link: "compliance" },
+      //    { title: "Jurisprudência", link: "jurisprudencia" },
+         // { title: "Legislação", link: "legislacao" },
+     //     { title: "Política", link: "politica" },
     ],
     
         // Configuração do Footer (Gerenciamento em Massa)
@@ -122,7 +106,7 @@ menu: [
         uol: [
             { 
                  name: "Objetiva Labs", 
-                  img: window.innerWidth <= 200 ? "img/banner-apoiadores/objetiva-labs-banner-desktop-1.png" : "img/banner-apoiadores/objetiva-labs-banner-desktop-1.png", 
+                  img: window.innerWidth <= 200 ? "img/banner-apoiadores/objetiva-labs-banner-desktop.png" : "img/banner-apoiadores/objetiva-labs-banner-desktop.png", 
                  link: "https://www.objetivalabs.com.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", 
                  endDate: null, 
                  pages: ["conato.html"] // "full"
@@ -146,16 +130,16 @@ menu: [
             
         ],
         desktop: [
-        { name: "Apoiador Romer Carvalho", img: "img/banner-apoiadores/apoiador-romer-carvalho-desktop-1.png", link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2050-12-31", pages: "full" },
-        { name: "Apoiador Romer Carvalho", img: "img/banner-apoiadores/apoiador-romer-carvalho-desktop-2.png", link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2050-12-31", pages: "full" },
-        { name: "Apoiador Objetiva Labs", img: "img/banner-apoiadores/objetiva-labs-banner-desktop-1.png", link: "https://www.objetivalabs.com.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2050-12-31", pages: "full" },
+        { name: "Apoiador Romer Carvalho", img: "img/banner-apoiadores/apoiador-romer-carvalho-desktop.png", link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2050-12-31", pages: "full" },
+        { name: "Apoiador Objetiva Labs", img: "img/banner-apoiadores/objetiva-labs-banner-desktop.png", link: "https://www.objetivalabs.com.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2050-12-31", pages: "full" },
         { name: "Profissional de Beleza Juliana Hussin", img: "img/banner-apoiadores/juliana-hussin-profissional-de-beleza-desktop.png", link: "https://www.julianahussin.com.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2050-12-31", pages: "full" },
+        { name: "Apoiador Romer Carvalho", img: "img/banner-apoiadores/especialista-em-divorcio-rio-desktop.png", link: "https://www.divorciorio.com.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2050-12-31", pages: "full" },
      ],
         mobile: [
-       { name: "Apoiador Romer Carvalho", img: "img/banner-apoiadores/apoiador-romer-carvalho-mobile-1.png", link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2050-12-31", pages: "full" },
-       { name: "Apoiador Romer Carvalho", img: "img/banner-apoiadores/apoiador-romer-carvalho-mobile-2.png", link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2050-12-31", pages: "full" },
+       { name: "Apoiador Romer Carvalho", img: "img/banner-apoiadores/apoiador-romer-carvalho-mobile.png", link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2050-12-31", pages: "full" },
        { name: "Apoiador Objetiva Labs", img: "img/banner-apoiadores/objetiva-labs-banner-mobile.png", link: "https://www.objetivalabs.com.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2050-12-31", pages: "full" },
        { name: "Profissional de Beleza Juliana Hussin", img: "img/banner-apoiadores/juliana-hussin-profissional-beleza-mobile.png", link: "https://www.julianahussin.com.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2050-12-31", pages: "full" },
+       { name: "Apoiador Romer Carvalho", img: "img/banner-apoiadores/especialista-em-divorcio-rio-mobile.png", link: "https://www.divorciorio.com.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2050-12-31", pages: "full" },
         ]
     },
 };
@@ -173,7 +157,7 @@ siteConfig.sidebarBanners = [
     },
         {
         name: "Apoiador Objetiva Labs",
-        img: "img/banner-apoiadores/objetiva-labs-banner-desktop-1.png", // Caminho da imagem do banner
+        img: "img/banner-apoiadores/objetiva-labs-banner-desktop.png", // Caminho da imagem do banner
         link: "https://www.objetivalabs.com.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", // Link de destino do banner
         endDate: "2050-12-31", // Data de expiração no formato "YYYY-MM-DD" ou null para permanente
         pages: "full" // "full" para todas as páginas, ou array de URLs específicas (ex: ["direito-civil/index.html", "compliance/a-holding-do-crime.html"])
@@ -183,14 +167,14 @@ siteConfig.sidebarBanners = [
 siteConfig.postContentBanners = [
     {
         name: "Apoiador Romer Carvalho",
-        img: "img/banner-apoiadores/apoiador-romer-carvalho-desktop-1.png", 
+        img: "img/banner-apoiadores/apoiador-romer-carvalho-desktop.png", 
         link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario",
        pages: ["direito-de-familia/contrato-que-antecede-casamento.html","compliance/controles-internos-prevencao-desvios-corporativos.html", "direito-de-familia/avos-devem-pagar-pensao-alimenticia.html","compliance/inimigo-que-usa-cracha-conhece-senha.html","direito-de-familia/guarda-pets-separacao-animais-estimacao-dissolucao-conjugal.html", "compliance/kyc-verificacao-terceiros-due-diligence-compliance-lavagem.html","direito-de-familia/testamento-heranca-direito-sucessorio-brasil.html", "compliance/compliance-concorrencial-antitruste-governanca-competitiva.html", "compliance/antitruste-integridade-empresarial-concorrencia-leal.html","compliance/integridade-corporativa-alem-papel-impresso.html","compliance/conformidade-trabalhista-alem-do-contrato-assinado.html","compliance/compliance-prevencao-fraude-controles-internos-governanca-corporativa.html","direito-de-familia/litigancia-predatoria-familia-judiciario-instrumento-opressao.html","compliance/secretaria-cultura-cuiaba-compliance-integridade-administracao-publica-municipal.html","direito-de-familia/divorce-extrajudicial-consensual-litigious-differences.html","direito-de-familia/divorcio-extrajudicial-consensual-litigioso-diferencas.html","compliance/banco-master-compliance-gestao-fraudulenta-temeraria-limites-governanca.html","compliance/o-escudo-que-o-poder-tenta-dobrar.html","compliance/quem-audita-os-auditores.html","direito-de-familia/como-comprovar-uniao-estavel.html"], // "full" para todos ou ["caminho/pagina.html"] para específicas
         position: 3    // Inserir após o 3º parágrafo 
     },
     {
         name: "Apoiador Romer Carvalho",
-        img: "img/banner-apoiadores/apoiador-romer-carvalho-desktop-2.png",
+        img: "img/banner-apoiadores/apoiador-romer-carvalho-desktop.png",
         link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario",
         pages: ["direito-de-familia/contrato-que-antecede-casamento.html","compliance/controles-internos-prevencao-desvios-corporativos.html","direito-de-familia/avos-devem-pagar-pensao-alimenticia.html","compliance/inimigo-que-usa-cracha-conhece-senha.html","direito-de-familia/guarda-pets-separacao-animais-estimacao-dissolucao-conjugal.html", "compliance/kyc-verificacao-terceiros-due-diligence-compliance-lavagem.html", "direito-de-familia/testamento-heranca-direito-sucessorio-brasil.html", "compliance/compliance-concorrencial-antitruste-governanca-competitiva.html", "compliance/antitruste-integridade-empresarial-concorrencia-leal.html", "compliance/integridade-corporativa-alem-papel-impresso.html","compliance/conformidade-trabalhista-alem-do-contrato-assinado.html","compliance/compliance-prevencao-fraude-controles-internos-governanca-corporativa.html","direito-de-familia/litigancia-predatoria-familia-judiciario-instrumento-opressao.html","compliance/secretaria-cultura-cuiaba-compliance-integridade-administracao-publica-municipal.html","direito-de-familia/divorce-extrajudicial-consensual-litigious-differences.html","direito-de-familia/divorcio-extrajudicial-consensual-litigioso-diferencas.html","compliance/banco-master-compliance-gestao-fraudulenta-temeraria-limites-governanca.html","compliance/o-escudo-que-o-poder-tenta-dobrar.html","compliance/quem-audita-os-auditores.html","direito-de-familia/como-comprovar-uniao-estavel.html"],
         position: 6    // Inserir após o 6º parágrafo
