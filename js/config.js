@@ -782,7 +782,7 @@ a.style.opacity = index === currentIndex ? '1' : '0';
         };
 
         // Define um intervalo entre 4 e 6 segundos para cada troca (mais dinâmico)
-        const intervalTime = 2000 + Math.random() * 2000;
+        const intervalTime = 4000 + Math.random() * 4000;
         setInterval(rotateBanner, intervalTime);
     }
 }

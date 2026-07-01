@@ -15,8 +15,8 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Justiça em Dia: Portal de Notícias e Artigos em Direito</title>
-    <meta name="title" content="Justiça em Dia: Portal de Notícias e Artigos em Direito">
+    <title>Portal de Notícias e Artigos em Direito: Justiça em Dia</title>
+    <meta name="title" content="Portal de Notícias e Artigos em Direito: Justiça em Dia">
     <meta name="description" content="Portal de notícias sobre direito, legislação, jurisprudência e análises de casos relevantes. Acompanhe as principais notícias do mundo jurídico.">
     <meta name="keywords" content="direito, notícias jurídicas, legislação, STF, jurisprudência, análise legal, direito civil, direito penal, direito trabalhista">
     <link rel="canonical" href="https://www.justicaemdia.com.br">
@@ -26,14 +26,14 @@
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Justiça em Dia">
     <meta property="og:url" content="https://www.justicaemdia.com.br">
-    <meta property="og:title" content="Justiça em Dia: Portal de Notícias e Artigos em Direito">
+    <meta property="og:title" content="Portal de Notícias e Artigos em Direito: Justiça em Dia">
     <meta property="og:description" content="Portal de notícias sobre direito, legislação, jurisprudência e análises de casos relevantes.">
     <meta property="og:image" content="https://www.justicaemdia.com.br/img/imagem-post.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://www.justicaemdia.com.br">
-    <meta property="twitter:title" content="Justiça em Dia: Portal de Notícias e Artigos em Direito">
+    <meta property="twitter:title" content="Portal de Notícias e Artigos em Direito: Justiça em Dia">
     <meta property="twitter:description" content="Portal de notícias sobre direito, legislação, jurisprudência e análises de casos relevantes.">
     <meta property="twitter:image" content="https://www.justicaemdia.com.br/img/imagem-post.png">
     <link rel="icon" type="images/png" href="img/favicon.png"/>
@@ -227,11 +227,12 @@
   overflow: hidden;
 }
 
-.featured-slider-wrapper {
-  position: relative;
-  width: 100%;
-  height: 500px;
-  overflow: hidden;
+.featured-slider-wrapper{
+    position:relative;
+    width:100%;
+    aspect-ratio:16/9;
+    overflow:hidden;
+    border-radius:12px;
 }
 
 .featured-slide {
@@ -257,39 +258,46 @@
   height: 100%;
 }
 
-.featured-slide-image {
-  width: 100%;
-  height: 60%;
-  overflow: hidden;
-  background: #e5e5e5;
+.featured-slide-image{
+    position:absolute;
+    inset:0;
+    width:100%;
+    height:100%;
 }
 
-.featured-slide-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.featured-slide-image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
 }
 
-.featured-slide-content {
-  flex: 1;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background: var(--white);
+.featured-slide-content{
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    padding:45px 30px;
+    color:#fff;
+    background:linear-gradient(
+        transparent,
+        rgba(0,0,0,.75)
+    );
+
+    z-index:3;
 }
 
-.featured-slide-title {
-  font-size: 24px;
-  font-weight: 800;
-  color: var(--dark-gray);
-  margin-bottom: 10px;
-  line-height: 1.3;
+.featured-slide-title{
+    font-size:34px;
+    line-height:1.2;
+    color:#fff;
+    margin-bottom:15px;
 }
 
 .featured-slide-description {
   font-size: 15px;
-  color: var(--text-gray);
+      color:rgba(255,255,255,.95);
+    font-size:18px;
+    max-width:850px;  
   margin-bottom: 8px;
   line-height: 1.4;
 }
@@ -303,7 +311,8 @@
 
 .featured-slide-time {
   font-size: 13px;
-  color: var(--text-gray);
+  color:#fff;
+    opacity:.85;
 }
 
 /* ===== CONTROLES DO SLIDER ===== */
@@ -317,23 +326,24 @@
 }
 
 .slider-btn {
-  width: 40px;
-  height: 40px;
   border: none;
-  background: var(--primary-red);
   color: white;
   cursor: pointer;
-  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 18px;
   transition: all 0.3s ease;
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      width:52px;
+    height:52px;
+    font-size:22px;
+    border-radius:50%;
+    background:rgba(0,0,0,.55);
+    backdrop-filter:blur(8px);
 }
 
 .slider-btn:hover {
-  background: #a01830;
+  background:#C41E3A;
   transform: scale(1.1);
 }
 
@@ -352,19 +362,19 @@
 }
 
 .indicator {
-  width: 12px;
-  height: 12px;
+    width:14px;
+    height:14px;
+    background:rgba(255,255,255,.35);
   border-radius: 50%;
-  background: rgba(255,255,255,0.5);
   cursor: pointer;
   transition: all 0.3s ease;
   border: 2px solid transparent;
 }
 
 .indicator.active {
-  background: var(--primary-red);
+    background:#C41E3A;
+    transform:scale(1.3);
   border-color: white;
-  transform: scale(1.2);
   margin-left:80px;
 }
 
@@ -432,7 +442,7 @@
 
   .container {
     margin-bottom: 10px;
-    padding: 0 20px;
+    padding: 0 0px;
   }
 
   .weather-widget,
@@ -847,6 +857,50 @@ text-decoration:underline;
 
 .supporters-section {
     display: none;
+}
+
+@media(max-width:768px){
+
+.featured-slider-wrapper{
+    min-height:280px;
+}
+
+.featured-slide-content{
+    padding:20px;
+}
+
+.featured-slide-title{
+    font-size:22px;
+}
+
+.featured-slide-description{
+    font-size:15px;
+}
+
+.slider-btn{
+    width:42px;
+    height:42px;
+}
+
+.featured-slider-controls{
+    bottom:12px;
+    right:12px;
+}
+
+.featured-slider-indicators{
+    bottom:12px;
+    left:12px;
+}
+
+}
+
+@media(max-width:768px){
+
+.featured-slider-wrapper{
+    aspect-ratio:4/3;
+    height:auto;
+}
+
 }
 
 </style>

@@ -3,7 +3,6 @@ const posts = [
 { 
 title: "Quem Denuncia Paga o Preço", 
 description: "Ausência de proteção ao whistleblower perpetua cultura do silêncio nas organizações", 
-description2: "O Brasil ainda não construiu um sistema efetivo de amparo ao denunciante de boa-fé", 
 image: "img/quem-denuncia-paga-o-preco.webp", 
 link: "compliance/quem-denuncia-paga-o-preco.html", 
 date: "2026-06-23T22:00:00",
@@ -11,7 +10,6 @@ date: "2026-06-23T22:00:00",
   {
 title: "A Estrutura Oculta do Crime Organizado", 
 description: "Associação criminosa e organização criminosa têm elementos distintos com impactos penais relevantes", 
-description2: "Colaboração premiada e técnicas investigativas especiais no combate ao crime organizado", 
 image: "img/estrutura-oculta-crime-organizado.webp", 
 link: "direito-penal/estrutura-oculta-crime-organizado.html", 
 date: "2026-06-23T19:00:00",
@@ -20,7 +18,6 @@ date: "2026-06-23T19:00:00",
 {
 title: "Esgotamento Profissional Chega ao Tribunal", 
 description: "Burnout classificado pela OMS impõe responsabilidade civil crescente ao empregador brasileiro", 
-description2: "Jurisprudência do TST avança no reconhecimento do nexo entre gestão abusiva e adoecimento", 
 image: "img/esgotamento-profissional-chega-ao-tribunal.webp", 
 link: "direito-trabalhista/esgotamento-profissional-chega-ao-tribunal.html", 
 date: "2026-06-23T11:00:00",
