@@ -2,6 +2,17 @@
 window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
+
+    {
+    title: "Dignidade em Xeque no Emprego",
+    date: "01/07/2026",
+    timestamp: "2026-07-01T07:00:00",
+    image: "../img/dignidade-xeque-emprego-dano-moral-trabalhista.webp",
+    excerpt: "Assédio moral, assédio sexual e ofensas no ambiente de trabalho seguem gerando indenizações na Justiça do Trabalho.",
+    link: "../direito-trabalhista/dignidade-xeque-emprego-dano-moral-trabalhista.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
     { title: "Esgotamento Profissional Chega ao Tribunal", date: "23/06/2026", timestamp: "2026-06-23T11:00:00", image: "../img/esgotamento-profissional-chega-ao-tribunal.webp", excerpt: "O burnout tornou-se tema central das disputas trabalhistas. Reconhecido pela OMS como fenômeno ocupacional, o esgotamento profissional produz consequências jurídicas que as empresas não podem mais ignorar.", link: "../direito-trabalhista/esgotamento-profissional-chega-ao-tribunal.html", author: "Justiça em Dia", authorLink: "#" },
     {
     title: "Quando o Poder Vira Arma Corporativa",

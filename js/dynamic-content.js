@@ -13,34 +13,34 @@ const tickerConfig = {
 
 const globalNewsData = [
 
-{ title: "Como o Direito Penal Enfrenta Estruturas do Crime", link: "direito-penal/como-direito-penal-enfrenta-estruturas-crime.html" },
-{ title: "A Lei Protege Quem Ainda Não Nasceu", link: "direito-de-familia/lei-protege-quem-ainda-nao-nasceu.html" },
-{ title: "A Farda Não Suprime o Direito de se Defender", link: "direito-militar/farda-nao-suprime-direito-defender.html" },
-{ title: "Deficiência No Trabalho É Direito Que a Lei Assegura", link: "direito-trabalhista/deficiencia-trabalho-direito-lei-assegura.html" },
-{ title: "Prestação de Contas É Dever de Todo Servidor Público", link: "politica/prestacao-contas-dever-servidor-publico.html" },
-{ title: "Resolver Disputas Sem Julgamento Público No Brasil", link: "legislacao/resolver-disputas-sem-julgamento-publico-brasil.html" },
-{
-    title: "Quando o Poder Vira Arma Corporativa",
-    link: "direito-trabalhista/assedio-organizacional-poder-arma-corporativa.html",
-},
-{
-    title: "Negócios Fictícios na Mira da Lei",
-    link: "direito-civil/negocios-ficticios-mira-da-lei.html",
-},
-{
-    title: "O Contrato Que Antecede o Casamento",
-    link: "direito-de-familia/contrato-que-antecede-casamento.html",
-},
-{
-    title: "Promessas do Estado Que Não Chegam",
-    link: "politica/promessas-estado-que-nao-chegam.html",
-},
+    
+
 { title: "Quem Denuncia Paga o Preço", link: "compliance/quem-denuncia-paga-o-preco.html" },
 { title: "Concurso Público Sob o Crivo Judicial", link: "jurisprudencia/concurso-publico-crivo-judicial.html" },
 { title: "O CPC e a Força dos Precedentes", link: "legislacao/cpc-forca-precedentes-obrigatorios.html" },
 { title: "Ética Institucional Que Ninguém Cobra", link: "politica/etica-institucional-que-ninguem-cobra.html" },
 { title: "Esgotamento Profissional Chega ao Tribunal", link: "direito-trabalhista/esgotamento-profissional-chega-ao-tribunal.html" },
 { title: "A Estrutura Oculta do Crime Organizado", link: "direito-penal/estrutura-oculta-crime-organizado.html" },
+{
+    title: "O Relógio Invisível dos Seus Direitos",
+    link: "direito-civil/relogio-invisivel-direitos-prescricao-decadencia.html",
+},
+{
+    title: "Compliance Financeiro Sob Nova Vigilância",
+    link: "compliance/compliance-financeiro-nova-vigilancia-controles.html",
+},
+{
+    title: "Poder Público Sob Escrutínio Penal",
+    link: "direito-penal/poder-publico-escrutinio-penal-crimes-funcionais.html",
+},
+{
+    title: "Capacidade Civil e o Altar",
+    link: "direito-de-familia/capacidade-civil-altar-casamento-requisitos.html",
+},
+{
+    title: "Dignidade em Xeque no Emprego",
+    link: "direito-trabalhista/dignidade-xeque-emprego-dano-moral-trabalhista.html",
+},
 ];
 
 // Array para armazenar todas as notícias coletadas dos arquivos de paginação

@@ -3,6 +3,16 @@ window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
     {
+    title: "O Relógio Invisível dos Seus Direitos",
+    date: "01/07/2026",
+    timestamp: "2026-07-01T09:00:00",
+    image: "../img/relogio-invisivel-direitos-prescricao-decadencia.webp",
+    excerpt: "Prazos prescricionais e decadenciais moldam silenciosamente o destino de direitos civis no Brasil.",
+    link: "../direito-civil/relogio-invisivel-direitos-prescricao-decadencia.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Negócios Fictícios na Mira da Lei",
     date: "15/06/2026",
     timestamp: "2026-06-15T10:00:00",

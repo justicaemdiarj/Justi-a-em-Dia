@@ -3,6 +3,16 @@ window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
     {
+    title: "Capacidade Civil e o Altar",
+    date: "01/07/2026",
+    timestamp: "2026-07-01T07:00:00",
+    image: "../img/capacidade-civil-altar-casamento-requisitos.webp",
+    excerpt: "A capacidade civil para casar passou por transformações profundas com o Estatuto da Pessoa com Deficiência.",
+    link: "../direito-de-familia/capacidade-civil-altar-casamento-requisitos.html",
+        author: "Romer Carvalho",
+    authorLink: "../apoiadores/advogado-romer-carvalho.html"
+},
+    {
     title: "O Contrato Que Antecede o Casamento",
     date: "16/06/2026",
     timestamp: "2026-06-16T21:00:00",

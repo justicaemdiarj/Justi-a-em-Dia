@@ -1,6 +1,41 @@
 // Base de dados global de artigos para busca
 const allArticles = [
 
+    {
+    title: 'O Relógio Invisível dos Seus Direitos',
+    description: 'Prazos prescricionais e decadenciais moldam silenciosamente o destino de direitos civis no Brasil.',
+    category: 'Direito Civil',
+    url: 'direito-civil/relogio-invisivel-direitos-prescricao-decadencia.html',
+    tags: ['Prescrição', 'Decadência', 'O Relógio Invisível dos Seus Direitos']
+},
+{
+    title: 'Compliance Financeiro Sob Nova Vigilância',
+    description: 'Bancos, fintechs e corretoras reforçam estruturas de compliance diante de riscos regulatórios crescentes.',
+    category: 'Compliance',
+    url: 'compliance/compliance-financeiro-nova-vigilancia-controles.html',
+    tags: ['Compliance', 'Setor Financeiro', 'Compliance Financeiro Sob Nova Vigilância']
+},
+{
+    title: 'Poder Público Sob Escrutínio Penal',
+    description: 'Peculato, corrupção passiva e prevaricação seguem no centro do debate sobre crimes funcionais no Brasil.',
+    category: 'Direito Criminal',
+    url: 'direito-penal/poder-publico-escrutinio-penal-crimes-funcionais.html',
+    tags: ['Crimes Funcionais', 'Improbidade Administrativa', 'Poder Público Sob Escrutínio Penal']
+},
+{
+    title: 'Capacidade Civil e o Altar',
+    description: 'A capacidade civil para casar passou por transformações profundas com o Estatuto da Pessoa com Deficiência.',
+    category: 'Direito de Família',
+    url: 'direito-de-familia/capacidade-civil-altar-casamento-requisitos.html',
+    tags: ['Capacidade Civil', 'Romer Carvalho','Casamento', 'Capacidade Civil e o Altar']
+},
+{
+    title: 'Dignidade em Xeque no Emprego',
+    description: 'Assédio moral, assédio sexual e ofensas no ambiente de trabalho seguem gerando indenizações na Justiça do Trabalho.',
+    category: 'Direito Trabalhista',
+    url: 'direito-trabalhista/dignidade-xeque-emprego-dano-moral-trabalhista.html',
+    tags: ['Dano Moral', 'Assédio Moral', 'Dignidade em Xeque no Emprego']
+},
     { title: 'Concurso Público Sob o Crivo Judicial', description: 'A jurisprudência sobre concursos públicos no Brasil tornou-se campo em constante evolução, no qual decisões do STF e do STJ têm redefinido os limites entre discricionariedade administrativa e direitos dos candidatos.', category: 'jurisprudencia', url: 'jurisprudencia/concurso-publico-crivo-judicial.html', tags: ['Concurso Público', 'Jurisprudência', 'STF', 'Direito à Nomeação', 'Direito Administrativo'] },
     { title: 'O CPC e a Força dos Precedentes', description: 'O Código de Processo Civil de 2015 introduziu sistema estruturado de precedentes obrigatórios que transformou a forma como juízes, advogados e partes se relacionam com a jurisprudência dos tribunais superiores.', category: 'legislacao', url: 'legislacao/cpc-forca-precedentes-obrigatorios.html', tags: ['CPC 2015', 'Precedentes Obrigatórios', 'IRDR', 'Recursos Repetitivos', 'Segurança Jurídica'] },
     { title: 'Ética Institucional Que Ninguém Cobra', description: 'A ética na política institucional brasileira oscila entre a proclamação formal de princípios e a sistemática violação deles na prática. Conselhos inoperantes e impunidade corroem a legitimidade democrática.', category: 'politica', url: 'politica/etica-institucional-que-ninguem-cobra.html', tags: ['Ética na Política', 'Improbidade Administrativa', 'Conselho de Ética', 'Conflito de Interesses', 'Democracia'] },

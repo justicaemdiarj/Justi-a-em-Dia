@@ -1,38 +1,40 @@
 const posts = [
 
 { 
-title: "Quem Denuncia Paga o Preço", 
-description: "Ausência de proteção ao whistleblower perpetua cultura do silêncio nas organizações", 
-image: "img/quem-denuncia-paga-o-preco.webp", 
-link: "compliance/quem-denuncia-paga-o-preco.html", 
-date: "2026-06-23T22:00:00",
+ title: "O Relógio Invisível dos Seus Direitos",
+  description: "Prazos prescricionais e decadenciais moldam silenciosamente o destino de direitos civis",
+  image: "img/relogio-invisivel-direitos-prescricao-decadencia.webp",
+  link: "direito-civil/relogio-invisivel-direitos-prescricao-decadencia.html",
+  date: "2026-07-01T09:00:00",
   section: "featured"},
   {
-title: "A Estrutura Oculta do Crime Organizado", 
-description: "Associação criminosa e organização criminosa têm elementos distintos com impactos penais relevantes", 
-image: "img/estrutura-oculta-crime-organizado.webp", 
-link: "direito-penal/estrutura-oculta-crime-organizado.html", 
-date: "2026-06-23T19:00:00",
+  title: "Compliance Financeiro Sob Nova Vigilância",
+  description: "Instituições reforçam controles internos diante de riscos regulatórios",
+  image: "img/compliance-financeiro-nova-vigilancia-controles.webp",
+  link: "compliance/compliance-financeiro-nova-vigilancia-controles.html",
+  date: "2026-07-01T10:00:00",
   section: "featured-secundario"
 },
 {
-title: "Esgotamento Profissional Chega ao Tribunal", 
-description: "Burnout classificado pela OMS impõe responsabilidade civil crescente ao empregador brasileiro", 
-image: "img/esgotamento-profissional-chega-ao-tribunal.webp", 
-link: "direito-trabalhista/esgotamento-profissional-chega-ao-tribunal.html", 
-date: "2026-06-23T11:00:00",
+  title: "Poder Público Sob Escrutínio Penal",
+  description: "Abusos no exercício da função pública seguem sob investigação",
+  image: "img/poder-publico-escrutinio-penal-crimes-funcionais.webp",
+  link: "direito-penal/poder-publico-escrutinio-penal-crimes-funcionais.html",
+  date: "2026-07-01T07:00:00",
  section: "featured-terciario"
 },
   {
-title: "Ética Institucional Que Ninguém Cobra",
-image: "img/etica-institucional-que-ninguem-cobra.webp", link: "politica/etica-institucional-que-ninguem-cobra.html",
-date: "2026-06-23T18:00:00",
+title: "Capacidade Civil e o Altar",
+ image: "img/capacidade-civil-altar-casamento-requisitos.webp",
+  link: "direito-de-familia/capacidade-civil-altar-casamento-requisitos.html",
+  date: "2026-07-01T07:00:00",  
     section: "destaque"
   },
    {
-title: "O CPC e a Força dos Precedentes",
-image: "img/cpc-forca-precedentes-obrigatorios.webp", link: "legislacao/cpc-forca-precedentes-obrigatorios.html",
-date: "2026-06-23T18:00:00",
+title: "Dignidade em Xeque no Emprego",
+ image: "img/dignidade-xeque-emprego-dano-moral-trabalhista.webp",
+  link: "direito-trabalhista/dignidade-xeque-emprego-dano-moral-trabalhista.html",
+  date: "2026-07-01T07:00:00",
    section: "destaque"
   },
   {
@@ -139,25 +141,31 @@ document.addEventListener("DOMContentLoaded", function(){
   /* ===== MAIS LIDOS (SIDEBAR) ===== */
   const sidebarPosts = [
   
-{   title: "O Contrato Que Antecede o Casamento",
-  link: "direito-de-familia/contrato-que-antecede-casamento.html",
-  date: "2026-06-16T21:00:00"
+{
+  title: "O Relógio Invisível dos Seus Direitos",
+  link: "direito-civil/relogio-invisivel-direitos-prescricao-decadencia.html",
+  date: "2026-07-01T09:00:00"
 },
-{ title: "Concurso Público Sob o Crivo Judicial", 
-  link: "jurisprudencia/concurso-publico-crivo-judicial.html", 
-  date: "2026-06-23T07:00:00" 
+{
+  title: "Compliance Financeiro Sob Nova Vigilância",
+  link: "compliance/compliance-financeiro-nova-vigilancia-controles.html",
+  date: "2026-07-01T10:00:00"
 },
-{ title: "Quem Denuncia Paga o Preço", 
-  link: "compliance/quem-denuncia-paga-o-preco.html",
-  date: "2026-06-23T07:00:00" 
+{
+  title: "Poder Público Sob Escrutínio Penal",
+  link: "direito-penal/poder-publico-escrutinio-penal-crimes-funcionais.html",
+  date: "2026-07-01T07:00:00"
 },
-{   title: "Promessas do Estado Que Não Chegam",
-  link: "politica/promessas-estado-que-nao-chegam.html",
-  date: "2026-06-22T07:00:00" 
+{
+  title: "Capacidade Civil e o Altar",
+  link: "direito-de-familia/capacidade-civil-altar-casamento-requisitos.html",
+  date: "2026-07-01T07:00:00"
 },
-{ title: "O CPC e a Força dos Precedentes", 
-  link: "legislacao/cpc-forca-precedentes-obrigatorios.html", 
-  date: "2026-06-23T07:00:00" }
+{
+  title: "Dignidade em Xeque no Emprego",
+  link: "direito-trabalhista/dignidade-xeque-emprego-dano-moral-trabalhista.html",
+  date: "2026-07-01T07:00:00"
+}
 
   ];
 

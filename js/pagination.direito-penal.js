@@ -2,6 +2,17 @@
 window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
+
+    {
+    title: "Poder Público Sob Escrutínio Penal",
+    date: "01/07/2026",
+    timestamp: "2026-07-01T07:00:00",
+    image: "../img/poder-publico-escrutinio-penal-crimes-funcionais.webp",
+    excerpt: "Peculato, corrupção passiva e prevaricação seguem no centro do debate sobre crimes funcionais no Brasil.",
+    link: "../direito-penal/poder-publico-escrutinio-penal-crimes-funcionais.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
     { title: "A Estrutura Oculta do Crime Organizado", date: "23/06/2026", timestamp: "2026-06-23T19:00:00", image: "../img/estrutura-oculta-crime-organizado.webp", excerpt: "A associação criminosa figura entre os tipos penais mais relevantes para o enfrentamento da criminalidade organizada, com elementos constitutivos e distinções jurídicas que o operador do direito precisa dominar.", link: "../direito-penal/estrutura-oculta-crime-organizado.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "Como o Direito Penal Enfrenta Estruturas do Crime", date: "09/06/2026", timestamp: "2026-06-09T07:00:00", image: "../img/como-direito-penal-enfrenta-estruturas-crime.webp", excerpt: "A Lei nº 12.850/2013 definiu o conceito de organização criminosa e criou meios especiais de investigação para combater facções estruturadas.", link: "../direito-penal/como-direito-penal-enfrenta-estruturas-crime.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "A Lei Protege Com Mais Rigor Quem Não Pode Se Defender", date: "08/06/2026", timestamp: "2026-06-08T07:00:00", image: "../img/lei-protege-rigor-quem-nao-pode-defender.webp", excerpt: "Os crimes contra crianças e adolescentes têm proteção normativa especial no ECA e no Código Penal com penas severas e hediondez.", link: "../direito-penal/lei-protege-rigor-quem-nao-pode-defender.html", author: "Justiça em Dia", authorLink: "#" },

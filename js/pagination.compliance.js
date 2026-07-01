@@ -3,6 +3,25 @@ window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
 
+    {
+    title: "Compliance Financeiro Sob Nova Vigilância",
+    date: "01/07/2026",
+    timestamp: "2026-07-01T10:00:00",
+    image: "../img/compliance-financeiro-nova-vigilancia-controles.webp",
+    excerpt: "Bancos, fintechs e corretoras reforçam estruturas de compliance diante de riscos regulatórios crescentes.",
+    link: "../compliance/compliance-financeiro-nova-vigilancia-controles.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
+  title: "Compliance Financeiro Sob Nova Vigilância",
+  description: "Instituições reforçam controles internos diante de riscos regulatórios",
+  description2: "Governança corporativa vira prioridade estratégica no setor",
+  image: "img/compliance-financeiro-nova-vigilancia-controles.webp",
+  link: "compliance/compliance-financeiro-nova-vigilancia-controles.html",
+  date: "2026-07-01T07:00:00",
+  section: "featured"
+},
     { title: "Quem Denuncia Paga o Preço", date: "23/06/2026", timestamp: "2026-06-23T22:00:00", image: "../img/quem-denuncia-paga-o-preco.webp", excerpt: "A proteção ao denunciante representa um dos pilares mais frágeis do sistema de integridade brasileiro.", link: "../compliance/quem-denuncia-paga-o-preco.html", author: "Justiça em Dia", authorLink: "#" },
     { title: "Sem Controle Interno a Fraude Encontra Caminho Livre", date: "09/06/2026", timestamp: "2026-06-09T07:00:00",  image: "../img/controles-internos-prevencao-desvios-corporativos.webp", excerpt: "Os controles internos para prevenção de desvios são exigência normativa e estratégica com base no modelo COSO e na Lei Anticorrupção.", link: "../compliance/controles-internos-prevencao-desvios-corporativos.html",         author: "Romer Carvalho",
     authorLink: "../apoiadores/advogado-romer-carvalho.html"},
