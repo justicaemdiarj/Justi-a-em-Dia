@@ -1292,9 +1292,7 @@ img {
     object-fit: cover;
 }
 
-img {
-    border-radius: 0 !important;
-}
+
 
 .play-button {
     position: absolute;
@@ -3830,3 +3828,4 @@ img {
     display: flex;
     align-items: center;
 }
+

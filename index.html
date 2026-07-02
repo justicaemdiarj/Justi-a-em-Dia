@@ -220,19 +220,31 @@
 
 /* ===== BANNER SLIDER ===== */
 .featured-slider-container {
-  position: relative;
-  margin: 30px 0;
-  background: var(--white);
-  border: 1px solid var(--border-gray);
-  overflow: hidden;
+    position: relative;
+    margin: 30px 0;
+    background: var(--white);
+    border: 1px solid var(--border-gray);
+    border-radius: 12px;
+    overflow: hidden;
 }
 
-.featured-slider-wrapper{
-    position:relative;
+.featured-slider-wrapper {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    border-radius: inherit;
+}
+
+.featured-slide-image,
+.featured-slide-image img{
     width:100%;
-    aspect-ratio:16/9;
-    overflow:hidden;
-    border-radius:12px;
+    height:100%;
+    display:block;
+    object-fit:cover;
+    transform:scale(1.01);
+    backface-visibility:hidden;
+    -webkit-backface-visibility:hidden;
 }
 
 .featured-slide {
@@ -906,6 +918,8 @@ text-decoration:underline;
 }
 
 }
+
+
 
 </style>
     <script src="js/offline.js"></script>
