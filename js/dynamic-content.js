@@ -41,6 +41,26 @@ const globalNewsData = [
     title: "Dignidade em Xeque no Emprego",
     link: "direito-trabalhista/dignidade-xeque-emprego-dano-moral-trabalhista.html",
 },
+{
+    title: "Compliance Vira Prioridade nas Startups",
+    link: "compliance/compliance-vira-prioridade-startups-brasileiras.html",
+},
+{
+    title: "As Duas Faces da Corrupção",
+    link: "direito-penal/duas-faces-corrupcao-passiva-ativa.html",
+},
+{
+    title: "Doar Com Condições Tem Limites",
+    link: "direito-civil/doar-condicoes-limites-clausulas-restritivas.html",
+},
+{
+    title: "Divórcio Não Rompe a Paternidade",
+    link: "direito-de-familia/divorcio-nao-rompe-paternidade-filhos-menores.html",
+},
+{
+    title: "O Direito de Desligar o Trabalho",
+    link: "direito-trabalhista/direito-desligar-trabalho-desconexao.html",
+},
 ];
 
 // Array para armazenar todas as notícias coletadas dos arquivos de paginação

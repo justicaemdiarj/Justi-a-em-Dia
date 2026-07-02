@@ -3,6 +3,16 @@ window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
     {
+    title: "Divórcio Não Rompe a Paternidade",
+    date: "02/07/2026",
+    timestamp: "2026-07-02T08:00:00",
+    image: "../img/divorcio-nao-rompe-paternidade-filhos-menores.webp",
+    excerpt: "Guarda compartilhada, pensão alimentícia e alienação parental são pilares do direito de família na separação com filhos menores.",
+    link: "../direito-de-familia/divorcio-nao-rompe-paternidade-filhos-menores.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Capacidade Civil e o Altar",
     date: "01/07/2026",
     timestamp: "2026-07-01T07:00:00",

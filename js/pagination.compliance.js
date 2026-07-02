@@ -4,6 +4,16 @@ window.categoryNewsData = window.categoryNewsData || [];
 window.categoryNewsData.push(
 
     {
+    title: "Compliance Vira Prioridade nas Startups",
+    date: "02/07/2026",
+    timestamp: "2026-07-02T09:00:00",
+    image: "../img/compliance-vira-prioridade-startups-brasileiras.webp",
+    excerpt: "Startups brasileiras enfrentam pressão crescente por governança e controles internos.",
+    link: "../compliance/compliance-vira-prioridade-startups-brasileiras.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Compliance Financeiro Sob Nova Vigilância",
     date: "01/07/2026",
     timestamp: "2026-07-01T10:00:00",

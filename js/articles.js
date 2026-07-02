@@ -1,64 +1,68 @@
 const posts = [
 
 { 
- title: "O Relógio Invisível dos Seus Direitos",
-  description: "Prazos prescricionais e decadenciais moldam silenciosamente o destino de direitos civis",
-  image: "img/relogio-invisivel-direitos-prescricao-decadencia.webp",
-  link: "direito-civil/relogio-invisivel-direitos-prescricao-decadencia.html",
-  date: "2026-07-01T09:00:00",
+  title: "O Direito de Desligar o Trabalho",
+  description: "Trabalho remoto reacende debate sobre descanso obrigatório",
+  image: "img/direito-desligar-trabalho-desconexao.webp",
+  link: "direito-trabalhista/direito-desligar-trabalho-desconexao.html",
+  date: "2026-07-02T11:00:00",
   section: "featured"},
   {
-  title: "Compliance Financeiro Sob Nova Vigilância",
-  description: "Instituições reforçam controles internos diante de riscos regulatórios",
-  image: "img/compliance-financeiro-nova-vigilancia-controles.webp",
-  link: "compliance/compliance-financeiro-nova-vigilancia-controles.html",
-  date: "2026-07-01T10:00:00",
+ title: "Divórcio Não Rompe a Paternidade",
+  description: "Guarda e convivência exigem planejamento cuidadoso dos pais",
+  image: "img/divorcio-nao-rompe-paternidade-filhos-menores.webp",
+  link: "direito-de-familia/divorcio-nao-rompe-paternidade-filhos-menores.html",
+  date: "2026-07-02T08:00:00",
   section: "featured-secundario"
 },
 {
-  title: "Poder Público Sob Escrutínio Penal",
-  description: "Abusos no exercício da função pública seguem sob investigação",
-  image: "img/poder-publico-escrutinio-penal-crimes-funcionais.webp",
-  link: "direito-penal/poder-publico-escrutinio-penal-crimes-funcionais.html",
-  date: "2026-07-01T07:00:00",
+  title: "Doar Com Condições Tem Limites",
+  description: "Cláusulas restritivas dividem opiniões no Judiciário brasileiro",
+  image: "img/doar-condicoes-limites-clausulas-restritivas.webp",
+  link: "direito-civil/doar-condicoes-limites-clausulas-restritivas.html",
+  date: "2026-07-02T07:00:00",
  section: "featured-terciario"
 },
+  {
+ title: "As Duas Faces da Corrupção",
+   image: "img/duas-faces-corrupcao-passiva-ativa.webp",
+  link: "direito-penal/duas-faces-corrupcao-passiva-ativa.html",
+  date: "2026-07-02T09:00:00",
+    section: "destaque"
+  },
+   {
+  title: "Compliance Vira Prioridade nas Startups",
+  image: "img/compliance-vira-prioridade-startups-brasileiras.webp",
+  link: "compliance/compliance-vira-prioridade-startups-brasileiras.html",
+  date: "2026-07-02T09:00:00",
+   section: "destaque"
+  },
   {
 title: "Capacidade Civil e o Altar",
  image: "img/capacidade-civil-altar-casamento-requisitos.webp",
   link: "direito-de-familia/capacidade-civil-altar-casamento-requisitos.html",
   date: "2026-07-01T07:00:00",  
-    section: "destaque"
+   section: "destaque"
   },
-   {
-title: "Dignidade em Xeque no Emprego",
- image: "img/dignidade-xeque-emprego-dano-moral-trabalhista.webp",
-  link: "direito-trabalhista/dignidade-xeque-emprego-dano-moral-trabalhista.html",
+  {
+  title: "Poder Público Sob Escrutínio Penal",
+  image: "img/poder-publico-escrutinio-penal-crimes-funcionais.webp",
+  link: "direito-penal/poder-publico-escrutinio-penal-crimes-funcionais.html",
   date: "2026-07-01T07:00:00",
-   section: "destaque"
-  },
-  {
-title: "Concurso Público Sob o Crivo Judicial",
-image: "img/concurso-publico-crivo-judicial.webp", link: "jurisprudencia/concurso-publico-crivo-judicial.html",
-date: "2026-06-23T18:00:00",
-   section: "destaque"
-  },
-  {
-title: "Deficiência No Trabalho É Direito Que a Lei Assegura",
-image: "img/deficiencia-trabalho-direito-lei-assegura.webp", link: "direito-trabalhista/deficiencia-trabalho-direito-lei-assegura.html",
-date: "2026-06-09T07:00:00",
  section: "veja"
   },
    {
-title: "Prestação de Contas É Dever de Todo Servidor Público",
- image: "img/prestacao-contas-dever-servidor-publico.webp", link: "politica/prestacao-contas-dever-servidor-publico.html",
-date: "2026-06-09T07:00:00",
+  title: "Compliance Financeiro Sob Nova Vigilância",
+  image: "img/compliance-financeiro-nova-vigilancia-controles.webp",
+  link: "compliance/compliance-financeiro-nova-vigilancia-controles.html",
+  date: "2026-07-01T10:00:00",
    section: "veja"
   },
   {
- title: "Resolver Disputas Sem Julgamento Público No Brasil",
-image: "img/resolver-disputas-sem-julgamento-publico-brasil.webp", link: "legislacao/resolver-disputas-sem-julgamento-publico-brasil.html",
-date: "2026-06-09T07:00:00",
+ title: "O Relógio Invisível dos Seus Direitos",
+  image: "img/relogio-invisivel-direitos-prescricao-decadencia.webp",
+  link: "direito-civil/relogio-invisivel-direitos-prescricao-decadencia.html",
+  date: "2026-07-01T09:00:00",
   section: "veja"
   },
   
@@ -157,9 +161,9 @@ document.addEventListener("DOMContentLoaded", function(){
   date: "2026-07-01T07:00:00"
 },
 {
-  title: "Capacidade Civil e o Altar",
-  link: "direito-de-familia/capacidade-civil-altar-casamento-requisitos.html",
-  date: "2026-07-01T07:00:00"
+  title: "Compliance Vira Prioridade nas Startups",
+  link: "compliance/compliance-vira-prioridade-startups-brasileiras.html",
+  date: "2026-07-02T09:00:00"
 },
 {
   title: "Dignidade em Xeque no Emprego",

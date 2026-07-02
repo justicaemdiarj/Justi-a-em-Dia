@@ -2,7 +2,16 @@
 window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
-
+{
+    title: "O Direito de Desligar o Trabalho",
+    date: "02/07/2026",
+    timestamp: "2026-07-02T11:00:00",
+    image: "../img/direito-desligar-trabalho-desconexao.webp",
+    excerpt: "O trabalho remoto reacendeu o debate sobre o direito à desconexão no Brasil.",
+    link: "../direito-trabalhista/direito-desligar-trabalho-desconexao.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
     {
     title: "Dignidade em Xeque no Emprego",
     date: "01/07/2026",

@@ -1,6 +1,42 @@
 // Base de dados global de artigos para busca
 const allArticles = [
 
+
+    {
+    title: 'Compliance Vira Prioridade nas Startups',
+    description: 'Startups brasileiras enfrentam pressão crescente por governança e controles internos.',
+    category: 'Compliance',
+    url: 'compliance/compliance-vira-prioridade-startups-brasileiras.html',
+    tags: ['Compliance', 'Startups', 'Compliance Vira Prioridade nas Startups']
+},
+{
+    title: 'As Duas Faces da Corrupção',
+    description: 'Corrupção passiva e corrupção ativa formam duas faces do mesmo crime.',
+    category: 'Direito Penal',
+    url: 'direito-penal/duas-faces-corrupcao-passiva-ativa.html',
+    tags: ['Corrupção Passiva', 'Corrupção Ativa', 'As Duas Faces da Corrupção']
+},
+{
+    title: 'Doar Com Condições Tem Limites',
+    description: 'Cláusulas de inalienabilidade, incomunicabilidade e impenhorabilidade protegem patrimônio doado, mas dividem opiniões no Judiciário.',
+    category: 'Direito Civil',
+    url: 'direito-civil/doar-condicoes-limites-clausulas-restritivas.html',
+    tags: ['Doação', 'Cláusulas Restritivas', 'Doar Com Condições Tem Limites']
+},
+{
+    title: 'Divórcio Não Rompe a Paternidade',
+    description: 'Guarda compartilhada, pensão alimentícia e alienação parental são pilares do direito de família na separação com filhos menores.',
+    category: 'Direito de Família',
+    url: 'direito-de-familia/divorcio-nao-rompe-paternidade-filhos-menores.html',
+    tags: ['Divórcio', 'Guarda Compartilhada', 'Divórcio Não Rompe a Paternidade']
+},
+{
+    title: 'O Direito de Desligar o Trabalho',
+    description: 'O trabalho remoto reacendeu o debate sobre o direito à desconexão no Brasil.',
+    category: 'Direito Trabalhista',
+    url: 'direito-trabalhista/direito-desligar-trabalho-desconexao.html',
+    tags: ['Direito à Desconexão', 'Teletrabalho', 'O Direito de Desligar o Trabalho']
+},
     {
     title: 'O Relógio Invisível dos Seus Direitos',
     description: 'Prazos prescricionais e decadenciais moldam silenciosamente o destino de direitos civis no Brasil.',

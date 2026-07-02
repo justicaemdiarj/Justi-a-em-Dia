@@ -4,6 +4,16 @@ window.categoryNewsData = window.categoryNewsData || [];
 window.categoryNewsData.push(
 
     {
+    title: "As Duas Faces da Corrupção",
+    date: "02/07/2026",
+    timestamp: "2026-07-02T09:00:00",
+    image: "../img/duas-faces-corrupcao-passiva-ativa.webp",
+    excerpt: "Corrupção passiva e corrupção ativa formam duas faces do mesmo crime.",
+    link: "../direito-penal/duas-faces-corrupcao-passiva-ativa.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Poder Público Sob Escrutínio Penal",
     date: "01/07/2026",
     timestamp: "2026-07-01T07:00:00",

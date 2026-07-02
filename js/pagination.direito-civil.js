@@ -3,6 +3,16 @@ window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
     {
+    title: "Doar Com Condições Tem Limites",
+    date: "02/07/2026",
+    timestamp: "2026-07-02T07:00:00",
+    image: "../img/doar-condicoes-limites-clausulas-restritivas.webp",
+    excerpt: "Cláusulas de inalienabilidade, incomunicabilidade e impenhorabilidade protegem patrimônio doado, mas dividem opiniões no Judiciário.",
+    link: "../direito-civil/doar-condicoes-limites-clausulas-restritivas.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "O Relógio Invisível dos Seus Direitos",
     date: "01/07/2026",
     timestamp: "2026-07-01T09:00:00",
