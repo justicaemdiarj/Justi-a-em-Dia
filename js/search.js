@@ -3,6 +3,41 @@ const allArticles = [
 
 
     {
+    title: 'Crise Reputacional Exige Resposta Jurídica Imediata',
+    description: 'A gestão de crise reputacional tornou-se prioridade jurídica nas grandes empresas brasileiras, unindo compliance, comunicação e governança na contenção de danos de imagem.',
+    category: 'Compliance',
+    url: 'compliance/crise-reputacional-resposta-juridica-imediata.html',
+    tags: ['Gestão de Crise','Compliance', 'Reputação Corporativa', 'Crise Reputacional Exige Resposta Jurídica Imediata']
+},
+{
+    title: 'Mediação Familiar Ganha Espaço na Justiça',
+    description: 'A mediação familiar se consolida como via preferencial em disputas de guarda, divórcio e partilha de bens, reduzindo desgaste emocional entre as partes.',
+    category: 'Direito de Família',
+    url: 'direito-de-familia/mediacao-familiar-espaco-justica-conciliacao.html',
+    tags: ['Mediação Familiar', 'Romer Carvalho', 'Direito de Família', 'Guarda de Filhos', 'Mediação Familiar Ganha Espaço na Justiça']
+},
+{
+    title: 'Lucros Cessantes Dependem de Prova Robusta',
+    description: 'A reparação por lucros cessantes exige comprovação técnica e criteriosa, com perícia contábil e precedentes cada vez mais determinantes para o resultado das demandas.',
+    category: 'Direito Civil',
+    url: 'direito-civil/lucros-cessantes-prova-robusta-prejuizo.html',
+    tags: ['Lucros Cessantes', 'Direito Civil', 'Perícia Contábil', 'Lucros Cessantes Dependem de Prova Robusta']
+},
+{
+    title: 'Peculato Exige Rigor na Responsabilização',
+    description: 'O crime de peculato ganha tratamento sistêmico por parte dos órgãos de controle, unindo Ministério Público, Tribunais de Contas e tecnologia na fiscalização de recursos públicos.',
+    category: 'Direito Criminal',
+    url: 'direito-penal/peculato-rigor-responsabilizacao-publica.html',
+    tags: ['Peculato', 'Improbidade Administrativa', 'Direito Penal', 'Peculato Exige Rigor na Responsabilização']
+},
+{
+    title: 'Monitoramento Trabalhista Esbarra na Privacidade',
+    description: 'O uso de ferramentas de monitoramento digital de empregados exige equilíbrio entre poder diretivo e direito à privacidade, com a LGPD e o TST balizando os limites da fiscalização.',
+    category: 'Direito Trabalhista',
+    url: 'direito-trabalhista/monitoramento-trabalhista-esbarra-privacidade.html',
+    tags: ['Monitoramento de Empregados', 'Direito Trabalhista', 'LGPD', 'Monitoramento Trabalhista Esbarra na Privacidade']
+},
+    {
     title: 'Compliance Vira Prioridade nas Startups',
     description: 'Startups brasileiras enfrentam pressão crescente por governança e controles internos.',
     category: 'Compliance',
@@ -12,7 +47,7 @@ const allArticles = [
 {
     title: 'As Duas Faces da Corrupção',
     description: 'Corrupção passiva e corrupção ativa formam duas faces do mesmo crime.',
-    category: 'Direito Penal',
+    category: 'Direito Criminal',
     url: 'direito-penal/duas-faces-corrupcao-passiva-ativa.html',
     tags: ['Corrupção Passiva', 'Corrupção Ativa', 'As Duas Faces da Corrupção']
 },

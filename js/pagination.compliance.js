@@ -3,6 +3,17 @@ window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
 
+    
+{
+    title: "Crise Reputacional Exige Resposta Jurídica Imediata",
+    date: "03/07/2026",
+    timestamp: "2026-07-03T09:00:00",
+    image: "../img/crise-reputacional-resposta-juridica-imediata.webp",
+    excerpt: "A gestão de crise reputacional tornou-se prioridade jurídica nas grandes empresas brasileiras, unindo compliance, comunicação e governança na contenção de danos de imagem.",
+    link: "../compliance/crise-reputacional-resposta-juridica-imediata.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
     {
     title: "Compliance Vira Prioridade nas Startups",
     date: "02/07/2026",

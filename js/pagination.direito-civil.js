@@ -3,6 +3,16 @@ window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
     {
+    title: "Lucros Cessantes Dependem de Prova Robusta",
+    date: "03/07/2026",
+    timestamp: "2026-07-03T07:00:00",
+    image: "../img/lucros-cessantes-prova-robusta-prejuizo.webp",
+    excerpt: "A reparação por lucros cessantes exige comprovação técnica e criteriosa, com perícia contábil e precedentes cada vez mais determinantes para o resultado das demandas.",
+    link: "../direito-civil/lucros-cessantes-prova-robusta-prejuizo.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Doar Com Condições Tem Limites",
     date: "02/07/2026",
     timestamp: "2026-07-02T07:00:00",

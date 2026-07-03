@@ -3,6 +3,16 @@ window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
     {
+    title: "Mediação Familiar Ganha Espaço na Justiça",
+    date: "03/07/2026",
+    timestamp: "2026-07-03T09:00:00",
+    image: "../img/mediacao-familiar-espaco-justica-conciliacao.webp",
+    excerpt: "A mediação familiar se consolida como via preferencial em disputas de guarda, divórcio e partilha de bens, reduzindo desgaste emocional entre as partes.",
+    link: "../direito-de-familia/mediacao-familiar-espaco-justica-conciliacao.html",
+        author: "Romer Carvalho",
+    authorLink: "../apoiadores/advogado-romer-carvalho.html"
+},
+    {
     title: "Divórcio Não Rompe a Paternidade",
     date: "02/07/2026",
     timestamp: "2026-07-02T08:00:00",
@@ -12,6 +22,7 @@ window.categoryNewsData.push(
     author: "Justiça em Dia",
     authorLink: "#"
 },
+
     {
     title: "Capacidade Civil e o Altar",
     date: "01/07/2026",

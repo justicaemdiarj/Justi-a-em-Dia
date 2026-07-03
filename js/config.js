@@ -114,32 +114,38 @@ menu: [
             // BANNER ESPECIFICO POR PÁGINA OU MESCLA
             
             { 
-                 name: "Banner UOL Específico 1", 
+                 name: "Apoiador Romer Carvalho", 
                  img: window.innerWidth <= 768 ? "https://macmagazine.com.br/wp-content/uploads/2019/03/06-iphone-can-do-what-2.gif" : "https://macmagazine.com.br/wp-content/uploads/2019/03/06-iphone-can-do-what-2.gif", 
                  link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", 
                  endDate: null, 
                  pages: ["conato.html"]
             },
-            { 
-                 name: "Banner UOL Específico 2", 
-                 img: window.innerWidth <= 768 ? "img/cirurgia-estetica.jpg" : "img/cirurgia-estetica.jpg", 
-                 link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", 
-                 endDate: null, 
-                 pages:  ["conato.html"]
-            }
-            
+      //       { 
+       //           name: "Apoiador Divórcio Rio", 
+       //           img: window.innerWidth <= 768 ? "img/especialista-em-divorcio-rio-desktop.png" : "img/especialista-em-divorcio-rio-desktop.png", 
+       //           link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", 
+         //         endDate: null, 
+       //           pages:  ["index.html"]
+        //     },
+         //   { 
+         //        name: "Apoiador Romer Carvalho", 
+        //         img: window.innerWidth <= 768 ? "img/apoiador-romer-carvalho-desktop.png" : "img/apoiador-romer-carvalho-desktop.png", 
+         //        link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", 
+         //        endDate: null, 
+         //        pages:  ["index.html"]
+        //    }
         ],
         desktop: [
         { name: "Apoiador Romer Carvalho", img: "img/banner-apoiadores/apoiador-romer-carvalho-desktop.png", link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2050-12-31", pages: "full" },
         { name: "Apoiador Objetiva Labs", img: "img/banner-apoiadores/objetiva-labs-banner-desktop.png", link: "https://www.objetivalabs.com.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2050-12-31", pages: "full" },
         { name: "Profissional de Beleza Juliana Hussin", img: "img/banner-apoiadores/juliana-hussin-profissional-de-beleza-desktop.png", link: "https://www.julianahussin.com.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2050-12-31", pages: "full" },
-        { name: "Apoiador Romer Carvalho", img: "img/banner-apoiadores/especialista-em-divorcio-rio-desktop.png", link: "https://www.divorciorio.com.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2050-12-31", pages: "full" },
+        { name: "Apoiador Divórcio Rio", img: "img/banner-apoiadores/especialista-em-divorcio-rio-desktop.png", link: "https://www.divorciorio.com.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2050-12-31", pages: "full" },
      ],
         mobile: [
        { name: "Apoiador Romer Carvalho", img: "img/banner-apoiadores/apoiador-romer-carvalho-mobile.png", link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2050-12-31", pages: "full" },
        { name: "Apoiador Objetiva Labs", img: "img/banner-apoiadores/objetiva-labs-banner-mobile.png", link: "https://www.objetivalabs.com.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2050-12-31", pages: "full" },
        { name: "Profissional de Beleza Juliana Hussin", img: "img/banner-apoiadores/juliana-hussin-profissional-beleza-mobile.png", link: "https://www.julianahussin.com.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2050-12-31", pages: "full" },
-       { name: "Apoiador Romer Carvalho", img: "img/banner-apoiadores/especialista-em-divorcio-rio-mobile.png", link: "https://www.divorciorio.com.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2050-12-31", pages: "full" },
+       { name: "Apoiador Divórcio Rio", img: "img/banner-apoiadores/especialista-em-divorcio-rio-mobile.png", link: "https://www.divorciorio.com.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario", endDate: "2050-12-31", pages: "full" },
         ]
     },
 };
@@ -169,14 +175,14 @@ siteConfig.postContentBanners = [
         name: "Apoiador Romer Carvalho",
         img: "img/banner-apoiadores/apoiador-romer-carvalho-desktop.png", 
         link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario",
-       pages: ["direito-de-familia/contrato-que-antecede-casamento.html","compliance/controles-internos-prevencao-desvios-corporativos.html", "direito-de-familia/avos-devem-pagar-pensao-alimenticia.html","compliance/inimigo-que-usa-cracha-conhece-senha.html","direito-de-familia/guarda-pets-separacao-animais-estimacao-dissolucao-conjugal.html", "compliance/kyc-verificacao-terceiros-due-diligence-compliance-lavagem.html","direito-de-familia/testamento-heranca-direito-sucessorio-brasil.html", "compliance/compliance-concorrencial-antitruste-governanca-competitiva.html", "compliance/antitruste-integridade-empresarial-concorrencia-leal.html","compliance/integridade-corporativa-alem-papel-impresso.html","compliance/conformidade-trabalhista-alem-do-contrato-assinado.html","compliance/compliance-prevencao-fraude-controles-internos-governanca-corporativa.html","direito-de-familia/litigancia-predatoria-familia-judiciario-instrumento-opressao.html","compliance/secretaria-cultura-cuiaba-compliance-integridade-administracao-publica-municipal.html","direito-de-familia/divorce-extrajudicial-consensual-litigious-differences.html","direito-de-familia/divorcio-extrajudicial-consensual-litigioso-diferencas.html","compliance/banco-master-compliance-gestao-fraudulenta-temeraria-limites-governanca.html","compliance/o-escudo-que-o-poder-tenta-dobrar.html","compliance/quem-audita-os-auditores.html","direito-de-familia/como-comprovar-uniao-estavel.html"], // "full" para todos ou ["caminho/pagina.html"] para específicas
+       pages: ["direito-de-familia/mediacao-familiar-espaco-justica-conciliacao.html","direito-de-familia/contrato-que-antecede-casamento.html","compliance/controles-internos-prevencao-desvios-corporativos.html", "direito-de-familia/avos-devem-pagar-pensao-alimenticia.html","compliance/inimigo-que-usa-cracha-conhece-senha.html","direito-de-familia/guarda-pets-separacao-animais-estimacao-dissolucao-conjugal.html", "compliance/kyc-verificacao-terceiros-due-diligence-compliance-lavagem.html","direito-de-familia/testamento-heranca-direito-sucessorio-brasil.html", "compliance/compliance-concorrencial-antitruste-governanca-competitiva.html", "compliance/antitruste-integridade-empresarial-concorrencia-leal.html","compliance/integridade-corporativa-alem-papel-impresso.html","compliance/conformidade-trabalhista-alem-do-contrato-assinado.html","compliance/compliance-prevencao-fraude-controles-internos-governanca-corporativa.html","direito-de-familia/litigancia-predatoria-familia-judiciario-instrumento-opressao.html","compliance/secretaria-cultura-cuiaba-compliance-integridade-administracao-publica-municipal.html","direito-de-familia/divorce-extrajudicial-consensual-litigious-differences.html","direito-de-familia/divorcio-extrajudicial-consensual-litigioso-diferencas.html","compliance/banco-master-compliance-gestao-fraudulenta-temeraria-limites-governanca.html","compliance/o-escudo-que-o-poder-tenta-dobrar.html","compliance/quem-audita-os-auditores.html","direito-de-familia/como-comprovar-uniao-estavel.html"], // "full" para todos ou ["caminho/pagina.html"] para específicas
         position: 3    // Inserir após o 3º parágrafo 
     },
     {
         name: "Apoiador Romer Carvalho",
-        img: "img/banner-apoiadores/apoiador-romer-carvalho-desktop.png",
+        img: "img/banner-apoiadores/especialista-em-divorcio-rio-desktop.png",
         link: "https://www.romercarvalho.adv.br?utm_source=justica%20em%20dia&utm_medium=site%20justica%20em%20dia&utm_campaign=apoio&utm_content=banner-publicitario",
-        pages: ["direito-de-familia/contrato-que-antecede-casamento.html","compliance/controles-internos-prevencao-desvios-corporativos.html","direito-de-familia/avos-devem-pagar-pensao-alimenticia.html","compliance/inimigo-que-usa-cracha-conhece-senha.html","direito-de-familia/guarda-pets-separacao-animais-estimacao-dissolucao-conjugal.html", "compliance/kyc-verificacao-terceiros-due-diligence-compliance-lavagem.html", "direito-de-familia/testamento-heranca-direito-sucessorio-brasil.html", "compliance/compliance-concorrencial-antitruste-governanca-competitiva.html", "compliance/antitruste-integridade-empresarial-concorrencia-leal.html", "compliance/integridade-corporativa-alem-papel-impresso.html","compliance/conformidade-trabalhista-alem-do-contrato-assinado.html","compliance/compliance-prevencao-fraude-controles-internos-governanca-corporativa.html","direito-de-familia/litigancia-predatoria-familia-judiciario-instrumento-opressao.html","compliance/secretaria-cultura-cuiaba-compliance-integridade-administracao-publica-municipal.html","direito-de-familia/divorce-extrajudicial-consensual-litigious-differences.html","direito-de-familia/divorcio-extrajudicial-consensual-litigioso-diferencas.html","compliance/banco-master-compliance-gestao-fraudulenta-temeraria-limites-governanca.html","compliance/o-escudo-que-o-poder-tenta-dobrar.html","compliance/quem-audita-os-auditores.html","direito-de-familia/como-comprovar-uniao-estavel.html"],
+        pages: ["direito-de-familia/mediacao-familiar-espaco-justica-conciliacao.html","direito-de-familia/contrato-que-antecede-casamento.html","compliance/controles-internos-prevencao-desvios-corporativos.html","direito-de-familia/avos-devem-pagar-pensao-alimenticia.html","compliance/inimigo-que-usa-cracha-conhece-senha.html","direito-de-familia/guarda-pets-separacao-animais-estimacao-dissolucao-conjugal.html", "compliance/kyc-verificacao-terceiros-due-diligence-compliance-lavagem.html", "direito-de-familia/testamento-heranca-direito-sucessorio-brasil.html", "compliance/compliance-concorrencial-antitruste-governanca-competitiva.html", "compliance/antitruste-integridade-empresarial-concorrencia-leal.html", "compliance/integridade-corporativa-alem-papel-impresso.html","compliance/conformidade-trabalhista-alem-do-contrato-assinado.html","compliance/compliance-prevencao-fraude-controles-internos-governanca-corporativa.html","direito-de-familia/litigancia-predatoria-familia-judiciario-instrumento-opressao.html","compliance/secretaria-cultura-cuiaba-compliance-integridade-administracao-publica-municipal.html","direito-de-familia/divorce-extrajudicial-consensual-litigious-differences.html","direito-de-familia/divorcio-extrajudicial-consensual-litigioso-diferencas.html","compliance/banco-master-compliance-gestao-fraudulenta-temeraria-limites-governanca.html","compliance/o-escudo-que-o-poder-tenta-dobrar.html","compliance/quem-audita-os-auditores.html","direito-de-familia/como-comprovar-uniao-estavel.html"],
         position: 6    // Inserir após o 6º parágrafo
     },
 

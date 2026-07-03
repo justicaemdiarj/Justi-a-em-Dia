@@ -15,16 +15,7 @@ const globalNewsData = [
 
     
 
-{ title: "Quem Denuncia Paga o Preço", link: "compliance/quem-denuncia-paga-o-preco.html" },
-{ title: "Concurso Público Sob o Crivo Judicial", link: "jurisprudencia/concurso-publico-crivo-judicial.html" },
-{ title: "O CPC e a Força dos Precedentes", link: "legislacao/cpc-forca-precedentes-obrigatorios.html" },
-{ title: "Ética Institucional Que Ninguém Cobra", link: "politica/etica-institucional-que-ninguem-cobra.html" },
-{ title: "Esgotamento Profissional Chega ao Tribunal", link: "direito-trabalhista/esgotamento-profissional-chega-ao-tribunal.html" },
-{ title: "A Estrutura Oculta do Crime Organizado", link: "direito-penal/estrutura-oculta-crime-organizado.html" },
-{
-    title: "O Relógio Invisível dos Seus Direitos",
-    link: "direito-civil/relogio-invisivel-direitos-prescricao-decadencia.html",
-},
+
 {
     title: "Compliance Financeiro Sob Nova Vigilância",
     link: "compliance/compliance-financeiro-nova-vigilancia-controles.html",
@@ -60,6 +51,26 @@ const globalNewsData = [
 {
     title: "O Direito de Desligar o Trabalho",
     link: "direito-trabalhista/direito-desligar-trabalho-desconexao.html",
+},
+{
+    title: "Crise Reputacional Exige Resposta Jurídica Imediata",
+    link: "compliance/crise-reputacional-resposta-juridica-imediata.html",
+},
+{
+    title: "Monitoramento Trabalhista Esbarra na Privacidade",
+    link: "direito-trabalhista/monitoramento-trabalhista-esbarra-privacidade.html",
+},
+{
+    title: "Mediação Familiar Ganha Espaço na Justiça",
+    link: "direito-de-familia/mediacao-familiar-espaco-justica-conciliacao.html",
+},
+{
+    title: "Lucros Cessantes Dependem de Prova Robusta",
+    link: "direito-civil/lucros-cessantes-prova-robusta-prejuizo.html",
+},
+{
+    title: "Peculato Exige Rigor na Responsabilização",
+    link: "direito-penal/peculato-rigor-responsabilizacao-publica.html",
 },
 ];
 

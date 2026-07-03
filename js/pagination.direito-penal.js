@@ -4,6 +4,16 @@ window.categoryNewsData = window.categoryNewsData || [];
 window.categoryNewsData.push(
 
     {
+    title: "Peculato Exige Rigor na Responsabilização",
+    date: "03/07/2026",
+    timestamp: "2026-07-03T07:00:00",
+    image: "../img/peculato-rigor-responsabilizacao-publica.webp",
+    excerpt: "O crime de peculato ganha tratamento sistêmico por parte dos órgãos de controle, unindo Ministério Público, Tribunais de Contas e tecnologia na fiscalização de recursos públicos.",
+    link: "../direito-penal/peculato-rigor-responsabilizacao-publica.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "As Duas Faces da Corrupção",
     date: "02/07/2026",
     timestamp: "2026-07-02T09:00:00",

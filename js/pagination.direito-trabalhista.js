@@ -2,6 +2,16 @@
 window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
+    {
+    title: "Monitoramento Trabalhista Esbarra na Privacidade",
+    date: "03/07/2026",
+    timestamp: "2026-07-03T11:00:00",
+    image: "../img/monitoramento-trabalhista-esbarra-privacidade.webp",
+    excerpt: "O uso de ferramentas de monitoramento digital de empregados exige equilíbrio entre poder diretivo e direito à privacidade, com a LGPD e o TST balizando os limites da fiscalização.",
+    link: "../direito-trabalhista/monitoramento-trabalhista-esbarra-privacidade.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 {
     title: "O Direito de Desligar o Trabalho",
     date: "02/07/2026",

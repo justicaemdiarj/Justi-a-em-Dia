@@ -1,5 +1,22 @@
 const posts = [
-
+{
+  title: "Monitoramento Trabalhista Esbarra na Privacidade",
+  description: "LGPD e TST balizam limites da vigilância corporativa digital",
+  description2: "Empresas revisam políticas internas para evitar passivo trabalhista",
+  image: "img/monitoramento-trabalhista-esbarra-privacidade.webp",
+  link: "direito-trabalhista/monitoramento-trabalhista-esbarra-privacidade.html",
+  date: "2026-07-03T11:00:00",
+  section: "featured"
+},
+  {
+  title: "Crise Reputacional Exige Resposta Jurídica Imediata",
+  description: "Compliance e comunicação se unem para conter danos de imagem",
+  description2: "Governança corporativa vira escudo contra escândalos empresariais",
+  image: "img/crise-reputacional-resposta-juridica-imediata.webp",
+  link: "compliance/crise-reputacional-resposta-juridica-imediata.html",
+  date: "2026-07-03T09:00:00",
+  section: "featured"
+},
 { 
   title: "O Direito de Desligar o Trabalho",
   description: "Trabalho remoto reacende debate sobre descanso obrigatório",
@@ -38,24 +55,24 @@ const posts = [
    section: "destaque"
   },
   {
-title: "Capacidade Civil e o Altar",
- image: "img/capacidade-civil-altar-casamento-requisitos.webp",
-  link: "direito-de-familia/capacidade-civil-altar-casamento-requisitos.html",
-  date: "2026-07-01T07:00:00",  
+    title: "Lucros Cessantes Dependem de Prova Robusta",
+ image: "img/lucros-cessantes-prova-robusta-prejuizo.webp",
+  link: "direito-civil/lucros-cessantes-prova-robusta-prejuizo.html",
+  date: "2026-07-03T07:00:00",
    section: "destaque"
   },
   {
-  title: "Poder Público Sob Escrutínio Penal",
-  image: "img/poder-publico-escrutinio-penal-crimes-funcionais.webp",
-  link: "direito-penal/poder-publico-escrutinio-penal-crimes-funcionais.html",
-  date: "2026-07-01T07:00:00",
+title: "Mediação Familiar Ganha Espaço na Justiça",
+  image: "img/mediacao-familiar-espaco-justica-conciliacao.webp",
+  link: "direito-de-familia/mediacao-familiar-espaco-justica-conciliacao.html",
+  date: "2026-07-03T09:00:00",
  section: "veja"
   },
    {
-  title: "Compliance Financeiro Sob Nova Vigilância",
-  image: "img/compliance-financeiro-nova-vigilancia-controles.webp",
-  link: "compliance/compliance-financeiro-nova-vigilancia-controles.html",
-  date: "2026-07-01T10:00:00",
+ title: "Peculato Exige Rigor na Responsabilização",
+  image: "img/peculato-rigor-responsabilizacao-publica.webp",
+  link: "direito-penal/peculato-rigor-responsabilizacao-publica.html",
+  date: "2026-07-03T07:00:00",
    section: "veja"
   },
   {
@@ -146,9 +163,9 @@ document.addEventListener("DOMContentLoaded", function(){
   const sidebarPosts = [
   
 {
-  title: "O Relógio Invisível dos Seus Direitos",
-  link: "direito-civil/relogio-invisivel-direitos-prescricao-decadencia.html",
-  date: "2026-07-01T09:00:00"
+  title: "Crise Reputacional Exige Resposta Jurídica Imediata",
+  link: "compliance/crise-reputacional-resposta-juridica-imediata.html",
+  date: "2026-07-03T09:00:00"
 },
 {
   title: "Compliance Financeiro Sob Nova Vigilância",
@@ -156,9 +173,9 @@ document.addEventListener("DOMContentLoaded", function(){
   date: "2026-07-01T10:00:00"
 },
 {
-  title: "Poder Público Sob Escrutínio Penal",
-  link: "direito-penal/poder-publico-escrutinio-penal-crimes-funcionais.html",
-  date: "2026-07-01T07:00:00"
+  title: "Peculato Exige Rigor na Responsabilização",
+  link: "direito-penal/peculato-rigor-responsabilizacao-publica.html",
+  date: "2026-07-03T07:00:00"
 },
 {
   title: "Compliance Vira Prioridade nas Startups",
