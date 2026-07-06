@@ -72,6 +72,27 @@ const globalNewsData = [
     title: "Peculato Exige Rigor na Responsabilização",
     link: "direito-penal/peculato-rigor-responsabilizacao-publica.html",
 },
+{
+    title: "Home Office, Quem Paga a Conta",
+    link: "direito-trabalhista/teletrabalho-custeio-equipamentos-brasil.html",
+},
+{
+    title: "Testamento Vital, a Última Palavra",
+    link: "direito-civil/testamento-vital-autonomia-privada-brasil.html",
+},
+{
+    title: "União Estável Paralela em Debate",
+    link: "direito-de-familia/uniao-estavel-paralela-controversias-brasil.html",
+},
+{
+    title: "Denunciação Caluniosa Sob a Lupa",
+    link: "direito-penal/denunciacao-caluniosa-falsa-acusacao-brasil.html",
+},
+{
+    title: "Due Diligence, o Exame Que Salva Negócios",
+    link: "compliance/due-diligence-fusoes-aquisicoes-brasil.html",
+},
+
 ];
 
 // Array para armazenar todas as notícias coletadas dos arquivos de paginação

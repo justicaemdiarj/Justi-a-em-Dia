@@ -3,7 +3,16 @@ window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
 
-    
+    {
+    title: "Due Diligence, o Exame Que Salva Negócios",
+    date: "06/07/2026",
+    timestamp: "2026-07-06T07:00:00",
+    image: "../img/due-diligence-fusoes-aquisicoes-brasil.webp",
+    excerpt: "Falhas na due diligence de fusões e aquisições expõem empresas a passivos ocultos e riscos reputacionais.",
+    link: "compliance/due-diligence-fusoes-aquisicoes-brasil.html",
+        author: "Romer Carvalho",
+    authorLink: "../apoiadores/advogado-romer-carvalho.html" 
+},
 {
     title: "Crise Reputacional Exige Resposta Jurídica Imediata",
     date: "03/07/2026",

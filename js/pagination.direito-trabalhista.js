@@ -3,6 +3,16 @@ window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
     {
+    title: "Denunciação Caluniosa Sob a Lupa",
+    date: "06/07/2026",
+    timestamp: "2026-07-06T07:00:00",
+    image: "../img/denunciacao-caluniosa-falsa-acusacao-brasil.webp",
+    excerpt: "O crime de denunciação caluniosa ganha destaque diante do aumento de notícias-crime motivadas por interesses pessoais.",
+    link: "direito-penal/denunciacao-caluniosa-falsa-acusacao-brasil.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Monitoramento Trabalhista Esbarra na Privacidade",
     date: "03/07/2026",
     timestamp: "2026-07-03T11:00:00",

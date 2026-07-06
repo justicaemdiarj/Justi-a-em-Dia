@@ -1,7 +1,41 @@
 // Base de dados global de artigos para busca
 const allArticles = [
 
-
+{
+    title: 'Due Diligence, o Exame Que Salva Negócios',
+    description: 'Falhas na due diligence de fusões e aquisições expõem empresas a passivos ocultos e riscos reputacionais.',
+    category: 'Compliance',
+    url: 'compliance/due-diligence-fusoes-aquisicoes-brasil.html',
+    tags: ['Due Diligence', 'Romer Carvalho','Fusões e Aquisições', 'Compliance']
+},
+{
+    title: 'Testamento Vital, a Última Palavra',
+    description: 'O testamento vital ganha espaço no Brasil como expressão da autonomia privada, ainda sem lei específica que o discipline.',
+    category: 'Direito Civil',
+    url: 'direito-civil/testamento-vital-autonomia-privada-brasil.html',
+    tags: ['Testamento Vital', 'Autonomia Privada', 'Diretivas Antecipadas de Vontade']
+},
+{
+    title: 'União Estável Paralela em Debate',
+    description: 'O reconhecimento jurídico de uniões estáveis paralelas divide tribunais entre monogamia e proteção patrimonial.',
+    category: 'Direito de Família',
+    url: 'direito-de-familia/uniao-estavel-paralela-controversias-brasil.html',
+    tags: ['União Estável Paralela', 'Monogamia Jurídica', 'STF']
+},
+{
+    title: 'Denunciação Caluniosa Sob a Lupa',
+    description: 'O crime de denunciação caluniosa ganha destaque diante do aumento de notícias-crime motivadas por interesses pessoais.',
+    category: 'Direito Penal',
+    url: 'direito-penal/denunciacao-caluniosa-falsa-acusacao-brasil.html',
+    tags: ['Denunciação Caluniosa', 'Código Penal', 'Falsa Acusação']
+},
+{
+    title: 'Home Office, Quem Paga a Conta',
+    description: 'A definição sobre quem custeia equipamentos e internet no teletrabalho ainda gera disputas trabalhistas.',
+    category: 'Direito Trabalhista',
+    url: 'direito-trabalhista/teletrabalho-custeio-equipamentos-brasil.html',
+    tags: ['Teletrabalho', 'Custeio de Equipamentos', 'CLT']
+},
     {
     title: 'Crise Reputacional Exige Resposta Jurídica Imediata',
     description: 'A gestão de crise reputacional tornou-se prioridade jurídica nas grandes empresas brasileiras, unindo compliance, comunicação e governança na contenção de danos de imagem.',

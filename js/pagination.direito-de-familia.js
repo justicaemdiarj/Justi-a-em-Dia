@@ -3,6 +3,16 @@ window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
     {
+    title: "União Estável Paralela em Debate",
+    date: "06/07/2026",
+    timestamp: "2026-07-06T07:00:00",
+    image: "../img/uniao-estavel-paralela-controversias-brasil.webp",
+    excerpt: "O reconhecimento jurídico de uniões estáveis paralelas divide tribunais entre monogamia e proteção patrimonial.",
+    link: "direito-de-familia/uniao-estavel-paralela-controversias-brasil.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Mediação Familiar Ganha Espaço na Justiça",
     date: "03/07/2026",
     timestamp: "2026-07-03T09:00:00",

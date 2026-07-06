@@ -3,6 +3,16 @@ window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
     {
+    title: "Testamento Vital, a Última Palavra",
+    date: "06/07/2026",
+    timestamp: "2026-07-06T07:00:00",
+    image: "../img/testamento-vital-autonomia-privada-brasil.webp",
+    excerpt: "O testamento vital ganha espaço no Brasil como expressão da autonomia privada, ainda sem lei específica que o discipline.",
+    link: "direito-civil/testamento-vital-autonomia-privada-brasil.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Lucros Cessantes Dependem de Prova Robusta",
     date: "03/07/2026",
     timestamp: "2026-07-03T07:00:00",

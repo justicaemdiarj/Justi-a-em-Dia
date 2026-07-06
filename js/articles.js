@@ -1,17 +1,39 @@
 const posts = [
+  {
+  title: "Home Office, Quem Paga a Conta",
+  description: "Custeio de equipamentos ainda gera disputas trabalhistas no Brasil.",
+  image: "img/teletrabalho-custeio-equipamentos-brasil.webp",
+  link: "direito-trabalhista/teletrabalho-custeio-equipamentos-brasil.html",
+  date: "2026-07-06T07:00:00",
+  section: "featured"
+},
 {
-  title: "Monitoramento Trabalhista Esbarra na Privacidade",
-  description: "LGPD e TST balizam limites da vigilância corporativa digital",
-  description2: "Empresas revisam políticas internas para evitar passivo trabalhista",
-  image: "img/monitoramento-trabalhista-esbarra-privacidade.webp",
-  link: "direito-trabalhista/monitoramento-trabalhista-esbarra-privacidade.html",
-  date: "2026-07-03T11:00:00",
+  title: "Due Diligence, o Exame Que Salva Negócios",
+  description: "Falhas na apuração prévia custam caro às empresas.",
+  image: "img/due-diligence-fusoes-aquisicoes-brasil.webp",
+  link: "compliance/due-diligence-fusoes-aquisicoes-brasil.html",
+  date: "2026-07-06T07:00:00",
+  section: "featured"
+},
+  {
+  title: "Denunciação Caluniosa Sob a Lupa",
+  description: "Acusar em falso também é crime grave no Brasil.",
+  image: "img/denunciacao-caluniosa-falsa-acusacao-brasil.webp",
+  link: "direito-penal/denunciacao-caluniosa-falsa-acusacao-brasil.html",
+  date: "2026-07-06T07:00:00",
+  section: "featured"
+},
+{
+  title: "Testamento Vital, a Última Palavra",
+  description: "Autonomia do paciente desafia velhas certezas médicas no Brasil.",
+  image: "img/testamento-vital-autonomia-privada-brasil.webp",
+  link: "direito-civil/testamento-vital-autonomia-privada-brasil.html",
+  date: "2026-07-06T07:00:00",
   section: "featured"
 },
   {
   title: "Crise Reputacional Exige Resposta Jurídica Imediata",
   description: "Compliance e comunicação se unem para conter danos de imagem",
-  description2: "Governança corporativa vira escudo contra escândalos empresariais",
   image: "img/crise-reputacional-resposta-juridica-imediata.webp",
   link: "compliance/crise-reputacional-resposta-juridica-imediata.html",
   date: "2026-07-03T09:00:00",
@@ -23,22 +45,23 @@ const posts = [
   image: "img/direito-desligar-trabalho-desconexao.webp",
   link: "direito-trabalhista/direito-desligar-trabalho-desconexao.html",
   date: "2026-07-02T11:00:00",
-  section: "featured"},
+  section: "veja"
+},
   {
  title: "Divórcio Não Rompe a Paternidade",
   description: "Guarda e convivência exigem planejamento cuidadoso dos pais",
   image: "img/divorcio-nao-rompe-paternidade-filhos-menores.webp",
   link: "direito-de-familia/divorcio-nao-rompe-paternidade-filhos-menores.html",
   date: "2026-07-02T08:00:00",
-  section: "featured-secundario"
+  section: "veja"
 },
 {
-  title: "Doar Com Condições Tem Limites",
-  description: "Cláusulas restritivas dividem opiniões no Judiciário brasileiro",
-  image: "img/doar-condicoes-limites-clausulas-restritivas.webp",
-  link: "direito-civil/doar-condicoes-limites-clausulas-restritivas.html",
-  date: "2026-07-02T07:00:00",
- section: "featured-terciario"
+  title: "União Estável Paralela em Debate",
+  description: "Justiça hesita entre monogamia e realidade social no Brasil.",
+  image: "img/uniao-estavel-paralela-controversias-brasil.webp",
+  link: "direito-de-familia/uniao-estavel-paralela-controversias-brasil.html",
+  date: "2026-07-06T07:00:00",
+ section: "veja"
 },
   {
  title: "As Duas Faces da Corrupção",
@@ -168,11 +191,6 @@ document.addEventListener("DOMContentLoaded", function(){
   date: "2026-07-03T09:00:00"
 },
 {
-  title: "Compliance Financeiro Sob Nova Vigilância",
-  link: "compliance/compliance-financeiro-nova-vigilancia-controles.html",
-  date: "2026-07-01T10:00:00"
-},
-{
   title: "Peculato Exige Rigor na Responsabilização",
   link: "direito-penal/peculato-rigor-responsabilizacao-publica.html",
   date: "2026-07-03T07:00:00"
@@ -186,6 +204,16 @@ document.addEventListener("DOMContentLoaded", function(){
   title: "Dignidade em Xeque no Emprego",
   link: "direito-trabalhista/dignidade-xeque-emprego-dano-moral-trabalhista.html",
   date: "2026-07-01T07:00:00"
+},
+{
+  title: "Due Diligence, o Exame Que Salva Negócios",
+  link: "compliance/due-diligence-fusoes-aquisicoes-brasil.html",
+  date: "2026-07-06T07:00:00"
+},
+{
+  title: "União Estável Paralela em Debate",
+  link: "direito-de-familia/uniao-estavel-paralela-controversias-brasil.html",
+  date: "2026-07-06T07:00:00"
 }
 
   ];
