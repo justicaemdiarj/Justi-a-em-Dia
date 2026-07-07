@@ -24,36 +24,20 @@ const posts = [
   section: "featured"
 },
 {
-  title: "Testamento Vital, a Última Palavra",
-  description: "Autonomia do paciente desafia velhas certezas médicas no Brasil.",
-  image: "img/testamento-vital-autonomia-privada-brasil.webp",
-  link: "direito-civil/testamento-vital-autonomia-privada-brasil.html",
-  date: "2026-07-06T07:00:00",
+  title: "Direito de Superfície Ganha Espaço",
+  description: "Instituto separa propriedade do solo e construção no Brasil.",
+  image: "img/direito-superficie-propriedade-brasil.webp",
+  link: "direito-civil/direito-superficie-propriedade-brasil.html",
+  date: "2026-07-07T09:00:00",
   section: "featured"
 },
   {
-  title: "Crise Reputacional Exige Resposta Jurídica Imediata",
-  description: "Compliance e comunicação se unem para conter danos de imagem",
-  image: "img/crise-reputacional-resposta-juridica-imediata.webp",
-  link: "compliance/crise-reputacional-resposta-juridica-imediata.html",
-  date: "2026-07-03T09:00:00",
+  title: "Compliance Contratual em Ascensão",
+  description: "Contratos viram instrumento de prevenção de riscos no Brasil.",
+  image: "img/compliance-contratual-integridade-empresas-brasil.webp",
+  link: "compliance/compliance-contratual-integridade-empresas-brasil.html",
+  date: "2026-07-07T07:00:00",
   section: "featured"
-},
-{ 
-  title: "O Direito de Desligar o Trabalho",
-  description: "Trabalho remoto reacende debate sobre descanso obrigatório",
-  image: "img/direito-desligar-trabalho-desconexao.webp",
-  link: "direito-trabalhista/direito-desligar-trabalho-desconexao.html",
-  date: "2026-07-02T11:00:00",
-  section: "veja"
-},
-  {
- title: "Divórcio Não Rompe a Paternidade",
-  description: "Guarda e convivência exigem planejamento cuidadoso dos pais",
-  image: "img/divorcio-nao-rompe-paternidade-filhos-menores.webp",
-  link: "direito-de-familia/divorcio-nao-rompe-paternidade-filhos-menores.html",
-  date: "2026-07-02T08:00:00",
-  section: "veja"
 },
 {
   title: "União Estável Paralela em Debate",
@@ -64,17 +48,17 @@ const posts = [
  section: "veja"
 },
   {
- title: "As Duas Faces da Corrupção",
-   image: "img/duas-faces-corrupcao-passiva-ativa.webp",
-  link: "direito-penal/duas-faces-corrupcao-passiva-ativa.html",
-  date: "2026-07-02T09:00:00",
+      title: "Anulação de Casamento, Quando o Vínculo Cai",
+  image: "img/anulacao-casamento-brasil.webp",
+  link: "direito-de-familia/anulacao-casamento-brasil.html",
+  date: "2026-07-07T09:00:00",
     section: "destaque"
   },
    {
-  title: "Compliance Vira Prioridade nas Startups",
-  image: "img/compliance-vira-prioridade-startups-brasileiras.webp",
-  link: "compliance/compliance-vira-prioridade-startups-brasileiras.html",
-  date: "2026-07-02T09:00:00",
+  title: "Falsa Comunicação de Crime na Mira",
+  image: "img/falsa-comunicacao-crime-brasil.webp",
+  link: "direito-penal/falsa-comunicacao-crime-brasil.html",
+  date: "2026-07-07T09:00:00",
    section: "destaque"
   },
   {
@@ -84,13 +68,6 @@ const posts = [
   date: "2026-07-03T07:00:00",
    section: "destaque"
   },
-  {
-title: "Mediação Familiar Ganha Espaço na Justiça",
-  image: "img/mediacao-familiar-espaco-justica-conciliacao.webp",
-  link: "direito-de-familia/mediacao-familiar-espaco-justica-conciliacao.html",
-  date: "2026-07-03T09:00:00",
- section: "veja"
-  },
    {
  title: "Peculato Exige Rigor na Responsabilização",
   image: "img/peculato-rigor-responsabilizacao-publica.webp",
@@ -99,10 +76,10 @@ title: "Mediação Familiar Ganha Espaço na Justiça",
    section: "veja"
   },
   {
- title: "O Relógio Invisível dos Seus Direitos",
-  image: "img/relogio-invisivel-direitos-prescricao-decadencia.webp",
-  link: "direito-civil/relogio-invisivel-direitos-prescricao-decadencia.html",
-  date: "2026-07-01T09:00:00",
+ title: "Terceirização na Atividade-Fim, o Novo Normal",
+  image: "img/terceirizacao-atividade-fim-brasil.webp",
+  link: "direito-trabalhista/terceirizacao-atividade-fim-brasil.html",
+  date: "2026-07-07T09:00:00",
   section: "veja"
   },
   
@@ -191,19 +168,9 @@ document.addEventListener("DOMContentLoaded", function(){
   date: "2026-07-03T09:00:00"
 },
 {
-  title: "Peculato Exige Rigor na Responsabilização",
-  link: "direito-penal/peculato-rigor-responsabilizacao-publica.html",
-  date: "2026-07-03T07:00:00"
-},
-{
-  title: "Compliance Vira Prioridade nas Startups",
-  link: "compliance/compliance-vira-prioridade-startups-brasileiras.html",
-  date: "2026-07-02T09:00:00"
-},
-{
-  title: "Dignidade em Xeque no Emprego",
-  link: "direito-trabalhista/dignidade-xeque-emprego-dano-moral-trabalhista.html",
-  date: "2026-07-01T07:00:00"
+  title: "Compliance Contratual em Ascensão",
+  link: "compliance/compliance-contratual-integridade-empresas-brasil.html",
+  date: "2026-07-07T07:00:00"
 },
 {
   title: "Due Diligence, o Exame Que Salva Negócios",

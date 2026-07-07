@@ -2,7 +2,16 @@
 window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
-
+{
+    title: "Compliance Contratual em Ascensão",
+    date: "07/07/2026",
+    timestamp: "2026-07-07T09:00:00",
+    image: "../img/compliance-contratual-integridade-empresas-brasil.webp",
+    excerpt: "Cláusulas anticorrupção e due diligence transformam contratos empresariais em ferramentas de prevenção de riscos.",
+    link: "compliance/compliance-contratual-integridade-empresas-brasil.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
     {
     title: "Due Diligence, o Exame Que Salva Negócios",
     date: "06/07/2026",

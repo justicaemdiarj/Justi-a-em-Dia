@@ -3,6 +3,16 @@ window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
     {
+    title: "Direito de Superfície Ganha Espaço",
+    date: "07/07/2026",
+    timestamp: "2026-07-07T07:00:00",
+    image: "../img/direito-superficie-propriedade-brasil.webp",
+    excerpt: "O direito de superfície ganha relevância no mercado imobiliário como alternativa flexível de exploração de imóveis.",
+    link: "direito-civil/direito-superficie-propriedade-brasil.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Testamento Vital, a Última Palavra",
     date: "06/07/2026",
     timestamp: "2026-07-06T07:00:00",

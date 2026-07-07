@@ -3,6 +3,16 @@ window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
     {
+    title: "Anulação de Casamento, Quando o Vínculo Cai",
+    date: "07/07/2026",
+    timestamp: "2026-07-07T09:00:00",
+    image: "../img/anulacao-casamento-brasil.webp",
+    excerpt: "Erro essencial sobre a pessoa do cônjuge e coação podem levar à anulação do casamento no Brasil.",
+    link: "direito-de-familia/anulacao-casamento-brasil.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "União Estável Paralela em Debate",
     date: "06/07/2026",
     timestamp: "2026-07-06T07:00:00",

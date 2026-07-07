@@ -3,6 +3,16 @@ window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
 
+{
+    title: "Falsa Comunicação de Crime na Mira",
+    date: "07/07/2026",
+    timestamp: "2026-07-07T09:00:00",
+    image: "../img/falsa-comunicacao-crime-brasil.webp",
+    excerpt: "O crime de falsa comunicação de crime ganha destaque diante do aumento de acionamentos indevidos à polícia.",
+    link: "direito-penal/falsa-comunicacao-crime-brasil.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
     {
     title: "Denunciação Caluniosa Sob a Lupa",
     date: "06/07/2026",

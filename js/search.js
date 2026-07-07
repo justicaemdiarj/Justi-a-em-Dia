@@ -1,6 +1,40 @@
 // Base de dados global de artigos para busca
 const allArticles = [
 
+    {
+    title: 'Direito de Superfície Ganha Espaço',
+    description: 'O direito de superfície ganha relevância no mercado imobiliário como alternativa flexível de exploração de imóveis.',
+    category: 'Direito Civil',
+    url: 'direito-civil/direito-superficie-propriedade-brasil.html',
+    tags: ['Direito de Superfície', 'Código Civil', 'Mercado Imobiliário']
+},
+{
+    title: 'Anulação de Casamento, Quando o Vínculo Cai',
+    description: 'Erro essencial sobre a pessoa do cônjuge e coação podem levar à anulação do casamento no Brasil.',
+    category: 'Direito de Família',
+    url: 'direito-de-familia/anulacao-casamento-brasil.html',
+    tags: ['Anulação de Casamento', 'Casamento Putativo', 'Vícios do Consentimento']
+},
+{
+    title: 'Falsa Comunicação de Crime na Mira',
+    description: 'O crime de falsa comunicação de crime ganha destaque diante do aumento de acionamentos indevidos à polícia.',
+    category: 'Direito Criminal',
+    url: 'direito-penal/falsa-comunicacao-crime-brasil.html',
+    tags: ['Falsa Comunicação de Crime', 'Código Penal', 'Segurança Pública']
+},
+{
+    title: 'Terceirização na Atividade-Fim, o Novo Normal',
+    description: 'A terceirização irrestrita da atividade-fim, autorizada pelo STF, reconfigura o mercado de trabalho brasileiro.',
+    category: 'Direito Trabalhista',
+    url: 'direito-trabalhista/terceirizacao-atividade-fim-brasil.html',
+    tags: ['Terceirização', 'Atividade-Fim', 'STF']
+},{
+    title: 'Compliance Contratual em Ascensão',
+    description: 'Cláusulas anticorrupção e due diligence transformam contratos empresariais em ferramentas de prevenção de riscos.',
+    category: 'Compliance',
+    url: 'compliance/compliance-contratual-integridade-empresas-brasil.html',
+    tags: ['Compliance Contratual', 'Cláusulas Anticorrupção', 'Due Diligence']
+},
 {
     title: 'Due Diligence, o Exame Que Salva Negócios',
     description: 'Falhas na due diligence de fusões e aquisições expõem empresas a passivos ocultos e riscos reputacionais.',
@@ -25,7 +59,7 @@ const allArticles = [
 {
     title: 'Denunciação Caluniosa Sob a Lupa',
     description: 'O crime de denunciação caluniosa ganha destaque diante do aumento de notícias-crime motivadas por interesses pessoais.',
-    category: 'Direito Penal',
+    category: 'Direito Criminal',
     url: 'direito-penal/denunciacao-caluniosa-falsa-acusacao-brasil.html',
     tags: ['Denunciação Caluniosa', 'Código Penal', 'Falsa Acusação']
 },

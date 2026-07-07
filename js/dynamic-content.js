@@ -92,6 +92,26 @@ const globalNewsData = [
     title: "Due Diligence, o Exame Que Salva Negócios",
     link: "compliance/due-diligence-fusoes-aquisicoes-brasil.html",
 },
+{
+    title: "Compliance Contratual em Ascensão",
+    link: "compliance/compliance-contratual-integridade-empresas-brasil.html",
+},
+{
+    title: "Direito de Superfície Ganha Espaço",
+    link: "direito-civil/direito-superficie-propriedade-brasil.html",
+},
+{
+    title: "Anulação de Casamento, Quando o Vínculo Cai",
+    link: "direito-de-familia/anulacao-casamento-brasil.html",
+},
+{
+    title: "Falsa Comunicação de Crime na Mira",
+    link: "direito-penal/falsa-comunicacao-crime-brasil.html",
+},
+{
+    title: "Terceirização na Atividade-Fim, o Novo Normal",
+    link: "direito-trabalhista/terceirizacao-atividade-fim-brasil.html",
+},
 
 ];
 

@@ -3,6 +3,16 @@ window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
     {
+    title: "Terceirização na Atividade-Fim, o Novo Normal",
+    date: "07/07/2026",
+    timestamp: "2026-07-07T09:00:00",
+    image: "../img/terceirizacao-atividade-fim-brasil.webp",
+    excerpt: "A terceirização irrestrita da atividade-fim, autorizada pelo STF, reconfigura o mercado de trabalho brasileiro.",
+    link: "direito-trabalhista/terceirizacao-atividade-fim-brasil.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Denunciação Caluniosa Sob a Lupa",
     date: "06/07/2026",
     timestamp: "2026-07-06T07:00:00",
