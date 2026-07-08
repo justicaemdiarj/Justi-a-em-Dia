@@ -2,6 +2,16 @@
 window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
+    {
+    title: "Governança Documental Reforça Compliance Corporativo",
+    date: "08/07/2026",
+    timestamp: "2026-07-08T07:00:00",
+    image: "../img/governanca-documental-compliance-corporativo.webp",
+    excerpt: "Novas diretrizes elevam padrão de gestão interna nas empresas brasileiras.",
+    link: "compliance/governanca-documental-compliance-corporativo.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 {
     title: "Compliance Contratual em Ascensão",
     date: "07/07/2026",

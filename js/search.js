@@ -1,6 +1,12 @@
 // Base de dados global de artigos para busca
 const allArticles = [
-
+{
+    title: 'Governança Documental Reforça Compliance Corporativo',
+    description: 'A governança documental se consolida como pilar estratégico do compliance corporativo no Brasil.',
+    category: 'Compliance',
+    url: 'compliance/governanca-documental-compliance-corporativo.html',
+    tags: ['Governança Documental', 'Compliance Corporativo', 'Lei Anticorrupção']
+},
     {
     title: 'Direito de Superfície Ganha Espaço',
     description: 'O direito de superfície ganha relevância no mercado imobiliário como alternativa flexível de exploração de imóveis.',

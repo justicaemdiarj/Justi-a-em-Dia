@@ -13,25 +13,6 @@ const tickerConfig = {
 
 const globalNewsData = [
 
-    
-
-
-{
-    title: "Compliance Financeiro Sob Nova Vigilância",
-    link: "compliance/compliance-financeiro-nova-vigilancia-controles.html",
-},
-{
-    title: "Poder Público Sob Escrutínio Penal",
-    link: "direito-penal/poder-publico-escrutinio-penal-crimes-funcionais.html",
-},
-{
-    title: "Capacidade Civil e o Altar",
-    link: "direito-de-familia/capacidade-civil-altar-casamento-requisitos.html",
-},
-{
-    title: "Dignidade em Xeque no Emprego",
-    link: "direito-trabalhista/dignidade-xeque-emprego-dano-moral-trabalhista.html",
-},
 {
     title: "Compliance Vira Prioridade nas Startups",
     link: "compliance/compliance-vira-prioridade-startups-brasileiras.html",
@@ -112,7 +93,10 @@ const globalNewsData = [
     title: "Terceirização na Atividade-Fim, o Novo Normal",
     link: "direito-trabalhista/terceirizacao-atividade-fim-brasil.html",
 },
-
+{
+    title: "Governança Documental Reforça Compliance Corporativo",
+    link: "compliance/governanca-documental-compliance-corporativo.html",
+},
 ];
 
 // Array para armazenar todas as notícias coletadas dos arquivos de paginação

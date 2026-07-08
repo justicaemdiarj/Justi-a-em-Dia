@@ -1,5 +1,13 @@
 const posts = [
   {
+    title: "Governança Documental Reforça Compliance Corporativo",
+    description: "Novas diretrizes elevam padrão de gestão interna nas empresas.",
+    image: "img/governanca-documental-compliance-corporativo.webp",
+    link: "compliance/governanca-documental-compliance-corporativo.html",
+    date: "2026-07-08T07:00:00",
+    section: "featured"
+},
+  {
   title: "Home Office, Quem Paga a Conta",
   description: "Custeio de equipamentos ainda gera disputas trabalhistas no Brasil.",
   image: "img/teletrabalho-custeio-equipamentos-brasil.webp",
