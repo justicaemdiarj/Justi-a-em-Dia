@@ -1,5 +1,12 @@
 // Base de dados global de artigos para busca
 const allArticles = [
+    {
+    title: 'Crimes Contra Administração Pública Ganham Rigor',
+    description: 'O combate aos crimes contra a administração pública ganha novo fôlego no Brasil.',
+    category: 'Direito Criminal',
+    url: 'direito-penal/crimes-administracao-publica-rigor-penal.html',
+    tags: ['Crimes Contra Administração Pública', 'Improbidade Administrativa', 'Direito Penal']
+},
 {
     title: 'Governança Documental Reforça Compliance Corporativo',
     description: 'A governança documental se consolida como pilar estratégico do compliance corporativo no Brasil.',

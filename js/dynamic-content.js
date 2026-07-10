@@ -14,18 +14,6 @@ const tickerConfig = {
 const globalNewsData = [
 
 {
-    title: "Compliance Vira Prioridade nas Startups",
-    link: "compliance/compliance-vira-prioridade-startups-brasileiras.html",
-},
-{
-    title: "As Duas Faces da Corrupção",
-    link: "direito-penal/duas-faces-corrupcao-passiva-ativa.html",
-},
-{
-    title: "Doar Com Condições Tem Limites",
-    link: "direito-civil/doar-condicoes-limites-clausulas-restritivas.html",
-},
-{
     title: "Divórcio Não Rompe a Paternidade",
     link: "direito-de-familia/divorcio-nao-rompe-paternidade-filhos-menores.html",
 },
@@ -96,6 +84,10 @@ const globalNewsData = [
 {
     title: "Governança Documental Reforça Compliance Corporativo",
     link: "compliance/governanca-documental-compliance-corporativo.html",
+},
+{
+    title: "Crimes Contra Administração Pública Ganham Rigor",
+    link: "direito-penal/crimes-administracao-publica-rigor-penal.html",
 },
 ];
 

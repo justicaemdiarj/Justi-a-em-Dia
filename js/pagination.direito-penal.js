@@ -3,6 +3,16 @@ window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
 
+    {
+    title: "Crimes Contra Administração Pública Ganham Rigor",
+    date: "10/07/2026",
+    timestamp: "2026-07-10T09:00:00",
+    image: "../img/crimes-administracao-publica-rigor-penal.webp",
+    excerpt: "Punições mais duras miram agentes públicos desonestos.",
+    link: "direito-penal/crimes-administracao-publica-rigor-penal.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
 {
     title: "Falsa Comunicação de Crime na Mira",
     date: "07/07/2026",

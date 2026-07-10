@@ -1,5 +1,14 @@
 const posts = [
   {
+    title: "Crimes Contra Administração Pública Ganham Rigor",
+    description: "Punições mais duras miram agentes públicos desonestos.",
+    description2: "Debate sobre improbidade e responsabilização penal ganha força no país.",
+    image: "img/crimes-administracao-publica-rigor-penal.webp",
+    link: "direito-penal/crimes-administracao-publica-rigor-penal.html",
+    date: "2026-07-10T09:00:00",
+    section: "featured"
+},
+  {
     title: "Governança Documental Reforça Compliance Corporativo",
     description: "Novas diretrizes elevam padrão de gestão interna nas empresas.",
     image: "img/governanca-documental-compliance-corporativo.webp",
@@ -29,7 +38,7 @@ const posts = [
   image: "img/denunciacao-caluniosa-falsa-acusacao-brasil.webp",
   link: "direito-penal/denunciacao-caluniosa-falsa-acusacao-brasil.html",
   date: "2026-07-06T07:00:00",
-  section: "featured"
+  section: "veja"
 },
 {
   title: "Direito de Superfície Ganha Espaço",
@@ -37,7 +46,7 @@ const posts = [
   image: "img/direito-superficie-propriedade-brasil.webp",
   link: "direito-civil/direito-superficie-propriedade-brasil.html",
   date: "2026-07-07T09:00:00",
-  section: "featured"
+  section: "veja"
 },
   {
   title: "Compliance Contratual em Ascensão",
@@ -45,7 +54,7 @@ const posts = [
   image: "img/compliance-contratual-integridade-empresas-brasil.webp",
   link: "compliance/compliance-contratual-integridade-empresas-brasil.html",
   date: "2026-07-07T07:00:00",
-  section: "featured"
+  section: "veja"
 },
 {
   title: "União Estável Paralela em Debate",
@@ -171,9 +180,9 @@ document.addEventListener("DOMContentLoaded", function(){
   const sidebarPosts = [
   
 {
-  title: "Crise Reputacional Exige Resposta Jurídica Imediata",
-  link: "compliance/crise-reputacional-resposta-juridica-imediata.html",
-  date: "2026-07-03T09:00:00"
+    title: "Crimes Contra Administração Pública Ganham Rigor",
+    link: "direito-penal/crimes-administracao-publica-rigor-penal.html",
+    date: "2026-07-10T09:00:00"
 },
 {
   title: "Compliance Contratual em Ascensão",
