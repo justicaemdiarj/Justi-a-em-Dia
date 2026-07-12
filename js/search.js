@@ -1,6 +1,13 @@
 // Base de dados global de artigos para busca
 const allArticles = [
     {
+    title: 'Casamento sob Regime Blindado de Bens',
+    description: 'O regime de separação obrigatória de bens impõe restrições patrimoniais a determinados casais brasileiros e reacende o debate sobre autonomia privada e proteção do idoso.',
+    category: 'Direito de Família',
+    url: 'direito-de-familia/casamento-separacao-obrigatoria-bens-brasil.html',
+    tags: ['Separação Obrigatória de Bens', 'Romer Carvalho',' Direito de Família ', 'Casamento sob Regime Blindado de Bens']
+},
+    {
     title: 'Crimes Contra Administração Pública Ganham Rigor',
     description: 'O combate aos crimes contra a administração pública ganha novo fôlego no Brasil.',
     category: 'Direito Criminal',

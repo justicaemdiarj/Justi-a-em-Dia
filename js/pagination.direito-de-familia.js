@@ -3,6 +3,16 @@ window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
     {
+    title: "Casamento sob Regime Blindado de Bens",
+    date: "13/07/2026",
+    timestamp: "2026-07-13T07:00:00",
+    image: "../img/casamento-separacao-obrigatoria-bens-brasil.webp",
+    excerpt: "O regime de separação obrigatória de bens impõe restrições patrimoniais a determinados casais e reacende o debate sobre autonomia e proteção do idoso.",
+    link: "../direito-de-familia/casamento-separacao-obrigatoria-bens-brasil.html",
+        author: "Romer Carvalho",
+    authorLink: "../apoiadores/advogado-romer-carvalho.html"
+},
+    {
     title: "Anulação de Casamento, Quando o Vínculo Cai",
     date: "07/07/2026",
     timestamp: "2026-07-07T09:00:00",

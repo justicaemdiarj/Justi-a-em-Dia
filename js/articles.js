@@ -1,8 +1,15 @@
 const posts = [
   {
+  title: "Casamento sob Regime Blindado de Bens",
+  description: "Regra impede confusão patrimonial em casamentos tardios",
+  image: "img/casamento-separacao-obrigatoria-bens-brasil.webp",
+  link: "direito-de-familia/casamento-separacao-obrigatoria-bens-brasil.html",
+  date: "2026-07-13T07:00:00",
+  section: "featured"
+},
+  {
     title: "Crimes Contra Administração Pública Ganham Rigor",
     description: "Punições mais duras miram agentes públicos desonestos.",
-    description2: "Debate sobre improbidade e responsabilização penal ganha força no país.",
     image: "img/crimes-administracao-publica-rigor-penal.webp",
     link: "direito-penal/crimes-administracao-publica-rigor-penal.html",
     date: "2026-07-10T09:00:00",
@@ -21,14 +28,6 @@ const posts = [
   description: "Custeio de equipamentos ainda gera disputas trabalhistas no Brasil.",
   image: "img/teletrabalho-custeio-equipamentos-brasil.webp",
   link: "direito-trabalhista/teletrabalho-custeio-equipamentos-brasil.html",
-  date: "2026-07-06T07:00:00",
-  section: "featured"
-},
-{
-  title: "Due Diligence, o Exame Que Salva Negócios",
-  description: "Falhas na apuração prévia custam caro às empresas.",
-  image: "img/due-diligence-fusoes-aquisicoes-brasil.webp",
-  link: "compliance/due-diligence-fusoes-aquisicoes-brasil.html",
   date: "2026-07-06T07:00:00",
   section: "featured"
 },
@@ -56,19 +55,11 @@ const posts = [
   date: "2026-07-07T07:00:00",
   section: "veja"
 },
-{
-  title: "União Estável Paralela em Debate",
-  description: "Justiça hesita entre monogamia e realidade social no Brasil.",
-  image: "img/uniao-estavel-paralela-controversias-brasil.webp",
-  link: "direito-de-familia/uniao-estavel-paralela-controversias-brasil.html",
-  date: "2026-07-06T07:00:00",
- section: "veja"
-},
   {
-      title: "Anulação de Casamento, Quando o Vínculo Cai",
-  image: "img/anulacao-casamento-brasil.webp",
-  link: "direito-de-familia/anulacao-casamento-brasil.html",
-  date: "2026-07-07T09:00:00",
+  title: "Due Diligence, o Exame Que Salva Negócios",
+  image: "img/due-diligence-fusoes-aquisicoes-brasil.webp",
+  link: "compliance/due-diligence-fusoes-aquisicoes-brasil.html",
+  date: "2026-07-06T07:00:00",
     section: "destaque"
   },
    {
@@ -79,25 +70,11 @@ const posts = [
    section: "destaque"
   },
   {
-    title: "Lucros Cessantes Dependem de Prova Robusta",
- image: "img/lucros-cessantes-prova-robusta-prejuizo.webp",
-  link: "direito-civil/lucros-cessantes-prova-robusta-prejuizo.html",
-  date: "2026-07-03T07:00:00",
-   section: "destaque"
-  },
-   {
- title: "Peculato Exige Rigor na Responsabilização",
-  image: "img/peculato-rigor-responsabilizacao-publica.webp",
-  link: "direito-penal/peculato-rigor-responsabilizacao-publica.html",
-  date: "2026-07-03T07:00:00",
-   section: "veja"
-  },
-  {
  title: "Terceirização na Atividade-Fim, o Novo Normal",
   image: "img/terceirizacao-atividade-fim-brasil.webp",
   link: "direito-trabalhista/terceirizacao-atividade-fim-brasil.html",
   date: "2026-07-07T09:00:00",
-  section: "veja"
+section: "destaque"
   },
   
 ];

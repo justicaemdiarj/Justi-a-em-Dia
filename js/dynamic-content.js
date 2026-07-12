@@ -89,6 +89,11 @@ const globalNewsData = [
     title: "Crimes Contra Administração Pública Ganham Rigor",
     link: "direito-penal/crimes-administracao-publica-rigor-penal.html",
 },
+{
+    title: "Casamento sob Regime Blindado de Bens",
+    link: "direito-de-familia/casamento-separacao-obrigatoria-bens-brasil.html",
+},
+
 ];
 
 // Array para armazenar todas as notícias coletadas dos arquivos de paginação
