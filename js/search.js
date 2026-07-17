@@ -1,6 +1,13 @@
 // Base de dados global de artigos para busca
 const allArticles = [
     {
+    title: 'Atraso na Entrega de Imóveis Residenciais',
+    description: 'Consumidores lesados pela demora na entrega de unidades habitacionais recorrem à Justiça para obter reparação e correção dos prejuízos sofridos.',
+    category: 'Direito Civil',
+    url: 'direito-civil/atraso-entrega-imoveis-residenciais-indenizacao.html',
+    tags: ['Atraso na Entrega de Imóvel', ' Indenização ', 'Atraso na Entrega de Imóveis Residenciais']
+},
+    {
     title: 'Casamento sob Regime Blindado de Bens',
     description: 'O regime de separação obrigatória de bens impõe restrições patrimoniais a determinados casais brasileiros e reacende o debate sobre autonomia privada e proteção do idoso.',
     category: 'Direito de Família',

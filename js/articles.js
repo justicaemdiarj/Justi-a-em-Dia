@@ -1,5 +1,13 @@
 const posts = [
   {
+    title: "Atraso na Entrega de Imóveis Residenciais",
+    description: "Compradores recorrem à Justiça diante da demora na entrega de unidades habitacionais",
+    image: "img/atraso-entrega-imoveis-residenciais-indenizacao.webp",
+    link: "direito-civil/atraso-entrega-imoveis-residenciais-indenizacao.html",
+    date: "2026-07-17T09:00:00",
+    section: "featured"
+},
+  {
   title: "Casamento sob Regime Blindado de Bens",
   description: "Regra impede confusão patrimonial em casamentos tardios",
   image: "img/casamento-separacao-obrigatoria-bens-brasil.webp",
@@ -69,13 +77,7 @@ const posts = [
   date: "2026-07-07T09:00:00",
    section: "destaque"
   },
-  {
- title: "Terceirização na Atividade-Fim, o Novo Normal",
-  image: "img/terceirizacao-atividade-fim-brasil.webp",
-  link: "direito-trabalhista/terceirizacao-atividade-fim-brasil.html",
-  date: "2026-07-07T09:00:00",
-section: "destaque"
-  },
+
   
 ];
 
@@ -166,10 +168,11 @@ document.addEventListener("DOMContentLoaded", function(){
   link: "compliance/compliance-contratual-integridade-empresas-brasil.html",
   date: "2026-07-07T07:00:00"
 },
+
 {
-  title: "Due Diligence, o Exame Que Salva Negócios",
-  link: "compliance/due-diligence-fusoes-aquisicoes-brasil.html",
-  date: "2026-07-06T07:00:00"
+    title: "Atraso na Entrega de Imóveis Residenciais",
+    link: "direito-civil/atraso-entrega-imoveis-residenciais-indenizacao.html",
+    date: "2026-07-18T07:00:00"
 },
 {
   title: "União Estável Paralela em Debate",

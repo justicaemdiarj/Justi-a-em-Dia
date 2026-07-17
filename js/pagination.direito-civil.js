@@ -2,6 +2,17 @@
 window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
+    
+    {
+    title: "Atraso na Entrega de Imóveis Residenciais",
+    date: "17/07/2026",
+    timestamp: "2026-07-17T09:00:00",
+    image: "../img/atraso-entrega-imoveis-residenciais-indenizacao.webp",
+    excerpt: "Consumidores lesados pela demora na entrega de unidades habitacionais recorrem à Justiça para obter reparação e correção dos prejuízos sofridos.",
+    link: "../direito-civil/atraso-entrega-imoveis-residenciais-indenizacao.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
     {
     title: "Direito de Superfície Ganha Espaço",
     date: "07/07/2026",

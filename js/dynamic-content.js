@@ -93,7 +93,10 @@ const globalNewsData = [
     title: "Casamento sob Regime Blindado de Bens",
     link: "direito-de-familia/casamento-separacao-obrigatoria-bens-brasil.html",
 },
-
+{
+    title: "Atraso na Entrega de Imóveis Residenciais",
+    link: "direito-civil/atraso-entrega-imoveis-residenciais-indenizacao.html",
+},
 ];
 
 // Array para armazenar todas as notícias coletadas dos arquivos de paginação
