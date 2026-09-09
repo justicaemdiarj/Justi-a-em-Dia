@@ -97,6 +97,14 @@ const globalNewsData = [
     title: "Atraso na Entrega de Imóveis Residenciais",
     link: "direito-civil/atraso-entrega-imoveis-residenciais-indenizacao.html",
 },
+{
+    title: "Doações entre Cônjuges sob Escrutínio",
+    link: "direito-de-familia/doacoes-conjuges-escrutinio.html",
+},
+{
+    title: "Condomínios na Mira das Indenizações Civis",
+    link: "direito-civil/condominios-mira-indenizacoes-civis.html",
+},
 ];
 
 // Array para armazenar todas as notícias coletadas dos arquivos de paginação

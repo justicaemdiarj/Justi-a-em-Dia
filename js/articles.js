@@ -1,19 +1,19 @@
 const posts = [
-  {
-    title: "Atraso na Entrega de Imóveis Residenciais",
-    description: "Compradores recorrem à Justiça diante da demora na entrega de unidades habitacionais",
-    image: "img/atraso-entrega-imoveis-residenciais-indenizacao.webp",
-    link: "direito-civil/atraso-entrega-imoveis-residenciais-indenizacao.html",
-    date: "2026-07-17T09:00:00",
+{
+    title: "Doações entre Cônjuges sob Escrutínio",
+    description: "Doações formalizadas sem cuidado jurídico podem gerar litígios familiares",
+    image: "img/doacoes-conjuges-escrutinio.webp",
+    link: "direito-de-familia/doacoes-conjuges-escrutinio.html",
+    date: "2026-09-09T07:00:00",
     section: "featured"
 },
-  {
-  title: "Casamento sob Regime Blindado de Bens",
-  description: "Regra impede confusão patrimonial em casamentos tardios",
-  image: "img/casamento-separacao-obrigatoria-bens-brasil.webp",
-  link: "direito-de-familia/casamento-separacao-obrigatoria-bens-brasil.html",
-  date: "2026-07-13T07:00:00",
-  section: "featured"
+{
+    title: "Condomínios na Mira das Indenizações Civis",
+    description: "Falhas de manutenção em áreas comuns elevam ações judiciais contra condomínios",
+    image: "img/condominios-mira-indenizacoes-civis.webp",
+    link: "direito-civil/condominios-mira-indenizacoes-civis.html",
+    date: "2026-09-09T07:00:00",
+    section: "featured"
 },
   {
     title: "Crimes Contra Administração Pública Ganham Rigor",
@@ -159,16 +159,15 @@ document.addEventListener("DOMContentLoaded", function(){
   const sidebarPosts = [
   
 {
-    title: "Crimes Contra Administração Pública Ganham Rigor",
-    link: "direito-penal/crimes-administracao-publica-rigor-penal.html",
-    date: "2026-07-10T09:00:00"
+    title: "Condomínios na Mira das Indenizações Civis",
+    link: "direito-civil/condominios-mira-indenizacoes-civis.html",
+    date: "2026-09-09T07:00:00"
 },
 {
-  title: "Compliance Contratual em Ascensão",
-  link: "compliance/compliance-contratual-integridade-empresas-brasil.html",
-  date: "2026-07-07T07:00:00"
+    title: "Doações entre Cônjuges sob Escrutínio",
+    link: "direito-de-familia/doacoes-conjuges-escrutinio.html",
+    date: "2026-09-09T07:00:00"
 },
-
 {
     title: "Atraso na Entrega de Imóveis Residenciais",
     link: "direito-civil/atraso-entrega-imoveis-residenciais-indenizacao.html",

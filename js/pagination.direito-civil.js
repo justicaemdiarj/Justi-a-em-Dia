@@ -2,7 +2,16 @@
 window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
-    
+    {
+    title: "Condomínios na Mira das Indenizações Civis",
+    date: "09/09/2026",
+    timestamp: "2026-09-09T07:00:00",
+    image: "../img/condominios-mira-indenizacoes-civis.webp",
+    excerpt: "Falhas de manutenção e omissões na gestão predial elevam as ações de responsabilidade civil contra condomínios em todo o país.",
+    link: "../direito-civil/condominios-mira-indenizacoes-civis.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
     {
     title: "Atraso na Entrega de Imóveis Residenciais",
     date: "17/07/2026",

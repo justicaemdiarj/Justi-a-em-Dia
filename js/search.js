@@ -1,6 +1,20 @@
 // Base de dados global de artigos para busca
 const allArticles = [
     {
+    title: 'Condomínios na Mira das Indenizações Civis',
+    description: 'A responsabilidade civil em condomínios ganhou nova relevância diante do aumento expressivo de ações judiciais por acidentes e falhas de manutenção nas áreas comuns.',
+    category: 'Direito Civil',
+    url: 'direito-civil/condominios-mira-indenizacoes-civis.html',
+    tags: ['Responsabilidade Civil', 'Condomínio', 'Síndico']
+}
+    ,{
+    title: 'Doações entre Cônjuges sob Escrutínio',
+    description: 'A doação entre cônjuges voltou ao centro do debate jurídico diante do aumento de disputas envolvendo regime de bens, credores e herdeiros.',
+    category: 'Direito de Família',
+    url: 'direito-de-familia/doacoes-conjuges-escrutinio.html',
+    tags: ['Doação entre Cônjuges', 'Romer Carvalho', 'Direito de Família', 'Regime de Bens']
+},
+    {
     title: 'Atraso na Entrega de Imóveis Residenciais',
     description: 'Consumidores lesados pela demora na entrega de unidades habitacionais recorrem à Justiça para obter reparação e correção dos prejuízos sofridos.',
     category: 'Direito Civil',

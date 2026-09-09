@@ -3,6 +3,16 @@ window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
     {
+    title: "Doações entre Cônjuges sob Escrutínio",
+    date: "09/09/2026",
+    timestamp: "2026-09-09T07:00:00",
+    image: "../img/doacoes-conjuges-escrutinio.webp",
+    excerpt: "Regime de bens, credores e herdeiros redesenham os limites da doação entre cônjuges no direito de família brasileiro.",
+    link: "../direito-de-familia/doacoes-conjuges-escrutinio.html",
+        author: "Romer Carvalho",
+    authorLink: "../apoiadores/advogado-romer-carvalho.html"
+},
+    {
     title: "Casamento sob Regime Blindado de Bens",
     date: "13/07/2026",
     timestamp: "2026-07-13T07:00:00",
