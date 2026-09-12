@@ -14,30 +14,6 @@ const tickerConfig = {
 const globalNewsData = [
 
 {
-    title: "Divórcio Não Rompe a Paternidade",
-    link: "direito-de-familia/divorcio-nao-rompe-paternidade-filhos-menores.html",
-},
-{
-    title: "O Direito de Desligar o Trabalho",
-    link: "direito-trabalhista/direito-desligar-trabalho-desconexao.html",
-},
-{
-    title: "Crise Reputacional Exige Resposta Jurídica Imediata",
-    link: "compliance/crise-reputacional-resposta-juridica-imediata.html",
-},
-{
-    title: "Monitoramento Trabalhista Esbarra na Privacidade",
-    link: "direito-trabalhista/monitoramento-trabalhista-esbarra-privacidade.html",
-},
-{
-    title: "Mediação Familiar Ganha Espaço na Justiça",
-    link: "direito-de-familia/mediacao-familiar-espaco-justica-conciliacao.html",
-},
-{
-    title: "Lucros Cessantes Dependem de Prova Robusta",
-    link: "direito-civil/lucros-cessantes-prova-robusta-prejuizo.html",
-},
-{
     title: "Peculato Exige Rigor na Responsabilização",
     link: "direito-penal/peculato-rigor-responsabilizacao-publica.html",
 },
@@ -104,6 +80,10 @@ const globalNewsData = [
 {
     title: "Condomínios na Mira das Indenizações Civis",
     link: "direito-civil/condominios-mira-indenizacoes-civis.html",
+},
+{
+    title: "Brindes e Hospitalidades sob Controle",
+    link: "compliance/brindes-hospitalidades-sob-controle.html",
 },
 ];
 

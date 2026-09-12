@@ -15,29 +15,13 @@ const posts = [
     date: "2026-09-09T07:00:00",
     section: "featured"
 },
-  {
-    title: "Crimes Contra Administração Pública Ganham Rigor",
-    description: "Punições mais duras miram agentes públicos desonestos.",
-    image: "img/crimes-administracao-publica-rigor-penal.webp",
-    link: "direito-penal/crimes-administracao-publica-rigor-penal.html",
-    date: "2026-07-10T09:00:00",
+{
+    title: "Brindes e Hospitalidades sob Controle",
+    description: "Empresas reforçam políticas internas para evitar vantagens indevidas disfarçadas",
+    image: "img/brindes-hospitalidades-sob-controle.webp",
+    link: "compliance/brindes-hospitalidades-sob-controle.html",
+    date: "2026-09-12T07:00:00",
     section: "featured"
-},
-  {
-    title: "Governança Documental Reforça Compliance Corporativo",
-    description: "Novas diretrizes elevam padrão de gestão interna nas empresas.",
-    image: "img/governanca-documental-compliance-corporativo.webp",
-    link: "compliance/governanca-documental-compliance-corporativo.html",
-    date: "2026-07-08T07:00:00",
-    section: "featured"
-},
-  {
-  title: "Home Office, Quem Paga a Conta",
-  description: "Custeio de equipamentos ainda gera disputas trabalhistas no Brasil.",
-  image: "img/teletrabalho-custeio-equipamentos-brasil.webp",
-  link: "direito-trabalhista/teletrabalho-custeio-equipamentos-brasil.html",
-  date: "2026-07-06T07:00:00",
-  section: "featured"
 },
   {
   title: "Denunciação Caluniosa Sob a Lupa",
@@ -174,9 +158,9 @@ document.addEventListener("DOMContentLoaded", function(){
     date: "2026-07-18T07:00:00"
 },
 {
-  title: "União Estável Paralela em Debate",
-  link: "direito-de-familia/uniao-estavel-paralela-controversias-brasil.html",
-  date: "2026-07-06T07:00:00"
+    title: "Brindes e Hospitalidades sob Controle",
+    link: "compliance/brindes-hospitalidades-sob-controle.html",
+    date: "2026-09-12T07:00:00"
 }
 
   ];

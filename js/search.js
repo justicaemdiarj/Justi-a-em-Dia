@@ -1,6 +1,13 @@
 // Base de dados global de artigos para busca
 const allArticles = [
     {
+    title: 'Brindes e Hospitalidades sob Controle',
+    description: 'O controle de brindes e hospitalidades se consolida como exigência central nos programas de compliance corporativo, diante do avanço da fiscalização anticorrupção no Brasil.',
+    category: 'Compliance',
+    url: 'compliance/brindes-hospitalidades-sob-controle.html',
+    tags: ['Brindes e Hospitalidades', 'Compliance', 'Lei Anticorrupção']
+},
+    {
     title: 'Condomínios na Mira das Indenizações Civis',
     description: 'A responsabilidade civil em condomínios ganhou nova relevância diante do aumento expressivo de ações judiciais por acidentes e falhas de manutenção nas áreas comuns.',
     category: 'Direito Civil',

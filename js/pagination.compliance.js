@@ -3,6 +3,16 @@ window.categoryNewsData = window.categoryNewsData || [];
 
 window.categoryNewsData.push(
     {
+    title: "Brindes e Hospitalidades sob Controle",
+    date: "12/09/2026",
+    timestamp: "2026-09-12T07:00:00",
+    image: "../img/brindes-hospitalidades-sob-controle.webp",
+    excerpt: "Empresas reforçam políticas de compliance para controlar brindes e hospitalidades diante da fiscalização anticorrupção.",
+    link: "../compliance/brindes-hospitalidades-sob-controle.html",
+    author: "Justiça em Dia",
+    authorLink: "#"
+},
+    {
     title: "Governança Documental Reforça Compliance Corporativo",
     date: "08/07/2026",
     timestamp: "2026-07-08T07:00:00",
